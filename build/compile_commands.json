@@ -1,0 +1,27 @@
+[
+{
+  "directory": "E:/code/wasm/game/Arkanoid/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/Arkanoid.dir/includes_CXX.rsp -g -o CMakeFiles\\Arkanoid.dir\\main.cpp.obj -c E:\\code\\wasm\\game\\Arkanoid\\main.cpp",
+  "file": "E:/code/wasm/game/Arkanoid/main.cpp"
+},
+{
+  "directory": "E:/code/wasm/game/Arkanoid/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/Arkanoid.dir/includes_CXX.rsp -g -o CMakeFiles\\Arkanoid.dir\\src\\Arkanoid.cpp.obj -c E:\\code\\wasm\\game\\Arkanoid\\src\\Arkanoid.cpp",
+  "file": "E:/code/wasm/game/Arkanoid/src/Arkanoid.cpp"
+},
+{
+  "directory": "E:/code/wasm/game/Arkanoid/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/Arkanoid.dir/includes_CXX.rsp -g -o CMakeFiles\\Arkanoid.dir\\src\\GameBase.cpp.obj -c E:\\code\\wasm\\game\\Arkanoid\\src\\GameBase.cpp",
+  "file": "E:/code/wasm/game/Arkanoid/src/GameBase.cpp"
+},
+{
+  "directory": "E:/code/wasm/game/Arkanoid/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/Arkanoid.dir/includes_CXX.rsp -g -o CMakeFiles\\Arkanoid.dir\\src\\Graphics.cpp.obj -c E:\\code\\wasm\\game\\Arkanoid\\src\\Graphics.cpp",
+  "file": "E:/code/wasm/game/Arkanoid/src/Graphics.cpp"
+},
+{
+  "directory": "E:/code/wasm/game/Arkanoid/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE  @CMakeFiles/Arkanoid.dir/includes_CXX.rsp -g -o CMakeFiles\\Arkanoid.dir\\src\\Vector.cpp.obj -c E:\\code\\wasm\\game\\Arkanoid\\src\\Vector.cpp",
+  "file": "E:/code/wasm/game/Arkanoid/src/Vector.cpp"
+}
+]
