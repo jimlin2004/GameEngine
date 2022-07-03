@@ -570,6 +570,30 @@ src/Arkanoid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arkanoid.dir\build.make CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.s
 .PHONY : src/Arkanoid.cpp.s
 
+src/CollisionSystem.obj: src/CollisionSystem.cpp.obj
+.PHONY : src/CollisionSystem.obj
+
+# target to build an object file
+src/CollisionSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arkanoid.dir\build.make CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj
+.PHONY : src/CollisionSystem.cpp.obj
+
+src/CollisionSystem.i: src/CollisionSystem.cpp.i
+.PHONY : src/CollisionSystem.i
+
+# target to preprocess a source file
+src/CollisionSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arkanoid.dir\build.make CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.i
+.PHONY : src/CollisionSystem.cpp.i
+
+src/CollisionSystem.s: src/CollisionSystem.cpp.s
+.PHONY : src/CollisionSystem.s
+
+# target to generate assembly for a file
+src/CollisionSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arkanoid.dir\build.make CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.s
+.PHONY : src/CollisionSystem.cpp.s
+
 src/GameBase.obj: src/GameBase.cpp.obj
 .PHONY : src/GameBase.obj
 
@@ -688,6 +712,9 @@ help:
 	@echo ... src/Arkanoid.obj
 	@echo ... src/Arkanoid.i
 	@echo ... src/Arkanoid.s
+	@echo ... src/CollisionSystem.obj
+	@echo ... src/CollisionSystem.i
+	@echo ... src/CollisionSystem.s
 	@echo ... src/GameBase.obj
 	@echo ... src/GameBase.i
 	@echo ... src/GameBase.s

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Arkanoid.dir/main.cpp.obj.d"
   "CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.obj"
   "CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.obj.d"
+  "CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj"
+  "CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj.d"
   "CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj"
   "CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj.d"
   "CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj"

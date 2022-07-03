@@ -98,11 +98,26 @@ CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\code\wasm\game\Arkanoid\src\Arkanoid.cpp -o CMakeFiles\Arkanoid.dir\src\Arkanoid.cpp.s
 
+CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj: CMakeFiles/Arkanoid.dir/flags.make
+CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj: CMakeFiles/Arkanoid.dir/includes_CXX.rsp
+CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj: ../src/CollisionSystem.cpp
+CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj: CMakeFiles/Arkanoid.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj -MF CMakeFiles\Arkanoid.dir\src\CollisionSystem.cpp.obj.d -o CMakeFiles\Arkanoid.dir\src\CollisionSystem.cpp.obj -c E:\code\wasm\game\Arkanoid\src\CollisionSystem.cpp
+
+CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\code\wasm\game\Arkanoid\src\CollisionSystem.cpp > CMakeFiles\Arkanoid.dir\src\CollisionSystem.cpp.i
+
+CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\code\wasm\game\Arkanoid\src\CollisionSystem.cpp -o CMakeFiles\Arkanoid.dir\src\CollisionSystem.cpp.s
+
 CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj: CMakeFiles/Arkanoid.dir/flags.make
 CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj: CMakeFiles/Arkanoid.dir/includes_CXX.rsp
 CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj: ../src/GameBase.cpp
 CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj: CMakeFiles/Arkanoid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj -MF CMakeFiles\Arkanoid.dir\src\GameBase.cpp.obj.d -o CMakeFiles\Arkanoid.dir\src\GameBase.cpp.obj -c E:\code\wasm\game\Arkanoid\src\GameBase.cpp
 
 CMakeFiles/Arkanoid.dir/src/GameBase.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj: CMakeFiles/Arkanoid.dir/flags.make
 CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj: CMakeFiles/Arkanoid.dir/includes_CXX.rsp
 CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj: ../src/Graphics.cpp
 CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj: CMakeFiles/Arkanoid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj -MF CMakeFiles\Arkanoid.dir\src\Graphics.cpp.obj.d -o CMakeFiles\Arkanoid.dir\src\Graphics.cpp.obj -c E:\code\wasm\game\Arkanoid\src\Graphics.cpp
 
 CMakeFiles/Arkanoid.dir/src/Graphics.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj: CMakeFiles/Arkanoid.dir/flags.make
 CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj: CMakeFiles/Arkanoid.dir/includes_CXX.rsp
 CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj: ../src/Vector.cpp
 CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj: CMakeFiles/Arkanoid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X86_64~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj -MF CMakeFiles\Arkanoid.dir\src\Vector.cpp.obj.d -o CMakeFiles\Arkanoid.dir\src\Vector.cpp.obj -c E:\code\wasm\game\Arkanoid\src\Vector.cpp
 
 CMakeFiles/Arkanoid.dir/src/Vector.cpp.i: cmake_force
@@ -147,6 +162,7 @@ CMakeFiles/Arkanoid.dir/src/Vector.cpp.s: cmake_force
 Arkanoid_OBJECTS = \
 "CMakeFiles/Arkanoid.dir/main.cpp.obj" \
 "CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.obj" \
+"CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj" \
 "CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj" \
 "CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj" \
 "CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj"
@@ -156,6 +172,7 @@ Arkanoid_EXTERNAL_OBJECTS =
 
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/main.cpp.obj
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/src/Arkanoid.cpp.obj
+Arkanoid.exe: CMakeFiles/Arkanoid.dir/src/CollisionSystem.cpp.obj
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/src/GameBase.cpp.obj
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/src/Graphics.cpp.obj
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/src/Vector.cpp.obj
@@ -163,7 +180,7 @@ Arkanoid.exe: CMakeFiles/Arkanoid.dir/build.make
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/linklibs.rsp
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/objects1.rsp
 Arkanoid.exe: CMakeFiles/Arkanoid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Arkanoid.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\code\wasm\game\Arkanoid\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Arkanoid.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Arkanoid.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

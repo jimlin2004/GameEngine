@@ -5,21 +5,12 @@
 #include "Graphics.h"
 #include <SDL.h>
 
-class GameBase
+class Boundary
 {
 public:
-    int SCREEN_WIDTH;
-    int SCREEN_HEIGHT;
-    const char* title;
-    SDL_Window* window;
-    SDL_Renderer* renderer;
-    bool run;
-    SDL_Event event;
-
-    GameBase(const char* title, int width, int height);
-    bool Init();
-    virtual void GameContext();
-    virtual void StartGame();
+    Point *LT, *RT, *RB, *LB;
+    Boundary();
+    Boundary(Point* p1, Point* p2, Point* p3, Point* p4);
 };
 
 class Actor
@@ -32,8 +23,28 @@ public:
     Actor(int x, int y);
     Actor(int x, int y, int w, int h);
     void SetVector(int x, int y);
+    virtual void Set_x(int x);
+    virtual void Set_y(int y);
+    virtual void Set(int x, int y);
     virtual void Update();
     virtual void Draw(SDL_Renderer* renderer);
 };
+class GameBase
+{
+public:
+    int screen_width;
+    int screen_height;
+    const char* title;
+    SDL_Window* window;
+    SDL_Renderer* renderer;
+    bool run;
+    SDL_Event event;
+    Boundary* boundary;
 
+    GameBase(const char* title, int width, int height);
+    bool Init();
+    void Clamp(Actor* actor);
+    virtual void GameContext();
+    virtual void StartGame();
+};
 #endif

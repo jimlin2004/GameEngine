@@ -7,8 +7,8 @@ GameBase::GameBase(const char* title, int width, int height)
     this->window = nullptr;
     this->renderer = nullptr;
     this->title = title;
-    this->SCREEN_HEIGHT = height;
-    this->SCREEN_WIDTH = width;
+    this->screen_width = width;
+    this->screen_height = height;
     this->run = false;
 }
 
@@ -22,8 +22,8 @@ bool GameBase::Init()
     this->window = SDL_CreateWindow(this->title,
         SDL_WINDOWPOS_UNDEFINED, 
         SDL_WINDOWPOS_UNDEFINED, 
-        this->SCREEN_WIDTH, 
-        this->SCREEN_HEIGHT,
+        this->screen_width, 
+        this->screen_height,
         SDL_WINDOW_SHOWN);
     if (!this->window)
     {
@@ -41,6 +41,15 @@ bool GameBase::Init()
         return false;
     }
     return true;
+}
+
+void GameBase::Clamp(Actor* actor)
+{
+    if (actor->x < this->boundary->LT->x)
+        actor->Set_x(this->boundary->LT->x);
+    if (actor->x > (this->boundary->RT->x - actor->w))
+        actor->Set_x(this->boundary->RT->x - actor->w);
+    return;
 }
 
 void GameBase::GameContext()
@@ -64,6 +73,16 @@ void GameBase::StartGame()
     }
     SDL_DestroyWindow(this->window);
     SDL_Quit();
+}
+
+Boundary::Boundary(): LT(nullptr), RT(nullptr), RB(nullptr), LB(nullptr) {}
+
+Boundary::Boundary(Point* p1, Point* p2, Point* p3, Point* p4)
+{
+    this->LT = p1;
+    this->RT = p2;
+    this->RB = p3;
+    this->LB = p4;
 }
 
 Actor::Actor() 
@@ -95,6 +114,25 @@ void Actor::SetVector(int x, int y)
     return;
 }
 
+void Actor::Set_x(int x)
+{
+    this->x = x;
+    return;
+}
+
+void Actor::Set_y(int y)
+{
+    this->y = y;
+    return;
+}
+
+void Actor::Set(int x, int y)
+{
+    this->x = x;
+    this->y = y;
+    return;
+}
+
 void Actor::Draw(SDL_Renderer* renderer)
 {
     return;
@@ -102,5 +140,14 @@ void Actor::Draw(SDL_Renderer* renderer)
 
 void Actor::Update()
 {
+    return;
+}
+
+void Clamp(int &val, int lower_bound, int upper_bound)
+{
+    if (val > upper_bound)
+        val = upper_bound;
+    else if (val < lower_bound)
+        val = lower_bound;
     return;
 }
