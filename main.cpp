@@ -4,9 +4,9 @@
 int main(int argc, char* args[]) 
 {
     Arkanoid* game = new Arkanoid("Arkanoid", 640, 480);
-    bool success = game->Init();
+    bool success = game->init();
     if (success)
-        game->StartGame();
+        game->startGame();
     else
         return 1;
     return 0;

@@ -12,7 +12,7 @@ GameBase::GameBase(const char* title, int width, int height)
     this->run = false;
 }
 
-bool GameBase::Init()
+bool GameBase::init()
 {
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
     {
@@ -43,16 +43,16 @@ bool GameBase::Init()
     return true;
 }
 
-void GameBase::Clamp(Actor* actor)
+void GameBase::clamp(Actor* actor)
 {
     if (actor->x < this->boundary->LT->x)
-        actor->Set_x(this->boundary->LT->x);
+        actor->set_x(this->boundary->LT->x);
     if (actor->x > (this->boundary->RT->x - actor->w))
-        actor->Set_x(this->boundary->RT->x - actor->w);
+        actor->set_x(this->boundary->RT->x - actor->w);
     return;
 }
 
-void GameBase::GameContext()
+void GameBase::gameContext()
 {
     while (SDL_PollEvent(&this->event))
     {
@@ -64,12 +64,12 @@ void GameBase::GameContext()
     SDL_RenderPresent(this->renderer);
 }
 
-void GameBase::StartGame()
+void GameBase::startGame()
 {
     this->run = true;
     while (run)
     {
-        this->GameContext();
+        this->gameContext();
     }
     SDL_DestroyWindow(this->window);
     SDL_Quit();
@@ -108,42 +108,42 @@ Actor::Actor(int x, int y, int w, int h)
     this->vec = nullptr;
 }
 
-void Actor::SetVector(int x, int y)
+void Actor::setVector(int x, int y)
 {
     this->vec = new Vector(x, y);
     return;
 }
 
-void Actor::Set_x(int x)
+void Actor::set_x(int x)
 {
     this->x = x;
     return;
 }
 
-void Actor::Set_y(int y)
+void Actor::set_y(int y)
 {
     this->y = y;
     return;
 }
 
-void Actor::Set(int x, int y)
+void Actor::set(int x, int y)
 {
     this->x = x;
     this->y = y;
     return;
 }
 
-void Actor::Draw(SDL_Renderer* renderer)
+void Actor::draw(SDL_Renderer* renderer)
 {
     return;
 }
 
-void Actor::Update()
+void Actor::update()
 {
     return;
 }
 
-void Clamp(int &val, int lower_bound, int upper_bound)
+void clamp(int &val, int lower_bound, int upper_bound)
 {
     if (val > upper_bound)
         val = upper_bound;

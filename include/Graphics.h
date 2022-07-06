@@ -40,10 +40,10 @@ public:
     SDL_Rect* rect;
     Rect();
     Rect(int x, int y, int w, int h);
-    void Set_x(int x);
-    void Set_y(int y);
-    void Set(int x, int y);
-    void Draw(SDL_Renderer* renderer, Color* color, bool is_fill);
+    void set_x(int x);
+    void set_y(int y);
+    void set(int x, int y);
+    void draw(SDL_Renderer* renderer, Color* color, bool is_fill);
 };
 
 class Circle: public Graphics
@@ -52,10 +52,10 @@ public:
     int radius;
     Circle();
     Circle(int x, int y, int r);
-    void Set_x(int x);
-    void Set_y(int y);
-    void Set(int x, int y);
-    void Draw(SDL_Renderer* renderer, Color* color);
+    void set_x(int x);
+    void set_y(int y);
+    void set(int x, int y);
+    void draw(SDL_Renderer* renderer, Color* color);
 };
 
 #endif

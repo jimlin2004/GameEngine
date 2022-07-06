@@ -22,12 +22,12 @@ public:
     Actor();
     Actor(int x, int y);
     Actor(int x, int y, int w, int h);
-    void SetVector(int x, int y);
-    virtual void Set_x(int x);
-    virtual void Set_y(int y);
-    virtual void Set(int x, int y);
-    virtual void Update();
-    virtual void Draw(SDL_Renderer* renderer);
+    void setVector(int x, int y);
+    virtual void set_x(int x);
+    virtual void set_y(int y);
+    virtual void set(int x, int y);
+    virtual void update();
+    virtual void draw(SDL_Renderer* renderer);
 };
 class GameBase
 {
@@ -42,9 +42,9 @@ public:
     Boundary* boundary;
 
     GameBase(const char* title, int width, int height);
-    bool Init();
-    void Clamp(Actor* actor);
-    virtual void GameContext();
-    virtual void StartGame();
+    bool init();
+    void clamp(Actor* actor);
+    virtual void gameContext();
+    virtual void startGame();
 };
 #endif

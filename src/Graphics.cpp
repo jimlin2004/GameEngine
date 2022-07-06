@@ -61,26 +61,26 @@ Rect::Rect(int x, int y, int w, int h): Graphics(x, y)
     this->rect->h = h;
 }
 
-void Rect::Set_x(int x)
+void Rect::set_x(int x)
 {
     this->rect->x = x;
     return;
 }
 
-void Rect::Set_y(int y)
+void Rect::set_y(int y)
 {
     this->rect->y = y;
     return;
 }
 
-void Rect::Set(int x, int y)
+void Rect::set(int x, int y)
 {
     this->rect->x = x;
     this->rect->y = y;
     return;
 }
 
-void Rect::Draw(SDL_Renderer* renderer, Color* color, bool is_fill)
+void Rect::draw(SDL_Renderer* renderer, Color* color, bool is_fill)
 {
     SDL_SetRenderDrawColor(renderer, color->r, color->g, color->b, color->a);
     if (is_fill)
@@ -101,26 +101,26 @@ Circle::Circle(int x, int y, int r): Graphics(x, y)
     return;
 }
 
-void Circle::Set_x(int x)
+void Circle::set_x(int x)
 {
     this->x = x;
     return;
 }
 
-void Circle::Set_y(int y)
+void Circle::set_y(int y)
 {
     this->y = y;
     return;
 }
 
-void Circle::Set(int x, int y)
+void Circle::set(int x, int y)
 {
     this->x = x;
     this->y = y;
     return;
 }
 
-void Circle::Draw(SDL_Renderer* renderer, Color* color)
+void Circle::draw(SDL_Renderer* renderer, Color* color)
 {
     SDL_SetRenderDrawColor(renderer, color->r, color->g, color->b, color->a);
     int a_x = 0;
