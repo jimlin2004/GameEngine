@@ -4,13 +4,18 @@
 #include "Vector.h"
 #include "Graphics.h"
 #include <SDL.h>
+#include <unordered_map>
+#include <vector>
 
 class Boundary
 {
 public:
     Point *LT, *RT, *RB, *LB;
     Boundary();
+    Boundary(int x, int y, int w, int h);
     Boundary(Point* p1, Point* p2, Point* p3, Point* p4);
+    int getWidth();
+    int getHeight();
 };
 
 class Actor
@@ -40,11 +45,13 @@ public:
     bool run;
     SDL_Event event;
     Boundary* boundary;
+    std::unordered_map<const char*, std::vector<Actor*>> gameItem;
 
     GameBase(const char* title, int width, int height);
     bool init();
     void clamp(Actor* actor);
     virtual void gameContext();
     virtual void startGame();
+    void registerActor(const char* str, Actor* actor);
 };
 #endif

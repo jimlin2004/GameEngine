@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.txt": "plaintext",
+        "*.h": "cpp",
+        "new": "cpp",
+        "*.tcc": "cpp"
+    }
+}

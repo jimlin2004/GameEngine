@@ -65,7 +65,9 @@ void Ball::update()
 Arkanoid::Arkanoid(const char* title, int width, int height): GameBase(title, width, height)
 {
     this->bar = new Bar(0, 450, 60, 10, Color::RGBA(128, 128, 0, 255));
+    this->registerActor("movable", this->bar);
     this->ball = new Ball(10, 10, 8, 8, Color::RGBA(255, 255, 255, 255));
+    this->registerActor("movable", this->ball);
     this->boundary = new Boundary(Point::New(0, 0), Point::New(width, 0), Point::New(width, height), Point::New(0, height));
 }
 

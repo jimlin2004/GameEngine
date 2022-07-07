@@ -10,6 +10,8 @@ GameBase::GameBase(const char* title, int width, int height)
     this->screen_width = width;
     this->screen_height = height;
     this->run = false;
+    this->gameItem["movable"] = {};
+    this->gameItem["unmovable"] = {};
 }
 
 bool GameBase::init()
@@ -52,6 +54,12 @@ void GameBase::clamp(Actor* actor)
     return;
 }
 
+void GameBase::registerActor(const char* str, Actor* actor)
+{
+    this->gameItem[str].push_back(actor);
+    return;
+}
+
 void GameBase::gameContext()
 {
     while (SDL_PollEvent(&this->event))
@@ -77,12 +85,30 @@ void GameBase::startGame()
 
 Boundary::Boundary(): LT(nullptr), RT(nullptr), RB(nullptr), LB(nullptr) {}
 
+Boundary::Boundary(int x, int y, int w, int h)
+{
+    this->LT = Point::New(x, y);
+    this->RT = Point::New(x + w, y);
+    this->RB = Point::New(x + w, y + h);
+    this->LB = Point::New(x, y + h);
+}
+
 Boundary::Boundary(Point* p1, Point* p2, Point* p3, Point* p4)
 {
     this->LT = p1;
     this->RT = p2;
     this->RB = p3;
     this->LB = p4;
+}
+
+int Boundary::getWidth()
+{
+    return this->RT->x - this->LT->x;
+}
+
+int Boundary::getHeight()
+{
+    return this->LB->y - this->LT->y;
 }
 
 Actor::Actor() 
