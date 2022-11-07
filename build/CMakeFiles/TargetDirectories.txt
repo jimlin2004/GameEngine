@@ -1,0 +1,5 @@
+D:/code/cpp/gameGngine/build/CMakeFiles/GameEngine.dir
+D:/code/cpp/gameGngine/build/CMakeFiles/package.dir
+D:/code/cpp/gameGngine/build/CMakeFiles/package_source.dir
+D:/code/cpp/gameGngine/build/CMakeFiles/edit_cache.dir
+D:/code/cpp/gameGngine/build/CMakeFiles/rebuild_cache.dir

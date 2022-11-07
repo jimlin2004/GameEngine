@@ -1,0 +1,57 @@
+[
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\main.cpp.obj -c D:\\code\\cpp\\gameGngine\\main.cpp",
+  "file": "D:/code/cpp/gameGngine/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\include\\ActorComponent\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameGngine\\include\\ActorComponent\\Component\\Component.cpp",
+  "file": "D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\include\\ActorComponent\\inputComponent\\InputComponent.cpp.obj -c D:\\code\\cpp\\gameGngine\\include\\ActorComponent\\inputComponent\\InputComponent.cpp",
+  "file": "D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\include\\GameBaseComponent\\GameEventManager\\GameEventManager.cpp.obj -c D:\\code\\cpp\\gameGngine\\include\\GameBaseComponent\\GameEventManager\\GameEventManager.cpp",
+  "file": "D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\include\\GameEngineAPI\\GameEngineAPI.cpp.obj -c D:\\code\\cpp\\gameGngine\\include\\GameEngineAPI\\GameEngineAPI.cpp",
+  "file": "D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Actor.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Actor.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Actor.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\EventSystem.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\EventSystem.cpp",
+  "file": "D:/code/cpp/gameGngine/src/EventSystem.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\FSM.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\FSM.cpp",
+  "file": "D:/code/cpp/gameGngine/src/FSM.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\GameBase.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GameBase.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GameBase.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Graphics.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Graphics.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Graphics.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\TestGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\TestGame.cpp",
+  "file": "D:/code/cpp/gameGngine/test/TestGame.cpp"
+}
+]

@@ -1,0 +1,4 @@
+state machine (FSM)
+玩家操作腳色
+循路
+碰撞
