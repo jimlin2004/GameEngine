@@ -3,7 +3,7 @@
 
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "GameBase.h"
-#include "Actor.h"
+#include "MainCharacter.h"
 
 class TestGame: public GameEngine::GameBase
 {
@@ -12,7 +12,7 @@ public:
     void gameContext() override;
     void setFlag();
 private:
-    GameEngine::Character* mainActor;
+    MainCharacter* mainActor;
 };
 
 #endif

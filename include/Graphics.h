@@ -1,5 +1,5 @@
-#ifndef GRAPHICS_H
-#define GRAPHICS_H
+#ifndef GE_GRAPHICS_H
+#define GE_GRAPHICS_H
 
 #include <GL/gl.h>
 #include <GL/glu.h>

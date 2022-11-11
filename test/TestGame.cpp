@@ -4,7 +4,7 @@ TestGame::TestGame(const char* title, int width, int height): GameBase(title, wi
 {
     // this->mainActor = GameEngine::GameBase::spawnActor<GameEngine::Character, GameEngine::Graphics::Rect>(new GameEngine::Graphics::Rect(0.f, 0.f, 50.f, 50.f));
     // this->gameEventManager->bindKeyEvent('w', std::bind(&TestGame::setFlag, this));
-    this->mainActor = GameEngine::GEngine->spawnActor<GameEngine::Character, GameEngine::Graphics::Rect>(new GameEngine::Graphics::Rect(0.f, 0.f, 50.f, 50.f));
+    this->mainActor = GameEngine::GEngine->spawnActor<MainCharacter>(new GameEngine::Vector(0.f, 0.f, 0.f));
 }
 
 void TestGame::setFlag()

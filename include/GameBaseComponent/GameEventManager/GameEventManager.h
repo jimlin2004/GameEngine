@@ -1,5 +1,5 @@
-#ifndef GAMEEVENTMANAGER_H
-#define GAMEEVENTMANAGER_H
+#ifndef GE_GAMEEVENTMANAGER_H
+#define GE_GAMEEVENTMANAGER_H
 
 #include <vector>
 #include <unordered_map>

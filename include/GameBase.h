@@ -1,5 +1,5 @@
-#ifndef GAMEBASE_H
-#define GAMEBASE_H
+#ifndef GE_GAMEBASE_H
+#define GE_GAMEBASE_H
 
 #include <GL/gl.h>
 #include <GL/glu.h>

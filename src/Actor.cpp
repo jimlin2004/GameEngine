@@ -43,15 +43,23 @@ void GameEngine::Actor::setPosition(float x, float y)
 
 GameEngine::Character::Character(): Actor()
 {
+    this->playerInputComponent = new InputComponent();
     return;
 }
 
 GameEngine::Character::Character(float x, float y): Actor(x, y)
 {
+    this->playerInputComponent = new InputComponent();
     return;
 }
 
 GameEngine::Character::Character(float x, float y, Graphics::Graphics* graphics): Actor(x, y, graphics)
+{
+    this->playerInputComponent = new InputComponent();
+    return;
+}
+
+void GameEngine::Character::setInputEvent()
 {
     return;
 }

@@ -148,102 +148,6 @@ GameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/build
 .PHONY : GameEngine/fast
 
-include/ActorComponent/Component/Component.obj: include/ActorComponent/Component/Component.cpp.obj
-.PHONY : include/ActorComponent/Component/Component.obj
-
-# target to build an object file
-include/ActorComponent/Component/Component.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/ActorComponent/Component/Component.cpp.obj
-.PHONY : include/ActorComponent/Component/Component.cpp.obj
-
-include/ActorComponent/Component/Component.i: include/ActorComponent/Component/Component.cpp.i
-.PHONY : include/ActorComponent/Component/Component.i
-
-# target to preprocess a source file
-include/ActorComponent/Component/Component.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/ActorComponent/Component/Component.cpp.i
-.PHONY : include/ActorComponent/Component/Component.cpp.i
-
-include/ActorComponent/Component/Component.s: include/ActorComponent/Component/Component.cpp.s
-.PHONY : include/ActorComponent/Component/Component.s
-
-# target to generate assembly for a file
-include/ActorComponent/Component/Component.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/ActorComponent/Component/Component.cpp.s
-.PHONY : include/ActorComponent/Component/Component.cpp.s
-
-include/ActorComponent/inputComponent/InputComponent.obj: include/ActorComponent/inputComponent/InputComponent.cpp.obj
-.PHONY : include/ActorComponent/inputComponent/InputComponent.obj
-
-# target to build an object file
-include/ActorComponent/inputComponent/InputComponent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/ActorComponent/inputComponent/InputComponent.cpp.obj
-.PHONY : include/ActorComponent/inputComponent/InputComponent.cpp.obj
-
-include/ActorComponent/inputComponent/InputComponent.i: include/ActorComponent/inputComponent/InputComponent.cpp.i
-.PHONY : include/ActorComponent/inputComponent/InputComponent.i
-
-# target to preprocess a source file
-include/ActorComponent/inputComponent/InputComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/ActorComponent/inputComponent/InputComponent.cpp.i
-.PHONY : include/ActorComponent/inputComponent/InputComponent.cpp.i
-
-include/ActorComponent/inputComponent/InputComponent.s: include/ActorComponent/inputComponent/InputComponent.cpp.s
-.PHONY : include/ActorComponent/inputComponent/InputComponent.s
-
-# target to generate assembly for a file
-include/ActorComponent/inputComponent/InputComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/ActorComponent/inputComponent/InputComponent.cpp.s
-.PHONY : include/ActorComponent/inputComponent/InputComponent.cpp.s
-
-include/GameBaseComponent/GameEventManager/GameEventManager.obj: include/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
-.PHONY : include/GameBaseComponent/GameEventManager/GameEventManager.obj
-
-# target to build an object file
-include/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
-.PHONY : include/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
-
-include/GameBaseComponent/GameEventManager/GameEventManager.i: include/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
-.PHONY : include/GameBaseComponent/GameEventManager/GameEventManager.i
-
-# target to preprocess a source file
-include/GameBaseComponent/GameEventManager/GameEventManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
-.PHONY : include/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
-
-include/GameBaseComponent/GameEventManager/GameEventManager.s: include/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
-.PHONY : include/GameBaseComponent/GameEventManager/GameEventManager.s
-
-# target to generate assembly for a file
-include/GameBaseComponent/GameEventManager/GameEventManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
-.PHONY : include/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
-
-include/GameEngineAPI/GameEngineAPI.obj: include/GameEngineAPI/GameEngineAPI.cpp.obj
-.PHONY : include/GameEngineAPI/GameEngineAPI.obj
-
-# target to build an object file
-include/GameEngineAPI/GameEngineAPI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/GameEngineAPI/GameEngineAPI.cpp.obj
-.PHONY : include/GameEngineAPI/GameEngineAPI.cpp.obj
-
-include/GameEngineAPI/GameEngineAPI.i: include/GameEngineAPI/GameEngineAPI.cpp.i
-.PHONY : include/GameEngineAPI/GameEngineAPI.i
-
-# target to preprocess a source file
-include/GameEngineAPI/GameEngineAPI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/GameEngineAPI/GameEngineAPI.cpp.i
-.PHONY : include/GameEngineAPI/GameEngineAPI.cpp.i
-
-include/GameEngineAPI/GameEngineAPI.s: include/GameEngineAPI/GameEngineAPI.cpp.s
-.PHONY : include/GameEngineAPI/GameEngineAPI.s
-
-# target to generate assembly for a file
-include/GameEngineAPI/GameEngineAPI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/include/GameEngineAPI/GameEngineAPI.cpp.s
-.PHONY : include/GameEngineAPI/GameEngineAPI.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -291,6 +195,78 @@ src/Actor.s: src/Actor.cpp.s
 src/Actor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Actor.cpp.s
 .PHONY : src/Actor.cpp.s
+
+src/ActorComponent/Component/Component.obj: src/ActorComponent/Component/Component.cpp.obj
+.PHONY : src/ActorComponent/Component/Component.obj
+
+# target to build an object file
+src/ActorComponent/Component/Component.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.obj
+.PHONY : src/ActorComponent/Component/Component.cpp.obj
+
+src/ActorComponent/Component/Component.i: src/ActorComponent/Component/Component.cpp.i
+.PHONY : src/ActorComponent/Component/Component.i
+
+# target to preprocess a source file
+src/ActorComponent/Component/Component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.i
+.PHONY : src/ActorComponent/Component/Component.cpp.i
+
+src/ActorComponent/Component/Component.s: src/ActorComponent/Component/Component.cpp.s
+.PHONY : src/ActorComponent/Component/Component.s
+
+# target to generate assembly for a file
+src/ActorComponent/Component/Component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.s
+.PHONY : src/ActorComponent/Component/Component.cpp.s
+
+src/ActorComponent/inputComponent/InputComponent.obj: src/ActorComponent/inputComponent/InputComponent.cpp.obj
+.PHONY : src/ActorComponent/inputComponent/InputComponent.obj
+
+# target to build an object file
+src/ActorComponent/inputComponent/InputComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.obj
+.PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.obj
+
+src/ActorComponent/inputComponent/InputComponent.i: src/ActorComponent/inputComponent/InputComponent.cpp.i
+.PHONY : src/ActorComponent/inputComponent/InputComponent.i
+
+# target to preprocess a source file
+src/ActorComponent/inputComponent/InputComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.i
+.PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.i
+
+src/ActorComponent/inputComponent/InputComponent.s: src/ActorComponent/inputComponent/InputComponent.cpp.s
+.PHONY : src/ActorComponent/inputComponent/InputComponent.s
+
+# target to generate assembly for a file
+src/ActorComponent/inputComponent/InputComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.s
+.PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.s
+
+src/DataStruct/Vector/Vector.obj: src/DataStruct/Vector/Vector.cpp.obj
+.PHONY : src/DataStruct/Vector/Vector.obj
+
+# target to build an object file
+src/DataStruct/Vector/Vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/Vector/Vector.cpp.obj
+.PHONY : src/DataStruct/Vector/Vector.cpp.obj
+
+src/DataStruct/Vector/Vector.i: src/DataStruct/Vector/Vector.cpp.i
+.PHONY : src/DataStruct/Vector/Vector.i
+
+# target to preprocess a source file
+src/DataStruct/Vector/Vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/Vector/Vector.cpp.i
+.PHONY : src/DataStruct/Vector/Vector.cpp.i
+
+src/DataStruct/Vector/Vector.s: src/DataStruct/Vector/Vector.cpp.s
+.PHONY : src/DataStruct/Vector/Vector.s
+
+# target to generate assembly for a file
+src/DataStruct/Vector/Vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/Vector/Vector.cpp.s
+.PHONY : src/DataStruct/Vector/Vector.cpp.s
 
 src/EventSystem.obj: src/EventSystem.cpp.obj
 .PHONY : src/EventSystem.obj
@@ -364,6 +340,54 @@ src/GameBase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBase.cpp.s
 .PHONY : src/GameBase.cpp.s
 
+src/GameBaseComponent/GameEventManager/GameEventManager.obj: src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
+.PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.obj
+
+# target to build an object file
+src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
+.PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
+
+src/GameBaseComponent/GameEventManager/GameEventManager.i: src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
+.PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.i
+
+# target to preprocess a source file
+src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
+.PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
+
+src/GameBaseComponent/GameEventManager/GameEventManager.s: src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
+.PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.s
+
+# target to generate assembly for a file
+src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
+.PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
+
+src/GameEngineAPI/GameEngineAPI.obj: src/GameEngineAPI/GameEngineAPI.cpp.obj
+.PHONY : src/GameEngineAPI/GameEngineAPI.obj
+
+# target to build an object file
+src/GameEngineAPI/GameEngineAPI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj
+.PHONY : src/GameEngineAPI/GameEngineAPI.cpp.obj
+
+src/GameEngineAPI/GameEngineAPI.i: src/GameEngineAPI/GameEngineAPI.cpp.i
+.PHONY : src/GameEngineAPI/GameEngineAPI.i
+
+# target to preprocess a source file
+src/GameEngineAPI/GameEngineAPI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.i
+.PHONY : src/GameEngineAPI/GameEngineAPI.cpp.i
+
+src/GameEngineAPI/GameEngineAPI.s: src/GameEngineAPI/GameEngineAPI.cpp.s
+.PHONY : src/GameEngineAPI/GameEngineAPI.s
+
+# target to generate assembly for a file
+src/GameEngineAPI/GameEngineAPI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.s
+.PHONY : src/GameEngineAPI/GameEngineAPI.cpp.s
+
 src/Graphics.obj: src/Graphics.cpp.obj
 .PHONY : src/Graphics.obj
 
@@ -387,6 +411,30 @@ src/Graphics.s: src/Graphics.cpp.s
 src/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
+
+test/MainCharacter.obj: test/MainCharacter.cpp.obj
+.PHONY : test/MainCharacter.obj
+
+# target to build an object file
+test/MainCharacter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
+.PHONY : test/MainCharacter.cpp.obj
+
+test/MainCharacter.i: test/MainCharacter.cpp.i
+.PHONY : test/MainCharacter.i
+
+# target to preprocess a source file
+test/MainCharacter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.i
+.PHONY : test/MainCharacter.cpp.i
+
+test/MainCharacter.s: test/MainCharacter.cpp.s
+.PHONY : test/MainCharacter.s
+
+# target to generate assembly for a file
+test/MainCharacter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.s
+.PHONY : test/MainCharacter.cpp.s
 
 test/TestGame.obj: test/TestGame.cpp.obj
 .PHONY : test/TestGame.obj
@@ -423,24 +471,21 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... GameEngine
-	@echo ... include/ActorComponent/Component/Component.obj
-	@echo ... include/ActorComponent/Component/Component.i
-	@echo ... include/ActorComponent/Component/Component.s
-	@echo ... include/ActorComponent/inputComponent/InputComponent.obj
-	@echo ... include/ActorComponent/inputComponent/InputComponent.i
-	@echo ... include/ActorComponent/inputComponent/InputComponent.s
-	@echo ... include/GameBaseComponent/GameEventManager/GameEventManager.obj
-	@echo ... include/GameBaseComponent/GameEventManager/GameEventManager.i
-	@echo ... include/GameBaseComponent/GameEventManager/GameEventManager.s
-	@echo ... include/GameEngineAPI/GameEngineAPI.obj
-	@echo ... include/GameEngineAPI/GameEngineAPI.i
-	@echo ... include/GameEngineAPI/GameEngineAPI.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... src/Actor.obj
 	@echo ... src/Actor.i
 	@echo ... src/Actor.s
+	@echo ... src/ActorComponent/Component/Component.obj
+	@echo ... src/ActorComponent/Component/Component.i
+	@echo ... src/ActorComponent/Component/Component.s
+	@echo ... src/ActorComponent/inputComponent/InputComponent.obj
+	@echo ... src/ActorComponent/inputComponent/InputComponent.i
+	@echo ... src/ActorComponent/inputComponent/InputComponent.s
+	@echo ... src/DataStruct/Vector/Vector.obj
+	@echo ... src/DataStruct/Vector/Vector.i
+	@echo ... src/DataStruct/Vector/Vector.s
 	@echo ... src/EventSystem.obj
 	@echo ... src/EventSystem.i
 	@echo ... src/EventSystem.s
@@ -450,9 +495,18 @@ help:
 	@echo ... src/GameBase.obj
 	@echo ... src/GameBase.i
 	@echo ... src/GameBase.s
+	@echo ... src/GameBaseComponent/GameEventManager/GameEventManager.obj
+	@echo ... src/GameBaseComponent/GameEventManager/GameEventManager.i
+	@echo ... src/GameBaseComponent/GameEventManager/GameEventManager.s
+	@echo ... src/GameEngineAPI/GameEngineAPI.obj
+	@echo ... src/GameEngineAPI/GameEngineAPI.i
+	@echo ... src/GameEngineAPI/GameEngineAPI.s
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... test/MainCharacter.obj
+	@echo ... test/MainCharacter.i
+	@echo ... test/MainCharacter.s
 	@echo ... test/TestGame.obj
 	@echo ... test/TestGame.i
 	@echo ... test/TestGame.s

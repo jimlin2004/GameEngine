@@ -1,0 +1,3 @@
+CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.obj: \
+ D:\code\cpp\gameGngine\src\ActorComponent\Component\Component.cpp \
+ D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h
