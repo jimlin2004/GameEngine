@@ -65,6 +65,18 @@ bool GameEngine::GameBase::initGL()
     return true;
 }
 
+bool GameEngine::GameBase::initSDLImage()
+{
+    int sdl_img_init_flags = IMG_INIT_JPG | IMG_INIT_PNG;
+    int img_init = IMG_Init(sdl_img_init_flags);
+    if ((img_init & sdl_img_init_flags) != sdl_img_init_flags) 
+    {
+        printf("SDL Image Init Error: %s\n", SDL_GetError());
+        return false;
+    }
+    return true;
+}
+
 void GameEngine::GameBase::gameContext()
 {
     glClear(GL_COLOR_BUFFER_BIT);

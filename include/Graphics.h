@@ -3,6 +3,7 @@
 
 #include <GL/gl.h>
 #include <GL/glu.h>
+#include <SDL2/SDL_image.h>
 
 namespace GameEngine
 {
@@ -50,7 +51,19 @@ namespace GameEngine
         {
 
         };
+
+        class Image: public Graphics
+        {
+        public:
+            Image(float x, float y);
+            void loadImage(const char* fileName);
+        private:
+            int nrChannels;
+        };
     }
+
+    /*以下為Graphics處理時用的function*/
+    void filpSurface(SDL_Surface* surface);
 }
 
 

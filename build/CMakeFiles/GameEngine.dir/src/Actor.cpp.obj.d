@@ -487,6 +487,74 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/mcx.h \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_image.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/sys/types.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdio.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/strings.h \
+ C:/PROGRA~1/msys64/mingw64/include/wchar.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stat64.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_error.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_endian.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mutex.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_thread.h \
+ C:/PROGRA~1/msys64/mingw64/include/process.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rwops.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_clipboard.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_cpuinfo.h \
+ C:/PROGRA~1/msys64/mingw64/include/intrin.h \
+ C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_events.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_video.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_pixels.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rect.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_surface.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_blendmode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keyboard.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mouse.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_joystick.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_guid.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gamecontroller.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_sensor.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_quit.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gesture.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_touch.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_filesystem.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_haptic.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hidapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hints.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_loadso.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_log.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_messagebox.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_metal.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_power.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_render.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_shape.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_system.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_timer.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_version.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
@@ -533,23 +601,19 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwchar \
- C:/PROGRA~1/msys64/mingw64/include/wchar.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_stat64.h \
- C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/clocale \
  C:/PROGRA~1/msys64/mingw64/include/locale.h \
- C:/PROGRA~1/msys64/mingw64/include/stdio.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iosfwd \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cctype \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \

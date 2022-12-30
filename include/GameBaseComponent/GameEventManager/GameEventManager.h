@@ -1,7 +1,7 @@
 #ifndef GE_GAMEEVENTMANAGER_H
 #define GE_GAMEEVENTMANAGER_H
 
-#include <vector>
+#include <list>
 #include <unordered_map>
 #include <string>
 #include <functional>
@@ -21,7 +21,7 @@ namespace GameEngine
         void callKeyEvent(int key);
     private:
         //管理Event的Database
-        std::unordered_map<int, std::vector<std::function<void(void)>>> eventDatabase[1];
+        std::unordered_map<int, std::list<std::function<void(void)>>> eventDatabase[1];
 
         bool checkIsKeyExists(int key);
     };

@@ -83,6 +83,10 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/include/errno.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
@@ -430,6 +434,8 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_image.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/Actor.h \

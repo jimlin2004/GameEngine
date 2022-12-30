@@ -191,6 +191,24 @@
 			"path" : "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "C:/Program Files/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Program Files/msys64/mingw64/lib/cmake/SDL2_image/sdl2_image-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindOpenGL.cmake"

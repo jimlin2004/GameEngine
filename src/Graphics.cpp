@@ -126,3 +126,46 @@ void GameEngine::Graphics::Rect::render()
     glEnd();
     return;
 }
+
+GameEngine::Graphics::Image::Image(float x, float y): Graphics(x, y)
+{
+    return;
+}
+
+/*用於載入圖片，支持png、jpg*/
+void GameEngine::Graphics::Image::loadImage(const char* fileName)
+{
+    SDL_Surface* _image = IMG_Load(fileName);
+    if (!_image)
+        throw "Image can't be loaded";
+    this->width = _image->w;
+    this->height = _image->h;
+    this->nrChannels = _image->format->BitsPerPixel / 8;
+
+    
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, this->width, this->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, _image->pixels);
+}
+
+/*以下為Graphics處理時用的function*/
+void filpSurface(SDL_Surface* surface)
+{
+    SDL_LockSurface(surface);
+
+    int pitch = surface->pitch; //row size
+    char* temp = new char[pitch]; //intermediate buffer
+    char* pixels = (char*)surface->pixels;
+    char* row1;
+    char* row2;
+    for (int i = 0; i < surface->h / 2; ++i)
+    {
+        row1 = pixels + i * pitch;
+        row2 = pixels + (surface->h - i - 1) * pitch;
+
+        //swap rows
+        memcpy(temp, row1, pitch);
+        memcpy(row1, row2, pitch);
+        memcpy(row2, temp, pitch);
+    }
+    delete[] temp;
+    SDL_UnlockSurface(surface);
+}

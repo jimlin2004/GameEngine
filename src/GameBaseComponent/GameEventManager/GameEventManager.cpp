@@ -27,7 +27,7 @@ void GameEngine::GameEventManager::callKeyEvent(int key)
 {
     if (this->checkIsKeyExists(key))
     {
-        for (auto event: this->eventDatabase[EventType::KeyEvent].at(key))
+        for (std::function<void ()> event: this->eventDatabase[EventType::KeyEvent].at(key))
         {
             event();
         }

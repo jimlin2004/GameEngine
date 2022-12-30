@@ -5,6 +5,7 @@
 #include <GL/glu.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>
+#include <SDL2/SDL_image.h>
 #include <stdio.h>
 
 #include "GameEngineAPI/GameEngineAPI.h"
@@ -36,6 +37,7 @@ namespace GameEngine
         ~GameBase();
         virtual bool initSDL();
         virtual bool initGL();
+        virtual bool initSDLImage();
         virtual void gameContext();
         void gameEventHandle();
         void startGame();

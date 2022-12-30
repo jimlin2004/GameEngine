@@ -15,7 +15,7 @@
 int main(int argc, char* args[])
 {
     TestGame* game = new TestGame("game", 640, 480);
-    bool success = game->initSDL() && game->initGL();
+    bool success = game->initSDL() && game->initGL() && game->initSDLImage();
     if (success)
         game->startGame();
     else
