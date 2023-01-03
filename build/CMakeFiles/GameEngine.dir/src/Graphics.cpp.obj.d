@@ -362,4 +362,5 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_timer.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_version.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h

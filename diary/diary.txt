@@ -1,7 +1,9 @@
 2022/11/7 暫時建置Event系統
 2022/11/11 完成鍵盤輸入事件註冊與統一呼叫系統
 2022/12/30
-1. 修改eventDatabase 由vector 變為list
-Todo list
-    -sdf surface to opengl texture
-https://www.youtube.com/watch?v=EGZjybcC2JM
+    1. 修改eventDatabase 由vector 變為list
+    Todo list
+        -sdl surface to opengl texture
+    https://www.youtube.com/watch?v=EGZjybcC2JM
+2023/01/03 10:33
+    1. 繼續完成surface to texture(未完工)

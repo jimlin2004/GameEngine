@@ -4,6 +4,7 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <SDL2/SDL_image.h>
+#include <SDL2/SDL_opengl.h>
 
 namespace GameEngine
 {
@@ -49,16 +50,10 @@ namespace GameEngine
 
         class Texture: public Graphics
         {
-
-        };
-
-        class Image: public Graphics
-        {
         public:
-            Image(float x, float y);
-            void loadImage(const char* fileName);
-        private:
-            int nrChannels;
+            Texture(float x, float y);
+            ~Texture();
+            unsigned int load(const char* fileName);
         };
     }
 

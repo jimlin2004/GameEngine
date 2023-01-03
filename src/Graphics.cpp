@@ -127,23 +127,56 @@ void GameEngine::Graphics::Rect::render()
     return;
 }
 
-GameEngine::Graphics::Image::Image(float x, float y): Graphics(x, y)
+GameEngine::Graphics::Texture::Texture(float x, float y): Graphics(x, y)
 {
     return;
 }
 
 /*用於載入圖片，支持png、jpg*/
-void GameEngine::Graphics::Image::loadImage(const char* fileName)
+unsigned int GameEngine::Graphics::Texture::load(const char* fileName)
 {
-    SDL_Surface* _image = IMG_Load(fileName);
-    if (!_image)
-        throw "Image can't be loaded";
-    this->width = _image->w;
-    this->height = _image->h;
-    this->nrChannels = _image->format->BitsPerPixel / 8;
+    SDL_Surface* img;
+    GLenum textureFormat;
+    GLint bpp; //Byte per pixel
 
-    
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, this->width, this->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, _image->pixels);
+    img = IMG_Load(fileName);
+
+    bpp = img->format->BytesPerPixel;
+    if (bpp == 4)
+    {
+        if (img->format->Rmask == 0x000000ff)
+            textureFormat = GL_RGBA;
+        else
+            textureFormat = GL_BGRA_EXT;
+    }
+    else if (bpp == 3)
+    {
+        if (img->format->Rmask == 0x000000ff)
+            textureFormat = GL_RGB;
+        else
+            textureFormat = GL_BGR_EXT;
+    }
+
+    GLuint textureID;
+    glGenTextures(1, &textureID);
+    glBindTexture(GL_TEXTURE_2D, textureID);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    glTexImage2D(GL_TEXTURE_2D,    //texture type 
+        0,                         //level
+        bpp,                       //internal format
+        img->w,                    //width
+        img->h,                    //height
+        0,                         //border
+        textureFormat,             //format
+        GL_UNSIGNED_BYTE,          //data type
+        img->pixels                //data
+    );
+
+    glBindTexture(GL_TEXTURE_2D, 0);
+    SDL_FreeSurface(img);
+    return textureID;
 }
 
 /*以下為Graphics處理時用的function*/
