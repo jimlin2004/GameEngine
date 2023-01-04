@@ -220,6 +220,54 @@ src/ActorComponent/Component/Component.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.s
 .PHONY : src/ActorComponent/Component/Component.cpp.s
 
+src/ActorComponent/Material/Material.obj: src/ActorComponent/Material/Material.cpp.obj
+.PHONY : src/ActorComponent/Material/Material.obj
+
+# target to build an object file
+src/ActorComponent/Material/Material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
+.PHONY : src/ActorComponent/Material/Material.cpp.obj
+
+src/ActorComponent/Material/Material.i: src/ActorComponent/Material/Material.cpp.i
+.PHONY : src/ActorComponent/Material/Material.i
+
+# target to preprocess a source file
+src/ActorComponent/Material/Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.i
+.PHONY : src/ActorComponent/Material/Material.cpp.i
+
+src/ActorComponent/Material/Material.s: src/ActorComponent/Material/Material.cpp.s
+.PHONY : src/ActorComponent/Material/Material.s
+
+# target to generate assembly for a file
+src/ActorComponent/Material/Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.s
+.PHONY : src/ActorComponent/Material/Material.cpp.s
+
+src/ActorComponent/Mesh/Mesh.obj: src/ActorComponent/Mesh/Mesh.cpp.obj
+.PHONY : src/ActorComponent/Mesh/Mesh.obj
+
+# target to build an object file
+src/ActorComponent/Mesh/Mesh.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
+.PHONY : src/ActorComponent/Mesh/Mesh.cpp.obj
+
+src/ActorComponent/Mesh/Mesh.i: src/ActorComponent/Mesh/Mesh.cpp.i
+.PHONY : src/ActorComponent/Mesh/Mesh.i
+
+# target to preprocess a source file
+src/ActorComponent/Mesh/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.i
+.PHONY : src/ActorComponent/Mesh/Mesh.cpp.i
+
+src/ActorComponent/Mesh/Mesh.s: src/ActorComponent/Mesh/Mesh.cpp.s
+.PHONY : src/ActorComponent/Mesh/Mesh.s
+
+# target to generate assembly for a file
+src/ActorComponent/Mesh/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.s
+.PHONY : src/ActorComponent/Mesh/Mesh.cpp.s
+
 src/ActorComponent/inputComponent/InputComponent.obj: src/ActorComponent/inputComponent/InputComponent.cpp.obj
 .PHONY : src/ActorComponent/inputComponent/InputComponent.obj
 
@@ -388,6 +436,30 @@ src/GameEngineAPI/GameEngineAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.s
 .PHONY : src/GameEngineAPI/GameEngineAPI.cpp.s
 
+src/GameObject.obj: src/GameObject.cpp.obj
+.PHONY : src/GameObject.obj
+
+# target to build an object file
+src/GameObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameObject.cpp.obj
+.PHONY : src/GameObject.cpp.obj
+
+src/GameObject.i: src/GameObject.cpp.i
+.PHONY : src/GameObject.i
+
+# target to preprocess a source file
+src/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameObject.cpp.i
+.PHONY : src/GameObject.cpp.i
+
+src/GameObject.s: src/GameObject.cpp.s
+.PHONY : src/GameObject.s
+
+# target to generate assembly for a file
+src/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameObject.cpp.s
+.PHONY : src/GameObject.cpp.s
+
 src/Graphics.obj: src/Graphics.cpp.obj
 .PHONY : src/Graphics.obj
 
@@ -480,6 +552,12 @@ help:
 	@echo ... src/ActorComponent/Component/Component.obj
 	@echo ... src/ActorComponent/Component/Component.i
 	@echo ... src/ActorComponent/Component/Component.s
+	@echo ... src/ActorComponent/Material/Material.obj
+	@echo ... src/ActorComponent/Material/Material.i
+	@echo ... src/ActorComponent/Material/Material.s
+	@echo ... src/ActorComponent/Mesh/Mesh.obj
+	@echo ... src/ActorComponent/Mesh/Mesh.i
+	@echo ... src/ActorComponent/Mesh/Mesh.s
 	@echo ... src/ActorComponent/inputComponent/InputComponent.obj
 	@echo ... src/ActorComponent/inputComponent/InputComponent.i
 	@echo ... src/ActorComponent/inputComponent/InputComponent.s
@@ -501,6 +579,9 @@ help:
 	@echo ... src/GameEngineAPI/GameEngineAPI.obj
 	@echo ... src/GameEngineAPI/GameEngineAPI.i
 	@echo ... src/GameEngineAPI/GameEngineAPI.s
+	@echo ... src/GameObject.obj
+	@echo ... src/GameObject.i
+	@echo ... src/GameObject.s
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s

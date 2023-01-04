@@ -7,3 +7,7 @@
     https://www.youtube.com/watch?v=EGZjybcC2JM
 2023/01/03 10:33
     1. 繼續完成surface to texture(未完工)
+2023/01/04
+    1. 新增GameObject為所有遊戲實體的基類，
+       用於垃圾回收等。
+       目前有: Actor、Graphics

@@ -2,7 +2,8 @@
 
 MainCharacter::MainCharacter(float x, float y)
 {
-    this->texture = new GameEngine::Graphics::Rect(x, y, 50.f, 50.f);
+    // this->texture = new GameEngine::Graphics::Rect(x, y, 50.f, 50.f);
+    this->mesh->bindMesh(new GameEngine::Graphics::Rect(x, y, 50.f, 50.f));
     this->setInputEvent();
 }
 
@@ -14,5 +15,5 @@ void MainCharacter::setInputEvent()
 void MainCharacter::test()
 {
     this->x += 10.f;
-    this->texture->setX(this->x);
+    // this->texture->setX(this->x);
 }

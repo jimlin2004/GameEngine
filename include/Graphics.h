@@ -6,6 +6,8 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_opengl.h>
 
+#include "GameObject.h"
+
 namespace GameEngine
 {
     namespace Graphics
@@ -17,24 +19,27 @@ namespace GameEngine
             Color(GLclampf r, GLclampf g, GLclampf b, GLclampf a);
         };
 
-        class Graphics
+        class Graphics: public GameObject
         {
         protected:
-            float x, y;
+            float* x;
+            float* y;
+            float offsetX, offsetY;
             float width, height;
             Color* color;
         public:
             Graphics();
-            Graphics(float x, float y);
-            Graphics(float x, float y, Color* color);
-            Graphics(float x, float y, float width, float height);
-            Graphics(float x, float y, float width, float height, Color* color);
+            Graphics(float* x, float* y);
+            Graphics(float* x, float* y, Color* color);
+            Graphics(float* x, float* y, float width, float height);
+            Graphics(float* x, float* y, float width, float height, Color* color);
             ~Graphics();
-            void setX(float x);
+            void setOffestX(float x);
             float getX();
-            void setY(float y);
+            void setOffsetY(float y);
             float getY();
             virtual void render();
+
         };
 
         class Rect: public Graphics
@@ -54,6 +59,9 @@ namespace GameEngine
             Texture(float x, float y);
             ~Texture();
             unsigned int load(const char* fileName);
+            virtual void render() override;
+        private:
+            unsigned int textureID;
         };
     }
 

@@ -21,7 +21,7 @@ GameEngine::Graphics::Graphics::Graphics()
     this->color = new Color(1.f, 1.f, 1.f, 1.f);
 }
 
-GameEngine::Graphics::Graphics::Graphics(float x, float y)
+GameEngine::Graphics::Graphics::Graphics(float* x, float* y)
 {
     this->x = x;
     this->y = y;
@@ -30,7 +30,7 @@ GameEngine::Graphics::Graphics::Graphics(float x, float y)
     this->color = new Color(1.f, 1.f, 1.f, 1.f);
 }
 
-GameEngine::Graphics::Graphics::Graphics(float x, float y, Color* color)
+GameEngine::Graphics::Graphics::Graphics(float* x, float* y, Color* color)
 {
     this->x = x;
     this->y = y;
@@ -39,7 +39,7 @@ GameEngine::Graphics::Graphics::Graphics(float x, float y, Color* color)
     this->color = color;
 }
 
-GameEngine::Graphics::Graphics::Graphics(float x, float y, float width, float height)
+GameEngine::Graphics::Graphics::Graphics(float* x, float* y, float width, float height)
 {
     this->x = x;
     this->y = y;
@@ -48,34 +48,40 @@ GameEngine::Graphics::Graphics::Graphics(float x, float y, float width, float he
     this->color = new Color(1.f, 1.f, 1.f, 1.f);
 }
 
-GameEngine::Graphics::Graphics::Graphics(float x, float y, float width, float height, Color* color)
+GameEngine::Graphics::Graphics::Graphics(float* x, float* y, float width, float height, Color* color)
 {
     this->x = x;
     this->y = y;
     this->width = width;
     this->height = height;
     this->color = color;
+}
+
+GameEngine::Graphics::Graphics::~Graphics()
+{
+    delete this->color;
+    return;
 }
 
 float GameEngine::Graphics::Graphics::getX()
 {
-    return this->x;
+    return *this->x;
 }
 
-void GameEngine::Graphics::Graphics::setX(float x)
+void GameEngine::Graphics::Graphics::setOffestX(float x)
 {
-    this->x = x;
+    this->offsetX = x;
     return;
 }
 
 float GameEngine::Graphics::Graphics::getY()
 {
-    return this->y;
+    return *this->y;
 }
 
-void GameEngine::Graphics::Graphics::setY(float y)
+void GameEngine::Graphics::Graphics::setOffsetY(float y)
 {
-    this->y = y;
+    this->offsetY = y;
     return;
 }
 
@@ -127,7 +133,20 @@ void GameEngine::Graphics::Rect::render()
     return;
 }
 
+/*
+Texture
+    -用以渲染image到多邊形上
+    -需用load()讀取資料後產生獨一無二的texture ID
+    -texture ID為空時為0
+*/
+
 GameEngine::Graphics::Texture::Texture(float x, float y): Graphics(x, y)
+{
+    this->textureID = 0;
+    return;
+}
+
+GameEngine::Graphics::Texture::~Texture()
 {
     return;
 }
@@ -177,6 +196,11 @@ unsigned int GameEngine::Graphics::Texture::load(const char* fileName)
     glBindTexture(GL_TEXTURE_2D, 0);
     SDL_FreeSurface(img);
     return textureID;
+}
+
+void GameEngine::Graphics::Texture::render()
+{
+    return;
 }
 
 /*以下為Graphics處理時用的function*/

@@ -2,6 +2,7 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.o
  D:\code\cpp\gameGngine\src\ActorComponent\inputComponent\InputComponent.cpp \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \

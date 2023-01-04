@@ -1,265 +1,18 @@
 CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  D:\code\cpp\gameGngine\src\Actor.cpp \
  D:/code/cpp/gameGngine/include/Actor.h \
- C:/PROGRA~1/msys64/mingw64/include/glm/glm.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/_fixes.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/math.h \
- C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
+ D:/code/cpp/gameGngine/include/Graphics.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
+ C:/PROGRA~1/msys64/mingw64/include/windows.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
  C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
  C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
- C:/PROGRA~1/msys64/mingw64/include/stdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/limits.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/stdlib_s.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/malloc.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
- C:/PROGRA~1/msys64/mingw64/include/errno.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/setup.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
- C:/PROGRA~1/msys64/mingw64/include/assert.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/glm/simd/platform.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/climits \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cfloat \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/glm/fwd.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/qualifier.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/setup.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/vec2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec2.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/compute_vector_relational.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int2_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/scalar_int_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/setup.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint2_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/scalar_uint_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/vec3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec3.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int3_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint3_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/vec4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec4.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int4_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint4_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat2x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double2x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat2x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat2x2.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/matrix.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat2x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double2x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat2x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat2x3.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double2x3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float2x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float2x3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat2x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double2x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat2x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat2x4.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double2x4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float2x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float2x4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat3x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double3x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat3x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat3x2.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double3x2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float3x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float3x2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat3x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double3x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat3x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat3x3.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double3x3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float3x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float3x3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat3x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double3x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat3x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat3x4.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double3x4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float3x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float3x4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat4x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double4x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat4x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat4x2.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double4x2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float4x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float4x2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat4x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double4x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat4x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat4x3.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double4x3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float4x3.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float4x3_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/mat4x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double4x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat4x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_mat4x4.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double4x4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float4x4.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float4x4_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_matrix.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/geometric.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_geometric.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/exponential.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_vec1.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_exponential.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/vector_relational.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_vector_relational.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/_vectorize.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/common.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_common.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/compute_common.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_double2x2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float2x2.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_float2x2_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/trigonometric.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_trigonometric.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/packing.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_packing.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_half.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_half.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/integer.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/func_integer.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/matrix_transform.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_projection.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/constants.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/scalar_constants.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/scalar_constants.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/constants.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_projection.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_clip_space.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_clip_space.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_transform.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/matrix_transform.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/matrix_transform.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/type_ptr.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/quaternion.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_relational.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_relational.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_float.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_common.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_geometric.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_geometric.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_common.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_float.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_quat.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_relational.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_relational.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/type_quat.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_float_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_double.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_double_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_trigonometric.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_trigonometric.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_transform.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/quaternion_transform.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/quaternion.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/epsilon.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/detail/setup.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/epsilon.inl \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/vec1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_bool1_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_float1_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_double1_precision.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_int1_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint1.hpp \
- C:/PROGRA~1/msys64/mingw64/include/glm/ext/vector_uint1_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstring \
- C:/PROGRA~1/msys64/mingw64/include/string.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
- C:/PROGRA~1/msys64/mingw64/include/glm/gtc/type_ptr.inl \
- D:/code/cpp/gameGngine/include/Graphics.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- C:/PROGRA~1/msys64/mingw64/include/windows.h \
  C:/PROGRA~1/msys64/mingw64/include/sdkddkver.h \
  C:/PROGRA~1/msys64/mingw64/include/excpt.h \
+ C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
@@ -277,9 +30,13 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
  C:/PROGRA~1/msys64/mingw64/include/basetsd.h \
  C:/PROGRA~1/msys64/mingw64/include/guiddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/string.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
@@ -316,6 +73,20 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdlib.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/PROGRA~1/msys64/mingw64/include/limits.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/malloc.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
+ C:/PROGRA~1/msys64/mingw64/include/errno.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
@@ -506,7 +277,45 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stat64.h \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+ C:/PROGRA~1/msys64/mingw64/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
@@ -556,8 +365,10 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
@@ -611,6 +422,7 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwchar \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/clocale \
@@ -627,4 +439,8 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
- D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
+ D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Material/Material.h \
+ D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
+ D:/code/cpp/gameGngine/include/Graphics.h
