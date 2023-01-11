@@ -12,6 +12,9 @@ message(STATUS ${OPENGL_LIBRARIES})
 
 find_package(glm REQUIRED)
 
+find_package(GLEW REQUIRED)
+
+
 file(GLOB_RECURSE SRC_FILE 
     src/*.cpp
     include/*.cpp
@@ -30,6 +33,7 @@ target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES})
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
 target_link_libraries(${PROJECT_NAME} SDL2main SDL2)
 target_link_libraries(${PROJECT_NAME} SDL2_Image)
+target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
 # target_link_libraries(${PROJECT_NAME} glm::glm)
 target_link_libraries(${PROJECT_NAME} ${GLM_LIBRARIES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)

@@ -11,3 +11,8 @@
     1. 新增GameObject為所有遊戲實體的基類，
        用於垃圾回收等。
        目前有: Actor、Graphics
+2023/01/11
+    1. 將Graphics重寫，將其應用VBO、VAO、Shader
+    Todo list
+        -shader的compile、create函式封裝
+        -shader從file中抓取的class

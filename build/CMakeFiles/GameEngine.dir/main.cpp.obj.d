@@ -124,28 +124,58 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
  D:/code/cpp/gameGngine/include/GameBase.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- C:/PROGRA~1/msys64/mingw64/include/windows.h \
- C:/PROGRA~1/msys64/mingw64/include/sdkddkver.h \
- C:/PROGRA~1/msys64/mingw64/include/excpt.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/sys/types.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/windef.h \
- C:/PROGRA~1/msys64/mingw64/include/winapifamily.h \
- C:/PROGRA~1/msys64/mingw64/include/minwindef.h \
- C:/PROGRA~1/msys64/mingw64/include/specstrings.h \
- C:/PROGRA~1/msys64/mingw64/include/sal.h \
- C:/PROGRA~1/msys64/mingw64/include/concurrencysal.h \
- C:/PROGRA~1/msys64/mingw64/include/driverspecs.h \
- C:/PROGRA~1/msys64/mingw64/include/winnt.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_unicode.h \
- C:/PROGRA~1/msys64/mingw64/include/apiset.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
- C:/PROGRA~1/msys64/mingw64/include/basetsd.h \
- C:/PROGRA~1/msys64/mingw64/include/guiddef.h \
  C:/PROGRA~1/msys64/mingw64/include/string.h \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/strings.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
+ C:/PROGRA~1/msys64/mingw64/include/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+ C:/PROGRA~1/msys64/mingw64/include/float.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_error.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_endian.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mutex.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_thread.h \
+ C:/PROGRA~1/msys64/mingw64/include/process.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rwops.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_clipboard.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_cpuinfo.h \
+ C:/PROGRA~1/msys64/mingw64/include/intrin.h \
+ C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
+ C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
@@ -236,169 +266,6 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack4.h \
- C:/PROGRA~1/msys64/mingw64/include/poppack.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack4.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack2.h \
- C:/PROGRA~1/msys64/mingw64/include/poppack.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack2.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack8.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack8.h \
- C:/PROGRA~1/msys64/mingw64/include/ktmtypes.h \
- C:/PROGRA~1/msys64/mingw64/include/winbase.h \
- C:/PROGRA~1/msys64/mingw64/include/apisetcconv.h \
- C:/PROGRA~1/msys64/mingw64/include/minwinbase.h \
- C:/PROGRA~1/msys64/mingw64/include/bemapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/debugapi.h \
- C:/PROGRA~1/msys64/mingw64/include/errhandlingapi.h \
- C:/PROGRA~1/msys64/mingw64/include/fibersapi.h \
- C:/PROGRA~1/msys64/mingw64/include/fileapi.h \
- C:/PROGRA~1/msys64/mingw64/include/handleapi.h \
- C:/PROGRA~1/msys64/mingw64/include/heapapi.h \
- C:/PROGRA~1/msys64/mingw64/include/ioapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/interlockedapi.h \
- C:/PROGRA~1/msys64/mingw64/include/jobapi.h \
- C:/PROGRA~1/msys64/mingw64/include/libloaderapi.h \
- C:/PROGRA~1/msys64/mingw64/include/memoryapi.h \
- C:/PROGRA~1/msys64/mingw64/include/namedpipeapi.h \
- C:/PROGRA~1/msys64/mingw64/include/namespaceapi.h \
- C:/PROGRA~1/msys64/mingw64/include/processenv.h \
- C:/PROGRA~1/msys64/mingw64/include/processthreadsapi.h \
- C:/PROGRA~1/msys64/mingw64/include/processtopologyapi.h \
- C:/PROGRA~1/msys64/mingw64/include/profileapi.h \
- C:/PROGRA~1/msys64/mingw64/include/realtimeapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/securityappcontainer.h \
- C:/PROGRA~1/msys64/mingw64/include/securitybaseapi.h \
- C:/PROGRA~1/msys64/mingw64/include/synchapi.h \
- C:/PROGRA~1/msys64/mingw64/include/sysinfoapi.h \
- C:/PROGRA~1/msys64/mingw64/include/systemtopologyapi.h \
- C:/PROGRA~1/msys64/mingw64/include/threadpoolapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/threadpoollegacyapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/utilapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/wow64apiset.h \
- C:/PROGRA~1/msys64/mingw64/include/winerror.h \
- C:/PROGRA~1/msys64/mingw64/include/fltwinerror.h \
- C:/PROGRA~1/msys64/mingw64/include/timezoneapi.h \
- C:/PROGRA~1/msys64/mingw64/include/wingdi.h \
- C:/PROGRA~1/msys64/mingw64/include/pshpack1.h \
- C:/PROGRA~1/msys64/mingw64/include/winuser.h \
- C:/PROGRA~1/msys64/mingw64/include/tvout.h \
- C:/PROGRA~1/msys64/mingw64/include/winnls.h \
- C:/PROGRA~1/msys64/mingw64/include/datetimeapi.h \
- C:/PROGRA~1/msys64/mingw64/include/stringapiset.h \
- C:/PROGRA~1/msys64/mingw64/include/wincon.h \
- C:/PROGRA~1/msys64/mingw64/include/winver.h \
- C:/PROGRA~1/msys64/mingw64/include/winreg.h \
- C:/PROGRA~1/msys64/mingw64/include/reason.h \
- C:/PROGRA~1/msys64/mingw64/include/winnetwk.h \
- C:/PROGRA~1/msys64/mingw64/include/wnnc.h \
- C:/PROGRA~1/msys64/mingw64/include/virtdisk.h \
- C:/PROGRA~1/msys64/mingw64/include/cderr.h \
- C:/PROGRA~1/msys64/mingw64/include/dde.h \
- C:/PROGRA~1/msys64/mingw64/include/ddeml.h \
- C:/PROGRA~1/msys64/mingw64/include/dlgs.h \
- C:/PROGRA~1/msys64/mingw64/include/lzexpand.h \
- C:/PROGRA~1/msys64/mingw64/include/mmsystem.h \
- C:/PROGRA~1/msys64/mingw64/include/nb30.h \
- C:/PROGRA~1/msys64/mingw64/include/rpc.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcdce.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcdcep.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcnsi.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcnterr.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcasync.h \
- C:/PROGRA~1/msys64/mingw64/include/shellapi.h \
- C:/PROGRA~1/msys64/mingw64/include/winperf.h \
- C:/PROGRA~1/msys64/mingw64/include/winsock.h \
- C:/PROGRA~1/msys64/mingw64/include/_timeval.h \
- C:/PROGRA~1/msys64/mingw64/include/_bsd_types.h \
- C:/PROGRA~1/msys64/mingw64/include/inaddr.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_socket_types.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_fd_types.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_ip_types.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_ip_mreq1.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_wsadata.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_xmitfile.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
- C:/PROGRA~1/msys64/mingw64/include/wincrypt.h \
- C:/PROGRA~1/msys64/mingw64/include/bcrypt.h \
- C:/PROGRA~1/msys64/mingw64/include/ncrypt.h \
- C:/PROGRA~1/msys64/mingw64/include/dpapi.h \
- C:/PROGRA~1/msys64/mingw64/include/winefs.h \
- C:/PROGRA~1/msys64/mingw64/include/winscard.h \
- C:/PROGRA~1/msys64/mingw64/include/wtypes.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcndr.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcnsip.h \
- C:/PROGRA~1/msys64/mingw64/include/rpcsal.h \
- C:/PROGRA~1/msys64/mingw64/include/ole2.h \
- C:/PROGRA~1/msys64/mingw64/include/objbase.h \
- C:/PROGRA~1/msys64/mingw64/include/combaseapi.h \
- C:/PROGRA~1/msys64/mingw64/include/wtypesbase.h \
- C:/PROGRA~1/msys64/mingw64/include/unknwnbase.h \
- C:/PROGRA~1/msys64/mingw64/include/objidlbase.h \
- C:/PROGRA~1/msys64/mingw64/include/cguid.h \
- C:/PROGRA~1/msys64/mingw64/include/objidl.h \
- C:/PROGRA~1/msys64/mingw64/include/unknwn.h \
- C:/PROGRA~1/msys64/mingw64/include/urlmon.h \
- C:/PROGRA~1/msys64/mingw64/include/oleidl.h \
- C:/PROGRA~1/msys64/mingw64/include/servprov.h \
- C:/PROGRA~1/msys64/mingw64/include/msxml.h \
- C:/PROGRA~1/msys64/mingw64/include/oaidl.h \
- C:/PROGRA~1/msys64/mingw64/include/propidl.h \
- C:/PROGRA~1/msys64/mingw64/include/oleauto.h \
- C:/PROGRA~1/msys64/mingw64/include/winioctl.h \
- C:/PROGRA~1/msys64/mingw64/include/winsmcrd.h \
- C:/PROGRA~1/msys64/mingw64/include/winspool.h \
- C:/PROGRA~1/msys64/mingw64/include/prsht.h \
- C:/PROGRA~1/msys64/mingw64/include/commdlg.h \
- C:/PROGRA~1/msys64/mingw64/include/stralign.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/stralign_s.h \
- C:/PROGRA~1/msys64/mingw64/include/winsvc.h \
- C:/PROGRA~1/msys64/mingw64/include/mcx.h \
- C:/PROGRA~1/msys64/mingw64/include/imm.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
- C:/PROGRA~1/msys64/mingw64/include/sys/types.h \
- C:/PROGRA~1/msys64/mingw64/include/strings.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
- C:/PROGRA~1/msys64/mingw64/include/math.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_error.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_endian.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mutex.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_thread.h \
- C:/PROGRA~1/msys64/mingw64/include/process.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rwops.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_clipboard.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_cpuinfo.h \
- C:/PROGRA~1/msys64/mingw64/include/intrin.h \
- C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_events.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_video.h \
@@ -447,6 +314,6 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/Graphics.h \
  D:\code\cpp\gameGngine\test/MainCharacter.h \
- D:/code/cpp/gameGngine/include/Actor.h \
- D:/code/cpp/gameGngine/include/Graphics.h
+ D:/code/cpp/gameGngine/include/Actor.h

@@ -1,8 +1,9 @@
 #ifndef GE_GAMEBASE_H
 #define GE_GAMEBASE_H
 
-#include <GL/gl.h>
-#include <GL/glu.h>
+// #include <GL/gl.h>
+// #include <GL/glu.h>
+#include <GL/glew.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>
 #include <SDL2/SDL_image.h>
@@ -40,6 +41,7 @@ namespace GameEngine
         virtual bool initSDLImage();
         virtual void gameContext();
         void gameEventHandle();
+        virtual void begin();
         void startGame();
         //template 需要實現在template裡，不可分
         // template<class TActor, class TGraphics>

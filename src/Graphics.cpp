@@ -1,88 +1,47 @@
 #include "Graphics.h"
 
-//以下為Color的函數實現
-
-GameEngine::Graphics::Color::Color(GLclampf r, GLclampf g, GLclampf b, GLclampf a)
+unsigned int GameEngine::Graphics::compileShader(unsigned int type, const char* source)
 {
-    this->r = r;
-    this->g = g;
-    this->b = b;
-    this->a = a;
+    unsigned int id = glCreateShader(type);
+    glShaderSource(id, 1, &source, nullptr);
+    glCompileShader(id);
+
+    //error handle
+    int result;
+    glGetShaderiv(id, GL_COMPILE_STATUS, &result);
+    if (!result)
+    {
+        int length;
+        glGetShaderiv(id, GL_INFO_LOG_LENGTH, &length);
+        char* message = new char[length];
+        printf("Failed to compile %s shader\n", (type == GL_VERTEX_SHADER) ? "vertex" : "fragment");
+        printf("%s", message);
+        glDeleteShader(id);
+        return 0;
+    }
+    return id;
 }
 
-//以下為Graphics(圖形基類)的函數實現
-
-GameEngine::Graphics::Graphics::Graphics()
+unsigned int GameEngine::Graphics::createShader(const char* const vertexShader, const char* const fragmentShader)
 {
-    this->x = 0;
-    this->y = 0;
-    this->width = 0;
-    this->height = 0;
-    this->color = new Color(1.f, 1.f, 1.f, 1.f);
+    unsigned int program = glCreateProgram();
+    unsigned int vs = GameEngine::Graphics::compileShader(GL_VERTEX_SHADER, vertexShader);
+    unsigned int fs = GameEngine::Graphics::compileShader(GL_FRAGMENT_SHADER, fragmentShader);
+    
+    glAttachShader(program, vs);
+    glAttachShader(program, fs);
+    glLinkProgram(program);
+    glValidateProgram(program);
+
+    glDeleteShader(vs);
+    glDeleteShader(fs);
+    return program;
 }
 
-GameEngine::Graphics::Graphics::Graphics(float* x, float* y)
+GameEngine::Graphics::Graphics::Graphics(float x, float y)
 {
     this->x = x;
     this->y = y;
-    this->width = 0;
-    this->height = 0;
-    this->color = new Color(1.f, 1.f, 1.f, 1.f);
-}
-
-GameEngine::Graphics::Graphics::Graphics(float* x, float* y, Color* color)
-{
-    this->x = x;
-    this->y = y;
-    this->width = 0;
-    this->height = 0;
-    this->color = color;
-}
-
-GameEngine::Graphics::Graphics::Graphics(float* x, float* y, float width, float height)
-{
-    this->x = x;
-    this->y = y;
-    this->width = width;
-    this->height = height;
-    this->color = new Color(1.f, 1.f, 1.f, 1.f);
-}
-
-GameEngine::Graphics::Graphics::Graphics(float* x, float* y, float width, float height, Color* color)
-{
-    this->x = x;
-    this->y = y;
-    this->width = width;
-    this->height = height;
-    this->color = color;
-}
-
-GameEngine::Graphics::Graphics::~Graphics()
-{
-    delete this->color;
-    return;
-}
-
-float GameEngine::Graphics::Graphics::getX()
-{
-    return *this->x;
-}
-
-void GameEngine::Graphics::Graphics::setOffestX(float x)
-{
-    this->offsetX = x;
-    return;
-}
-
-float GameEngine::Graphics::Graphics::getY()
-{
-    return *this->y;
-}
-
-void GameEngine::Graphics::Graphics::setOffsetY(float y)
-{
-    this->offsetY = y;
-    return;
 }
 
 void GameEngine::Graphics::Graphics::render()
@@ -90,139 +49,54 @@ void GameEngine::Graphics::Graphics::render()
     return;
 }
 
-//end of Graphics(圖形基類)
-
-//以下為Rect(矩形)的函數實現
-
-GameEngine::Graphics::Rect::Rect(): Graphics()
+GameEngine::Graphics::Rect::Rect(float x, float y, float width, float height): Graphics(x, y)
 {
+    this->width = width;
+    this->height = height;
+    this->processVBO();
     return;
 }
 
-GameEngine::Graphics::Rect::Rect(float x, float y): Graphics(x, y)
+void GameEngine::Graphics::Rect::processVBO()
 {
-    return;
-}
+    float vertices[6] = {
+        -0.5f, -0.5f,
+         0.5f, -0.5f,
+         0.0f,  0.5f
+    };
+    glGenBuffers(1, &(this->VBO));
+    glBindBuffer(GL_ARRAY_BUFFER, this->VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    //usage
+    // STATIC	資料只被設定一次，但會被使用很多次
+    // DYNAMIC	資料被改變很多次，也被使用很多次
+    // STREAM	資料每次繪製都會改變
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 
-GameEngine::Graphics::Rect::Rect(float x, float y, Color* color): Graphics(x, y, color)
-{
-    return;
-}
-
-GameEngine::Graphics::Rect::Rect(float x, float y, float width, float height): Graphics(x, y, width, height)
-{
-    return;
-}
-
-GameEngine::Graphics::Rect::Rect(float x, float y, float width, float height, Color* color): Graphics(x, y, width, height, color)
-{
-    return;
+    const char* const vertexShader = 
+    "#version 330 core\n"
+    "\n"
+    "layout(location = 0) in vec4 pos;"
+    "void main()\n"
+    "{\n"
+    "   gl_Position = pos;\n"
+    "}\n";
+    const char* const fragmentShader = 
+    "#version 330 core\n"
+    "\n"
+    "layout(location = 0) out vec4 color;"
+    "void main()\n"
+    "{\n"
+    "   color = vec4(1.0, 0.0, 0.0, 1.0);\n"
+    "}\n";
+    unsigned int shader = GameEngine::Graphics::createShader(vertexShader, fragmentShader);
+    glUseProgram(shader);
 }
 
 void GameEngine::Graphics::Rect::render()
 {
-    float x2 = this->x + this->width;
-    float y2 = this->y + this->height;
-    glColor3f(this->color->r, this->color->g, this->color->b);
-    glBegin(GL_QUADS);
-        glVertex3f(this->x, this->y, 0.0f);
-        glVertex3f(x2, this->y, 0.0f);
-        glVertex3f(x2, y2, 0.0f);
-        glVertex3f(this->x, y2, 0.0f);
-    glEnd();
-    return;
-}
+    glDrawArrays(GL_TRIANGLES, 0, 3);
 
-/*
-Texture
-    -用以渲染image到多邊形上
-    -需用load()讀取資料後產生獨一無二的texture ID
-    -texture ID為空時為0
-*/
-
-GameEngine::Graphics::Texture::Texture(float x, float y): Graphics(x, y)
-{
-    this->textureID = 0;
-    return;
-}
-
-GameEngine::Graphics::Texture::~Texture()
-{
-    return;
-}
-
-/*用於載入圖片，支持png、jpg*/
-unsigned int GameEngine::Graphics::Texture::load(const char* fileName)
-{
-    SDL_Surface* img;
-    GLenum textureFormat;
-    GLint bpp; //Byte per pixel
-
-    img = IMG_Load(fileName);
-
-    bpp = img->format->BytesPerPixel;
-    if (bpp == 4)
-    {
-        if (img->format->Rmask == 0x000000ff)
-            textureFormat = GL_RGBA;
-        else
-            textureFormat = GL_BGRA_EXT;
-    }
-    else if (bpp == 3)
-    {
-        if (img->format->Rmask == 0x000000ff)
-            textureFormat = GL_RGB;
-        else
-            textureFormat = GL_BGR_EXT;
-    }
-
-    GLuint textureID;
-    glGenTextures(1, &textureID);
-    glBindTexture(GL_TEXTURE_2D, textureID);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-    glTexImage2D(GL_TEXTURE_2D,    //texture type 
-        0,                         //level
-        bpp,                       //internal format
-        img->w,                    //width
-        img->h,                    //height
-        0,                         //border
-        textureFormat,             //format
-        GL_UNSIGNED_BYTE,          //data type
-        img->pixels                //data
-    );
-
-    glBindTexture(GL_TEXTURE_2D, 0);
-    SDL_FreeSurface(img);
-    return textureID;
-}
-
-void GameEngine::Graphics::Texture::render()
-{
-    return;
-}
-
-/*以下為Graphics處理時用的function*/
-void filpSurface(SDL_Surface* surface)
-{
-    SDL_LockSurface(surface);
-
-    int pitch = surface->pitch; //row size
-    char* temp = new char[pitch]; //intermediate buffer
-    char* pixels = (char*)surface->pixels;
-    char* row1;
-    char* row2;
-    for (int i = 0; i < surface->h / 2; ++i)
-    {
-        row1 = pixels + i * pitch;
-        row2 = pixels + (surface->h - i - 1) * pitch;
-
-        //swap rows
-        memcpy(temp, row1, pitch);
-        memcpy(row1, row2, pitch);
-        memcpy(row2, temp, pitch);
-    }
-    delete[] temp;
-    SDL_UnlockSurface(surface);
 }

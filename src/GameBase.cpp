@@ -21,16 +21,16 @@ bool GameEngine::GameBase::initSDL()
         printf("SDL Init Error: %s\n", SDL_GetError());
         return false;
     }
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GLprofile::SDL_GL_CONTEXT_PROFILE_CORE);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
-
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
+    
     this->window = SDL_CreateWindow(this->title, 
         SDL_WINDOWPOS_UNDEFINED, 
         SDL_WINDOWPOS_UNDEFINED,
         this->screenWidth,
         this->screenHeight,
-        SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN);
+        SDL_WINDOW_OPENGL);
     if (!this->window)
     {
         printf("Create Window Error: %s\n", SDL_GetError());
@@ -38,13 +38,25 @@ bool GameEngine::GameBase::initSDL()
         return false;
     }
     this->GLContext = SDL_GL_CreateContext(this->window);
+    
     if (!this->GLContext)
     {
         printf("Create Window Error: %s\n", SDL_GetError());
         SDL_Quit();
         return false;
     }
+    SDL_GL_MakeCurrent(this->window, this->GLContext);
+    if (glewInit() != GLEW_OK)
+    {
+        printf("Init glew error\n");
+        return false;
+    }
     SDL_GL_SetSwapInterval(1);
+    // if (!initGL())
+    // {
+    //     printf("Init OpenGL error\n");
+    //     return false;
+    // }
     return true;
 }
 
@@ -52,16 +64,16 @@ bool GameEngine::GameBase::initGL()
 {
     // float ratio = (float)(this->screenWidth / this->screenHeight);    
     // glShadeModel(GL_SMOOTH);  
-    glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
-    glClear(GL_COLOR_BUFFER_BIT);
-    SDL_GL_SwapWindow(this->window);
+    // glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+    // glClear(GL_COLOR_BUFFER_BIT);
+    // SDL_GL_SwapWindow(this->window);
 
     // Setup our viewport.  
     // glViewport(0, 0, this->screenWidth, this->screenHeight);    
-    glMatrixMode(GL_PROJECTION); //投影矩陣
-    glLoadIdentity(); //單位矩陣
+    // glMatrixMode(GL_PROJECTION); //投影矩陣
+    // glLoadIdentity(); //單位矩陣
     // gluPerspective(60.0, ratio, 1.0, 100.0);
-    glOrtho(0.0f, this->screenWidth, this->screenHeight, 0.0f, -1.0f, 1.0f);
+    // glOrtho(0.0f, this->screenWidth, this->screenHeight, 0.0f, -1.0f, 1.0f);
     return true;
 }
 
@@ -109,11 +121,17 @@ void GameEngine::GameBase::gameEventHandle()
     }
 }
 
+void GameEngine::GameBase::begin()
+{
+    return;
+}
+
 void GameEngine::GameBase::startGame()
 {
     // this->gameEventManager = new GameEventManager();
     // this->gameEventManager->bindKeyEvent('w', [](){ printf("Test\n"); });
     // this->gameEventManager->bindKeyEvent('w', std::bind(&this->))
+    this->begin();
     this->running = true;
     while (this->running)
     {
