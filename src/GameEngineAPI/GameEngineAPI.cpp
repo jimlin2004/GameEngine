@@ -2,7 +2,8 @@
 
 GameEngine::GameEngineAPI::GameEngineAPI()
 {
-    this->gameEventManager = new GameEventManager();
+    this->shaderManager = new GameEngine::ShaderManager();
+    this->gameEventManager = new GameEngine::GameEventManager();
 }
 
 void GameEngine::GameEngineAPI::callKeyEvent(int key)

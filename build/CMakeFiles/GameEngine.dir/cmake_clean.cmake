@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/GameObject.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj"
   "CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj"

@@ -71,6 +71,11 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\ShaderManager.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ShaderManager.cpp",
+  "file": "D:/code/cpp/gameGngine/src/ShaderManager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\MainCharacter.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\MainCharacter.cpp",
   "file": "D:/code/cpp/gameGngine/test/MainCharacter.cpp"
 },

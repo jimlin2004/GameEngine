@@ -16,3 +16,8 @@
     Todo list
         -shader的compile、create函式封裝
         -shader從file中抓取的class
+2023/01/12
+    1. 學習IBO
+    2. 用IBO渲染矩形
+    3. 學習Uniform
+    4. 寫出ShaderManager並將其至於GEngine底下

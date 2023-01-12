@@ -4,6 +4,7 @@
 #include <functional>
 #include "../GameBaseComponent/GameEventManager/GameEventManager.h"
 #include "../DataStruct/Vector/Vector.h"
+#include "../ShaderManager.h"
 
 
 namespace GameEngine
@@ -30,6 +31,7 @@ namespace GameEngine
         }
         void callKeyEvent(int key);
         void addKeyEvent(int key, std::function<void()> func);
+        ShaderManager* shaderManager;
     private:
         GameEventManager* gameEventManager;
     };

@@ -484,6 +484,30 @@ src/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
 
+src/ShaderManager.obj: src/ShaderManager.cpp.obj
+.PHONY : src/ShaderManager.obj
+
+# target to build an object file
+src/ShaderManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj
+.PHONY : src/ShaderManager.cpp.obj
+
+src/ShaderManager.i: src/ShaderManager.cpp.i
+.PHONY : src/ShaderManager.i
+
+# target to preprocess a source file
+src/ShaderManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.i
+.PHONY : src/ShaderManager.cpp.i
+
+src/ShaderManager.s: src/ShaderManager.cpp.s
+.PHONY : src/ShaderManager.s
+
+# target to generate assembly for a file
+src/ShaderManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.s
+.PHONY : src/ShaderManager.cpp.s
+
 test/MainCharacter.obj: test/MainCharacter.cpp.obj
 .PHONY : test/MainCharacter.obj
 
@@ -585,6 +609,9 @@ help:
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... src/ShaderManager.obj
+	@echo ... src/ShaderManager.i
+	@echo ... src/ShaderManager.s
 	@echo ... test/MainCharacter.obj
 	@echo ... test/MainCharacter.i
 	@echo ... test/MainCharacter.s
