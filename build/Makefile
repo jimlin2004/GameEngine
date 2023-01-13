@@ -484,6 +484,30 @@ src/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
 
+src/IndexBuffer.obj: src/IndexBuffer.cpp.obj
+.PHONY : src/IndexBuffer.obj
+
+# target to build an object file
+src/IndexBuffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj
+.PHONY : src/IndexBuffer.cpp.obj
+
+src/IndexBuffer.i: src/IndexBuffer.cpp.i
+.PHONY : src/IndexBuffer.i
+
+# target to preprocess a source file
+src/IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.i
+.PHONY : src/IndexBuffer.cpp.i
+
+src/IndexBuffer.s: src/IndexBuffer.cpp.s
+.PHONY : src/IndexBuffer.s
+
+# target to generate assembly for a file
+src/IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.s
+.PHONY : src/IndexBuffer.cpp.s
+
 src/ShaderManager.obj: src/ShaderManager.cpp.obj
 .PHONY : src/ShaderManager.obj
 
@@ -507,6 +531,78 @@ src/ShaderManager.s: src/ShaderManager.cpp.s
 src/ShaderManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.s
 .PHONY : src/ShaderManager.cpp.s
+
+src/VertexArray.obj: src/VertexArray.cpp.obj
+.PHONY : src/VertexArray.obj
+
+# target to build an object file
+src/VertexArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexArray.cpp.obj
+.PHONY : src/VertexArray.cpp.obj
+
+src/VertexArray.i: src/VertexArray.cpp.i
+.PHONY : src/VertexArray.i
+
+# target to preprocess a source file
+src/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexArray.cpp.i
+.PHONY : src/VertexArray.cpp.i
+
+src/VertexArray.s: src/VertexArray.cpp.s
+.PHONY : src/VertexArray.s
+
+# target to generate assembly for a file
+src/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexArray.cpp.s
+.PHONY : src/VertexArray.cpp.s
+
+src/VertexBuffer.obj: src/VertexBuffer.cpp.obj
+.PHONY : src/VertexBuffer.obj
+
+# target to build an object file
+src/VertexBuffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.obj
+.PHONY : src/VertexBuffer.cpp.obj
+
+src/VertexBuffer.i: src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.i
+
+# target to preprocess a source file
+src/VertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.cpp.i
+
+src/VertexBuffer.s: src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.s
+
+# target to generate assembly for a file
+src/VertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.cpp.s
+
+src/VertexBufferLayout.obj: src/VertexBufferLayout.cpp.obj
+.PHONY : src/VertexBufferLayout.obj
+
+# target to build an object file
+src/VertexBufferLayout.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj
+.PHONY : src/VertexBufferLayout.cpp.obj
+
+src/VertexBufferLayout.i: src/VertexBufferLayout.cpp.i
+.PHONY : src/VertexBufferLayout.i
+
+# target to preprocess a source file
+src/VertexBufferLayout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.i
+.PHONY : src/VertexBufferLayout.cpp.i
+
+src/VertexBufferLayout.s: src/VertexBufferLayout.cpp.s
+.PHONY : src/VertexBufferLayout.s
+
+# target to generate assembly for a file
+src/VertexBufferLayout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.s
+.PHONY : src/VertexBufferLayout.cpp.s
 
 test/MainCharacter.obj: test/MainCharacter.cpp.obj
 .PHONY : test/MainCharacter.obj
@@ -609,9 +705,21 @@ help:
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... src/IndexBuffer.obj
+	@echo ... src/IndexBuffer.i
+	@echo ... src/IndexBuffer.s
 	@echo ... src/ShaderManager.obj
 	@echo ... src/ShaderManager.i
 	@echo ... src/ShaderManager.s
+	@echo ... src/VertexArray.obj
+	@echo ... src/VertexArray.i
+	@echo ... src/VertexArray.s
+	@echo ... src/VertexBuffer.obj
+	@echo ... src/VertexBuffer.i
+	@echo ... src/VertexBuffer.s
+	@echo ... src/VertexBufferLayout.obj
+	@echo ... src/VertexBufferLayout.i
+	@echo ... src/VertexBufferLayout.s
 	@echo ... test/MainCharacter.obj
 	@echo ... test/MainCharacter.i
 	@echo ... test/MainCharacter.s

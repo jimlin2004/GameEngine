@@ -355,6 +355,8 @@ CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/VertexBuffer.h \
+ D:/code/cpp/gameGngine/include/IndexBuffer.h \
  D:/code/cpp/gameGngine/include/Actor.h \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \

@@ -357,6 +357,8 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:/code/cpp/gameGngine/main.cpp \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL.h \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameGngine/include/Graphics.h \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -722,6 +724,8 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: D:/code/cpp/gameGngine/src/Actor.cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -1087,7 +1091,9 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj: D:/code/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h
 
 CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp \
   D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
@@ -1441,7 +1447,9 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj: D:/code/cpp/game
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h
 
 CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
@@ -1988,6 +1996,8 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: D:/code/cpp/gameGngine/src/GameB
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   D:/code/cpp/gameGngine/include/Graphics.h \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -2656,7 +2666,32 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj: D:/code/cpp/gameGngine/src/Graph
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h
+
+CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/IndexBuffer.cpp \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
+  C:/Program\ Files/msys64/mingw64/include/stdio.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
+  C:/Program\ Files/msys64/mingw64/include/swprintf.inl \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdio_s.h
 
 CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj: D:/code/cpp/gameGngine/src/ShaderManager.cpp \
   D:/code/cpp/gameGngine/include/ShaderManager.h \
@@ -2807,6 +2842,150 @@ CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj: D:/code/cpp/gameGngine/src/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
+
+CMakeFiles/GameEngine.dir/src/VertexArray.cpp.obj: D:/code/cpp/gameGngine/src/VertexArray.cpp \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/vector \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/new \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc
+
+CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/VertexBuffer.cpp \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h
+
+CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj: D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/vector \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/new \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
+  C:/Program\ Files/msys64/mingw64/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h
 
 CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj: D:/code/cpp/gameGngine/test/MainCharacter.cpp \
   D:/code/cpp/gameGngine/test/MainCharacter.h \
@@ -3162,6 +3341,8 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj: D:/code/cpp/gameGngine/tes
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -3528,6 +3709,8 @@ CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj: D:/code/cpp/gameGngine/test/Tes
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL.h \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameGngine/include/Graphics.h \
+  D:/code/cpp/gameGngine/include/VertexBuffer.h \
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -3845,6 +4028,8 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmint
 
 C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h:
 
+D:/code/cpp/gameGngine/include/VertexBufferLayout.h:
+
 C:/Program\ Files/msys64/mingw64/include/_mingw_stat64.h:
 
 C:/Program\ Files/msys64/mingw64/include/swprintf.inl:
@@ -3972,6 +4157,8 @@ C:/Program\ Files/msys64/mingw64/include/time.h:
 D:/code/cpp/gameGngine/src/ShaderManager.cpp:
 
 C:/Program\ Files/msys64/mingw64/include/sys/timeb.h:
+
+D:/code/cpp/gameGngine/include/VertexBuffer.h:
 
 C:/Program\ Files/msys64/mingw64/include/sec_api/sys/timeb_s.h:
 
@@ -4279,6 +4466,8 @@ C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_opengl.h:
 
 D:/code/cpp/gameGngine/include/Graphics.h:
 
+D:/code/cpp/gameGngine/include/IndexBuffer.h:
+
 D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h:
 
 D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp:
@@ -4292,3 +4481,13 @@ D:/code/cpp/gameGngine/src/GameBase.cpp:
 D:/code/cpp/gameGngine/src/GameObject.cpp:
 
 D:/code/cpp/gameGngine/src/Graphics.cpp:
+
+D:/code/cpp/gameGngine/src/IndexBuffer.cpp:
+
+D:/code/cpp/gameGngine/src/VertexArray.cpp:
+
+D:/code/cpp/gameGngine/include/VertexArray.h:
+
+D:/code/cpp/gameGngine/src/VertexBuffer.cpp:
+
+D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp:

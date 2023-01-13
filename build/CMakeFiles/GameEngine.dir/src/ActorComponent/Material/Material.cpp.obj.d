@@ -351,4 +351,6 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ D:/code/cpp/gameGngine/include/VertexBuffer.h \
+ D:/code/cpp/gameGngine/include/IndexBuffer.h

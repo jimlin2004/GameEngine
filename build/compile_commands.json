@@ -71,8 +71,28 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\IndexBuffer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\IndexBuffer.cpp",
+  "file": "D:/code/cpp/gameGngine/src/IndexBuffer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\ShaderManager.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ShaderManager.cpp",
   "file": "D:/code/cpp/gameGngine/src/ShaderManager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\VertexArray.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexArray.cpp",
+  "file": "D:/code/cpp/gameGngine/src/VertexArray.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\VertexBuffer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexBuffer.cpp",
+  "file": "D:/code/cpp/gameGngine/src/VertexBuffer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\VertexBufferLayout.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexBufferLayout.cpp",
+  "file": "D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
