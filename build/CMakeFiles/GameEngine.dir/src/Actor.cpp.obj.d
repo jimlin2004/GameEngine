@@ -354,6 +354,8 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
  D:/code/cpp/gameGngine/include/IndexBuffer.h \
+ D:/code/cpp/gameGngine/include/VertexArray.h \
+ D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
  D:/code/cpp/gameGngine/include/GameObject.h \

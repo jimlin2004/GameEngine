@@ -11,8 +11,12 @@ namespace GameEngine
     public:
         VertexArray();
         ~VertexArray();
-
+        void generate();
+        void bind();
+        void unbind();
         void addBuffer(VertexBuffer& VB, const VertexBufferLayout& layout);
+    private:
+        unsigned int id;
     };
 }
 

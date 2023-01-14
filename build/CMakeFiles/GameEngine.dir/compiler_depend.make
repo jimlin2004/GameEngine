@@ -359,6 +359,8 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:/code/cpp/gameGngine/main.cpp \
   D:/code/cpp/gameGngine/include/Graphics.h \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -726,6 +728,8 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: D:/code/cpp/gameGngine/src/Actor.cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -1093,7 +1097,9 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj: D:/code/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
-  D:/code/cpp/gameGngine/include/IndexBuffer.h
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h
 
 CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp \
   D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
@@ -1449,7 +1455,9 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj: D:/code/cpp/game
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
-  D:/code/cpp/gameGngine/include/IndexBuffer.h
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h
 
 CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
@@ -1998,6 +2006,8 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: D:/code/cpp/gameGngine/src/GameB
   D:/code/cpp/gameGngine/include/Graphics.h \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -2668,7 +2678,9 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj: D:/code/cpp/gameGngine/src/Graph
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
-  D:/code/cpp/gameGngine/include/IndexBuffer.h
+  D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h
 
 CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/IndexBuffer.cpp \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
@@ -3343,6 +3355,8 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj: D:/code/cpp/gameGngine/tes
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -3711,6 +3725,8 @@ CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj: D:/code/cpp/gameGngine/test/Tes
   D:/code/cpp/gameGngine/include/Graphics.h \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
+  D:/code/cpp/gameGngine/include/VertexArray.h \
+  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -4468,6 +4484,8 @@ D:/code/cpp/gameGngine/include/Graphics.h:
 
 D:/code/cpp/gameGngine/include/IndexBuffer.h:
 
+D:/code/cpp/gameGngine/include/VertexArray.h:
+
 D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h:
 
 D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp:
@@ -4485,8 +4503,6 @@ D:/code/cpp/gameGngine/src/Graphics.cpp:
 D:/code/cpp/gameGngine/src/IndexBuffer.cpp:
 
 D:/code/cpp/gameGngine/src/VertexArray.cpp:
-
-D:/code/cpp/gameGngine/include/VertexArray.h:
 
 D:/code/cpp/gameGngine/src/VertexBuffer.cpp:
 

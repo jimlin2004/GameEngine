@@ -11,7 +11,6 @@ namespace GameEngine
     public:
         VertexBufferElement(unsigned int type, unsigned int count, bool normalized);
         ~VertexBufferElement();
-    private:
         unsigned int count;
         unsigned int type;
         bool normalized;
@@ -22,10 +21,11 @@ namespace GameEngine
     public:
         VertexBufferLayout();
         ~VertexBufferLayout();
-        void push(unsigned int type, int count);
-        unsigned int getStride();
-        unsigned int stride;
+        void push(unsigned int type, unsigned int count);
+        inline unsigned int getStride() const {return stride;};
         const std::vector<VertexBufferElement*>& getElements() const;
+        unsigned int stride;
+        static unsigned int getSizezOfType(unsigned int type);
     private:
         std::vector<VertexBufferElement*> elements;
     };

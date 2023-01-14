@@ -352,4 +352,6 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/include/IndexBuffer.h
+ D:/code/cpp/gameGngine/include/IndexBuffer.h \
+ D:/code/cpp/gameGngine/include/VertexArray.h \
+ D:/code/cpp/gameGngine/include/VertexBufferLayout.h

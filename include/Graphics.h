@@ -9,6 +9,7 @@
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "VertexBuffer.h"
 #include "IndexBuffer.h"
+#include "VertexArray.h"
 
 #include "GameObject.h"
 
@@ -37,6 +38,7 @@ namespace GameEngine
             unsigned int VAO;
             unsigned int IBO;
             unsigned int shader;
+            VertexArray* va;
             VertexBuffer* vb;
             IndexBuffer* ib;
 
