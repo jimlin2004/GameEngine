@@ -30,3 +30,8 @@
         15:17
 2023/01/14
     1. 完成VertexArrray
+2023/01/15
+    1. 完成Shader(class)
+    Todo list
+        -setUniform(統一interface)
+        -texture

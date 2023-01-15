@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/Shader.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/Shader.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/VertexArray.cpp.obj"

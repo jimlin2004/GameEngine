@@ -152,7 +152,8 @@
 				17,
 				18,
 				19,
-				21
+				20,
+				22
 			]
 		}
 	],
@@ -284,15 +285,16 @@
 				17,
 				18,
 				19,
-				21
+				20,
+				22
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				20,
-				22
+				21,
+				23
 			]
 		}
 	],
@@ -386,6 +388,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/IndexBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Shader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

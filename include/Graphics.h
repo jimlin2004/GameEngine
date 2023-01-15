@@ -10,6 +10,7 @@
 #include "VertexBuffer.h"
 #include "IndexBuffer.h"
 #include "VertexArray.h"
+#include "Shader.h"
 
 #include "GameObject.h"
 
@@ -37,10 +38,11 @@ namespace GameEngine
             unsigned int VBO;
             unsigned int VAO;
             unsigned int IBO;
-            unsigned int shader;
+            // unsigned int shader;
             VertexArray* va;
             VertexBuffer* vb;
             IndexBuffer* ib;
+            Shader* shader;
 
             void processVBO();
         };
