@@ -556,6 +556,30 @@ src/ShaderManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.s
 .PHONY : src/ShaderManager.cpp.s
 
+src/Texture.obj: src/Texture.cpp.obj
+.PHONY : src/Texture.obj
+
+# target to build an object file
+src/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Texture.cpp.obj
+.PHONY : src/Texture.cpp.obj
+
+src/Texture.i: src/Texture.cpp.i
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
 src/VertexArray.obj: src/VertexArray.cpp.obj
 .PHONY : src/VertexArray.obj
 
@@ -676,6 +700,54 @@ test/TestGame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/TestGame.cpp.s
 .PHONY : test/TestGame.cpp.s
 
+third_party/glm/detail/glm.obj: third_party/glm/detail/glm.cpp.obj
+.PHONY : third_party/glm/detail/glm.obj
+
+# target to build an object file
+third_party/glm/detail/glm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.obj
+.PHONY : third_party/glm/detail/glm.cpp.obj
+
+third_party/glm/detail/glm.i: third_party/glm/detail/glm.cpp.i
+.PHONY : third_party/glm/detail/glm.i
+
+# target to preprocess a source file
+third_party/glm/detail/glm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.i
+.PHONY : third_party/glm/detail/glm.cpp.i
+
+third_party/glm/detail/glm.s: third_party/glm/detail/glm.cpp.s
+.PHONY : third_party/glm/detail/glm.s
+
+# target to generate assembly for a file
+third_party/glm/detail/glm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.s
+.PHONY : third_party/glm/detail/glm.cpp.s
+
+third_party/stb_image/std_image.obj: third_party/stb_image/std_image.cpp.obj
+.PHONY : third_party/stb_image/std_image.obj
+
+# target to build an object file
+third_party/stb_image/std_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj
+.PHONY : third_party/stb_image/std_image.cpp.obj
+
+third_party/stb_image/std_image.i: third_party/stb_image/std_image.cpp.i
+.PHONY : third_party/stb_image/std_image.i
+
+# target to preprocess a source file
+third_party/stb_image/std_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.i
+.PHONY : third_party/stb_image/std_image.cpp.i
+
+third_party/stb_image/std_image.s: third_party/stb_image/std_image.cpp.s
+.PHONY : third_party/stb_image/std_image.s
+
+# target to generate assembly for a file
+third_party/stb_image/std_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.s
+.PHONY : third_party/stb_image/std_image.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -738,6 +810,9 @@ help:
 	@echo ... src/ShaderManager.obj
 	@echo ... src/ShaderManager.i
 	@echo ... src/ShaderManager.s
+	@echo ... src/Texture.obj
+	@echo ... src/Texture.i
+	@echo ... src/Texture.s
 	@echo ... src/VertexArray.obj
 	@echo ... src/VertexArray.i
 	@echo ... src/VertexArray.s
@@ -753,6 +828,12 @@ help:
 	@echo ... test/TestGame.obj
 	@echo ... test/TestGame.i
 	@echo ... test/TestGame.s
+	@echo ... third_party/glm/detail/glm.obj
+	@echo ... third_party/glm/detail/glm.i
+	@echo ... third_party/glm/detail/glm.s
+	@echo ... third_party/stb_image/std_image.obj
+	@echo ... third_party/stb_image/std_image.i
+	@echo ... third_party/stb_image/std_image.s
 .PHONY : help
 
 

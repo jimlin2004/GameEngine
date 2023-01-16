@@ -6,6 +6,8 @@ GameEngine::GameBase::GameBase(const char* title, int width, int height)
     this->screenWidth = width;
     this->screenHeight = height;
     this->running = false;
+    //bind screen size to PROJECTION_MATRIX
+    GameEngine::PROJECTION_MATRIX = glm::ortho(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight, -1.0f, 1.0f);
     // this->gameEventManager = new GameEventManager();
 }
 
@@ -62,6 +64,8 @@ bool GameEngine::GameBase::initSDL()
 
 bool GameEngine::GameBase::initGL()
 {
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     // float ratio = (float)(this->screenWidth / this->screenHeight);    
     // glShadeModel(GL_SMOOTH);  
     // glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
@@ -77,17 +81,17 @@ bool GameEngine::GameBase::initGL()
     return true;
 }
 
-bool GameEngine::GameBase::initSDLImage()
-{
-    int sdl_img_init_flags = IMG_INIT_JPG | IMG_INIT_PNG;
-    int img_init = IMG_Init(sdl_img_init_flags);
-    if ((img_init & sdl_img_init_flags) != sdl_img_init_flags) 
-    {
-        printf("SDL Image Init Error: %s\n", SDL_GetError());
-        return false;
-    }
-    return true;
-}
+// bool GameEngine::GameBase::initSDLImage()
+// {
+//     int sdl_img_init_flags = IMG_INIT_JPG | IMG_INIT_PNG;
+//     int img_init = IMG_Init(sdl_img_init_flags);
+//     if ((img_init & sdl_img_init_flags) != sdl_img_init_flags) 
+//     {
+//         printf("SDL Image Init Error: %s\n", SDL_GetError());
+//         return false;
+//     }
+//     return true;
+// }
 
 void GameEngine::GameBase::gameContext()
 {

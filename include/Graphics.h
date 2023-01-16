@@ -11,6 +11,7 @@
 #include "IndexBuffer.h"
 #include "VertexArray.h"
 #include "Shader.h"
+#include "Texture.h"
 
 #include "GameObject.h"
 
@@ -33,6 +34,7 @@ namespace GameEngine
         public:
             float width, height; 
             Rect(float x, float y, float width, float height);
+            ~Rect();
             virtual void render() override;
         private:
             unsigned int VBO;
@@ -43,8 +45,9 @@ namespace GameEngine
             VertexBuffer* vb;
             IndexBuffer* ib;
             Shader* shader;
+            Texture* texture;
 
-            void processVBO();
+            void init();
         };
     }
 }

@@ -25,11 +25,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameGngine/src/IndexBuffer.cpp" "CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/Shader.cpp" "CMakeFiles/GameEngine.dir/src/Shader.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Shader.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/ShaderManager.cpp" "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj.d"
+  "D:/code/cpp/gameGngine/src/Texture.cpp" "CMakeFiles/GameEngine.dir/src/Texture.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Texture.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/VertexArray.cpp" "CMakeFiles/GameEngine.dir/src/VertexArray.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/VertexArray.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/VertexBuffer.cpp" "CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp" "CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj.d"
   "D:/code/cpp/gameGngine/test/MainCharacter.cpp" "CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj.d"
   "D:/code/cpp/gameGngine/test/TestGame.cpp" "CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj.d"
+  "D:/code/cpp/gameGngine/third_party/glm/detail/glm.cpp" "CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.obj.d"
+  "D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp" "CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj.d"
   )
 
 # Targets to which this target links.

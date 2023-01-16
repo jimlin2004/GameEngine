@@ -35,3 +35,8 @@
     Todo list
         -setUniform(統一interface)
         -texture
+2023/01/16
+    1. 完成Texture
+    2. 完成正規化坐標系轉成視窗坐標系
+    Todo list
+        -開始做自己的遊戲

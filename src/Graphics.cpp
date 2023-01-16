@@ -19,58 +19,62 @@ GameEngine::Graphics::Rect::Rect(float x, float y, float width, float height): G
     this->vb = new VertexBuffer();
     this->ib = new IndexBuffer();
     this->shader = new Shader();
-    this->processVBO();
+    this->texture = new Texture();
+    this->init();
     return;
 }
 
-void GameEngine::Graphics::Rect::processVBO()
+GameEngine::Graphics::Rect::~Rect()
+{
+    delete this->va;
+    delete this->vb;
+    delete this->ib;
+    delete this->shader;
+    delete this->texture;
+}
+
+void GameEngine::Graphics::Rect::init()
 {
     float vertices[] = {
-        -0.5f, -0.5f, //0
-         0.5f, -0.5f, //1
-         0.5f,  0.5f, //2
-         -0.5f, 0.5f  //3
+          0.0f,   0.0f, 0.0f, 0.0f,//0
+        100.0f,   0.0f, 1.0f, 0.0f,//1
+        100.0f, 100.0f, 1.0f, 1.0f,//2
+          0.0f, 100.0f, 0.0f, 1.0f //3
     };
     unsigned int indices[] = {
         0, 1, 2,
         2, 3, 0
     };
-    // glGenVertexArrays(1, &(this->VAO));
-    // glBindVertexArray(this->VAO);
+    // glEnable(GL_BLEND);
+    // glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
     this->va->generate();
     this->vb->generate(vertices, sizeof(vertices));
     VertexBufferLayout layout;
     layout.push(GL_FLOAT, 2);
+    layout.push(GL_FLOAT, 2);
     this->va->addBuffer(*(this->vb), layout);
-    // glEnableVertexAttribArray(0);
-    // glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, 0);
 
     this->ib->generate(indices, 6);
     
     this->shader->generateShader("../asset/shader/test.vs", "../asset/shader/test.fs");
     this->shader->bind();
     this->shader->setUniform4f("u_color", 0.8f, 0.3f, 0.8f, 1.0f);
-    // std::string vertexShader = GameEngine::GEngine->shaderManager->loadShader("../asset/shader/test.vs");
-    // std::string fragmentShader = GameEngine::GEngine->shaderManager->loadShader("../asset/shader/test.fs");
-    // this->shader = GameEngine::GEngine->shaderManager->createShader(vertexShader, fragmentShader);
-    // glUseProgram(shader);
+    this->shader->setUniformMat4f("u_MVP", GameEngine::PROJECTION_MATRIX);
+
+    this->texture->load("../asset/texture/test.png", GL_NEAREST);
+    this->texture->bind();
+    this->shader->setUniform1i("u_texture", 0);
 
     glBindVertexArray(0);
-    // glUseProgram(0);
     this->shader->unbind();
     this->vb->unbind();
     this->ib->unbind();
-    // glBindBuffer(GL_ARRAY_BUFFER, 0);
-    // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 }
 
 void GameEngine::Graphics::Rect::render()
 {
     this->shader->bind();
-    // glUseProgram(this->shader);
-    // glBindVertexArray(this->VAO);
-    // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, this->IBO);
-    // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, this->ib->id);
     this->va->bind();
     this->ib->bind();
 

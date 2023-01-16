@@ -22,4 +22,6 @@ namespace GameEngine
 {
     //GEgine的實現
     GameEngineAPI* GEngine = new GameEngineAPI();
+    //在GameBase會修改(隨GameBase->screenWidth、GameBase->height改變)
+    glm::mat4 PROJECTION_MATRIX = glm::ortho(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);
 }

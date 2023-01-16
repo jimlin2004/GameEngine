@@ -1,4 +1,4 @@
-#include "Graphics.h"
+#include "Graphics_old.h"
 
 //以下為Color的函數實現
 

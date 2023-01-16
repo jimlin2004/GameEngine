@@ -86,6 +86,11 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Texture.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Texture.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Texture.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\VertexArray.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexArray.cpp",
   "file": "D:/code/cpp/gameGngine/src/VertexArray.cpp"
 },
@@ -98,6 +103,16 @@
   "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\VertexBufferLayout.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexBufferLayout.cpp",
   "file": "D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\third_party\\glm\\detail\\glm.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\glm\\detail\\glm.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/glm/detail/glm.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\third_party\\stb_image\\std_image.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\stb_image\\std_image.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
