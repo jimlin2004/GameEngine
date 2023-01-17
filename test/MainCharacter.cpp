@@ -2,8 +2,9 @@
 
 MainCharacter::MainCharacter(float x, float y)
 {
-    // this->texture = new GameEngine::Graphics::Rect(x, y, 50.f, 50.f);
-    this->mesh->bindMesh(new GameEngine::Graphics::Rect(x, y, 50.f, 50.f));
+    this->x = x;
+    this->y = y;
+    this->mesh->bindMesh<GameEngine::Graphics::Rect>(50.0f, 50.0f);
     this->setInputEvent();
 }
 

@@ -17,7 +17,7 @@ namespace GameEngine
 
         Actor();
         Actor(float x, float y);
-        Actor(float x, float y, Material* material, Mesh* mesh);
+        Actor(float x, float y, float width, float height);
         ~Actor();
         virtual void HandleEvent();
         //渲染
@@ -25,7 +25,11 @@ namespace GameEngine
         //設定角色在世界的位置
         virtual void setPosition(float x, float y);
         //綁定角色的Mesh
-        void bindMesh(Graphics::Graphics* graphics);
+        template <class T>
+        void bindMesh()
+        {
+            this->mesh->bindMesh<T>();
+        }
     protected:
         Material* material;
         Mesh* mesh;
@@ -37,7 +41,7 @@ namespace GameEngine
     public:
         Character();
         Character(float x, float y);
-        Character(float x, float y, Material* material, Mesh* mesh);
+        Character(float x, float y, float width, float height);
         ~Character();
         virtual void setInputEvent();
     protected:

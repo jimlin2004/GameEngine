@@ -5,7 +5,7 @@ GameEngine::Actor::Actor()
     this->x = 0.f;
     this->y = 0.f;
     this->material = nullptr;
-    this->mesh = new Mesh(&this->x, &this->y);
+    this->mesh = new Mesh(&this->x, &this->y, 0.0f, 0.0f);
 }
 
 GameEngine::Actor::Actor(float x, float y)
@@ -13,15 +13,15 @@ GameEngine::Actor::Actor(float x, float y)
     this->x = x;
     this->y = y;
     this->material = nullptr;
-    this->mesh = new Mesh(&this->x, &this->y);
+    this->mesh = new Mesh(&this->x, &this->y, 0.0f, 0.0f);
 }
 
-GameEngine::Actor::Actor(float x, float y, Material* material, Mesh* mesh)
+GameEngine::Actor::Actor(float x, float y, float width, float height)
 {
     this->x = x;
     this->y = y;
-    this->material = material;
-    this->mesh = mesh;
+    this->material = nullptr;
+    this->mesh = new Mesh(&this->x, &this->y, width, height);
 }
 
 GameEngine::Actor::~Actor()
@@ -45,14 +45,8 @@ void GameEngine::Actor::setPosition(float x, float y)
 {
     this->x = x;
     this->y = y;
-    // this->material->setX(x);
-    // this->material->setY(y);
 }
 
-void GameEngine::Actor::bindMesh(GameEngine::Graphics::Graphics* graphics)
-{
-    this->mesh->bindMesh(graphics);
-}
 //==================Character===============================
 
 GameEngine::Character::Character(): Actor()
@@ -67,7 +61,7 @@ GameEngine::Character::Character(float x, float y): Actor(x, y)
     return;
 }
 
-GameEngine::Character::Character(float x, float y, Material* material, Mesh* mesh): Actor(x, y, material, mesh)
+GameEngine::Character::Character(float x, float y, float width, float height): Actor(x, y, width, height)
 {
     this->playerInputComponent = new InputComponent();
     return;

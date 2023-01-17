@@ -19,13 +19,6 @@ namespace GameEngine
         GameEngineAPI();
         //template 需要實現在template裡，不可分
 
-        template<class TActor, class TGraphics>
-        TActor* spawnActor(TGraphics* graphics)
-        {
-            TActor* obj = new TActor(graphics->getX(), graphics->getY(), graphics);
-            return obj;
-        }
-
         template<class TActor>
         TActor* spawnActor(Vector* _vec)
         {

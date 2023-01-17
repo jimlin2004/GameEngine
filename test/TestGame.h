@@ -14,8 +14,8 @@ public:
     void begin() override;
     void setFlag();
 private:
-    // MainCharacter* mainActor;
-    GameEngine::Graphics::Rect* rect;
+    MainCharacter* mainActor;
+    // GameEngine::Graphics::Rect* rect;
 };
 
 #endif

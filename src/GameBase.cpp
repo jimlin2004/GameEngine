@@ -54,11 +54,6 @@ bool GameEngine::GameBase::initSDL()
         return false;
     }
     SDL_GL_SetSwapInterval(1);
-    // if (!initGL())
-    // {
-    //     printf("Init OpenGL error\n");
-    //     return false;
-    // }
     return true;
 }
 

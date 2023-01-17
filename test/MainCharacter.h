@@ -8,7 +8,6 @@ class MainCharacter: public GameEngine::Character
 {
 public:
     MainCharacter(float x, float y);
-
     void setInputEvent() override;
     void test();
 };

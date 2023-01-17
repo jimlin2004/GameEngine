@@ -505,8 +505,44 @@ CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_image.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/vec1.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool1.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool1_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_float1.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_float1_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_double1.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_double1_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_int1.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_int1_sized.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint1.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint1_sized.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstring \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.inl \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
  D:/code/cpp/gameGngine/include/IndexBuffer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \

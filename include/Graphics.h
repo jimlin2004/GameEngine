@@ -1,19 +1,17 @@
 #ifndef GE_GRAPHICS_H
 #define GE_GRAPHICS_H
 
-// #include <GL/gl.h>
-// #include <GL/glu.h>
 #include <GL/glew.h>
-#include <SDL2/SDL_image.h>
-#include <SDL2/SDL_opengl.h>
+#include "../third_party/glm/glm.hpp"
+#include "../third_party/glm/gtc/matrix_transform.hpp"
+#include "../third_party/glm/gtc/type_ptr.hpp"
+#include "GameObject.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "VertexBuffer.h"
 #include "IndexBuffer.h"
 #include "VertexArray.h"
 #include "Shader.h"
 #include "Texture.h"
-
-#include "GameObject.h"
 
 namespace GameEngine
 {
@@ -22,10 +20,10 @@ namespace GameEngine
         class Graphics: public GameObject
         {
         protected:
-            float x;
-            float y;
+            float* x;
+            float* y;
         public:
-            Graphics(float x, float y);
+            Graphics(float* x, float* y);
             virtual void render();
         };
 
@@ -33,19 +31,18 @@ namespace GameEngine
         {
         public:
             float width, height; 
-            Rect(float x, float y, float width, float height);
+            Rect(float* x, float* y, float width, float height, bool isUseTexture = false);
             ~Rect();
             virtual void render() override;
         private:
-            unsigned int VBO;
-            unsigned int VAO;
-            unsigned int IBO;
-            // unsigned int shader;
             VertexArray* va;
             VertexBuffer* vb;
             IndexBuffer* ib;
             Shader* shader;
             Texture* texture;
+            bool isUseTexture;
+            glm::mat4 translateMat;
+            glm::mat4 MVP;
 
             void init();
         };

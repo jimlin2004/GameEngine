@@ -508,8 +508,6 @@ CMakeFiles/GameEngine.dir/main.cpp.obj
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
  D:/code/cpp/gameGngine/include/Graphics.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
  D:/code/cpp/gameGngine/include/VertexBuffer.h
  D:/code/cpp/gameGngine/include/IndexBuffer.h
  D:/code/cpp/gameGngine/include/VertexArray.h
@@ -548,228 +546,22 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/stddef.h
  C:/Program Files/msys64/mingw64/include/GL/glu.h
  C:/Program Files/msys64/mingw64/include/GL/gl.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_main.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_stdinc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_config.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_platform.h
- C:/Program Files/msys64/mingw64/include/SDL2/begin_code.h
- C:/Program Files/msys64/mingw64/include/SDL2/close_code.h
- C:/Program Files/msys64/mingw64/include/sys/types.h
- C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
- C:/Program Files/msys64/mingw64/include/stdio.h
- C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
- C:/Program Files/msys64/mingw64/include/swprintf.inl
- C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ D:/code/cpp/gameGngine/include/GameObject.h
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h
- C:/Program Files/msys64/mingw64/include/stdlib.h
- C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
- C:/Program Files/msys64/mingw64/include/limits.h
- C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
- C:/Program Files/msys64/mingw64/include/malloc.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
- C:/Program Files/msys64/mingw64/include/errno.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/_mingw_stdarg.h
- C:/Program Files/msys64/mingw64/include/string.h
- C:/Program Files/msys64/mingw64/include/sec_api/string_s.h
- C:/Program Files/msys64/mingw64/include/strings.h
- C:/Program Files/msys64/mingw64/include/wchar.h
- C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
- C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
- C:/Program Files/msys64/mingw64/include/ctype.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
- C:/Program Files/msys64/mingw64/include/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
- C:/Program Files/msys64/mingw64/include/float.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_assert.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_atomic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_audio.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_error.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_endian.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mutex.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_thread.h
- C:/Program Files/msys64/mingw64/include/process.h
- C:/Program Files/msys64/mingw64/include/corecrt_startup.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rwops.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_clipboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_cpuinfo.h
- C:/Program Files/msys64/mingw64/include/intrin.h
- C:/Program Files/msys64/mingw64/include/setjmp.h
- C:/Program Files/msys64/mingw64/include/psdk_inc/intrin-impl.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_events.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_video.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_pixels.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rect.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_surface.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_blendmode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keyboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_scancode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_joystick.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_guid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gamecontroller.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_sensor.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_quit.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gesture.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_touch.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_filesystem.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_haptic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hidapi.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hints.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_loadso.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_log.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_messagebox.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_metal.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_power.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_render.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_shape.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_system.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_timer.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_version.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_locale.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_misc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/new
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/tuple
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
@@ -777,6 +569,8 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/typeinfo
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h
@@ -786,9 +580,21 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h
@@ -806,6 +612,16 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ C:/Program Files/msys64/mingw64/include/stdlib.h
+ C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
+ C:/Program Files/msys64/mingw64/include/limits.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
+ C:/Program Files/msys64/mingw64/include/malloc.h
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
+ C:/Program Files/msys64/mingw64/include/errno.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h
@@ -816,13 +632,22 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwchar
+ C:/Program Files/msys64/mingw64/include/wchar.h
+ C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
+ C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
+ C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
+ C:/Program Files/msys64/mingw64/include/swprintf.inl
+ C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdint
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/clocale
  C:/Program Files/msys64/mingw64/include/locale.h
+ C:/Program Files/msys64/mingw64/include/stdio.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
+ C:/Program Files/msys64/mingw64/include/ctype.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h
@@ -835,7 +660,6 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  D:/code/cpp/gameGngine/include/ShaderManager.h
- D:/code/cpp/gameGngine/include/GameObject.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
@@ -848,6 +672,9 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h
  C:/Program Files/msys64/mingw64/include/pthread.h
+ C:/Program Files/msys64/mingw64/include/sys/types.h
+ C:/Program Files/msys64/mingw64/include/process.h
+ C:/Program Files/msys64/mingw64/include/corecrt_startup.h
  C:/Program Files/msys64/mingw64/include/signal.h
  C:/Program Files/msys64/mingw64/include/pthread_signal.h
  C:/Program Files/msys64/mingw64/include/time.h
@@ -885,6 +712,22 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
+ C:/Program Files/msys64/mingw64/include/math.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  C:/Program Files/msys64/mingw64/include/assert.h
@@ -892,6 +735,8 @@ CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/climits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cfloat
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
+ C:/Program Files/msys64/mingw64/include/float.h
  D:/code/cpp/gameGngine/third_party/glm/fwd.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
@@ -1075,228 +920,22 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/stddef.h
  C:/Program Files/msys64/mingw64/include/GL/glu.h
  C:/Program Files/msys64/mingw64/include/GL/gl.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_main.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_stdinc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_config.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_platform.h
- C:/Program Files/msys64/mingw64/include/SDL2/begin_code.h
- C:/Program Files/msys64/mingw64/include/SDL2/close_code.h
- C:/Program Files/msys64/mingw64/include/sys/types.h
- C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
- C:/Program Files/msys64/mingw64/include/stdio.h
- C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
- C:/Program Files/msys64/mingw64/include/swprintf.inl
- C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ D:/code/cpp/gameGngine/include/GameObject.h
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h
- C:/Program Files/msys64/mingw64/include/stdlib.h
- C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
- C:/Program Files/msys64/mingw64/include/limits.h
- C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
- C:/Program Files/msys64/mingw64/include/malloc.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
- C:/Program Files/msys64/mingw64/include/errno.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/_mingw_stdarg.h
- C:/Program Files/msys64/mingw64/include/string.h
- C:/Program Files/msys64/mingw64/include/sec_api/string_s.h
- C:/Program Files/msys64/mingw64/include/strings.h
- C:/Program Files/msys64/mingw64/include/wchar.h
- C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
- C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
- C:/Program Files/msys64/mingw64/include/ctype.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
- C:/Program Files/msys64/mingw64/include/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
- C:/Program Files/msys64/mingw64/include/float.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_assert.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_atomic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_audio.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_error.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_endian.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mutex.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_thread.h
- C:/Program Files/msys64/mingw64/include/process.h
- C:/Program Files/msys64/mingw64/include/corecrt_startup.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rwops.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_clipboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_cpuinfo.h
- C:/Program Files/msys64/mingw64/include/intrin.h
- C:/Program Files/msys64/mingw64/include/setjmp.h
- C:/Program Files/msys64/mingw64/include/psdk_inc/intrin-impl.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_events.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_video.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_pixels.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rect.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_surface.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_blendmode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keyboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_scancode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_joystick.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_guid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gamecontroller.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_sensor.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_quit.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gesture.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_touch.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_filesystem.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_haptic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hidapi.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hints.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_loadso.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_log.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_messagebox.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_metal.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_power.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_render.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_shape.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_system.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_timer.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_version.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_locale.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_misc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/new
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/tuple
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
@@ -1304,6 +943,8 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/typeinfo
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h
@@ -1313,9 +954,21 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h
@@ -1333,6 +986,16 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ C:/Program Files/msys64/mingw64/include/stdlib.h
+ C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
+ C:/Program Files/msys64/mingw64/include/limits.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
+ C:/Program Files/msys64/mingw64/include/malloc.h
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
+ C:/Program Files/msys64/mingw64/include/errno.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h
@@ -1343,13 +1006,22 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwchar
+ C:/Program Files/msys64/mingw64/include/wchar.h
+ C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
+ C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
+ C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
+ C:/Program Files/msys64/mingw64/include/swprintf.inl
+ C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdint
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/clocale
  C:/Program Files/msys64/mingw64/include/locale.h
+ C:/Program Files/msys64/mingw64/include/stdio.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
+ C:/Program Files/msys64/mingw64/include/ctype.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h
@@ -1362,7 +1034,6 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  D:/code/cpp/gameGngine/include/ShaderManager.h
- D:/code/cpp/gameGngine/include/GameObject.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
@@ -1375,6 +1046,9 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h
  C:/Program Files/msys64/mingw64/include/pthread.h
+ C:/Program Files/msys64/mingw64/include/sys/types.h
+ C:/Program Files/msys64/mingw64/include/process.h
+ C:/Program Files/msys64/mingw64/include/corecrt_startup.h
  C:/Program Files/msys64/mingw64/include/signal.h
  C:/Program Files/msys64/mingw64/include/pthread_signal.h
  C:/Program Files/msys64/mingw64/include/time.h
@@ -1412,6 +1086,22 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
+ C:/Program Files/msys64/mingw64/include/math.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  C:/Program Files/msys64/mingw64/include/assert.h
@@ -1419,6 +1109,8 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/climits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cfloat
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
+ C:/Program Files/msys64/mingw64/include/float.h
  D:/code/cpp/gameGngine/third_party/glm/fwd.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
@@ -1589,228 +1281,22 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/stddef.h
  C:/Program Files/msys64/mingw64/include/GL/glu.h
  C:/Program Files/msys64/mingw64/include/GL/gl.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_main.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_stdinc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_config.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_platform.h
- C:/Program Files/msys64/mingw64/include/SDL2/begin_code.h
- C:/Program Files/msys64/mingw64/include/SDL2/close_code.h
- C:/Program Files/msys64/mingw64/include/sys/types.h
- C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
- C:/Program Files/msys64/mingw64/include/stdio.h
- C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
- C:/Program Files/msys64/mingw64/include/swprintf.inl
- C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ D:/code/cpp/gameGngine/include/GameObject.h
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h
- C:/Program Files/msys64/mingw64/include/stdlib.h
- C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
- C:/Program Files/msys64/mingw64/include/limits.h
- C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
- C:/Program Files/msys64/mingw64/include/malloc.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
- C:/Program Files/msys64/mingw64/include/errno.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/_mingw_stdarg.h
- C:/Program Files/msys64/mingw64/include/string.h
- C:/Program Files/msys64/mingw64/include/sec_api/string_s.h
- C:/Program Files/msys64/mingw64/include/strings.h
- C:/Program Files/msys64/mingw64/include/wchar.h
- C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
- C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
- C:/Program Files/msys64/mingw64/include/ctype.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
- C:/Program Files/msys64/mingw64/include/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
- C:/Program Files/msys64/mingw64/include/float.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_assert.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_atomic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_audio.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_error.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_endian.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mutex.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_thread.h
- C:/Program Files/msys64/mingw64/include/process.h
- C:/Program Files/msys64/mingw64/include/corecrt_startup.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rwops.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_clipboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_cpuinfo.h
- C:/Program Files/msys64/mingw64/include/intrin.h
- C:/Program Files/msys64/mingw64/include/setjmp.h
- C:/Program Files/msys64/mingw64/include/psdk_inc/intrin-impl.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_events.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_video.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_pixels.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rect.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_surface.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_blendmode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keyboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_scancode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_joystick.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_guid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gamecontroller.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_sensor.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_quit.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gesture.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_touch.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_filesystem.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_haptic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hidapi.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hints.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_loadso.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_log.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_messagebox.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_metal.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_power.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_render.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_shape.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_system.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_timer.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_version.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_locale.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_misc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/new
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/tuple
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
@@ -1818,6 +1304,8 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/typeinfo
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h
@@ -1827,9 +1315,21 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h
@@ -1847,6 +1347,16 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ C:/Program Files/msys64/mingw64/include/stdlib.h
+ C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
+ C:/Program Files/msys64/mingw64/include/limits.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
+ C:/Program Files/msys64/mingw64/include/malloc.h
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
+ C:/Program Files/msys64/mingw64/include/errno.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h
@@ -1857,13 +1367,22 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwchar
+ C:/Program Files/msys64/mingw64/include/wchar.h
+ C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
+ C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
+ C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
+ C:/Program Files/msys64/mingw64/include/swprintf.inl
+ C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdint
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/clocale
  C:/Program Files/msys64/mingw64/include/locale.h
+ C:/Program Files/msys64/mingw64/include/stdio.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
+ C:/Program Files/msys64/mingw64/include/ctype.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h
@@ -1876,7 +1395,6 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  D:/code/cpp/gameGngine/include/ShaderManager.h
- D:/code/cpp/gameGngine/include/GameObject.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
@@ -1889,6 +1407,9 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h
  C:/Program Files/msys64/mingw64/include/pthread.h
+ C:/Program Files/msys64/mingw64/include/sys/types.h
+ C:/Program Files/msys64/mingw64/include/process.h
+ C:/Program Files/msys64/mingw64/include/corecrt_startup.h
  C:/Program Files/msys64/mingw64/include/signal.h
  C:/Program Files/msys64/mingw64/include/pthread_signal.h
  C:/Program Files/msys64/mingw64/include/time.h
@@ -1926,6 +1447,22 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
+ C:/Program Files/msys64/mingw64/include/math.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  C:/Program Files/msys64/mingw64/include/assert.h
@@ -1933,6 +1470,8 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/climits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cfloat
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
+ C:/Program Files/msys64/mingw64/include/float.h
  D:/code/cpp/gameGngine/third_party/glm/fwd.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
@@ -2954,8 +2493,6 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl
  D:/code/cpp/gameGngine/include/Graphics.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
  D:/code/cpp/gameGngine/include/VertexBuffer.h
  D:/code/cpp/gameGngine/include/IndexBuffer.h
  D:/code/cpp/gameGngine/include/VertexArray.h
@@ -3471,228 +3008,22 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/stddef.h
  C:/Program Files/msys64/mingw64/include/GL/glu.h
  C:/Program Files/msys64/mingw64/include/GL/gl.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_main.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_stdinc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_config.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_platform.h
- C:/Program Files/msys64/mingw64/include/SDL2/begin_code.h
- C:/Program Files/msys64/mingw64/include/SDL2/close_code.h
- C:/Program Files/msys64/mingw64/include/sys/types.h
- C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
- C:/Program Files/msys64/mingw64/include/stdio.h
- C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
- C:/Program Files/msys64/mingw64/include/swprintf.inl
- C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ D:/code/cpp/gameGngine/include/GameObject.h
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h
- C:/Program Files/msys64/mingw64/include/stdlib.h
- C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
- C:/Program Files/msys64/mingw64/include/limits.h
- C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
- C:/Program Files/msys64/mingw64/include/malloc.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
- C:/Program Files/msys64/mingw64/include/errno.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/_mingw_stdarg.h
- C:/Program Files/msys64/mingw64/include/string.h
- C:/Program Files/msys64/mingw64/include/sec_api/string_s.h
- C:/Program Files/msys64/mingw64/include/strings.h
- C:/Program Files/msys64/mingw64/include/wchar.h
- C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
- C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
- C:/Program Files/msys64/mingw64/include/ctype.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
- C:/Program Files/msys64/mingw64/include/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
- C:/Program Files/msys64/mingw64/include/float.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_assert.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_atomic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_audio.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_error.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_endian.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mutex.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_thread.h
- C:/Program Files/msys64/mingw64/include/process.h
- C:/Program Files/msys64/mingw64/include/corecrt_startup.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rwops.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_clipboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_cpuinfo.h
- C:/Program Files/msys64/mingw64/include/intrin.h
- C:/Program Files/msys64/mingw64/include/setjmp.h
- C:/Program Files/msys64/mingw64/include/psdk_inc/intrin-impl.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_events.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_video.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_pixels.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rect.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_surface.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_blendmode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keyboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_scancode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_joystick.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_guid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gamecontroller.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_sensor.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_quit.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gesture.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_touch.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_filesystem.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_haptic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hidapi.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hints.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_loadso.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_log.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_messagebox.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_metal.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_power.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_render.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_shape.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_system.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_timer.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_version.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_locale.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_misc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/new
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/tuple
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
@@ -3700,6 +3031,8 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/typeinfo
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h
@@ -3709,9 +3042,21 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h
@@ -3729,6 +3074,16 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ C:/Program Files/msys64/mingw64/include/stdlib.h
+ C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
+ C:/Program Files/msys64/mingw64/include/limits.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
+ C:/Program Files/msys64/mingw64/include/malloc.h
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
+ C:/Program Files/msys64/mingw64/include/errno.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h
@@ -3739,13 +3094,22 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwchar
+ C:/Program Files/msys64/mingw64/include/wchar.h
+ C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
+ C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
+ C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
+ C:/Program Files/msys64/mingw64/include/swprintf.inl
+ C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdint
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/clocale
  C:/Program Files/msys64/mingw64/include/locale.h
+ C:/Program Files/msys64/mingw64/include/stdio.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
+ C:/Program Files/msys64/mingw64/include/ctype.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h
@@ -3758,7 +3122,6 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  D:/code/cpp/gameGngine/include/ShaderManager.h
- D:/code/cpp/gameGngine/include/GameObject.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
@@ -3771,6 +3134,9 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h
  C:/Program Files/msys64/mingw64/include/pthread.h
+ C:/Program Files/msys64/mingw64/include/sys/types.h
+ C:/Program Files/msys64/mingw64/include/process.h
+ C:/Program Files/msys64/mingw64/include/corecrt_startup.h
  C:/Program Files/msys64/mingw64/include/signal.h
  C:/Program Files/msys64/mingw64/include/pthread_signal.h
  C:/Program Files/msys64/mingw64/include/time.h
@@ -3808,6 +3174,22 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
+ C:/Program Files/msys64/mingw64/include/math.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  C:/Program Files/msys64/mingw64/include/assert.h
@@ -3815,6 +3197,8 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/climits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cfloat
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
+ C:/Program Files/msys64/mingw64/include/float.h
  D:/code/cpp/gameGngine/third_party/glm/fwd.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
@@ -4701,228 +4085,22 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/stddef.h
  C:/Program Files/msys64/mingw64/include/GL/glu.h
  C:/Program Files/msys64/mingw64/include/GL/gl.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_main.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_stdinc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_config.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_platform.h
- C:/Program Files/msys64/mingw64/include/SDL2/begin_code.h
- C:/Program Files/msys64/mingw64/include/SDL2/close_code.h
- C:/Program Files/msys64/mingw64/include/sys/types.h
- C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
- C:/Program Files/msys64/mingw64/include/stdio.h
- C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
- C:/Program Files/msys64/mingw64/include/swprintf.inl
- C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ D:/code/cpp/gameGngine/include/GameObject.h
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h
- C:/Program Files/msys64/mingw64/include/stdlib.h
- C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
- C:/Program Files/msys64/mingw64/include/limits.h
- C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
- C:/Program Files/msys64/mingw64/include/malloc.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
- C:/Program Files/msys64/mingw64/include/errno.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/stdarg.h
- C:/Program Files/msys64/mingw64/include/_mingw_stdarg.h
- C:/Program Files/msys64/mingw64/include/string.h
- C:/Program Files/msys64/mingw64/include/sec_api/string_s.h
- C:/Program Files/msys64/mingw64/include/strings.h
- C:/Program Files/msys64/mingw64/include/wchar.h
- C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
- C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
- C:/Program Files/msys64/mingw64/include/ctype.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
- C:/Program Files/msys64/mingw64/include/math.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
- C:/Program Files/msys64/mingw64/include/float.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_assert.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_atomic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_audio.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_error.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_endian.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mutex.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_thread.h
- C:/Program Files/msys64/mingw64/include/process.h
- C:/Program Files/msys64/mingw64/include/corecrt_startup.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rwops.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_clipboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_cpuinfo.h
- C:/Program Files/msys64/mingw64/include/intrin.h
- C:/Program Files/msys64/mingw64/include/setjmp.h
- C:/Program Files/msys64/mingw64/include/psdk_inc/intrin-impl.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h
- C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_events.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_video.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_pixels.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_rect.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_surface.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_blendmode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keyboard.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_scancode.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_joystick.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_guid.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gamecontroller.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_sensor.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_quit.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_gesture.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_touch.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_filesystem.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_haptic.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hidapi.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_hints.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_loadso.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_log.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_messagebox.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_metal.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_power.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_render.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_shape.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_system.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_timer.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_version.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_locale.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_misc.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
- C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/move.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/new
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/tuple
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
@@ -4930,6 +4108,8 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/typeinfo
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h
@@ -4939,9 +4119,21 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h
@@ -4959,6 +4151,16 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
+ C:/Program Files/msys64/mingw64/include/stdlib.h
+ C:/Program Files/msys64/mingw64/include/corecrt_wstdlib.h
+ C:/Program Files/msys64/mingw64/include/limits.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdlib_s.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdlib.h
+ C:/Program Files/msys64/mingw64/include/malloc.h
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h
+ C:/Program Files/msys64/mingw64/include/errno.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/list
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h
@@ -4969,13 +4171,22 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwchar
+ C:/Program Files/msys64/mingw64/include/wchar.h
+ C:/Program Files/msys64/mingw64/include/corecrt_stdio_config.h
+ C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
+ C:/Program Files/msys64/mingw64/include/_mingw_stat64.h
+ C:/Program Files/msys64/mingw64/include/swprintf.inl
+ C:/Program Files/msys64/mingw64/include/sec_api/wchar_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdint
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/clocale
  C:/Program Files/msys64/mingw64/include/locale.h
+ C:/Program Files/msys64/mingw64/include/stdio.h
+ C:/Program Files/msys64/mingw64/include/sec_api/stdio_s.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
+ C:/Program Files/msys64/mingw64/include/ctype.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h
@@ -4988,7 +4199,6 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  D:/code/cpp/gameGngine/include/ShaderManager.h
- D:/code/cpp/gameGngine/include/GameObject.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
@@ -5001,6 +4211,9 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h
  C:/Program Files/msys64/mingw64/include/pthread.h
+ C:/Program Files/msys64/mingw64/include/sys/types.h
+ C:/Program Files/msys64/mingw64/include/process.h
+ C:/Program Files/msys64/mingw64/include/corecrt_startup.h
  C:/Program Files/msys64/mingw64/include/signal.h
  C:/Program Files/msys64/mingw64/include/pthread_signal.h
  C:/Program Files/msys64/mingw64/include/time.h
@@ -5038,6 +4251,22 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/cmath
+ C:/Program Files/msys64/mingw64/include/math.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc
+ C:/Program Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  C:/Program Files/msys64/mingw64/include/assert.h
@@ -5045,6 +4274,8 @@ CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/climits
  C:/Program Files/msys64/mingw64/include/c++/12.2.0/cfloat
+ C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h
+ C:/Program Files/msys64/mingw64/include/float.h
  D:/code/cpp/gameGngine/third_party/glm/fwd.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
@@ -5712,8 +4943,6 @@ CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_opengl.h
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h
  D:/code/cpp/gameGngine/include/Graphics.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL_image.h
- C:/Program Files/msys64/mingw64/include/SDL2/SDL.h
  D:/code/cpp/gameGngine/include/VertexBuffer.h
  D:/code/cpp/gameGngine/include/IndexBuffer.h
  D:/code/cpp/gameGngine/include/VertexArray.h

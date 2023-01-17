@@ -16,20 +16,20 @@ find_package(GLEW REQUIRED)
 
 
 file(GLOB_RECURSE SRC_FILE
-    src/*.c 
-    src/*.cpp
-    include/*.cpp
-    third_party/*.c
-    third_party/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/*.cpp
     )
 file(GLOB_RECURSE HEADER_FILES
-    include/*.h
-    include/*.hpp
-    third_party/*.h
-    third_party/*.hpp)
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/*.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/*.hpp)
 file(GLOB_RECURSE TEST_FILE
-    test/*cpp
-    test/*.h)
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/*cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/*.h)
 add_executable(${PROJECT_NAME} main.cpp ${SRC_FILE} ${TEST_FILE})
 include_directories(${OPENGL_INCLUDE_DIRS})
 include_directories(${SDL2_INCLUDE_DIRS})
@@ -40,8 +40,9 @@ target_link_libraries(${PROJECT_NAME} SDL2main SDL2)
 # target_link_libraries(${PROJECT_NAME} SDL2_Image)
 target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
 # target_link_libraries(${PROJECT_NAME} glm::glm)
-target_link_libraries(${PROJECT_NAME} ${GLM_LIBRARIES})
+# target_link_libraries(${PROJECT_NAME} ${GLM_LIBRARIES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/thrid_party)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
