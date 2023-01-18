@@ -15,6 +15,7 @@ namespace GameEngine
     { 
     private:
         GameEventManager* gameEventManager;
+        float _windowWidth, _windowHeight;
     public:
         GameEngineAPI();
         //template 需要實現在template裡，不可分
@@ -27,6 +28,10 @@ namespace GameEngine
         }
         void callKeyEvent(int key);
         void addKeyEvent(int key, std::function<void()> func);
+        //用來設置全域的window size
+        void _setWindowSize(float _w, float _h);
+        inline float getWindowWidth() const { return _windowWidth; }
+        inline float getWindowHeight() const { return _windowHeight; }
         ShaderManager* shaderManager;
     };
 

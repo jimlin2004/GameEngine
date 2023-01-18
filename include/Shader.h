@@ -4,7 +4,7 @@
 #include <string>
 #include <unordered_map>
 #include <GL/glew.h>
-#include <glm/glm.hpp>
+#include "../third_party/glm/glm.hpp"
 #include "GameEngineAPI/GameEngineAPI.h"
 
 //將OpenGL的shader抽象成的class

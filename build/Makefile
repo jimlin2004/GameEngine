@@ -364,6 +364,30 @@ src/FSM.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/FSM.cpp.s
 .PHONY : src/FSM.cpp.s
 
+src/GELib.obj: src/GELib.cpp.obj
+.PHONY : src/GELib.obj
+
+# target to build an object file
+src/GELib.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GELib.cpp.obj
+.PHONY : src/GELib.cpp.obj
+
+src/GELib.i: src/GELib.cpp.i
+.PHONY : src/GELib.i
+
+# target to preprocess a source file
+src/GELib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GELib.cpp.i
+.PHONY : src/GELib.cpp.i
+
+src/GELib.s: src/GELib.cpp.s
+.PHONY : src/GELib.s
+
+# target to generate assembly for a file
+src/GELib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GELib.cpp.s
+.PHONY : src/GELib.cpp.s
+
 src/GameBase.obj: src/GameBase.cpp.obj
 .PHONY : src/GameBase.obj
 
@@ -652,53 +676,77 @@ src/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
-test/MainCharacter.obj: test/MainCharacter.cpp.obj
-.PHONY : test/MainCharacter.obj
+test/Grid.obj: test/Grid.cpp.obj
+.PHONY : test/Grid.obj
 
 # target to build an object file
-test/MainCharacter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.obj
-.PHONY : test/MainCharacter.cpp.obj
+test/Grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Grid.cpp.obj
+.PHONY : test/Grid.cpp.obj
 
-test/MainCharacter.i: test/MainCharacter.cpp.i
-.PHONY : test/MainCharacter.i
+test/Grid.i: test/Grid.cpp.i
+.PHONY : test/Grid.i
 
 # target to preprocess a source file
-test/MainCharacter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.i
-.PHONY : test/MainCharacter.cpp.i
+test/Grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Grid.cpp.i
+.PHONY : test/Grid.cpp.i
 
-test/MainCharacter.s: test/MainCharacter.cpp.s
-.PHONY : test/MainCharacter.s
+test/Grid.s: test/Grid.cpp.s
+.PHONY : test/Grid.s
 
 # target to generate assembly for a file
-test/MainCharacter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/MainCharacter.cpp.s
-.PHONY : test/MainCharacter.cpp.s
+test/Grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Grid.cpp.s
+.PHONY : test/Grid.cpp.s
 
-test/TestGame.obj: test/TestGame.cpp.obj
-.PHONY : test/TestGame.obj
+test/Snake.obj: test/Snake.cpp.obj
+.PHONY : test/Snake.obj
 
 # target to build an object file
-test/TestGame.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/TestGame.cpp.obj
-.PHONY : test/TestGame.cpp.obj
+test/Snake.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.obj
+.PHONY : test/Snake.cpp.obj
 
-test/TestGame.i: test/TestGame.cpp.i
-.PHONY : test/TestGame.i
+test/Snake.i: test/Snake.cpp.i
+.PHONY : test/Snake.i
 
 # target to preprocess a source file
-test/TestGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/TestGame.cpp.i
-.PHONY : test/TestGame.cpp.i
+test/Snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.i
+.PHONY : test/Snake.cpp.i
 
-test/TestGame.s: test/TestGame.cpp.s
-.PHONY : test/TestGame.s
+test/Snake.s: test/Snake.cpp.s
+.PHONY : test/Snake.s
 
 # target to generate assembly for a file
-test/TestGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/TestGame.cpp.s
-.PHONY : test/TestGame.cpp.s
+test/Snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.s
+.PHONY : test/Snake.cpp.s
+
+test/SnakeGame.obj: test/SnakeGame.cpp.obj
+.PHONY : test/SnakeGame.obj
+
+# target to build an object file
+test/SnakeGame.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj
+.PHONY : test/SnakeGame.cpp.obj
+
+test/SnakeGame.i: test/SnakeGame.cpp.i
+.PHONY : test/SnakeGame.i
+
+# target to preprocess a source file
+test/SnakeGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.i
+.PHONY : test/SnakeGame.cpp.i
+
+test/SnakeGame.s: test/SnakeGame.cpp.s
+.PHONY : test/SnakeGame.s
+
+# target to generate assembly for a file
+test/SnakeGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.s
+.PHONY : test/SnakeGame.cpp.s
 
 third_party/glm/detail/glm.obj: third_party/glm/detail/glm.cpp.obj
 .PHONY : third_party/glm/detail/glm.obj
@@ -786,6 +834,9 @@ help:
 	@echo ... src/FSM.obj
 	@echo ... src/FSM.i
 	@echo ... src/FSM.s
+	@echo ... src/GELib.obj
+	@echo ... src/GELib.i
+	@echo ... src/GELib.s
 	@echo ... src/GameBase.obj
 	@echo ... src/GameBase.i
 	@echo ... src/GameBase.s
@@ -822,12 +873,15 @@ help:
 	@echo ... src/VertexBufferLayout.obj
 	@echo ... src/VertexBufferLayout.i
 	@echo ... src/VertexBufferLayout.s
-	@echo ... test/MainCharacter.obj
-	@echo ... test/MainCharacter.i
-	@echo ... test/MainCharacter.s
-	@echo ... test/TestGame.obj
-	@echo ... test/TestGame.i
-	@echo ... test/TestGame.s
+	@echo ... test/Grid.obj
+	@echo ... test/Grid.i
+	@echo ... test/Grid.s
+	@echo ... test/Snake.obj
+	@echo ... test/Snake.i
+	@echo ... test/Snake.s
+	@echo ... test/SnakeGame.obj
+	@echo ... test/SnakeGame.i
+	@echo ... test/SnakeGame.s
 	@echo ... third_party/glm/detail/glm.obj
 	@echo ... third_party/glm/detail/glm.i
 	@echo ... third_party/glm/detail/glm.s

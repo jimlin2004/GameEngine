@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -1606,18 +1606,6 @@
 			"value" : "C:/Program Files/msys64/mingw64/lib/cmake/SDL2"
 		},
 		{
-			"name" : "SDL2_image_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2_image."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Program Files/msys64/mingw64/lib/cmake/SDL2_image"
-		},
-		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[
@@ -1640,18 +1628,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Program Files/msys64/mingw64/lib/cmake/glm"
-		},
-		{
-			"name" : "sdl2-image_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for sdl2-image."
-				}
-			],
-			"type" : "PATH",
-			"value" : "sdl2-image_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

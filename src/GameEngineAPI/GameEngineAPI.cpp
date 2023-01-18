@@ -18,6 +18,12 @@ void GameEngine::GameEngineAPI::addKeyEvent(int key, std::function<void()> func)
     return;
 }
 
+void GameEngine::GameEngineAPI::_setWindowSize(float _w, float _h)
+{
+    this->_windowWidth = _w;
+    this->_windowHeight = _h;
+}
+
 namespace GameEngine
 {
     //GEgine的實現

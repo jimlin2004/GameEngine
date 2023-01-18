@@ -1,14 +1,70 @@
 #include "Graphics.h"
 
+GameEngine::Graphics::Graphics::Graphics()
+{
+    this->x = this->y = nullptr;
+}
+
 GameEngine::Graphics::Graphics::Graphics(float* x, float* y)
 {
     this->x = x;
     this->y = y;
 }
 
+GameEngine::Graphics::Graphics::~Graphics()
+{
+    delete this->x;
+    delete this->y;
+}
+
 void GameEngine::Graphics::Graphics::render()
 {
     return;
+}
+
+GameEngine::Graphics::Line::Line(float fromX, float fromY, float toX, float toY): Graphics()
+{
+    this->lineWidth = 1.0f;
+    this->va = new VertexArray();
+    this->vb = new VertexBuffer();
+    this->shader = new Shader();
+    float vertices[] = {
+        fromX, fromY,
+          toX,   toY 
+    };
+    this->va->generate();
+    this->vb->generate(vertices, sizeof(vertices));
+    VertexBufferLayout layout;
+    layout.push(GL_FLOAT, 2);
+    this->va->addBuffer(*(this->vb), layout);
+    this->shader->generateShader("../asset/shader/line/line.vs", "../asset/shader/line/line.fs");
+    this->shader->bind();
+    this->shader->setUniformMat4f("u_MVP", GameEngine::PROJECTION_MATRIX);
+    this->shader->setUniform4f("u_color", 1.0f, 1.0f, 1.0f, 1.0f);
+    this->va->unbind();
+    this->shader->unbind();
+    this->vb->unbind();
+}
+
+GameEngine::Graphics::Line::~Line()
+{
+    delete this->va;
+    delete this->vb;
+    delete this->shader;
+}
+
+void GameEngine::Graphics::Line::render()
+{
+    this->shader->bind();
+    this->va->bind();
+
+    glLineWidth(this->lineWidth);
+    glDrawArrays(GL_LINES, 0, 2);
+}
+
+void GameEngine::Graphics::Line::setLineWidth(int _width)
+{
+    this->lineWidth = _width;
 }
 
 GameEngine::Graphics::Rect::Rect(float* x, float* y, float width, float height, bool isUseTexture): Graphics(x, y)
@@ -21,7 +77,7 @@ GameEngine::Graphics::Rect::Rect(float* x, float* y, float width, float height, 
     this->ib = new IndexBuffer();
     this->shader = new Shader();
     this->texture = new Texture();
-    this->translateMat = glm::translate(glm::mat4(1.0), glm::vec3(*this->x, *this->y, 0.0f));
+    this->translateMat = glm::translate(glm::mat4(1.0f), glm::vec3(*this->x, *this->y, 0.0f));
     this->MVP = PROJECTION_MATRIX * this->translateMat;
     this->init();
     return;

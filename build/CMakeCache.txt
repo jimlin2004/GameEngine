@@ -21,7 +21,7 @@ CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/msys64/mingw64/bin/addr2line.exe
 CMAKE_AR:FILEPATH=C:/Program Files/msys64/mingw64/bin/ar.exe
 
 //No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -301,14 +301,8 @@ OPENGL_glu_LIBRARY:STRING=glu32
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=C:/Program Files/msys64/mingw64/lib/cmake/SDL2
 
-//The directory containing a CMake configuration file for SDL2_image.
-SDL2_image_DIR:PATH=C:/Program Files/msys64/mingw64/lib/cmake/SDL2_image
-
 //The directory containing a CMake configuration file for glm.
 glm_DIR:PATH=C:/Program Files/msys64/mingw64/lib/cmake/glm
-
-//The directory containing a CMake configuration file for sdl2-image.
-sdl2-image_DIR:PATH=sdl2-image_DIR-NOTFOUND
 
 
 ########################

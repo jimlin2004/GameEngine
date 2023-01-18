@@ -1,8 +1,6 @@
 #ifndef GE_GAMEBASE_H
 #define GE_GAMEBASE_H
 
-// #include <GL/gl.h>
-// #include <GL/glu.h>
 #include <GL/glew.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>
@@ -36,7 +34,6 @@ namespace GameEngine
         ~GameBase();
         virtual bool initSDL();
         virtual bool initGL();
-        // virtual bool initSDLImage();
         virtual void gameContext();
         void gameEventHandle();
         virtual void begin();

@@ -45,3 +45,10 @@
     2. 遇到glm的問題
     Todo list
         -修好問題
+2023/01/18
+    1. 修復glm抓不到的問題
+    2. 完成Graphics::Line
+    3. 決定做Snake game來訓練第一次的AI
+    4. Snake game 的 Grid 已經可以render，但程式跑的慢，要修正
+    Todo list
+        -改變Snake game::Grid 的render速度

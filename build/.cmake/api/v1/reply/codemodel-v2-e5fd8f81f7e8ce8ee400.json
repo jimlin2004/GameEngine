@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "GameEngine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GameEngine-Debug-f64929e7e0c60a39af14.json",
+					"jsonFile" : "target-GameEngine-Release-82b510e80158492a5d47.json",
 					"name" : "GameEngine",
 					"projectIndex" : 0
 				}

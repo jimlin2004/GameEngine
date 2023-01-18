@@ -23,8 +23,34 @@ namespace GameEngine
             float* x;
             float* y;
         public:
+            Graphics();
             Graphics(float* x, float* y);
+            ~Graphics();
             virtual void render();
+        };
+
+        struct Point2D
+        {
+            float x, y;
+        };
+
+        /*
+            author: JimLin
+            作用: 用於在畫面上畫直線，非供mesh使用
+            note: 僅支援改變color，無texture
+        */
+        class Line: public Graphics
+        {
+        private:
+            float lineWidth;
+            VertexArray* va;
+            VertexBuffer* vb;
+            Shader* shader;
+        public:
+            Line(float fromX, float fromY, float toX, float toY);
+            ~Line();
+            void setLineWidth(int _width);
+            void render();
         };
 
         class Rect: public Graphics
