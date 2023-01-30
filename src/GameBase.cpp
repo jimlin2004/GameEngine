@@ -8,7 +8,8 @@ GameEngine::GameBase::GameBase(const char* title, int width, int height)
     this->running = false;
     GameEngine::GEngine->_setWindowSize((float)this->screenWidth, (float)this->screenHeight);
     //bind screen size to PROJECTION_MATRIX
-    GameEngine::PROJECTION_MATRIX = glm::ortho(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight, -1.0f, 1.0f);
+    GameEngine::_currentCamera->setProjectionMatrix(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight);
+    // GameEngine::PROJECTION_MATRIX = glm::ortho(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight, -1.0f, 1.0f);
     // this->gameEventManager = new GameEventManager();
 }
 
@@ -88,8 +89,14 @@ void GameEngine::GameBase::gameEventHandle()
     }
 }
 
+void GameEngine::GameBase::init()
+{
+    GameEngine::Renderer::init();
+}
+
 void GameEngine::GameBase::begin()
 {
+    this->init();
     return;
 }
 

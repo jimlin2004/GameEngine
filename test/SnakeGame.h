@@ -4,6 +4,7 @@
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "GameBase.h"
 #include "Graphics.h"
+#include "Renderer.h"
 #include "Snake.h"
 #include "Grid.h"
 

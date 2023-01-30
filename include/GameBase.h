@@ -9,6 +9,7 @@
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Graphics.h"
 #include "Actor.h"
+#include "Renderer.h"
 
 namespace GameEngine
 {
@@ -34,6 +35,7 @@ namespace GameEngine
         ~GameBase();
         virtual bool initSDL();
         virtual bool initGL();
+        void init();
         virtual void gameContext();
         void gameEventHandle();
         virtual void begin();

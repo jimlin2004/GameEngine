@@ -39,7 +39,8 @@ GameEngine::Graphics::Line::Line(float fromX, float fromY, float toX, float toY)
     this->va->addBuffer(*(this->vb), layout);
     this->shader->generateShader("../asset/shader/line/line.vs", "../asset/shader/line/line.fs");
     this->shader->bind();
-    this->shader->setUniformMat4f("u_MVP", GameEngine::PROJECTION_MATRIX);
+    this->shader->setUniformMat4f("u_MVP", _currentCamera->getProjectionMatrix());
+    this->shader->setUniformMat4f("u_transform", glm::mat4(1.0f));
     this->shader->setUniform4f("u_color", 1.0f, 1.0f, 1.0f, 1.0f);
     this->va->unbind();
     this->shader->unbind();
@@ -78,7 +79,7 @@ GameEngine::Graphics::Rect::Rect(float* x, float* y, float width, float height, 
     this->shader = new Shader();
     this->texture = new Texture();
     this->translateMat = glm::translate(glm::mat4(1.0f), glm::vec3(*this->x, *this->y, 0.0f));
-    this->MVP = PROJECTION_MATRIX * this->translateMat;
+    this->MVP = _currentCamera->getProjectionMatrix() * this->translateMat;
     this->init();
     return;
 }
@@ -94,11 +95,17 @@ GameEngine::Graphics::Rect::~Rect()
 
 void GameEngine::Graphics::Rect::init()
 {
+    // float vertices[] = {
+    //            0.0f,         0.0f, 0.0f, 0.0f,//0
+    //     this->width,         0.0f, 1.0f, 0.0f,//1
+    //     this->width, this->height, 1.0f, 1.0f,//2
+    //            0.0f, this->height, 0.0f, 1.0f //3
+    // };
     float vertices[] = {
                0.0f,         0.0f, 0.0f, 0.0f,//0
-        this->width,         0.0f, 1.0f, 0.0f,//1
-        this->width, this->height, 1.0f, 1.0f,//2
-               0.0f, this->height, 0.0f, 1.0f //3
+               1.0f,         0.0f, 1.0f, 0.0f,//1
+               1.0f,         1.0f, 1.0f, 1.0f,//2
+               0.0f,         1.0f, 0.0f, 1.0f //3
     };
     unsigned int indices[] = {
         0, 1, 2,
@@ -138,9 +145,11 @@ void GameEngine::Graphics::Rect::init()
 
 void GameEngine::Graphics::Rect::render()
 {
-    this->translateMat = glm::translate(glm::mat4(1.0), glm::vec3(*this->x, *this->y, 0.0f));
-    this->MVP = PROJECTION_MATRIX * this->translateMat;
+    this->translateMat = glm::translate(glm::mat4(1.0), glm::vec3(*this->x, *this->y, 0.0f)) * glm::scale(glm::mat4(1.0f), {this->width, this->height, 1.0f});
+    // this->MVP = _currentCamera->getProjectionMatrix() * this->translateMat;
+    this->MVP = _currentCamera->getProjectionMatrix();
     this->shader->bind();
+    this->shader->setUniformMat4f("u_transform", this->translateMat);
     this->shader->setUniformMat4f("u_MVP", this->MVP);
     this->va->bind();
     this->ib->bind();

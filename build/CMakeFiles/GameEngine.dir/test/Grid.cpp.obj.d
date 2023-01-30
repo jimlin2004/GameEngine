@@ -349,6 +349,7 @@ CMakeFiles/GameEngine.dir/test/Grid.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.hpp \
  D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \

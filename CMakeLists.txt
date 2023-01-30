@@ -9,7 +9,8 @@ message(STATUS ${OPENGL_INCLUDE_DIR})
 message(STATUS ${OPENGL_LIBRARIES})
 
 find_package(GLEW REQUIRED)
-
+message(STATUS ${GLEW_INCLUDE_DIR})
+message(STATUS ${GLEW_LIBRARIES})
 
 file(GLOB_RECURSE SRC_FILE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c 
@@ -26,8 +27,10 @@ file(GLOB_RECURSE HEADER_FILES
 file(GLOB_RECURSE TEST_FILE
     ${CMAKE_CURRENT_SOURCE_DIR}/test/*cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/test/*.h)
+
 add_executable(${PROJECT_NAME} main.cpp ${SRC_FILE} ${TEST_FILE})
 include_directories(${OPENGL_INCLUDE_DIRS})
+include_directories(${GLEW_INCLUDE_DIRS})
 include_directories(${SDL2_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES})
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})

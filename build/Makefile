@@ -292,6 +292,30 @@ src/ActorComponent/inputComponent/InputComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.s
 .PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.s
 
+src/Camera.obj: src/Camera.cpp.obj
+.PHONY : src/Camera.obj
+
+# target to build an object file
+src/Camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.obj
+.PHONY : src/Camera.cpp.obj
+
+src/Camera.i: src/Camera.cpp.i
+.PHONY : src/Camera.i
+
+# target to preprocess a source file
+src/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
+
+src/Camera.s: src/Camera.cpp.s
+.PHONY : src/Camera.s
+
+# target to generate assembly for a file
+src/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
+
 src/DataStruct/Vector/Vector.obj: src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : src/DataStruct/Vector/Vector.obj
 
@@ -531,6 +555,30 @@ src/IndexBuffer.s: src/IndexBuffer.cpp.s
 src/IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.s
 .PHONY : src/IndexBuffer.cpp.s
+
+src/Renderer.obj: src/Renderer.cpp.obj
+.PHONY : src/Renderer.obj
+
+# target to build an object file
+src/Renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj
+.PHONY : src/Renderer.cpp.obj
+
+src/Renderer.i: src/Renderer.cpp.i
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
 
 src/Shader.obj: src/Shader.cpp.obj
 .PHONY : src/Shader.obj
@@ -825,6 +873,9 @@ help:
 	@echo ... src/ActorComponent/inputComponent/InputComponent.obj
 	@echo ... src/ActorComponent/inputComponent/InputComponent.i
 	@echo ... src/ActorComponent/inputComponent/InputComponent.s
+	@echo ... src/Camera.obj
+	@echo ... src/Camera.i
+	@echo ... src/Camera.s
 	@echo ... src/DataStruct/Vector/Vector.obj
 	@echo ... src/DataStruct/Vector/Vector.i
 	@echo ... src/DataStruct/Vector/Vector.s
@@ -855,6 +906,9 @@ help:
 	@echo ... src/IndexBuffer.obj
 	@echo ... src/IndexBuffer.i
 	@echo ... src/IndexBuffer.s
+	@echo ... src/Renderer.obj
+	@echo ... src/Renderer.i
+	@echo ... src/Renderer.s
 	@echo ... src/Shader.obj
 	@echo ... src/Shader.i
 	@echo ... src/Shader.s

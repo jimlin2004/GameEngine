@@ -7,6 +7,7 @@
 #include "../ShaderManager.h"
 #include "../../third_party/glm/glm.hpp"
 #include "../../third_party/glm/gtc/matrix_transform.hpp"
+#include "../Camera.h"
 
 namespace GameEngine
 {
@@ -40,7 +41,11 @@ namespace GameEngine
     extern GameEngineAPI* GEngine;
     //投影矩陣(將OpenGL正規化的坐標系統轉為視窗座標)
     //由GameBase去bind
-    extern glm::mat4 PROJECTION_MATRIX;
+    // extern glm::mat4 PROJECTION_MATRIX;
+    /*
+        全域的Camera
+    */
+    extern Camera* _currentCamera;
 }
 
 #endif

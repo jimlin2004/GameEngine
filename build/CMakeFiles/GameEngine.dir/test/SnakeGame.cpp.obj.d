@@ -350,6 +350,7 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/GameBase.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
@@ -554,11 +555,14 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
  D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Material/Material.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/Renderer.h \
  D:\code\cpp\gameGngine\test\Snake.h \
  D:/code/cpp/gameGngine/include/Actor.h \
  D:\code\cpp\gameGngine\test\Grid.h \

@@ -2,7 +2,7 @@
 #define GE_INPUTCOMPONENT_H
 
 #include "../Component/Component.h"
-#include "GameEngineAPI/GameEngineAPI.h"
+#include "../../GameEngineAPI/GameEngineAPI.h"
 #include <functional>
 
 namespace GameEngine

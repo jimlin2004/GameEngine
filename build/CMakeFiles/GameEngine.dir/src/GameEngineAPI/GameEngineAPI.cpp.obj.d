@@ -348,4 +348,5 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_clip_space.inl \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl
+ D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/Camera.h

@@ -1,7 +1,7 @@
 #ifndef GE_COMPONENT_H
 #define GE_COMPONENT_H
 
-#include "GameObject.h"
+#include "../../GameObject.h"
 
 namespace GameEngine
 {

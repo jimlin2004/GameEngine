@@ -52,3 +52,9 @@
     4. Snake game 的 Grid 已經可以render，但程式跑的慢，要修正
     Todo list
         -改變Snake game::Grid 的render速度
+2023/1/30
+    1. 新增Camera
+        -新增class Camera
+        -以全域的_currentCamera代表現在的camera
+    2. 新增class Renderer
+        -完成drawQuad

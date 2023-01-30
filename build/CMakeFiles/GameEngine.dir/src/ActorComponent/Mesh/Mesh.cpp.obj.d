@@ -391,6 +391,7 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
  D:/code/cpp/gameGngine/include/IndexBuffer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
