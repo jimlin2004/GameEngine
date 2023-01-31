@@ -4,8 +4,8 @@
 #include <GL/glew.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>
-#include <stdio.h>
 
+#include "GameEngineAPI/ConsoleApi.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Graphics.h"
 #include "Actor.h"
@@ -39,6 +39,7 @@ namespace GameEngine
         virtual void gameContext();
         void gameEventHandle();
         virtual void begin();
+        virtual void logBuildInfo();
         void startGame();
     };
 }

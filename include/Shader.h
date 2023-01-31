@@ -7,12 +7,13 @@
 #include "../third_party/glm/glm.hpp"
 #include "GameEngineAPI/GameEngineAPI.h"
 
-//將OpenGL的shader抽象成的class
-//load、complie、create shader
-//使用GEngine->ShaderManager
-//是為了效能考量(stringsteam的初始化效率低)
+
 namespace GameEngine
 {
+    //將OpenGL的shader抽象成的class
+    //load、complie、create shader
+    //使用GEngine->ShaderManager
+    //是為了效能考量(stringsteam的初始化效率低)
     class Shader
     {
     private:
@@ -27,7 +28,7 @@ namespace GameEngine
         void generateShader(const char* const VSPath, const char* const FSPath);
         //Todo: set uniform 一般化(template)
         void setUniform1i(const std::string& name, int value);
-        void setUniform4f(const std::string& name, float v0, float v1, float v2, float v3);
+        void setUniform4f(const std::string& name, const glm::vec4& value);
         void setUniformMat4f(const std::string& name, const glm::mat4& matrix);
     };
 }

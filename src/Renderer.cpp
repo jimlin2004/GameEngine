@@ -3,7 +3,8 @@
 struct QuadData
 {
     GameEngine::VertexArray* quadVertexArray;
-    GameEngine::Shader* shader;
+    GameEngine::Shader* textureShader;
+    GameEngine::Texture* whiteTexture; // 事實為避免僅用color時出錯
 };
 
 static QuadData* quadData;
@@ -15,22 +16,16 @@ void GameEngine::Renderer::initQuad()
     quadData->quadVertexArray->generate();
 
     float vertices[] = {
-        0.0f, 0.0f, 0.0f, 0.0f,//0
-        1.0f, 0.0f, 1.0f, 0.0f,//1
-        1.0f, 1.0f, 1.0f, 1.0f,//2
-        0.0f, 1.0f, 0.0f, 1.0f //3
+        0.0f, 0.0f, 0.0f, 0.0f, 0.0f,//0
+        1.0f, 0.0f, 0.0f, 1.0f, 0.0f,//1
+        1.0f, 1.0f, 0.0f, 1.0f, 1.0f,//2
+        0.0f, 1.0f, 0.0f, 0.0f, 1.0f //3
     };
-    // float vertices[] = {
-    //     0.0f, 0.0f,
-    //     50.0f, 0.0f,
-    //     50.0f, 50.0f,
-    //     0.0f, 50.0f
-    // };
 
     VertexBuffer quadVB;
     quadVB.generate(vertices, sizeof(vertices));
     VertexBufferLayout layout;
-    layout.push(GL_FLOAT, 2);
+    layout.push(GL_FLOAT, 3);
     layout.push(GL_FLOAT, 2);
     unsigned int indices[] = {
         0, 1, 2,
@@ -39,11 +34,16 @@ void GameEngine::Renderer::initQuad()
     quadData->quadVertexArray->addBuffer(quadVB, layout);
     GameEngine::IndexBuffer quadIB;
     quadIB.generate(indices, sizeof(indices) / sizeof(unsigned int));
-    quadData->shader = new GameEngine::Shader();
-    quadData->shader->generateShader("../asset/shader/rect/rect.vs", "../asset/shader/rect/rect.fs");
-    
+    quadData->textureShader = new GameEngine::Shader();
+    quadData->textureShader->generateShader("../asset/shader/rect/rect_with_texture.vs", "../asset/shader/rect/rect_with_texture.fs");
+    quadData->textureShader->setUniform1i("u_texture", 0);
+
+    quadData->whiteTexture = new Texture(1, 1);
+    unsigned int whiteTextureData = 0xffffffff;
+    quadData->whiteTexture->setData(&whiteTextureData);
+
     quadData->quadVertexArray->unbind();
-    quadData->shader->unbind();
+    quadData->textureShader->unbind();
     quadVB.unbind();
     quadIB.unbind();
 }
@@ -55,8 +55,8 @@ void GameEngine::Renderer::init()
 
 void GameEngine::Renderer::begin()
 {
-    quadData->shader->bind();
-    quadData->shader->setUniformMat4f("u_MVP", GameEngine::_currentCamera->getProjectionMatrix());
+    quadData->textureShader->bind();
+    quadData->textureShader->setUniformMat4f("u_MVP", GameEngine::_currentCamera->getProjectionMatrix());
 }
 
 void GameEngine::Renderer::close()
@@ -72,11 +72,31 @@ void GameEngine::Renderer::drawQuad(const glm::vec2& position, const glm::vec2& 
 
 void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& size, const glm::vec4& color)
 {
-    quadData->shader->bind();
-    quadData->shader->setUniform4f("u_color", color.x, color.y, color.z, color.w);
-    quadData->shader->setUniformMat4f("u_transform", glm::translate(glm::mat4(1.0f), position) * 
+    quadData->textureShader->bind();
+    quadData->textureShader->setUniform4f("u_color", color);
+    quadData->whiteTexture->bind();
+    quadData->textureShader->setUniformMat4f("u_transform", glm::translate(glm::mat4(1.0f), position) * 
         glm::scale(glm::mat4(1.0f), {size.x, size.y, 1.0f})
     );
     quadData->quadVertexArray->bind();
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+}
+
+void GameEngine::Renderer::drawQuad(const glm::vec2& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor/* = glm::vec4(1.0f)*/)
+{
+    
+    GameEngine::Renderer::drawQuad({position.x, position.y, 0.0f}, size, texture, maskColor);
+}
+
+void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor/* = glm::vec4(1.0f)*/)
+{
+    texture->bind();
+    quadData->textureShader->bind();
+    quadData->textureShader->setUniform4f("u_color", maskColor);
+    quadData->textureShader->setUniformMat4f("u_transform", glm::translate(glm::mat4(1.0f), position) * 
+        glm::scale(glm::mat4(1.0f), {size.x, size.y, 1.0f})
+    );
+    quadData->quadVertexArray->bind();
+    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+    texture->unbind();
 }

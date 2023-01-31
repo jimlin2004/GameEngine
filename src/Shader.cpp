@@ -43,9 +43,9 @@ void GameEngine::Shader::setUniform1i(const std::string& name, int value)
     glUniform1i(this->getUniformLocation(name), value);
 }
 
-void GameEngine::Shader::setUniform4f(const std::string& name, float v0, float v1, float v2, float v3)
+void GameEngine::Shader::setUniform4f(const std::string& name, const glm::vec4& value)
 {
-    glUniform4f(this->getUniformLocation(name), v0, v1, v2, v3);
+    glUniform4f(this->getUniformLocation(name), value.x, value.y, value.z, value.w);
 }
 
 void GameEngine::Shader::setUniformMat4f(const std::string& name, const glm::mat4& matrix)

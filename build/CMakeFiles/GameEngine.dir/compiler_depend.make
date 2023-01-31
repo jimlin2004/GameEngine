@@ -506,6 +506,7 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:/code/cpp/gameGngine/main.cpp \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_locale.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_misc.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_opengl.h \
+  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameGngine/include/Graphics.h \
   D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.hpp \
@@ -2601,6 +2602,7 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: D:/code/cpp/gameGngine/src/GameB
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_locale.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_misc.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_opengl.h \
+  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/functional \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
@@ -3053,6 +3055,23 @@ CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManage
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h
+
+CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj: D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp \
+  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/include/stdio.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
+  C:/Program\ Files/msys64/mingw64/include/swprintf.inl \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdio_s.h
 
 CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
@@ -4188,7 +4207,9 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Rende
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Camera.h
+  D:/code/cpp/gameGngine/include/Camera.h \
+  D:/code/cpp/gameGngine/include/Texture.h \
+  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h
 
 CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: D:/code/cpp/gameGngine/src/Shader.cpp \
   D:/code/cpp/gameGngine/include/Shader.h \
@@ -6196,6 +6217,7 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: D:/code/cpp/gameGngine/test/Sn
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_locale.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_misc.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_opengl.h \
+  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameGngine/include/Graphics.h \
   D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.hpp \
@@ -6865,11 +6887,11 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h:
 
 D:/code/cpp/gameGngine/third_party/glm/fwd.hpp:
 
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h:
+D:/code/cpp/gameGngine/third_party/glm/detail/func_exponential.inl:
 
 D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl:
 
-D:/code/cpp/gameGngine/third_party/glm/detail/func_exponential.inl:
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc:
 
@@ -7050,6 +7072,8 @@ C:/Program\ Files/msys64/mingw64/include/intrin.h:
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iosfwd:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h:
+
+D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cctype:
 
@@ -7883,6 +7907,10 @@ D:/code/cpp/gameGngine/include/GELib.h:
 
 D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp:
 
+C:/Program\ Files/msys64/mingw64/include/glm/ext/vector_int1.hpp:
+
+D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp:
+
 D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp:
 
 D:/code/cpp/gameGngine/src/GameObject.cpp:
@@ -8124,8 +8152,6 @@ C:/Program\ Files/msys64/mingw64/include/glm/ext/vector_float1.hpp:
 C:/Program\ Files/msys64/mingw64/include/glm/ext/vector_float1_precision.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/glm/ext/vector_double1.hpp:
-
-C:/Program\ Files/msys64/mingw64/include/glm/ext/vector_int1.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/glm/ext/vector_uint1_sized.hpp:
 

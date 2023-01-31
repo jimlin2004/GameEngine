@@ -41,7 +41,7 @@ GameEngine::Graphics::Line::Line(float fromX, float fromY, float toX, float toY)
     this->shader->bind();
     this->shader->setUniformMat4f("u_MVP", _currentCamera->getProjectionMatrix());
     this->shader->setUniformMat4f("u_transform", glm::mat4(1.0f));
-    this->shader->setUniform4f("u_color", 1.0f, 1.0f, 1.0f, 1.0f);
+    this->shader->setUniform4f("u_color", {1.0f, 1.0f, 1.0f, 1.0f});
     this->va->unbind();
     this->shader->unbind();
     this->vb->unbind();
@@ -102,10 +102,10 @@ void GameEngine::Graphics::Rect::init()
     //            0.0f, this->height, 0.0f, 1.0f //3
     // };
     float vertices[] = {
-               0.0f,         0.0f, 0.0f, 0.0f,//0
-               1.0f,         0.0f, 1.0f, 0.0f,//1
-               1.0f,         1.0f, 1.0f, 1.0f,//2
-               0.0f,         1.0f, 0.0f, 1.0f //3
+               0.0f, 0.0f, 0.0f, 0.0f,//0
+               1.0f, 0.0f, 1.0f, 0.0f,//1
+               1.0f, 1.0f, 1.0f, 1.0f,//2
+               0.0f, 1.0f, 0.0f, 1.0f //3
     };
     unsigned int indices[] = {
         0, 1, 2,
@@ -135,7 +135,7 @@ void GameEngine::Graphics::Rect::init()
         this->shader->setUniform1i("u_texture", 0);
     }
     else
-        this->shader->setUniform4f("u_color", 1.0f, 1.0f, 1.0f, 1.0f);
+        this->shader->setUniform4f("u_color", {1.0f, 1.0f, 1.0f, 1.0f});
 
     this->va->unbind();
     this->shader->unbind();

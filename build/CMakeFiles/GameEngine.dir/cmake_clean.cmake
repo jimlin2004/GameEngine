@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/GameObject.cpp.obj"

@@ -22,7 +22,7 @@ bool GameEngine::GameBase::initSDL()
 {
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
     {
-        printf("SDL Init Error: %s\n", SDL_GetError());
+        GameEngine::ConsoleApi::log("[Error] SDL Init Error: %s\n", SDL_GetError());
         return false;
     }
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
@@ -37,24 +37,26 @@ bool GameEngine::GameBase::initSDL()
         SDL_WINDOW_OPENGL);
     if (!this->window)
     {
-        printf("Create Window Error: %s\n", SDL_GetError());
+        GameEngine::ConsoleApi::log("[Error] Create Window Error: %s\n", SDL_GetError());
         SDL_Quit();
         return false;
     }
-    this->GLContext = SDL_GL_CreateContext(this->window);
     
+    this->GLContext = SDL_GL_CreateContext(this->window);
     if (!this->GLContext)
     {
-        printf("Create Window Error: %s\n", SDL_GetError());
+        GameEngine::ConsoleApi::log("[Error] Create Window Error: %s\n", SDL_GetError());
         SDL_Quit();
         return false;
     }
+    GameEngine::ConsoleApi::log("[Info] Create windows success.\n");
     SDL_GL_MakeCurrent(this->window, this->GLContext);
     if (glewInit() != GLEW_OK)
     {
-        printf("Init glew error\n");
+        GameEngine::ConsoleApi::log("Init glew error\n");
         return false;
     }
+    GameEngine::ConsoleApi::log("[Info] OpenGL init success.\n");
     SDL_GL_SetSwapInterval(1);
     return true;
 }
@@ -63,12 +65,13 @@ bool GameEngine::GameBase::initGL()
 {
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    glEnable(GL_DEPTH_TEST);
     return true;
 }
 
 void GameEngine::GameBase::gameContext()
 {
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
 void GameEngine::GameBase::gameEventHandle()
@@ -100,9 +103,17 @@ void GameEngine::GameBase::begin()
     return;
 }
 
+void GameEngine::GameBase::logBuildInfo()
+{
+    GameEngine::ConsoleApi::log("[Info] Game running success.\n");
+    GameEngine::ConsoleApi::log("============================\n");
+    GameEngine::ConsoleApi::log("Opengl version: %s\n\n", glGetString(GL_VERSION));
+}
+
 void GameEngine::GameBase::startGame()
 {
     this->begin();
+    this->logBuildInfo();
     this->running = true;
     while (this->running)
     {

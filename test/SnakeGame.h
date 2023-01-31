@@ -17,6 +17,7 @@ public:
 private:
     Snake* snake;
     Grid* grid;
+    GameEngine::Texture* testTexture;
 };
 
 #endif

@@ -460,6 +460,30 @@ src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
 .PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
 
+src/GameEngineAPI/ConsoleApi.obj: src/GameEngineAPI/ConsoleApi.cpp.obj
+.PHONY : src/GameEngineAPI/ConsoleApi.obj
+
+# target to build an object file
+src/GameEngineAPI/ConsoleApi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj
+.PHONY : src/GameEngineAPI/ConsoleApi.cpp.obj
+
+src/GameEngineAPI/ConsoleApi.i: src/GameEngineAPI/ConsoleApi.cpp.i
+.PHONY : src/GameEngineAPI/ConsoleApi.i
+
+# target to preprocess a source file
+src/GameEngineAPI/ConsoleApi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.i
+.PHONY : src/GameEngineAPI/ConsoleApi.cpp.i
+
+src/GameEngineAPI/ConsoleApi.s: src/GameEngineAPI/ConsoleApi.cpp.s
+.PHONY : src/GameEngineAPI/ConsoleApi.s
+
+# target to generate assembly for a file
+src/GameEngineAPI/ConsoleApi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.s
+.PHONY : src/GameEngineAPI/ConsoleApi.cpp.s
+
 src/GameEngineAPI/GameEngineAPI.obj: src/GameEngineAPI/GameEngineAPI.cpp.obj
 .PHONY : src/GameEngineAPI/GameEngineAPI.obj
 
@@ -894,6 +918,9 @@ help:
 	@echo ... src/GameBaseComponent/GameEventManager/GameEventManager.obj
 	@echo ... src/GameBaseComponent/GameEventManager/GameEventManager.i
 	@echo ... src/GameBaseComponent/GameEventManager/GameEventManager.s
+	@echo ... src/GameEngineAPI/ConsoleApi.obj
+	@echo ... src/GameEngineAPI/ConsoleApi.i
+	@echo ... src/GameEngineAPI/ConsoleApi.s
 	@echo ... src/GameEngineAPI/GameEngineAPI.obj
 	@echo ... src/GameEngineAPI/GameEngineAPI.i
 	@echo ... src/GameEngineAPI/GameEngineAPI.s
