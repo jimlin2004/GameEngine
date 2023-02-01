@@ -63,3 +63,6 @@
     2. 新增ConsoleApi
         -log()
     存檔紀錄version1.0 (改為batch rendering前)
+2023/02/01
+    1. 暫時建置drawQuad為batch rendering(未含texture)
+    存檔紀錄version1.0

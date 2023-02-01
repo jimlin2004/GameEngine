@@ -33,6 +33,8 @@ namespace GameEngine
         static void drawQuad(const glm::vec2& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
         //渲染四邊形(含z軸)，支援texture
         static void drawQuad(const glm::vec3& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        //
+        static void drawFrame();
     private:
         //初始化渲染四邊形需要的事物
         static void initQuad();

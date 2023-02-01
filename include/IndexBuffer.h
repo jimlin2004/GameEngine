@@ -14,6 +14,7 @@ namespace GameEngine
         void generate(const unsigned int* data, unsigned int count);
         void bind();
         void unbind();
+        inline unsigned int getCount() const { return count; }
     private:
         unsigned int id;
         unsigned int count;
