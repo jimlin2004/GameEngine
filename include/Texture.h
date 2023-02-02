@@ -24,6 +24,10 @@ namespace GameEngine
         void load(const char* const path, int filter);
         void bind(unsigned int slot = 0);
         void unbind();
+        bool operator==(const Texture& other) const
+        {
+            return this->id == other.id;
+        }
     };
 }
 

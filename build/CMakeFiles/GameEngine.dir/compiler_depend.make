@@ -3853,6 +3853,32 @@ CMakeFiles/GameEngine.dir/src/IndexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/In
 
 CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Renderer.cpp \
   D:/code/cpp/gameGngine/include/Renderer.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/array \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/compare \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
   C:/Program\ Files/msys64/mingw64/include/GL/glew.h \
   C:/Program\ Files/msys64/mingw64/include/inttypes.h \
   C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
@@ -3871,12 +3897,6 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Rende
   D:/code/cpp/gameGngine/third_party/glm/glm.hpp \
   D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cmath \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
   C:/Program\ Files/msys64/mingw64/include/math.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
   C:/Program\ Files/msys64/mingw64/include/stdlib.h \
@@ -3888,22 +3908,6 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Rende
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
   C:/Program\ Files/msys64/mingw64/include/errno.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/limits \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
@@ -4074,7 +4078,6 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Rende
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
@@ -4082,7 +4085,6 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Rende
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
   C:/Program\ Files/msys64/mingw64/include/stdio.h \
@@ -4130,8 +4132,6 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Rende
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/functional \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/typeinfo \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/array \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/compare \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \

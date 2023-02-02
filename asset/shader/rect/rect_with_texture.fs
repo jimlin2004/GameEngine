@@ -1,16 +1,15 @@
-#version 330 core
+#version 400 core
     
 layout(location = 0) out vec4 color;
 
 //from rect_with_texture.vs
 in vec4 v_color;
 in vec2 v_texCoord;
+flat in  float v_textureIndex;
 
-uniform vec4 u_color;
-uniform sampler2D u_texture;
+uniform sampler2D u_textures[32];
 
 void main()
 {
-    // color = texture(u_texture, v_texCoord) * u_color;
-    color = v_color;
+    color = texture(u_textures[int(v_textureIndex)], v_texCoord) * v_color;
 }

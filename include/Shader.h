@@ -28,6 +28,7 @@ namespace GameEngine
         void generateShader(const char* const VSPath, const char* const FSPath);
         //Todo: set uniform 一般化(template)
         void setUniform1i(const std::string& name, int value);
+        void setUniform1iv(const std::string& name, int* value, unsigned int count);
         void setUniform4f(const std::string& name, const glm::vec4& value);
         void setUniformMat4f(const std::string& name, const glm::mat4& matrix);
     };

@@ -1,6 +1,7 @@
 #ifndef RENDERER_H
 #define RENDERER_H
 
+#include <array>
 #include <GL/glew.h>
 #include "../third_party/glm/glm.hpp"
 #include "VertexArray.h"

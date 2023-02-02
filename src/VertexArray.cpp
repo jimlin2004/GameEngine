@@ -35,7 +35,8 @@ void GameEngine::VertexArray::addBuffer(VertexBuffer& VB, const VertexBufferLayo
     for (unsigned int i = 0; i < elements.size(); ++i)
     {
         element = elements[i];
-        glEnableVertexAttribArray(i);
+        // glEnableVertexAttribArray(i);
+        glEnableVertexArrayAttrib(this->id, i);
         glVertexAttribPointer(i, element->count, element->type, element->normalized, layout.getStride(), (const void*)offset);
         offset += element->count * VertexBufferLayout::getSizezOfType(element->type);
     }

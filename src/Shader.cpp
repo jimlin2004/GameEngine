@@ -43,6 +43,11 @@ void GameEngine::Shader::setUniform1i(const std::string& name, int value)
     glUniform1i(this->getUniformLocation(name), value);
 }
 
+void GameEngine::Shader::setUniform1iv(const std::string& name, int* value, unsigned int count)
+{
+    glUniform1iv(this->getUniformLocation(name), count, value);
+}
+
 void GameEngine::Shader::setUniform4f(const std::string& name, const glm::vec4& value)
 {
     glUniform4f(this->getUniformLocation(name), value.x, value.y, value.z, value.w);

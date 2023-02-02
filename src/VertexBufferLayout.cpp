@@ -30,6 +30,10 @@ void GameEngine::VertexBufferLayout::push(unsigned int type, unsigned int count)
         this->elements.push_back(new VertexBufferElement(GL_FLOAT, count, false));
         this->stride += count * VertexBufferLayout::getSizezOfType(GL_FLOAT);
         break;
+    case GL_INT:
+        this->elements.push_back(new VertexBufferElement(GL_INT, count, false));
+        this->stride += count * VertexBufferLayout::getSizezOfType(GL_INT);
+        break;
     case GL_UNSIGNED_INT:
         this->elements.push_back(new VertexBufferElement(GL_UNSIGNED_INT, count, true));
         this->stride += count * VertexBufferLayout::getSizezOfType(GL_UNSIGNED_INT);
@@ -49,6 +53,7 @@ unsigned int GameEngine::VertexBufferLayout::getSizezOfType(unsigned int type)
     {
         case GL_FLOAT: return 4;
         case GL_UNSIGNED_INT: return 4;
+        case GL_INT: return 4;
         case GL_UNSIGNED_BYTE: return 1;
         default: return 0;
     }
