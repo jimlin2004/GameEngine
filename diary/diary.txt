@@ -70,3 +70,4 @@
     1. 暫時完成batch rendering 的 texture
         -透過補上shader->bind()修復
     存檔紀錄version1.0 (改為batch rendering 加入 transform前)
+    存檔紀錄version2.0 (22:07)

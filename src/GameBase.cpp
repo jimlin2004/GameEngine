@@ -106,8 +106,10 @@ void GameEngine::GameBase::begin()
 void GameEngine::GameBase::logBuildInfo()
 {
     GameEngine::ConsoleApi::log("[Info] Game running success.\n");
-    GameEngine::ConsoleApi::log("============================\n");
-    GameEngine::ConsoleApi::log("Opengl version: %s\n\n", glGetString(GL_VERSION));
+    GameEngine::ConsoleApi::log("\n==============================================\n");
+    GameEngine::ConsoleApi::log("[Info] Build Infomation\n");
+    GameEngine::ConsoleApi::log("Opengl version: %s\n", glGetString(GL_VERSION));
+    GameEngine::ConsoleApi::log("==============================================\n\n");
 }
 
 void GameEngine::GameBase::startGame()
