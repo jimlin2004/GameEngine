@@ -148,6 +148,30 @@ GameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/build
 .PHONY : GameEngine/fast
 
+debug/Timer/Timer.obj: debug/Timer/Timer.cpp.obj
+.PHONY : debug/Timer/Timer.obj
+
+# target to build an object file
+debug/Timer/Timer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/debug/Timer/Timer.cpp.obj
+.PHONY : debug/Timer/Timer.cpp.obj
+
+debug/Timer/Timer.i: debug/Timer/Timer.cpp.i
+.PHONY : debug/Timer/Timer.i
+
+# target to preprocess a source file
+debug/Timer/Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/debug/Timer/Timer.cpp.i
+.PHONY : debug/Timer/Timer.cpp.i
+
+debug/Timer/Timer.s: debug/Timer/Timer.cpp.s
+.PHONY : debug/Timer/Timer.s
+
+# target to generate assembly for a file
+debug/Timer/Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/debug/Timer/Timer.cpp.s
+.PHONY : debug/Timer/Timer.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -652,6 +676,30 @@ src/ShaderManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.s
 .PHONY : src/ShaderManager.cpp.s
 
+src/SubTexture.obj: src/SubTexture.cpp.obj
+.PHONY : src/SubTexture.obj
+
+# target to build an object file
+src/SubTexture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/SubTexture.cpp.obj
+.PHONY : src/SubTexture.cpp.obj
+
+src/SubTexture.i: src/SubTexture.cpp.i
+.PHONY : src/SubTexture.i
+
+# target to preprocess a source file
+src/SubTexture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/SubTexture.cpp.i
+.PHONY : src/SubTexture.cpp.i
+
+src/SubTexture.s: src/SubTexture.cpp.s
+.PHONY : src/SubTexture.s
+
+# target to generate assembly for a file
+src/SubTexture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/SubTexture.cpp.s
+.PHONY : src/SubTexture.cpp.s
+
 src/Texture.obj: src/Texture.cpp.obj
 .PHONY : src/Texture.obj
 
@@ -675,6 +723,30 @@ src/Texture.s: src/Texture.cpp.s
 src/Texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Texture.cpp.s
 .PHONY : src/Texture.cpp.s
+
+src/Timestep.obj: src/Timestep.cpp.obj
+.PHONY : src/Timestep.obj
+
+# target to build an object file
+src/Timestep.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Timestep.cpp.obj
+.PHONY : src/Timestep.cpp.obj
+
+src/Timestep.i: src/Timestep.cpp.i
+.PHONY : src/Timestep.i
+
+# target to preprocess a source file
+src/Timestep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Timestep.cpp.i
+.PHONY : src/Timestep.cpp.i
+
+src/Timestep.s: src/Timestep.cpp.s
+.PHONY : src/Timestep.s
+
+# target to generate assembly for a file
+src/Timestep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Timestep.cpp.s
+.PHONY : src/Timestep.cpp.s
 
 src/VertexArray.obj: src/VertexArray.cpp.obj
 .PHONY : src/VertexArray.obj
@@ -879,6 +951,9 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... GameEngine
+	@echo ... debug/Timer/Timer.obj
+	@echo ... debug/Timer/Timer.i
+	@echo ... debug/Timer/Timer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -942,9 +1017,15 @@ help:
 	@echo ... src/ShaderManager.obj
 	@echo ... src/ShaderManager.i
 	@echo ... src/ShaderManager.s
+	@echo ... src/SubTexture.obj
+	@echo ... src/SubTexture.i
+	@echo ... src/SubTexture.s
 	@echo ... src/Texture.obj
 	@echo ... src/Texture.i
 	@echo ... src/Texture.s
+	@echo ... src/Timestep.obj
+	@echo ... src/Timestep.i
+	@echo ... src/Timestep.s
 	@echo ... src/VertexArray.obj
 	@echo ... src/VertexArray.i
 	@echo ... src/VertexArray.s

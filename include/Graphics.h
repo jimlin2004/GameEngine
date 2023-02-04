@@ -1,76 +1,42 @@
 #ifndef GE_GRAPHICS_H
 #define GE_GRAPHICS_H
 
-#include <GL/glew.h>
 #include "../third_party/glm/glm.hpp"
-#include "../third_party/glm/gtc/matrix_transform.hpp"
-#include "../third_party/glm/gtc/type_ptr.hpp"
 #include "GameObject.h"
 #include "GameEngineAPI/GameEngineAPI.h"
-#include "VertexBuffer.h"
-#include "IndexBuffer.h"
-#include "VertexArray.h"
-#include "Shader.h"
-#include "Texture.h"
+#include "Renderer.h"
 
 namespace GameEngine
 {
     namespace Graphics
     {
-        class Graphics: public GameObject
+        struct Point2D
+        {
+            float x;
+            float y;
+        };
+
+        class Graphics
         {
         protected:
             float* x;
             float* y;
+            glm::vec4 color;
         public:
             Graphics();
             Graphics(float* x, float* y);
             ~Graphics();
-            virtual void render();
-        };
-
-        struct Point2D
-        {
-            float x, y;
-        };
-
-        /*
-            author: JimLin
-            作用: 用於在畫面上畫直線，非供mesh使用
-            note: 僅支援改變color，無texture
-        */
-        class Line: public Graphics
-        {
-        private:
-            float lineWidth;
-            VertexArray* va;
-            VertexBuffer* vb;
-            Shader* shader;
-        public:
-            Line(float fromX, float fromY, float toX, float toY);
-            ~Line();
-            void setLineWidth(int _width);
-            void render();
+            virtual void render() = 0;
+            virtual void setColor(const glm::vec4& color);
         };
 
         class Rect: public Graphics
         {
-        public:
-            float width, height; 
-            Rect(float* x, float* y, float width, float height, bool isUseTexture = false);
-            ~Rect();
-            virtual void render() override;
         private:
-            VertexArray* va;
-            VertexBuffer* vb;
-            IndexBuffer* ib;
-            Shader* shader;
-            Texture* texture;
-            bool isUseTexture;
-            glm::mat4 translateMat;
-            glm::mat4 MVP;
-
-            void init();
+            float width, height;
+        public:
+            Rect(float* x, float* y, float width, float height);
+            void render() override;
         };
     }
 }

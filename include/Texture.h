@@ -28,6 +28,8 @@ namespace GameEngine
         {
             return this->id == other.id;
         }
+        inline unsigned int getWidth() const { return width; }
+        inline unsigned int getHeight() const { return height; }
     };
 }
 

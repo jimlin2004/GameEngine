@@ -1,5 +1,19 @@
 CMakeFiles/GameEngine.dir/test/Grid.cpp.obj: \
  D:\code\cpp\gameGngine\test\Grid.cpp D:\code\cpp\gameGngine\test\Grid.h \
+ D:/code/cpp/gameGngine/include/GameEngineCore.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/include/Timestep.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
+ C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -67,15 +81,8 @@ CMakeFiles/GameEngine.dir/test/Grid.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
  C:/PROGRA~1/msys64/mingw64/include/stdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
- C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
- C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/PROGRA~1/msys64/mingw64/include/limits.h \
- C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/stdlib_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
  C:/PROGRA~1/msys64/mingw64/include/malloc.h \
@@ -99,10 +106,6 @@ CMakeFiles/GameEngine.dir/test/Grid.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/clocale \
@@ -128,7 +131,6 @@ CMakeFiles/GameEngine.dir/test/Grid.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
@@ -350,55 +352,179 @@ CMakeFiles/GameEngine.dir/test/Grid.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Camera.h \
- D:/code/cpp/gameGngine/include/Graphics.h \
- D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.hpp \
- D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/vec1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool1_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float1_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double1_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int1_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint1_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstring \
+ D:/code/cpp/gameGngine/include/GameBase.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/string.h \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
- D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.inl \
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/include/IndexBuffer.h \
+ C:/PROGRA~1/msys64/mingw64/include/strings.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_error.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_endian.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mutex.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_thread.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rwops.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_clipboard.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_cpuinfo.h \
+ C:/PROGRA~1/msys64/mingw64/include/intrin.h \
+ C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
+ C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmiintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/bmi2intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cetintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lzcntintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/lwpintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/movdirintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitxintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pconfigintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/popcntintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pkuintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/sgxintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tbmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tsxldtrkintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/uintrintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/waitpkgintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wbnoinvdintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavecintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/hresetintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/tmmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/smmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/wmmintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avxvnniintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx2intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512erintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512pfintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512cdintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlbwintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vldqintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmaintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512ifmavlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmiintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124fmapsintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx5124vnniwintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmi2vlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnniintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vnnivlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vpopcntdqvlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bitalgintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vp2intersectvlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512fp16vlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/shaintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fmaintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/gfniintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vpclmulqdqintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16vlintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bf16intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxtileintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxint8intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_events.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_video.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_pixels.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rect.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_surface.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_blendmode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keyboard.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mouse.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_joystick.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_guid.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gamecontroller.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_sensor.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_quit.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gesture.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_touch.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_filesystem.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_haptic.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hidapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hints.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_loadso.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_log.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_messagebox.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_metal.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_power.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_render.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_shape.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_system.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_timer.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_version.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
+ D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
+ D:/code/cpp/gameGngine/include/VertexBuffer.h \
  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameGngine/include/IndexBuffer.h \
  D:/code/cpp/gameGngine/include/Shader.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/include/Actor.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Material/Material.h \
+ D:/code/cpp/gameGngine/include/Graphics.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
+ D:/code/cpp/gameGngine/include/Graphics.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h

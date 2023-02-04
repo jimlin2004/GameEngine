@@ -5,6 +5,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>
 
+#include "Timestep.h"
 #include "GameEngineAPI/ConsoleApi.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Graphics.h"
@@ -36,11 +37,14 @@ namespace GameEngine
         virtual bool initSDL();
         virtual bool initGL();
         void init();
-        virtual void gameContext();
+        virtual void update(float deltaTime);
         void gameEventHandle();
         virtual void begin();
         virtual void logBuildInfo();
         void startGame();
+    private:
+        Timestep timestep;
+        uint64_t lastFrameTime;
     };
 }
 

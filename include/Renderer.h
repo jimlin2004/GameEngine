@@ -8,6 +8,7 @@
 #include "IndexBuffer.h"
 #include "Shader.h"
 #include "Texture.h"
+#include "SubTexture.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 
 namespace GameEngine
@@ -36,6 +37,10 @@ namespace GameEngine
         static void drawQuad(const glm::vec2& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
         //預約批量渲染四邊形(含z軸)，支援texture
         static void drawQuad(const glm::vec3& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        //預約批量渲染四邊形(無z軸)，支援Subtexture
+        static void drawQuad(const glm::vec2& position, const glm::vec2& size, SubTexture* subTexture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        //預約批量渲染四邊形(含z軸)，支援Subtexture
+        static void drawQuad(const glm::vec3& position, const glm::vec2& size, SubTexture* subTexture, const glm::vec4& maskColor = glm::vec4(1.0f));
         //預約批量渲染可旋轉四邊形(無z軸)，支援color
         //注意座標原點在四邊形中心
         static void drawRotatedQuad(const glm::vec2& position, const glm::vec2& size, float rotation, const glm::vec4& color);
@@ -47,15 +52,31 @@ namespace GameEngine
         static void drawRotatedQuad(const glm::vec2& position, const glm::vec2& size, float rotation, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
         //預約批量渲染可旋轉四邊形(含z軸)，支援texture
         //注意座標原點在四邊形中心
+        static void drawRotatedQuad(const glm::vec3& position, const glm::vec2& size, float rotation, SubTexture* subTexture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        //預約批量渲染可旋轉四邊形(無z軸)，支援subTexture
+        //注意座標原點在四邊形中心
+        static void drawRotatedQuad(const glm::vec2& position, const glm::vec2& size, float rotation, SubTexture* subTexture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        //預約批量渲染可旋轉四邊形(含z軸)，支援subTexture
+        //注意座標原點在四邊形中心
         static void drawRotatedQuad(const glm::vec3& position, const glm::vec2& size, float rotation, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        //預約批量渲染畫線(無z軸)(支援color)
+        static void drawLine(const glm::vec2& point1, const glm::vec2& point2, const glm::vec4& color);
+        //預約批量渲染畫線(含z軸)(支援color)
+        static void drawLine(const glm::vec3& point1, const glm::vec3& point2, const glm::vec4& color);
+        
         //執行批量渲染，由close() 調用
         static void drawFrame();
 
+        static void setLineWidth(float width);
+
         static unsigned int getQuadNum();
         static unsigned int getDrawCalls();
+        static unsigned int getLineNum();
     private:
         //初始化渲染四邊形需要的事物
         static void initQuad();
+        //初始化渲染線需要的事物
+        static void initLine();
         static void resetInfomation();
     };
 
@@ -63,6 +84,7 @@ namespace GameEngine
     {
         unsigned int drawCalls = 0;
         unsigned int quadNums = 0;
+        unsigned int lineNums = 0;
     };
 }
 

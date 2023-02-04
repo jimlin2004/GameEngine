@@ -1,26 +1,20 @@
 #include "Actor.h"
 
 GameEngine::Actor::Actor()
+    : x(0.0f), y(0.0f), material(nullptr)
 {
-    this->x = 0.f;
-    this->y = 0.f;
-    this->material = nullptr;
     this->mesh = new Mesh(&this->x, &this->y, 0.0f, 0.0f);
 }
 
 GameEngine::Actor::Actor(float x, float y)
+    : x(x), y(y), material(nullptr)
 {
-    this->x = x;
-    this->y = y;
-    this->material = nullptr;
     this->mesh = new Mesh(&this->x, &this->y, 0.0f, 0.0f);
 }
 
 GameEngine::Actor::Actor(float x, float y, float width, float height)
+    : x(x), y(y), material(nullptr)
 {
-    this->x = x;
-    this->y = y;
-    this->material = nullptr;
     this->mesh = new Mesh(&this->x, &this->y, width, height);
 }
 

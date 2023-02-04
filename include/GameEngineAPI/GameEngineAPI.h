@@ -22,9 +22,15 @@ namespace GameEngine
         //template 需要實現在template裡，不可分
 
         template<class TActor>
-        TActor* spawnActor(Vector* _vec)
+        TActor* spawnActor(const glm::vec3& position)
         {
-            TActor* obj = new TActor(_vec->x, _vec->y);
+            TActor* obj = new TActor(position.x, position.y);
+            return obj;
+        }
+        template<class TActor>
+        TActor* spawnActor(const glm::vec3& position, const glm::vec2& size)
+        {
+            TActor* obj = new TActor(position.x, position.y, size.x, size.y);
             return obj;
         }
         void callKeyEvent(int key);

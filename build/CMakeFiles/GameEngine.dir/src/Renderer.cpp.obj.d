@@ -357,4 +357,5 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/Texture.h \
- D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h
+ D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameGngine/include/SubTexture.h

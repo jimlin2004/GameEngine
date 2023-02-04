@@ -6,6 +6,7 @@ GameEngine::GameBase::GameBase(const char* title, int width, int height)
     this->screenWidth = width;
     this->screenHeight = height;
     this->running = false;
+    this->lastFrameTime = 0.0f;
     GameEngine::GEngine->_setWindowSize((float)this->screenWidth, (float)this->screenHeight);
     //bind screen size to PROJECTION_MATRIX
     GameEngine::_currentCamera->setProjectionMatrix(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight);
@@ -69,7 +70,7 @@ bool GameEngine::GameBase::initGL()
     return true;
 }
 
-void GameEngine::GameBase::gameContext()
+void GameEngine::GameBase::update(float deltaTime)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
@@ -117,10 +118,14 @@ void GameEngine::GameBase::startGame()
     this->begin();
     this->logBuildInfo();
     this->running = true;
+    uint64_t time = SDL_GetPerformanceCounter();
     while (this->running)
     {
+        this->lastFrameTime = time;
+        time = SDL_GetPerformanceCounter();
+        this->timestep = (time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency();
         this->gameEventHandle();
-        this->gameContext();
+        this->update(this->timestep);
         SDL_GL_SwapWindow(this->window);
     }
     SDL_DestroyWindow(this->window);

@@ -106,8 +106,18 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\SubTexture.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\SubTexture.cpp",
+  "file": "D:/code/cpp/gameGngine/src/SubTexture.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Texture.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Texture.cpp",
   "file": "D:/code/cpp/gameGngine/src/Texture.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Timestep.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Timestep.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Timestep.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
@@ -148,5 +158,10 @@
   "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\SnakeGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\SnakeGame.cpp",
   "file": "D:/code/cpp/gameGngine/test/SnakeGame.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\debug\\Timer\\Timer.cpp.obj -c D:\\code\\cpp\\gameGngine\\debug\\Timer\\Timer.cpp",
+  "file": "D:/code/cpp/gameGngine/debug/Timer/Timer.cpp"
 }
 ]

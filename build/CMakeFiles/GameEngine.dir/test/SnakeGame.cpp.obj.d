@@ -1,6 +1,20 @@
 CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  D:\code\cpp\gameGngine\test\SnakeGame.cpp \
  D:\code\cpp\gameGngine\test\SnakeGame.h \
+ D:/code/cpp/gameGngine/include/GameEngineCore.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/include/Timestep.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
+ C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -68,15 +82,8 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
  C:/PROGRA~1/msys64/mingw64/include/stdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
- C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
- C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/PROGRA~1/msys64/mingw64/include/limits.h \
- C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/stdlib_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
  C:/PROGRA~1/msys64/mingw64/include/malloc.h \
@@ -100,10 +107,6 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/clocale \
@@ -129,7 +132,6 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
@@ -505,53 +507,16 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
- D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.hpp \
- D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/vec1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool1_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float1_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double1_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int1_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint1_sized.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstring \
- D:/code/cpp/gameGngine/third_party/glm/gtc/type_ptr.inl \
- D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/include/IndexBuffer.h \
+ D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
+ D:/code/cpp/gameGngine/include/VertexBuffer.h \
  D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameGngine/include/IndexBuffer.h \
  D:/code/cpp/gameGngine/include/Shader.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameGngine/include/SubTexture.h \
  D:/code/cpp/gameGngine/include/Actor.h \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
@@ -561,12 +526,7 @@ CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj: \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
- D:/code/cpp/gameGngine/include/Renderer.h \
- D:/code/cpp/gameGngine/include/Graphics.h \
- D:/code/cpp/gameGngine/include/Renderer.h \
- D:\code\cpp\gameGngine\test\Snake.h \
- D:/code/cpp/gameGngine/include/Actor.h \
- D:\code\cpp\gameGngine\test\Grid.h \
+ D:\code\cpp\gameGngine\test\Snake.h D:\code\cpp\gameGngine\test\Grid.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h

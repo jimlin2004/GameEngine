@@ -12,7 +12,7 @@ find_package(GLEW REQUIRED)
 message(STATUS ${GLEW_INCLUDE_DIR})
 message(STATUS ${GLEW_LIBRARIES})
 
-file(GLOB_RECURSE SRC_FILE
+file(GLOB_RECURSE SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c 
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/include/*.cpp
@@ -24,11 +24,15 @@ file(GLOB_RECURSE HEADER_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/*.h
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/*.hpp)
-file(GLOB_RECURSE TEST_FILE
-    ${CMAKE_CURRENT_SOURCE_DIR}/test/*cpp
+file(GLOB_RECURSE DEBUG_FILES
+    ${CMAKE_CURRENT_SOURCE_DIR}/debug/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/debug/*.h
+)
+file(GLOB_RECURSE TEST_FILES
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/test/*.h)
 
-add_executable(${PROJECT_NAME} main.cpp ${SRC_FILE} ${TEST_FILE})
+add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${TEST_FILES} ${DEBUG_FILES})
 include_directories(${OPENGL_INCLUDE_DIRS})
 include_directories(${GLEW_INCLUDE_DIRS})
 include_directories(${SDL2_INCLUDE_DIRS})
