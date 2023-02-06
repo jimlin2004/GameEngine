@@ -15,20 +15,32 @@ Grid::Grid()
         .x = this->midX + (this->cellSideLength * this->cellsNum / 2),
         .y = this->midY - (this->cellSideLength * this->cellsNum / 2),
     };
+    this->data.resize(this->cellsNum, std::vector<GridCell>(this->cellsNum));
+    this->initData();
 }
 
-// void Grid::generateLines()
-// {
-//     for (int i = 1; i <= this->cellsNum / 2; ++i)
-//     {
-//         this->lines.push_back(new GameEngine::Graphics::Line(this->midX - (this->cellSideLength * i), this->leftTopPoint.y, this->midX - (this->cellSideLength * i), this->rightBottonPoint.y));
-//         this->lines.push_back(new GameEngine::Graphics::Line(this->midX + (this->cellSideLength * i), this->leftTopPoint.y, this->midX + (this->cellSideLength * i), this->rightBottonPoint.y));
-//         this->lines.push_back(new GameEngine::Graphics::Line(this->leftTopPoint.x, this->midY - (this->cellSideLength * i), this->rightBottonPoint.x, this->midY - (this->cellSideLength * i)));
-//         this->lines.push_back(new GameEngine::Graphics::Line(this->leftTopPoint.x, this->midY + (this->cellSideLength * i), this->rightBottonPoint.x, this->midY + (this->cellSideLength * i)));
-//     }
-//     this->lines.push_back(new GameEngine::Graphics::Line(this->midX, this->leftTopPoint.y, this->midX, this->rightBottonPoint.y));
-//     this->lines.push_back(new GameEngine::Graphics::Line(this->leftTopPoint.x, midY, this->rightBottonPoint.x, midY));
-// }
+void Grid::initData()
+{
+    float _x = this->leftTopPoint.x;
+    float _y = this->leftTopPoint.y;
+    for (int i = 0; i < this->cellsNum; ++i)
+    {
+        for (int j = 0; j < this->cellsNum; ++j)
+        {
+            this->data[i][j] = {
+                .boundX = _x,
+                .boundY = _y,
+                .midX = (_x + this->cellSideLength) / 2,
+                .midY = (_y + this->cellSideLength) / 2,
+                .direction = Direction::NONE
+            };
+            _x += this->cellSideLength;
+        }
+        _x = this->leftTopPoint.x;
+        _y -= this->cellSideLength;
+    }
+    return;
+}
 
 void Grid::render()
 {
@@ -41,4 +53,22 @@ void Grid::render()
     }
     GameEngine::Renderer::drawLine({this->midX, this->leftTopPoint.y}, {this->midX, this->rightBottonPoint.y}, {1.0f, 1.0f, 1.0f, 1.0f});
     GameEngine::Renderer::drawLine({this->leftTopPoint.x, this->midY}, {this->rightBottonPoint.x, this->midY}, {1.0f, 1.0f, 1.0f, 1.0f});
+}
+
+void Grid::resize()
+{
+    this->data.resize(this->cellsNum, std::vector<GridCell>(this->cellsNum));
+}
+
+void Grid::logData()
+{
+    for (std::vector<GridCell> vec: this->data)
+    {
+        for(GridCell cell: vec)
+        {
+            GameEngine::ConsoleApi::log("%d ", cell.direction);
+        }
+        GameEngine::ConsoleApi::log("\n");
+    }
+    GameEngine::ConsoleApi::log("\n");
 }

@@ -14,9 +14,6 @@ public:
 private:
     Snake* snake;
     Grid* grid;
-    GameEngine::Texture* testTexture;
-    GameEngine::Texture* foodTextureSheet;
-    GameEngine::SubTexture* foodTexture;
 };
 
 #endif

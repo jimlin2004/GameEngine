@@ -5,19 +5,39 @@
 #include <vector>
 #include <algorithm>
 
+enum Direction
+{
+    NONE,
+    UP, 
+    RIGHT, 
+    LEFT, 
+    DOWN
+};
+
+struct GridCell
+{
+    float boundX, boundY;
+    float midX, midY;
+    Direction direction;
+};
+
 class Grid
 {
 public:
     GameEngine::Graphics::Point2D leftTopPoint;
     GameEngine::Graphics::Point2D rightBottonPoint;
+    std::vector<std::vector<GridCell>> data;
     Grid();
     void render();
+    void resize();
+    void logData();
     inline float getCellSideLength() const { return cellSideLength; }
 private:
     float sideLength;
     float cellSideLength;
     float midX, midY;
     int cellsNum;
+    void initData();
 };
 
 #endif

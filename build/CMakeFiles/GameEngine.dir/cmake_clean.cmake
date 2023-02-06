@@ -59,6 +59,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/test/Grid.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/test/Snake.cpp.obj"
   "CMakeFiles/GameEngine.dir/test/Snake.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.obj"
+  "CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj"
   "CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.obj"

@@ -50,6 +50,10 @@
         "typeinfo": "cpp",
         "fstream": "cpp",
         "istream": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "chrono": "cpp",
+        "ctime": "cpp",
+        "ratio": "cpp",
+        "iomanip": "cpp"
     }
 }

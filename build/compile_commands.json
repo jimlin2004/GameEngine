@@ -156,6 +156,11 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\SnakeBody.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\SnakeBody.cpp",
+  "file": "D:/code/cpp/gameGngine/test/SnakeBody.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\SnakeGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\SnakeGame.cpp",
   "file": "D:/code/cpp/gameGngine/test/SnakeGame.cpp"
 },

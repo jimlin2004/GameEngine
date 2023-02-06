@@ -868,6 +868,30 @@ test/Snake.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.s
 .PHONY : test/Snake.cpp.s
 
+test/SnakeBody.obj: test/SnakeBody.cpp.obj
+.PHONY : test/SnakeBody.obj
+
+# target to build an object file
+test/SnakeBody.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.obj
+.PHONY : test/SnakeBody.cpp.obj
+
+test/SnakeBody.i: test/SnakeBody.cpp.i
+.PHONY : test/SnakeBody.i
+
+# target to preprocess a source file
+test/SnakeBody.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.i
+.PHONY : test/SnakeBody.cpp.i
+
+test/SnakeBody.s: test/SnakeBody.cpp.s
+.PHONY : test/SnakeBody.s
+
+# target to generate assembly for a file
+test/SnakeBody.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.s
+.PHONY : test/SnakeBody.cpp.s
+
 test/SnakeGame.obj: test/SnakeGame.cpp.obj
 .PHONY : test/SnakeGame.obj
 
@@ -1041,6 +1065,9 @@ help:
 	@echo ... test/Snake.obj
 	@echo ... test/Snake.i
 	@echo ... test/Snake.s
+	@echo ... test/SnakeBody.obj
+	@echo ... test/SnakeBody.i
+	@echo ... test/SnakeBody.s
 	@echo ... test/SnakeGame.obj
 	@echo ... test/SnakeGame.i
 	@echo ... test/SnakeGame.s
