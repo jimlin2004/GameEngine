@@ -20,14 +20,14 @@ void SnakeGame::update(float deltaTime)
 {
     static bool flag = true;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    // this->snake->setSpeed(0.1f * deltaTime);
-    this->snake->setSpeed(0.1f);
+    this->snake->setSpeed(this->grid->getCellSideLength() * deltaTime);
+    // this->snake->setSpeed(0.6f);
     this->snake->move(*this->grid);
     GameEngine::Renderer::begin();
         this->snake->render();
         this->grid->render();
-        GameEngine::Renderer::drawQuad({0.0f, 0.0f, -0.1f}, {this->grid->leftTopPoint.x, this->screenHeight}, {1.0f, 0.0f, 0.0f, 1.0f});
-        GameEngine::Renderer::drawQuad({this->grid->rightBottonPoint.x, 0.0f, -0.1f}, {this->screenWidth - this->grid->rightBottonPoint.x, this->screenHeight}, {1.0f, 0.0f, 0.0f, 1.0f});
+        GameEngine::Renderer::drawQuad({0.0f, 0.0f, -0.1f}, {this->grid->leftTopPoint.x, this->screenHeight}, {0.0f, 0.0f, 0.0f, 1.0f});
+        GameEngine::Renderer::drawQuad({this->grid->rightBottonPoint.x, 0.0f, -0.1f}, {this->screenWidth - this->grid->rightBottonPoint.x, this->screenHeight}, {0.0f, 0.0f, 0.0f, 1.0f});
     GameEngine::Renderer::close();
     if (flag)
     {

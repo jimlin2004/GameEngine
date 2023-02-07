@@ -10,14 +10,13 @@ enum Direction
     NONE,
     UP, 
     RIGHT, 
-    LEFT, 
-    DOWN
+    DOWN,
+    LEFT 
 };
 
 struct GridCell
 {
     float boundX, boundY;
-    float midX, midY;
     Direction direction;
 };
 

@@ -13,10 +13,10 @@ GameEngine::Timestep::operator float() const
 
 float GameEngine::Timestep::getSeconds() const
 {
-    return this->time * 0.0001f;
+    return this->time;
 }
 
 float GameEngine::Timestep::getMilliseconds() const
 {
-    return this->time;
+    return this->time * 1000.0f;
 }

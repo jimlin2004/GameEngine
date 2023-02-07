@@ -5,6 +5,7 @@
 
 #include "Grid.h"
 #include "SnakeBody.h"
+#include <array>
 #include <list>
 
 class Snake: public GameEngine::Character
@@ -26,10 +27,15 @@ private:
     glm::vec2 bound;
     glm::vec2 direction;
     Direction directionType;
+    std::array<const glm::vec2, 5> directionTable;
     glm::vec2 previousDirection;
     Direction previousDirectionType;
     std::list<SnakeBody*> bodys;
     SnakeBody* head;
+    SnakeBody* tail;
+    
+    void moveBodys(Grid& grid);
+    Direction getOppositeDirection(Direction _direction);
 };
 
 #endif

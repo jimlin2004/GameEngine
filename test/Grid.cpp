@@ -15,29 +15,27 @@ Grid::Grid()
         .x = this->midX + (this->cellSideLength * this->cellsNum / 2),
         .y = this->midY - (this->cellSideLength * this->cellsNum / 2),
     };
-    this->data.resize(this->cellsNum, std::vector<GridCell>(this->cellsNum));
+    this->data.resize(this->cellsNum + 2, std::vector<GridCell>(this->cellsNum + 2));
     this->initData();
 }
 
 void Grid::initData()
 {
-    float _x = this->leftTopPoint.x;
-    float _y = this->leftTopPoint.y;
-    for (int i = 0; i < this->cellsNum; ++i)
+    float _x = this->leftTopPoint.x - this->cellSideLength;
+    float _y = this->rightBottonPoint.y - this->cellSideLength;
+    for (int i = 0; i < this->cellsNum + 2; ++i)
     {
-        for (int j = 0; j < this->cellsNum; ++j)
+        for (int j = 0; j < this->cellsNum + 2; ++j)
         {
             this->data[i][j] = {
                 .boundX = _x,
                 .boundY = _y,
-                .midX = (_x + this->cellSideLength) / 2,
-                .midY = (_y + this->cellSideLength) / 2,
                 .direction = Direction::NONE
             };
             _x += this->cellSideLength;
         }
-        _x = this->leftTopPoint.x;
-        _y -= this->cellSideLength;
+        _x = this->leftTopPoint.x - this->cellSideLength;
+        _y += this->cellSideLength;
     }
     return;
 }
@@ -57,7 +55,7 @@ void Grid::render()
 
 void Grid::resize()
 {
-    this->data.resize(this->cellsNum, std::vector<GridCell>(this->cellsNum));
+    this->data.resize(this->cellsNum + 2, std::vector<GridCell>(this->cellsNum + 2));
 }
 
 void Grid::logData()

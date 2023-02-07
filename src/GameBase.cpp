@@ -123,7 +123,7 @@ void GameEngine::GameBase::startGame()
     {
         this->lastFrameTime = time;
         time = SDL_GetPerformanceCounter();
-        this->timestep = (time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency();
+        this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
         this->gameEventHandle();
         this->update(this->timestep);
         SDL_GL_SwapWindow(this->window);
