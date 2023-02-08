@@ -89,3 +89,8 @@
     Todo list
         -tail的清空
     存檔紀錄version1.0
+2023/02/08
+    1. 暫時建置多顆貪食蛇的身體(但是會有間隔的問題)
+    Todo list
+        -tail的清空
+    存檔紀錄version1.0

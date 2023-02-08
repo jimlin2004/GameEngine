@@ -10,17 +10,20 @@ void SnakeGame::begin()
 {
     this->init();
     this->grid = new Grid(); 
-    this->snake = GameEngine::GEngine->spawnActor<Snake>({this->grid->leftTopPoint.x, this->grid->leftTopPoint.y - this->grid->getCellSideLength(), 0.0f}, {this->grid->getCellSideLength(), this->grid->getCellSideLength()});
+    this->snake = GameEngine::GEngine->spawnActor<Snake>({this->grid->data[20][3].boundX, this->grid->data[20][3].boundY, 0.0f}, {this->grid->getCellSideLength(), this->grid->getCellSideLength()});
     this->snake->setSpeed(this->grid->getCellSideLength());
     this->snake->setBound({this->grid->rightBottonPoint.x, this->grid->rightBottonPoint.y - this->grid->getCellSideLength()});
-    this->grid->data[0][0].direction = Direction::RIGHT;
+    // this->grid->data[0][0].direction = Direction::RIGHT;
+    this->grid->data[20][1].direction = Direction::RIGHT;
+    this->grid->data[20][2].direction = Direction::RIGHT;
+    this->grid->data[20][3].direction = Direction::RIGHT;
 }
 
 void SnakeGame::update(float deltaTime)
 {
     static bool flag = true;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    this->snake->setSpeed(this->grid->getCellSideLength() * deltaTime);
+    this->snake->setSpeed(this->grid->getCellSideLength() * 6 * deltaTime);
     // this->snake->setSpeed(0.6f);
     this->snake->move(*this->grid);
     GameEngine::Renderer::begin();
