@@ -3,9 +3,8 @@ CMakeFiles/GameEngine.dir/test/Snake.cpp.obj: \
  D:\code\cpp\gameGngine\test\Snake.h \
  D:/code/cpp/gameGngine/include/GameEngineCore.h \
  D:/code/cpp/gameGngine/include/GameObject.h \
- D:/code/cpp/gameGngine/include/Timestep.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ D:/code/cpp/gameGngine/include/GELib.h \
+ C:/PROGRA~1/msys64/mingw64/include/time.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
@@ -13,14 +12,31 @@ CMakeFiles/GameEngine.dir/test/Snake.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
  C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
  C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/stddef.h \
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
+ C:/PROGRA~1/msys64/mingw64/include/sys/timeb.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/_timeval.h \
+ C:/PROGRA~1/msys64/mingw64/include/pthread_time.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdlib.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
+ C:/PROGRA~1/msys64/mingw64/include/limits.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/stdlib_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/malloc.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+ C:/PROGRA~1/msys64/mingw64/include/errno.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
+ D:/code/cpp/gameGngine/include/Timestep.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/stddef.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
@@ -80,16 +96,6 @@ CMakeFiles/GameEngine.dir/test/Snake.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
- C:/PROGRA~1/msys64/mingw64/include/stdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/limits.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/stdlib_s.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
- C:/PROGRA~1/msys64/mingw64/include/malloc.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
- C:/PROGRA~1/msys64/mingw64/include/errno.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
@@ -149,11 +155,6 @@ CMakeFiles/GameEngine.dir/test/Snake.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
  C:/PROGRA~1/msys64/mingw64/include/signal.h \
  C:/PROGRA~1/msys64/mingw64/include/pthread_signal.h \
- C:/PROGRA~1/msys64/mingw64/include/time.h \
- C:/PROGRA~1/msys64/mingw64/include/sys/timeb.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/sys/timeb_s.h \
- C:/PROGRA~1/msys64/mingw64/include/_timeval.h \
- C:/PROGRA~1/msys64/mingw64/include/pthread_time.h \
  C:/PROGRA~1/msys64/mingw64/include/pthread_compat.h \
  C:/PROGRA~1/msys64/mingw64/include/pthread_unistd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -530,4 +531,5 @@ CMakeFiles/GameEngine.dir/test/Snake.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
- D:\code\cpp\gameGngine\test\SnakeBody.h
+ D:\code\cpp\gameGngine\test\SnakeBody.h \
+ D:\code\cpp\gameGngine\test\Food.h

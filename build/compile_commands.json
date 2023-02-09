@@ -146,6 +146,11 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\Food.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\Food.cpp",
+  "file": "D:/code/cpp/gameGngine/test/Food.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\test\\Grid.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\Grid.cpp",
   "file": "D:/code/cpp/gameGngine/test/Grid.cpp"
 },

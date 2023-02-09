@@ -5,8 +5,15 @@
 
 #include "Grid.h"
 #include "SnakeBody.h"
+#include "Food.h"
 #include <array>
 #include <list>
+
+struct NewBody
+{
+    unsigned int i, j;
+    Direction direction;
+};
 
 class Snake: public GameEngine::Character
 {
@@ -33,7 +40,13 @@ private:
     std::list<SnakeBody*> bodys;
     SnakeBody* head;
     SnakeBody* tail;
-    
+    Food* food;
+    bool ateFood;
+    bool growing;
+    NewBody newBody;
+
+    // void clearTail(Grid& grid);
+    void overBoundary(SnakeBody* body, Grid& grid);
     void moveBodys(Grid& grid);
     Direction getOppositeDirection(Direction _direction);
 };

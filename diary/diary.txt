@@ -94,3 +94,11 @@
     Todo list
         -tail的清空
     存檔紀錄version1.0
+2023/02/09
+    1. 暫時實現Food，但遇到rand效率問題(將用GameEngine::shuffle解決)
+    2. 暫時實現body超出界外後要處理的事
+    3. GELib添加randint、shuffle函式
+    Todo list
+        -body出界後的美化
+        -Food rand效率問題
+    存檔紀錄version1.0

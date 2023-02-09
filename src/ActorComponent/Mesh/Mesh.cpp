@@ -30,3 +30,8 @@ void GameEngine::Mesh::render()
 {
     this->graphics->render();
 }
+
+void GameEngine::Mesh::setColor(const glm::vec4& color)
+{
+    this->graphics->setColor(color);
+}

@@ -55,6 +55,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/VertexBuffer.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/test/Food.cpp.obj"
+  "CMakeFiles/GameEngine.dir/test/Food.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/test/Grid.cpp.obj"
   "CMakeFiles/GameEngine.dir/test/Grid.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/test/Snake.cpp.obj"

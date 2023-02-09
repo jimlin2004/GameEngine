@@ -820,6 +820,30 @@ src/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
+test/Food.obj: test/Food.cpp.obj
+.PHONY : test/Food.obj
+
+# target to build an object file
+test/Food.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Food.cpp.obj
+.PHONY : test/Food.cpp.obj
+
+test/Food.i: test/Food.cpp.i
+.PHONY : test/Food.i
+
+# target to preprocess a source file
+test/Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Food.cpp.i
+.PHONY : test/Food.cpp.i
+
+test/Food.s: test/Food.cpp.s
+.PHONY : test/Food.s
+
+# target to generate assembly for a file
+test/Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Food.cpp.s
+.PHONY : test/Food.cpp.s
+
 test/Grid.obj: test/Grid.cpp.obj
 .PHONY : test/Grid.obj
 
@@ -1059,6 +1083,9 @@ help:
 	@echo ... src/VertexBufferLayout.obj
 	@echo ... src/VertexBufferLayout.i
 	@echo ... src/VertexBufferLayout.s
+	@echo ... test/Food.obj
+	@echo ... test/Food.i
+	@echo ... test/Food.s
 	@echo ... test/Grid.obj
 	@echo ... test/Grid.i
 	@echo ... test/Grid.s

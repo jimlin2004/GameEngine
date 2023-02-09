@@ -29,6 +29,7 @@ namespace GameEngine
             this->graphics = new T(this->rootX, this->rootY, this->width, this->height);
         }
         void render();
+        void setColor(const glm::vec4& color);
     private:
         float* rootX;
         float* rootY;

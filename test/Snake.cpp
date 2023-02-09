@@ -2,12 +2,15 @@
 
 Snake::Snake(float x, float y, float width, float height)
     : Character(x, y, width, height), speed(1.0f), direction({1, 0}), previousDirection({1, 0}), origin({x, y})
-      , directionTable({glm::vec2(0, 0), glm::vec2(0, 1), glm::vec2(1, 0), glm::vec2(0, -1), glm::vec2(-1, 0)})
+    , directionTable({glm::vec2(0, 0), glm::vec2(0, 1), glm::vec2(1, 0), glm::vec2(0, -1), glm::vec2(-1, 0)})
+    , ateFood(true), growing(false)
 {
     this->bodys.push_front(new SnakeBody(x, y, width, height, 20, 3, Direction::RIGHT));
     this->bodys.push_back(new SnakeBody(x - width, y, width, height, 20, 2, Direction::RIGHT));
     this->bodys.push_back(new SnakeBody(x - width - width, y, width, height, 20, 1, Direction::RIGHT));
     this->head = this->bodys.front();
+    this->tail = this->bodys.back();
+    this->food = new Food(width, height);
     this->directionType = Direction::RIGHT;
     this->previousDirectionType = Direction::RIGHT;
     this->setInputEvent();
@@ -43,14 +46,56 @@ Direction Snake::getOppositeDirection(Direction _direction)
     }
 }
 
+void Snake::overBoundary(SnakeBody* body, Grid& grid)
+{
+    if (body->currentDirection == Direction::RIGHT && (body->x >= grid.data[0][grid.data.size() - 1].boundX))
+    {
+        body->x = grid.data[0][0].boundX;
+        body->j = 0;
+        body->nextDirection = body->currentDirection;
+    }
+    else if (body->currentDirection == Direction::LEFT && (body->x <= grid.data[0][0].boundX))
+    {
+        body->x = grid.data[0][grid.data.size() - 1].boundX;
+        body->j = grid.data.size() - 1;
+        body->nextDirection = body->currentDirection;
+    }
+    if (body->currentDirection == Direction::UP && (body->y >= grid.data[grid.data.size() - 1][0].boundY))
+    {
+        body->y = grid.data[grid.data.size() - 1][0].boundY;
+        body->i = 0;
+        body->nextDirection = body->currentDirection;
+    }
+    else if (body->currentDirection == Direction::DOWN && (body->y <= grid.data[0][0].boundY))
+    {
+        body->y = grid.data[21][0].boundY;
+        body->i = grid.data.size() - 1;
+        body->nextDirection = body->currentDirection;
+    }
+}
+
 void Snake::moveBodys(Grid& grid)
 {
-    // this->tail = this->bodys.back();
-    // glm::vec2 vec = this->directionTable[this->getOppositeDirection(this->previousDirectionType)];
-    // grid.data[this->tail->i + vec.y][this->tail->j + vec.x].direction = Direction::NONE;
+    if (grid.data[this->head->i][this->head->j].direction == Direction::FOOD)
+    {
+        this->ateFood = true;
+        this->growing = true;
+    }
+    else
+        grid.data[this->tail->i][this->tail->j].direction = Direction::NONE;
+    if (this->ateFood)
+    {
+        this->ateFood = false;
+        this->food->create(grid);
+        this->newBody = {
+            this->tail->i, this->tail->j, 
+            grid.data[this->tail->i][this->tail->j].direction
+        };
+    }
     grid.data[this->head->i][this->head->j].direction = this->directionType;
     this->previousDirectionType = this->directionType;
     this->previousDirection = this->direction;
+    
     this->x = grid.data[this->head->i][this->head->j].boundX;
     this->y = grid.data[this->head->i][this->head->j].boundY;
     this->head->i += this->direction.y;
@@ -61,28 +106,39 @@ void Snake::moveBodys(Grid& grid)
     {
         (*it)->currentDirection = (*it)->nextDirection;
         _vec = this->directionTable[(*it)->currentDirection];
+        this->overBoundary((*it), grid);
         (*it)->x = grid.data[(*it)->i][(*it)->j].boundX;
         (*it)->y = grid.data[(*it)->i][(*it)->j].boundY;
+        
         (*it)->i += _vec.y;
         (*it)->j += _vec.x;
+        
+        
         (*it)->nextDirection = grid.data[(*it)->i][(*it)->j].direction;
     }
-    GameEngine::ConsoleApi::log("%d\n", this->previousDirectionType);
-    for (std::vector<GridCell> vec: grid.data)
+    if (this->growing)
     {
-        for(GridCell cell: vec)
-        {
-            GameEngine::ConsoleApi::log("%d ", cell.direction);
-        }
-        GameEngine::ConsoleApi::log("\n");
+        this->growing = false;
+        this->bodys.push_back(new SnakeBody(grid.data[this->newBody.i][this->newBody.j].boundX, grid.data[this->newBody.i][this->newBody.j].boundY, 
+            grid.getCellSideLength(), grid.getCellSideLength(), 
+            this->newBody.i, this->newBody.j, this->newBody.direction));
+        this->tail = this->bodys.back();
     }
-    GameEngine::ConsoleApi::log("\n");
-    
-    // grid.data[this->tail->i][this->tail->j].direction = Direction::NONE;
+    // GameEngine::ConsoleApi::log("%d\n", this->previousDirectionType);
+    // for (std::vector<GridCell> vec: grid.data)
+    // {
+    //     for(GridCell cell: vec)
+    //     {
+    //         GameEngine::ConsoleApi::log("%d ", cell.direction);
+    //     }
+    //     GameEngine::ConsoleApi::log("\n");
+    // }
+    // GameEngine::ConsoleApi::log("\n");
 }
 
 void Snake::move(Grid& grid)
 {
+    
     this->x += this->previousDirection.x * this->speed;
     this->y += this->previousDirection.y * this->speed;
     
@@ -105,30 +161,36 @@ void Snake::move(Grid& grid)
         _y = (*it)->y + (_vec.y * this->speed);
         (*it)->setPosition(_x, _y);
     }
-    if (this->x > this->bound.x)
+
+    if (this->previousDirectionType == Direction::RIGHT && (this->x >= this->bound.x))
     {
         this->x = grid.data[0][0].boundX;
+        grid.data[this->head->i][grid.data.size() - 1].direction = this->previousDirectionType;
         this->head->j = 0;
     }
-    else if (this->x < grid.data[0][0].boundX)
+    else if (this->previousDirectionType == Direction::LEFT && (this->x <= grid.data[0][0].boundX))
     {
         this->x = this->bound.x;
+        grid.data[this->head->i][0].direction = this->previousDirectionType;
         this->head->j = grid.data.size() - 1;
     }
-    if (this->y > grid.data[21][0].boundY)
+    if (this->previousDirectionType == Direction::UP && (this->y >= grid.data[21][0].boundY))
     {
         this->y = this->bound.y;
+        grid.data[grid.data.size() - 1][this->head->j].direction = this->previousDirectionType;
         this->head->i = 0;
     }
-    else if (this->y < this->bound.y)
+    else if (this->previousDirectionType == Direction::DOWN && (this->y <= this->bound.y))
     {
         this->y = grid.data[21][0].boundY;
+        grid.data[0][this->head->j].direction = this->previousDirectionType;
         this->head->i = grid.data.size() - 1;
     }
 }
 
 void Snake::render()
 {
+    this->food->render();
     for (SnakeBody* body: this->bodys)
         body->render();
 }

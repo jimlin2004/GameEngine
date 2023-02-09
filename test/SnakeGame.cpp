@@ -17,14 +17,15 @@ void SnakeGame::begin()
     this->grid->data[20][1].direction = Direction::RIGHT;
     this->grid->data[20][2].direction = Direction::RIGHT;
     this->grid->data[20][3].direction = Direction::RIGHT;
+    return;
 }
 
 void SnakeGame::update(float deltaTime)
 {
     static bool flag = true;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    this->snake->setSpeed(this->grid->getCellSideLength() * 6 * deltaTime);
-    // this->snake->setSpeed(0.6f);
+    // this->snake->setSpeed(this->grid->getCellSideLength() * 4 * deltaTime);
+    this->snake->setSpeed(1.0f);
     this->snake->move(*this->grid);
     GameEngine::Renderer::begin();
         this->snake->render();
