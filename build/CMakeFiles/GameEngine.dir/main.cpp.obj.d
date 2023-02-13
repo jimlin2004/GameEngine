@@ -1,5 +1,5 @@
 CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
- D:\code\cpp\gameGngine\test/SnakeGame.h \
+ D:\code\cpp\gameGngine\snake/SnakeGame.h \
  D:/code/cpp/gameGngine/include/GameEngineCore.h \
  D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/GELib.h \
@@ -133,7 +133,7 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
  D:/code/cpp/gameGngine/include/ShaderManager.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
@@ -354,30 +354,29 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/GameBase.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/winsdkver.h \
+ C:/PROGRA~1/msys64/mingw64/include/winapifamily.h \
+ C:/PROGRA~1/msys64/mingw64/include/sdkddkver.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/string.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
- C:/PROGRA~1/msys64/mingw64/include/strings.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_error.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_endian.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mutex.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_thread.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rwops.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_clipboard.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_cpuinfo.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_audio.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mutex.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_thread.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h \
  C:/PROGRA~1/msys64/mingw64/include/intrin.h \
  C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
  C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
@@ -472,40 +471,58 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_events.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_video.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_pixels.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rect.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_surface.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_blendmode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keyboard.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mouse.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_joystick.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_guid.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gamecontroller.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_sensor.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_quit.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gesture.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_touch.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_filesystem.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_haptic.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hidapi.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hints.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_loadso.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_log.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_messagebox.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_metal.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_power.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_render.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_shape.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_system.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_timer.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_version.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_events.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_video.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rect.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_joystick.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_guid.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_sensor.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_quit.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_touch.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_filesystem.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hints.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_loadso.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_log.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_metal.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_power.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_render.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_shape.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_system.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_timer.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_misc.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_world.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_api.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_settings.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_types.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_common.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_collision.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+ C:/PROGRA~1/msys64/mingw64/include/string.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_time_step.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/Renderer.h \
@@ -526,9 +543,9 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
- D:\code\cpp\gameGngine\test/Snake.h D:\code\cpp\gameGngine\test/Grid.h \
+ D:\code\cpp\gameGngine\snake/Snake.h D:\code\cpp\gameGngine\snake/Grid.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
- D:\code\cpp\gameGngine\test/SnakeBody.h \
- D:\code\cpp\gameGngine\test/Food.h
+ D:\code\cpp\gameGngine\snake/SnakeBody.h \
+ D:\code\cpp\gameGngine\snake/Food.h

@@ -1,7 +1,7 @@
 CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  D:\code\cpp\gameGngine\src\GameBase.cpp \
  D:/code/cpp/gameGngine/include/GameBase.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
@@ -16,19 +16,36 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_main.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/winsdkver.h \
+ C:/PROGRA~1/msys64/mingw64/include/winapifamily.h \
+ C:/PROGRA~1/msys64/mingw64/include/sdkddkver.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_audio.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mutex.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_thread.h \
+ C:/PROGRA~1/msys64/mingw64/include/process.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
  C:/PROGRA~1/msys64/mingw64/include/sys/types.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
- C:/PROGRA~1/msys64/mingw64/include/stdio.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
- C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h \
+ C:/PROGRA~1/msys64/mingw64/include/intrin.h \
+ C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
+ C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdlib.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdlib \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -43,68 +60,6 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
  C:/PROGRA~1/msys64/mingw64/include/errno.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/string.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
- C:/PROGRA~1/msys64/mingw64/include/strings.h \
- C:/PROGRA~1/msys64/mingw64/include/wchar.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_stat64.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
- C:/PROGRA~1/msys64/mingw64/include/ctype.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/math.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_assert.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_atomic.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_audio.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_error.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_endian.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mutex.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_thread.h \
- C:/PROGRA~1/msys64/mingw64/include/process.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rwops.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_clipboard.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_cpuinfo.h \
- C:/PROGRA~1/msys64/mingw64/include/intrin.h \
- C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
- C:/PROGRA~1/msys64/mingw64/include/psdk_inc/intrin-impl.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32intrin.h \
@@ -196,42 +151,101 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_events.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_video.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_pixels.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_rect.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_surface.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_blendmode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keyboard.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mouse.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_joystick.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_guid.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gamecontroller.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_sensor.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_quit.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_gesture.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_touch.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_filesystem.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_haptic.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hidapi.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_hints.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_loadso.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_log.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_messagebox.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_metal.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_power.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_render.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_shape.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_system.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_timer.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_version.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_locale.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_misc.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_events.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_video.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rect.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_joystick.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_guid.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_sensor.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_quit.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_touch.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_filesystem.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hints.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_loadso.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_log.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_metal.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_power.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_render.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_shape.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_system.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_timer.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_misc.h \
+ D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_world.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_api.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_settings.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_types.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_common.h \
+ C:/PROGRA~1/msys64/mingw64/include/assert.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+ C:/PROGRA~1/msys64/mingw64/include/float.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_collision.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+ C:/PROGRA~1/msys64/mingw64/include/string.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_time_step.h \
+ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
  D:/code/cpp/gameGngine/include/Timestep.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/ConsoleApi.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdio.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
@@ -285,6 +299,9 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwchar \
+ C:/PROGRA~1/msys64/mingw64/include/wchar.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stat64.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
@@ -292,6 +309,7 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iosfwd \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cctype \
+ C:/PROGRA~1/msys64/mingw64/include/ctype.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
@@ -356,7 +374,6 @@ CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
- C:/PROGRA~1/msys64/mingw64/include/assert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/climits \

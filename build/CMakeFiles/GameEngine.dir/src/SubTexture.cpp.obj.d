@@ -210,7 +210,7 @@ CMakeFiles/GameEngine.dir/src/SubTexture.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
  C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h

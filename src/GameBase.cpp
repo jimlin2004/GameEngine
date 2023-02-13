@@ -1,11 +1,9 @@
 #include "GameBase.h"
 
 GameEngine::GameBase::GameBase(const char* title, int width, int height)
+    : title(title), screenWidth(width), screenHeight(height),
+      running(false), physicsWorld({0.0f, -9.8f})
 {
-    this->title = title;
-    this->screenWidth = width;
-    this->screenHeight = height;
-    this->running = false;
     this->lastFrameTime = 0.0f;
     GameEngine::GEngine->_setWindowSize((float)this->screenWidth, (float)this->screenHeight);
     //bind screen size to PROJECTION_MATRIX

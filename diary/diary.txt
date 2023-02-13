@@ -102,3 +102,14 @@
         -body出界後的美化
         -Food rand效率問題
     存檔紀錄version1.0
+2023/02/12
+    1. 新增physics資料夾
+    2. 新增physics/boundingBox/AABB
+2023/02/13
+    1. 決定引用包裝box2d
+    2. 修改CMakeLists的結構
+        -third_party的include改為手動設置相對位置
+    3. 為了移植性與再現性，決定將第三方庫都放置於third_party，
+       並於cmake中設置
+    4. 更改貪食蛇的body index算法(改為index是當下那一格)
+    存檔紀錄version1.0

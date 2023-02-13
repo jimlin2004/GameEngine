@@ -1,7 +1,7 @@
 CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj: \
  D:\code\cpp\gameGngine\src\ShaderManager.cpp \
  D:/code/cpp/gameGngine/include/ShaderManager.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \

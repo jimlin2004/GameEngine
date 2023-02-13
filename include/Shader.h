@@ -3,8 +3,8 @@
 
 #include <string>
 #include <unordered_map>
-#include <GL/glew.h>
-#include "../third_party/glm/glm.hpp"
+#include "GL/glew.h"
+#include "glm/glm.hpp"
 #include "GameEngineAPI/GameEngineAPI.h"
 
 

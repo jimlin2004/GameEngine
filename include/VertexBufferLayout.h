@@ -2,7 +2,7 @@
 #define VERTEXBUFFERLAYOUT_H
 
 #include <vector>
-#include <GL/glew.h>
+#include "GL/glew.h"
 
 namespace GameEngine
 {

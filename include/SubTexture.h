@@ -1,7 +1,7 @@
 #ifndef SUBTEXTURE_H
 #define SUBTEXTURE_H
 
-#include "../third_party/glm/glm.hpp"
+#include "glm/glm.hpp"
 #include "Texture.h"
 
 namespace GameEngine

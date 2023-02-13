@@ -27,7 +27,7 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \

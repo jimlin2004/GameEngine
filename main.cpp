@@ -10,7 +10,7 @@
 //         return 1;
 //     return 0;
 // }
-#include "test/SnakeGame.h"
+#include "snake/SnakeGame.h"
 
 int main(int argc, char* args[])
 {

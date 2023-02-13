@@ -5,8 +5,8 @@
 #include "../GameBaseComponent/GameEventManager/GameEventManager.h"
 #include "../DataStruct/Vector/Vector.h"
 #include "../ShaderManager.h"
-#include "../../third_party/glm/glm.hpp"
-#include "../../third_party/glm/gtc/matrix_transform.hpp"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
 #include "../Camera.h"
 
 namespace GameEngine

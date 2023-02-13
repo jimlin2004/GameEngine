@@ -24,7 +24,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/FeatureSummary.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/FindGLEW.cmake"
-  "C:/Program Files/CMake/share/cmake-3.25/Modules/FindOpenGL.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake"
@@ -37,16 +36,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Templates/CPackConfig.cmake.in"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2Config.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2ConfigVersion.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2Targets-release.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2Targets.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets-release.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2mainTargets.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets-release.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2staticTargets.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets-release.cmake"
-  "C:/Program Files/msys64/mingw64/lib/cmake/SDL2/SDL2testTargets.cmake"
   "C:/Program Files/msys64/mingw64/lib/cmake/glew/CopyImportedTargetProperties.cmake"
   "C:/Program Files/msys64/mingw64/lib/cmake/glew/glew-config.cmake"
   "C:/Program Files/msys64/mingw64/lib/cmake/glew/glew-targets-release.cmake"
@@ -56,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
+  "D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake"
   )
 
 # The corresponding makefile is:

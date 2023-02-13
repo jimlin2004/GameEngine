@@ -148,30 +148,6 @@ GameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/build
 .PHONY : GameEngine/fast
 
-debug/Timer/Timer.obj: debug/Timer/Timer.cpp.obj
-.PHONY : debug/Timer/Timer.obj
-
-# target to build an object file
-debug/Timer/Timer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/debug/Timer/Timer.cpp.obj
-.PHONY : debug/Timer/Timer.cpp.obj
-
-debug/Timer/Timer.i: debug/Timer/Timer.cpp.i
-.PHONY : debug/Timer/Timer.i
-
-# target to preprocess a source file
-debug/Timer/Timer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/debug/Timer/Timer.cpp.i
-.PHONY : debug/Timer/Timer.cpp.i
-
-debug/Timer/Timer.s: debug/Timer/Timer.cpp.s
-.PHONY : debug/Timer/Timer.s
-
-# target to generate assembly for a file
-debug/Timer/Timer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/debug/Timer/Timer.cpp.s
-.PHONY : debug/Timer/Timer.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -195,6 +171,126 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+snake/Food.obj: snake/Food.cpp.obj
+.PHONY : snake/Food.obj
+
+# target to build an object file
+snake/Food.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Food.cpp.obj
+.PHONY : snake/Food.cpp.obj
+
+snake/Food.i: snake/Food.cpp.i
+.PHONY : snake/Food.i
+
+# target to preprocess a source file
+snake/Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Food.cpp.i
+.PHONY : snake/Food.cpp.i
+
+snake/Food.s: snake/Food.cpp.s
+.PHONY : snake/Food.s
+
+# target to generate assembly for a file
+snake/Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Food.cpp.s
+.PHONY : snake/Food.cpp.s
+
+snake/Grid.obj: snake/Grid.cpp.obj
+.PHONY : snake/Grid.obj
+
+# target to build an object file
+snake/Grid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj
+.PHONY : snake/Grid.cpp.obj
+
+snake/Grid.i: snake/Grid.cpp.i
+.PHONY : snake/Grid.i
+
+# target to preprocess a source file
+snake/Grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Grid.cpp.i
+.PHONY : snake/Grid.cpp.i
+
+snake/Grid.s: snake/Grid.cpp.s
+.PHONY : snake/Grid.s
+
+# target to generate assembly for a file
+snake/Grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Grid.cpp.s
+.PHONY : snake/Grid.cpp.s
+
+snake/Snake.obj: snake/Snake.cpp.obj
+.PHONY : snake/Snake.obj
+
+# target to build an object file
+snake/Snake.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj
+.PHONY : snake/Snake.cpp.obj
+
+snake/Snake.i: snake/Snake.cpp.i
+.PHONY : snake/Snake.i
+
+# target to preprocess a source file
+snake/Snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Snake.cpp.i
+.PHONY : snake/Snake.cpp.i
+
+snake/Snake.s: snake/Snake.cpp.s
+.PHONY : snake/Snake.s
+
+# target to generate assembly for a file
+snake/Snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Snake.cpp.s
+.PHONY : snake/Snake.cpp.s
+
+snake/SnakeBody.obj: snake/SnakeBody.cpp.obj
+.PHONY : snake/SnakeBody.obj
+
+# target to build an object file
+snake/SnakeBody.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj
+.PHONY : snake/SnakeBody.cpp.obj
+
+snake/SnakeBody.i: snake/SnakeBody.cpp.i
+.PHONY : snake/SnakeBody.i
+
+# target to preprocess a source file
+snake/SnakeBody.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.i
+.PHONY : snake/SnakeBody.cpp.i
+
+snake/SnakeBody.s: snake/SnakeBody.cpp.s
+.PHONY : snake/SnakeBody.s
+
+# target to generate assembly for a file
+snake/SnakeBody.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.s
+.PHONY : snake/SnakeBody.cpp.s
+
+snake/SnakeGame.obj: snake/SnakeGame.cpp.obj
+.PHONY : snake/SnakeGame.obj
+
+# target to build an object file
+snake/SnakeGame.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj
+.PHONY : snake/SnakeGame.cpp.obj
+
+snake/SnakeGame.i: snake/SnakeGame.cpp.i
+.PHONY : snake/SnakeGame.i
+
+# target to preprocess a source file
+snake/SnakeGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.i
+.PHONY : snake/SnakeGame.cpp.i
+
+snake/SnakeGame.s: snake/SnakeGame.cpp.s
+.PHONY : snake/SnakeGame.s
+
+# target to generate assembly for a file
+snake/SnakeGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.s
+.PHONY : snake/SnakeGame.cpp.s
 
 src/Actor.obj: src/Actor.cpp.obj
 .PHONY : src/Actor.obj
@@ -820,149 +916,1109 @@ src/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.s
 .PHONY : src/VertexBufferLayout.cpp.s
 
-test/Food.obj: test/Food.cpp.obj
-.PHONY : test/Food.obj
+src/physics/boundingBox/AABB.obj: src/physics/boundingBox/AABB.cpp.obj
+.PHONY : src/physics/boundingBox/AABB.obj
 
 # target to build an object file
-test/Food.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Food.cpp.obj
-.PHONY : test/Food.cpp.obj
+src/physics/boundingBox/AABB.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj
+.PHONY : src/physics/boundingBox/AABB.cpp.obj
 
-test/Food.i: test/Food.cpp.i
-.PHONY : test/Food.i
+src/physics/boundingBox/AABB.i: src/physics/boundingBox/AABB.cpp.i
+.PHONY : src/physics/boundingBox/AABB.i
 
 # target to preprocess a source file
-test/Food.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Food.cpp.i
-.PHONY : test/Food.cpp.i
+src/physics/boundingBox/AABB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.i
+.PHONY : src/physics/boundingBox/AABB.cpp.i
 
-test/Food.s: test/Food.cpp.s
-.PHONY : test/Food.s
+src/physics/boundingBox/AABB.s: src/physics/boundingBox/AABB.cpp.s
+.PHONY : src/physics/boundingBox/AABB.s
 
 # target to generate assembly for a file
-test/Food.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Food.cpp.s
-.PHONY : test/Food.cpp.s
+src/physics/boundingBox/AABB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.s
+.PHONY : src/physics/boundingBox/AABB.cpp.s
 
-test/Grid.obj: test/Grid.cpp.obj
-.PHONY : test/Grid.obj
+third_party/box2d/src/collision/b2_broad_phase.obj: third_party/box2d/src/collision/b2_broad_phase.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_broad_phase.obj
 
 # target to build an object file
-test/Grid.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Grid.cpp.obj
-.PHONY : test/Grid.cpp.obj
+third_party/box2d/src/collision/b2_broad_phase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_broad_phase.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_broad_phase.cpp.obj
 
-test/Grid.i: test/Grid.cpp.i
-.PHONY : test/Grid.i
+third_party/box2d/src/collision/b2_broad_phase.i: third_party/box2d/src/collision/b2_broad_phase.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_broad_phase.i
 
 # target to preprocess a source file
-test/Grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Grid.cpp.i
-.PHONY : test/Grid.cpp.i
+third_party/box2d/src/collision/b2_broad_phase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_broad_phase.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_broad_phase.cpp.i
 
-test/Grid.s: test/Grid.cpp.s
-.PHONY : test/Grid.s
+third_party/box2d/src/collision/b2_broad_phase.s: third_party/box2d/src/collision/b2_broad_phase.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_broad_phase.s
 
 # target to generate assembly for a file
-test/Grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Grid.cpp.s
-.PHONY : test/Grid.cpp.s
+third_party/box2d/src/collision/b2_broad_phase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_broad_phase.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_broad_phase.cpp.s
 
-test/Snake.obj: test/Snake.cpp.obj
-.PHONY : test/Snake.obj
+third_party/box2d/src/collision/b2_chain_shape.obj: third_party/box2d/src/collision/b2_chain_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_chain_shape.obj
 
 # target to build an object file
-test/Snake.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.obj
-.PHONY : test/Snake.cpp.obj
+third_party/box2d/src/collision/b2_chain_shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_chain_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_chain_shape.cpp.obj
 
-test/Snake.i: test/Snake.cpp.i
-.PHONY : test/Snake.i
+third_party/box2d/src/collision/b2_chain_shape.i: third_party/box2d/src/collision/b2_chain_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_chain_shape.i
 
 # target to preprocess a source file
-test/Snake.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.i
-.PHONY : test/Snake.cpp.i
+third_party/box2d/src/collision/b2_chain_shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_chain_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_chain_shape.cpp.i
 
-test/Snake.s: test/Snake.cpp.s
-.PHONY : test/Snake.s
+third_party/box2d/src/collision/b2_chain_shape.s: third_party/box2d/src/collision/b2_chain_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_chain_shape.s
 
 # target to generate assembly for a file
-test/Snake.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/Snake.cpp.s
-.PHONY : test/Snake.cpp.s
+third_party/box2d/src/collision/b2_chain_shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_chain_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_chain_shape.cpp.s
 
-test/SnakeBody.obj: test/SnakeBody.cpp.obj
-.PHONY : test/SnakeBody.obj
+third_party/box2d/src/collision/b2_circle_shape.obj: third_party/box2d/src/collision/b2_circle_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_circle_shape.obj
 
 # target to build an object file
-test/SnakeBody.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.obj
-.PHONY : test/SnakeBody.cpp.obj
+third_party/box2d/src/collision/b2_circle_shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_circle_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_circle_shape.cpp.obj
 
-test/SnakeBody.i: test/SnakeBody.cpp.i
-.PHONY : test/SnakeBody.i
+third_party/box2d/src/collision/b2_circle_shape.i: third_party/box2d/src/collision/b2_circle_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_circle_shape.i
 
 # target to preprocess a source file
-test/SnakeBody.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.i
-.PHONY : test/SnakeBody.cpp.i
+third_party/box2d/src/collision/b2_circle_shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_circle_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_circle_shape.cpp.i
 
-test/SnakeBody.s: test/SnakeBody.cpp.s
-.PHONY : test/SnakeBody.s
+third_party/box2d/src/collision/b2_circle_shape.s: third_party/box2d/src/collision/b2_circle_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_circle_shape.s
 
 # target to generate assembly for a file
-test/SnakeBody.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeBody.cpp.s
-.PHONY : test/SnakeBody.cpp.s
+third_party/box2d/src/collision/b2_circle_shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_circle_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_circle_shape.cpp.s
 
-test/SnakeGame.obj: test/SnakeGame.cpp.obj
-.PHONY : test/SnakeGame.obj
+third_party/box2d/src/collision/b2_collide_circle.obj: third_party/box2d/src/collision/b2_collide_circle.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collide_circle.obj
 
 # target to build an object file
-test/SnakeGame.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.obj
-.PHONY : test/SnakeGame.cpp.obj
+third_party/box2d/src/collision/b2_collide_circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_circle.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collide_circle.cpp.obj
 
-test/SnakeGame.i: test/SnakeGame.cpp.i
-.PHONY : test/SnakeGame.i
+third_party/box2d/src/collision/b2_collide_circle.i: third_party/box2d/src/collision/b2_collide_circle.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collide_circle.i
 
 # target to preprocess a source file
-test/SnakeGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.i
-.PHONY : test/SnakeGame.cpp.i
+third_party/box2d/src/collision/b2_collide_circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_circle.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collide_circle.cpp.i
 
-test/SnakeGame.s: test/SnakeGame.cpp.s
-.PHONY : test/SnakeGame.s
+third_party/box2d/src/collision/b2_collide_circle.s: third_party/box2d/src/collision/b2_collide_circle.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collide_circle.s
 
 # target to generate assembly for a file
-test/SnakeGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/test/SnakeGame.cpp.s
-.PHONY : test/SnakeGame.cpp.s
+third_party/box2d/src/collision/b2_collide_circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_circle.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collide_circle.cpp.s
 
-third_party/glm/detail/glm.obj: third_party/glm/detail/glm.cpp.obj
-.PHONY : third_party/glm/detail/glm.obj
+third_party/box2d/src/collision/b2_collide_edge.obj: third_party/box2d/src/collision/b2_collide_edge.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collide_edge.obj
 
 # target to build an object file
-third_party/glm/detail/glm.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.obj
-.PHONY : third_party/glm/detail/glm.cpp.obj
+third_party/box2d/src/collision/b2_collide_edge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_edge.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collide_edge.cpp.obj
 
-third_party/glm/detail/glm.i: third_party/glm/detail/glm.cpp.i
-.PHONY : third_party/glm/detail/glm.i
+third_party/box2d/src/collision/b2_collide_edge.i: third_party/box2d/src/collision/b2_collide_edge.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collide_edge.i
 
 # target to preprocess a source file
-third_party/glm/detail/glm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.i
-.PHONY : third_party/glm/detail/glm.cpp.i
+third_party/box2d/src/collision/b2_collide_edge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_edge.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collide_edge.cpp.i
 
-third_party/glm/detail/glm.s: third_party/glm/detail/glm.cpp.s
-.PHONY : third_party/glm/detail/glm.s
+third_party/box2d/src/collision/b2_collide_edge.s: third_party/box2d/src/collision/b2_collide_edge.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collide_edge.s
 
 # target to generate assembly for a file
-third_party/glm/detail/glm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/glm/detail/glm.cpp.s
-.PHONY : third_party/glm/detail/glm.cpp.s
+third_party/box2d/src/collision/b2_collide_edge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_edge.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collide_edge.cpp.s
+
+third_party/box2d/src/collision/b2_collide_polygon.obj: third_party/box2d/src/collision/b2_collide_polygon.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collide_polygon.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_collide_polygon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collide_polygon.cpp.obj
+
+third_party/box2d/src/collision/b2_collide_polygon.i: third_party/box2d/src/collision/b2_collide_polygon.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collide_polygon.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_collide_polygon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_polygon.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collide_polygon.cpp.i
+
+third_party/box2d/src/collision/b2_collide_polygon.s: third_party/box2d/src/collision/b2_collide_polygon.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collide_polygon.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_collide_polygon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collide_polygon.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collide_polygon.cpp.s
+
+third_party/box2d/src/collision/b2_collision.obj: third_party/box2d/src/collision/b2_collision.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collision.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_collision.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collision.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_collision.cpp.obj
+
+third_party/box2d/src/collision/b2_collision.i: third_party/box2d/src/collision/b2_collision.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collision.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_collision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collision.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_collision.cpp.i
+
+third_party/box2d/src/collision/b2_collision.s: third_party/box2d/src/collision/b2_collision.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collision.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_collision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_collision.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_collision.cpp.s
+
+third_party/box2d/src/collision/b2_distance.obj: third_party/box2d/src/collision/b2_distance.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_distance.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_distance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_distance.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_distance.cpp.obj
+
+third_party/box2d/src/collision/b2_distance.i: third_party/box2d/src/collision/b2_distance.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_distance.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_distance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_distance.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_distance.cpp.i
+
+third_party/box2d/src/collision/b2_distance.s: third_party/box2d/src/collision/b2_distance.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_distance.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_distance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_distance.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_distance.cpp.s
+
+third_party/box2d/src/collision/b2_dynamic_tree.obj: third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_dynamic_tree.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj
+
+third_party/box2d/src/collision/b2_dynamic_tree.i: third_party/box2d/src/collision/b2_dynamic_tree.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_dynamic_tree.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_dynamic_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_dynamic_tree.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_dynamic_tree.cpp.i
+
+third_party/box2d/src/collision/b2_dynamic_tree.s: third_party/box2d/src/collision/b2_dynamic_tree.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_dynamic_tree.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_dynamic_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_dynamic_tree.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_dynamic_tree.cpp.s
+
+third_party/box2d/src/collision/b2_edge_shape.obj: third_party/box2d/src/collision/b2_edge_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_edge_shape.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_edge_shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_edge_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_edge_shape.cpp.obj
+
+third_party/box2d/src/collision/b2_edge_shape.i: third_party/box2d/src/collision/b2_edge_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_edge_shape.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_edge_shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_edge_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_edge_shape.cpp.i
+
+third_party/box2d/src/collision/b2_edge_shape.s: third_party/box2d/src/collision/b2_edge_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_edge_shape.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_edge_shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_edge_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_edge_shape.cpp.s
+
+third_party/box2d/src/collision/b2_polygon_shape.obj: third_party/box2d/src/collision/b2_polygon_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_polygon_shape.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_polygon_shape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_polygon_shape.cpp.obj
+
+third_party/box2d/src/collision/b2_polygon_shape.i: third_party/box2d/src/collision/b2_polygon_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_polygon_shape.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_polygon_shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_polygon_shape.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_polygon_shape.cpp.i
+
+third_party/box2d/src/collision/b2_polygon_shape.s: third_party/box2d/src/collision/b2_polygon_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_polygon_shape.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_polygon_shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_polygon_shape.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_polygon_shape.cpp.s
+
+third_party/box2d/src/collision/b2_time_of_impact.obj: third_party/box2d/src/collision/b2_time_of_impact.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_time_of_impact.obj
+
+# target to build an object file
+third_party/box2d/src/collision/b2_time_of_impact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj
+.PHONY : third_party/box2d/src/collision/b2_time_of_impact.cpp.obj
+
+third_party/box2d/src/collision/b2_time_of_impact.i: third_party/box2d/src/collision/b2_time_of_impact.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_time_of_impact.i
+
+# target to preprocess a source file
+third_party/box2d/src/collision/b2_time_of_impact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_time_of_impact.cpp.i
+.PHONY : third_party/box2d/src/collision/b2_time_of_impact.cpp.i
+
+third_party/box2d/src/collision/b2_time_of_impact.s: third_party/box2d/src/collision/b2_time_of_impact.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_time_of_impact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/collision/b2_time_of_impact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/collision/b2_time_of_impact.cpp.s
+.PHONY : third_party/box2d/src/collision/b2_time_of_impact.cpp.s
+
+third_party/box2d/src/common/b2_block_allocator.obj: third_party/box2d/src/common/b2_block_allocator.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_block_allocator.obj
+
+# target to build an object file
+third_party/box2d/src/common/b2_block_allocator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_block_allocator.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_block_allocator.cpp.obj
+
+third_party/box2d/src/common/b2_block_allocator.i: third_party/box2d/src/common/b2_block_allocator.cpp.i
+.PHONY : third_party/box2d/src/common/b2_block_allocator.i
+
+# target to preprocess a source file
+third_party/box2d/src/common/b2_block_allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_block_allocator.cpp.i
+.PHONY : third_party/box2d/src/common/b2_block_allocator.cpp.i
+
+third_party/box2d/src/common/b2_block_allocator.s: third_party/box2d/src/common/b2_block_allocator.cpp.s
+.PHONY : third_party/box2d/src/common/b2_block_allocator.s
+
+# target to generate assembly for a file
+third_party/box2d/src/common/b2_block_allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_block_allocator.cpp.s
+.PHONY : third_party/box2d/src/common/b2_block_allocator.cpp.s
+
+third_party/box2d/src/common/b2_draw.obj: third_party/box2d/src/common/b2_draw.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_draw.obj
+
+# target to build an object file
+third_party/box2d/src/common/b2_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_draw.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_draw.cpp.obj
+
+third_party/box2d/src/common/b2_draw.i: third_party/box2d/src/common/b2_draw.cpp.i
+.PHONY : third_party/box2d/src/common/b2_draw.i
+
+# target to preprocess a source file
+third_party/box2d/src/common/b2_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_draw.cpp.i
+.PHONY : third_party/box2d/src/common/b2_draw.cpp.i
+
+third_party/box2d/src/common/b2_draw.s: third_party/box2d/src/common/b2_draw.cpp.s
+.PHONY : third_party/box2d/src/common/b2_draw.s
+
+# target to generate assembly for a file
+third_party/box2d/src/common/b2_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_draw.cpp.s
+.PHONY : third_party/box2d/src/common/b2_draw.cpp.s
+
+third_party/box2d/src/common/b2_math.obj: third_party/box2d/src/common/b2_math.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_math.obj
+
+# target to build an object file
+third_party/box2d/src/common/b2_math.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_math.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_math.cpp.obj
+
+third_party/box2d/src/common/b2_math.i: third_party/box2d/src/common/b2_math.cpp.i
+.PHONY : third_party/box2d/src/common/b2_math.i
+
+# target to preprocess a source file
+third_party/box2d/src/common/b2_math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_math.cpp.i
+.PHONY : third_party/box2d/src/common/b2_math.cpp.i
+
+third_party/box2d/src/common/b2_math.s: third_party/box2d/src/common/b2_math.cpp.s
+.PHONY : third_party/box2d/src/common/b2_math.s
+
+# target to generate assembly for a file
+third_party/box2d/src/common/b2_math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_math.cpp.s
+.PHONY : third_party/box2d/src/common/b2_math.cpp.s
+
+third_party/box2d/src/common/b2_settings.obj: third_party/box2d/src/common/b2_settings.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_settings.obj
+
+# target to build an object file
+third_party/box2d/src/common/b2_settings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_settings.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_settings.cpp.obj
+
+third_party/box2d/src/common/b2_settings.i: third_party/box2d/src/common/b2_settings.cpp.i
+.PHONY : third_party/box2d/src/common/b2_settings.i
+
+# target to preprocess a source file
+third_party/box2d/src/common/b2_settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_settings.cpp.i
+.PHONY : third_party/box2d/src/common/b2_settings.cpp.i
+
+third_party/box2d/src/common/b2_settings.s: third_party/box2d/src/common/b2_settings.cpp.s
+.PHONY : third_party/box2d/src/common/b2_settings.s
+
+# target to generate assembly for a file
+third_party/box2d/src/common/b2_settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_settings.cpp.s
+.PHONY : third_party/box2d/src/common/b2_settings.cpp.s
+
+third_party/box2d/src/common/b2_stack_allocator.obj: third_party/box2d/src/common/b2_stack_allocator.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_stack_allocator.obj
+
+# target to build an object file
+third_party/box2d/src/common/b2_stack_allocator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_stack_allocator.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_stack_allocator.cpp.obj
+
+third_party/box2d/src/common/b2_stack_allocator.i: third_party/box2d/src/common/b2_stack_allocator.cpp.i
+.PHONY : third_party/box2d/src/common/b2_stack_allocator.i
+
+# target to preprocess a source file
+third_party/box2d/src/common/b2_stack_allocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_stack_allocator.cpp.i
+.PHONY : third_party/box2d/src/common/b2_stack_allocator.cpp.i
+
+third_party/box2d/src/common/b2_stack_allocator.s: third_party/box2d/src/common/b2_stack_allocator.cpp.s
+.PHONY : third_party/box2d/src/common/b2_stack_allocator.s
+
+# target to generate assembly for a file
+third_party/box2d/src/common/b2_stack_allocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_stack_allocator.cpp.s
+.PHONY : third_party/box2d/src/common/b2_stack_allocator.cpp.s
+
+third_party/box2d/src/common/b2_timer.obj: third_party/box2d/src/common/b2_timer.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_timer.obj
+
+# target to build an object file
+third_party/box2d/src/common/b2_timer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_timer.cpp.obj
+.PHONY : third_party/box2d/src/common/b2_timer.cpp.obj
+
+third_party/box2d/src/common/b2_timer.i: third_party/box2d/src/common/b2_timer.cpp.i
+.PHONY : third_party/box2d/src/common/b2_timer.i
+
+# target to preprocess a source file
+third_party/box2d/src/common/b2_timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_timer.cpp.i
+.PHONY : third_party/box2d/src/common/b2_timer.cpp.i
+
+third_party/box2d/src/common/b2_timer.s: third_party/box2d/src/common/b2_timer.cpp.s
+.PHONY : third_party/box2d/src/common/b2_timer.s
+
+# target to generate assembly for a file
+third_party/box2d/src/common/b2_timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/common/b2_timer.cpp.s
+.PHONY : third_party/box2d/src/common/b2_timer.cpp.s
+
+third_party/box2d/src/dynamics/b2_body.obj: third_party/box2d/src/dynamics/b2_body.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_body.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_body.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_body.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_body.cpp.obj
+
+third_party/box2d/src/dynamics/b2_body.i: third_party/box2d/src/dynamics/b2_body.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_body.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_body.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_body.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_body.cpp.i
+
+third_party/box2d/src/dynamics/b2_body.s: third_party/box2d/src/dynamics/b2_body.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_body.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_body.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_body.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_body.cpp.s
+
+third_party/box2d/src/dynamics/b2_chain_circle_contact.obj: third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_chain_circle_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_chain_circle_contact.i: third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_chain_circle_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_chain_circle_contact.s: third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_chain_circle_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_chain_polygon_contact.obj: third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_chain_polygon_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_chain_polygon_contact.i: third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_chain_polygon_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_chain_polygon_contact.s: third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_chain_polygon_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_circle_contact.obj: third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_circle_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_circle_contact.i: third_party/box2d/src/dynamics/b2_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_circle_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_circle_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_circle_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_circle_contact.s: third_party/box2d/src/dynamics/b2_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_circle_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_circle_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_circle_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_contact.obj: third_party/box2d/src/dynamics/b2_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_contact.i: third_party/box2d/src/dynamics/b2_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_contact.s: third_party/box2d/src/dynamics/b2_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_contact_manager.obj: third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_contact_manager.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj
+
+third_party/box2d/src/dynamics/b2_contact_manager.i: third_party/box2d/src/dynamics/b2_contact_manager.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_contact_manager.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_contact_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact_manager.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_contact_manager.cpp.i
+
+third_party/box2d/src/dynamics/b2_contact_manager.s: third_party/box2d/src/dynamics/b2_contact_manager.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_contact_manager.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_contact_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact_manager.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_contact_manager.cpp.s
+
+third_party/box2d/src/dynamics/b2_contact_solver.obj: third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_contact_solver.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj
+
+third_party/box2d/src/dynamics/b2_contact_solver.i: third_party/box2d/src/dynamics/b2_contact_solver.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_contact_solver.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_contact_solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact_solver.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_contact_solver.cpp.i
+
+third_party/box2d/src/dynamics/b2_contact_solver.s: third_party/box2d/src/dynamics/b2_contact_solver.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_contact_solver.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_contact_solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_contact_solver.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_contact_solver.cpp.s
+
+third_party/box2d/src/dynamics/b2_distance_joint.obj: third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_distance_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_distance_joint.i: third_party/box2d/src/dynamics/b2_distance_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_distance_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_distance_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_distance_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_distance_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_distance_joint.s: third_party/box2d/src/dynamics/b2_distance_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_distance_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_distance_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_distance_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_distance_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_edge_circle_contact.obj: third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_edge_circle_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_edge_circle_contact.i: third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_edge_circle_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_edge_circle_contact.s: third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_edge_circle_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_edge_polygon_contact.obj: third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_edge_polygon_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_edge_polygon_contact.i: third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_edge_polygon_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_edge_polygon_contact.s: third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_edge_polygon_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_fixture.obj: third_party/box2d/src/dynamics/b2_fixture.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_fixture.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_fixture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_fixture.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_fixture.cpp.obj
+
+third_party/box2d/src/dynamics/b2_fixture.i: third_party/box2d/src/dynamics/b2_fixture.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_fixture.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_fixture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_fixture.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_fixture.cpp.i
+
+third_party/box2d/src/dynamics/b2_fixture.s: third_party/box2d/src/dynamics/b2_fixture.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_fixture.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_fixture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_fixture.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_fixture.cpp.s
+
+third_party/box2d/src/dynamics/b2_friction_joint.obj: third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_friction_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_friction_joint.i: third_party/box2d/src/dynamics/b2_friction_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_friction_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_friction_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_friction_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_friction_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_friction_joint.s: third_party/box2d/src/dynamics/b2_friction_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_friction_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_friction_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_friction_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_friction_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_gear_joint.obj: third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_gear_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_gear_joint.i: third_party/box2d/src/dynamics/b2_gear_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_gear_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_gear_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_gear_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_gear_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_gear_joint.s: third_party/box2d/src/dynamics/b2_gear_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_gear_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_gear_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_gear_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_gear_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_island.obj: third_party/box2d/src/dynamics/b2_island.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_island.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_island.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_island.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_island.cpp.obj
+
+third_party/box2d/src/dynamics/b2_island.i: third_party/box2d/src/dynamics/b2_island.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_island.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_island.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_island.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_island.cpp.i
+
+third_party/box2d/src/dynamics/b2_island.s: third_party/box2d/src/dynamics/b2_island.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_island.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_island.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_island.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_island.cpp.s
+
+third_party/box2d/src/dynamics/b2_joint.obj: third_party/box2d/src/dynamics/b2_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_joint.i: third_party/box2d/src/dynamics/b2_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_joint.s: third_party/box2d/src/dynamics/b2_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_motor_joint.obj: third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_motor_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_motor_joint.i: third_party/box2d/src/dynamics/b2_motor_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_motor_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_motor_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_motor_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_motor_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_motor_joint.s: third_party/box2d/src/dynamics/b2_motor_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_motor_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_motor_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_motor_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_motor_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_mouse_joint.obj: third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_mouse_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_mouse_joint.i: third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_mouse_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_mouse_joint.s: third_party/box2d/src/dynamics/b2_mouse_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_mouse_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_mouse_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_mouse_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_polygon_circle_contact.obj: third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_circle_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_polygon_circle_contact.i: third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_circle_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_polygon_circle_contact.s: third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_circle_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_polygon_contact.obj: third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_contact.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj
+
+third_party/box2d/src/dynamics/b2_polygon_contact.i: third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_contact.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i
+
+third_party/box2d/src/dynamics/b2_polygon_contact.s: third_party/box2d/src/dynamics/b2_polygon_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_contact.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_polygon_contact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_polygon_contact.cpp.s
+
+third_party/box2d/src/dynamics/b2_prismatic_joint.obj: third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_prismatic_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_prismatic_joint.i: third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_prismatic_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_prismatic_joint.s: third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_prismatic_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_pulley_joint.obj: third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_pulley_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_pulley_joint.i: third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_pulley_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_pulley_joint.s: third_party/box2d/src/dynamics/b2_pulley_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_pulley_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_pulley_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_pulley_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_revolute_joint.obj: third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_revolute_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_revolute_joint.i: third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_revolute_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_revolute_joint.s: third_party/box2d/src/dynamics/b2_revolute_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_revolute_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_revolute_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_revolute_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_weld_joint.obj: third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_weld_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_weld_joint.i: third_party/box2d/src/dynamics/b2_weld_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_weld_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_weld_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_weld_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_weld_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_weld_joint.s: third_party/box2d/src/dynamics/b2_weld_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_weld_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_weld_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_weld_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_weld_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_wheel_joint.obj: third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_wheel_joint.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj
+
+third_party/box2d/src/dynamics/b2_wheel_joint.i: third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_wheel_joint.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i
+
+third_party/box2d/src/dynamics/b2_wheel_joint.s: third_party/box2d/src/dynamics/b2_wheel_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_wheel_joint.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_wheel_joint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_wheel_joint.cpp.s
+
+third_party/box2d/src/dynamics/b2_world.obj: third_party/box2d/src/dynamics/b2_world.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_world.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_world.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_world.cpp.obj
+
+third_party/box2d/src/dynamics/b2_world.i: third_party/box2d/src/dynamics/b2_world.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_world.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_world.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_world.cpp.i
+
+third_party/box2d/src/dynamics/b2_world.s: third_party/box2d/src/dynamics/b2_world.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_world.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_world.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_world.cpp.s
+
+third_party/box2d/src/dynamics/b2_world_callbacks.obj: third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_world_callbacks.obj
+
+# target to build an object file
+third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj
+.PHONY : third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj
+
+third_party/box2d/src/dynamics/b2_world_callbacks.i: third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_world_callbacks.i
+
+# target to preprocess a source file
+third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i
+.PHONY : third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i
+
+third_party/box2d/src/dynamics/b2_world_callbacks.s: third_party/box2d/src/dynamics/b2_world_callbacks.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_world_callbacks.s
+
+# target to generate assembly for a file
+third_party/box2d/src/dynamics/b2_world_callbacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.s
+.PHONY : third_party/box2d/src/dynamics/b2_world_callbacks.cpp.s
+
+third_party/box2d/src/rope/b2_rope.obj: third_party/box2d/src/rope/b2_rope.cpp.obj
+.PHONY : third_party/box2d/src/rope/b2_rope.obj
+
+# target to build an object file
+third_party/box2d/src/rope/b2_rope.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/rope/b2_rope.cpp.obj
+.PHONY : third_party/box2d/src/rope/b2_rope.cpp.obj
+
+third_party/box2d/src/rope/b2_rope.i: third_party/box2d/src/rope/b2_rope.cpp.i
+.PHONY : third_party/box2d/src/rope/b2_rope.i
+
+# target to preprocess a source file
+third_party/box2d/src/rope/b2_rope.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/rope/b2_rope.cpp.i
+.PHONY : third_party/box2d/src/rope/b2_rope.cpp.i
+
+third_party/box2d/src/rope/b2_rope.s: third_party/box2d/src/rope/b2_rope.cpp.s
+.PHONY : third_party/box2d/src/rope/b2_rope.s
+
+# target to generate assembly for a file
+third_party/box2d/src/rope/b2_rope.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/box2d/src/rope/b2_rope.cpp.s
+.PHONY : third_party/box2d/src/rope/b2_rope.cpp.s
 
 third_party/stb_image/std_image.obj: third_party/stb_image/std_image.cpp.obj
 .PHONY : third_party/stb_image/std_image.obj
@@ -999,12 +2055,24 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... GameEngine
-	@echo ... debug/Timer/Timer.obj
-	@echo ... debug/Timer/Timer.i
-	@echo ... debug/Timer/Timer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... snake/Food.obj
+	@echo ... snake/Food.i
+	@echo ... snake/Food.s
+	@echo ... snake/Grid.obj
+	@echo ... snake/Grid.i
+	@echo ... snake/Grid.s
+	@echo ... snake/Snake.obj
+	@echo ... snake/Snake.i
+	@echo ... snake/Snake.s
+	@echo ... snake/SnakeBody.obj
+	@echo ... snake/SnakeBody.i
+	@echo ... snake/SnakeBody.s
+	@echo ... snake/SnakeGame.obj
+	@echo ... snake/SnakeGame.i
+	@echo ... snake/SnakeGame.s
 	@echo ... src/Actor.obj
 	@echo ... src/Actor.i
 	@echo ... src/Actor.s
@@ -1083,24 +2151,144 @@ help:
 	@echo ... src/VertexBufferLayout.obj
 	@echo ... src/VertexBufferLayout.i
 	@echo ... src/VertexBufferLayout.s
-	@echo ... test/Food.obj
-	@echo ... test/Food.i
-	@echo ... test/Food.s
-	@echo ... test/Grid.obj
-	@echo ... test/Grid.i
-	@echo ... test/Grid.s
-	@echo ... test/Snake.obj
-	@echo ... test/Snake.i
-	@echo ... test/Snake.s
-	@echo ... test/SnakeBody.obj
-	@echo ... test/SnakeBody.i
-	@echo ... test/SnakeBody.s
-	@echo ... test/SnakeGame.obj
-	@echo ... test/SnakeGame.i
-	@echo ... test/SnakeGame.s
-	@echo ... third_party/glm/detail/glm.obj
-	@echo ... third_party/glm/detail/glm.i
-	@echo ... third_party/glm/detail/glm.s
+	@echo ... src/physics/boundingBox/AABB.obj
+	@echo ... src/physics/boundingBox/AABB.i
+	@echo ... src/physics/boundingBox/AABB.s
+	@echo ... third_party/box2d/src/collision/b2_broad_phase.obj
+	@echo ... third_party/box2d/src/collision/b2_broad_phase.i
+	@echo ... third_party/box2d/src/collision/b2_broad_phase.s
+	@echo ... third_party/box2d/src/collision/b2_chain_shape.obj
+	@echo ... third_party/box2d/src/collision/b2_chain_shape.i
+	@echo ... third_party/box2d/src/collision/b2_chain_shape.s
+	@echo ... third_party/box2d/src/collision/b2_circle_shape.obj
+	@echo ... third_party/box2d/src/collision/b2_circle_shape.i
+	@echo ... third_party/box2d/src/collision/b2_circle_shape.s
+	@echo ... third_party/box2d/src/collision/b2_collide_circle.obj
+	@echo ... third_party/box2d/src/collision/b2_collide_circle.i
+	@echo ... third_party/box2d/src/collision/b2_collide_circle.s
+	@echo ... third_party/box2d/src/collision/b2_collide_edge.obj
+	@echo ... third_party/box2d/src/collision/b2_collide_edge.i
+	@echo ... third_party/box2d/src/collision/b2_collide_edge.s
+	@echo ... third_party/box2d/src/collision/b2_collide_polygon.obj
+	@echo ... third_party/box2d/src/collision/b2_collide_polygon.i
+	@echo ... third_party/box2d/src/collision/b2_collide_polygon.s
+	@echo ... third_party/box2d/src/collision/b2_collision.obj
+	@echo ... third_party/box2d/src/collision/b2_collision.i
+	@echo ... third_party/box2d/src/collision/b2_collision.s
+	@echo ... third_party/box2d/src/collision/b2_distance.obj
+	@echo ... third_party/box2d/src/collision/b2_distance.i
+	@echo ... third_party/box2d/src/collision/b2_distance.s
+	@echo ... third_party/box2d/src/collision/b2_dynamic_tree.obj
+	@echo ... third_party/box2d/src/collision/b2_dynamic_tree.i
+	@echo ... third_party/box2d/src/collision/b2_dynamic_tree.s
+	@echo ... third_party/box2d/src/collision/b2_edge_shape.obj
+	@echo ... third_party/box2d/src/collision/b2_edge_shape.i
+	@echo ... third_party/box2d/src/collision/b2_edge_shape.s
+	@echo ... third_party/box2d/src/collision/b2_polygon_shape.obj
+	@echo ... third_party/box2d/src/collision/b2_polygon_shape.i
+	@echo ... third_party/box2d/src/collision/b2_polygon_shape.s
+	@echo ... third_party/box2d/src/collision/b2_time_of_impact.obj
+	@echo ... third_party/box2d/src/collision/b2_time_of_impact.i
+	@echo ... third_party/box2d/src/collision/b2_time_of_impact.s
+	@echo ... third_party/box2d/src/common/b2_block_allocator.obj
+	@echo ... third_party/box2d/src/common/b2_block_allocator.i
+	@echo ... third_party/box2d/src/common/b2_block_allocator.s
+	@echo ... third_party/box2d/src/common/b2_draw.obj
+	@echo ... third_party/box2d/src/common/b2_draw.i
+	@echo ... third_party/box2d/src/common/b2_draw.s
+	@echo ... third_party/box2d/src/common/b2_math.obj
+	@echo ... third_party/box2d/src/common/b2_math.i
+	@echo ... third_party/box2d/src/common/b2_math.s
+	@echo ... third_party/box2d/src/common/b2_settings.obj
+	@echo ... third_party/box2d/src/common/b2_settings.i
+	@echo ... third_party/box2d/src/common/b2_settings.s
+	@echo ... third_party/box2d/src/common/b2_stack_allocator.obj
+	@echo ... third_party/box2d/src/common/b2_stack_allocator.i
+	@echo ... third_party/box2d/src/common/b2_stack_allocator.s
+	@echo ... third_party/box2d/src/common/b2_timer.obj
+	@echo ... third_party/box2d/src/common/b2_timer.i
+	@echo ... third_party/box2d/src/common/b2_timer.s
+	@echo ... third_party/box2d/src/dynamics/b2_body.obj
+	@echo ... third_party/box2d/src/dynamics/b2_body.i
+	@echo ... third_party/box2d/src/dynamics/b2_body.s
+	@echo ... third_party/box2d/src/dynamics/b2_chain_circle_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_chain_circle_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_chain_circle_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_chain_polygon_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_chain_polygon_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_chain_polygon_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_circle_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_circle_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_circle_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_contact_manager.obj
+	@echo ... third_party/box2d/src/dynamics/b2_contact_manager.i
+	@echo ... third_party/box2d/src/dynamics/b2_contact_manager.s
+	@echo ... third_party/box2d/src/dynamics/b2_contact_solver.obj
+	@echo ... third_party/box2d/src/dynamics/b2_contact_solver.i
+	@echo ... third_party/box2d/src/dynamics/b2_contact_solver.s
+	@echo ... third_party/box2d/src/dynamics/b2_distance_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_distance_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_distance_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_edge_circle_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_edge_circle_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_edge_circle_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_edge_polygon_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_edge_polygon_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_edge_polygon_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_fixture.obj
+	@echo ... third_party/box2d/src/dynamics/b2_fixture.i
+	@echo ... third_party/box2d/src/dynamics/b2_fixture.s
+	@echo ... third_party/box2d/src/dynamics/b2_friction_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_friction_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_friction_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_gear_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_gear_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_gear_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_island.obj
+	@echo ... third_party/box2d/src/dynamics/b2_island.i
+	@echo ... third_party/box2d/src/dynamics/b2_island.s
+	@echo ... third_party/box2d/src/dynamics/b2_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_motor_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_motor_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_motor_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_mouse_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_mouse_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_mouse_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_polygon_circle_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_polygon_circle_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_polygon_circle_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_polygon_contact.obj
+	@echo ... third_party/box2d/src/dynamics/b2_polygon_contact.i
+	@echo ... third_party/box2d/src/dynamics/b2_polygon_contact.s
+	@echo ... third_party/box2d/src/dynamics/b2_prismatic_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_prismatic_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_prismatic_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_pulley_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_pulley_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_pulley_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_revolute_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_revolute_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_revolute_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_weld_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_weld_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_weld_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_wheel_joint.obj
+	@echo ... third_party/box2d/src/dynamics/b2_wheel_joint.i
+	@echo ... third_party/box2d/src/dynamics/b2_wheel_joint.s
+	@echo ... third_party/box2d/src/dynamics/b2_world.obj
+	@echo ... third_party/box2d/src/dynamics/b2_world.i
+	@echo ... third_party/box2d/src/dynamics/b2_world.s
+	@echo ... third_party/box2d/src/dynamics/b2_world_callbacks.obj
+	@echo ... third_party/box2d/src/dynamics/b2_world_callbacks.i
+	@echo ... third_party/box2d/src/dynamics/b2_world_callbacks.s
+	@echo ... third_party/box2d/src/rope/b2_rope.obj
+	@echo ... third_party/box2d/src/rope/b2_rope.i
+	@echo ... third_party/box2d/src/rope/b2_rope.s
 	@echo ... third_party/stb_image/std_image.obj
 	@echo ... third_party/stb_image/std_image.i
 	@echo ... third_party/stb_image/std_image.s

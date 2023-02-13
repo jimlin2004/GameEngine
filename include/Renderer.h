@@ -2,8 +2,8 @@
 #define RENDERER_H
 
 #include <array>
-#include <GL/glew.h>
-#include "../third_party/glm/glm.hpp"
+#include "GL/glew.h"
+#include "glm/glm.hpp"
 #include "VertexArray.h"
 #include "IndexBuffer.h"
 #include "Shader.h"

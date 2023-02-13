@@ -2,7 +2,7 @@ CMakeFiles/GameEngine.dir/src/VertexArray.cpp.obj: \
  D:\code\cpp\gameGngine\src\VertexArray.cpp \
  D:/code/cpp/gameGngine/include/VertexArray.h \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \

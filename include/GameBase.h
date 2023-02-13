@@ -1,9 +1,11 @@
 #ifndef GE_GAMEBASE_H
 #define GE_GAMEBASE_H
 
-#include <GL/glew.h>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_opengl.h>
+#include "GL/glew.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_opengl.h"
+
+#include "box2d/b2_world.h"
 
 #include "Timestep.h"
 #include "GameEngineAPI/ConsoleApi.h"
@@ -43,6 +45,7 @@ namespace GameEngine
         virtual void logBuildInfo();
         void startGame();
     private:
+        b2World physicsWorld;
         Timestep timestep;
         uint64_t lastFrameTime;
     };

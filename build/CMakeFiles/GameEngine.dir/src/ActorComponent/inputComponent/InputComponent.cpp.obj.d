@@ -127,7 +127,7 @@ CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
  D:/code/cpp/gameGngine/include/ShaderManager.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
+ D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \

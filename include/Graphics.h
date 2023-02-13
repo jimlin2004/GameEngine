@@ -1,7 +1,7 @@
 #ifndef GE_GRAPHICS_H
 #define GE_GRAPHICS_H
 
-#include "../third_party/glm/glm.hpp"
+#include "glm/glm.hpp"
 #include "GameObject.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Renderer.h"
