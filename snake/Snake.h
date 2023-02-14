@@ -5,6 +5,7 @@
 
 #include "Grid.h"
 #include "SnakeBody.h"
+#include "FakeBody.h"
 #include "Food.h"
 #include <array>
 #include <list>
@@ -41,6 +42,7 @@ private:
     glm::vec2 previousDirection;
     Direction previousDirectionType;
     std::list<SnakeBody*> bodys;
+    std::list<FakeBody*> fakeBodys;
     SnakeBody* head;
     SnakeBody* tail;
     bool growing;
@@ -51,6 +53,7 @@ private:
     bool overBoundary(SnakeBody* body, Grid& grid);
     void moveBodys(Grid& grid);
     Direction getOppositeDirection(Direction _direction);
+    void createFakeBody(float x, float y, float width, float height, Direction current);
 };
 
 #endif

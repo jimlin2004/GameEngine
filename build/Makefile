@@ -172,6 +172,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+snake/FakeBody.obj: snake/FakeBody.cpp.obj
+.PHONY : snake/FakeBody.obj
+
+# target to build an object file
+snake/FakeBody.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj
+.PHONY : snake/FakeBody.cpp.obj
+
+snake/FakeBody.i: snake/FakeBody.cpp.i
+.PHONY : snake/FakeBody.i
+
+# target to preprocess a source file
+snake/FakeBody.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.i
+.PHONY : snake/FakeBody.cpp.i
+
+snake/FakeBody.s: snake/FakeBody.cpp.s
+.PHONY : snake/FakeBody.s
+
+# target to generate assembly for a file
+snake/FakeBody.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.s
+.PHONY : snake/FakeBody.cpp.s
+
 snake/Food.obj: snake/Food.cpp.obj
 .PHONY : snake/Food.obj
 
@@ -2058,6 +2082,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... snake/FakeBody.obj
+	@echo ... snake/FakeBody.i
+	@echo ... snake/FakeBody.s
 	@echo ... snake/Food.obj
 	@echo ... snake/Food.i
 	@echo ... snake/Food.s

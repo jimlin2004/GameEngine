@@ -371,6 +371,11 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\snake\\FakeBody.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\FakeBody.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/FakeBody.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\snake\\Food.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\Food.cpp",
   "file": "D:/code/cpp/gameGngine/snake/Food.cpp"
 },

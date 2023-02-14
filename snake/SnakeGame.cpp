@@ -16,7 +16,7 @@ void SnakeGame::begin()
     // this->grid->data[0][0].direction = Direction::RIGHT;
     this->grid->data[20][1].direction = Direction::RIGHT;
     this->grid->data[20][2].direction = Direction::RIGHT;
-    // this->grid->data[20][3].direction = Direction::RIGHT;
+    this->grid->data[20][3].direction = Direction::RIGHT;
     this->food = new Food(this->grid->getCellSideLength(), this->grid->getCellSideLength(), (this->grid->data.size() - 2), (this->grid->data[0].size() - 2));
     return;
 }
@@ -25,8 +25,9 @@ void SnakeGame::update(float deltaTime)
 {
     static bool flag = true;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    // this->snake->setSpeed(this->grid->getCellSideLength() * 4 * deltaTime);
-    this->snake->setSpeed(0.5f);
+    
+    this->snake->setSpeed(this->grid->getCellSideLength() * 4 * deltaTime);
+    // this->snake->setSpeed(1.0f);
     if (this->snake->gameover)
     {
         GameEngine::ConsoleApi::log("Game over\n");
@@ -39,11 +40,12 @@ void SnakeGame::update(float deltaTime)
         this->food->create(*this->grid);
     }
     GameEngine::Renderer::begin();
+        this->grid->render();
         this->snake->render();
         this->food->render();
-        this->grid->render();
-        GameEngine::Renderer::drawQuad({0.0f, 0.0f, -0.1f}, {this->grid->leftTopPoint.x, this->screenHeight}, {0.0f, 0.0f, 0.0f, 1.0f});
-        GameEngine::Renderer::drawQuad({this->grid->rightBottonPoint.x, 0.0f, -0.1f}, {this->screenWidth - this->grid->rightBottonPoint.x, this->screenHeight}, {0.0f, 0.0f, 0.0f, 1.0f});
+        
+        GameEngine::Renderer::drawQuad({0.0f, 0.0f, 0.1f}, {this->grid->leftTopPoint.x, this->screenHeight}, {0.0f, 0.0f, 0.0f, 1.0f});
+        GameEngine::Renderer::drawQuad({this->grid->rightBottonPoint.x, 0.0f, 0.1f}, {this->screenWidth - this->grid->rightBottonPoint.x, this->screenHeight}, {0.0f, 0.0f, 0.0f, 1.0f});
     GameEngine::Renderer::close();
     if (flag)
     {
