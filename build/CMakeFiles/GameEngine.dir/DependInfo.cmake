@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameGngine/snake/Snake.cpp" "CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj.d"
   "D:/code/cpp/gameGngine/snake/SnakeBody.cpp" "CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj.d"
   "D:/code/cpp/gameGngine/snake/SnakeGame.cpp" "CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj.d"
+  "D:/code/cpp/gameGngine/snake/main.cpp" "CMakeFiles/GameEngine.dir/snake/main.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/snake/main.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/Actor.cpp" "CMakeFiles/GameEngine.dir/src/Actor.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Actor.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp" "CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp" "CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj.d"

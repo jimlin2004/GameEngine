@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
+  "D:/code/cpp/gameGngine/snake/CMakeLists.txt"
   "D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake"
   )
 
@@ -59,9 +60,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "snake/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GameEngine.dir/DependInfo.cmake"
+  "snake/CMakeFiles/Snake.dir/DependInfo.cmake"
   )

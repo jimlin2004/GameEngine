@@ -398,5 +398,410 @@
   "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\snake\\SnakeGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\SnakeGame.cpp",
   "file": "D:/code/cpp/gameGngine/snake/SnakeGame.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\snake\\main.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\main.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\main.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\main.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\FakeBody.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\FakeBody.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/FakeBody.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\Food.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\Food.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/Food.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\Grid.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\Grid.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/Grid.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\Snake.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\Snake.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/Snake.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\SnakeBody.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\SnakeBody.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/SnakeBody.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\SnakeGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\snake\\SnakeGame.cpp",
+  "file": "D:/code/cpp/gameGngine/snake/SnakeGame.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Actor.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Actor.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Actor.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\ActorComponent\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ActorComponent\\Component\\Component.cpp",
+  "file": "D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\ActorComponent\\Material\\Material.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ActorComponent\\Material\\Material.cpp",
+  "file": "D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\ActorComponent\\Mesh\\Mesh.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ActorComponent\\Mesh\\Mesh.cpp",
+  "file": "D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\ActorComponent\\inputComponent\\InputComponent.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ActorComponent\\inputComponent\\InputComponent.cpp",
+  "file": "D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Camera.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Camera.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Camera.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\Vector\\Vector.cpp",
+  "file": "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\EventSystem.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\EventSystem.cpp",
+  "file": "D:/code/cpp/gameGngine/src/EventSystem.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\FSM.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\FSM.cpp",
+  "file": "D:/code/cpp/gameGngine/src/FSM.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\GELib.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GELib.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GELib.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\GameBase.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GameBase.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GameBase.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\GameBaseComponent\\GameEventManager\\GameEventManager.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GameBaseComponent\\GameEventManager\\GameEventManager.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\GameEngineAPI\\ConsoleApi.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GameEngineAPI\\ConsoleApi.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\GameEngineAPI\\GameEngineAPI.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GameEngineAPI\\GameEngineAPI.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\GameObject.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\GameObject.cpp",
+  "file": "D:/code/cpp/gameGngine/src/GameObject.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Graphics.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Graphics.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Graphics.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\IndexBuffer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\IndexBuffer.cpp",
+  "file": "D:/code/cpp/gameGngine/src/IndexBuffer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Renderer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Renderer.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Renderer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Shader.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Shader.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Shader.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\ShaderManager.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\ShaderManager.cpp",
+  "file": "D:/code/cpp/gameGngine/src/ShaderManager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\SubTexture.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\SubTexture.cpp",
+  "file": "D:/code/cpp/gameGngine/src/SubTexture.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Texture.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Texture.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Texture.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Timestep.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Timestep.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Timestep.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\VertexArray.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexArray.cpp",
+  "file": "D:/code/cpp/gameGngine/src/VertexArray.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\VertexBuffer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexBuffer.cpp",
+  "file": "D:/code/cpp/gameGngine/src/VertexBuffer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\VertexBufferLayout.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\VertexBufferLayout.cpp",
+  "file": "D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\physics\\boundingBox\\AABB.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\physics\\boundingBox\\AABB.cpp",
+  "file": "D:/code/cpp/gameGngine/src/physics/boundingBox/AABB.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_broad_phase.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_broad_phase.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_chain_shape.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_chain_shape.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_chain_shape.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_circle_shape.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_circle_shape.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_collide_circle.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_collide_circle.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_circle.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_collide_edge.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_collide_edge.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_edge.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_collide_polygon.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_collide_polygon.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_polygon.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_collision.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_collision.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collision.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_distance.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_distance.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_distance.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_dynamic_tree.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_dynamic_tree.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_dynamic_tree.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_edge_shape.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_edge_shape.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_edge_shape.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_polygon_shape.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_polygon_shape.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_polygon_shape.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\collision\\b2_time_of_impact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\collision\\b2_time_of_impact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_time_of_impact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\common\\b2_block_allocator.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\common\\b2_block_allocator.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\common\\b2_draw.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\common\\b2_draw.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_draw.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\common\\b2_math.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\common\\b2_math.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_math.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\common\\b2_settings.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\common\\b2_settings.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_settings.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\common\\b2_stack_allocator.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\common\\b2_stack_allocator.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_stack_allocator.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\common\\b2_timer.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\common\\b2_timer.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_timer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_body.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_body.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_body.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_chain_circle_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_chain_circle_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_chain_polygon_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_chain_polygon_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_circle_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_circle_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_contact_manager.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_contact_manager.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_manager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_contact_solver.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_contact_solver.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_distance_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_distance_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_distance_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_edge_circle_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_edge_circle_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_edge_polygon_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_edge_polygon_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_fixture.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_fixture.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_fixture.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_friction_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_friction_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_friction_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_gear_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_gear_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_gear_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_island.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_island.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_island.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_motor_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_motor_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_motor_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_mouse_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_mouse_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_mouse_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_polygon_circle_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_polygon_circle_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_polygon_contact.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_polygon_contact.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_prismatic_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_prismatic_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_pulley_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_pulley_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_revolute_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_revolute_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_revolute_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_weld_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_weld_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_weld_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_wheel_joint.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_wheel_joint.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_wheel_joint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_world.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_world.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\dynamics\\b2_world_callbacks.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\dynamics\\b2_world_callbacks.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\box2d\\src\\rope\\b2_rope.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\box2d\\src\\rope\\b2_rope.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\third_party\\stb_image\\std_image.cpp.obj -c D:\\code\\cpp\\gameGngine\\third_party\\stb_image\\std_image.cpp",
+  "file": "D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp"
 }
 ]

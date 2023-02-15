@@ -117,3 +117,7 @@
     1. 貪食蛇暫時完工Fake body(但會有縫隙)
     2. 暫時完工貪食蛇
     存檔紀錄version1.0
+2023/02/15
+    1. 將snake作為GameEngine的子專案
+    Todo list
+        -修復shader的相對路徑問題

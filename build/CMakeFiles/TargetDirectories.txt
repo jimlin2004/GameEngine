@@ -3,3 +3,8 @@ D:/code/cpp/gameGngine/build/CMakeFiles/package.dir
 D:/code/cpp/gameGngine/build/CMakeFiles/package_source.dir
 D:/code/cpp/gameGngine/build/CMakeFiles/edit_cache.dir
 D:/code/cpp/gameGngine/build/CMakeFiles/rebuild_cache.dir
+D:/code/cpp/gameGngine/build/snake/CMakeFiles/Snake.dir
+D:/code/cpp/gameGngine/build/snake/CMakeFiles/package.dir
+D:/code/cpp/gameGngine/build/snake/CMakeFiles/package_source.dir
+D:/code/cpp/gameGngine/build/snake/CMakeFiles/edit_cache.dir
+D:/code/cpp/gameGngine/build/snake/CMakeFiles/rebuild_cache.dir

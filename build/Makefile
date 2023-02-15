@@ -148,6 +148,19 @@ GameEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/build
 .PHONY : GameEngine/fast
 
+#=============================================================================
+# Target rules for targets named Snake
+
+# Build rule for target.
+Snake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Snake
+.PHONY : Snake
+
+# fast build rule for target.
+Snake/fast:
+	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/build
+.PHONY : Snake/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -315,6 +328,30 @@ snake/SnakeGame.s: snake/SnakeGame.cpp.s
 snake/SnakeGame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.s
 .PHONY : snake/SnakeGame.cpp.s
+
+snake/main.obj: snake/main.cpp.obj
+.PHONY : snake/main.obj
+
+# target to build an object file
+snake/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/main.cpp.obj
+.PHONY : snake/main.cpp.obj
+
+snake/main.i: snake/main.cpp.i
+.PHONY : snake/main.i
+
+# target to preprocess a source file
+snake/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/main.cpp.i
+.PHONY : snake/main.cpp.i
+
+snake/main.s: snake/main.cpp.s
+.PHONY : snake/main.s
+
+# target to generate assembly for a file
+snake/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/main.cpp.s
+.PHONY : snake/main.cpp.s
 
 src/Actor.obj: src/Actor.cpp.obj
 .PHONY : src/Actor.obj
@@ -2079,6 +2116,7 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... GameEngine
+	@echo ... Snake
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -2100,6 +2138,9 @@ help:
 	@echo ... snake/SnakeGame.obj
 	@echo ... snake/SnakeGame.i
 	@echo ... snake/SnakeGame.s
+	@echo ... snake/main.obj
+	@echo ... snake/main.i
+	@echo ... snake/main.s
 	@echo ... src/Actor.obj
 	@echo ... src/Actor.i
 	@echo ... src/Actor.s

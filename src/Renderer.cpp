@@ -92,6 +92,7 @@ void GameEngine::Renderer::initQuad()
 
     rendererData.quadShader = new GameEngine::Shader();
     rendererData.quadShader->generateShader("../asset/shader/quad/quad.vs", "../asset/shader/quad/quad.fs");
+    // rendererData.quadShader->generateShader("D:/code/cpp/gameGngine/asset/shader/quad/quad.vs", "D:/code/cpp/gameGngine/asset/shader/quad/quad.fs");
     rendererData.quadShader->bind();
     rendererData.quadShader->setUniform1iv("u_textures", samplers, rendererData.maxTextureSlots);
     
@@ -127,7 +128,8 @@ void GameEngine::Renderer::initLine()
     // rendererData.lineVertexArray->bind();
 
     rendererData.lineShader = new GameEngine::Shader();
-    rendererData.lineShader->generateShader("../asset/shader/line/line.vs", "../asset/shader/line/line.fs");
+    rendererData.quadShader->generateShader("../asset/shader/line/line.vs", "../asset/shader/line/line.fs");
+    // rendererData.lineShader->generateShader("D:/code/cpp/gameGngine/asset/shader/line/line.vs", "D:/code/cpp/gameGngine/asset/shader/line/line.fs");
     rendererData.lineShader->bind();
 
     rendererData.lineVertexArray->unbind();

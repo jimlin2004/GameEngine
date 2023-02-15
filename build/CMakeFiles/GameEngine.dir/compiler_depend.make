@@ -3861,6 +3861,8 @@ CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj: D:/code/cpp/gameGngine/snake/
   D:/code/cpp/gameGngine/snake/FakeBody.h \
   D:/code/cpp/gameGngine/snake/Food.h
 
+CMakeFiles/GameEngine.dir/snake/main.cpp.obj: D:/code/cpp/gameGngine/snake/main.cpp
+
 CMakeFiles/GameEngine.dir/src/Actor.cpp.obj: D:/code/cpp/gameGngine/src/Actor.cpp \
   D:/code/cpp/gameGngine/include/Actor.h \
   D:/code/cpp/gameGngine/include/Graphics.h \
@@ -13611,6 +13613,8 @@ D:/code/cpp/gameGngine/snake/FakeBody.h:
 D:/code/cpp/gameGngine/snake/Food.h:
 
 D:/code/cpp/gameGngine/snake/Snake.cpp:
+
+D:/code/cpp/gameGngine/snake/main.cpp:
 
 D:/code/cpp/gameGngine/src/Actor.cpp:
 
