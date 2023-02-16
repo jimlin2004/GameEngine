@@ -68,20 +68,20 @@ include snake/CMakeFiles/Snake.dir/progress.make
 # Include the compile flags for this target's objects.
 include snake/CMakeFiles/Snake.dir/flags.make
 
-snake/CMakeFiles/Snake.dir/main.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
-snake/CMakeFiles/Snake.dir/main.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
-snake/CMakeFiles/Snake.dir/main.cpp.obj: D:/code/cpp/gameGngine/snake/main.cpp
-snake/CMakeFiles/Snake.dir/main.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object snake/CMakeFiles/Snake.dir/main.cpp.obj"
-	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/main.cpp.obj -MF CMakeFiles\Snake.dir\main.cpp.obj.d -o CMakeFiles\Snake.dir\main.cpp.obj -c D:\code\cpp\gameGngine\snake\main.cpp
+snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
+snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
+snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj: D:/code/cpp/gameGngine/snake/entrypoint.cpp
+snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj -MF CMakeFiles\Snake.dir\entrypoint.cpp.obj.d -o CMakeFiles\Snake.dir\entrypoint.cpp.obj -c D:\code\cpp\gameGngine\snake\entrypoint.cpp
 
-snake/CMakeFiles/Snake.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/main.cpp.i"
-	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\main.cpp > CMakeFiles\Snake.dir\main.cpp.i
+snake/CMakeFiles/Snake.dir/entrypoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/entrypoint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\entrypoint.cpp > CMakeFiles\Snake.dir\entrypoint.cpp.i
 
-snake/CMakeFiles/Snake.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/main.cpp.s"
-	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\main.cpp -o CMakeFiles\Snake.dir\main.cpp.s
+snake/CMakeFiles/Snake.dir/entrypoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/entrypoint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\entrypoint.cpp -o CMakeFiles\Snake.dir\entrypoint.cpp.s
 
 snake/CMakeFiles/Snake.dir/FakeBody.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
 snake/CMakeFiles/Snake.dir/FakeBody.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
@@ -1270,7 +1270,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.s: cmake_force
 
 # Object files for target Snake
 Snake_OBJECTS = \
-"CMakeFiles/Snake.dir/main.cpp.obj" \
+"CMakeFiles/Snake.dir/entrypoint.cpp.obj" \
 "CMakeFiles/Snake.dir/FakeBody.cpp.obj" \
 "CMakeFiles/Snake.dir/Food.cpp.obj" \
 "CMakeFiles/Snake.dir/Grid.cpp.obj" \
@@ -1354,7 +1354,7 @@ Snake_OBJECTS = \
 # External object files for target Snake
 Snake_EXTERNAL_OBJECTS =
 
-snake/Snake.exe: snake/CMakeFiles/Snake.dir/main.cpp.obj
+snake/Snake.exe: snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/FakeBody.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/Food.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/Grid.cpp.obj

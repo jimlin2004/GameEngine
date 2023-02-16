@@ -87,7 +87,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp" "snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj" "gcc" "snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj.d"
   "D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp" "snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj" "gcc" "snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj.d"
   "D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp" "snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj" "gcc" "snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj.d"
-  "D:/code/cpp/gameGngine/snake/main.cpp" "snake/CMakeFiles/Snake.dir/main.cpp.obj" "gcc" "snake/CMakeFiles/Snake.dir/main.cpp.obj.d"
+  "D:/code/cpp/gameGngine/snake/entrypoint.cpp" "snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj" "gcc" "snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj.d"
   )
 
 # Targets to which this target links.

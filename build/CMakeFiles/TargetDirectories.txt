@@ -4,7 +4,14 @@ D:/code/cpp/gameGngine/build/CMakeFiles/package_source.dir
 D:/code/cpp/gameGngine/build/CMakeFiles/edit_cache.dir
 D:/code/cpp/gameGngine/build/CMakeFiles/rebuild_cache.dir
 D:/code/cpp/gameGngine/build/snake/CMakeFiles/Snake.dir
+D:/code/cpp/gameGngine/build/snake/CMakeFiles/snake_copy_target.dir
 D:/code/cpp/gameGngine/build/snake/CMakeFiles/package.dir
 D:/code/cpp/gameGngine/build/snake/CMakeFiles/package_source.dir
 D:/code/cpp/gameGngine/build/snake/CMakeFiles/edit_cache.dir
 D:/code/cpp/gameGngine/build/snake/CMakeFiles/rebuild_cache.dir
+D:/code/cpp/gameGngine/build/test/CMakeFiles/TestGame.dir
+D:/code/cpp/gameGngine/build/test/CMakeFiles/test_game_copy_target.dir
+D:/code/cpp/gameGngine/build/test/CMakeFiles/package.dir
+D:/code/cpp/gameGngine/build/test/CMakeFiles/package_source.dir
+D:/code/cpp/gameGngine/build/test/CMakeFiles/edit_cache.dir
+D:/code/cpp/gameGngine/build/test/CMakeFiles/rebuild_cache.dir

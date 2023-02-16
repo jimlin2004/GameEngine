@@ -1178,111 +1178,6 @@ CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.s"
 	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\stb_image\std_image.cpp -o CMakeFiles\GameEngine.dir\third_party\stb_image\std_image.cpp.s
 
-CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj: D:/code/cpp/gameGngine/snake/FakeBody.cpp
-CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\FakeBody.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\FakeBody.cpp.obj -c D:\code\cpp\gameGngine\snake\FakeBody.cpp
-
-CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\FakeBody.cpp > CMakeFiles\GameEngine.dir\snake\FakeBody.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\FakeBody.cpp -o CMakeFiles\GameEngine.dir\snake\FakeBody.cpp.s
-
-CMakeFiles/GameEngine.dir/snake/Food.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/Food.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/Food.cpp.obj: D:/code/cpp/gameGngine/snake/Food.cpp
-CMakeFiles/GameEngine.dir/snake/Food.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/GameEngine.dir/snake/Food.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/Food.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\Food.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\Food.cpp.obj -c D:\code\cpp\gameGngine\snake\Food.cpp
-
-CMakeFiles/GameEngine.dir/snake/Food.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/Food.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\Food.cpp > CMakeFiles\GameEngine.dir\snake\Food.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/Food.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/Food.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\Food.cpp -o CMakeFiles\GameEngine.dir\snake\Food.cpp.s
-
-CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj: D:/code/cpp/gameGngine/snake/Grid.cpp
-CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\Grid.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\Grid.cpp.obj -c D:\code\cpp\gameGngine\snake\Grid.cpp
-
-CMakeFiles/GameEngine.dir/snake/Grid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/Grid.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\Grid.cpp > CMakeFiles\GameEngine.dir\snake\Grid.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/Grid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/Grid.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\Grid.cpp -o CMakeFiles\GameEngine.dir\snake\Grid.cpp.s
-
-CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj: D:/code/cpp/gameGngine/snake/Snake.cpp
-CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\Snake.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\Snake.cpp.obj -c D:\code\cpp\gameGngine\snake\Snake.cpp
-
-CMakeFiles/GameEngine.dir/snake/Snake.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/Snake.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\Snake.cpp > CMakeFiles\GameEngine.dir\snake\Snake.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/Snake.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/Snake.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\Snake.cpp -o CMakeFiles\GameEngine.dir\snake\Snake.cpp.s
-
-CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj: D:/code/cpp/gameGngine/snake/SnakeBody.cpp
-CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\SnakeBody.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\SnakeBody.cpp.obj -c D:\code\cpp\gameGngine\snake\SnakeBody.cpp
-
-CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\SnakeBody.cpp > CMakeFiles\GameEngine.dir\snake\SnakeBody.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\SnakeBody.cpp -o CMakeFiles\GameEngine.dir\snake\SnakeBody.cpp.s
-
-CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj: D:/code/cpp/gameGngine/snake/SnakeGame.cpp
-CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\SnakeGame.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\SnakeGame.cpp.obj -c D:\code\cpp\gameGngine\snake\SnakeGame.cpp
-
-CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\SnakeGame.cpp > CMakeFiles\GameEngine.dir\snake\SnakeGame.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\SnakeGame.cpp -o CMakeFiles\GameEngine.dir\snake\SnakeGame.cpp.s
-
-CMakeFiles/GameEngine.dir/snake/main.cpp.obj: CMakeFiles/GameEngine.dir/flags.make
-CMakeFiles/GameEngine.dir/snake/main.cpp.obj: CMakeFiles/GameEngine.dir/includes_CXX.rsp
-CMakeFiles/GameEngine.dir/snake/main.cpp.obj: D:/code/cpp/gameGngine/snake/main.cpp
-CMakeFiles/GameEngine.dir/snake/main.cpp.obj: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/GameEngine.dir/snake/main.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/snake/main.cpp.obj -MF CMakeFiles\GameEngine.dir\snake\main.cpp.obj.d -o CMakeFiles\GameEngine.dir\snake\main.cpp.obj -c D:\code\cpp\gameGngine\snake\main.cpp
-
-CMakeFiles/GameEngine.dir/snake/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngine.dir/snake/main.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\snake\main.cpp > CMakeFiles\GameEngine.dir\snake\main.cpp.i
-
-CMakeFiles/GameEngine.dir/snake/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngine.dir/snake/main.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\snake\main.cpp -o CMakeFiles\GameEngine.dir\snake\main.cpp.s
-
 # Object files for target GameEngine
 GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/main.cpp.obj" \
@@ -1358,14 +1253,7 @@ GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world.cpp.obj" \
 "CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj" \
 "CMakeFiles/GameEngine.dir/third_party/box2d/src/rope/b2_rope.cpp.obj" \
-"CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/Food.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj" \
-"CMakeFiles/GameEngine.dir/snake/main.cpp.obj"
+"CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj"
 
 # External object files for target GameEngine
 GameEngine_EXTERNAL_OBJECTS =
@@ -1444,19 +1332,12 @@ GameEngine.exe: CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_worl
 GameEngine.exe: CMakeFiles/GameEngine.dir/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj
 GameEngine.exe: CMakeFiles/GameEngine.dir/third_party/box2d/src/rope/b2_rope.cpp.obj
 GameEngine.exe: CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/Food.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj
-GameEngine.exe: CMakeFiles/GameEngine.dir/snake/main.cpp.obj
 GameEngine.exe: CMakeFiles/GameEngine.dir/build.make
 GameEngine.exe: C:/Program\ Files/msys64/mingw64/lib/libglew32.dll.a
 GameEngine.exe: CMakeFiles/GameEngine.dir/linkLibs.rsp
 GameEngine.exe: CMakeFiles/GameEngine.dir/objects1
 GameEngine.exe: CMakeFiles/GameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable GameEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking CXX executable GameEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

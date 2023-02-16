@@ -149,6 +149,20 @@ Snake/fast:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
+# Convenience name for target.
+snake/CMakeFiles/snake_copy_target.dir/rule:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake/CMakeFiles/snake_copy_target.dir/rule
+.PHONY : snake/CMakeFiles/snake_copy_target.dir/rule
+
+# Convenience name for target.
+snake_copy_target: snake/CMakeFiles/snake_copy_target.dir/rule
+.PHONY : snake_copy_target
+
+# fast build rule for target.
+snake_copy_target/fast:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\snake_copy_target.dir\build.make snake/CMakeFiles/snake_copy_target.dir/build
+.PHONY : snake_copy_target/fast
+
 FakeBody.obj: FakeBody.cpp.obj
 .PHONY : FakeBody.obj
 
@@ -2045,29 +2059,29 @@ __/third_party/stb_image/std_image.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.s
 .PHONY : __/third_party/stb_image/std_image.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+entrypoint.obj: entrypoint.cpp.obj
+.PHONY : entrypoint.obj
 
 # target to build an object file
-main.cpp.obj:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+entrypoint.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/entrypoint.cpp.obj
+.PHONY : entrypoint.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+entrypoint.i: entrypoint.cpp.i
+.PHONY : entrypoint.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/main.cpp.i
-.PHONY : main.cpp.i
+entrypoint.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/entrypoint.cpp.i
+.PHONY : entrypoint.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+entrypoint.s: entrypoint.cpp.s
+.PHONY : entrypoint.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/main.cpp.s
-.PHONY : main.cpp.s
+entrypoint.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/entrypoint.cpp.s
+.PHONY : entrypoint.cpp.s
 
 # Help Target
 help:
@@ -2079,6 +2093,7 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
+	@echo ... snake_copy_target
 	@echo ... Snake
 	@echo ... FakeBody.obj
 	@echo ... FakeBody.i
@@ -2317,9 +2332,9 @@ help:
 	@echo ... __/third_party/stb_image/std_image.obj
 	@echo ... __/third_party/stb_image/std_image.i
 	@echo ... __/third_party/stb_image/std_image.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... entrypoint.obj
+	@echo ... entrypoint.i
+	@echo ... entrypoint.s
 .PHONY : help
 
 

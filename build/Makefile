@@ -161,6 +161,45 @@ Snake/fast:
 	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
+#=============================================================================
+# Target rules for targets named snake_copy_target
+
+# Build rule for target.
+snake_copy_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake_copy_target
+.PHONY : snake_copy_target
+
+# fast build rule for target.
+snake_copy_target/fast:
+	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\snake_copy_target.dir\build.make snake/CMakeFiles/snake_copy_target.dir/build
+.PHONY : snake_copy_target/fast
+
+#=============================================================================
+# Target rules for targets named TestGame
+
+# Build rule for target.
+TestGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestGame
+.PHONY : TestGame
+
+# fast build rule for target.
+TestGame/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/build
+.PHONY : TestGame/fast
+
+#=============================================================================
+# Target rules for targets named test_game_copy_target
+
+# Build rule for target.
+test_game_copy_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_game_copy_target
+.PHONY : test_game_copy_target
+
+# fast build rule for target.
+test_game_copy_target/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/build
+.PHONY : test_game_copy_target/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -184,174 +223,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-snake/FakeBody.obj: snake/FakeBody.cpp.obj
-.PHONY : snake/FakeBody.obj
-
-# target to build an object file
-snake/FakeBody.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.obj
-.PHONY : snake/FakeBody.cpp.obj
-
-snake/FakeBody.i: snake/FakeBody.cpp.i
-.PHONY : snake/FakeBody.i
-
-# target to preprocess a source file
-snake/FakeBody.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.i
-.PHONY : snake/FakeBody.cpp.i
-
-snake/FakeBody.s: snake/FakeBody.cpp.s
-.PHONY : snake/FakeBody.s
-
-# target to generate assembly for a file
-snake/FakeBody.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/FakeBody.cpp.s
-.PHONY : snake/FakeBody.cpp.s
-
-snake/Food.obj: snake/Food.cpp.obj
-.PHONY : snake/Food.obj
-
-# target to build an object file
-snake/Food.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Food.cpp.obj
-.PHONY : snake/Food.cpp.obj
-
-snake/Food.i: snake/Food.cpp.i
-.PHONY : snake/Food.i
-
-# target to preprocess a source file
-snake/Food.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Food.cpp.i
-.PHONY : snake/Food.cpp.i
-
-snake/Food.s: snake/Food.cpp.s
-.PHONY : snake/Food.s
-
-# target to generate assembly for a file
-snake/Food.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Food.cpp.s
-.PHONY : snake/Food.cpp.s
-
-snake/Grid.obj: snake/Grid.cpp.obj
-.PHONY : snake/Grid.obj
-
-# target to build an object file
-snake/Grid.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Grid.cpp.obj
-.PHONY : snake/Grid.cpp.obj
-
-snake/Grid.i: snake/Grid.cpp.i
-.PHONY : snake/Grid.i
-
-# target to preprocess a source file
-snake/Grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Grid.cpp.i
-.PHONY : snake/Grid.cpp.i
-
-snake/Grid.s: snake/Grid.cpp.s
-.PHONY : snake/Grid.s
-
-# target to generate assembly for a file
-snake/Grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Grid.cpp.s
-.PHONY : snake/Grid.cpp.s
-
-snake/Snake.obj: snake/Snake.cpp.obj
-.PHONY : snake/Snake.obj
-
-# target to build an object file
-snake/Snake.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Snake.cpp.obj
-.PHONY : snake/Snake.cpp.obj
-
-snake/Snake.i: snake/Snake.cpp.i
-.PHONY : snake/Snake.i
-
-# target to preprocess a source file
-snake/Snake.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Snake.cpp.i
-.PHONY : snake/Snake.cpp.i
-
-snake/Snake.s: snake/Snake.cpp.s
-.PHONY : snake/Snake.s
-
-# target to generate assembly for a file
-snake/Snake.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/Snake.cpp.s
-.PHONY : snake/Snake.cpp.s
-
-snake/SnakeBody.obj: snake/SnakeBody.cpp.obj
-.PHONY : snake/SnakeBody.obj
-
-# target to build an object file
-snake/SnakeBody.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.obj
-.PHONY : snake/SnakeBody.cpp.obj
-
-snake/SnakeBody.i: snake/SnakeBody.cpp.i
-.PHONY : snake/SnakeBody.i
-
-# target to preprocess a source file
-snake/SnakeBody.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.i
-.PHONY : snake/SnakeBody.cpp.i
-
-snake/SnakeBody.s: snake/SnakeBody.cpp.s
-.PHONY : snake/SnakeBody.s
-
-# target to generate assembly for a file
-snake/SnakeBody.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeBody.cpp.s
-.PHONY : snake/SnakeBody.cpp.s
-
-snake/SnakeGame.obj: snake/SnakeGame.cpp.obj
-.PHONY : snake/SnakeGame.obj
-
-# target to build an object file
-snake/SnakeGame.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.obj
-.PHONY : snake/SnakeGame.cpp.obj
-
-snake/SnakeGame.i: snake/SnakeGame.cpp.i
-.PHONY : snake/SnakeGame.i
-
-# target to preprocess a source file
-snake/SnakeGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.i
-.PHONY : snake/SnakeGame.cpp.i
-
-snake/SnakeGame.s: snake/SnakeGame.cpp.s
-.PHONY : snake/SnakeGame.s
-
-# target to generate assembly for a file
-snake/SnakeGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/SnakeGame.cpp.s
-.PHONY : snake/SnakeGame.cpp.s
-
-snake/main.obj: snake/main.cpp.obj
-.PHONY : snake/main.obj
-
-# target to build an object file
-snake/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/main.cpp.obj
-.PHONY : snake/main.cpp.obj
-
-snake/main.i: snake/main.cpp.i
-.PHONY : snake/main.i
-
-# target to preprocess a source file
-snake/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/main.cpp.i
-.PHONY : snake/main.cpp.i
-
-snake/main.s: snake/main.cpp.s
-.PHONY : snake/main.s
-
-# target to generate assembly for a file
-snake/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/snake/main.cpp.s
-.PHONY : snake/main.cpp.s
 
 src/Actor.obj: src/Actor.cpp.obj
 .PHONY : src/Actor.obj
@@ -2115,32 +1986,14 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
+	@echo ... snake_copy_target
+	@echo ... test_game_copy_target
 	@echo ... GameEngine
 	@echo ... Snake
+	@echo ... TestGame
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... snake/FakeBody.obj
-	@echo ... snake/FakeBody.i
-	@echo ... snake/FakeBody.s
-	@echo ... snake/Food.obj
-	@echo ... snake/Food.i
-	@echo ... snake/Food.s
-	@echo ... snake/Grid.obj
-	@echo ... snake/Grid.i
-	@echo ... snake/Grid.s
-	@echo ... snake/Snake.obj
-	@echo ... snake/Snake.i
-	@echo ... snake/Snake.s
-	@echo ... snake/SnakeBody.obj
-	@echo ... snake/SnakeBody.i
-	@echo ... snake/SnakeBody.s
-	@echo ... snake/SnakeGame.obj
-	@echo ... snake/SnakeGame.i
-	@echo ... snake/SnakeGame.s
-	@echo ... snake/main.obj
-	@echo ... snake/main.i
-	@echo ... snake/main.s
 	@echo ... src/Actor.obj
 	@echo ... src/Actor.i
 	@echo ... src/Actor.s

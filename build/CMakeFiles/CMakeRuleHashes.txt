@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+7960f565716644624fc0a5ba871b502b snake/CMakeFiles/snake_copy_target
+33ac0ac7d7c86c5ede3866f75e6adee0 snake/always_rebuild
+4ccaffc06c07a34116f537a564b548e5 snake/copy_assets
+daf64fd48aa938e22ab82078906f8683 test/CMakeFiles/test_game_copy_target
+30d6e7286dd693a9c8f245033c79f01a test/always_rebuild
+a2a9d8ea4bdde2b7f044529af31a1871 test/copy_assets

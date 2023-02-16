@@ -121,3 +121,8 @@
     1. 將snake作為GameEngine的子專案
     Todo list
         -修復shader的相對路徑問題
+    存檔紀錄version1.0
+2023/02/16
+    1. cmake增加每次編譯都將assets複製到binary路徑
+    2. 新增TestGame(用來測試)
+    存檔紀錄version1.0

@@ -64,15 +64,18 @@ CMAKE_BINARY_DIR = D:\code\cpp\gameGngine\build
 # The main recursive "all" target.
 all: CMakeFiles/GameEngine.dir/all
 all: snake/all
+all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: snake/preinstall
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/GameEngine.dir/clean
 clean: snake/clean
+clean: test/clean
 .PHONY : clean
 
 #=============================================================================
@@ -80,6 +83,7 @@ clean: snake/clean
 
 # Recursive "all" directory target.
 snake/all: snake/CMakeFiles/Snake.dir/all
+snake/all: snake/CMakeFiles/snake_copy_target.dir/all
 .PHONY : snake/all
 
 # Recursive "preinstall" directory target.
@@ -88,7 +92,25 @@ snake/preinstall:
 
 # Recursive "clean" directory target.
 snake/clean: snake/CMakeFiles/Snake.dir/clean
+snake/clean: snake/CMakeFiles/snake_copy_target.dir/clean
 .PHONY : snake/clean
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all: test/CMakeFiles/TestGame.dir/all
+test/all: test/CMakeFiles/test_game_copy_target.dir/all
+.PHONY : test/all
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean: test/CMakeFiles/TestGame.dir/clean
+test/clean: test/CMakeFiles/test_game_copy_target.dir/clean
+.PHONY : test/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/GameEngine.dir
@@ -97,12 +119,12 @@ snake/clean: snake/CMakeFiles/Snake.dir/clean
 CMakeFiles/GameEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target GameEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target GameEngine"
 .PHONY : CMakeFiles/GameEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GameEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 0
 .PHONY : CMakeFiles/GameEngine.dir/rule
@@ -123,12 +145,12 @@ CMakeFiles/GameEngine.dir/clean:
 snake/CMakeFiles/Snake.dir/all:
 	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/depend
 	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target Snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target Snake"
 .PHONY : snake/CMakeFiles/Snake.dir/all
 
 # Build rule for subdir invocation for target.
 snake/CMakeFiles/Snake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake/CMakeFiles/Snake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 0
 .PHONY : snake/CMakeFiles/Snake.dir/rule
@@ -141,6 +163,84 @@ Snake: snake/CMakeFiles/Snake.dir/rule
 snake/CMakeFiles/Snake.dir/clean:
 	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/clean
 .PHONY : snake/CMakeFiles/Snake.dir/clean
+
+#=============================================================================
+# Target rules for target snake/CMakeFiles/snake_copy_target.dir
+
+# All Build rule for target.
+snake/CMakeFiles/snake_copy_target.dir/all:
+	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\snake_copy_target.dir\build.make snake/CMakeFiles/snake_copy_target.dir/depend
+	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\snake_copy_target.dir\build.make snake/CMakeFiles/snake_copy_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=99 "Built target snake_copy_target"
+.PHONY : snake/CMakeFiles/snake_copy_target.dir/all
+
+# Build rule for subdir invocation for target.
+snake/CMakeFiles/snake_copy_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake/CMakeFiles/snake_copy_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 0
+.PHONY : snake/CMakeFiles/snake_copy_target.dir/rule
+
+# Convenience name for target.
+snake_copy_target: snake/CMakeFiles/snake_copy_target.dir/rule
+.PHONY : snake_copy_target
+
+# clean rule for target.
+snake/CMakeFiles/snake_copy_target.dir/clean:
+	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\snake_copy_target.dir\build.make snake/CMakeFiles/snake_copy_target.dir/clean
+.PHONY : snake/CMakeFiles/snake_copy_target.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/TestGame.dir
+
+# All Build rule for target.
+test/CMakeFiles/TestGame.dir/all:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target TestGame"
+.PHONY : test/CMakeFiles/TestGame.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/TestGame.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 32
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/TestGame.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 0
+.PHONY : test/CMakeFiles/TestGame.dir/rule
+
+# Convenience name for target.
+TestGame: test/CMakeFiles/TestGame.dir/rule
+.PHONY : TestGame
+
+# clean rule for target.
+test/CMakeFiles/TestGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/clean
+.PHONY : test/CMakeFiles/TestGame.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test_game_copy_target.dir
+
+# All Build rule for target.
+test/CMakeFiles/test_game_copy_target.dir/all:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/depend
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=100 "Built target test_game_copy_target"
+.PHONY : test/CMakeFiles/test_game_copy_target.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/test_game_copy_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/test_game_copy_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameGngine\build\CMakeFiles 0
+.PHONY : test/CMakeFiles/test_game_copy_target.dir/rule
+
+# Convenience name for target.
+test_game_copy_target: test/CMakeFiles/test_game_copy_target.dir/rule
+.PHONY : test_game_copy_target
+
+# clean rule for target.
+test/CMakeFiles/test_game_copy_target.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/clean
+.PHONY : test/CMakeFiles/test_game_copy_target.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -37,13 +37,6 @@ file(GLOB_RECURSE DEBUG_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/debug/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/debug/*.h
 )
-file(GLOB_RECURSE TEST_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/test/*.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/test/*.h)
-file(GLOB_RECURSE SNAKE_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/snake/*.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/snake/*.h
-)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/include)
@@ -55,15 +48,13 @@ link_libraries(mingw32 SDL2main SDL2)
 link_libraries(GLEW::GLEW)
 
 add_subdirectory(./snake)
+add_subdirectory(./test)
 
-# add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${TEST_FILES} ${DEBUG_FILES})
-add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${THIRD_PARTY_SRC} ${SNAKE_FILES})
-# add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${THIRD_PARTY_SRC})
-
+add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${THIRD_PARTY_SRC})
 
 # target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
-target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
-target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
+# target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
+# target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
