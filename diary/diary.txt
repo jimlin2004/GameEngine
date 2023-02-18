@@ -126,3 +126,9 @@
     1. cmake增加每次編譯都將assets複製到binary路徑
     2. 新增TestGame(用來測試)
     存檔紀錄version1.0
+2023/02/17
+    1. 決定引入QT6為Editor
+2023/02/18
+    1. 開始寫Editor的UI
+    2. 想用OpenglWidget寫中央預覽(但是跟遊戲一樣用相同的glew)
+    存檔紀錄version1.0

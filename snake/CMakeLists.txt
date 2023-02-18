@@ -1,5 +1,5 @@
 project(Snake)
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.16)
 file(
     GLOB_RECURSE LOCAL_SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
@@ -7,6 +7,8 @@ file(
 
 add_executable(${PROJECT_NAME} entrypoint.cpp ${LOCAL_SRC_FILES} ${SRC_FILES} ${THIRD_PARTY_SRC})
 target_include_directories(${PROJECT_NAME} PRIVATE .)
+target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
+target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
 
 add_custom_target(
     snake_copy_target ALL

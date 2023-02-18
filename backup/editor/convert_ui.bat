@@ -1,0 +1,1 @@
+D:/QT/6.4.2/mingw_64/bin/uic.exe editor_ui.ui -o editor_ui.h

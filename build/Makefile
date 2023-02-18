@@ -200,6 +200,32 @@ test_game_copy_target/fast:
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/build
 .PHONY : test_game_copy_target/fast
 
+#=============================================================================
+# Target rules for targets named GameEngineEditor
+
+# Build rule for target.
+GameEngineEditor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameEngineEditor
+.PHONY : GameEngineEditor
+
+# fast build rule for target.
+GameEngineEditor/fast:
+	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
+.PHONY : GameEngineEditor/fast
+
+#=============================================================================
+# Target rules for targets named GameEngineEditor_autogen
+
+# Build rule for target.
+GameEngineEditor_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameEngineEditor_autogen
+.PHONY : GameEngineEditor_autogen
+
+# fast build rule for target.
+GameEngineEditor_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
+.PHONY : GameEngineEditor_autogen/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1986,9 +2012,11 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
+	@echo ... GameEngineEditor_autogen
 	@echo ... snake_copy_target
 	@echo ... test_game_copy_target
 	@echo ... GameEngine
+	@echo ... GameEngineEditor
 	@echo ... Snake
 	@echo ... TestGame
 	@echo ... main.obj

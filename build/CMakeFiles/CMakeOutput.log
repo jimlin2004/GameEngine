@@ -526,3 +526,79 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: D:/code/cpp/gameGngine/build/CMakeFiles/CMakeScratch/TryCompile-d1lulb
+
+Run Build Command(s):C:/PROGRA~1/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_05782/fast && C:/PROGRA~1/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_05782.dir\build.make CMakeFiles/cmTC_05782.dir/build
+mingw32-make[1]: Entering directory 'D:/code/cpp/gameGngine/build/CMakeFiles/CMakeScratch/TryCompile-d1lulb'
+Building C object CMakeFiles/cmTC_05782.dir/src.c.obj
+C:\PROGRA~1\msys64\mingw64\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_05782.dir\src.c.obj -c D:\code\cpp\gameGngine\build\CMakeFiles\CMakeScratch\TryCompile-d1lulb\src.c
+Linking C executable cmTC_05782.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_05782.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_05782.dir/objects.a
+C:\PROGRA~1\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_05782.dir/objects.a @CMakeFiles\cmTC_05782.dir\objects1
+C:\PROGRA~1\msys64\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_05782.dir/objects.a -Wl,--no-whole-archive -o cmTC_05782.exe -Wl,--out-implib,libcmTC_05782.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_05782.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/code/cpp/gameGngine/build/CMakeFiles/CMakeScratch/TryCompile-d1lulb'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: D:/code/cpp/gameGngine/build/CMakeFiles/CMakeScratch/TryCompile-1k53ik
+
+Run Build Command(s):C:/PROGRA~1/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b9de4/fast && C:/PROGRA~1/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b9de4.dir\build.make CMakeFiles/cmTC_b9de4.dir/build
+mingw32-make[1]: Entering directory 'D:/code/cpp/gameGngine/build/CMakeFiles/CMakeScratch/TryCompile-1k53ik'
+Building CXX object CMakeFiles/cmTC_b9de4.dir/src.cxx.obj
+C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\cmTC_b9de4.dir\src.cxx.obj -c D:\code\cpp\gameGngine\build\CMakeFiles\CMakeScratch\TryCompile-1k53ik\src.cxx
+Linking CXX executable cmTC_b9de4.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9de4.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b9de4.dir/objects.a
+C:\PROGRA~1\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_b9de4.dir/objects.a @CMakeFiles\cmTC_b9de4.dir\objects1
+C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE -Wl,--whole-archive CMakeFiles\cmTC_b9de4.dir/objects.a -Wl,--no-whole-archive -o cmTC_b9de4.exe -Wl,--out-implib,libcmTC_b9de4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b9de4.dir\linkLibs.rsp
+mingw32-make[1]: Leaving directory 'D:/code/cpp/gameGngine/build/CMakeFiles/CMakeScratch/TryCompile-1k53ik'
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}
+

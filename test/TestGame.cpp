@@ -8,7 +8,7 @@ TestGame::TestGame(const char* title, int width, int height)
 
 void TestGame::begin()
 {
-
+    
 }
 
 void TestGame::update(float deltaTime)
