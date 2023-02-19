@@ -1,0 +1,60 @@
+#MainWindow {
+    background-color: #404040;
+}
+
+#MainWindow::separator {
+    width: 1px;
+    height: 1px;
+}
+
+#menubar {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#menubar::item:selected {
+    background-color: #f6e332;
+}
+
+#dockWidgetBottom {
+    color: #ffffff;
+}
+
+#dockWidgetBottom::title {
+    background-color: #000000;
+    text-align: left;
+}
+
+#dockWidgetBottom #wrapWidgetBottom {
+    color: #ffffff;
+    background-color: #15181b;
+}
+
+#dockWidgetLeft {
+    color: #ffffff;
+    border: 1px solid white;
+}
+
+#dockWidgetLeft::title {
+    background-color: #000000;
+    text-align: left;
+}
+
+#dockWidgetLeft #wrapWidgetLeft {
+    color: #ffffff;
+    background-color: #15181b;
+}
+
+#dockWidgetRight {
+    color: #ffffff;
+}
+
+#dockWidgetRight::title {
+    background-color: #000000;
+    text-align: left;
+}
+
+#dockWidgetRight #wrapWidgetRight {
+    color: #ffffff;
+    background-color: #15181b;
+}

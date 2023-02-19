@@ -132,3 +132,9 @@
     1. 開始寫Editor的UI
     2. 想用OpenglWidget寫中央預覽(但是跟遊戲一樣用相同的glew)
     存檔紀錄version1.0
+2023/02/19
+    1. 引入qss
+    2. 建置DockWidget
+    Todo list
+        -glew與QT的結合(用QOpenglWidget)
+    存檔紀錄version1.0

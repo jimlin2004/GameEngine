@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/GameEngineEditor_autogen.dir/ParseCache.txt"
   "GameEngineEditor_autogen"

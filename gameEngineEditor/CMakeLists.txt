@@ -6,7 +6,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 
 set(CMAKE_PREFIX_PATH D:/QT/6.4.2/mingw_64)
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
+find_package(Qt6 REQUIRED COMPONENTS 
+    Core 
+    Gui 
+    Widgets
+    OpenGLWidgets
+)
 qt_standard_project_setup()
 
 file(GLOB_RECURSE EDITOR_SRC_FILES
@@ -20,6 +25,7 @@ add_executable(${PROJECT_NAME}
     editorEntryPoint.cpp 
     mainwindow.ui
     mainwindow.cpp
+    ${EDITOR_SRC_FILES}
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
@@ -28,4 +34,31 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE .)
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)
+target_include_directories(${PROJECT_NAME} PRIVATE ./include)
+target_link_libraries(${PROJECT_NAME} PRIVATE 
+    Qt6::Core 
+    Qt6::Gui 
+    Qt6::Widgets
+    Qt6::OpenGLWidgets
+)
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    GLEW::GLEW
+)
+
+add_custom_target(
+    gameEngineEditor_copy_target ALL
+    DEPENDS copy_qss
+)
+
+add_custom_command(
+    OUTPUT copy_qss
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+            ${CMAKE_CURRENT_SOURCE_DIR}/qss
+            ${CMAKE_CURRENT_BINARY_DIR}/qss
+    DEPENDS always_rebuild
+)
+
+add_custom_command(
+    OUTPUT always_rebuild
+    COMMAND cmake -E echo "copy files"
+)

@@ -150,6 +150,20 @@ GameEngineEditor/fast:
 .PHONY : GameEngineEditor/fast
 
 # Convenience name for target.
+gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule
+.PHONY : gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule
+
+# Convenience name for target.
+gameEngineEditor_copy_target: gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule
+.PHONY : gameEngineEditor_copy_target
+
+# fast build rule for target.
+gameEngineEditor_copy_target/fast:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/build
+.PHONY : gameEngineEditor_copy_target/fast
+
+# Convenience name for target.
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/rule:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/rule
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/rule
@@ -235,6 +249,30 @@ mainwindow.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+src/EditorOpenGLWidget.obj: src/EditorOpenGLWidget.cpp.obj
+.PHONY : src/EditorOpenGLWidget.obj
+
+# target to build an object file
+src/EditorOpenGLWidget.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj
+.PHONY : src/EditorOpenGLWidget.cpp.obj
+
+src/EditorOpenGLWidget.i: src/EditorOpenGLWidget.cpp.i
+.PHONY : src/EditorOpenGLWidget.i
+
+# target to preprocess a source file
+src/EditorOpenGLWidget.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.i
+.PHONY : src/EditorOpenGLWidget.cpp.i
+
+src/EditorOpenGLWidget.s: src/EditorOpenGLWidget.cpp.s
+.PHONY : src/EditorOpenGLWidget.s
+
+# target to generate assembly for a file
+src/EditorOpenGLWidget.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.s
+.PHONY : src/EditorOpenGLWidget.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -246,6 +284,7 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... GameEngineEditor_autogen
+	@echo ... gameEngineEditor_copy_target
 	@echo ... GameEngineEditor
 	@echo ... GameEngineEditor_autogen/mocs_compilation.obj
 	@echo ... GameEngineEditor_autogen/mocs_compilation.i
@@ -256,6 +295,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... src/EditorOpenGLWidget.obj
+	@echo ... src/EditorOpenGLWidget.i
+	@echo ... src/EditorOpenGLWidget.s
 .PHONY : help
 
 

@@ -37,7 +37,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						5
+						6
 					]
 				},
 				{
@@ -53,7 +53,7 @@
 					"targetIndexes" : 
 					[
 						4,
-						6
+						7
 					]
 				},
 				{
@@ -69,7 +69,8 @@
 					"targetIndexes" : 
 					[
 						1,
-						2
+						2,
+						5
 					]
 				}
 			],
@@ -103,7 +104,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						5
+						6
 					]
 				},
 				{
@@ -116,7 +117,7 @@
 					"targetIndexes" : 
 					[
 						4,
-						6
+						7
 					]
 				},
 				{
@@ -129,7 +130,8 @@
 					"targetIndexes" : 
 					[
 						1,
-						2
+						2,
+						5
 					]
 				}
 			],
@@ -145,7 +147,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "GameEngineEditor::@486440c6d36e087699f8",
-					"jsonFile" : "target-GameEngineEditor-Debug-e2c55055042478d90b55.json",
+					"jsonFile" : "target-GameEngineEditor-Debug-be793721b51e7419df42.json",
 					"name" : "GameEngineEditor",
 					"projectIndex" : 3
 				},
@@ -169,6 +171,13 @@
 					"jsonFile" : "target-TestGame-Debug-791d9e966c2ad54db64a.json",
 					"name" : "TestGame",
 					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gameEngineEditor_copy_target::@486440c6d36e087699f8",
+					"jsonFile" : "target-gameEngineEditor_copy_target-Debug-dfe94734efa05dcb8078.json",
+					"name" : "gameEngineEditor_copy_target",
+					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 1,

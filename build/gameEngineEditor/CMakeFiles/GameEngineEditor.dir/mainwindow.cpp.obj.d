@@ -328,6 +328,40 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QFile \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfiledevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/locale \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwctype \
+ C:/PROGRA~1/msys64/mingw64/include/wctype.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iomanip \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ostream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
@@ -344,6 +378,14 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qdockwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \

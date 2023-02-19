@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/mocs_compilation.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj.d"
   "D:/code/cpp/gameGngine/gameEngineEditor/editorEntryPoint.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj.d"
   "D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj.d"
+  "D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
   )
 
 # Targets to which this target links.

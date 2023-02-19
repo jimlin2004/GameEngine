@@ -214,6 +214,19 @@ GameEngineEditor/fast:
 .PHONY : GameEngineEditor/fast
 
 #=============================================================================
+# Target rules for targets named gameEngineEditor_copy_target
+
+# Build rule for target.
+gameEngineEditor_copy_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor_copy_target
+.PHONY : gameEngineEditor_copy_target
+
+# fast build rule for target.
+gameEngineEditor_copy_target/fast:
+	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/build
+.PHONY : gameEngineEditor_copy_target/fast
+
+#=============================================================================
 # Target rules for targets named GameEngineEditor_autogen
 
 # Build rule for target.
@@ -2013,6 +2026,7 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... GameEngineEditor_autogen
+	@echo ... gameEngineEditor_copy_target
 	@echo ... snake_copy_target
 	@echo ... test_game_copy_target
 	@echo ... GameEngine
