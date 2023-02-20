@@ -21,11 +21,15 @@ file(GLOB_RECURSE EDITOR_SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
 )
 
+list(REMOVE_ITEM SRC_FILES ${CMAKE_SOURCE_DIR}/src/GameBase.cpp)
+
 add_executable(${PROJECT_NAME} 
     editorEntryPoint.cpp 
     mainwindow.ui
     mainwindow.cpp
     ${EDITOR_SRC_FILES}
+    ${SRC_FILES}
+    ${THIRD_PARTY_SRC}
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES

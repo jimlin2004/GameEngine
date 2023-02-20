@@ -138,3 +138,7 @@
     Todo list
         -glew與QT的結合(用QOpenglWidget)
     存檔紀錄version1.0
+2023/02/20
+    1. 嘗試將glew結合到OT中(由2達成)
+    2. 建置EditorOpenGLWidget(達到渲染藍色矩形)
+    存檔紀錄version1.0

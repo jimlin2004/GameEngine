@@ -1,6 +1,8 @@
 #include "Camera.h"
 
-GameEngine::Camera::Camera(): GameEngine::GameObject::GameObject()
+GameEngine::Camera::Camera()
+    : GameEngine::GameObject::GameObject()
+    , projectionMatrix(glm::mat4(1.0))
 {
 
 }

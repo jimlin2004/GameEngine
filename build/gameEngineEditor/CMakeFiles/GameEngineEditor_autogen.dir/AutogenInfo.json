@@ -244,6 +244,60 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_chain_circle_contact.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_chain_polygon_contact.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_circle_contact.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_contact_solver.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_edge_circle_contact.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_polygon_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_edge_polygon_contact.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_island.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_island.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_polygon_circle_contact.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.h",
+			"MU",
+			"AEWKKGTPVN/moc_b2_polygon_contact.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -334,6 +388,282 @@
 		[ "D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.cpp", "MU", null ],
 		[
 			"D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameGngine/src/Actor.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameGngine/src/Camera.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/EventSystem.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/FSM.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/GELib.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameGngine/src/GameObject.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/Graphics.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/IndexBuffer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/Renderer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/Shader.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/ShaderManager.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/SubTexture.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/Texture.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/Timestep.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/VertexArray.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/VertexBuffer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/physics/boundingBox/AABB.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_chain_shape.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_circle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_edge.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_polygon.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collision.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_distance.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_dynamic_tree.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_edge_shape.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_polygon_shape.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_time_of_impact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_draw.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_math.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_settings.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_stack_allocator.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_timer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_body.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_manager.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_distance_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_fixture.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_friction_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_gear_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_island.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_motor_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_mouse_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_revolute_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_weld_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_wheel_joint.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp",
 			"MU",
 			null
 		]

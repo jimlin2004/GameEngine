@@ -128,12 +128,1164 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.s"
 	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\gameEngineEditor\src\EditorOpenGLWidget.cpp -o CMakeFiles\GameEngineEditor.dir\src\EditorOpenGLWidget.cpp.s
 
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj: D:/code/cpp/gameGngine/src/Actor.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Actor.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Actor.cpp.obj -c D:\code\cpp\gameGngine\src\Actor.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Actor.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Actor.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Actor.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Actor.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Component\Component.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Component\Component.cpp.obj -c D:\code\cpp\gameGngine\src\ActorComponent\Component\Component.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\ActorComponent\Component\Component.cpp > CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Component\Component.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\ActorComponent\Component\Component.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Component\Component.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Material\Material.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Material\Material.cpp.obj -c D:\code\cpp\gameGngine\src\ActorComponent\Material\Material.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\ActorComponent\Material\Material.cpp > CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Material\Material.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\ActorComponent\Material\Material.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Material\Material.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Mesh\Mesh.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Mesh\Mesh.cpp.obj -c D:\code\cpp\gameGngine\src\ActorComponent\Mesh\Mesh.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\ActorComponent\Mesh\Mesh.cpp > CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Mesh\Mesh.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\ActorComponent\Mesh\Mesh.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\Mesh\Mesh.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj: D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\inputComponent\InputComponent.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\inputComponent\InputComponent.cpp.obj -c D:\code\cpp\gameGngine\src\ActorComponent\inputComponent\InputComponent.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\ActorComponent\inputComponent\InputComponent.cpp > CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\inputComponent\InputComponent.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\ActorComponent\inputComponent\InputComponent.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\ActorComponent\inputComponent\InputComponent.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj: D:/code/cpp/gameGngine/src/Camera.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Camera.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Camera.cpp.obj -c D:\code\cpp\gameGngine\src\Camera.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Camera.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Camera.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Camera.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Camera.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj: D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\DataStruct\Vector\Vector.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\DataStruct\Vector\Vector.cpp.obj -c D:\code\cpp\gameGngine\src\DataStruct\Vector\Vector.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\DataStruct\Vector\Vector.cpp > CMakeFiles\GameEngineEditor.dir\__\src\DataStruct\Vector\Vector.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\DataStruct\Vector\Vector.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\DataStruct\Vector\Vector.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj: D:/code/cpp/gameGngine/src/EventSystem.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\EventSystem.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\EventSystem.cpp.obj -c D:\code\cpp\gameGngine\src\EventSystem.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\EventSystem.cpp > CMakeFiles\GameEngineEditor.dir\__\src\EventSystem.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\EventSystem.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\EventSystem.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj: D:/code/cpp/gameGngine/src/FSM.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\FSM.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\FSM.cpp.obj -c D:\code\cpp\gameGngine\src\FSM.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\FSM.cpp > CMakeFiles\GameEngineEditor.dir\__\src\FSM.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\FSM.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\FSM.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj: D:/code/cpp/gameGngine/src/GELib.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\GELib.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\GELib.cpp.obj -c D:\code\cpp\gameGngine\src\GELib.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\GELib.cpp > CMakeFiles\GameEngineEditor.dir\__\src\GELib.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\GELib.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\GELib.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\GameBaseComponent\GameEventManager\GameEventManager.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\GameBaseComponent\GameEventManager\GameEventManager.cpp.obj -c D:\code\cpp\gameGngine\src\GameBaseComponent\GameEventManager\GameEventManager.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\GameBaseComponent\GameEventManager\GameEventManager.cpp > CMakeFiles\GameEngineEditor.dir\__\src\GameBaseComponent\GameEventManager\GameEventManager.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\GameBaseComponent\GameEventManager\GameEventManager.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\GameBaseComponent\GameEventManager\GameEventManager.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\ConsoleApi.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\ConsoleApi.cpp.obj -c D:\code\cpp\gameGngine\src\GameEngineAPI\ConsoleApi.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\GameEngineAPI\ConsoleApi.cpp > CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\ConsoleApi.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\GameEngineAPI\ConsoleApi.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\ConsoleApi.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\GameEngineAPI.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\GameEngineAPI.cpp.obj -c D:\code\cpp\gameGngine\src\GameEngineAPI\GameEngineAPI.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\GameEngineAPI\GameEngineAPI.cpp > CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\GameEngineAPI.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\GameEngineAPI\GameEngineAPI.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\GameEngineAPI\GameEngineAPI.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj: D:/code/cpp/gameGngine/src/GameObject.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\GameObject.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\GameObject.cpp.obj -c D:\code\cpp\gameGngine\src\GameObject.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\GameObject.cpp > CMakeFiles\GameEngineEditor.dir\__\src\GameObject.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\GameObject.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\GameObject.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: D:/code/cpp/gameGngine/src/Graphics.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Graphics.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Graphics.cpp.obj -c D:\code\cpp\gameGngine\src\Graphics.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Graphics.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Graphics.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Graphics.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Graphics.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/IndexBuffer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.obj -c D:\code\cpp\gameGngine\src\IndexBuffer.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\IndexBuffer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\IndexBuffer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Renderer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Renderer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Renderer.cpp.obj -c D:\code\cpp\gameGngine\src\Renderer.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Renderer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Renderer.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Renderer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Renderer.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: D:/code/cpp/gameGngine/src/Shader.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.obj -c D:\code\cpp\gameGngine\src\Shader.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Shader.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Shader.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: D:/code/cpp/gameGngine/src/ShaderManager.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.obj -c D:\code\cpp\gameGngine\src\ShaderManager.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\ShaderManager.cpp > CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\ShaderManager.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: D:/code/cpp/gameGngine/src/SubTexture.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.obj -c D:\code\cpp\gameGngine\src\SubTexture.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\SubTexture.cpp > CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\SubTexture.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: D:/code/cpp/gameGngine/src/Texture.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.obj -c D:\code\cpp\gameGngine\src\Texture.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Texture.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Texture.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: D:/code/cpp/gameGngine/src/Timestep.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.obj -c D:\code\cpp\gameGngine\src\Timestep.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Timestep.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Timestep.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: D:/code/cpp/gameGngine/src/VertexArray.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.obj -c D:\code\cpp\gameGngine\src\VertexArray.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\VertexArray.cpp > CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\VertexArray.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/VertexBuffer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.obj -c D:\code\cpp\gameGngine\src\VertexBuffer.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\VertexBuffer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\VertexBuffer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.obj -c D:\code\cpp\gameGngine\src\VertexBufferLayout.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\VertexBufferLayout.cpp > CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\VertexBufferLayout.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj: D:/code/cpp/gameGngine/src/physics/boundingBox/AABB.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\physics\boundingBox\AABB.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\physics\boundingBox\AABB.cpp.obj -c D:\code\cpp\gameGngine\src\physics\boundingBox\AABB.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\physics\boundingBox\AABB.cpp > CMakeFiles\GameEngineEditor.dir\__\src\physics\boundingBox\AABB.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\physics\boundingBox\AABB.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\physics\boundingBox\AABB.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_broad_phase.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_broad_phase.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_broad_phase.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_broad_phase.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_broad_phase.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_broad_phase.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_broad_phase.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_chain_shape.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_chain_shape.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_chain_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_chain_shape.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_chain_shape.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_chain_shape.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_chain_shape.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_chain_shape.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_circle_shape.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_circle_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_circle_shape.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_circle_shape.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_circle_shape.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_circle_shape.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_circle_shape.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_circle.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_circle.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_circle.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_circle.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_circle.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_circle.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_circle.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_circle.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_edge.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_edge.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_edge.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_edge.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_edge.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_edge.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_edge.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_edge.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_polygon.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_polygon.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_polygon.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_polygon.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_polygon.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_polygon.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_polygon.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collide_polygon.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collision.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collision.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collision.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collision.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collision.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collision.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collision.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_collision.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_distance.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_distance.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_distance.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_distance.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_distance.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_distance.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_distance.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_distance.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_dynamic_tree.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_dynamic_tree.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_dynamic_tree.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_dynamic_tree.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_dynamic_tree.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_dynamic_tree.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_dynamic_tree.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_dynamic_tree.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_edge_shape.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_edge_shape.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_edge_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_edge_shape.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_edge_shape.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_edge_shape.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_edge_shape.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_edge_shape.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_polygon_shape.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_polygon_shape.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_polygon_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_polygon_shape.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_polygon_shape.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_polygon_shape.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_polygon_shape.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_polygon_shape.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_time_of_impact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_time_of_impact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_time_of_impact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_time_of_impact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_time_of_impact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_time_of_impact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_time_of_impact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\collision\b2_time_of_impact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_block_allocator.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_block_allocator.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_block_allocator.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_block_allocator.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_block_allocator.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_block_allocator.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_block_allocator.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_draw.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_draw.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_draw.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_draw.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_draw.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_draw.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_draw.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_draw.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_math.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_math.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_math.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_math.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_math.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_math.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_math.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_math.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_settings.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_settings.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_settings.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_settings.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_settings.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_settings.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_settings.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_settings.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_stack_allocator.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_stack_allocator.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_stack_allocator.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_stack_allocator.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_stack_allocator.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_stack_allocator.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_stack_allocator.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_stack_allocator.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_timer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_timer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_timer.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_timer.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_timer.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_timer.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_timer.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\common\b2_timer.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_body.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_body.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_body.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_body.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_body.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_body.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_body.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_body.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_circle_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_circle_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_circle_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_circle_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_circle_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_circle_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_manager.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_manager.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_manager.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_manager.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_manager.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_manager.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_manager.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_manager.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_solver.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_solver.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_solver.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_solver.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_solver.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_solver.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_contact_solver.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_distance_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_distance_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_distance_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_distance_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_distance_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_distance_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_distance_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_distance_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_fixture.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_fixture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_fixture.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_fixture.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_fixture.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_fixture.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_fixture.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_fixture.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_friction_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_friction_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_friction_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_friction_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_friction_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_friction_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_friction_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_friction_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_gear_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_gear_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_gear_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_gear_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_gear_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_gear_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_gear_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_gear_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_island.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_island.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_island.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_island.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_island.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_island.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_island.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_island.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_motor_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_motor_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_motor_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_motor_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_motor_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_motor_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_motor_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_motor_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_mouse_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_mouse_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_mouse_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_mouse_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_mouse_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_mouse_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_mouse_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_mouse_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_contact.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_contact.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_contact.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_contact.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_contact.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_polygon_contact.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_pulley_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_pulley_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_pulley_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_pulley_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_pulley_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_pulley_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_pulley_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_revolute_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_revolute_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_revolute_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_revolute_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_revolute_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_revolute_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_revolute_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_revolute_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_weld_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_weld_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_weld_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_weld_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_weld_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_weld_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_weld_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_weld_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_wheel_joint.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_wheel_joint.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_wheel_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_wheel_joint.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_wheel_joint.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_wheel_joint.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_wheel_joint.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_wheel_joint.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world_callbacks.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world_callbacks.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world_callbacks.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world_callbacks.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world_callbacks.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world_callbacks.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\dynamics\b2_world_callbacks.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\rope\b2_rope.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\rope\b2_rope.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\rope\b2_rope.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\box2d\src\rope\b2_rope.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\rope\b2_rope.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\box2d\src\rope\b2_rope.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\box2d\src\rope\b2_rope.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj: D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\third_party\stb_image\std_image.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\third_party\stb_image\std_image.cpp.obj -c D:\code\cpp\gameGngine\third_party\stb_image\std_image.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\third_party\stb_image\std_image.cpp > CMakeFiles\GameEngineEditor.dir\__\third_party\stb_image\std_image.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\third_party\stb_image\std_image.cpp -o CMakeFiles\GameEngineEditor.dir\__\third_party\stb_image\std_image.cpp.s
+
 # Object files for target GameEngineEditor
 GameEngineEditor_OBJECTS = \
 "CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj"
+"CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj"
 
 # External object files for target GameEngineEditor
 GameEngineEditor_EXTERNAL_OBJECTS =
@@ -142,6 +1294,78 @@ gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEdi
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Camera.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/EventSystem.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/FSM.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GELib.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_math.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/build.make
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6OpenGLWidgets.a
 gameEngineEditor/GameEngineEditor.exe: C:/Program\ Files/msys64/mingw64/lib/libglew32.dll.a
@@ -153,7 +1377,7 @@ gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6EntryPoint
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/linkLibs.rsp
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/objects1
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GameEngineEditor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking CXX executable GameEngineEditor.exe"
 	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameEngineEditor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

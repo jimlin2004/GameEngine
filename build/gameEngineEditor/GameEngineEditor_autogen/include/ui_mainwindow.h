@@ -19,6 +19,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
+#include "EditorOpenGLWidget.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -29,7 +30,7 @@ public:
     QAction *actionopen;
     QWidget *centralwidget;
     QGridLayout *gridLayout_4;
-    QWidget *widget;
+    EditorOpenGLWidget *widget;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
@@ -63,8 +64,9 @@ public:
         gridLayout_4->setSpacing(0);
         gridLayout_4->setObjectName("gridLayout_4");
         gridLayout_4->setContentsMargins(0, 0, 0, 0);
-        widget = new QWidget(centralwidget);
+        widget = new EditorOpenGLWidget(centralwidget);
         widget->setObjectName("widget");
+        widget->setStyleSheet(QString::fromUtf8(""));
 
         gridLayout_4->addWidget(widget, 0, 0, 1, 1);
 
