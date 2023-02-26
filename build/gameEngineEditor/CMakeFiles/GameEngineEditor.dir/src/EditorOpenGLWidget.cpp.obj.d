@@ -571,7 +571,31 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  C:/PROGRA~1/msys64/mingw64/include/mcx.h \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
- D:/code/cpp/gameGngine/include/Renderer.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
+ D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
+ D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
+ D:/code/cpp/gameGngine/include/ShaderManager.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwctype \
+ C:/PROGRA~1/msys64/mingw64/include/wctype.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ostream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
@@ -712,36 +736,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameGngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameGngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameGngine/include/VertexArray.h \
- D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
- D:/code/cpp/gameGngine/include/IndexBuffer.h \
- D:/code/cpp/gameGngine/include/Shader.h \
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameGngine/include/ShaderManager.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwctype \
- C:/PROGRA~1/msys64/mingw64/include/wctype.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ostream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
@@ -755,6 +749,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Camera.h \
+ D:/code/cpp/gameGngine/include/Renderer.h \
+ D:/code/cpp/gameGngine/include/VertexArray.h \
+ D:/code/cpp/gameGngine/include/VertexBuffer.h \
+ D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameGngine/include/IndexBuffer.h \
+ D:/code/cpp/gameGngine/include/Shader.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h

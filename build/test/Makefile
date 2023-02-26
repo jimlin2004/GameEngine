@@ -163,30 +163,6 @@ test_game_copy_target/fast:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/build
 .PHONY : test_game_copy_target/fast
 
-TestGame.obj: TestGame.cpp.obj
-.PHONY : TestGame.obj
-
-# target to build an object file
-TestGame.cpp.obj:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/TestGame.cpp.obj
-.PHONY : TestGame.cpp.obj
-
-TestGame.i: TestGame.cpp.i
-.PHONY : TestGame.i
-
-# target to preprocess a source file
-TestGame.cpp.i:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/TestGame.cpp.i
-.PHONY : TestGame.cpp.i
-
-TestGame.s: TestGame.cpp.s
-.PHONY : TestGame.s
-
-# target to generate assembly for a file
-TestGame.cpp.s:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/TestGame.cpp.s
-.PHONY : TestGame.cpp.s
-
 __/src/Actor.obj: __/src/Actor.cpp.obj
 .PHONY : __/src/Actor.obj
 
@@ -1939,29 +1915,53 @@ __/third_party/stb_image/std_image.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.s
 .PHONY : __/third_party/stb_image/std_image.cpp.s
 
-entrypoint.obj: entrypoint.cpp.obj
-.PHONY : entrypoint.obj
+source/Test/TestGame.obj: source/Test/TestGame.cpp.obj
+.PHONY : source/Test/TestGame.obj
 
 # target to build an object file
-entrypoint.cpp.obj:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/entrypoint.cpp.obj
-.PHONY : entrypoint.cpp.obj
+source/Test/TestGame.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj
+.PHONY : source/Test/TestGame.cpp.obj
 
-entrypoint.i: entrypoint.cpp.i
-.PHONY : entrypoint.i
+source/Test/TestGame.i: source/Test/TestGame.cpp.i
+.PHONY : source/Test/TestGame.i
 
 # target to preprocess a source file
-entrypoint.cpp.i:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/entrypoint.cpp.i
-.PHONY : entrypoint.cpp.i
+source/Test/TestGame.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.i
+.PHONY : source/Test/TestGame.cpp.i
 
-entrypoint.s: entrypoint.cpp.s
-.PHONY : entrypoint.s
+source/Test/TestGame.s: source/Test/TestGame.cpp.s
+.PHONY : source/Test/TestGame.s
 
 # target to generate assembly for a file
-entrypoint.cpp.s:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/entrypoint.cpp.s
-.PHONY : entrypoint.cpp.s
+source/Test/TestGame.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.s
+.PHONY : source/Test/TestGame.cpp.s
+
+source/entrypoint.obj: source/entrypoint.cpp.obj
+.PHONY : source/entrypoint.obj
+
+# target to build an object file
+source/entrypoint.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj
+.PHONY : source/entrypoint.cpp.obj
+
+source/entrypoint.i: source/entrypoint.cpp.i
+.PHONY : source/entrypoint.i
+
+# target to preprocess a source file
+source/entrypoint.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.i
+.PHONY : source/entrypoint.cpp.i
+
+source/entrypoint.s: source/entrypoint.cpp.s
+.PHONY : source/entrypoint.s
+
+# target to generate assembly for a file
+source/entrypoint.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.s
+.PHONY : source/entrypoint.cpp.s
 
 # Help Target
 help:
@@ -1975,9 +1975,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test_game_copy_target
 	@echo ... TestGame
-	@echo ... TestGame.obj
-	@echo ... TestGame.i
-	@echo ... TestGame.s
 	@echo ... __/src/Actor.obj
 	@echo ... __/src/Actor.i
 	@echo ... __/src/Actor.s
@@ -2197,9 +2194,12 @@ help:
 	@echo ... __/third_party/stb_image/std_image.obj
 	@echo ... __/third_party/stb_image/std_image.i
 	@echo ... __/third_party/stb_image/std_image.s
-	@echo ... entrypoint.obj
-	@echo ... entrypoint.i
-	@echo ... entrypoint.s
+	@echo ... source/Test/TestGame.obj
+	@echo ... source/Test/TestGame.i
+	@echo ... source/Test/TestGame.s
+	@echo ... source/entrypoint.obj
+	@echo ... source/entrypoint.i
+	@echo ... source/entrypoint.s
 .PHONY : help
 
 

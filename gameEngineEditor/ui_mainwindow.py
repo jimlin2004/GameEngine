@@ -160,7 +160,7 @@ public:
         actionsave->setText(QCoreApplication::translate("MainWindow", "save", nullptr));
         actionopen->setText(QCoreApplication::translate("MainWindow", "open", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
-        dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "udefine", nullptr));
+        dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Assets", nullptr));
     } // retranslateUi

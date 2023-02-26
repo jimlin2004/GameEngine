@@ -75,7 +75,7 @@
     <string notr="true"/>
    </property>
    <property name="windowTitle">
-    <string>udefine</string>
+    <string>Object information</string>
    </property>
    <attribute name="dockWidgetArea">
     <number>1</number>

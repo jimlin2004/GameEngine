@@ -1,12 +1,16 @@
 project(TestGame)
 cmake_minimum_required(VERSION 3.16)
+
+set(GameName Test)
+
 file(
     GLOB_RECURSE LOCAL_SRC_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/source/${GameName}/*.cpp
 )
 
-add_executable(${PROJECT_NAME} entrypoint.cpp ${LOCAL_SRC_FILES} ${SRC_FILES} ${THIRD_PARTY_SRC})
+add_executable(${PROJECT_NAME} source/entrypoint.cpp ${LOCAL_SRC_FILES} ${SRC_FILES} ${THIRD_PARTY_SRC})
 target_include_directories(${PROJECT_NAME} PRIVATE .)
+target_include_directories(${PROJECT_NAME} PRIVATE ./source/${GameName})
 target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
 target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
 

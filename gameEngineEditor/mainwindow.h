@@ -3,7 +3,10 @@
 
 #include <QMainWindow>
 #include <QFile>
+#include <QFileDialog>
+#include <QDebug>
 #include "EditorOpenGLWidget.h"
+#include "ProjectParser.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +22,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private:
+    ProjectParser* projectParser;
+
+private slots:
+    void openProject();
 };
 
 #endif // MAINWINDOW_H

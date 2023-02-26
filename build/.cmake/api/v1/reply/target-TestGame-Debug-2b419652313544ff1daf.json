@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "gameEngineEditor/GameEngineEditor.exe"
+			"path" : "test/TestGame.exe"
 		},
 		{
-			"path" : "gameEngineEditor/GameEngineEditor.pdb"
+			"path" : "test/TestGame.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -16,29 +16,14 @@
 			"add_executable",
 			"target_link_libraries",
 			"set_target_properties",
-			"include",
-			"find_package",
-			"find_dependency",
-			"_qt_internal_find_qt_dependencies",
 			"copy_imported_target_properties",
+			"find_package",
 			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"gameEngineEditor/CMakeLists.txt",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-			"C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"test/CMakeLists.txt",
 			"C:/Program Files/msys64/mingw64/lib/cmake/glew/CopyImportedTargetProperties.cmake",
 			"C:/Program Files/msys64/mingw64/lib/cmake/glew/glew-config.cmake",
 			"C:/Program Files/CMake/share/cmake-3.25/Modules/FindGLEW.cmake",
@@ -52,238 +37,96 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 42,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 48,
+				"line" : 15,
 				"parent" : 0
+			},
+			{
+				"file" : 4
 			},
 			{
 				"command" : 4,
-				"file" : 0,
-				"line" : 9,
-				"parent" : 0
-			},
-			{
-				"file" : 3,
+				"file" : 4,
+				"line" : 8,
 				"parent" : 4
 			},
 			{
-				"command" : 4,
 				"file" : 3,
-				"line" : 157,
 				"parent" : 5
 			},
 			{
-				"file" : 2,
+				"command" : 4,
+				"file" : 3,
+				"line" : 68,
 				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
 			},
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 52,
-				"parent" : 7
-			},
-			{
-				"file" : 1,
+				"line" : 56,
 				"parent" : 8
 			},
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 61,
+				"line" : 67,
 				"parent" : 9
 			},
 			{
-				"command" : 4,
-				"file" : 3,
-				"line" : 157,
-				"parent" : 5
-			},
-			{
-				"file" : 5,
-				"parent" : 11
-			},
-			{
-				"command" : 3,
-				"file" : 5,
-				"line" : 52,
-				"parent" : 12
-			},
-			{
+				"command" : 5,
 				"file" : 4,
-				"parent" : 13
-			},
-			{
-				"command" : 2,
-				"file" : 4,
-				"line" : 61,
-				"parent" : 14
-			},
-			{
-				"command" : 3,
-				"file" : 5,
-				"line" : 40,
-				"parent" : 12
-			},
-			{
-				"file" : 10,
-				"parent" : 16
-			},
-			{
-				"command" : 6,
-				"file" : 10,
-				"line" : 39,
-				"parent" : 17
+				"line" : 41,
+				"parent" : 4
 			},
 			{
 				"command" : 5,
-				"file" : 9,
-				"line" : 108,
-				"parent" : 18
-			},
-			{
-				"command" : 4,
-				"file" : 8,
-				"line" : 47,
-				"parent" : 19
-			},
-			{
-				"file" : 7,
-				"parent" : 20
-			},
-			{
-				"command" : 3,
-				"file" : 7,
-				"line" : 52,
-				"parent" : 21
-			},
-			{
-				"file" : 6,
-				"parent" : 22
-			},
-			{
-				"command" : 2,
-				"file" : 6,
-				"line" : 61,
-				"parent" : 23
-			},
-			{
-				"command" : 2,
-				"file" : 6,
-				"line" : 76,
-				"parent" : 23
-			},
-			{
-				"command" : 4,
-				"file" : 3,
-				"line" : 157,
-				"parent" : 5
-			},
-			{
-				"file" : 12,
-				"parent" : 26
-			},
-			{
-				"command" : 3,
-				"file" : 12,
-				"line" : 52,
-				"parent" : 27
-			},
-			{
-				"file" : 11,
-				"parent" : 28
-			},
-			{
-				"command" : 2,
-				"file" : 11,
-				"line" : 61,
-				"parent" : 29
-			},
-			{
-				"file" : 16
-			},
-			{
-				"command" : 4,
-				"file" : 16,
-				"line" : 8,
-				"parent" : 31
-			},
-			{
-				"file" : 15,
-				"parent" : 32
-			},
-			{
-				"command" : 4,
-				"file" : 15,
-				"line" : 68,
-				"parent" : 33
-			},
-			{
-				"file" : 14,
-				"parent" : 34
-			},
-			{
-				"command" : 7,
-				"file" : 14,
-				"line" : 56,
-				"parent" : 35
-			},
-			{
-				"command" : 2,
-				"file" : 13,
-				"line" : 67,
-				"parent" : 36
-			},
-			{
-				"command" : 8,
-				"file" : 16,
-				"line" : 41,
-				"parent" : 31
-			},
-			{
-				"command" : 8,
-				"file" : 16,
+				"file" : 4,
 				"line" : 42,
-				"parent" : 31
+				"parent" : 4
 			},
 			{
-				"command" : 8,
-				"file" : 16,
+				"command" : 5,
+				"file" : 4,
 				"line" : 43,
-				"parent" : 31
+				"parent" : 4
 			},
 			{
-				"command" : 8,
-				"file" : 16,
+				"command" : 5,
+				"file" : 4,
 				"line" : 44,
-				"parent" : 31
+				"parent" : 4
 			},
 			{
-				"command" : 8,
-				"file" : 16,
+				"command" : 5,
+				"file" : 4,
 				"line" : 45,
-				"parent" : 31
+				"parent" : 4
 			},
 			{
-				"command" : 9,
+				"command" : 6,
 				"file" : 0,
-				"line" : 40,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
-				"command" : 9,
+				"command" : 6,
 				"file" : 0,
-				"line" : 41,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -295,150 +138,45 @@
 			[
 				{
 					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++17"
-				}
-			],
-			"defines" : 
-			[
-				{
-					"backtrace" : 2,
-					"define" : "MINGW_HAS_SECURE_API=1"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_CORE_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_GUI_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_NEEDS_QMAIN"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_OPENGLWIDGETS_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_OPENGL_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_WIDGETS_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "UNICODE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "WIN32"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "WIN64"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_UNICODE"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "_WIN64"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 0,
-					"path" : "D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/include"
-				},
-				{
-					"backtrace" : 38,
+					"backtrace" : 11,
 					"path" : "D:/code/cpp/gameGngine/include"
 				},
 				{
-					"backtrace" : 39,
+					"backtrace" : 12,
 					"path" : "D:/code/cpp/gameGngine/third_party/box2d/include"
 				},
 				{
-					"backtrace" : 40,
+					"backtrace" : 13,
 					"path" : "D:/code/cpp/gameGngine/third_party/opengl/glew/include"
 				},
 				{
-					"backtrace" : 41,
+					"backtrace" : 14,
 					"path" : "D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include"
 				},
 				{
-					"backtrace" : 42,
+					"backtrace" : 15,
 					"path" : "D:/code/cpp/gameGngine/third_party"
 				},
 				{
-					"backtrace" : 43,
-					"path" : "D:/code/cpp/gameGngine/gameEngineEditor/."
+					"backtrace" : 16,
+					"path" : "D:/code/cpp/gameGngine/test/."
 				},
 				{
-					"backtrace" : 44,
-					"path" : "D:/code/cpp/gameGngine/gameEngineEditor/./include"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/include/QtCore"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/include"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/mkspecs/win32-g++"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/include/QtGui"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/include/QtWidgets"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "D:/QT/6.4.2/mingw_64/include/QtOpenGL"
+					"backtrace" : 17,
+					"path" : "D:/code/cpp/gameGngine/test/./source/Test"
 				}
 			],
 			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					2,
-					2
-				],
-				"standard" : "17"
-			},
 			"sourceIndexes" : 
 			[
 				0,
 				1,
+				2,
 				3,
 				4,
 				5,
@@ -510,20 +248,11 @@
 				71,
 				72,
 				73,
-				74,
-				75,
-				76
+				74
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 0,
-			"id" : "GameEngineEditor_autogen::@486440c6d36e087699f8"
-		}
-	],
-	"id" : "GameEngineEditor::@486440c6d36e087699f8",
+	"id" : "TestGame::@36f028580bb02cc8272a",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -533,12 +262,22 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-mwindows",
+				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6OpenGLWidgets.a",
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2main",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lSDL2",
 				"role" : "libraries"
 			},
 			{
@@ -547,72 +286,12 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
-				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6Widgets.a",
-				"role" : "libraries"
-			},
-			{
 				"backtrace" : 10,
-				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6OpenGL.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6Gui.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6Core.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "-lmpr",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "-luserenv",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 24,
-				"fragment" : "-lmingw32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 24,
-				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6EntryPoint.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 25,
-				"fragment" : "-lshell32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 30,
-				"fragment" : "-ld3d11",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 30,
-				"fragment" : "-ldxgi",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 30,
-				"fragment" : "-ldxguid",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 37,
 				"fragment" : "-lopengl32",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 37,
+				"backtrace" : 10,
 				"fragment" : "-lglu32",
 				"role" : "libraries"
 			},
@@ -623,12 +302,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GameEngineEditor",
-	"nameOnDisk" : "GameEngineEditor.exe",
+	"name" : "TestGame",
+	"nameOnDisk" : "TestGame.exe",
 	"paths" : 
 	{
-		"build" : "gameEngineEditor",
-		"source" : "gameEngineEditor"
+		"build" : "test",
+		"source" : "test"
 	},
 	"sourceGroups" : 
 	[
@@ -638,6 +317,7 @@
 			[
 				0,
 				1,
+				2,
 				3,
 				4,
 				5,
@@ -709,56 +389,22 @@
 				71,
 				72,
 				73,
-				74,
-				75,
-				76
-			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				2
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				77
+				74
 			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 0,
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/gameEngineEditor/GameEngineEditor_autogen/mocs_compilation.cpp",
+			"path" : "test/source/entrypoint.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "gameEngineEditor/editorEntryPoint.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "gameEngineEditor/mainwindow.ui",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "gameEngineEditor/mainwindow.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "gameEngineEditor/src/EditorOpenGLWidget.cpp",
+			"path" : "test/source/Test/TestGame.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -819,6 +465,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/GELib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/GameBase.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1192,12 +844,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "third_party/stb_image/std_image.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h",
-			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "EXECUTABLE"

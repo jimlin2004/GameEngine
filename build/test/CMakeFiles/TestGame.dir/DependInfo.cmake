@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/code/cpp/gameGngine/test/TestGame.cpp" "test/CMakeFiles/TestGame.dir/TestGame.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/TestGame.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/Actor.cpp" "test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp" "test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.obj.d"
   "D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp" "test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.obj.d"
@@ -82,7 +81,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp" "test/CMakeFiles/TestGame.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj.d"
   "D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp" "test/CMakeFiles/TestGame.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj.d"
   "D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp" "test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj.d"
-  "D:/code/cpp/gameGngine/test/entrypoint.cpp" "test/CMakeFiles/TestGame.dir/entrypoint.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/entrypoint.cpp.obj.d"
+  "D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp" "test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj.d"
+  "D:/code/cpp/gameGngine/test/source/entrypoint.cpp" "test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj" "gcc" "test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -4,6 +4,7 @@
 #include "GL/glew.h"
 #include <QOpenGLWidget>
 
+#include "GameEngineAPI/GameEngineAPI.h"
 #include "Renderer.h"
 
 class EditorOpenGLWidget: public QOpenGLWidget

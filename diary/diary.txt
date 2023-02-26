@@ -142,3 +142,9 @@
     1. 嘗試將glew結合到OT中(由2達成)
     2. 建置EditorOpenGLWidget(達到渲染藍色矩形)
     存檔紀錄version1.0
+2023/02/26
+    1. Editor新增JsonParser
+    2. Editor新增ProjectParser
+    Todo list
+        -assets browser
+    存檔紀錄version1.0

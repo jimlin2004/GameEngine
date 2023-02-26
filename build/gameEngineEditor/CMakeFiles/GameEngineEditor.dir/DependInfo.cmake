@@ -84,6 +84,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameGngine/gameEngineEditor/editorEntryPoint.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj.d"
   "D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj.d"
   "D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
+  "D:/code/cpp/gameGngine/gameEngineEditor/src/JsonParser.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj.d"
+  "D:/code/cpp/gameGngine/gameEngineEditor/src/ProjectParser.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj.d"
   )
 
 # Targets to which this target links.

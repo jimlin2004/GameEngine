@@ -3,7 +3,7 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , ui(new Ui::MainWindow), projectParser(new ProjectParser())
 {
     ui->setupUi(this);
     
@@ -12,9 +12,18 @@ MainWindow::MainWindow(QWidget *parent)
     QString qss = QString::fromUtf8(qssFile.readAll());
     this->setStyleSheet(qss);
     qssFile.close();
+
+    connect(ui->actionopen, SIGNAL(triggered()), this, SLOT(openProject()));
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete this->projectParser;
+}
+
+void MainWindow::openProject()
+{
+    QString path = QFileDialog::getOpenFileName(this, tr("Open project"), QDir::homePath(), tr("*.gproject"));
+    this->projectParser->load(path.toStdString().c_str());
 }

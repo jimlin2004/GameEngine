@@ -13,7 +13,18 @@
 }
 
 #menubar::item:selected {
-    background-color: #f6e332;
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+#menubar QMenu {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#menubar QMenu::item:selected {
+    color: #ffffff;
+    background-color: #6c757d;
 }
 
 #dockWidgetBottom {
@@ -32,7 +43,6 @@
 
 #dockWidgetLeft {
     color: #ffffff;
-    border: 1px solid white;
 }
 
 #dockWidgetLeft::title {

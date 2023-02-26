@@ -362,6 +362,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qfiledialog.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdir.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdatetime.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcalendar.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h \
  D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
@@ -610,7 +622,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/mcx.h \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
- D:/code/cpp/gameGngine/include/Renderer.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
+ D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
+ D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
+ D:/code/cpp/gameGngine/include/ShaderManager.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
@@ -751,20 +771,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameGngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameGngine/include/VertexArray.h \
- D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
- D:/code/cpp/gameGngine/include/IndexBuffer.h \
- D:/code/cpp/gameGngine/include/Shader.h \
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameGngine/include/ShaderManager.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
@@ -778,9 +784,34 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Camera.h \
+ D:/code/cpp/gameGngine/include/Renderer.h \
+ D:/code/cpp/gameGngine/include/VertexArray.h \
+ D:/code/cpp/gameGngine/include/VertexBuffer.h \
+ D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameGngine/include/IndexBuffer.h \
+ D:/code/cpp/gameGngine/include/Shader.h \
+ D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcborvalue.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcborcommon.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qregularexpression.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/quuid.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonArray \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonarray.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonDocument \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsondocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
@@ -790,5 +821,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h

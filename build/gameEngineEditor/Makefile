@@ -2001,6 +2001,54 @@ src/EditorOpenGLWidget.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.s
 .PHONY : src/EditorOpenGLWidget.cpp.s
 
+src/JsonParser.obj: src/JsonParser.cpp.obj
+.PHONY : src/JsonParser.obj
+
+# target to build an object file
+src/JsonParser.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj
+.PHONY : src/JsonParser.cpp.obj
+
+src/JsonParser.i: src/JsonParser.cpp.i
+.PHONY : src/JsonParser.i
+
+# target to preprocess a source file
+src/JsonParser.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.i
+.PHONY : src/JsonParser.cpp.i
+
+src/JsonParser.s: src/JsonParser.cpp.s
+.PHONY : src/JsonParser.s
+
+# target to generate assembly for a file
+src/JsonParser.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.s
+.PHONY : src/JsonParser.cpp.s
+
+src/ProjectParser.obj: src/ProjectParser.cpp.obj
+.PHONY : src/ProjectParser.obj
+
+# target to build an object file
+src/ProjectParser.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj
+.PHONY : src/ProjectParser.cpp.obj
+
+src/ProjectParser.i: src/ProjectParser.cpp.i
+.PHONY : src/ProjectParser.i
+
+# target to preprocess a source file
+src/ProjectParser.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.i
+.PHONY : src/ProjectParser.cpp.i
+
+src/ProjectParser.s: src/ProjectParser.cpp.s
+.PHONY : src/ProjectParser.s
+
+# target to generate assembly for a file
+src/ProjectParser.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s
+.PHONY : src/ProjectParser.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2242,6 +2290,12 @@ help:
 	@echo ... src/EditorOpenGLWidget.obj
 	@echo ... src/EditorOpenGLWidget.i
 	@echo ... src/EditorOpenGLWidget.s
+	@echo ... src/JsonParser.obj
+	@echo ... src/JsonParser.i
+	@echo ... src/JsonParser.s
+	@echo ... src/ProjectParser.obj
+	@echo ... src/ProjectParser.i
+	@echo ... src/ProjectParser.s
 .PHONY : help
 
 

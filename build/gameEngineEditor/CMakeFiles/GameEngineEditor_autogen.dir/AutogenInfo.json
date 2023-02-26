@@ -391,6 +391,16 @@
 			"MU",
 			null
 		],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/src/JsonParser.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/src/ProjectParser.cpp",
+			"MU",
+			null
+		],
 		[ "D:/code/cpp/gameGngine/src/Actor.cpp", "MU", null ],
 		[
 			"D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp",
