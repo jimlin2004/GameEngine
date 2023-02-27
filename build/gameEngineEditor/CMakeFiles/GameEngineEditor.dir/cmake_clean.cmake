@@ -149,6 +149,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj"

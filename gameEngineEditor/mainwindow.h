@@ -7,6 +7,7 @@
 #include <QDebug>
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
+#include "AssetFileWidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -25,6 +26,8 @@ private:
 
 private:
     ProjectParser* projectParser;
+
+    void resetFileSystemPanel();
 
 private slots:
     void openProject();

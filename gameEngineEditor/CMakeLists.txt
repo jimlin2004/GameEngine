@@ -13,6 +13,7 @@ find_package(Qt6 REQUIRED COMPONENTS
     Widgets
     OpenGLWidgets
 )
+message(STATUS ${Qt6Widgets_INCLUDE_DIRS})
 qt_standard_project_setup()
 
 file(GLOB_RECURSE EDITOR_SRC_FILES
@@ -21,6 +22,13 @@ file(GLOB_RECURSE EDITOR_SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.c 
     ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
 )
+# 為了moc，必須參與編譯
+file(GLOB_RECURSE EDITOR_HEADER_FILES
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.h 
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.hpp
+)
 
 list(REMOVE_ITEM SRC_FILES ${CMAKE_SOURCE_DIR}/src/GameBase.cpp)
 
@@ -28,6 +36,7 @@ add_executable(${PROJECT_NAME}
     editorEntryPoint.cpp 
     mainwindow.ui
     mainwindow.cpp
+    ${EDITOR_HEADER_FILES}
     ${EDITOR_SRC_FILES}
     ${SRC_FILES}
     ${THIRD_PARTY_SRC}
@@ -40,6 +49,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 
 target_include_directories(${PROJECT_NAME} PRIVATE .)
 target_include_directories(${PROJECT_NAME} PRIVATE ./include)
+target_include_directories(${PROJECT_NAME} PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} PRIVATE 
     Qt6::Core 
     Qt6::Gui 

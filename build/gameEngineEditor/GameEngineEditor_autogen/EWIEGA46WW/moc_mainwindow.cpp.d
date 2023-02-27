@@ -493,6 +493,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonObject \
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qarraydata.h \
@@ -594,6 +595,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
   D:/QT/6.4.2/mingw_64/include/QtGui/QSurfaceFormat \
   D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
@@ -609,7 +611,10 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qopengl.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpalette.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpixelformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpolygon.h \
@@ -617,10 +622,13 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgb.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/QOpenGLWidget \
@@ -628,17 +636,34 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qfiledialog.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qslider.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+  D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h \

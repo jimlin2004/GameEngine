@@ -240,6 +240,30 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h",
+			"MU",
+			"6YEA5652QU/moc_AssetFileWidget.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h",
+			"MU",
+			"6YEA5652QU/moc_EditorOpenGLWidget.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h",
+			"MU",
+			"6YEA5652QU/moc_JsonParser.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h",
+			"MU",
+			"6YEA5652QU/moc_ProjectParser.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -335,11 +359,12 @@
 		"D:/code/cpp/gameGngine/third_party",
 		"D:/code/cpp/gameGngine/gameEngineEditor",
 		"D:/code/cpp/gameGngine/gameEngineEditor/include",
-		"D:/QT/6.4.2/mingw_64/include/QtCore",
-		"D:/QT/6.4.2/mingw_64/include",
-		"D:/QT/6.4.2/mingw_64/mkspecs/win32-g++",
-		"D:/QT/6.4.2/mingw_64/include/QtGui",
+		"D:/QT/6.4.2/mingw_64/include/QtZlib",
 		"D:/QT/6.4.2/mingw_64/include/QtWidgets",
+		"D:/QT/6.4.2/mingw_64/include",
+		"D:/QT/6.4.2/mingw_64/include/QtCore",
+		"D:/QT/6.4.2/mingw_64/include/QtGui",
+		"D:/QT/6.4.2/mingw_64/mkspecs/win32-g++",
 		"D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets",
 		"D:/QT/6.4.2/mingw_64/include/QtOpenGL",
 		"C:/Program Files/msys64/mingw64/include",
@@ -386,6 +411,11 @@
 			null
 		],
 		[ "D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/src/AssetFileWidget.cpp",
+			"MU",
+			null
+		],
 		[
 			"D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp",
 			"MU",

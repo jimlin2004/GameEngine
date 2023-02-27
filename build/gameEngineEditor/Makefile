@@ -1977,6 +1977,30 @@ mainwindow.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+src/AssetFileWidget.obj: src/AssetFileWidget.cpp.obj
+.PHONY : src/AssetFileWidget.obj
+
+# target to build an object file
+src/AssetFileWidget.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj
+.PHONY : src/AssetFileWidget.cpp.obj
+
+src/AssetFileWidget.i: src/AssetFileWidget.cpp.i
+.PHONY : src/AssetFileWidget.i
+
+# target to preprocess a source file
+src/AssetFileWidget.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.i
+.PHONY : src/AssetFileWidget.cpp.i
+
+src/AssetFileWidget.s: src/AssetFileWidget.cpp.s
+.PHONY : src/AssetFileWidget.s
+
+# target to generate assembly for a file
+src/AssetFileWidget.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.s
+.PHONY : src/AssetFileWidget.cpp.s
+
 src/EditorOpenGLWidget.obj: src/EditorOpenGLWidget.cpp.obj
 .PHONY : src/EditorOpenGLWidget.obj
 
@@ -2287,6 +2311,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... src/AssetFileWidget.obj
+	@echo ... src/AssetFileWidget.i
+	@echo ... src/AssetFileWidget.s
 	@echo ... src/EditorOpenGLWidget.obj
 	@echo ... src/EditorOpenGLWidget.i
 	@echo ... src/EditorOpenGLWidget.s

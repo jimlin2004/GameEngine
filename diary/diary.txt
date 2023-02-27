@@ -23,7 +23,7 @@
     4. 寫出ShaderManager並將其至於GEngine底下
 2023/01/13
     1. 將VertexBuffer、IndexBuffer寫成class
-    2. 欲將VA寫成class
+    2. 欲將VAO寫成class
     未完工
     resource
         -https://www.youtube.com/watch?v=oD1dvfbyf6A&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2&index=14
@@ -147,4 +147,11 @@
     2. Editor新增ProjectParser
     Todo list
         -assets browser
+    存檔紀錄version1.0
+2023/02/27
+    1. 修復Header檔沒有提示字的問題(moc，透過header參與編譯完成)
+    2. 欲將Asset Widget寫成custom widget(一個icon，一個label顯示名稱)
+    Todo list
+        -Asset widget的完成
+        -Asset控制面板的設計
     存檔紀錄version1.0

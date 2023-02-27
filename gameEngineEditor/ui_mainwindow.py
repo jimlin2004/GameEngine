@@ -46,6 +46,7 @@ public:
     QWidget *dockWidgetContentsBottom;
     QGridLayout *gridLayout_2;
     QWidget *wrapWidgetBottom;
+    QGridLayout *gridLayout_fileSystemPanel;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -124,7 +125,7 @@ public:
         MainWindow->addDockWidget(Qt::RightDockWidgetArea, dockWidgetRight);
         dockWidgetBottom = new QDockWidget(MainWindow);
         dockWidgetBottom->setObjectName("dockWidgetBottom");
-        dockWidgetBottom->setMinimumSize(QSize(79, 39));
+        dockWidgetBottom->setMinimumSize(QSize(79, 43));
         dockWidgetBottom->setStyleSheet(QString::fromUtf8(""));
         dockWidgetContentsBottom = new QWidget();
         dockWidgetContentsBottom->setObjectName("dockWidgetContentsBottom");
@@ -139,6 +140,10 @@ public:
         wrapWidgetBottom->setSizePolicy(sizePolicy);
         wrapWidgetBottom->setAutoFillBackground(false);
         wrapWidgetBottom->setStyleSheet(QString::fromUtf8(""));
+        gridLayout_fileSystemPanel = new QGridLayout(wrapWidgetBottom);
+        gridLayout_fileSystemPanel->setSpacing(0);
+        gridLayout_fileSystemPanel->setObjectName("gridLayout_fileSystemPanel");
+        gridLayout_fileSystemPanel->setContentsMargins(0, 0, 0, 0);
 
         gridLayout_2->addWidget(wrapWidgetBottom, 0, 0, 1, 1);
 

@@ -812,6 +812,33 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qslider.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \

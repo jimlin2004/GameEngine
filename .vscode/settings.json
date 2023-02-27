@@ -68,6 +68,7 @@
         "codecvt": "cpp",
         "optional": "cpp",
         "future": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "qvboxlayout": "cpp"
     }
 }

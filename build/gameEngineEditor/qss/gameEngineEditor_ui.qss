@@ -41,6 +41,18 @@
     background-color: #15181b;
 }
 
+#dockWidgetBottom #wrapWidgetBottom AssetFileWidget {
+    border: 1px solid #ffffff;
+}
+
+#dockWidgetBottom #wrapWidgetBottom AssetFileWidget #icon {
+    background-color: #aaaaaa;
+}
+
+#dockWidgetBottom #wrapWidgetBottom AssetFileWidget QLabel {
+    color: #ffffff;
+}
+
 #dockWidgetLeft {
     color: #ffffff;
 }

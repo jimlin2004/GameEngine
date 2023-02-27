@@ -156,7 +156,7 @@
    <property name="minimumSize">
     <size>
      <width>79</width>
-     <height>39</height>
+     <height>43</height>
     </size>
    </property>
    <property name="styleSheet">
@@ -202,6 +202,23 @@
        <property name="styleSheet">
         <string notr="true"/>
        </property>
+       <layout class="QGridLayout" name="gridLayout_fileSystemPanel">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+       </layout>
       </widget>
      </item>
     </layout>

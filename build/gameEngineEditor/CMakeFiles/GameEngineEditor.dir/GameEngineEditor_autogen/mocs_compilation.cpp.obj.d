@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj: \
  D:\code\cpp\gameGngine\build\gameEngineEditor\GameEngineEditor_autogen\mocs_compilation.cpp \
- D:\code\cpp\gameGngine\build\gameEngineEditor\GameEngineEditor_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ D:\code\cpp\gameGngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_AssetFileWidget.cpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -104,9 +104,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
- D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qglobal.h \
@@ -171,7 +171,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
@@ -328,11 +327,46 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qregularexpression.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qslider.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+ D:\code\cpp\gameGngine\build\gameEngineEditor\GameEngineEditor_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFile \
  D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qfiledevice.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
@@ -370,8 +404,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qdatetime.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcalendar.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
  D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
@@ -385,7 +417,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
  D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QSurfaceFormat \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qopengl.h \
@@ -804,7 +835,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcborvalue.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcborcommon.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qregularexpression.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/quuid.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonArray \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonarray.h \
@@ -812,4 +842,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsondocument.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h
