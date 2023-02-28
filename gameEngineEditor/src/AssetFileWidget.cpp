@@ -3,25 +3,51 @@
 AssetFileWidget::AssetFileWidget(QWidget *parent)
     : QWidget(parent)
     , widget_icon(new QWidget())
-    , label_assetName(new QLabel())
+    , label_assetName(new WordWrapLabel())
 {
-
+    QVBoxLayout *layout = new QVBoxLayout(this);
+    this->widget_icon->setFixedSize(64, 64);
+    this->widget_icon->setObjectName("icon");
+    layout->addStretch(0);
+    layout->addWidget(this->widget_icon);
+    layout->addWidget(this->label_assetName);
+    layout->setContentsMargins(5, 5, 5, 5);
 }
 
 AssetFileWidget::AssetFileWidget(const QString& assetName, QWidget *parent)
     : QWidget(parent)
     , widget_icon(new QWidget())
-    , label_assetName(new QLabel(assetName))
+    , label_assetName(new WordWrapLabel(assetName))
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
-    this->widget_icon->resize(50, 50);
+    this->widget_icon->setFixedSize(64, 64);
     this->widget_icon->setObjectName("icon");
-    QFont font = this->label_assetName->font();
-    font.setPointSize(9);
-    this->label_assetName->setFont(font);
-    // layout->setContentsMargins(0, 0, 0, 0);
+    this->label_assetName->setWordWrap(true);
+    this->label_assetName->setAlignment(Qt::AlignCenter);
+    this->label_assetName->setFixedWidth(64);
+    this->label_assetName->wrapText(assetName);
+    layout->addStretch(0);
     layout->addWidget(this->widget_icon);
     layout->addWidget(this->label_assetName);
+    layout->setContentsMargins(5, 5, 5, 5);
+}
+
+AssetFileWidget::AssetFileWidget(const std::string& assetName, QWidget *parent)
+    : QWidget(parent)
+    , widget_icon(new QWidget())
+    , label_assetName(new WordWrapLabel(QString::fromStdString(assetName)))
+{
+    QVBoxLayout *layout = new QVBoxLayout(this);
+    this->widget_icon->setFixedSize(64, 64);
+    this->widget_icon->setObjectName("icon");
+    this->label_assetName->setWordWrap(true);
+    this->label_assetName->setAlignment(Qt::AlignCenter);
+    this->label_assetName->setFixedWidth(64);
+    this->label_assetName->wrapText(QString::fromStdString(assetName));
+    layout->addStretch(0);
+    layout->addWidget(this->widget_icon);
+    layout->addWidget(this->label_assetName);
+    layout->setContentsMargins(5, 5, 5, 5);
 }
 
 AssetFileWidget::~AssetFileWidget()

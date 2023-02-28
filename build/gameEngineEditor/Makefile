@@ -2073,6 +2073,54 @@ src/ProjectParser.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s
 .PHONY : src/ProjectParser.cpp.s
 
+src/WordWrapLabel.obj: src/WordWrapLabel.cpp.obj
+.PHONY : src/WordWrapLabel.obj
+
+# target to build an object file
+src/WordWrapLabel.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj
+.PHONY : src/WordWrapLabel.cpp.obj
+
+src/WordWrapLabel.i: src/WordWrapLabel.cpp.i
+.PHONY : src/WordWrapLabel.i
+
+# target to preprocess a source file
+src/WordWrapLabel.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.i
+.PHONY : src/WordWrapLabel.cpp.i
+
+src/WordWrapLabel.s: src/WordWrapLabel.cpp.s
+.PHONY : src/WordWrapLabel.s
+
+# target to generate assembly for a file
+src/WordWrapLabel.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.s
+.PHONY : src/WordWrapLabel.cpp.s
+
+src/flowlayout.obj: src/flowlayout.cpp.obj
+.PHONY : src/flowlayout.obj
+
+# target to build an object file
+src/flowlayout.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.obj
+.PHONY : src/flowlayout.cpp.obj
+
+src/flowlayout.i: src/flowlayout.cpp.i
+.PHONY : src/flowlayout.i
+
+# target to preprocess a source file
+src/flowlayout.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.i
+.PHONY : src/flowlayout.cpp.i
+
+src/flowlayout.s: src/flowlayout.cpp.s
+.PHONY : src/flowlayout.s
+
+# target to generate assembly for a file
+src/flowlayout.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.s
+.PHONY : src/flowlayout.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2323,6 +2371,12 @@ help:
 	@echo ... src/ProjectParser.obj
 	@echo ... src/ProjectParser.i
 	@echo ... src/ProjectParser.s
+	@echo ... src/WordWrapLabel.obj
+	@echo ... src/WordWrapLabel.i
+	@echo ... src/WordWrapLabel.s
+	@echo ... src/flowlayout.obj
+	@echo ... src/flowlayout.i
+	@echo ... src/flowlayout.s
 .PHONY : help
 
 

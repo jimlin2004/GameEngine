@@ -12,12 +12,12 @@
 namespace GameEngine
 {
     template<class T>
-    T max(T a, T b)
+    const T& max(const T& a, const T& b)
     {
         return (a < b) ? b : a;
     }
     template<class T, class... Args>
-    T max(T a, Args... args)
+    const T& max(const T& a, Args... args)
     {
         return max(a, max(args...));
     }

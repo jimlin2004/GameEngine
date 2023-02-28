@@ -493,6 +493,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonObject \
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
   D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
@@ -637,7 +638,9 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
@@ -667,8 +670,11 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h \
+  D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
+  D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \
   D:/code/cpp/gameGngine/include/Camera.h \
   D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
+  D:/code/cpp/gameGngine/include/GELib.h \
   D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
   D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameGngine/include/GameObject.h \

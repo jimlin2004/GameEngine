@@ -12,6 +12,7 @@ public:
     ~ProjectParser();
 
     void load(const char* const filePath);
+    inline std::string getProjectDirname() const { return projectDirname; }
 private:
     JsonParser* jsonParser;
     std::string projectDirname;

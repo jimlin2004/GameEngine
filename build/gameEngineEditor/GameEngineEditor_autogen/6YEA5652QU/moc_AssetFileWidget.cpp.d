@@ -363,4 +363,6 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+  D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
+  D:/code/cpp/gameGngine/include/GELib.h

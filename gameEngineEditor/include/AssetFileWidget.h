@@ -2,10 +2,13 @@
 #define ASSET_FILE_WIDGET_H
 
 #include <QWidget>
-#include <QLabel>
 #include <QStyleOption>
 #include <QPainter>
 #include <QVBoxLayout>
+#include <string>
+
+#include "WordWrapLabel.h"
+#include "GELib.h"
 
 class AssetFileWidget: public QWidget
 {
@@ -13,12 +16,13 @@ class AssetFileWidget: public QWidget
 public:
     AssetFileWidget(QWidget *parent = nullptr);
     AssetFileWidget(const QString& assetName, QWidget *parent = nullptr);
+    AssetFileWidget(const std::string& assetName, QWidget *parent = nullptr);
     ~AssetFileWidget();
 protected:
     void paintEvent(QPaintEvent* event);
 private:
     QWidget* widget_icon;
-    QLabel* label_assetName;
+    WordWrapLabel* label_assetName;
 };
 
 #endif

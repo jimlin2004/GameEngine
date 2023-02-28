@@ -17,6 +17,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QScrollArea>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 #include "EditorOpenGLWidget.h"
@@ -46,7 +47,9 @@ public:
     QWidget *dockWidgetContentsBottom;
     QGridLayout *gridLayout_2;
     QWidget *wrapWidgetBottom;
-    QGridLayout *gridLayout_fileSystemPanel;
+    QGridLayout *gridLayout_5;
+    QScrollArea *scrollArea;
+    QWidget *scrollAreaWidgetContents;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -125,7 +128,7 @@ public:
         MainWindow->addDockWidget(Qt::RightDockWidgetArea, dockWidgetRight);
         dockWidgetBottom = new QDockWidget(MainWindow);
         dockWidgetBottom->setObjectName("dockWidgetBottom");
-        dockWidgetBottom->setMinimumSize(QSize(79, 43));
+        dockWidgetBottom->setMinimumSize(QSize(79, 94));
         dockWidgetBottom->setStyleSheet(QString::fromUtf8(""));
         dockWidgetContentsBottom = new QWidget();
         dockWidgetContentsBottom->setObjectName("dockWidgetContentsBottom");
@@ -140,10 +143,20 @@ public:
         wrapWidgetBottom->setSizePolicy(sizePolicy);
         wrapWidgetBottom->setAutoFillBackground(false);
         wrapWidgetBottom->setStyleSheet(QString::fromUtf8(""));
-        gridLayout_fileSystemPanel = new QGridLayout(wrapWidgetBottom);
-        gridLayout_fileSystemPanel->setSpacing(0);
-        gridLayout_fileSystemPanel->setObjectName("gridLayout_fileSystemPanel");
-        gridLayout_fileSystemPanel->setContentsMargins(0, 0, 0, 0);
+        gridLayout_5 = new QGridLayout(wrapWidgetBottom);
+        gridLayout_5->setSpacing(0);
+        gridLayout_5->setObjectName("gridLayout_5");
+        gridLayout_5->setContentsMargins(0, 0, 0, 0);
+        scrollArea = new QScrollArea(wrapWidgetBottom);
+        scrollArea->setObjectName("scrollArea");
+        scrollArea->setWidgetResizable(true);
+        scrollAreaWidgetContents = new QWidget();
+        scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 798, 87));
+        scrollArea->setWidget(scrollAreaWidgetContents);
+
+        gridLayout_5->addWidget(scrollArea, 0, 0, 1, 1);
+
 
         gridLayout_2->addWidget(wrapWidgetBottom, 0, 0, 1, 1);
 

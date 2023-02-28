@@ -5,6 +5,8 @@
 #include <QFile>
 #include <QFileDialog>
 #include <QDebug>
+#include <filesystem>
+#include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
 #include "AssetFileWidget.h"
@@ -26,6 +28,7 @@ private:
 
 private:
     ProjectParser* projectParser;
+    FlowLayout* flowLayout_fileSystemPanel;
 
     void resetFileSystemPanel();
 

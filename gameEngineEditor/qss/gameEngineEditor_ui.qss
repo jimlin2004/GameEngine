@@ -1,3 +1,7 @@
+* {
+    font-size: 12px;
+}
+
 #MainWindow {
     background-color: #404040;
 }
@@ -41,16 +45,29 @@
     background-color: #15181b;
 }
 
-#dockWidgetBottom #wrapWidgetBottom AssetFileWidget {
-    border: 1px solid #ffffff;
-}
-
-#dockWidgetBottom #wrapWidgetBottom AssetFileWidget #icon {
-    background-color: #aaaaaa;
-}
-
-#dockWidgetBottom #wrapWidgetBottom AssetFileWidget QLabel {
+#dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents{
     color: #ffffff;
+    background-color: #15181b;
+}
+
+#dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget:hover {
+    background-color: #e22;
+}
+
+#dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget #icon {
+    /* background-color: #aaaaaa; */
+    border-image: url(./assets/texture/Food.png);
+    background-repeat: no-repeat;
+    /* background-image: url(./assets/texture/Food.png); */
+    margin-left: -16px;
+    margin-top: -16px;
+    /* background-position: 16px 16px; */
+    background-clip: margin;
+}
+
+#dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget QLabel {
+    color: #ffffff;
+    text-align: center;
 }
 
 #dockWidgetLeft {
