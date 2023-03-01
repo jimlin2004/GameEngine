@@ -6,14 +6,11 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
     , projectParser(new ProjectParser())
     , flowLayout_fileSystemPanel(new FlowLayout())
+    , fileSpriteSheet(new QPixmap("./assets/texture/filesystem.png"))
 {
     ui->setupUi(this);
     
     this->ui->scrollAreaWidgetContents->setLayout(this->flowLayout_fileSystemPanel);
-
-    // this->resetFileSystemPanel();
-
-    // this->ui->wrapWidgetBottom->resize(this->ui->wrapWidgetBottom->size().width(), 60);
     
     QFile qssFile("./qss/gameEngineEditor_ui.qss");
     qssFile.open(QFile::ReadOnly);
@@ -35,20 +32,22 @@ MainWindow::~MainWindow()
 
 void MainWindow::resetFileSystemPanel()
 {
-    // this->flowLayout_fileSystemPanel->addWidget(new AssetFileWidget("Test"));
-    // this->flowLayout_fileSystemPanel->addWidget(new AssetFileWidget("Test"));
-    // this->flowLayout_fileSystemPanel->addWidget(new AssetFileWidget("Test"));
-    // this->flowLayout_fileSystemPanel->addWidget(new AssetFileWidget("Test"));
-    std::filesystem::path entryPath(this->projectParser->getProjectDirname());
-    if (!std::filesystem::exists(entryPath))
+    // std::filesystem::path entryPath();
+    if (!std::filesystem::exists(this->currentPath))
         return;
-    std::filesystem::directory_entry entry(entryPath);
-    std::filesystem::directory_iterator fileList(entryPath);
+    std::filesystem::directory_entry entry(this->currentPath);
+    std::filesystem::directory_iterator fileList(this->currentPath);
     std::string filename;
+    AssetFileWidget* assetFileWidget;
     for (auto& file: fileList)
     {
         filename = file.path().filename().u8string();
-        this->flowLayout_fileSystemPanel->addWidget(new AssetFileWidget(filename));
+        if (std::filesystem::is_directory(file.path()))
+            assetFileWidget = new AssetFileWidget(filename, this->fileSpriteSheet, FileType::Fold);
+        else
+            assetFileWidget = new AssetFileWidget(filename, this->fileSpriteSheet, FileType::File);
+        this->flowLayout_fileSystemPanel->addWidget(assetFileWidget);
+        connect(assetFileWidget, &AssetFileWidget::click, this, &MainWindow::filesystemPanel_click);
     }
 }
 
@@ -56,5 +55,14 @@ void MainWindow::openProject()
 {
     QString path = QFileDialog::getOpenFileName(this, tr("Open project"), QDir::homePath(), tr("*.gproject"));
     this->projectParser->load(path.toStdString().c_str());
+    this->currentPath = this->projectParser->getProjectDirname();
     this->resetFileSystemPanel();
+}
+
+void MainWindow::filesystemPanel_click()
+{
+    AssetFileWidget* assetFileWidgget = qobject_cast<AssetFileWidget*>(QObject::sender());
+    this->currentPath /= assetFileWidgget->getAssetName();
+    this->resetFileSystemPanel();
+    return;
 }

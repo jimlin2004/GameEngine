@@ -5,6 +5,7 @@
 #include <QFile>
 #include <QFileDialog>
 #include <QDebug>
+#include <QPixmap>
 #include <filesystem>
 #include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
@@ -29,11 +30,14 @@ private:
 private:
     ProjectParser* projectParser;
     FlowLayout* flowLayout_fileSystemPanel;
+    QPixmap* fileSpriteSheet;
+    std::filesystem::path currentPath;
 
     void resetFileSystemPanel();
 
 private slots:
     void openProject();
+    void filesystemPanel_click();
 };
 
 #endif // MAINWINDOW_H

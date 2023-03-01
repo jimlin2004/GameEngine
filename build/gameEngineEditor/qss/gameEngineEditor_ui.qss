@@ -56,13 +56,13 @@
 
 #dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget #icon {
     /* background-color: #aaaaaa; */
-    border-image: url(./assets/texture/Food.png);
+    /* border-image: url(./assets/texture/Food.png);
     background-repeat: no-repeat;
     /* background-image: url(./assets/texture/Food.png); */
-    margin-left: -16px;
-    margin-top: -16px;
+    /* margin-left: -16px; */
+    /* margin-top: -16px; */
     /* background-position: 16px 16px; */
-    background-clip: margin;
+    /* background-clip: margin; */
 }
 
 #dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget QLabel {

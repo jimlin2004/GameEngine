@@ -221,6 +221,11 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   C:/Program\ Files/msys64/mingw64/include/wctype.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
   D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
@@ -244,6 +249,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdatastream.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qflags.h \
@@ -267,6 +273,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qmetacontainer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qmetatype.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnumeric.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qobject_impl.h \
@@ -274,6 +281,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qpair.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qpoint.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qprocessordetection.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qrefcount.h \
@@ -309,17 +317,23 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
   D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qcolor.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfont.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontmetrics.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qimage.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qkeysequence.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpaintdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
@@ -328,10 +342,12 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpixelformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpolygon.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qregion.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgb.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
@@ -339,6 +355,8 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \

@@ -327,11 +327,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qregularexpression.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qslider.h \
@@ -340,7 +347,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
  D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
@@ -352,13 +358,31 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
  D:/code/cpp/gameGngine/include/GELib.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
@@ -415,7 +439,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
- D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h \
