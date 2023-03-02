@@ -33,11 +33,14 @@ private:
     QPixmap* fileSpriteSheet;
     std::filesystem::path currentPath;
 
+    /*重新刷新File system panel*/
     void resetFileSystemPanel();
 
 private slots:
     void openProject();
     void filesystemPanel_click();
+    /*用於clear all item in flowLayout*/
+    void clearFileSystemPanel();
 };
 
 #endif // MAINWINDOW_H

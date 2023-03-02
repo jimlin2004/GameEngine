@@ -88,7 +88,8 @@ void AssetFileWidget::paintEvent(QPaintEvent* event)
 
 void AssetFileWidget::mousePressEvent(QMouseEvent *event)
 {
-    emit click();
+    if (this->fileType == FileType::Fold)
+        emit click();
 }
 
 const std::string AssetFileWidget::getAssetName()

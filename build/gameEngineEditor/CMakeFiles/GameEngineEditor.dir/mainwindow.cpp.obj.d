@@ -888,6 +888,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdockwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
@@ -898,4 +902,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qscrollarea.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStatusBar \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qstatusbar.h
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstatusbar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTabWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout

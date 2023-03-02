@@ -166,3 +166,12 @@
     Todo list
         -繼續完成file system
     存檔紀錄version1.0
+2023/03/02
+    1. 新增File system panel 的 clear
+    2. 將Assets放入TabWidget(同時與Console放一起)
+    3. 新增Console分頁
+    Todo list
+        -File system panel的麵包屑(BreadCrumbs)
+        -Console要利用QProcess抓取stdout、stderror
+        -Console的文字顏色分類
+    存檔紀錄 --version dev1.0

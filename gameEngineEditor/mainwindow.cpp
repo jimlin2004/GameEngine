@@ -22,6 +22,17 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->wrapWidgetBottom->resize(this->ui->wrapWidgetBottom->width(), 120);
     this->ui->dockWidgetContentsBottom->resize(this->ui->dockWidgetContentsBottom->width(), 120);
     this->resizeDocks({this->ui->dockWidgetBottom}, {this->ui->dockWidgetContentsBottom->height()}, Qt::Vertical);
+
+    this->ui->textBrowser->setTextColor(Qt::white);
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
+    this->ui->textBrowser->append("Test");
 }
 
 MainWindow::~MainWindow()
@@ -30,9 +41,22 @@ MainWindow::~MainWindow()
     delete this->projectParser;
 }
 
+void MainWindow::clearFileSystemPanel()
+{
+    QLayoutItem* _item;
+    QWidget* _widget;
+    while (_item = this->flowLayout_fileSystemPanel->takeAt(0))
+    {
+        _widget = _item->widget();
+        delete _widget;
+        delete _item;
+    }
+}
+
 void MainWindow::resetFileSystemPanel()
 {
-    // std::filesystem::path entryPath();
+    this->clearFileSystemPanel();
+
     if (!std::filesystem::exists(this->currentPath))
         return;
     std::filesystem::directory_entry entry(this->currentPath);

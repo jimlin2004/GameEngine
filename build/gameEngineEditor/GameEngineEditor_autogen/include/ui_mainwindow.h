@@ -14,11 +14,15 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QTextBrowser>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "EditorOpenGLWidget.h"
 
@@ -30,7 +34,7 @@ public:
     QAction *actionsave;
     QAction *actionopen;
     QWidget *centralwidget;
-    QGridLayout *gridLayout_4;
+    QGridLayout *gridLayout_6;
     EditorOpenGLWidget *widget;
     QMenuBar *menubar;
     QMenu *menuFile;
@@ -48,8 +52,15 @@ public:
     QGridLayout *gridLayout_2;
     QWidget *wrapWidgetBottom;
     QGridLayout *gridLayout_5;
+    QTabWidget *tabWidget_manager;
+    QWidget *tab_assets;
+    QGridLayout *gridLayout_4;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
+    QWidget *tab_console;
+    QVBoxLayout *verticalLayout;
+    QTextBrowser *textBrowser;
+    QLineEdit *lineEdit;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -64,15 +75,14 @@ public:
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setStyleSheet(QString::fromUtf8(""));
-        gridLayout_4 = new QGridLayout(centralwidget);
-        gridLayout_4->setSpacing(0);
-        gridLayout_4->setObjectName("gridLayout_4");
-        gridLayout_4->setContentsMargins(0, 0, 0, 0);
+        gridLayout_6 = new QGridLayout(centralwidget);
+        gridLayout_6->setObjectName("gridLayout_6");
+        gridLayout_6->setContentsMargins(0, 0, 0, 0);
         widget = new EditorOpenGLWidget(centralwidget);
         widget->setObjectName("widget");
         widget->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout_4->addWidget(widget, 0, 0, 1, 1);
+        gridLayout_6->addWidget(widget, 0, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -128,7 +138,7 @@ public:
         MainWindow->addDockWidget(Qt::RightDockWidgetArea, dockWidgetRight);
         dockWidgetBottom = new QDockWidget(MainWindow);
         dockWidgetBottom->setObjectName("dockWidgetBottom");
-        dockWidgetBottom->setMinimumSize(QSize(79, 94));
+        dockWidgetBottom->setMinimumSize(QSize(145, 167));
         dockWidgetBottom->setStyleSheet(QString::fromUtf8(""));
         dockWidgetContentsBottom = new QWidget();
         dockWidgetContentsBottom->setObjectName("dockWidgetContentsBottom");
@@ -147,15 +157,43 @@ public:
         gridLayout_5->setSpacing(0);
         gridLayout_5->setObjectName("gridLayout_5");
         gridLayout_5->setContentsMargins(0, 0, 0, 0);
-        scrollArea = new QScrollArea(wrapWidgetBottom);
+        tabWidget_manager = new QTabWidget(wrapWidgetBottom);
+        tabWidget_manager->setObjectName("tabWidget_manager");
+        tab_assets = new QWidget();
+        tab_assets->setObjectName("tab_assets");
+        gridLayout_4 = new QGridLayout(tab_assets);
+        gridLayout_4->setSpacing(0);
+        gridLayout_4->setObjectName("gridLayout_4");
+        gridLayout_4->setContentsMargins(0, 0, 0, 0);
+        scrollArea = new QScrollArea(tab_assets);
         scrollArea->setObjectName("scrollArea");
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 798, 87));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 792, 229));
         scrollArea->setWidget(scrollAreaWidgetContents);
 
-        gridLayout_5->addWidget(scrollArea, 0, 0, 1, 1);
+        gridLayout_4->addWidget(scrollArea, 0, 0, 1, 1);
+
+        tabWidget_manager->addTab(tab_assets, QString());
+        tab_console = new QWidget();
+        tab_console->setObjectName("tab_console");
+        verticalLayout = new QVBoxLayout(tab_console);
+        verticalLayout->setSpacing(0);
+        verticalLayout->setObjectName("verticalLayout");
+        textBrowser = new QTextBrowser(tab_console);
+        textBrowser->setObjectName("textBrowser");
+
+        verticalLayout->addWidget(textBrowser);
+
+        lineEdit = new QLineEdit(tab_console);
+        lineEdit->setObjectName("lineEdit");
+
+        verticalLayout->addWidget(lineEdit);
+
+        tabWidget_manager->addTab(tab_console, QString());
+
+        gridLayout_5->addWidget(tabWidget_manager, 0, 0, 1, 1);
 
 
         gridLayout_2->addWidget(wrapWidgetBottom, 0, 0, 1, 1);
@@ -169,6 +207,9 @@ public:
 
         retranslateUi(MainWindow);
 
+        tabWidget_manager->setCurrentIndex(0);
+
+
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
@@ -180,7 +221,9 @@ public:
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
-        dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Assets", nullptr));
+        dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
+        tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));
+        tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_console), QCoreApplication::translate("MainWindow", "Console", nullptr));
     } // retranslateUi
 
 };

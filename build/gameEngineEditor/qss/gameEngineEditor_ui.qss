@@ -45,6 +45,10 @@
     background-color: #15181b;
 }
 
+#dockWidgetBottom #wrapWidgetBottom QScrollArea {
+    border: none;
+}
+
 #dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents{
     color: #ffffff;
     background-color: #15181b;
@@ -54,20 +58,37 @@
     background-color: #e22;
 }
 
-#dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget #icon {
-    /* background-color: #aaaaaa; */
-    /* border-image: url(./assets/texture/Food.png);
-    background-repeat: no-repeat;
-    /* background-image: url(./assets/texture/Food.png); */
-    /* margin-left: -16px; */
-    /* margin-top: -16px; */
-    /* background-position: 16px 16px; */
-    /* background-clip: margin; */
-}
-
 #dockWidgetBottom #wrapWidgetBottom #scrollAreaWidgetContents AssetFileWidget QLabel {
     color: #ffffff;
     text-align: center;
+}
+
+#tabWidget_manager::pane {
+    border: 1px solid #404040;
+}
+
+#tabWidget_manager QTabBar::tab {
+    color: #ffffff;
+    background: #404040;
+}
+
+#tabWidget_manager QTabBar::tab:selected, QTabBar::tab:hover {
+    background: #6c757d;
+}
+
+#tabWidget_manager #tab_console #textBrowser
+{
+    background: #000000;
+    border: 1px solid #ffe600;
+}
+
+#tabWidget_manager #tab_console #lineEdit
+{
+    background: #000000;
+    color: #ffffff;
+    border-style: solid solid solid solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #ffe600 #ffe600 #ffe600 #ffe600;
 }
 
 #dockWidgetLeft {
