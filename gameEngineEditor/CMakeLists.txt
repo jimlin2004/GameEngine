@@ -42,10 +42,18 @@ add_executable(${PROJECT_NAME}
     ${THIRD_PARTY_SRC}
 )
 
-set_target_properties(${PROJECT_NAME} PROPERTIES
-    WIN32_EXECUTABLE ON
-    MACOSX_BUNDLE ON
-)
+# WIN32_EXECUTABLE 會使console消失
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    set_target_properties(${PROJECT_NAME} PROPERTIES
+        WIN32_EXECUTABLE OFF
+        MACOSX_BUNDLE ON
+    )
+elseif (CMAKE_BUILD_TYPE STREQUAL "Release")
+    set_target_properties(${PROJECT_NAME} PROPERTIES
+        WIN32_EXECUTABLE ON
+        MACOSX_BUNDLE ON
+    )
+endif ()
 
 target_include_directories(${PROJECT_NAME} PRIVATE .)
 target_include_directories(${PROJECT_NAME} PRIVATE ./include)

@@ -16,8 +16,10 @@ public:
     ~JsonParser();
 
     void load(const char* const filePath) const;
+    QJsonValue query(const QString& key) const;
 private:
     QJsonDocument* json;
+    QJsonObject* jsonRoot;
 
     void parse(QString& src) const;
 };

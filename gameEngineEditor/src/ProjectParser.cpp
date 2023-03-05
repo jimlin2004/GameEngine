@@ -15,5 +15,8 @@ void ProjectParser::load(const char* const filePath)
 {
     this->jsonParser->load(filePath);
 
-    this->projectDirname = QFileInfo(filePath).absolutePath().toStdString();
+    QFileInfo fileInfo(filePath);
+    this->projectDirname = fileInfo.absolutePath().toStdString();
+    QJsonObject projectProperty = this->jsonParser->query("Project").toObject();
+    this->projectName = projectProperty.value("Name").toString().toStdString();
 }

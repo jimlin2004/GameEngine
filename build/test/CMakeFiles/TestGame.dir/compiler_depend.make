@@ -8496,7 +8496,8 @@ test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: D:/code
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
 
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp \
-  D:/code/cpp/gameGngine/test/source/Test/TestGame.h \
+  D:/code/cpp/gameGngine/Test/source/Test/TestGame.cpp \
+  D:/code/cpp/gameGngine/Test/source/Test/TestGame.h \
   D:/code/cpp/gameGngine/include/GameEngineCore.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/GELib.h \
@@ -9042,7 +9043,8 @@ test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngin
   D:/code/cpp/gameGngine/include/Graphics.h
 
 test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameGngine/test/source/entrypoint.cpp \
-  D:/code/cpp/gameGngine/test/source/Test/TestGame.h \
+  D:/code/cpp/gameGngine/Test/source/entrypoint.cpp \
+  D:/code/cpp/gameGngine/Test/source/Test/TestGame.h \
   D:/code/cpp/gameGngine/include/GameEngineCore.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/GELib.h \
@@ -9910,6 +9912,8 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact.cpp:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h:
 
+D:/code/cpp/gameGngine/Test/source/entrypoint.cpp:
+
 D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h:
@@ -10580,6 +10584,8 @@ C:/Program\ Files/msys64/mingw64/include/namespaceapi.h:
 
 D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.inl:
 
+D:/code/cpp/gameGngine/Test/source/Test/TestGame.cpp:
+
 D:/code/cpp/gameGngine/third_party/glm/ext/matrix_clip_space.hpp:
 
 D:/code/cpp/gameGngine/third_party/glm/ext/matrix_clip_space.inl:
@@ -11020,6 +11026,6 @@ D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp:
 
 D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp:
 
-D:/code/cpp/gameGngine/test/source/Test/TestGame.h:
+D:/code/cpp/gameGngine/Test/source/Test/TestGame.h:
 
 D:/code/cpp/gameGngine/test/source/entrypoint.cpp:

@@ -495,6 +495,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
   D:/QT/6.4.2/mingw_64/include/QtCore/QList \
   D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
   D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
@@ -566,6 +567,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qpair.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qpoint.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qprocessordetection.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qrefcount.h \

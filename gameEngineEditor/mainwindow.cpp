@@ -1,6 +1,75 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
+static QTextBrowser* _textBrowserPtr;
+
+static void textBrowserSetColor(const Qt::GlobalColor color)
+{
+    _textBrowserPtr->setTextColor(color);
+}
+
+static void textBrowserInsert(const QString& text, const Qt::GlobalColor color = Qt::white)
+{
+    _textBrowserPtr->moveCursor(QTextCursor::End);
+    /*
+        改變顏色必須在 insert text之前，否則可能因為Qt在文字前的顏色
+        標記被moveCursor因此失效(未證實，但的確發生)
+    */
+    textBrowserSetColor(color);
+    _textBrowserPtr->insertPlainText(text);
+    _textBrowserPtr->moveCursor(QTextCursor::End);
+}
+
+static void logMsgToTextBrowser(QtMsgType type, Qt::GlobalColor color, const QMessageLogContext &context, const QString& msg)
+{
+    switch (type)
+    {
+    case QtDebugMsg:
+        textBrowserInsert("[Debug] " + msg, color);
+        break;
+    case QtInfoMsg:
+        textBrowserInsert("[Info] " + msg, color);
+        break;
+    case QtWarningMsg:
+        textBrowserInsert("[Warning] " + msg, color);
+        break;
+    case QtCriticalMsg:
+        textBrowserInsert("[Error] " + msg, color);
+        break;
+    case QtFatalMsg:
+        textBrowserInsert("[Fatal error] " + msg, color);
+        break;
+    default:
+        qFatal("Unknow message type\n");
+        break;
+    }
+}
+
+static void parseEditorMsg(QtMsgType type, const QMessageLogContext &context, const QString &msg)
+{
+    switch (type)
+    {
+    case QtDebugMsg:
+        logMsgToTextBrowser(type, Qt::green, context, msg);
+        break;
+    case QtInfoMsg:
+        logMsgToTextBrowser(type, Qt::white, context, msg);
+        break;
+    case QtWarningMsg:
+        logMsgToTextBrowser(type, Qt::yellow, context, msg);
+        break;
+    case QtCriticalMsg:
+        logMsgToTextBrowser(type, Qt::red, context, msg);
+        break;
+    case QtFatalMsg:
+        logMsgToTextBrowser(type, Qt::red, context, msg);
+        break;
+    default:
+        qFatal("Unknow message type\n");
+        break;
+    }
+}
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -23,16 +92,10 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->dockWidgetContentsBottom->resize(this->ui->dockWidgetContentsBottom->width(), 120);
     this->resizeDocks({this->ui->dockWidgetBottom}, {this->ui->dockWidgetContentsBottom->height()}, Qt::Vertical);
 
-    this->ui->textBrowser->setTextColor(Qt::white);
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
-    this->ui->textBrowser->append("Test");
+    connect(this->ui->lineEdit, SIGNAL(returnPressed()), this, SLOT(parseOutput()));
+    
+    _textBrowserPtr = this->ui->textBrowser;
+    qInstallMessageHandler(parseEditorMsg);
 }
 
 MainWindow::~MainWindow()
@@ -80,7 +143,10 @@ void MainWindow::openProject()
     QString path = QFileDialog::getOpenFileName(this, tr("Open project"), QDir::homePath(), tr("*.gproject"));
     this->projectParser->load(path.toStdString().c_str());
     this->currentPath = this->projectParser->getProjectDirname();
+    this->currentPath /= "content";
     this->resetFileSystemPanel();
+    qDebug("Load project success\n");
+    qDebug("Current project: %s\n", this->projectParser->getProjectName().c_str());
 }
 
 void MainWindow::filesystemPanel_click()
@@ -89,4 +155,10 @@ void MainWindow::filesystemPanel_click()
     this->currentPath /= assetFileWidgget->getAssetName();
     this->resetFileSystemPanel();
     return;
+}
+
+void MainWindow::parseOutput()
+{
+    textBrowserInsert(this->ui->lineEdit->text() + "\n");
+    this->ui->lineEdit->clear();
 }

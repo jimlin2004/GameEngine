@@ -1458,7 +1458,6 @@ gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6Widgets.a
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6OpenGL.a
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6Gui.a
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6Core.a
-gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6EntryPoint.a
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/linkLibs.rsp
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/objects1
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/link.txt

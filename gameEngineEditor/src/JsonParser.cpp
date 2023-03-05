@@ -2,6 +2,7 @@
 
 JsonParser::JsonParser()
     : json(new QJsonDocument())
+    , jsonRoot(new QJsonObject())
 {
 
 }
@@ -9,6 +10,7 @@ JsonParser::JsonParser()
 JsonParser::~JsonParser()
 {
     delete this->json;
+    delete this->jsonRoot;
 }
 
 void JsonParser::load(const char* const filePath) const
@@ -16,7 +18,7 @@ void JsonParser::load(const char* const filePath) const
     QFile file(filePath);
     if (!file.open(QFile::ReadOnly))
     {
-        qDebug("[Error] Can not open file");
+        qCritical("[Error] Can not open file at %s\n", filePath);
     }
 
     QString src = QString::fromUtf8(file.readAll());
@@ -30,6 +32,15 @@ void JsonParser::parse(QString& src) const
     QJsonParseError jsonError;
     *(this->json) = QJsonDocument::fromJson(src.toUtf8(), &jsonError);
     if (jsonError.error != QJsonParseError::NoError && this->json->isNull())
-        qDebug() << "[Error] Json file parse error: " << jsonError.error;
+    {
+        qCritical() << "[Error] Json file parse error: " << jsonError.error << "\n";
+        return;
+    }
+    *(this->jsonRoot) = this->json->object();
     return;
+}
+
+QJsonValue JsonParser::query(const QString& key) const
+{
+    return this->jsonRoot->value(key);
 }

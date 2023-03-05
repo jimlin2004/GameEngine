@@ -435,6 +435,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
  D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \

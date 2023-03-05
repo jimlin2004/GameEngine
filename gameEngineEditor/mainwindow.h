@@ -6,6 +6,7 @@
 #include <QFileDialog>
 #include <QDebug>
 #include <QPixmap>
+#include <QProcess>
 #include <filesystem>
 #include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
@@ -41,6 +42,7 @@ private slots:
     void filesystemPanel_click();
     /*用於clear all item in flowLayout*/
     void clearFileSystemPanel();
+    void parseOutput();
 };
 
 #endif // MAINWINDOW_H

@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 
+#include <QDebug>
 #include <QApplication>
 
 int main(int argc, char* argv[])
@@ -15,6 +16,9 @@ int main(int argc, char* argv[])
 
     MainWindow w;
     w.show();
+
+    qDebug("Create Editor success\n");
+    qDebug("Running environment version: %s\n", "1.0 alpha");
 
     return a.exec();
 }

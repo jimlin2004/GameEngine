@@ -376,6 +376,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
  D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
