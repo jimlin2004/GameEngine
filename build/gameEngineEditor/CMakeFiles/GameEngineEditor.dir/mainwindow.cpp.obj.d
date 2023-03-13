@@ -910,4 +910,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout

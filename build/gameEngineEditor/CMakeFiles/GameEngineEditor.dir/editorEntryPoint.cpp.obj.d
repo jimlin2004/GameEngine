@@ -873,6 +873,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
  D:/code/cpp/gameGngine/include/GELib.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \

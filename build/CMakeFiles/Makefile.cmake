@@ -227,13 +227,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake"
   "D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake"
   "D:/code/cpp/gameGngine/CMakeLists.txt"
+  "D:/code/cpp/gameGngine/Test/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
   "D:/code/cpp/gameGngine/gameEngineEditor/CMakeLists.txt"
   "D:/code/cpp/gameGngine/snake/CMakeLists.txt"
-  "D:/code/cpp/gameGngine/test/CMakeLists.txt"
   "D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake"
   )
 

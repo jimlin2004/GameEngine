@@ -429,7 +429,7 @@ TestGame_BINARY_DIR:STATIC=D:/code/cpp/gameGngine/build/test
 TestGame_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-TestGame_SOURCE_DIR:STATIC=D:/code/cpp/gameGngine/test
+TestGame_SOURCE_DIR:STATIC=D:/code/cpp/gameGngine/Test
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND

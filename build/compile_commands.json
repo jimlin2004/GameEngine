@@ -771,13 +771,13 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/test",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\source\\entrypoint.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\source\\entrypoint.cpp",
-  "file": "D:/code/cpp/gameGngine/test/source/entrypoint.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\source\\entrypoint.cpp.obj -c D:\\code\\cpp\\gameGngine\\Test\\source\\entrypoint.cpp",
+  "file": "D:/code/cpp/gameGngine/Test/source/entrypoint.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/test",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\source\\Test\\TestGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\test\\source\\Test\\TestGame.cpp",
-  "file": "D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\source\\Test\\TestGame.cpp.obj -c D:\\code\\cpp\\gameGngine\\Test\\source\\Test\\TestGame.cpp",
+  "file": "D:/code/cpp/gameGngine/Test/source/Test/TestGame.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/test",

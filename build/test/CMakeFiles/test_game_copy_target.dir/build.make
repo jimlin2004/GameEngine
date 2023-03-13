@@ -90,6 +90,6 @@ test/CMakeFiles/test_game_copy_target.dir/clean:
 .PHONY : test/CMakeFiles/test_game_copy_target.dir/clean
 
 test/CMakeFiles/test_game_copy_target.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameGngine D:\code\cpp\gameGngine\test D:\code\cpp\gameGngine\build D:\code\cpp\gameGngine\build\test D:\code\cpp\gameGngine\build\test\CMakeFiles\test_game_copy_target.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameGngine D:\code\cpp\gameGngine\Test D:\code\cpp\gameGngine\build D:\code\cpp\gameGngine\build\test D:\code\cpp\gameGngine\build\test\CMakeFiles\test_game_copy_target.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test_game_copy_target.dir/depend
 

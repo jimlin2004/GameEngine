@@ -80,6 +80,7 @@
 {
     background: #000000;
     border: 1px solid #ffe600;
+    font-family: "Cascadia Mono";
 }
 
 #tabWidget_manager #tab_console #lineEdit
@@ -89,6 +90,7 @@
     border-style: solid solid solid solid;
     border-width: 0px 1px 1px 1px;
     border-color: #ffe600 #ffe600 #ffe600 #ffe600;
+    font-family: "Cascadia Mono";
 }
 
 #dockWidgetLeft {

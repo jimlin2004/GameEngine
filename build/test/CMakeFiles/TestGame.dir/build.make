@@ -70,33 +70,33 @@ include test/CMakeFiles/TestGame.dir/flags.make
 
 test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: test/CMakeFiles/TestGame.dir/flags.make
 test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
-test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameGngine/test/source/entrypoint.cpp
+test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameGngine/Test/source/entrypoint.cpp
 test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj"
-	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj -MF CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj.d -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj -c D:\code\cpp\gameGngine\test\source\entrypoint.cpp
+	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj -MF CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj.d -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj -c D:\code\cpp\gameGngine\Test\source\entrypoint.cpp
 
 test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGame.dir/source/entrypoint.cpp.i"
-	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\test\source\entrypoint.cpp > CMakeFiles\TestGame.dir\source\entrypoint.cpp.i
+	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\Test\source\entrypoint.cpp > CMakeFiles\TestGame.dir\source\entrypoint.cpp.i
 
 test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/source/entrypoint.cpp.s"
-	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\test\source\entrypoint.cpp -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.s
+	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\Test\source\entrypoint.cpp -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.s
 
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: test/CMakeFiles/TestGame.dir/flags.make
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
-test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp
+test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngine/Test/source/Test/TestGame.cpp
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj"
-	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj -MF CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.obj.d -o CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.obj -c D:\code\cpp\gameGngine\test\source\Test\TestGame.cpp
+	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj -MF CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.obj.d -o CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.obj -c D:\code\cpp\gameGngine\Test\source\Test\TestGame.cpp
 
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.i"
-	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\test\source\Test\TestGame.cpp > CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.i
+	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\Test\source\Test\TestGame.cpp > CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.i
 
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.s"
-	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\test\source\Test\TestGame.cpp -o CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.s
+	cd /d D:\code\cpp\gameGngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\Test\source\Test\TestGame.cpp -o CMakeFiles\TestGame.dir\source\Test\TestGame.cpp.s
 
 test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.obj: test/CMakeFiles/TestGame.dir/flags.make
 test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
@@ -1366,6 +1366,6 @@ test/CMakeFiles/TestGame.dir/clean:
 .PHONY : test/CMakeFiles/TestGame.dir/clean
 
 test/CMakeFiles/TestGame.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameGngine D:\code\cpp\gameGngine\test D:\code\cpp\gameGngine\build D:\code\cpp\gameGngine\build\test D:\code\cpp\gameGngine\build\test\CMakeFiles\TestGame.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameGngine D:\code\cpp\gameGngine\Test D:\code\cpp\gameGngine\build D:\code\cpp\gameGngine\build\test D:\code\cpp\gameGngine\build\test\CMakeFiles\TestGame.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/TestGame.dir/depend
 

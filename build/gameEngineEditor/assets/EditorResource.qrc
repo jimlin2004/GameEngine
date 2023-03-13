@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="complieIcon">
+    <file>texture/complie.png</file>
+  </qresource>
+</RCC>

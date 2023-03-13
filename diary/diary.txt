@@ -183,3 +183,9 @@
         -Asset解析
         -遊戲實際關卡編輯器製作
     存檔紀錄 --version dev1.0
+2023/03/13
+    1. 將Console的字體換成Cascadia Mono
+    2. GameEngine Editor新增toolbar
+    Todo list
+        -toolbar的icon(需要qrc)
+    存檔紀錄 --version dev1.0

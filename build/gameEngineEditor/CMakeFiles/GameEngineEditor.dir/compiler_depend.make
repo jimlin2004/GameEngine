@@ -9708,6 +9708,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
   D:/code/cpp/gameGngine/include/GELib.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
@@ -10628,6 +10630,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj: D:/code/cpp/gameGngine/gameEngineEditor/src/AssetFileWidget.cpp \
@@ -14568,6 +14572,8 @@ C:/Program\ Files/msys64/mingw64/include/assert.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h:
 
+D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdlib:
@@ -14608,17 +14614,17 @@ C:/Program\ Files/msys64/mingw64/include/interlockedapi.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qtcoreexports.h:
 
+D:/QT/6.4.2/mingw_64/include/QtCore/qprocessordetection.h:
+
+D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_settings.h:
+
 D:/QT/6.4.2/mingw_64/include/QtCore/qobjectcleanuphandler.h:
+
+D:/code/cpp/gameGngine/gameEngineEditor/src/ProjectParser.cpp:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h:
 
 C:/Program\ Files/msys64/mingw64/include/windef.h:
-
-D:/code/cpp/gameGngine/gameEngineEditor/src/ProjectParser.cpp:
-
-D:/QT/6.4.2/mingw_64/include/QtCore/qprocessordetection.h:
-
-D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_settings.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h:
 
@@ -14674,8 +14680,6 @@ D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qlogging.h:
 
-D:/code/cpp/gameGngine/gameEngineEditor/src/flowlayout.cpp:
-
 D:/QT/6.4.2/mingw_64/include/QtCore/qflags.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qcompare_impl.h:
@@ -14690,13 +14694,13 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ia32i
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h:
 
-D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolormap.h:
+C:/Program\ Files/msys64/mingw64/include/mciapi.h:
 
-D:/QT/6.4.2/mingw_64/include/QtCore/qbasicatomic.h:
+D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolormap.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QtWidgets:
 
-C:/Program\ Files/msys64/mingw64/include/mciapi.h:
+D:/QT/6.4.2/mingw_64/include/QtCore/qbasicatomic.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qxpfunctional.h:
 
@@ -16290,6 +16294,8 @@ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_rope.h:
 
 D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp:
 
+D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h:
+
 D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h:
@@ -16320,11 +16326,17 @@ D:/QT/6.4.2/mingw_64/include/QtCore/qlibrary.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qstatusbar.h:
 
+D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar:
+
+D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h:
+
 D:/QT/6.4.2/mingw_64/include/QtGui/qpageranges.h:
 
 D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp:
 
 D:/code/cpp/gameGngine/gameEngineEditor/src/WordWrapLabel.cpp:
+
+D:/code/cpp/gameGngine/gameEngineEditor/src/flowlayout.cpp:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QtWidgetsDepends:
 
@@ -16508,8 +16520,6 @@ D:/QT/6.4.2/mingw_64/include/QtGui/qabstracttextdocumentlayout.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qglyphrun.h:
 
-D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h:
-
 D:/QT/6.4.2/mingw_64/include/QtGui/qaccessible.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qaccessible_base.h:
@@ -16671,8 +16681,6 @@ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleditemdelegate.h:
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qstylefactory.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qtablewidget.h:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qtooltip.h:
 

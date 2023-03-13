@@ -1,6 +1,6 @@
 test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: \
- D:\code\cpp\gameGngine\test\source\Test\TestGame.cpp \
- D:\code\cpp\gameGngine\test\source\Test\TestGame.h \
+ D:\code\cpp\gameGngine\Test\source\Test\TestGame.cpp \
+ D:\code\cpp\gameGngine\Test\source\Test\TestGame.h \
  D:/code/cpp/gameGngine/include/GameEngineCore.h \
  D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/GELib.h \

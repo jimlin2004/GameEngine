@@ -251,7 +251,7 @@
                  <x>0</x>
                  <y>0</y>
                  <width>792</width>
-                 <height>229</height>
+                 <height>114</height>
                 </rect>
                </property>
               </widget>
@@ -283,6 +283,18 @@
     </layout>
    </widget>
   </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actioncompile"/>
+  </widget>
   <action name="actionsave">
    <property name="text">
     <string>save</string>
@@ -291,6 +303,15 @@
   <action name="actionopen">
    <property name="text">
     <string>open</string>
+   </property>
+  </action>
+  <action name="actioncompile">
+   <property name="icon">
+    <iconset resource="../build/gameEngineEditor/assets/EditorResource.qrc">
+     <normaloff>:/complieIcon/texture/complie.png</normaloff>:/complieIcon/texture/complie.png</iconset>
+   </property>
+   <property name="text">
+    <string>compile</string>
    </property>
   </action>
  </widget>
@@ -302,6 +323,8 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="../build/gameEngineEditor/assets/EditorResource.qrc"/>
+ </resources>
  <connections/>
 </ui>

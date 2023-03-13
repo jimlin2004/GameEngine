@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 
+#include <QFontDatabase>
 #include <QDebug>
 #include <QApplication>
 
@@ -13,6 +14,8 @@ int main(int argc, char* argv[])
     format.setVersion(4, 0);
     format.setProfile(QSurfaceFormat::CoreProfile);
     QSurfaceFormat::setDefaultFormat(format);
+
+    QFontDatabase::addApplicationFont("assets/font/CascadiaMono.ttf");
 
     MainWindow w;
     w.show();

@@ -8495,8 +8495,7 @@ test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: D:/code
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h
 
-test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp \
-  D:/code/cpp/gameGngine/Test/source/Test/TestGame.cpp \
+test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngine/Test/source/Test/TestGame.cpp \
   D:/code/cpp/gameGngine/Test/source/Test/TestGame.h \
   D:/code/cpp/gameGngine/include/GameEngineCore.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -9042,8 +9041,7 @@ test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj: D:/code/cpp/gameGngin
   D:/code/cpp/gameGngine/include/ActorComponent/Mesh/Mesh.h \
   D:/code/cpp/gameGngine/include/Graphics.h
 
-test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameGngine/test/source/entrypoint.cpp \
-  D:/code/cpp/gameGngine/Test/source/entrypoint.cpp \
+test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameGngine/Test/source/entrypoint.cpp \
   D:/code/cpp/gameGngine/Test/source/Test/TestGame.h \
   D:/code/cpp/gameGngine/include/GameEngineCore.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -11024,8 +11022,4 @@ D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_rope.h:
 
 D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp:
 
-D:/code/cpp/gameGngine/test/source/Test/TestGame.cpp:
-
 D:/code/cpp/gameGngine/Test/source/Test/TestGame.h:
-
-D:/code/cpp/gameGngine/test/source/entrypoint.cpp:
