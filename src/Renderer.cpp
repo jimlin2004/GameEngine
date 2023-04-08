@@ -147,13 +147,13 @@ void GameEngine::Renderer::init()
 void GameEngine::Renderer::begin()
 {
     rendererData.quadShader->bind();
-    rendererData.quadShader->setUniformMat4f("u_MVP", GameEngine::_currentCamera->getProjectionMatrix());
+    rendererData.quadShader->setUniformMat4f("u_MVP", GameEngine::cameraController->getCamera()->getViewProjectionMatrix());
     rendererData.quadIndexCount = 0;
     rendererData.quadVertexBufferPtr = rendererData.quadVertexBufferBase;
     rendererData.textureSlotIndex = 1;
 
     rendererData.lineShader->bind();
-    rendererData.lineShader->setUniformMat4f("u_MVP", GameEngine::_currentCamera->getProjectionMatrix());
+    rendererData.lineShader->setUniformMat4f("u_MVP", GameEngine::cameraController->getCamera()->getViewProjectionMatrix());
     rendererData.lineVertexCount = 0;
     rendererData.lineVertexBufferPtr = rendererData.lineVertexBufferBase;
 }

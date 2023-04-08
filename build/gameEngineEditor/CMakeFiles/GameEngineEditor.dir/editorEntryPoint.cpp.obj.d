@@ -378,6 +378,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
  D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
@@ -637,6 +640,27 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/mcx.h \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
@@ -798,6 +822,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/CameraController.h \
  D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
@@ -851,26 +876,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
- D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QList \
- D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
- D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
- D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
- D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
- D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
  D:/code/cpp/gameGngine/include/GELib.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase \

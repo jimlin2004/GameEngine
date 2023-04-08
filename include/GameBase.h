@@ -40,6 +40,7 @@ namespace GameEngine
         virtual bool initGL();
         void init();
         virtual void update(float deltaTime);
+        void render();
         void gameEventHandle();
         virtual void begin();
         virtual void logBuildInfo();

@@ -30,5 +30,5 @@ namespace GameEngine
     GameEngineAPI* GEngine = new GameEngineAPI();
     // glm::mat4 PROJECTION_MATRIX = glm::ortho(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);
     //在GameBase會修改(隨GameBase->screenWidth、GameBase->height改變)
-    Camera* _currentCamera = new Camera();
+    CameraController* cameraController = new CameraController(new Camera());
 }

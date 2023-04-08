@@ -34,7 +34,7 @@
      <number>0</number>
     </property>
     <item row="0" column="0">
-     <widget class="EditorOpenGLWidget" name="widget" native="true">
+     <widget class="EditorOpenGLWidget" name="openglWidget" native="true">
       <property name="styleSheet">
        <string notr="true"/>
       </property>
@@ -144,7 +144,22 @@
       <number>0</number>
      </property>
      <item row="0" column="0">
-      <widget class="QWidget" name="wrapWidgetRight" native="true"/>
+      <widget class="QWidget" name="wrapWidgetRight" native="true">
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <widget class="QTreeWidget" name="treeWidget">
+          <attribute name="headerDefaultSectionSize">
+           <number>60</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string notr="true">1</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -251,7 +266,7 @@
                  <x>0</x>
                  <y>0</y>
                  <width>792</width>
-                 <height>114</height>
+                 <height>229</height>
                 </rect>
                </property>
               </widget>

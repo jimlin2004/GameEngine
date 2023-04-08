@@ -92,10 +92,17 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->dockWidgetContentsBottom->resize(this->ui->dockWidgetContentsBottom->width(), 120);
     this->resizeDocks({this->ui->dockWidgetBottom}, {this->ui->dockWidgetContentsBottom->height()}, Qt::Vertical);
 
+    this->ui->dockWidgetContentsRight->resize(100, this->ui->dockWidgetRight->height());
+    this->resizeDocks({this->ui->dockWidgetRight}, {this->ui->dockWidgetRight->width()}, Qt::Horizontal);
+
     connect(this->ui->lineEdit, SIGNAL(returnPressed()), this, SLOT(parseOutput()));
     
     _textBrowserPtr = this->ui->textBrowser;
     qInstallMessageHandler(parseEditorMsg);
+
+    // QTimer* timer = new QTimer(this);
+    // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
+    // timer->start(41); //24fps
 }
 
 MainWindow::~MainWindow()

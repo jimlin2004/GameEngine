@@ -437,6 +437,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
  D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
@@ -690,6 +693,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  C:/PROGRA~1/msys64/mingw64/include/mcx.h \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
@@ -851,6 +855,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/CameraController.h \
  D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \

@@ -451,6 +451,54 @@ __/src/Camera.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/Camera.cpp.s
 .PHONY : __/src/Camera.cpp.s
 
+__/src/CameraController.obj: __/src/CameraController.cpp.obj
+.PHONY : __/src/CameraController.obj
+
+# target to build an object file
+__/src/CameraController.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj
+.PHONY : __/src/CameraController.cpp.obj
+
+__/src/CameraController.i: __/src/CameraController.cpp.i
+.PHONY : __/src/CameraController.i
+
+# target to preprocess a source file
+__/src/CameraController.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.i
+.PHONY : __/src/CameraController.cpp.i
+
+__/src/CameraController.s: __/src/CameraController.cpp.s
+.PHONY : __/src/CameraController.s
+
+# target to generate assembly for a file
+__/src/CameraController.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.s
+.PHONY : __/src/CameraController.cpp.s
+
+__/src/DataStruct/SceneGraph/SceneGraph.obj: __/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.obj
+
+# target to build an object file
+__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+
+__/src/DataStruct/SceneGraph/SceneGraph.i: __/src/DataStruct/SceneGraph/SceneGraph.cpp.i
+.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.i
+
+# target to preprocess a source file
+__/src/DataStruct/SceneGraph/SceneGraph.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.i
+.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.cpp.i
+
+__/src/DataStruct/SceneGraph/SceneGraph.s: __/src/DataStruct/SceneGraph/SceneGraph.cpp.s
+.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.s
+
+# target to generate assembly for a file
+__/src/DataStruct/SceneGraph/SceneGraph.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.s
+.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.cpp.s
+
 __/src/DataStruct/Vector/Vector.obj: __/src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : __/src/DataStruct/Vector/Vector.obj
 
@@ -738,6 +786,30 @@ __/src/Renderer.s: __/src/Renderer.cpp.s
 __/src/Renderer.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.s
 .PHONY : __/src/Renderer.cpp.s
+
+__/src/Scene.obj: __/src/Scene.cpp.obj
+.PHONY : __/src/Scene.obj
+
+# target to build an object file
+__/src/Scene.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj
+.PHONY : __/src/Scene.cpp.obj
+
+__/src/Scene.i: __/src/Scene.cpp.i
+.PHONY : __/src/Scene.i
+
+# target to preprocess a source file
+__/src/Scene.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.i
+.PHONY : __/src/Scene.cpp.i
+
+__/src/Scene.s: __/src/Scene.cpp.s
+.PHONY : __/src/Scene.s
+
+# target to generate assembly for a file
+__/src/Scene.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.s
+.PHONY : __/src/Scene.cpp.s
 
 __/src/Shader.obj: __/src/Shader.cpp.obj
 .PHONY : __/src/Shader.obj
@@ -2131,6 +2203,12 @@ help:
 	@echo ... __/src/Camera.obj
 	@echo ... __/src/Camera.i
 	@echo ... __/src/Camera.s
+	@echo ... __/src/CameraController.obj
+	@echo ... __/src/CameraController.i
+	@echo ... __/src/CameraController.s
+	@echo ... __/src/DataStruct/SceneGraph/SceneGraph.obj
+	@echo ... __/src/DataStruct/SceneGraph/SceneGraph.i
+	@echo ... __/src/DataStruct/SceneGraph/SceneGraph.s
 	@echo ... __/src/DataStruct/Vector/Vector.obj
 	@echo ... __/src/DataStruct/Vector/Vector.i
 	@echo ... __/src/DataStruct/Vector/Vector.s
@@ -2167,6 +2245,9 @@ help:
 	@echo ... __/src/Renderer.obj
 	@echo ... __/src/Renderer.i
 	@echo ... __/src/Renderer.s
+	@echo ... __/src/Scene.obj
+	@echo ... __/src/Scene.i
+	@echo ... __/src/Scene.s
 	@echo ... __/src/Shader.obj
 	@echo ... __/src/Shader.i
 	@echo ... __/src/Shader.s

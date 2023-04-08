@@ -470,6 +470,12 @@
 			null
 		],
 		[ "D:/code/cpp/gameGngine/src/Camera.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/CameraController.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp",
+			"MU",
+			null
+		],
 		[ "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/EventSystem.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/FSM.cpp", "MU", null ],
@@ -489,6 +495,7 @@
 		[ "D:/code/cpp/gameGngine/src/Graphics.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/IndexBuffer.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/Renderer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameGngine/src/Scene.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/Shader.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/ShaderManager.cpp", "MU", null ],
 		[ "D:/code/cpp/gameGngine/src/SubTexture.cpp", "MU", null ],

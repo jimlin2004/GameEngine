@@ -353,6 +353,7 @@ snake/CMakeFiles/Snake.dir/Food.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/CameraController.h \
  D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/GameBase.h \
  D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \

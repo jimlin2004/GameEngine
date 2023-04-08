@@ -36,6 +36,16 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\CameraController.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\CameraController.cpp",
+  "file": "D:/code/cpp/gameGngine/src/CameraController.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp",
+  "file": "D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp"
 },
@@ -93,6 +103,11 @@
   "directory": "D:/code/cpp/gameGngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Renderer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Renderer.cpp",
   "file": "D:/code/cpp/gameGngine/src/Renderer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Scene.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Scene.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Scene.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build",
@@ -436,6 +451,16 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\CameraController.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\CameraController.cpp",
+  "file": "D:/code/cpp/gameGngine/src/CameraController.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp",
+  "file": "D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp"
 },
@@ -493,6 +518,11 @@
   "directory": "D:/code/cpp/gameGngine/build/snake",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Renderer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Renderer.cpp",
   "file": "D:/code/cpp/gameGngine/src/Renderer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/snake",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Snake.dir/includes_CXX.rsp -g -o CMakeFiles\\Snake.dir\\__\\src\\Scene.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Scene.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Scene.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/snake",
@@ -811,6 +841,16 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/test",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\CameraController.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\CameraController.cpp",
+  "file": "D:/code/cpp/gameGngine/src/CameraController.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/test",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp",
+  "file": "D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/test",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp"
 },
@@ -868,6 +908,11 @@
   "directory": "D:/code/cpp/gameGngine/build/test",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\Renderer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Renderer.cpp",
   "file": "D:/code/cpp/gameGngine/src/Renderer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/test",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\Scene.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Scene.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Scene.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/test",
@@ -1221,6 +1266,16 @@
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\CameraController.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\CameraController.cpp",
+  "file": "D:/code/cpp/gameGngine/src/CameraController.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\SceneGraph\\SceneGraph.cpp",
+  "file": "D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp"
 },
@@ -1273,6 +1328,11 @@
   "directory": "D:/code/cpp/gameGngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\Renderer.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Renderer.cpp",
   "file": "D:/code/cpp/gameGngine/src/Renderer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameGngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\Scene.cpp.obj -c D:\\code\\cpp\\gameGngine\\src\\Scene.cpp",
+  "file": "D:/code/cpp/gameGngine/src/Scene.cpp"
 },
 {
   "directory": "D:/code/cpp/gameGngine/build/gameEngineEditor",

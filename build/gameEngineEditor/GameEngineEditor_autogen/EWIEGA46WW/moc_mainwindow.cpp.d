@@ -499,6 +499,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
   D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
@@ -508,6 +509,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qatomic.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbindingstorage.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbytearray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -597,6 +599,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qtcore-config.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtcoreexports.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtextstream.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtypeinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
@@ -605,6 +608,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
@@ -692,6 +696,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \
   D:/code/cpp/gameGngine/include/Camera.h \
+  D:/code/cpp/gameGngine/include/CameraController.h \
   D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
   D:/code/cpp/gameGngine/include/GELib.h \
   D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \

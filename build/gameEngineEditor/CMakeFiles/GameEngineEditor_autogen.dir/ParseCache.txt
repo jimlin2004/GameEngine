@@ -388,10 +388,10 @@ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/code/cpp/gameGngine/include/GELib.h
 D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h
-D:/code/cpp/gameGngine/src/Actor.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp
-D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
+D:/code/cpp/gameGngine/src/Actor.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
+D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mmc:Q_OBJECT
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
@@ -1247,6 +1247,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/QRect
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/QSize
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF
+ mdp:D:/QT/6.4.2/mingw_64/include/QtCore/QTimer
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h
@@ -1256,6 +1257,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qatomic.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qatomic_cxx11.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qbasicatomic.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qbindingstorage.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qbytearray.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayalgorithms.h
@@ -1345,6 +1347,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qtcore-config.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qtcoreexports.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qtextstream.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qtypeinfo.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h
@@ -1353,6 +1356,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent
  mdp:D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent
  mdp:D:/QT/6.4.2/mingw_64/include/QtGui/QPainter
  mdp:D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap
@@ -1440,6 +1444,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
  mdp:D:/code/cpp/gameGngine/include/Camera.h
+ mdp:D:/code/cpp/gameGngine/include/CameraController.h
  mdp:D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  mdp:D:/code/cpp/gameGngine/include/GELib.h
  mdp:D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
@@ -1605,6 +1610,7 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.h
+D:/code/cpp/gameGngine/src/Scene.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.h
 D:/code/cpp/gameGngine/gameEngineEditor/src/JsonParser.cpp
@@ -1683,3 +1689,5 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_weld_joint.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp
+D:/code/cpp/gameGngine/src/CameraController.cpp
+D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp

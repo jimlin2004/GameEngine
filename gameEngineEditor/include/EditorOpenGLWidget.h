@@ -3,6 +3,7 @@
 
 #include "GL/glew.h"
 #include <QOpenGLWidget>
+#include <QKeyEvent>
 
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Renderer.h"
@@ -16,6 +17,7 @@ protected:
     void initializeGL() override;
     void resizeGL(int w, int h) override;
     void paintGL() override;
+    void keyPressEvent(QKeyEvent* event);
 };
 
 #endif

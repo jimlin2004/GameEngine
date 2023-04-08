@@ -7,6 +7,7 @@
 #include <QDebug>
 #include <QPixmap>
 #include <QProcess>
+#include <QTimer>
 #include <filesystem>
 #include "flowlayout.h"
 #include "EditorOpenGLWidget.h"

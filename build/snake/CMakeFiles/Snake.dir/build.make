@@ -263,11 +263,41 @@ snake/CMakeFiles/Snake.dir/__/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/__/src/Camera.cpp.s"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Camera.cpp -o CMakeFiles\Snake.dir\__\src\Camera.cpp.s
 
+snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
+snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
+snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj: D:/code/cpp/gameGngine/src/CameraController.cpp
+snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj -MF CMakeFiles\Snake.dir\__\src\CameraController.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\CameraController.cpp.obj -c D:\code\cpp\gameGngine\src\CameraController.cpp
+
+snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/__/src/CameraController.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\CameraController.cpp > CMakeFiles\Snake.dir\__\src\CameraController.cpp.i
+
+snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/__/src/CameraController.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\CameraController.cpp -o CMakeFiles\Snake.dir\__\src\CameraController.cpp.s
+
+snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
+snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
+snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj: D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp
+snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj -MF CMakeFiles\Snake.dir\__\src\DataStruct\SceneGraph\SceneGraph.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\DataStruct\SceneGraph\SceneGraph.cpp.obj -c D:\code\cpp\gameGngine\src\DataStruct\SceneGraph\SceneGraph.cpp
+
+snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\DataStruct\SceneGraph\SceneGraph.cpp > CMakeFiles\Snake.dir\__\src\DataStruct\SceneGraph\SceneGraph.cpp.i
+
+snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\DataStruct\SceneGraph\SceneGraph.cpp -o CMakeFiles\Snake.dir\__\src\DataStruct\SceneGraph\SceneGraph.cpp.s
+
 snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
 snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj: D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp
 snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj -MF CMakeFiles\Snake.dir\__\src\DataStruct\Vector\Vector.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\DataStruct\Vector\Vector.cpp.obj -c D:\code\cpp\gameGngine\src\DataStruct\Vector\Vector.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.i: cmake_force
@@ -282,7 +312,7 @@ snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj: snake/CMakeFiles/Snake.di
 snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj: D:/code/cpp/gameGngine/src/EventSystem.cpp
 snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj -MF CMakeFiles\Snake.dir\__\src\EventSystem.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\EventSystem.cpp.obj -c D:\code\cpp\gameGngine\src\EventSystem.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.i: cmake_force
@@ -297,7 +327,7 @@ snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj: snake/CMakeFiles/Snake.dir/flags.
 snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj: D:/code/cpp/gameGngine/src/FSM.cpp
 snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj -MF CMakeFiles\Snake.dir\__\src\FSM.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\FSM.cpp.obj -c D:\code\cpp\gameGngine\src\FSM.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.i: cmake_force
@@ -312,7 +342,7 @@ snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj: snake/CMakeFiles/Snake.dir/flag
 snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj: D:/code/cpp/gameGngine/src/GELib.cpp
 snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.obj -MF CMakeFiles\Snake.dir\__\src\GELib.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\GELib.cpp.obj -c D:\code\cpp\gameGngine\src\GELib.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/GELib.cpp.i: cmake_force
@@ -327,7 +357,7 @@ snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj: snake/CMakeFiles/Snake.dir/f
 snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj: D:/code/cpp/gameGngine/src/GameBase.cpp
 snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.obj -MF CMakeFiles\Snake.dir\__\src\GameBase.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\GameBase.cpp.obj -c D:\code\cpp\gameGngine\src\GameBase.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/GameBase.cpp.i: cmake_force
@@ -342,7 +372,7 @@ snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventMa
 snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp
 snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj -MF CMakeFiles\Snake.dir\__\src\GameBaseComponent\GameEventManager\GameEventManager.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\GameBaseComponent\GameEventManager\GameEventManager.cpp.obj -c D:\code\cpp\gameGngine\src\GameBaseComponent\GameEventManager\GameEventManager.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i: cmake_force
@@ -357,7 +387,7 @@ snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: snake/CMakeF
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj -MF CMakeFiles\Snake.dir\__\src\GameEngineAPI\ConsoleApi.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\GameEngineAPI\ConsoleApi.cpp.obj -c D:\code\cpp\gameGngine\src\GameEngineAPI\ConsoleApi.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/ConsoleApi.cpp.i: cmake_force
@@ -372,7 +402,7 @@ snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: snake/CMa
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj -MF CMakeFiles\Snake.dir\__\src\GameEngineAPI\GameEngineAPI.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\GameEngineAPI\GameEngineAPI.cpp.obj -c D:\code\cpp\gameGngine\src\GameEngineAPI\GameEngineAPI.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.i: cmake_force
@@ -387,7 +417,7 @@ snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj: snake/CMakeFiles/Snake.dir
 snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj: D:/code/cpp/gameGngine/src/GameObject.cpp
 snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj -MF CMakeFiles\Snake.dir\__\src\GameObject.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\GameObject.cpp.obj -c D:\code\cpp\gameGngine\src\GameObject.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.i: cmake_force
@@ -402,7 +432,7 @@ snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj: snake/CMakeFiles/Snake.dir/f
 snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj: D:/code/cpp/gameGngine/src/Graphics.cpp
 snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj -MF CMakeFiles\Snake.dir\__\src\Graphics.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\Graphics.cpp.obj -c D:\code\cpp\gameGngine\src\Graphics.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.i: cmake_force
@@ -417,7 +447,7 @@ snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj: snake/CMakeFiles/Snake.di
 snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/IndexBuffer.cpp
 snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj -MF CMakeFiles\Snake.dir\__\src\IndexBuffer.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\IndexBuffer.cpp.obj -c D:\code\cpp\gameGngine\src\IndexBuffer.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.i: cmake_force
@@ -432,7 +462,7 @@ snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj: snake/CMakeFiles/Snake.dir/f
 snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj: D:/code/cpp/gameGngine/src/Renderer.cpp
 snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj -MF CMakeFiles\Snake.dir\__\src\Renderer.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\Renderer.cpp.obj -c D:\code\cpp\gameGngine\src\Renderer.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.i: cmake_force
@@ -443,11 +473,26 @@ snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/__/src/Renderer.cpp.s"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Renderer.cpp -o CMakeFiles\Snake.dir\__\src\Renderer.cpp.s
 
+snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
+snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
+snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj: D:/code/cpp/gameGngine/src/Scene.cpp
+snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj -MF CMakeFiles\Snake.dir\__\src\Scene.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\Scene.cpp.obj -c D:\code\cpp\gameGngine\src\Scene.cpp
+
+snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/__/src/Scene.cpp.i"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameGngine\src\Scene.cpp > CMakeFiles\Snake.dir\__\src\Scene.cpp.i
+
+snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/__/src/Scene.cpp.s"
+	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameGngine\src\Scene.cpp -o CMakeFiles\Snake.dir\__\src\Scene.cpp.s
+
 snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj: snake/CMakeFiles/Snake.dir/flags.make
 snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj: D:/code/cpp/gameGngine/src/Shader.cpp
 snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj -MF CMakeFiles\Snake.dir\__\src\Shader.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\Shader.cpp.obj -c D:\code\cpp\gameGngine\src\Shader.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.i: cmake_force
@@ -462,7 +507,7 @@ snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj: snake/CMakeFiles/Snake.
 snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj: D:/code/cpp/gameGngine/src/ShaderManager.cpp
 snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj -MF CMakeFiles\Snake.dir\__\src\ShaderManager.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\ShaderManager.cpp.obj -c D:\code\cpp\gameGngine\src\ShaderManager.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.i: cmake_force
@@ -477,7 +522,7 @@ snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj: snake/CMakeFiles/Snake.dir
 snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj: D:/code/cpp/gameGngine/src/SubTexture.cpp
 snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj -MF CMakeFiles\Snake.dir\__\src\SubTexture.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\SubTexture.cpp.obj -c D:\code\cpp\gameGngine\src\SubTexture.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.i: cmake_force
@@ -492,7 +537,7 @@ snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj: snake/CMakeFiles/Snake.dir/fl
 snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj: D:/code/cpp/gameGngine/src/Texture.cpp
 snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.obj -MF CMakeFiles\Snake.dir\__\src\Texture.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\Texture.cpp.obj -c D:\code\cpp\gameGngine\src\Texture.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/Texture.cpp.i: cmake_force
@@ -507,7 +552,7 @@ snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj: snake/CMakeFiles/Snake.dir/f
 snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj: D:/code/cpp/gameGngine/src/Timestep.cpp
 snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.obj -MF CMakeFiles\Snake.dir\__\src\Timestep.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\Timestep.cpp.obj -c D:\code\cpp\gameGngine\src\Timestep.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/Timestep.cpp.i: cmake_force
@@ -522,7 +567,7 @@ snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj: snake/CMakeFiles/Snake.di
 snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj: D:/code/cpp/gameGngine/src/VertexArray.cpp
 snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.obj -MF CMakeFiles\Snake.dir\__\src\VertexArray.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\VertexArray.cpp.obj -c D:\code\cpp\gameGngine\src\VertexArray.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/VertexArray.cpp.i: cmake_force
@@ -537,7 +582,7 @@ snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj: snake/CMakeFiles/Snake.d
 snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj: D:/code/cpp/gameGngine/src/VertexBuffer.cpp
 snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.obj -MF CMakeFiles\Snake.dir\__\src\VertexBuffer.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\VertexBuffer.cpp.obj -c D:\code\cpp\gameGngine\src\VertexBuffer.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/VertexBuffer.cpp.i: cmake_force
@@ -552,7 +597,7 @@ snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj: snake/CMakeFiles/S
 snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj: D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp
 snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.obj -MF CMakeFiles\Snake.dir\__\src\VertexBufferLayout.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\VertexBufferLayout.cpp.obj -c D:\code\cpp\gameGngine\src\VertexBufferLayout.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/VertexBufferLayout.cpp.i: cmake_force
@@ -567,7 +612,7 @@ snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj: snake/CMakeF
 snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj: D:/code/cpp/gameGngine/src/physics/boundingBox/AABB.cpp
 snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.obj -MF CMakeFiles\Snake.dir\__\src\physics\boundingBox\AABB.cpp.obj.d -o CMakeFiles\Snake.dir\__\src\physics\boundingBox\AABB.cpp.obj -c D:\code\cpp\gameGngine\src\physics\boundingBox\AABB.cpp
 
 snake/CMakeFiles/Snake.dir/__/src/physics/boundingBox/AABB.cpp.i: cmake_force
@@ -582,7 +627,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_broad_phase.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_broad_phase.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_broad_phase.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_broad_phase.cpp.i: cmake_force
@@ -597,7 +642,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_chain_shape.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_chain_shape.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_chain_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_chain_shape.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_chain_shape.cpp.i: cmake_force
@@ -612,7 +657,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_circle_shape.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_circle_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_circle_shape.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_circle_shape.cpp.i: cmake_force
@@ -627,7 +672,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_circle.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collide_circle.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collide_circle.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_circle.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_circle.cpp.i: cmake_force
@@ -642,7 +687,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_edge.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collide_edge.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collide_edge.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_edge.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_edge.cpp.i: cmake_force
@@ -657,7 +702,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_polygon.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collide_polygon.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collide_polygon.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collide_polygon.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collide_polygon.cpp.i: cmake_force
@@ -672,7 +717,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.o
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collision.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collision.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_collision.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_collision.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_collision.cpp.i: cmake_force
@@ -687,7 +732,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.ob
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_distance.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_distance.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_distance.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_distance.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_distance.cpp.i: cmake_force
@@ -702,7 +747,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_dynamic_tree.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_dynamic_tree.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_dynamic_tree.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_dynamic_tree.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_dynamic_tree.cpp.i: cmake_force
@@ -717,7 +762,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_edge_shape.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_edge_shape.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_edge_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_edge_shape.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_edge_shape.cpp.i: cmake_force
@@ -732,7 +777,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_polygon_shape.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_polygon_shape.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_polygon_shape.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_polygon_shape.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_polygon_shape.cpp.i: cmake_force
@@ -747,7 +792,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_time_of_impact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_time_of_impact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\collision\b2_time_of_impact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\collision\b2_time_of_impact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/collision/b2_time_of_impact.cpp.i: cmake_force
@@ -762,7 +807,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_block_allocator.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_block_allocator.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_block_allocator.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_block_allocator.cpp.i: cmake_force
@@ -777,7 +822,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: snak
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_draw.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_draw.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_draw.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_draw.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_draw.cpp.i: cmake_force
@@ -792,7 +837,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: snak
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_math.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_math.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_math.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_math.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_math.cpp.i: cmake_force
@@ -807,7 +852,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_settings.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_settings.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_settings.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_settings.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_settings.cpp.i: cmake_force
@@ -822,7 +867,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_stack_allocator.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_stack_allocator.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_stack_allocator.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_stack_allocator.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_stack_allocator.cpp.i: cmake_force
@@ -837,7 +882,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: sna
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_timer.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_timer.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\common\b2_timer.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\common\b2_timer.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/common/b2_timer.cpp.i: cmake_force
@@ -852,7 +897,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: sn
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_body.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_body.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_body.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_body.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_body.cpp.i: cmake_force
@@ -867,7 +912,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_con
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_circle_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp.i: cmake_force
@@ -882,7 +927,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_co
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_chain_polygon_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_chain_polygon_contact.cpp.i: cmake_force
@@ -897,7 +942,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_circle_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_circle_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_circle_contact.cpp.i: cmake_force
@@ -912,7 +957,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj:
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact.cpp.i: cmake_force
@@ -927,7 +972,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_manager.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_contact_manager.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_contact_manager.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_manager.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_manager.cpp.i: cmake_force
@@ -942,7 +987,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_contact_solver.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_contact_solver.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_contact_solver.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_contact_solver.cpp.i: cmake_force
@@ -957,7 +1002,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_distance_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_distance_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_distance_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_distance_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_distance_joint.cpp.i: cmake_force
@@ -972,7 +1017,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_cont
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_circle_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_circle_contact.cpp.i: cmake_force
@@ -987,7 +1032,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_con
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_edge_polygon_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_edge_polygon_contact.cpp.i: cmake_force
@@ -1002,7 +1047,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj:
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_fixture.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_fixture.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_fixture.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_fixture.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_fixture.cpp.i: cmake_force
@@ -1017,7 +1062,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_friction_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_friction_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_friction_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_friction_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_friction_joint.cpp.i: cmake_force
@@ -1032,7 +1077,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.o
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_gear_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_gear_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_gear_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_gear_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_gear_joint.cpp.i: cmake_force
@@ -1047,7 +1092,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_island.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_island.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_island.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_island.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_island.cpp.i: cmake_force
@@ -1062,7 +1107,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: s
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_joint.cpp.i: cmake_force
@@ -1077,7 +1122,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_motor_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_motor_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_motor_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_motor_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_motor_joint.cpp.i: cmake_force
@@ -1092,7 +1137,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_mouse_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_mouse_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_mouse_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_mouse_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_mouse_joint.cpp.i: cmake_force
@@ -1107,7 +1152,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_circle_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_circle_contact.cpp.i: cmake_force
@@ -1122,7 +1167,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_polygon_contact.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_polygon_contact.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_polygon_contact.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_polygon_contact.cpp.i: cmake_force
@@ -1137,7 +1182,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_prismatic_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_prismatic_joint.cpp.i: cmake_force
@@ -1152,7 +1197,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_pulley_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_pulley_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_pulley_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_pulley_joint.cpp.i: cmake_force
@@ -1167,7 +1212,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.c
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_revolute_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_revolute_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_revolute_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_revolute_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_revolute_joint.cpp.i: cmake_force
@@ -1182,7 +1227,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.o
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_weld_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_weld_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_weld_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_weld_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_weld_joint.cpp.i: cmake_force
@@ -1197,7 +1242,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_wheel_joint.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_wheel_joint.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_wheel_joint.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_wheel_joint.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_wheel_joint.cpp.i: cmake_force
@@ -1212,7 +1257,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: s
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_world.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_world.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world.cpp.i: cmake_force
@@ -1227,7 +1272,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_world_callbacks.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\dynamics\b2_world_callbacks.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\dynamics\b2_world_callbacks.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/dynamics/b2_world_callbacks.cpp.i: cmake_force
@@ -1242,7 +1287,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: snake/
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\box2d\src\rope\b2_rope.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\box2d\src\rope\b2_rope.cpp.obj -c D:\code\cpp\gameGngine\third_party\box2d\src\rope\b2_rope.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/box2d/src/rope/b2_rope.cpp.i: cmake_force
@@ -1257,7 +1302,7 @@ snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj: snake/CMa
 snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj: snake/CMakeFiles/Snake.dir/includes_CXX.rsp
 snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj: D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp
 snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj: snake/CMakeFiles/Snake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj"
 	cd /d D:\code\cpp\gameGngine\build\snake && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.obj -MF CMakeFiles\Snake.dir\__\third_party\stb_image\std_image.cpp.obj.d -o CMakeFiles\Snake.dir\__\third_party\stb_image\std_image.cpp.obj -c D:\code\cpp\gameGngine\third_party\stb_image\std_image.cpp
 
 snake/CMakeFiles/Snake.dir/__/third_party/stb_image/std_image.cpp.i: cmake_force
@@ -1283,6 +1328,8 @@ Snake_OBJECTS = \
 "CMakeFiles/Snake.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/Camera.cpp.obj" \
+"CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj" \
+"CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/FSM.cpp.obj" \
@@ -1295,6 +1342,7 @@ Snake_OBJECTS = \
 "CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj" \
+"CMakeFiles/Snake.dir/__/src/Scene.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/Shader.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj" \
 "CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj" \
@@ -1367,6 +1415,8 @@ snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/ActorComponent/Material/Mater
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/Camera.cpp.obj
+snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/CameraController.cpp.obj
+snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/DataStruct/Vector/Vector.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/EventSystem.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/FSM.cpp.obj
@@ -1379,6 +1429,7 @@ snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/GameObject.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/Graphics.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/IndexBuffer.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj
+snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/Scene.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/Shader.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/ShaderManager.cpp.obj
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/__/src/SubTexture.cpp.obj
@@ -1439,7 +1490,7 @@ snake/Snake.exe: C:/Program\ Files/msys64/mingw64/lib/libglew32.dll.a
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/linkLibs.rsp
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/objects1
 snake/Snake.exe: snake/CMakeFiles/Snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking CXX executable Snake.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable Snake.exe"
 	cd /d D:\code\cpp\gameGngine\build\snake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Snake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

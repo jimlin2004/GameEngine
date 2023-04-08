@@ -7,7 +7,7 @@
 #include "../ShaderManager.h"
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
-#include "../Camera.h"
+#include "../CameraController.h"
 
 namespace GameEngine
 {
@@ -51,7 +51,7 @@ namespace GameEngine
     /*
         全域的Camera
     */
-    extern Camera* _currentCamera;
+    extern CameraController* cameraController;
 }
 
 #endif

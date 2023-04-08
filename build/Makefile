@@ -407,6 +407,54 @@ src/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.s
 .PHONY : src/Camera.cpp.s
 
+src/CameraController.obj: src/CameraController.cpp.obj
+.PHONY : src/CameraController.obj
+
+# target to build an object file
+src/CameraController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.obj
+.PHONY : src/CameraController.cpp.obj
+
+src/CameraController.i: src/CameraController.cpp.i
+.PHONY : src/CameraController.i
+
+# target to preprocess a source file
+src/CameraController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.i
+.PHONY : src/CameraController.cpp.i
+
+src/CameraController.s: src/CameraController.cpp.s
+.PHONY : src/CameraController.s
+
+# target to generate assembly for a file
+src/CameraController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.s
+.PHONY : src/CameraController.cpp.s
+
+src/DataStruct/SceneGraph/SceneGraph.obj: src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+.PHONY : src/DataStruct/SceneGraph/SceneGraph.obj
+
+# target to build an object file
+src/DataStruct/SceneGraph/SceneGraph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+.PHONY : src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+
+src/DataStruct/SceneGraph/SceneGraph.i: src/DataStruct/SceneGraph/SceneGraph.cpp.i
+.PHONY : src/DataStruct/SceneGraph/SceneGraph.i
+
+# target to preprocess a source file
+src/DataStruct/SceneGraph/SceneGraph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/SceneGraph/SceneGraph.cpp.i
+.PHONY : src/DataStruct/SceneGraph/SceneGraph.cpp.i
+
+src/DataStruct/SceneGraph/SceneGraph.s: src/DataStruct/SceneGraph/SceneGraph.cpp.s
+.PHONY : src/DataStruct/SceneGraph/SceneGraph.s
+
+# target to generate assembly for a file
+src/DataStruct/SceneGraph/SceneGraph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/SceneGraph/SceneGraph.cpp.s
+.PHONY : src/DataStruct/SceneGraph/SceneGraph.cpp.s
+
 src/DataStruct/Vector/Vector.obj: src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : src/DataStruct/Vector/Vector.obj
 
@@ -694,6 +742,30 @@ src/Renderer.s: src/Renderer.cpp.s
 src/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
+
+src/Scene.obj: src/Scene.cpp.obj
+.PHONY : src/Scene.obj
+
+# target to build an object file
+src/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene.cpp.obj
+.PHONY : src/Scene.cpp.obj
+
+src/Scene.i: src/Scene.cpp.i
+.PHONY : src/Scene.i
+
+# target to preprocess a source file
+src/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene.cpp.i
+.PHONY : src/Scene.cpp.i
+
+src/Scene.s: src/Scene.cpp.s
+.PHONY : src/Scene.s
+
+# target to generate assembly for a file
+src/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene.cpp.s
+.PHONY : src/Scene.cpp.s
 
 src/Shader.obj: src/Shader.cpp.obj
 .PHONY : src/Shader.obj
@@ -2054,6 +2126,12 @@ help:
 	@echo ... src/Camera.obj
 	@echo ... src/Camera.i
 	@echo ... src/Camera.s
+	@echo ... src/CameraController.obj
+	@echo ... src/CameraController.i
+	@echo ... src/CameraController.s
+	@echo ... src/DataStruct/SceneGraph/SceneGraph.obj
+	@echo ... src/DataStruct/SceneGraph/SceneGraph.i
+	@echo ... src/DataStruct/SceneGraph/SceneGraph.s
 	@echo ... src/DataStruct/Vector/Vector.obj
 	@echo ... src/DataStruct/Vector/Vector.i
 	@echo ... src/DataStruct/Vector/Vector.s
@@ -2090,6 +2168,9 @@ help:
 	@echo ... src/Renderer.obj
 	@echo ... src/Renderer.i
 	@echo ... src/Renderer.s
+	@echo ... src/Scene.obj
+	@echo ... src/Scene.i
+	@echo ... src/Scene.s
 	@echo ... src/Shader.obj
 	@echo ... src/Shader.i
 	@echo ... src/Shader.s

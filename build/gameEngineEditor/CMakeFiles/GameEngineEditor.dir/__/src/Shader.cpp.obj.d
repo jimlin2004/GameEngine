@@ -350,4 +350,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/CameraController.h \
  D:/code/cpp/gameGngine/include/Camera.h

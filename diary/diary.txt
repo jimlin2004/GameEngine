@@ -189,3 +189,13 @@
     Todo list
         -toolbar的icon(需要qrc)
     存檔紀錄 --version dev1.0
+2023/04/08
+    1. 新增CameraController(Camera之後不直接操作)
+    2. 開始寫Scene
+    3. 開始寫Editor Game objects 的樹狀圖
+    Todo list
+        -SceneGraph
+        -Scene
+        -Level
+        -Editor Game objects 的樹狀圖
+    存檔紀錄 --version 1.0-dev

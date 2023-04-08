@@ -14,6 +14,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
@@ -23,6 +24,7 @@
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "EditorOpenGLWidget.h"
@@ -37,7 +39,7 @@ public:
     QAction *actioncompile;
     QWidget *centralwidget;
     QGridLayout *gridLayout_6;
-    EditorOpenGLWidget *widget;
+    EditorOpenGLWidget *openglWidget;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
@@ -49,6 +51,8 @@ public:
     QWidget *dockWidgetContentsRight;
     QGridLayout *gridLayout_3;
     QWidget *wrapWidgetRight;
+    QGridLayout *gridLayout_7;
+    QTreeWidget *treeWidget;
     QDockWidget *dockWidgetBottom;
     QWidget *dockWidgetContentsBottom;
     QGridLayout *gridLayout_2;
@@ -86,11 +90,11 @@ public:
         gridLayout_6 = new QGridLayout(centralwidget);
         gridLayout_6->setObjectName("gridLayout_6");
         gridLayout_6->setContentsMargins(0, 0, 0, 0);
-        widget = new EditorOpenGLWidget(centralwidget);
-        widget->setObjectName("widget");
-        widget->setStyleSheet(QString::fromUtf8(""));
+        openglWidget = new EditorOpenGLWidget(centralwidget);
+        openglWidget->setObjectName("openglWidget");
+        openglWidget->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout_6->addWidget(widget, 0, 0, 1, 1);
+        gridLayout_6->addWidget(openglWidget, 0, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -139,6 +143,17 @@ public:
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
         wrapWidgetRight = new QWidget(dockWidgetContentsRight);
         wrapWidgetRight->setObjectName("wrapWidgetRight");
+        gridLayout_7 = new QGridLayout(wrapWidgetRight);
+        gridLayout_7->setObjectName("gridLayout_7");
+        treeWidget = new QTreeWidget(wrapWidgetRight);
+        QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
+        __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
+        treeWidget->setHeaderItem(__qtreewidgetitem);
+        treeWidget->setObjectName("treeWidget");
+        treeWidget->header()->setDefaultSectionSize(60);
+
+        gridLayout_7->addWidget(treeWidget, 0, 0, 1, 1);
+
 
         gridLayout_3->addWidget(wrapWidgetRight, 0, 0, 1, 1);
 
@@ -178,7 +193,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 792, 114));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 792, 229));
         scrollArea->setWidget(scrollAreaWidgetContents);
 
         gridLayout_4->addWidget(scrollArea, 0, 0, 1, 1);

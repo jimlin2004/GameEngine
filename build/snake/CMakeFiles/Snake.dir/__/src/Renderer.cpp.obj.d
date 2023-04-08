@@ -355,6 +355,7 @@ snake/CMakeFiles/Snake.dir/__/src/Renderer.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameGngine/include/CameraController.h \
  D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
