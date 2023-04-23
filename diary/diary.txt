@@ -199,3 +199,10 @@
         -Level
         -Editor Game objects 的樹狀圖
     存檔紀錄 --version 1.0-dev
+2023/04/23
+    1. 初步建構Scene 與 SceneGraph
+    2. spawnActor改置於Scene
+    Todo list
+        -SceneGraph的Node同名問題解決
+        -Scene 的 updateScene
+    存檔紀錄 --version 1.0-dev

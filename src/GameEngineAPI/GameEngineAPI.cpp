@@ -1,9 +1,17 @@
 #include "../include/GameEngineApi/GameEngineApi.h"
 
 GameEngine::GameEngineAPI::GameEngineAPI()
+    : shaderManager(new GameEngine::ShaderManager())
+    , gameEventManager(new GameEngine::GameEventManager())
+    , scene(new GameEngine::Scene())
 {
-    this->shaderManager = new GameEngine::ShaderManager();
-    this->gameEventManager = new GameEngine::GameEventManager();
+
+}
+GameEngine::GameEngineAPI::~GameEngineAPI()
+{
+    delete this->shaderManager;
+    delete this->gameEventManager;
+    delete this->scene;
 }
 
 void GameEngine::GameEngineAPI::callKeyEvent(int key)

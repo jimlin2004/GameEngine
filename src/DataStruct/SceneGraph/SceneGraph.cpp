@@ -1,32 +1,37 @@
 #include "DataStruct/SceneGraph/SceneGraph.h"
 
 //SceneGraphNode
-GameEngine::SceneGraphNode::SceneGraphNode(const std::string& _objectName)
-    :objectName(_objectName)
+GameEngine::SceneGraphNode::SceneGraphNode(const std::string& _objectName, GameObject* obj)
+    : objectName(_objectName)
+    , gameObject(obj)
 {
 
 }
 
 GameEngine::SceneGraphNode::~SceneGraphNode()
 {
-    this->chilren.clear();
+    this->components.clear();
     delete this->gameObject;
 }
 
 const bool GameEngine::SceneGraphNode::isLeaf() const
 {
-    return (this->chilren.empty());
+    return (this->components.empty());
 }
 
-void GameEngine::SceneGraphNode::addNewNode(GameEngine::SceneGraphNode* node)
+void GameEngine::SceneGraphNode::addComponent(GameEngine::Component* component)
 {
-    this->chilren.push_back(node);
+    this->components.push_back(component);
 }
 
 //SceneGraph
 
 GameEngine::SceneGraph::SceneGraph()
-    :root(new GameEngine::SceneGraphNode("world"))
 {
 
+}
+
+GameEngine::SceneGraph::~SceneGraph()
+{
+    this->table.clear();
 }

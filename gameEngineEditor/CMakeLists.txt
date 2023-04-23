@@ -26,8 +26,12 @@ file(GLOB_RECURSE EDITOR_SRC_FILES
 file(GLOB_RECURSE EDITOR_HEADER_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h 
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/*.h 
-    ${CMAKE_CURRENT_SOURCE_DIR}/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*.h 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*/*.h 
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*/*.hpp
 )
 
 list(REMOVE_ITEM SRC_FILES ${CMAKE_SOURCE_DIR}/src/GameBase.cpp)

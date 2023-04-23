@@ -2,12 +2,11 @@
 #define GE_GAMEENGINEAPI_H
 
 #include <functional>
-#include "../GameBaseComponent/GameEventManager/GameEventManager.h"
-#include "../DataStruct/Vector/Vector.h"
-#include "../ShaderManager.h"
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "../CameraController.h"
+#include "GameBaseComponent/GameEventManager/GameEventManager.h"
+#include "DataStruct/Vector/Vector.h"
+#include "ShaderManager.h"
+#include "CameraController.h"
+#include "Scene.h"
 
 namespace GameEngine
 {
@@ -16,29 +15,18 @@ namespace GameEngine
     { 
     private:
         GameEventManager* gameEventManager;
+        Scene* scene;
         float _windowWidth, _windowHeight;
     public:
         GameEngineAPI();
-        //template 需要實現在template裡，不可分
-
-        template<class TActor>
-        TActor* spawnActor(const glm::vec3& position)
-        {
-            TActor* obj = new TActor(position.x, position.y);
-            return obj;
-        }
-        template<class TActor>
-        TActor* spawnActor(const glm::vec3& position, const glm::vec2& size)
-        {
-            TActor* obj = new TActor(position.x, position.y, size.x, size.y);
-            return obj;
-        }
+        ~GameEngineAPI();
         void callKeyEvent(int key);
         void addKeyEvent(int key, std::function<void()> func);
         //用來設置全域的window size
         void _setWindowSize(float _w, float _h);
         inline float getWindowWidth() const { return _windowWidth; }
         inline float getWindowHeight() const { return _windowHeight; }
+        inline Scene* getScene() const { return scene; }
         ShaderManager* shaderManager;
     };
 

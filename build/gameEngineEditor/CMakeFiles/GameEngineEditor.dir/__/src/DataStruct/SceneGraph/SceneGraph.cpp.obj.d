@@ -39,6 +39,17 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/Sc
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/map \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tuple \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
@@ -74,10 +85,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/Sc
  C:/PROGRA~1/msys64/mingw64/include/ctype.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string_view \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
@@ -97,4 +105,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/Sc
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
  D:/code/cpp/gameGngine/include/GameObject.h
