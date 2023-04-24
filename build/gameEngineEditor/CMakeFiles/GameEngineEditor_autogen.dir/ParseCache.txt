@@ -388,10 +388,10 @@ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/code/cpp/gameGngine/include/GELib.h
 D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h
+D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
+D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
 D:/code/cpp/gameGngine/src/Actor.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp
-D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
-D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
 D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mmc:Q_OBJECT
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
@@ -737,9 +737,9 @@ D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h
-D:/code/cpp/gameGngine/src/EventSystem.cpp
-D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
 D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp
+D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
+D:/code/cpp/gameGngine/src/EventSystem.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_stack_allocator.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.h
@@ -1446,7 +1446,6 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h
  mdp:D:/code/cpp/gameGngine/include/Camera.h
  mdp:D:/code/cpp/gameGngine/include/CameraController.h
- mdp:D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h
  mdp:D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  mdp:D:/code/cpp/gameGngine/include/GELib.h
  mdp:D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
@@ -1454,7 +1453,8 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/include/GameObject.h
  mdp:D:/code/cpp/gameGngine/include/IndexBuffer.h
  mdp:D:/code/cpp/gameGngine/include/Renderer.h
- mdp:D:/code/cpp/gameGngine/include/Scene.h
+ mdp:D:/code/cpp/gameGngine/include/Scene/Scene.h
+ mdp:D:/code/cpp/gameGngine/include/Scene/SceneGraph.h
  mdp:D:/code/cpp/gameGngine/include/Shader.h
  mdp:D:/code/cpp/gameGngine/include/ShaderManager.h
  mdp:D:/code/cpp/gameGngine/include/SubTexture.h
@@ -1638,6 +1638,7 @@ D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp
+D:/code/cpp/gameGngine/src/Scene/SceneGraph.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp
 D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp
 D:/code/cpp/gameGngine/src/FSM.cpp
@@ -1694,3 +1695,5 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp
 D:/code/cpp/gameGngine/src/CameraController.cpp
 D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp
+D:/code/cpp/gameGngine/src/DataStruct/BST/BST.cpp
+D:/code/cpp/gameGngine/src/Scene/Scene.cpp

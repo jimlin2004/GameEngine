@@ -6,6 +6,7 @@
 #include "GameObject.h"
 #include "ActorComponent/Material/Material.h"
 #include "ActorComponent/Mesh/Mesh.h"
+#include "Timestep.h"
 
 namespace GameEngine
 {
@@ -30,6 +31,8 @@ namespace GameEngine
         {
             this->mesh->bindMesh<T>();
         }
+        virtual void begin() = 0;
+        virtual void update(const float deltaTime) = 0;
     protected:
         Material* material;
         Mesh* mesh;

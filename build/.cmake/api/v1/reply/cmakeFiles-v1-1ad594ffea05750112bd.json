@@ -208,9 +208,6 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.25/Templates/CPackConfig.cmake.in"
 		},
 		{
-			"path" : "snake/CMakeLists.txt"
-		},
-		{
 			"path" : "Test/CMakeLists.txt"
 		},
 		{

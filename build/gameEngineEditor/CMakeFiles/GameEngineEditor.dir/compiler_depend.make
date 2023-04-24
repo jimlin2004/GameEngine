@@ -859,8 +859,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -1247,8 +1247,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj: D:/code/c
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -1631,8 +1631,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -2004,8 +2004,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Mesh/Mesh
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -2378,8 +2378,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComp
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -2824,115 +2824,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/CameraController.cpp.obj
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj: D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/new \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tuple \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cwchar \
-  C:/Program\ Files/msys64/mingw64/include/wchar.h \
-  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
-  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
-  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
-  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
-  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
-  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
-  C:/Program\ Files/msys64/mingw64/include/corecrt_stdio_config.h \
-  C:/Program\ Files/msys64/mingw64/include/corecrt_wstdlib.h \
-  C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
-  C:/Program\ Files/msys64/mingw64/include/_mingw_stat64.h \
-  C:/Program\ Files/msys64/mingw64/include/swprintf.inl \
-  C:/Program\ Files/msys64/mingw64/include/sec_api/wchar_s.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdint \
-  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
-  C:/Program\ Files/msys64/mingw64/include/stdint.h \
-  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
-  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
-  C:/Program\ Files/msys64/mingw64/include/stddef.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/clocale \
-  C:/Program\ Files/msys64/mingw64/include/locale.h \
-  C:/Program\ Files/msys64/mingw64/include/stdio.h \
-  C:/Program\ Files/msys64/mingw64/include/sec_api/stdio_s.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iosfwd \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cctype \
-  C:/Program\ Files/msys64/mingw64/include/ctype.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string_view \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/string_view.tcc \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdlib \
-  C:/Program\ Files/msys64/mingw64/include/stdlib.h \
-  C:/Program\ Files/msys64/mingw64/include/limits.h \
-  C:/Program\ Files/msys64/mingw64/include/sec_api/stdlib_s.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h \
-  C:/Program\ Files/msys64/mingw64/include/malloc.h \
-  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
-  C:/Program\ Files/msys64/mingw64/include/errno.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdio \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cerrno \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
-  D:/code/cpp/gameGngine/include/GameObject.h \
-  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
-  D:/code/cpp/gameGngine/include/GameObject.h
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/BST/BST.cpp.obj: D:/code/cpp/gameGngine/src/DataStruct/BST/BST.cpp \
+  D:/code/cpp/gameGngine/include/DataStruct/BST/BST.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.obj: D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp \
   D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
@@ -3462,8 +3355,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngine
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -3814,6 +3707,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: D:/cod
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/CameraController.h \
+  D:/code/cpp/gameGngine/include/Camera.h \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
   D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
@@ -3826,8 +3721,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: D:/cod
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/CameraController.h \
-  D:/code/cpp/gameGngine/include/Camera.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+  D:/code/cpp/gameGngine/include/GameObject.h \
+  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+  D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/Renderer.h \
   D:/code/cpp/gameGngine/include/VertexArray.h \
   D:/code/cpp/gameGngine/include/VertexBuffer.h \
@@ -4205,6 +4107,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: D:/cod
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/CameraController.h \
+  D:/code/cpp/gameGngine/include/Camera.h \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
   D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
@@ -4217,15 +4121,290 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: D:/cod
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/CameraController.h \
-  D:/code/cpp/gameGngine/include/Camera.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+  D:/code/cpp/gameGngine/include/GameObject.h \
+  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+  D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/Texture.h \
   D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameGngine/include/SubTexture.h
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.obj: D:/code/cpp/gameGngine/src/Scene.cpp \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: D:/code/cpp/gameGngine/src/Scene/Scene.cpp \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/third_party/glm/glm.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cmath \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/math.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/Program\ Files/msys64/mingw64/include/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/limits.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/malloc.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  C:/Program\ Files/msys64/mingw64/include/errno.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/limits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cassert \
+  C:/Program\ Files/msys64/mingw64/include/assert.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdlib \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstddef \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  D:/code/cpp/gameGngine/third_party/glm/simd/platform.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdint \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/climits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cfloat \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+  C:/Program\ Files/msys64/mingw64/include/float.h \
+  D:/code/cpp/gameGngine/third_party/glm/fwd.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/vec2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec2.inl \
+  D:/code/cpp/gameGngine/third_party/glm/detail/compute_vector_relational.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_float2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_float2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_double2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_double2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_int2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_int2_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/scalar_int_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint2_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/scalar_uint_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/vec3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec3.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_float3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_float3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_double3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_double3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_int3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_int3_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint3_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/vec4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec4.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_float4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_float4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_double4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_double4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_int4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_int4_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint4_sized.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat2x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x2.inl \
+  D:/code/cpp/gameGngine/third_party/glm/matrix.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat2x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x3.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat2x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x4.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat3x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x2.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat3x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x3.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat3x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x4.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat4x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x2.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat4x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x3.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x3.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x3_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/mat4x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x4.inl \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x4.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x4_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_matrix.inl \
+  D:/code/cpp/gameGngine/third_party/glm/geometric.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_geometric.inl \
+  D:/code/cpp/gameGngine/third_party/glm/exponential.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec1.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_vec1.inl \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_exponential.inl \
+  D:/code/cpp/gameGngine/third_party/glm/vector_relational.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_vector_relational.inl \
+  D:/code/cpp/gameGngine/third_party/glm/detail/_vectorize.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/common.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_common.inl \
+  D:/code/cpp/gameGngine/third_party/glm/detail/compute_common.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x2.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x2_precision.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/trigonometric.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_trigonometric.inl \
+  D:/code/cpp/gameGngine/third_party/glm/packing.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_packing.inl \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_half.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/type_half.inl \
+  D:/code/cpp/gameGngine/third_party/glm/integer.hpp \
+  D:/code/cpp/gameGngine/third_party/glm/detail/func_integer.inl \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/new \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tuple \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cwchar \
+  C:/Program\ Files/msys64/mingw64/include/wchar.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stat64.h \
+  C:/Program\ Files/msys64/mingw64/include/swprintf.inl \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/clocale \
+  C:/Program\ Files/msys64/mingw64/include/locale.h \
+  C:/Program\ Files/msys64/mingw64/include/stdio.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iosfwd \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cctype \
+  C:/Program\ Files/msys64/mingw64/include/ctype.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string_view \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/string_view.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdio \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cerrno \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+  D:/code/cpp/gameGngine/include/GameObject.h \
+  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+  D:/code/cpp/gameGngine/include/GameObject.h
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj: D:/code/cpp/gameGngine/src/Scene/SceneGraph.cpp \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -4264,6 +4443,17 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.obj: D:/code/c
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tuple \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
@@ -4299,10 +4489,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.obj: D:/code/c
   C:/Program\ Files/msys64/mingw64/include/ctype.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string_view \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
@@ -4322,6 +4509,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.obj: D:/code/c
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cerrno \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+  D:/code/cpp/gameGngine/include/GameObject.h \
+  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: D:/code/cpp/gameGngine/src/Shader.cpp \
@@ -4663,6 +4852,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: D:/code/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  D:/code/cpp/gameGngine/include/CameraController.h \
+  D:/code/cpp/gameGngine/include/Camera.h \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
   D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
@@ -4675,8 +4866,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: D:/code/
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/CameraController.h \
-  D:/code/cpp/gameGngine/include/Camera.h
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+  D:/code/cpp/gameGngine/include/GameObject.h \
+  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+  D:/code/cpp/gameGngine/include/GameObject.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: D:/code/cpp/gameGngine/src/ShaderManager.cpp \
   D:/code/cpp/gameGngine/include/ShaderManager.h \
@@ -10150,8 +10348,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -10218,8 +10416,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.cpp \
   D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h \
@@ -11046,8 +11243,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -12316,8 +12513,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameGngine/include/Scene.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/GameObject.h \
@@ -14818,13 +15015,11 @@ D:/QT/6.4.2/mingw_64/include/QtGui/qfontinfo.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h:
 
+C:/Program\ Files/msys64/mingw64/include/libloaderapi.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h:
-
-D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp:
-
-C:/Program\ Files/msys64/mingw64/include/libloaderapi.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/align.h:
 
@@ -15042,9 +15237,9 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_ptr.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/nested_exception.h:
 
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h:
-
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h:
+
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h:
 
@@ -15328,8 +15523,6 @@ C:/Program\ Files/msys64/mingw64/include/oaidl.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h:
 
-D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h:
-
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h:
@@ -15393,6 +15586,8 @@ D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp:
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h:
+
+D:/code/cpp/gameGngine/src/Scene/SceneGraph.cpp:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs_impl.h:
 
@@ -16586,9 +16781,9 @@ D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x3.inl:
 
 D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x3_precision.hpp:
 
-D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x3_precision.hpp:
-
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu:
+
+D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x3_precision.hpp:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qmessageauthenticationcode.h:
 
@@ -16716,7 +16911,9 @@ D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp:
 
 D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl:
 
-D:/code/cpp/gameGngine/include/Scene.h:
+D:/code/cpp/gameGngine/include/Scene/Scene.h:
+
+D:/code/cpp/gameGngine/include/Scene/SceneGraph.h:
 
 D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h:
 
@@ -16748,6 +16945,14 @@ D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp:
 
 D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp:
 
+D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h:
+
+D:/code/cpp/gameGngine/src/DataStruct/BST/BST.cpp:
+
+D:/code/cpp/gameGngine/gameEngineEditor/src/WordWrapLabel.cpp:
+
+D:/code/cpp/gameGngine/include/DataStruct/BST/BST.h:
+
 D:/QT/6.4.2/mingw_64/include/QtCore/qfuture_impl.h:
 
 D:/code/cpp/gameGngine/src/GELib.cpp:
@@ -16760,7 +16965,9 @@ D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp:
 
 D:/code/cpp/gameGngine/src/Graphics.cpp:
 
-D:/code/cpp/gameGngine/src/Scene.cpp:
+D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_gear_joint.h:
+
+D:/code/cpp/gameGngine/src/Scene/Scene.cpp:
 
 D:/code/cpp/gameGngine/src/Shader.cpp:
 
@@ -16846,8 +17053,6 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_fixture.cpp:
 
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_friction_joint.cpp:
 
-D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_gear_joint.h:
-
 D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_revolute_joint.h:
 
 D:/code/cpp/gameGngine/third_party/box2d/include/box2d/b2_prismatic_joint.h:
@@ -16921,8 +17126,6 @@ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h:
 D:/QT/6.4.2/mingw_64/include/QtGui/qpageranges.h:
 
 D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp:
-
-D:/code/cpp/gameGngine/gameEngineEditor/src/WordWrapLabel.cpp:
 
 D:/code/cpp/gameGngine/gameEngineEditor/src/flowlayout.cpp:
 
@@ -17117,8 +17320,6 @@ D:/QT/6.4.2/mingw_64/include/QtCore/QMargins:
 D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qdesktopservices.h:
-
-D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qfilesystemmodel.h:
 

@@ -47,7 +47,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party)
 # link_libraries(mingw32 SDL2main SDL2)
 # link_libraries(GLEW::GLEW)
 
-add_subdirectory(./snake)
+# add_subdirectory(./snake)
 add_subdirectory(./test)
 add_subdirectory(./gameEngineEditor)
 

@@ -6,6 +6,7 @@
 #include <string>
 
 #include "GameObject.h"
+#include "Actor.h"
 #include "ActorComponent/Component/Component.h"
 
 // 將SpawnActor的TActor變文字 c++ script to string
@@ -17,33 +18,32 @@ namespace GameEngine
     {
     public:
         std::list<Component*> components;
-    private:
         std::string objectName;
-        GameObject* gameObject;
-    public:
-        SceneGraphNode(const std::string& _objectName, GameObject* obj);
+        Actor* actor;
+        
+        SceneGraphNode(const std::string& _objectName, Actor* _actor);
         ~SceneGraphNode();
         const bool isLeaf() const;
         void addComponent(Component* component);
     };
-
-    // 基本為tree(多叉)
-    // 用map連結各個Node的樹
-    // 每個SceneGraphNode的child為他們的Component
+    /* 
+        基本為tree(多叉)
+        用map連結各個Node(物件種類)的樹
+        每個Node再包含一個std::map(用以快速插入、排序、查詢，key是objectName)用以處理物件名衝突問題(以1, 2, 3...作區別)
+        map裡的value才是真正的GameObject
+        每個SceneGraphNode的child為他們的Component
+    */
     class SceneGraph
     {
     private:
-        std::map<std::string, SceneGraphNode*> table;
+        std::map<std::string, std::map<std::string, SceneGraphNode*>> sceneMap;
     public:
         SceneGraph();
         ~SceneGraph();
 
         template<class TClass>
-        void addNode(TClass obj)
-        {
-            SceneGraphNode* newNode = new SceneGraphNode(GET_OBJECT_NAME(TClass), obj);
-            this->table.insert({GET_OBJECT_NAME(TClass), newNode});
-        }
+        void addNode(TClass obj);
+        friend class Scene;
     };
 }
 

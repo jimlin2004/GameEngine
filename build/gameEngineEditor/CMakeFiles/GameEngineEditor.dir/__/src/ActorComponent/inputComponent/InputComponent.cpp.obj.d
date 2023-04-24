@@ -354,8 +354,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/inputComp
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameGngine/include/Scene.h \
- D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
+ D:/code/cpp/gameGngine/include/Scene/Scene.h \
+ D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/map \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \

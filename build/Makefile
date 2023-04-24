@@ -149,32 +149,6 @@ GameEngine/fast:
 .PHONY : GameEngine/fast
 
 #=============================================================================
-# Target rules for targets named Snake
-
-# Build rule for target.
-Snake: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Snake
-.PHONY : Snake
-
-# fast build rule for target.
-Snake/fast:
-	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\Snake.dir\build.make snake/CMakeFiles/Snake.dir/build
-.PHONY : Snake/fast
-
-#=============================================================================
-# Target rules for targets named snake_copy_target
-
-# Build rule for target.
-snake_copy_target: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake_copy_target
-.PHONY : snake_copy_target
-
-# fast build rule for target.
-snake_copy_target/fast:
-	$(MAKE) $(MAKESILENT) -f snake\CMakeFiles\snake_copy_target.dir\build.make snake/CMakeFiles/snake_copy_target.dir/build
-.PHONY : snake_copy_target/fast
-
-#=============================================================================
 # Target rules for targets named TestGame
 
 # Build rule for target.
@@ -431,29 +405,29 @@ src/CameraController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.s
 .PHONY : src/CameraController.cpp.s
 
-src/DataStruct/SceneGraph/SceneGraph.obj: src/DataStruct/SceneGraph/SceneGraph.cpp.obj
-.PHONY : src/DataStruct/SceneGraph/SceneGraph.obj
+src/DataStruct/BST/BST.obj: src/DataStruct/BST/BST.cpp.obj
+.PHONY : src/DataStruct/BST/BST.obj
 
 # target to build an object file
-src/DataStruct/SceneGraph/SceneGraph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
-.PHONY : src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+src/DataStruct/BST/BST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/BST/BST.cpp.obj
+.PHONY : src/DataStruct/BST/BST.cpp.obj
 
-src/DataStruct/SceneGraph/SceneGraph.i: src/DataStruct/SceneGraph/SceneGraph.cpp.i
-.PHONY : src/DataStruct/SceneGraph/SceneGraph.i
+src/DataStruct/BST/BST.i: src/DataStruct/BST/BST.cpp.i
+.PHONY : src/DataStruct/BST/BST.i
 
 # target to preprocess a source file
-src/DataStruct/SceneGraph/SceneGraph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/SceneGraph/SceneGraph.cpp.i
-.PHONY : src/DataStruct/SceneGraph/SceneGraph.cpp.i
+src/DataStruct/BST/BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/BST/BST.cpp.i
+.PHONY : src/DataStruct/BST/BST.cpp.i
 
-src/DataStruct/SceneGraph/SceneGraph.s: src/DataStruct/SceneGraph/SceneGraph.cpp.s
-.PHONY : src/DataStruct/SceneGraph/SceneGraph.s
+src/DataStruct/BST/BST.s: src/DataStruct/BST/BST.cpp.s
+.PHONY : src/DataStruct/BST/BST.s
 
 # target to generate assembly for a file
-src/DataStruct/SceneGraph/SceneGraph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/SceneGraph/SceneGraph.cpp.s
-.PHONY : src/DataStruct/SceneGraph/SceneGraph.cpp.s
+src/DataStruct/BST/BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/BST/BST.cpp.s
+.PHONY : src/DataStruct/BST/BST.cpp.s
 
 src/DataStruct/Vector/Vector.obj: src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : src/DataStruct/Vector/Vector.obj
@@ -743,29 +717,53 @@ src/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
-src/Scene.obj: src/Scene.cpp.obj
-.PHONY : src/Scene.obj
+src/Scene/Scene.obj: src/Scene/Scene.cpp.obj
+.PHONY : src/Scene/Scene.obj
 
 # target to build an object file
-src/Scene.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene.cpp.obj
-.PHONY : src/Scene.cpp.obj
+src/Scene/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj
+.PHONY : src/Scene/Scene.cpp.obj
 
-src/Scene.i: src/Scene.cpp.i
-.PHONY : src/Scene.i
+src/Scene/Scene.i: src/Scene/Scene.cpp.i
+.PHONY : src/Scene/Scene.i
 
 # target to preprocess a source file
-src/Scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene.cpp.i
-.PHONY : src/Scene.cpp.i
+src/Scene/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.i
+.PHONY : src/Scene/Scene.cpp.i
 
-src/Scene.s: src/Scene.cpp.s
-.PHONY : src/Scene.s
+src/Scene/Scene.s: src/Scene/Scene.cpp.s
+.PHONY : src/Scene/Scene.s
 
 # target to generate assembly for a file
-src/Scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene.cpp.s
-.PHONY : src/Scene.cpp.s
+src/Scene/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.s
+.PHONY : src/Scene/Scene.cpp.s
+
+src/Scene/SceneGraph.obj: src/Scene/SceneGraph.cpp.obj
+.PHONY : src/Scene/SceneGraph.obj
+
+# target to build an object file
+src/Scene/SceneGraph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj
+.PHONY : src/Scene/SceneGraph.cpp.obj
+
+src/Scene/SceneGraph.i: src/Scene/SceneGraph.cpp.i
+.PHONY : src/Scene/SceneGraph.i
+
+# target to preprocess a source file
+src/Scene/SceneGraph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.i
+.PHONY : src/Scene/SceneGraph.cpp.i
+
+src/Scene/SceneGraph.s: src/Scene/SceneGraph.cpp.s
+.PHONY : src/Scene/SceneGraph.s
+
+# target to generate assembly for a file
+src/Scene/SceneGraph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.s
+.PHONY : src/Scene/SceneGraph.cpp.s
 
 src/Shader.obj: src/Shader.cpp.obj
 .PHONY : src/Shader.obj
@@ -2099,11 +2097,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... GameEngineEditor_autogen
 	@echo ... gameEngineEditor_copy_target
-	@echo ... snake_copy_target
 	@echo ... test_game_copy_target
 	@echo ... GameEngine
 	@echo ... GameEngineEditor
-	@echo ... Snake
 	@echo ... TestGame
 	@echo ... main.obj
 	@echo ... main.i
@@ -2129,9 +2125,9 @@ help:
 	@echo ... src/CameraController.obj
 	@echo ... src/CameraController.i
 	@echo ... src/CameraController.s
-	@echo ... src/DataStruct/SceneGraph/SceneGraph.obj
-	@echo ... src/DataStruct/SceneGraph/SceneGraph.i
-	@echo ... src/DataStruct/SceneGraph/SceneGraph.s
+	@echo ... src/DataStruct/BST/BST.obj
+	@echo ... src/DataStruct/BST/BST.i
+	@echo ... src/DataStruct/BST/BST.s
 	@echo ... src/DataStruct/Vector/Vector.obj
 	@echo ... src/DataStruct/Vector/Vector.i
 	@echo ... src/DataStruct/Vector/Vector.s
@@ -2168,9 +2164,12 @@ help:
 	@echo ... src/Renderer.obj
 	@echo ... src/Renderer.i
 	@echo ... src/Renderer.s
-	@echo ... src/Scene.obj
-	@echo ... src/Scene.i
-	@echo ... src/Scene.s
+	@echo ... src/Scene/Scene.obj
+	@echo ... src/Scene/Scene.i
+	@echo ... src/Scene/Scene.s
+	@echo ... src/Scene/SceneGraph.obj
+	@echo ... src/Scene/SceneGraph.i
+	@echo ... src/Scene/SceneGraph.s
 	@echo ... src/Shader.obj
 	@echo ... src/Shader.i
 	@echo ... src/Shader.s

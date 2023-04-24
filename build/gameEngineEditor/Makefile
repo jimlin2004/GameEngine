@@ -369,29 +369,29 @@ __/src/CameraController.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/CameraController.cpp.s
 .PHONY : __/src/CameraController.cpp.s
 
-__/src/DataStruct/SceneGraph/SceneGraph.obj: __/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
-.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.obj
+__/src/DataStruct/BST/BST.obj: __/src/DataStruct/BST/BST.cpp.obj
+.PHONY : __/src/DataStruct/BST/BST.obj
 
 # target to build an object file
-__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
-.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.cpp.obj
+__/src/DataStruct/BST/BST.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/BST/BST.cpp.obj
+.PHONY : __/src/DataStruct/BST/BST.cpp.obj
 
-__/src/DataStruct/SceneGraph/SceneGraph.i: __/src/DataStruct/SceneGraph/SceneGraph.cpp.i
-.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.i
+__/src/DataStruct/BST/BST.i: __/src/DataStruct/BST/BST.cpp.i
+.PHONY : __/src/DataStruct/BST/BST.i
 
 # target to preprocess a source file
-__/src/DataStruct/SceneGraph/SceneGraph.cpp.i:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.i
-.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.cpp.i
+__/src/DataStruct/BST/BST.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/BST/BST.cpp.i
+.PHONY : __/src/DataStruct/BST/BST.cpp.i
 
-__/src/DataStruct/SceneGraph/SceneGraph.s: __/src/DataStruct/SceneGraph/SceneGraph.cpp.s
-.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.s
+__/src/DataStruct/BST/BST.s: __/src/DataStruct/BST/BST.cpp.s
+.PHONY : __/src/DataStruct/BST/BST.s
 
 # target to generate assembly for a file
-__/src/DataStruct/SceneGraph/SceneGraph.cpp.s:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/SceneGraph/SceneGraph.cpp.s
-.PHONY : __/src/DataStruct/SceneGraph/SceneGraph.cpp.s
+__/src/DataStruct/BST/BST.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/BST/BST.cpp.s
+.PHONY : __/src/DataStruct/BST/BST.cpp.s
 
 __/src/DataStruct/Vector/Vector.obj: __/src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : __/src/DataStruct/Vector/Vector.obj
@@ -657,29 +657,53 @@ __/src/Renderer.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.s
 .PHONY : __/src/Renderer.cpp.s
 
-__/src/Scene.obj: __/src/Scene.cpp.obj
-.PHONY : __/src/Scene.obj
+__/src/Scene/Scene.obj: __/src/Scene/Scene.cpp.obj
+.PHONY : __/src/Scene/Scene.obj
 
 # target to build an object file
-__/src/Scene.cpp.obj:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.obj
-.PHONY : __/src/Scene.cpp.obj
+__/src/Scene/Scene.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj
+.PHONY : __/src/Scene/Scene.cpp.obj
 
-__/src/Scene.i: __/src/Scene.cpp.i
-.PHONY : __/src/Scene.i
+__/src/Scene/Scene.i: __/src/Scene/Scene.cpp.i
+.PHONY : __/src/Scene/Scene.i
 
 # target to preprocess a source file
-__/src/Scene.cpp.i:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.i
-.PHONY : __/src/Scene.cpp.i
+__/src/Scene/Scene.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.i
+.PHONY : __/src/Scene/Scene.cpp.i
 
-__/src/Scene.s: __/src/Scene.cpp.s
-.PHONY : __/src/Scene.s
+__/src/Scene/Scene.s: __/src/Scene/Scene.cpp.s
+.PHONY : __/src/Scene/Scene.s
 
 # target to generate assembly for a file
-__/src/Scene.cpp.s:
-	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene.cpp.s
-.PHONY : __/src/Scene.cpp.s
+__/src/Scene/Scene.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.s
+.PHONY : __/src/Scene/Scene.cpp.s
+
+__/src/Scene/SceneGraph.obj: __/src/Scene/SceneGraph.cpp.obj
+.PHONY : __/src/Scene/SceneGraph.obj
+
+# target to build an object file
+__/src/Scene/SceneGraph.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj
+.PHONY : __/src/Scene/SceneGraph.cpp.obj
+
+__/src/Scene/SceneGraph.i: __/src/Scene/SceneGraph.cpp.i
+.PHONY : __/src/Scene/SceneGraph.i
+
+# target to preprocess a source file
+__/src/Scene/SceneGraph.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.i
+.PHONY : __/src/Scene/SceneGraph.cpp.i
+
+__/src/Scene/SceneGraph.s: __/src/Scene/SceneGraph.cpp.s
+.PHONY : __/src/Scene/SceneGraph.s
+
+# target to generate assembly for a file
+__/src/Scene/SceneGraph.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.s
+.PHONY : __/src/Scene/SceneGraph.cpp.s
 
 __/src/Shader.obj: __/src/Shader.cpp.obj
 .PHONY : __/src/Shader.obj
@@ -2230,9 +2254,9 @@ help:
 	@echo ... __/src/CameraController.obj
 	@echo ... __/src/CameraController.i
 	@echo ... __/src/CameraController.s
-	@echo ... __/src/DataStruct/SceneGraph/SceneGraph.obj
-	@echo ... __/src/DataStruct/SceneGraph/SceneGraph.i
-	@echo ... __/src/DataStruct/SceneGraph/SceneGraph.s
+	@echo ... __/src/DataStruct/BST/BST.obj
+	@echo ... __/src/DataStruct/BST/BST.i
+	@echo ... __/src/DataStruct/BST/BST.s
 	@echo ... __/src/DataStruct/Vector/Vector.obj
 	@echo ... __/src/DataStruct/Vector/Vector.i
 	@echo ... __/src/DataStruct/Vector/Vector.s
@@ -2266,9 +2290,12 @@ help:
 	@echo ... __/src/Renderer.obj
 	@echo ... __/src/Renderer.i
 	@echo ... __/src/Renderer.s
-	@echo ... __/src/Scene.obj
-	@echo ... __/src/Scene.i
-	@echo ... __/src/Scene.s
+	@echo ... __/src/Scene/Scene.obj
+	@echo ... __/src/Scene/Scene.i
+	@echo ... __/src/Scene/Scene.s
+	@echo ... __/src/Scene/SceneGraph.obj
+	@echo ... __/src/Scene/SceneGraph.i
+	@echo ... __/src/Scene/SceneGraph.s
 	@echo ... __/src/Shader.obj
 	@echo ... __/src/Shader.i
 	@echo ... __/src/Shader.s

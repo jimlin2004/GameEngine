@@ -206,3 +206,13 @@
         -SceneGraph的Node同名問題解決
         -Scene 的 updateScene
     存檔紀錄 --version 1.0-dev
+2023/04/24
+    1. 將Scene相關的放入Scene資料夾
+    2. 創建DataStruct BST(非AVL)(暫時棄置)
+    3. Actor增加update()、begin()
+    4. 進一步建構Scene 與 SceneGraph
+    Todo list
+        -Scene的功效驗證
+        -將遊戲本身class的begin、update結合進Editor
+        -Script component
+    存檔紀錄 --version 1.0-dev

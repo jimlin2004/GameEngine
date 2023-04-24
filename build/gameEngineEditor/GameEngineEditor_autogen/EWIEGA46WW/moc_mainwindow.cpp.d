@@ -698,7 +698,6 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
   D:/code/cpp/gameGngine/include/Camera.h \
   D:/code/cpp/gameGngine/include/CameraController.h \
-  D:/code/cpp/gameGngine/include/DataStruct/SceneGraph/SceneGraph.h \
   D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
   D:/code/cpp/gameGngine/include/GELib.h \
   D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
@@ -706,7 +705,8 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameGngine/include/GameObject.h \
   D:/code/cpp/gameGngine/include/IndexBuffer.h \
   D:/code/cpp/gameGngine/include/Renderer.h \
-  D:/code/cpp/gameGngine/include/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/Scene.h \
+  D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
   D:/code/cpp/gameGngine/include/Shader.h \
   D:/code/cpp/gameGngine/include/ShaderManager.h \
   D:/code/cpp/gameGngine/include/SubTexture.h \

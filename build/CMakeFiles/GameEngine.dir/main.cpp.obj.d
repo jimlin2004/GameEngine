@@ -369,6 +369,7 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ D:/code/cpp/gameGngine/include/CameraController.h \
  D:/code/cpp/gameGngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
@@ -508,6 +509,7 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameGngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/func_integer.inl \
+ D:/code/cpp/gameGngine/include/Camera.h \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
@@ -520,8 +522,15 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameGngine/include/CameraController.h \
- D:/code/cpp/gameGngine/include/Camera.h \
+ D:/code/cpp/gameGngine/include/Scene/Scene.h \
+ D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/map \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
+ D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
@@ -535,7 +544,6 @@ CMakeFiles/GameEngine.dir/main.cpp.obj: D:\code\cpp\gameGngine\main.cpp \
  D:/code/cpp/gameGngine/include/Actor.h \
  D:/code/cpp/gameGngine/include/ActorComponent/inputComponent/InputComponent.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/ActorComponent/Material/Material.h \
  D:/code/cpp/gameGngine/include/Graphics.h \

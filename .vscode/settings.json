@@ -69,6 +69,7 @@
         "optional": "cpp",
         "future": "cpp",
         "variant": "cpp",
-        "qvboxlayout": "cpp"
+        "qvboxlayout": "cpp",
+        "source_location": "cpp"
     }
 }

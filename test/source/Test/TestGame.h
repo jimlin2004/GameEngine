@@ -7,8 +7,8 @@ class TestGame: public GameEngine::GameBase
 {
 public:
     TestGame(const char* title, int width, int height);
-    void update(float deltaTime) override;
     void begin() override;
+    void update(float deltaTime) override;
 };
 
 #endif

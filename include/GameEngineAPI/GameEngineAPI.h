@@ -6,7 +6,7 @@
 #include "DataStruct/Vector/Vector.h"
 #include "ShaderManager.h"
 #include "CameraController.h"
-#include "Scene.h"
+#include "Scene/Scene.h"
 
 namespace GameEngine
 {
