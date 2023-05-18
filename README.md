@@ -1,9 +1,8 @@
 # GameEngine
 
 <image src = "https://img.shields.io/github/license/jimlin2004/GameEngine"/>
-</br>
 
-### 第三方框架
+## 3rd party libaries
 <div>
 <ul>
     <li>QT 6.4</li> 
@@ -37,13 +36,13 @@
 </ui>
 </div>
   
-### Language
+## Language
 
 | Language | Version |
 | -------- | ------- |
 | c++      | 17      |
 
-### Build environment
+## Build environment
 
 | Name      | Version       |
 | --------- | ------------- |
