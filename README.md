@@ -31,7 +31,7 @@
         <img src = "https://img.shields.io/website?up_message=go%20to%20box2D&url=https%3A%2F%2Fbox2d.org%2F"/>
     </a>
     <li>EnTT</li>
-    <a href = "[https://box2d.org/](https://github.com/skypjack/entt)">
+    <a href = "https://github.com/skypjack/entt">
         <img src = "https://img.shields.io/website?up_message=go%20to%20EnTT&url=https%3A%2F%2Fgithub.com%2Fskypjack%2Fentt"/>
     </a>
 </ui>
