@@ -7,6 +7,11 @@ EditorOpenGLWidget::EditorOpenGLWidget(QWidget* parent)
     setFocus();
 }
 
+void EditorOpenGLWidget::sceneBegin()
+{
+    EditorScene::addActor<GameEngine::Actor>({100.0f, 100.0f, 1.0f}, {50.0f, 50.0f, 1.0f}, {0.0f, 0.0f, 0.0f});
+}
+
 void EditorOpenGLWidget::initializeGL()
 {
     if (glewInit() != 0)
@@ -22,6 +27,7 @@ void EditorOpenGLWidget::initializeGL()
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
     GameEngine::cameraController->setSpeed(10.0f);
+    this->sceneBegin();
 }
 
 void EditorOpenGLWidget::resizeGL(int w, int h)
@@ -31,14 +37,15 @@ void EditorOpenGLWidget::resizeGL(int w, int h)
 
 void EditorOpenGLWidget::paintGL()
 {
-    static float deg = 0.0f;
+    // static float deg = 0.0f;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    deg += 1;
-    if (deg > 360.0f)
-        deg = 0.0f;
+    // deg += 1;
+    // if (deg > 360.0f)
+    //     deg = 0.0f;
     GameEngine::Renderer::begin();
-        GameEngine::Renderer::drawQuad({0.0f, 0.0f, 0.0f}, {100.0f, 100.0f}, {0.0f, 0.0f, 1.0f, 1.0f});
-        GameEngine::Renderer::drawRotatedQuad({150.0f, 150.0f, 0.0f}, {50.0f, 50.0f}, deg, {1.0f, 0.0f, 0.0f, 1.0f});
+        GameEngine::globalScene->render();
+        // GameEngine::Renderer::drawQuad({0.0f, 0.0f, 0.0f}, {100.0f, 100.0f}, {0.0f, 0.0f, 1.0f, 1.0f});
+        // GameEngine::Renderer::drawRotatedQuad({150.0f, 150.0f, 0.0f}, {50.0f, 50.0f}, deg, {1.0f, 0.0f, 0.0f, 1.0f});
     GameEngine::Renderer::close();
 }
 

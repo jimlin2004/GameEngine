@@ -216,3 +216,14 @@
         -將遊戲本身class的begin、update結合進Editor
         -Script component
     存檔紀錄 --version 1.0-dev
+2023/06/17
+    1. 復工
+    2. 引入 EnTT(ECS)
+    3. 將Actor改為ECS
+    4. 嘗試將Editor與GameEngine連結起來
+    5. 將Editor的treeWidget底色改為灰色
+    6. 棄用SceneGraph(用Entt)
+    Todo list
+        -treeWidget的新增
+        -Editor的GameObject outline
+    存檔紀錄 --version 1.0-dev

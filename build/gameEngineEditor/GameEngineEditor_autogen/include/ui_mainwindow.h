@@ -147,9 +147,11 @@ public:
         gridLayout_7->setObjectName("gridLayout_7");
         treeWidget = new QTreeWidget(wrapWidgetRight);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
+        __qtreewidgetitem->setText(1, QString::fromUtf8("2"));
         __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
         treeWidget->setHeaderItem(__qtreewidgetitem);
         treeWidget->setObjectName("treeWidget");
+        treeWidget->setColumnCount(2);
         treeWidget->header()->setDefaultSectionSize(60);
 
         gridLayout_7->addWidget(treeWidget, 0, 0, 1, 1);

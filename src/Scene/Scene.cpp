@@ -2,49 +2,31 @@
 
 GameEngine::Scene::Scene()
 {
-    this->sceneGraph = new GameEngine::SceneGraph();
+
 }
 
 GameEngine::Scene::~Scene()
 {
-    delete this->sceneGraph;
+
 }
 
 void GameEngine::Scene::unpdateScene(float deltaTime)
 {
-    for (std::pair<const std::string, std::map<std::string, GameEngine::SceneGraphNode*>>& gamebnjectMapPair: this->sceneGraph->sceneMap)
-    {
-        for (std::pair<const std::string, GameEngine::SceneGraphNode*>& nodePair: gamebnjectMapPair.second)
-        {
-            nodePair.second->actor->update(deltaTime);
-        }
-    }
+
 }
 
 void GameEngine::Scene::render()
 {
-    for (std::pair<const std::string, std::map<std::string, GameEngine::SceneGraphNode*>>& gamebnjectMapPair: this->sceneGraph->sceneMap)
+    auto view = this->registry.view<GameEngine::TransformComponent, GameEngine::MeshComponent>();
+
+    for (entt::entity entity: view)
     {
-        for (std::pair<const std::string, GameEngine::SceneGraphNode*>& nodePair: gamebnjectMapPair.second)
-        {
-            nodePair.second->actor->render();
-        }
+        auto [transform, mesh] = view.get<GameEngine::TransformComponent, GameEngine::MeshComponent>(entity);
+        Renderer::drawQuad(transform.getTransform(), mesh.color);
     }
 }
 
-template<class TActor>
-TActor* GameEngine::Scene::spawnActor(const glm::vec3& position)
+namespace GameEngine
 {
-    TActor* obj = new TActor(position.x, position.y);
-    this->sceneGraph->addNode<TActor>(obj);
-    return obj;
+    Scene* globalScene = new Scene();
 }
-
-template<class TActor>
-TActor* GameEngine::Scene::spawnActor(const glm::vec3& position, const glm::vec2& size)
-{
-    TActor* obj = new TActor(position.x, position.y, size.x, size.y);
-    this->sceneGraph->addNode<TActor>(obj);
-    return obj;
-}
-

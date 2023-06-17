@@ -100,6 +100,9 @@ MainWindow::MainWindow(QWidget *parent)
     _textBrowserPtr = this->ui->textBrowser;
     qInstallMessageHandler(parseEditorMsg);
 
+    this->ui->treeWidget->headerItem()->setText(0, "GameObject");
+    this->ui->treeWidget->headerItem()->setText(1, "Type");
+
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
     // timer->start(41); //24fps

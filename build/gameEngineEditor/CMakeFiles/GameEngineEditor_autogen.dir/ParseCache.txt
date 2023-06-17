@@ -388,10 +388,10 @@ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/code/cpp/gameGngine/include/GELib.h
 D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h
-D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
-D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
 D:/code/cpp/gameGngine/src/Actor.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_broad_phase.cpp
+D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_circle_shape.cpp
+D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
 D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mmc:Q_OBJECT
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
@@ -737,9 +737,9 @@ D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h
-D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp
-D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
 D:/code/cpp/gameGngine/src/EventSystem.cpp
+D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
+D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_stack_allocator.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_circle_contact.h
@@ -792,6 +792,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h
@@ -853,6 +854,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h
@@ -861,10 +863,12 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h
@@ -901,6 +905,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwctype
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/deque
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/exception
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h
@@ -933,6 +938,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ratio
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/set
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/sstream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdexcept
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/streambuf
@@ -955,6 +961,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/type_traits
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/typeinfo
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_set
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/utility
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/variant
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/vector
@@ -1439,13 +1446,15 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
+ mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
- mdp:D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h
+ mdp:D:/code/cpp/gameGngine/include/Actor.h
  mdp:D:/code/cpp/gameGngine/include/Camera.h
  mdp:D:/code/cpp/gameGngine/include/CameraController.h
+ mdp:D:/code/cpp/gameGngine/include/Component/Component.h
  mdp:D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h
  mdp:D:/code/cpp/gameGngine/include/GELib.h
  mdp:D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
@@ -1454,14 +1463,15 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/include/IndexBuffer.h
  mdp:D:/code/cpp/gameGngine/include/Renderer.h
  mdp:D:/code/cpp/gameGngine/include/Scene/Scene.h
- mdp:D:/code/cpp/gameGngine/include/Scene/SceneGraph.h
  mdp:D:/code/cpp/gameGngine/include/Shader.h
  mdp:D:/code/cpp/gameGngine/include/ShaderManager.h
  mdp:D:/code/cpp/gameGngine/include/SubTexture.h
  mdp:D:/code/cpp/gameGngine/include/Texture.h
+ mdp:D:/code/cpp/gameGngine/include/Timestep.h
  mdp:D:/code/cpp/gameGngine/include/VertexArray.h
  mdp:D:/code/cpp/gameGngine/include/VertexBuffer.h
  mdp:D:/code/cpp/gameGngine/include/VertexBufferLayout.h
+ mdp:D:/code/cpp/gameGngine/third_party/entt/include/entt.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/common.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/_vectorize.hpp
@@ -1477,6 +1487,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/func_vector_relational.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_half.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_half.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x2.hpp
@@ -1497,6 +1508,8 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x3.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x4.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x4.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_vec1.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_vec1.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/detail/type_vec2.hpp
@@ -1548,6 +1561,20 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/scalar_constants.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/scalar_constants.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/scalar_int_sized.hpp
@@ -1576,6 +1603,8 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_int3_sized.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_int4.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_int4_sized.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint2.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint2_sized.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint3.hpp
@@ -1587,8 +1616,12 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/third_party/glm/glm.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/constants.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl
+ mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp
+ mdp:D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl
  mdp:D:/code/cpp/gameGngine/third_party/glm/integer.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/mat2x2.hpp
  mdp:D:/code/cpp/gameGngine/third_party/glm/mat2x3.hpp
@@ -1613,13 +1646,12 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_polygon_contact.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_circle_contact.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_circle_contact.h
-D:/code/cpp/gameGngine/src/Scene.cpp
+D:/code/cpp/gameGngine/src/DataStruct/BST/BST.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_contact_solver.h
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_polygon_contact.h
 D:/code/cpp/gameGngine/gameEngineEditor/src/JsonParser.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_edge_polygon_contact.h
 D:/code/cpp/gameGngine/src/GameObject.cpp
-D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_polygon_shape.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_island.h
 D:/code/cpp/gameGngine/src/Camera.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/editorEntryPoint.cpp
@@ -1631,24 +1663,25 @@ D:/code/cpp/gameGngine/gameEngineEditor/src/ProjectParser.cpp
 D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/src/WordWrapLabel.cpp
 D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp
-D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_polygon.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_draw.cpp
+D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_polygon.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/src/flowlayout.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp
 D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp
-D:/code/cpp/gameGngine/src/Scene/SceneGraph.cpp
+D:/code/cpp/gameGngine/src/CameraController.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_pulley_joint.cpp
 D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp
+D:/code/cpp/gameGngine/src/Scene/SceneGraph.cpp
 D:/code/cpp/gameGngine/src/FSM.cpp
 D:/code/cpp/gameGngine/src/GELib.cpp
 D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp
 D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp
+D:/code/cpp/gameGngine/src/Scene/Scene.cpp
 D:/code/cpp/gameGngine/src/Graphics.cpp
 D:/code/cpp/gameGngine/src/IndexBuffer.cpp
 D:/code/cpp/gameGngine/src/Renderer.cpp
-D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp
 D:/code/cpp/gameGngine/src/Shader.cpp
 D:/code/cpp/gameGngine/src/ShaderManager.cpp
 D:/code/cpp/gameGngine/src/SubTexture.cpp
@@ -1663,7 +1696,9 @@ D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collide_edge.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_dynamic_tree.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_collision.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_edge_shape.cpp
+D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_polygon_shape.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_time_of_impact.cpp
+D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_math.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_settings.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_timer.cpp
@@ -1693,7 +1728,5 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_weld_joint.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp
-D:/code/cpp/gameGngine/src/CameraController.cpp
-D:/code/cpp/gameGngine/src/DataStruct/SceneGraph/SceneGraph.cpp
-D:/code/cpp/gameGngine/src/DataStruct/BST/BST.cpp
-D:/code/cpp/gameGngine/src/Scene/Scene.cpp
+D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h
+D:/code/cpp/gameGngine/gameEngineEditor/src/EditorScene.cpp

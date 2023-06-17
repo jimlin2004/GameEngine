@@ -1,8 +1,11 @@
 #include "GameBase.h"
 
 GameEngine::GameBase::GameBase(const char* title, int width, int height)
-    : title(title), screenWidth(width), screenHeight(height),
-      running(false), physicsWorld({0.0f, -9.8f})
+    : title(title)
+    , screenWidth(width)
+    , screenHeight(height)
+    , running(false)
+    // , physicsWorld({0.0f, -9.8f})
 {
     this->lastFrameTime = 0.0f;
     GameEngine::GEngine->_setWindowSize((float)this->screenWidth, (float)this->screenHeight);
@@ -98,8 +101,6 @@ void GameEngine::GameBase::init()
 
 void GameEngine::GameBase::begin()
 {
-    this->init();
-    return;
 }
 
 void GameEngine::GameBase::logBuildInfo()
@@ -113,11 +114,15 @@ void GameEngine::GameBase::logBuildInfo()
 
 void GameEngine::GameBase::render()
 {
-    
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    Renderer::begin();
+        GameEngine::globalScene->render();
+    Renderer::close();
 }
 
 void GameEngine::GameBase::startGame()
 {
+    this->init();
     this->begin();
     this->logBuildInfo();
     this->running = true;
@@ -129,6 +134,7 @@ void GameEngine::GameBase::startGame()
         this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
         this->gameEventHandle();
         this->update(this->timestep);
+        this->render();
         SDL_GL_SwapWindow(this->window);
     }
     SDL_DestroyWindow(this->window);

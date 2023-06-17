@@ -148,12 +148,20 @@
        <layout class="QGridLayout" name="gridLayout_7">
         <item row="0" column="0">
          <widget class="QTreeWidget" name="treeWidget">
+          <property name="columnCount">
+           <number>2</number>
+          </property>
           <attribute name="headerDefaultSectionSize">
            <number>60</number>
           </attribute>
           <column>
            <property name="text">
             <string notr="true">1</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string notr="true">2</string>
            </property>
           </column>
          </widget>

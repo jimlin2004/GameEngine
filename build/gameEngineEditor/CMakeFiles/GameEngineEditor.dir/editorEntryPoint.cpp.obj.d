@@ -825,10 +825,41 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Scene/Scene.h \
- D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
- D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameGngine/third_party/entt/include/entt.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/set \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
+ D:/code/cpp/gameGngine/include/Timestep.h \
+ D:/code/cpp/gameGngine/include/Component/Component.h \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
@@ -839,6 +870,12 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h \
+ D:/code/cpp/gameGngine/include/Actor.h \
+ D:/code/cpp/gameGngine/include/Timestep.h \
+ D:/code/cpp/gameGngine/third_party/entt/include/entt.hpp \
+ D:/code/cpp/gameGngine/include/Scene/Scene.h \
+ D:/code/cpp/gameGngine/include/Component/Component.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
  D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \

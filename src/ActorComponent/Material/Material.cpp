@@ -1,18 +1,18 @@
-#include "../include/ActorComponent/Material/Material.h"
+// #include "../include/ActorComponent/Material/Material.h"
 
-GameEngine::Material::Material()
-{
-    this->texture = nullptr;
-    return;
-}
+// GameEngine::Material::Material()
+// {
+//     this->texture = nullptr;
+//     return;
+// }
 
-GameEngine::Material::~Material()
-{
-    delete this->texture;
-    return;
-}
+// GameEngine::Material::~Material()
+// {
+//     delete this->texture;
+//     return;
+// }
 
-void GameEngine::Material::render()
-{
-    this->texture->render();
-}
+// void GameEngine::Material::render()
+// {
+//     this->texture->render();
+// }

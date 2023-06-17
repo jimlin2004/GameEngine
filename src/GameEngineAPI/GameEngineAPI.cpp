@@ -1,9 +1,9 @@
-#include "../include/GameEngineApi/GameEngineApi.h"
+#include "GameEngineApi/GameEngineApi.h"
 
 GameEngine::GameEngineAPI::GameEngineAPI()
     : shaderManager(new GameEngine::ShaderManager())
     , gameEventManager(new GameEngine::GameEventManager())
-    , scene(new GameEngine::Scene())
+    , editorSceneBeginFunc(nullptr)
 {
 
 }
@@ -11,7 +11,11 @@ GameEngine::GameEngineAPI::~GameEngineAPI()
 {
     delete this->shaderManager;
     delete this->gameEventManager;
-    delete this->scene;
+}
+
+void GameEngine::GameEngineAPI::setEditorSceneFunc(std::function<void()> func)
+{
+    this->editorSceneBeginFunc = func;
 }
 
 void GameEngine::GameEngineAPI::callKeyEvent(int key)

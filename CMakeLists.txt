@@ -21,8 +21,8 @@ file(GLOB_RECURSE SRC_FILES
 )
 
 file(GLOB_RECURSE THIRD_PARTY_SRC
-    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.cpp
+    # ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/stb_image/*.cpp
 )
 
@@ -42,6 +42,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/opengl/glew/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/SDL2/x86_64-w64-mingw32/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/entt/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party)
 
 # link_libraries(mingw32 SDL2main SDL2)

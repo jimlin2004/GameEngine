@@ -7,8 +7,11 @@ class TestGame: public GameEngine::GameBase
 {
 public:
     TestGame(const char* title, int width, int height);
-    void begin() override;
-    void update(float deltaTime) override;
+    virtual ~TestGame();
+    virtual void begin() override;
+    virtual void update(float deltaTime) override;
+private:
+    GameEngine::Actor* testActor;
 };
 
 #endif

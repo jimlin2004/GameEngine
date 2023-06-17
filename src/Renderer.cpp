@@ -97,9 +97,9 @@ void GameEngine::Renderer::initQuad()
     
     // 設定單位四邊形座標
     rendererData.quadVertexUnitPoint[0] = {-0.5f, -0.5f, 0.0f, 1.0f};
-    rendererData.quadVertexUnitPoint[1] = {0.5f, -0.5f, 0.0f, 1.0f};
-    rendererData.quadVertexUnitPoint[2] = {0.5f, 0.5f, 0.0f, 1.0f};
-    rendererData.quadVertexUnitPoint[3] = {-0.5f, 0.5f, 0.0f, 1.0f};
+    rendererData.quadVertexUnitPoint[1] = { 0.5f, -0.5f, 0.0f, 1.0f};
+    rendererData.quadVertexUnitPoint[2] = { 0.5f,  0.5f, 0.0f, 1.0f};
+    rendererData.quadVertexUnitPoint[3] = {-0.5f,  0.5f, 0.0f, 1.0f};
 
     rendererData.quadVertexArray->unbind();
     // rendererData.quadShader->unbind();
@@ -214,46 +214,54 @@ void GameEngine::Renderer::drawQuad(const glm::vec2& position, const glm::vec2& 
 
 void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& size, const glm::vec4& color)
 {
+    glm::mat4 transform = glm::translate(glm::mat4(1.0f), position)
+			* glm::scale(glm::mat4(1.0f), { size.x, size.y, 1.0f });
+    GameEngine::Renderer::drawQuad(transform, color);
+}
+
+void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, const glm::vec4 &color)
+{
+    constexpr static glm::vec2 texCoords[] = {
+        {0.0f, 0.0f},
+        {1.0f, 0.0f},
+        {1.0f, 1.0f},
+        {0.0f, 1.0f}
+    };
     if (rendererData.quadIndexCount >= rendererData.maxIndeices)
         GameEngine::Renderer::startNewBatch();
 
-    rendererData.quadVertexBufferPtr->position = position;
-    rendererData.quadVertexBufferPtr->color = color;
-    rendererData.quadVertexBufferPtr->texCoord = {0.0f, 0.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = 0;
-    rendererData.quadVertexBufferPtr++;
-    
-    rendererData.quadVertexBufferPtr->position = {position.x + size.x, position.y, position.z};
-    rendererData.quadVertexBufferPtr->color = color;
-    rendererData.quadVertexBufferPtr->texCoord = {1.0f, 0.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = 0;
-    rendererData.quadVertexBufferPtr++;
-
-    rendererData.quadVertexBufferPtr->position = {position.x + size.x, position.y + size.y, position.z};
-    rendererData.quadVertexBufferPtr->color = color;
-    rendererData.quadVertexBufferPtr->texCoord = {1.0f, 1.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = 0;
-    rendererData.quadVertexBufferPtr++;
-    
-    rendererData.quadVertexBufferPtr->position = {position.x, position.y + size.y, position.z};
-    rendererData.quadVertexBufferPtr->color = color;
-    rendererData.quadVertexBufferPtr->texCoord = {0.0f, 1.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = 0;
-    rendererData.quadVertexBufferPtr++;
-    
+    for (int i = 0; i < 4; ++i)
+    {
+        rendererData.quadVertexBufferPtr->position = transform * rendererData.quadVertexUnitPoint[i];
+        rendererData.quadVertexBufferPtr->color = color;
+        rendererData.quadVertexBufferPtr->texCoord = texCoords[i];
+        rendererData.quadVertexBufferPtr->textureIndex = 0;
+        rendererData.quadVertexBufferPtr++;
+    }
     rendererData.quadIndexCount += 6;
-
     rendererData.rendererInfomation.quadNums++;
 }
 
 void GameEngine::Renderer::drawQuad(const glm::vec2& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor/* = glm::vec4(1.0f)*/)
 {
-    
     GameEngine::Renderer::drawQuad({position.x, position.y, 0.0f}, size, texture, maskColor);
 }
 
 void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor/* = glm::vec4(1.0f)*/)
 {
+    glm::mat4 transform = glm::translate(glm::mat4(1.0f), position)
+			* glm::scale(glm::mat4(1.0f), { size.x, size.y, 1.0f });
+    GameEngine::Renderer::drawQuad(transform, texture, maskColor);
+}
+
+void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, Texture *texture, const glm::vec4 &maskColor)
+{
+    constexpr static glm::vec2 texCoords[] = {
+        {0.0f, 0.0f},
+        {1.0f, 0.0f},
+        {1.0f, 1.0f},
+        {0.0f, 1.0f}
+    };
     if (rendererData.quadIndexCount >= rendererData.maxIndeices)
         GameEngine::Renderer::startNewBatch();
 
@@ -275,29 +283,14 @@ void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& 
         rendererData.textureSlotIndex++;
     }
 
-    rendererData.quadVertexBufferPtr->position = position;
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = {0.0f, 0.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
-    
-    rendererData.quadVertexBufferPtr->position = {position.x + size.x, position.y, position.z};
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = {1.0f, 0.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
-
-    rendererData.quadVertexBufferPtr->position = {position.x + size.x, position.y + size.y, position.z};
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = {1.0f, 1.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
-    
-    rendererData.quadVertexBufferPtr->position = {position.x, position.y + size.y, position.z};
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = {0.0f, 1.0f};
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
+    for (int i = 0; i < 4; ++i)
+    {
+        rendererData.quadVertexBufferPtr->position = transform * rendererData.quadVertexUnitPoint[i];
+        rendererData.quadVertexBufferPtr->color = maskColor;
+        rendererData.quadVertexBufferPtr->texCoord = texCoords[i];
+        rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
+        rendererData.quadVertexBufferPtr++;
+    }
     
     rendererData.quadIndexCount += 6;
 
@@ -311,6 +304,13 @@ void GameEngine::Renderer::drawQuad(const glm::vec2& position, const glm::vec2& 
 }
 
 void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& size, SubTexture* subTexture, const glm::vec4& maskColor/* = glm::vec4(1.0f)*/)
+{
+    glm::mat4 transform = glm::translate(glm::mat4(1.0f), position)
+			* glm::scale(glm::mat4(1.0f), { size.x, size.y, 1.0f });
+    GameEngine::Renderer::drawQuad(transform, subTexture, maskColor);
+}
+
+void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, SubTexture *subTexture, const glm::vec4 &maskColor)
 {
     if (rendererData.quadIndexCount >= rendererData.maxIndeices)
         GameEngine::Renderer::startNewBatch();
@@ -336,29 +336,14 @@ void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& 
         rendererData.textureSlotIndex++;
     }
 
-    rendererData.quadVertexBufferPtr->position = position;
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = textureCroods[0];
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
-    
-    rendererData.quadVertexBufferPtr->position = {position.x + size.x, position.y, position.z};
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = textureCroods[1];
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
-
-    rendererData.quadVertexBufferPtr->position = {position.x + size.x, position.y + size.y, position.z};
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = textureCroods[2];
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
-    
-    rendererData.quadVertexBufferPtr->position = {position.x, position.y + size.y, position.z};
-    rendererData.quadVertexBufferPtr->color = maskColor;
-    rendererData.quadVertexBufferPtr->texCoord = textureCroods[3];
-    rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
-    rendererData.quadVertexBufferPtr++;
+    for (int i = 0; i < 4; ++i)
+    {
+        rendererData.quadVertexBufferPtr->position = transform * rendererData.quadVertexUnitPoint[i];
+        rendererData.quadVertexBufferPtr->color = maskColor;
+        rendererData.quadVertexBufferPtr->texCoord = textureCroods[i];
+        rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
+        rendererData.quadVertexBufferPtr++;
+    }
     
     rendererData.quadIndexCount += 6;
 

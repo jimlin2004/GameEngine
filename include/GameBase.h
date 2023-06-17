@@ -14,6 +14,10 @@
 #include "Actor.h"
 #include "Renderer.h"
 
+#define GAMEENGINE_BEGIN() \
+            if (GameEngine::GEngine->getEditorSceneFunc() != nullptr) \
+                GameEngine::GEngine->getEditorSceneFunc()();
+
 namespace GameEngine
 {
     enum class GameState
@@ -35,7 +39,7 @@ namespace GameEngine
         SDL_GLContext GLContext;
 
         GameBase(const char* title, int width, int height);
-        ~GameBase();
+        virtual ~GameBase();
         virtual bool initSDL();
         virtual bool initGL();
         void init();
@@ -46,7 +50,7 @@ namespace GameEngine
         virtual void logBuildInfo();
         void startGame();
     private:
-        b2World physicsWorld;
+        // b2World physicsWorld;
         Timestep timestep;
         uint64_t lastFrameTime;
     };

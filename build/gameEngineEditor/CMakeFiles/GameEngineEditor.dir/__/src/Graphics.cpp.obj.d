@@ -353,14 +353,65 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
  D:/code/cpp/gameGngine/include/Scene/Scene.h \
- D:/code/cpp/gameGngine/include/Scene/SceneGraph.h \
+ D:/code/cpp/gameGngine/third_party/entt/include/entt.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/align.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bit \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/atomic_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/utility \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/map \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
- D:/code/cpp/gameGngine/include/ActorComponent/Component/Component.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/set \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
+ D:/code/cpp/gameGngine/include/Timestep.h \
+ D:/code/cpp/gameGngine/include/Component/Component.h \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/VertexArray.h \
  D:/code/cpp/gameGngine/include/VertexBuffer.h \
@@ -369,4 +420,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj: \
  D:/code/cpp/gameGngine/include/Shader.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameGngine/include/SubTexture.h
+ D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/include/Renderer.h

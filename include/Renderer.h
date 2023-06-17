@@ -33,14 +33,20 @@ namespace GameEngine
         static void drawQuad(const glm::vec2& position, const glm::vec2& size, const glm::vec4& color);
         //預約批量渲染四邊形(含z軸)，支援color
         static void drawQuad(const glm::vec3& position, const glm::vec2& size, const glm::vec4& color);
+
+        static void drawQuad(const glm::mat4& transform, const glm::vec4& color);
         //預約批量渲染四邊形(無z軸)，支援texture
         static void drawQuad(const glm::vec2& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
         //預約批量渲染四邊形(含z軸)，支援texture
         static void drawQuad(const glm::vec3& position, const glm::vec2& size, Texture* texture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        
+        static void drawQuad(const glm::mat4& transform, Texture* texture, const glm::vec4& maskColor);
         //預約批量渲染四邊形(無z軸)，支援Subtexture
         static void drawQuad(const glm::vec2& position, const glm::vec2& size, SubTexture* subTexture, const glm::vec4& maskColor = glm::vec4(1.0f));
         //預約批量渲染四邊形(含z軸)，支援Subtexture
         static void drawQuad(const glm::vec3& position, const glm::vec2& size, SubTexture* subTexture, const glm::vec4& maskColor = glm::vec4(1.0f));
+        
+        static void drawQuad(const glm::mat4& transform, SubTexture* subTexture, const glm::vec4& maskColor);
         //預約批量渲染可旋轉四邊形(無z軸)，支援color
         //注意座標原點在四邊形中心
         static void drawRotatedQuad(const glm::vec2& position, const glm::vec2& size, float rotation, const glm::vec4& color);

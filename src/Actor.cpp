@@ -1,73 +1,67 @@
 #include "Actor.h"
 
 GameEngine::Actor::Actor()
-    : x(0.0f), y(0.0f), material(nullptr)
+    : entityID()
 {
-    this->mesh = new Mesh(&this->x, &this->y, 0.0f, 0.0f);
+    this->initComponents();
 }
 
-GameEngine::Actor::Actor(float x, float y)
-    : x(x), y(y), material(nullptr)
+GameEngine::Actor::Actor(Actor &other)
+    : entityID(other.entityID)
 {
-    this->mesh = new Mesh(&this->x, &this->y, 0.0f, 0.0f);
 }
 
-GameEngine::Actor::Actor(float x, float y, float width, float height)
-    : x(x), y(y), material(nullptr)
+GameEngine::Actor::Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation)
+    : entityID(entityID)
 {
-    this->mesh = new Mesh(&this->x, &this->y, width, height);
+    this->initComponents(position, scale, rotation);
 }
 
 GameEngine::Actor::~Actor()
 {
-    delete this->material;
-    delete this->mesh;
+}
+
+void GameEngine::Actor::initComponents(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation)
+{
+    this->addComponent<GameEngine::TransformComponent>(position, scale, rotation);
+    this->addComponent<GameEngine::MeshComponent>();
+    this->addComponent<GameEngine::TagComponent>();
 }
 
 void GameEngine::Actor::HandleEvent()
 {
-    return;
 }
 
 void GameEngine::Actor::render()
 {
-    this->mesh->render();
-    return;
 }
 
 void GameEngine::Actor::setPosition(float x, float y)
 {
-    this->x = x;
-    this->y = y;
 }
 
-//==================Character===============================
-
-GameEngine::Character::Character(): Actor()
+void GameEngine::Actor::begin()
 {
-    this->playerInputComponent = new InputComponent();
-    return;
 }
 
-GameEngine::Character::Character(float x, float y): Actor(x, y)
+void GameEngine::Actor::update(const float deltaTime)
 {
-    this->playerInputComponent = new InputComponent();
-    return;
 }
 
-GameEngine::Character::Character(float x, float y, float width, float height): Actor(x, y, width, height)
+GameEngine::Character::Character()
+    : GameEngine::Actor()
 {
-    this->playerInputComponent = new InputComponent();
-    return;
 }
 
 GameEngine::Character::~Character()
 {
-    delete this->playerInputComponent;
-    return;
 }
 
 void GameEngine::Character::setInputEvent()
 {
-    return;
+}
+
+namespace GameEngine
+{
+    Scene* Actor::scene = globalScene;
 }
