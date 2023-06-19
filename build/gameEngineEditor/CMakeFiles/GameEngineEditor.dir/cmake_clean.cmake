@@ -75,6 +75,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/src/EditorScene.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj"

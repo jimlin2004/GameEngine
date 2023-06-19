@@ -661,6 +661,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
@@ -870,6 +871,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/include/GELib.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameGngine/include/Actor.h \
  D:/code/cpp/gameGngine/include/Timestep.h \
@@ -917,9 +919,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
- D:/code/cpp/gameGngine/include/GELib.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
@@ -939,11 +950,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QHeaderView \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qheaderview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
@@ -966,7 +972,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout

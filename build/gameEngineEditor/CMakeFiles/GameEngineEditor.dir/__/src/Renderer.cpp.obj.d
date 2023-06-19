@@ -417,6 +417,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: \
  D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameGngine/include/GELib.h \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h

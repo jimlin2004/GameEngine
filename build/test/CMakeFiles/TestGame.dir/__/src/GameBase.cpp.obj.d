@@ -592,6 +592,7 @@ test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.obj: \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/include/GELib.h \
  D:/code/cpp/gameGngine/include/Graphics.h \
  D:/code/cpp/gameGngine/include/Renderer.h \
  D:/code/cpp/gameGngine/include/Actor.h \

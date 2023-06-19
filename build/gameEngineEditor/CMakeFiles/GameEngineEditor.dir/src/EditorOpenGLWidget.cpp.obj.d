@@ -595,6 +595,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
@@ -820,6 +821,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/include/GELib.h \
  D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameGngine/include/Actor.h \
  D:/code/cpp/gameGngine/include/Timestep.h \

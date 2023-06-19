@@ -13,6 +13,11 @@
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
 #include "AssetFileWidget.h"
+#include "EditorScene.h"
+#include "OutlineTreeWidgetItem.h"
+#include <vector>
+#include "entt.hpp"
+#include "Component/Component.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -34,9 +39,12 @@ private:
     FlowLayout* flowLayout_fileSystemPanel;
     QPixmap* fileSpriteSheet;
     std::filesystem::path currentPath;
+    QTreeWidgetItem* actorLevel;
 
     /*重新刷新File system panel*/
     void resetFileSystemPanel();
+    void resetGameObjectOutline();
+    void clearOutline();
 
 private slots:
     void openProject();

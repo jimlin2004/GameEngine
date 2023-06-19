@@ -11,6 +11,8 @@
 
 namespace GameEngine
 {
+    #define CPP_TO_STRING(word) #word
+
     template<class T>
     const T& max(const T& a, const T& b)
     {

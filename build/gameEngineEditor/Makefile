@@ -1089,6 +1089,30 @@ src/JsonParser.cpp.s:
 	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.s
 .PHONY : src/JsonParser.cpp.s
 
+src/OutlineTreeWidgetItem.obj: src/OutlineTreeWidgetItem.cpp.obj
+.PHONY : src/OutlineTreeWidgetItem.obj
+
+# target to build an object file
+src/OutlineTreeWidgetItem.cpp.obj:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj
+.PHONY : src/OutlineTreeWidgetItem.cpp.obj
+
+src/OutlineTreeWidgetItem.i: src/OutlineTreeWidgetItem.cpp.i
+.PHONY : src/OutlineTreeWidgetItem.i
+
+# target to preprocess a source file
+src/OutlineTreeWidgetItem.cpp.i:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.i
+.PHONY : src/OutlineTreeWidgetItem.cpp.i
+
+src/OutlineTreeWidgetItem.s: src/OutlineTreeWidgetItem.cpp.s
+.PHONY : src/OutlineTreeWidgetItem.s
+
+# target to generate assembly for a file
+src/OutlineTreeWidgetItem.cpp.s:
+	cd /d D:\code\cpp\gameGngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.s
+.PHONY : src/OutlineTreeWidgetItem.cpp.s
+
 src/ProjectParser.obj: src/ProjectParser.cpp.obj
 .PHONY : src/ProjectParser.obj
 
@@ -1288,6 +1312,9 @@ help:
 	@echo ... src/JsonParser.obj
 	@echo ... src/JsonParser.i
 	@echo ... src/JsonParser.s
+	@echo ... src/OutlineTreeWidgetItem.obj
+	@echo ... src/OutlineTreeWidgetItem.i
+	@echo ... src/OutlineTreeWidgetItem.s
 	@echo ... src/ProjectParser.obj
 	@echo ... src/ProjectParser.i
 	@echo ... src/ProjectParser.s

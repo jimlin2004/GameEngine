@@ -551,6 +551,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qhashfunctions.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qiodevicebase.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qiterable.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qiterator.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qjsonarray.h \
@@ -672,8 +673,12 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
@@ -692,6 +697,9 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -700,6 +708,7 @@ D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h \
+  D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
   D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h \

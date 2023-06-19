@@ -424,6 +424,7 @@ test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: \
  D:/code/cpp/gameGngine/include/Texture.h \
  D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameGngine/include/SubTexture.h \
+ D:/code/cpp/gameGngine/include/GELib.h \
  D:/code/cpp/gameGngine/include/GameBase.h \
  D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
  D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \

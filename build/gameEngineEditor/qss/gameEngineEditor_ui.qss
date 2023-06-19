@@ -125,10 +125,6 @@
     background-color: #15181b;
 }
 
-QHeaderView {
-    background-color: #000000;
-}
-
 #treeWidget QHeaderView::section {
     background-color: #000000;
 }

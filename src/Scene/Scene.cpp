@@ -26,6 +26,15 @@ void GameEngine::Scene::render()
     }
 }
 
+std::vector<entt::entity> GameEngine::Scene::getAllActors()
+{
+    auto view = this->registry.view<GameEngine::MeshComponent>();
+    std::vector<entt::entity> entities;
+    for (entt::entity entity: view)
+        entities.push_back(entity);
+    return entities;
+}
+
 namespace GameEngine
 {
     Scene* globalScene = new Scene();

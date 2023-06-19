@@ -7,16 +7,21 @@
 #include "Timestep.h"
 #include "Component/Component.h"
 #include "Renderer.h"
+#include <vector>
+#include <exception>
+#include "GELib.h"
 
 namespace GameEngine
 {
     class Scene
     {
     public:
+        entt::registry registry;
         Scene();
         ~Scene();
         void unpdateScene(const float deltaTime);
         void render();
+        std::vector<entt::entity> getAllActors();
         template<class TActor>
         TActor* spawnActor()
         {
@@ -25,12 +30,19 @@ namespace GameEngine
         }
 
         template<class TActor>
-        TActor* spawnActor(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation)
+        TActor* spawnActor(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName)
         {
-            TActor* obj = new TActor(this->registry.create(), position, scale, rotation);
+            TActor* obj = new TActor(this->registry.create(), position, scale, rotation, actorName, CPP_TO_STRING(T));
             return obj;
         }
-        entt::registry registry;
+
+        template<class T> 
+        T& queryActorComponent(entt::entity entityID)
+        {
+            if (!this->registry.all_of<T>(entityID))
+                throw std::invalid_argument("The actor does not have component");
+            return this->registry.get<T>(entityID);
+        }
     };
 
     //整個遊戲引擎的global pointer，勿修改

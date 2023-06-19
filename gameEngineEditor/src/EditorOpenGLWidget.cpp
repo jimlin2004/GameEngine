@@ -9,7 +9,7 @@ EditorOpenGLWidget::EditorOpenGLWidget(QWidget* parent)
 
 void EditorOpenGLWidget::sceneBegin()
 {
-    EditorScene::addActor<GameEngine::Actor>({100.0f, 100.0f, 1.0f}, {50.0f, 50.0f, 1.0f}, {0.0f, 0.0f, 0.0f});
+    EditorScene::addActor<GameEngine::Actor>({100.0f, 100.0f, 1.0f}, {50.0f, 50.0f, 1.0f}, {0.0f, 0.0f, 0.0f}, "TestActor");
 }
 
 void EditorOpenGLWidget::initializeGL()
@@ -77,4 +77,14 @@ void EditorOpenGLWidget::keyPressEvent(QKeyEvent* event)
     default:
         break;
     }
+}
+
+void EditorOpenGLWidget::mousePressEvent(QMouseEvent *event)
+{
+    qDebug("Click x: %f, y: %f\n", event->position().x(), event->position().y());
+}
+
+void EditorOpenGLWidget::clickGameObject(int x, int y)
+{
+
 }

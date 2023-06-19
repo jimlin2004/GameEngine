@@ -16,11 +16,11 @@ namespace GameEngine
     protected:
         static Scene* scene;
         entt::entity entityID;        
-        virtual void initComponents(const glm::vec3& position = {0.0f, 0.0f, 0.0f}, const glm::vec3& scale = {1.0f, 1.0f, 1.0f}, const glm::vec3& rotation = {0.0f, 0.0f, 0.0f});
+        virtual void initComponents(const glm::vec3& position = {0.0f, 0.0f, 0.0f}, const glm::vec3& scale = {1.0f, 1.0f, 1.0f}, const glm::vec3& rotation = {0.0f, 0.0f, 0.0f}, const std::string& actorName = "gameObject", const std::string& type = "undefind");
     public:
         Actor();
         Actor(Actor& other);
-        Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation);
+        Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& type);
 
         virtual ~Actor();
         virtual void HandleEvent();

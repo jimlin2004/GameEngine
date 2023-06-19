@@ -4,6 +4,7 @@
 #include "GL/glew.h"
 #include <QOpenGLWidget>
 #include <QKeyEvent>
+#include <QMouseEvent>
 
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Renderer.h"
@@ -15,11 +16,13 @@ public:
     EditorOpenGLWidget(QWidget* parent = nullptr);
 private:
     void sceneBegin();
+    void clickGameObject(int x, int y);
 protected:
     void initializeGL() override;
     void resizeGL(int w, int h) override;
     void paintGL() override;
     void keyPressEvent(QKeyEvent* event);
+    void mousePressEvent(QMouseEvent* event);
 };
 
 #endif

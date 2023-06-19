@@ -100,8 +100,12 @@ MainWindow::MainWindow(QWidget *parent)
     _textBrowserPtr = this->ui->textBrowser;
     qInstallMessageHandler(parseEditorMsg);
 
-    this->ui->treeWidget->headerItem()->setText(0, "GameObject");
-    this->ui->treeWidget->headerItem()->setText(1, "Type");
+    // Game Object outline
+    this->ui->treeWidget->headerItem()->setText(0, "Collection");
+    this->ui->treeWidget->headerItem()->setText(1, "");
+    actorLevel = new QTreeWidgetItem(this->ui->treeWidget);
+    actorLevel->setText(0, "Actor");
+    actorLevel->setText(1, "Type");
 
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
@@ -145,6 +149,25 @@ void MainWindow::resetFileSystemPanel()
             assetFileWidget = new AssetFileWidget(filename, this->fileSpriteSheet, FileType::File);
         this->flowLayout_fileSystemPanel->addWidget(assetFileWidget);
         connect(assetFileWidget, &AssetFileWidget::click, this, &MainWindow::filesystemPanel_click);
+    }
+}
+
+void MainWindow::clearOutline()
+{
+
+}
+
+void MainWindow::resetGameObjectOutline()
+{
+    this->clearOutline();
+    std::vector<entt::entity> entities = EditorScene::getAllActors();
+    for (entt::entity entity: entities)
+    {
+        QTreeWidgetItem* item = new QTreeWidgetItem();
+        GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entity);
+        item->setText(0, QString::fromStdString(tagComponent.tagName));
+        item->setText(1, QString::fromStdString(tagComponent.typeName));
+        this->actorLevel->addChild(item);
     }
 }
 

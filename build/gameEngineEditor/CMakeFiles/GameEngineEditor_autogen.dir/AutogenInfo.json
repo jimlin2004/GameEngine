@@ -264,6 +264,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h",
+			"MU",
+			"6YEA5652QU/moc_OutlineTreeWidgetItem.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h",
 			"MU",
 			"6YEA5652QU/moc_ProjectParser.cpp",
@@ -392,6 +398,11 @@
 		],
 		[
 			"D:/code/cpp/gameGngine/gameEngineEditor/src/JsonParser.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameGngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp",
 			"MU",
 			null
 		],

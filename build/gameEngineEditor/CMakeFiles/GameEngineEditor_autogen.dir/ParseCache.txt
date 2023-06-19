@@ -1299,6 +1299,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qhashfunctions.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qiodevicebase.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qiterable.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qiterator.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtCore/qjsonarray.h
@@ -1420,8 +1421,12 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h
@@ -1440,6 +1445,9 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
@@ -1448,6 +1456,7 @@ D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h
+ mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h
  mdp:D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h
@@ -1701,6 +1710,7 @@ D:/code/cpp/gameGngine/third_party/box2d/src/collision/b2_time_of_impact.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_block_allocator.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_math.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_settings.cpp
+D:/code/cpp/gameGngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/common/b2_timer.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_body.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_chain_circle_contact.cpp
@@ -1730,3 +1740,4 @@ D:/code/cpp/gameGngine/third_party/box2d/src/dynamics/b2_world_callbacks.cpp
 D:/code/cpp/gameGngine/third_party/box2d/src/rope/b2_rope.cpp
 D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h
 D:/code/cpp/gameGngine/gameEngineEditor/src/EditorScene.cpp
+D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h

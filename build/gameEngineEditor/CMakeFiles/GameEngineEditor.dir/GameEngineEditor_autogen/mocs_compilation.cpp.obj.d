@@ -926,4 +926,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
- D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h
+ D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h \
+ D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h
