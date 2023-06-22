@@ -32,10 +32,9 @@ namespace GameEngine
     struct TagComponent
     {
         std::string tagName;
-        std::string typeName;
         TagComponent();
         TagComponent(const TagComponent& other);
-        TagComponent(const std::string& tagName, const std::string& typeName);
+        TagComponent(const std::string& tagName);
     };
 }
 

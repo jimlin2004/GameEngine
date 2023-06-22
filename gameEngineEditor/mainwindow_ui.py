@@ -14,7 +14,9 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QGridLayout>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
@@ -28,6 +30,7 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "EditorOpenGLWidget.h"
+#include "QCollapsibleWidget.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -38,15 +41,32 @@ public:
     QAction *actionopen;
     QAction *actioncompile;
     QWidget *centralwidget;
-    QGridLayout *gridLayout_6;
+    QGridLayout *gridLayout;
     EditorOpenGLWidget *openglWidget;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
     QDockWidget *dockWidgetLeft;
     QWidget *dockWidgetContentsLeft;
-    QGridLayout *gridLayout;
+    QVBoxLayout *verticalLayout_5;
     QWidget *wrapWidgetLeft;
+    QVBoxLayout *verticalLayout_2;
+    QScrollArea *scrollArea_detail;
+    QWidget *scrollAreaWidgetContents_detail;
+    QVBoxLayout *verticalLayout_3;
+    QCollapsibleWidget *qCollapsibleWidget;
+    QWidget *contentWidget;
+    QHBoxLayout *horizontalLayout;
+    QLabel *label_x;
+    QLineEdit *lineEdit_x;
+    QLabel *label_y;
+    QLineEdit *lineEdit_y;
+    QLabel *label_z;
+    QLineEdit *lineEdit_z;
+    QCollapsibleWidget *qCollapsibleWidget_2;
+    QWidget *contentWidget_2;
+    QCollapsibleWidget *qCollapsibleWidget_3;
+    QWidget *contentWidget_3;
     QDockWidget *dockWidgetRight;
     QWidget *dockWidgetContentsRight;
     QGridLayout *gridLayout_3;
@@ -87,14 +107,15 @@ public:
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setStyleSheet(QString::fromUtf8(""));
-        gridLayout_6 = new QGridLayout(centralwidget);
-        gridLayout_6->setObjectName("gridLayout_6");
-        gridLayout_6->setContentsMargins(0, 0, 0, 0);
+        gridLayout = new QGridLayout(centralwidget);
+        gridLayout->setSpacing(0);
+        gridLayout->setObjectName("gridLayout");
+        gridLayout->setContentsMargins(0, 0, 0, 0);
         openglWidget = new EditorOpenGLWidget(centralwidget);
         openglWidget->setObjectName("openglWidget");
         openglWidget->setStyleSheet(QString::fromUtf8(""));
 
-        gridLayout_6->addWidget(openglWidget, 0, 0, 1, 1);
+        gridLayout->addWidget(openglWidget, 0, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -114,10 +135,10 @@ public:
         dockWidgetContentsLeft = new QWidget();
         dockWidgetContentsLeft->setObjectName("dockWidgetContentsLeft");
         dockWidgetContentsLeft->setStyleSheet(QString::fromUtf8(""));
-        gridLayout = new QGridLayout(dockWidgetContentsLeft);
-        gridLayout->setSpacing(0);
-        gridLayout->setObjectName("gridLayout");
-        gridLayout->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_5 = new QVBoxLayout(dockWidgetContentsLeft);
+        verticalLayout_5->setSpacing(0);
+        verticalLayout_5->setObjectName("verticalLayout_5");
+        verticalLayout_5->setContentsMargins(0, 0, 0, 0);
         wrapWidgetLeft = new QWidget(dockWidgetContentsLeft);
         wrapWidgetLeft->setObjectName("wrapWidgetLeft");
         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -127,8 +148,81 @@ public:
         wrapWidgetLeft->setSizePolicy(sizePolicy);
         wrapWidgetLeft->setAutoFillBackground(false);
         wrapWidgetLeft->setStyleSheet(QString::fromUtf8(""));
+        verticalLayout_2 = new QVBoxLayout(wrapWidgetLeft);
+        verticalLayout_2->setObjectName("verticalLayout_2");
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        scrollArea_detail = new QScrollArea(wrapWidgetLeft);
+        scrollArea_detail->setObjectName("scrollArea_detail");
+        scrollArea_detail->setWidgetResizable(true);
+        scrollAreaWidgetContents_detail = new QWidget();
+        scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 468, 213));
+        sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
+        scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
+        scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
+        verticalLayout_3 = new QVBoxLayout(scrollAreaWidgetContents_detail);
+        verticalLayout_3->setSpacing(0);
+        verticalLayout_3->setObjectName("verticalLayout_3");
+        verticalLayout_3->setContentsMargins(0, 0, 0, 0);
+        qCollapsibleWidget = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget->setObjectName("qCollapsibleWidget");
+        contentWidget = new QWidget(qCollapsibleWidget);
+        contentWidget->setObjectName("contentWidget");
+        horizontalLayout = new QHBoxLayout(contentWidget);
+        horizontalLayout->setObjectName("horizontalLayout");
+        label_x = new QLabel(contentWidget);
+        label_x->setObjectName("label_x");
 
-        gridLayout->addWidget(wrapWidgetLeft, 0, 0, 1, 1);
+        horizontalLayout->addWidget(label_x);
+
+        lineEdit_x = new QLineEdit(contentWidget);
+        lineEdit_x->setObjectName("lineEdit_x");
+
+        horizontalLayout->addWidget(lineEdit_x);
+
+        label_y = new QLabel(contentWidget);
+        label_y->setObjectName("label_y");
+
+        horizontalLayout->addWidget(label_y);
+
+        lineEdit_y = new QLineEdit(contentWidget);
+        lineEdit_y->setObjectName("lineEdit_y");
+
+        horizontalLayout->addWidget(lineEdit_y);
+
+        label_z = new QLabel(contentWidget);
+        label_z->setObjectName("label_z");
+
+        horizontalLayout->addWidget(label_z);
+
+        lineEdit_z = new QLineEdit(contentWidget);
+        lineEdit_z->setObjectName("lineEdit_z");
+
+        horizontalLayout->addWidget(lineEdit_z);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget);
+
+        qCollapsibleWidget_2 = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_2->setObjectName("qCollapsibleWidget_2");
+        contentWidget_2 = new QWidget(qCollapsibleWidget_2);
+        contentWidget_2->setObjectName("contentWidget_2");
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_2);
+
+        qCollapsibleWidget_3 = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_3->setObjectName("qCollapsibleWidget_3");
+        contentWidget_3 = new QWidget(qCollapsibleWidget_3);
+        contentWidget_3->setObjectName("contentWidget_3");
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_3);
+
+        scrollArea_detail->setWidget(scrollAreaWidgetContents_detail);
+
+        verticalLayout_2->addWidget(scrollArea_detail);
+
+
+        verticalLayout_5->addWidget(wrapWidgetLeft);
 
         dockWidgetLeft->setWidget(dockWidgetContentsLeft);
         MainWindow->addDockWidget(Qt::LeftDockWidgetArea, dockWidgetLeft);
@@ -144,7 +238,9 @@ public:
         wrapWidgetRight = new QWidget(dockWidgetContentsRight);
         wrapWidgetRight->setObjectName("wrapWidgetRight");
         gridLayout_7 = new QGridLayout(wrapWidgetRight);
+        gridLayout_7->setSpacing(0);
         gridLayout_7->setObjectName("gridLayout_7");
+        gridLayout_7->setContentsMargins(0, 0, 0, 0);
         treeWidget = new QTreeWidget(wrapWidgetRight);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
         __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
@@ -162,13 +258,12 @@ public:
         MainWindow->addDockWidget(Qt::RightDockWidgetArea, dockWidgetRight);
         dockWidgetBottom = new QDockWidget(MainWindow);
         dockWidgetBottom->setObjectName("dockWidgetBottom");
-        dockWidgetBottom->setMinimumSize(QSize(145, 167));
+        dockWidgetBottom->setMinimumSize(QSize(145, 179));
         dockWidgetBottom->setStyleSheet(QString::fromUtf8(""));
         dockWidgetContentsBottom = new QWidget();
         dockWidgetContentsBottom->setObjectName("dockWidgetContentsBottom");
         dockWidgetContentsBottom->setStyleSheet(QString::fromUtf8(""));
         gridLayout_2 = new QGridLayout(dockWidgetContentsBottom);
-        gridLayout_2->setSpacing(0);
         gridLayout_2->setObjectName("gridLayout_2");
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         wrapWidgetBottom = new QWidget(dockWidgetContentsBottom);
@@ -249,6 +344,10 @@ public:
         actioncompile->setText(QCoreApplication::translate("MainWindow", "compile", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
+        qCollapsibleWidget->setTitle(QCoreApplication::translate("MainWindow", "Tranform", nullptr));
+        label_x->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_z->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));

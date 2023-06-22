@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj: \
- D:\code\cpp\gameGngine\gameEngineEditor\src\AssetFileWidget.cpp \
- D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h \
+ D:\code\cpp\gameEngine\gameEngineEditor\src\AssetFileWidget.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -381,5 +381,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
- D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
- D:/code/cpp/gameGngine/include/GELib.h
+ D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
+ D:/code/cpp/gameEngine/include/GELib.h

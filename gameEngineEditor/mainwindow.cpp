@@ -102,11 +102,15 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Game Object outline
     this->ui->treeWidget->headerItem()->setText(0, "Collection");
-    this->ui->treeWidget->headerItem()->setText(1, "");
     actorLevel = new QTreeWidgetItem(this->ui->treeWidget);
     actorLevel->setText(0, "Actor");
-    actorLevel->setText(1, "Type");
 
+    connect(this->ui->openglWidget, &EditorOpenGLWidget::resetGameObjectOutline, this, &MainWindow::resetGameObjectOutline);
+    connect(this->ui->treeWidget, &QTreeWidget::itemClicked, this, &MainWindow::getTreeWigetItemInfo);
+    
+    this->ui->scrollAreaWidgetContents_detail->layout()->setAlignment(Qt::AlignTop);
+    this->ui->dockWidgetContentsLeft->resize(100, this->ui->dockWidgetLeft->height());
+    this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->dockWidgetLeft->width()}, Qt::Horizontal);
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
     // timer->start(41); //24fps
@@ -157,16 +161,23 @@ void MainWindow::clearOutline()
 
 }
 
+void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
+{
+    OutlineTreeWidgetItem* outlineItem = dynamic_cast<OutlineTreeWidgetItem*>(item);
+    if (outlineItem != nullptr)
+        outlineItem->click();
+}
+
 void MainWindow::resetGameObjectOutline()
 {
     this->clearOutline();
     std::vector<entt::entity> entities = EditorScene::getAllActors();
     for (entt::entity entity: entities)
     {
-        QTreeWidgetItem* item = new QTreeWidgetItem();
+        OutlineTreeWidgetItem* item = new OutlineTreeWidgetItem();
         GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entity);
         item->setText(0, QString::fromStdString(tagComponent.tagName));
-        item->setText(1, QString::fromStdString(tagComponent.typeName));
+        item->setEntityID(entity);
         this->actorLevel->addChild(item);
     }
 }
@@ -178,8 +189,8 @@ void MainWindow::openProject()
     this->currentPath = this->projectParser->getProjectDirname();
     this->currentPath /= "content";
     this->resetFileSystemPanel();
-    qDebug("Load project success\n");
-    qDebug("Current project: %s\n", this->projectParser->getProjectName().c_str());
+    qDebug("Load project success.\n");
+    qDebug("Current project: %s.\n", this->projectParser->getProjectName().c_str());
 }
 
 void MainWindow::filesystemPanel_click()

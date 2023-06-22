@@ -43,15 +43,15 @@ private:
 
     /*重新刷新File system panel*/
     void resetFileSystemPanel();
-    void resetGameObjectOutline();
     void clearOutline();
-
 private slots:
     void openProject();
     void filesystemPanel_click();
     /*用於clear all item in flowLayout*/
     void clearFileSystemPanel();
     void parseOutput();
+    void resetGameObjectOutline();
+    void getTreeWigetItemInfo(QTreeWidgetItem* item, int column);
 };
 
 #endif // MAINWINDOW_H

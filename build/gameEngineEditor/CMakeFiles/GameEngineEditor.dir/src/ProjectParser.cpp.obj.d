@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj: \
- D:\code\cpp\gameGngine\gameEngineEditor\src\ProjectParser.cpp \
- D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h \
+ D:\code\cpp\gameEngine\gameEngineEditor\src\ProjectParser.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
  D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
@@ -328,7 +328,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/qset.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qhash.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
- D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonObject \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonobject.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \

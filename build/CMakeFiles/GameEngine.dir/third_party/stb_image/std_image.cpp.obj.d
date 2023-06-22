@@ -1,6 +1,6 @@
 CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj: \
- D:\code\cpp\gameGngine\third_party\stb_image\std_image.cpp \
- D:\code\cpp\gameGngine\third_party\stb_image\stb_image.h \
+ D:\code\cpp\gameEngine\third_party\stb_image\std_image.cpp \
+ D:\code\cpp\gameEngine\third_party\stb_image\stb_image.h \
  C:/PROGRA~1/msys64/mingw64/include/stdio.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \

@@ -1,6 +1,6 @@
 CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: \
- D:\code\cpp\gameGngine\src\Shader.cpp \
- D:/code/cpp/gameGngine/include/Shader.h \
+ D:\code\cpp\gameEngine\src\Shader.cpp \
+ D:/code/cpp/gameEngine/include/Shader.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -102,12 +102,12 @@ CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
- D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
+ D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameGngine/third_party/glm/glm.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/_fixes.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/glm.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
  C:/PROGRA~1/msys64/mingw64/include/math.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
@@ -124,147 +124,147 @@ CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
- D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
  C:/PROGRA~1/msys64/mingw64/include/assert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
- D:/code/cpp/gameGngine/third_party/glm/simd/platform.h \
+ D:/code/cpp/gameEngine/third_party/glm/simd/platform.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/climits \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cfloat \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/float.h \
- D:/code/cpp/gameGngine/third_party/glm/fwd.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/qualifier.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameGngine/third_party/glm/vec2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec2.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/compute_vector_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int2_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/scalar_int_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint2_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/scalar_uint_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/vec3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec3.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int3_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint3_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/vec4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec4.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_bool4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_float4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_double4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_int4_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_uint4_sized.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat2x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x2.inl \
- D:/code/cpp/gameGngine/third_party/glm/matrix.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat2x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x3.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat2x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat2x4.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat3x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x2.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat3x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x3.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat3x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat3x4.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double3x4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float3x4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat4x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x2.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat4x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x3.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x3.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x3_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/mat4x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_mat4x4.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double4x4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x4.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float4x4_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_matrix.inl \
- D:/code/cpp/gameGngine/third_party/glm/geometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_geometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/exponential.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec1.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_vec1.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_exponential.inl \
- D:/code/cpp/gameGngine/third_party/glm/vector_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_vector_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/_vectorize.hpp \
- D:/code/cpp/gameGngine/third_party/glm/common.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_common.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/compute_common.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_double2x2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x2.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_float2x2_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/trigonometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_trigonometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/packing.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_packing.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_half.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_half.inl \
- D:/code/cpp/gameGngine/third_party/glm/integer.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameGngine/include/GameEngineAPI/GameEngineAPI.h \
+ D:/code/cpp/gameEngine/third_party/glm/fwd.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/qualifier.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/vec2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec2.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/compute_vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int2_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/scalar_int_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint2_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/scalar_uint_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/vec3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec3.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int3_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint3_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/vec4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec4.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int4_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint4_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat2x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double2x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat2x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat2x2.inl \
+ D:/code/cpp/gameEngine/third_party/glm/matrix.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat2x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double2x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat2x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat2x3.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double2x3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float2x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float2x3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat2x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double2x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat2x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat2x4.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double2x4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float2x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float2x4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat3x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double3x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat3x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat3x2.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double3x2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float3x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float3x2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat3x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double3x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat3x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat3x3.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double3x3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float3x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float3x3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat3x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double3x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat3x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat3x4.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double3x4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float3x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float3x4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat4x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double4x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat4x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat4x2.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double4x2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float4x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float4x2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat4x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double4x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat4x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat4x3.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double4x3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float4x3.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float4x3_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/mat4x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double4x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat4x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_mat4x4.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double4x4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float4x4.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float4x4_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_matrix.inl \
+ D:/code/cpp/gameEngine/third_party/glm/geometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_geometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/exponential.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_vec1.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_exponential.inl \
+ D:/code/cpp/gameEngine/third_party/glm/vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_vector_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/_vectorize.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_common.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/compute_common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_double2x2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float2x2.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_float2x2_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/trigonometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_trigonometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/packing.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_packing.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_half.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_half.inl \
+ D:/code/cpp/gameEngine/third_party/glm/integer.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/func_integer.inl \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_function.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/typeinfo \
@@ -280,14 +280,14 @@ CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
- D:/code/cpp/gameGngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
+ D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
- D:/code/cpp/gameGngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameGngine/include/ShaderManager.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
+ D:/code/cpp/gameEngine/include/ShaderManager.h \
+ D:/code/cpp/gameEngine/include/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
@@ -338,22 +338,22 @@ CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- D:/code/cpp/gameGngine/include/CameraController.h \
- D:/code/cpp/gameGngine/include/Camera.h \
- D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.hpp \
- D:/code/cpp/gameGngine/third_party/glm/gtc/constants.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/scalar_constants.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/scalar_constants.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/constants.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_projection.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_clip_space.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_clip_space.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/matrix_transform.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameGngine/include/Scene/Scene.h \
- D:/code/cpp/gameGngine/third_party/entt/include/entt.hpp \
+ D:/code/cpp/gameEngine/include/CameraController.h \
+ D:/code/cpp/gameEngine/include/Camera.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/constants.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/scalar_constants.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/scalar_constants.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/constants.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_clip_space.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_clip_space.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.inl \
+ D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
@@ -386,39 +386,39 @@ CMakeFiles/GameEngine.dir/src/Shader.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameGngine/include/Timestep.h \
- D:/code/cpp/gameGngine/include/Component/Component.h \
- D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/vector_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_float.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_geometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_common.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_relational.inl \
- D:/code/cpp/gameGngine/third_party/glm/detail/type_quat.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_float_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_double_precision.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_trigonometric.inl \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.hpp \
- D:/code/cpp/gameGngine/third_party/glm/ext/quaternion_transform.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/quaternion.inl \
- D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.hpp \
- D:/code/cpp/gameGngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameGngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameGngine/include/Renderer.h \
- D:/code/cpp/gameGngine/include/VertexArray.h \
- D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
- D:/code/cpp/gameGngine/include/IndexBuffer.h \
- D:/code/cpp/gameGngine/include/Shader.h \
- D:/code/cpp/gameGngine/include/Texture.h \
- D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameGngine/include/SubTexture.h \
- D:/code/cpp/gameGngine/include/GELib.h
+ D:/code/cpp/gameEngine/include/Timestep.h \
+ D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/include/Renderer.h \
+ D:/code/cpp/gameEngine/include/VertexArray.h \
+ D:/code/cpp/gameEngine/include/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Shader.h \
+ D:/code/cpp/gameEngine/include/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/include/SubTexture.h \
+ D:/code/cpp/gameEngine/include/GELib.h

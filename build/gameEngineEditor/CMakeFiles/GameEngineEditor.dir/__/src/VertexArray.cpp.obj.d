@@ -1,8 +1,8 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: \
- D:\code\cpp\gameGngine\src\VertexArray.cpp \
- D:/code/cpp/gameGngine/include/VertexArray.h \
- D:/code/cpp/gameGngine/include/VertexBuffer.h \
- D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
+ D:\code\cpp\gameEngine\src\VertexArray.cpp \
+ D:/code/cpp/gameEngine/include/VertexArray.h \
+ D:/code/cpp/gameEngine/include/VertexBuffer.h \
+ D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
@@ -17,7 +17,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \

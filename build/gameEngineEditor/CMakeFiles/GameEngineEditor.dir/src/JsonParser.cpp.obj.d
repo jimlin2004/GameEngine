@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj: \
- D:\code\cpp\gameGngine\gameEngineEditor\src\JsonParser.cpp \
- D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h \
+ D:\code\cpp\gameEngine\gameEngineEditor\src\JsonParser.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QJsonObject \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonobject.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \

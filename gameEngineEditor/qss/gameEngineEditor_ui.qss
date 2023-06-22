@@ -128,3 +128,19 @@
 #treeWidget QHeaderView::section {
     background-color: #000000;
 }
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail
+{
+    background-color: #15181b;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail QLabel
+{
+    color: #ffffff;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QPushButton
+{
+    color: #ffffff;
+    background-color: #000000;
+}

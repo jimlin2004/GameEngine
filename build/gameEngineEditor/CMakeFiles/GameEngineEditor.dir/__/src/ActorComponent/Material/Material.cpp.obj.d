@@ -1,2 +1,2 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Material/Material.cpp.obj: \
- D:\code\cpp\gameGngine\src\ActorComponent\Material\Material.cpp
+ D:\code\cpp\gameEngine\src\ActorComponent\Material\Material.cpp

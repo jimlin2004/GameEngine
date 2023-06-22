@@ -11,21 +11,21 @@ GameEngine::Actor::Actor(Actor &other)
 {
 }
 
-GameEngine::Actor::Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& type)
+GameEngine::Actor::Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName)
     : entityID(entityID)
 {
-    this->initComponents(position, scale, rotation, actorName, type);
+    this->initComponents(position, scale, rotation, actorName);
 }
 
 GameEngine::Actor::~Actor()
 {
 }
 
-void GameEngine::Actor::initComponents(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& type)
+void GameEngine::Actor::initComponents(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName)
 {
     this->addComponent<GameEngine::TransformComponent>(position, scale, rotation);
     this->addComponent<GameEngine::MeshComponent>();
-    this->addComponent<GameEngine::TagComponent>(actorName, type);
+    this->addComponent<GameEngine::TagComponent>(actorName);
 }
 
 void GameEngine::Actor::HandleEvent()

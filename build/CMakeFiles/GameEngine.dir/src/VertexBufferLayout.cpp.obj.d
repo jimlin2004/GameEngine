@@ -1,6 +1,6 @@
 CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj: \
- D:\code\cpp\gameGngine\src\VertexBufferLayout.cpp \
- D:/code/cpp/gameGngine/include/VertexBufferLayout.h \
+ D:\code\cpp\gameEngine\src\VertexBufferLayout.cpp \
+ D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -45,7 +45,7 @@ CMakeFiles/GameEngine.dir/src/VertexBufferLayout.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
- D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
+ D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \

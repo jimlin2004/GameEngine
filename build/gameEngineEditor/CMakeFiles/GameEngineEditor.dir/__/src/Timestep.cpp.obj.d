@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: \
- D:\code\cpp\gameGngine\src\Timestep.cpp \
- D:/code/cpp/gameGngine/include/Timestep.h \
+ D:\code\cpp\gameEngine\src\Timestep.cpp \
+ D:/code/cpp/gameEngine/include/Timestep.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \

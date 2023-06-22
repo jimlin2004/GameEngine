@@ -5,7 +5,12 @@ OutlineTreeWidgetItem::OutlineTreeWidgetItem()
 {
 }
 
-void OutlineTreeWidgetItem::setEntityID(std::uint32_t ID)
+void OutlineTreeWidgetItem::setEntityID(entt::entity ID)
 {
     this->entityID = ID;
+}
+
+void OutlineTreeWidgetItem::click()
+{
+    qDebug("ID: %u\n", this->entityID);
 }

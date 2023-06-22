@@ -1,7 +1,7 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: \
- D:\code\cpp\gameGngine\src\ShaderManager.cpp \
- D:/code/cpp/gameGngine/include/ShaderManager.h \
- D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
+ D:\code\cpp\gameEngine\src\ShaderManager.cpp \
+ D:/code/cpp/gameEngine/include/ShaderManager.h \
+ D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
@@ -16,7 +16,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameGngine/include/GameObject.h \
+ D:/code/cpp/gameEngine/include/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \

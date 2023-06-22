@@ -2,18 +2,21 @@
 #define OUTLINE_TREE_WIDGET_ITEM_H
 
 #include <QTreeWidget>
+#include <entt.hpp>
 
 class OutlineTreeWidgetItem: public QTreeWidgetItem
 {
 public:
     OutlineTreeWidgetItem();
-    void setEntityID(std::uint32_t ID);
-    inline std::uint32_t getEntityID() const
+    void setEntityID(entt::entity ID);
+    inline entt::entity getEntityID() const
     {
         return this->entityID;
     }
+    void click();
 private:
-    std::uint32_t entityID;
+    entt::entity entityID;
+protected:
 };
 
 #endif

@@ -33,18 +33,15 @@ GameEngine::MeshComponent::MeshComponent(const glm::vec4 &color)
 
 GameEngine::TagComponent::TagComponent()
     : tagName("GameObject")
-    , typeName("undefind")
 {
 }
 
 GameEngine::TagComponent::TagComponent(const TagComponent &other)
     : tagName(other.tagName)
-    , typeName(other.typeName)
 {
 }
 
-GameEngine::TagComponent::TagComponent(const std::string &tagName, const std::string& typeName)
+GameEngine::TagComponent::TagComponent(const std::string &tagName)
     : tagName(tagName)
-    , typeName(typeName)
 {
 }

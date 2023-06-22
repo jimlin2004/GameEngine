@@ -1,7 +1,7 @@
 CMakeFiles/GameEngine.dir/src/Texture.cpp.obj: \
- D:\code\cpp\gameGngine\src\Texture.cpp \
- D:/code/cpp/gameGngine/include/Texture.h \
- D:/code/cpp/gameGngine/third_party/stb_image/stb_image.h \
+ D:\code\cpp\gameEngine\src\Texture.cpp \
+ D:/code/cpp/gameEngine/include/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  C:/PROGRA~1/msys64/mingw64/include/stdio.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
@@ -28,7 +28,7 @@ CMakeFiles/GameEngine.dir/src/Texture.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
  C:/PROGRA~1/msys64/mingw64/include/errno.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
- D:/code/cpp/gameGngine/third_party/opengl/glew/include/GL/glew.h \
+ D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/stdint.h \

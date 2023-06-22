@@ -79,6 +79,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.obj"

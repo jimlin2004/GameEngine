@@ -10,6 +10,7 @@
 #include <vector>
 #include <exception>
 #include "GELib.h"
+#include <typeinfo>
 
 namespace GameEngine
 {
@@ -32,7 +33,7 @@ namespace GameEngine
         template<class TActor>
         TActor* spawnActor(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName)
         {
-            TActor* obj = new TActor(this->registry.create(), position, scale, rotation, actorName, CPP_TO_STRING(T));
+            TActor* obj = new TActor(this->registry.create(), position, scale, rotation, actorName);
             return obj;
         }
 

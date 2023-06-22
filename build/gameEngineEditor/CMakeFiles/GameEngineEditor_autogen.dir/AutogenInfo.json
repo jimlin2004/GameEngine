@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen",
-	"CMAKE_BINARY_DIR" : "D:/code/cpp/gameGngine/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/code/cpp/gameGngine/build/gameEngineEditor",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/code/cpp/gameGngine/gameEngineEditor",
+	"BUILD_DIR" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen",
+	"CMAKE_BINARY_DIR" : "D:/code/cpp/gameEngine/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/code/cpp/gameEngine/build/gameEngineEditor",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/code/cpp/gameEngine/gameEngineEditor",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/code/cpp/gameGngine/gameEngineEditor/CMakeLists.txt",
+		"D:/code/cpp/gameEngine/gameEngineEditor/CMakeLists.txt",
 		"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -234,69 +234,75 @@
 		"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessTargets.cmake",
 		"C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/code/cpp/gameGngine",
+	"CMAKE_SOURCE_DIR" : "D:/code/cpp/gameEngine",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/AssetFileWidget.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h",
 			"MU",
 			"6YEA5652QU/moc_AssetFileWidget.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/EditorOpenGLWidget.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h",
 			"MU",
 			"6YEA5652QU/moc_EditorOpenGLWidget.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/EditorScene.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h",
 			"MU",
 			"6YEA5652QU/moc_EditorScene.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/JsonParser.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h",
 			"MU",
 			"6YEA5652QU/moc_JsonParser.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/OutlineTreeWidgetItem.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h",
 			"MU",
 			"6YEA5652QU/moc_OutlineTreeWidgetItem.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/ProjectParser.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h",
 			"MU",
 			"6YEA5652QU/moc_ProjectParser.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/QCollapsibleWidget.h",
+			"MU",
+			"6YEA5652QU/moc_QCollapsibleWidget.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h",
 			"MU",
 			"6YEA5652QU/moc_WordWrapLabel.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/include/flowlayout.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/flowlayout.h",
 			"MU",
 			"6YEA5652QU/moc_flowlayout.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.h",
+			"D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -321,14 +327,14 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"D:/code/cpp/gameGngine/include",
-		"D:/code/cpp/gameGngine/third_party/box2d/include",
-		"D:/code/cpp/gameGngine/third_party/opengl/glew/include",
-		"D:/code/cpp/gameGngine/third_party/SDL2/x86_64-w64-mingw32/include",
-		"D:/code/cpp/gameGngine/third_party/entt/include",
-		"D:/code/cpp/gameGngine/third_party",
-		"D:/code/cpp/gameGngine/gameEngineEditor",
-		"D:/code/cpp/gameGngine/gameEngineEditor/include",
+		"D:/code/cpp/gameEngine/include",
+		"D:/code/cpp/gameEngine/third_party/box2d/include",
+		"D:/code/cpp/gameEngine/third_party/opengl/glew/include",
+		"D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include",
+		"D:/code/cpp/gameEngine/third_party/entt/include",
+		"D:/code/cpp/gameEngine/third_party",
+		"D:/code/cpp/gameEngine/gameEngineEditor",
+		"D:/code/cpp/gameEngine/gameEngineEditor/include",
 		"D:/QT/6.4.2/mingw_64/include/QtZlib",
 		"D:/QT/6.4.2/mingw_64/include/QtWidgets",
 		"D:/QT/6.4.2/mingw_64/include",
@@ -362,117 +368,122 @@
 		"-c",
 		"C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/code/cpp/gameGngine/build/gameEngineEditor/GameEngineEditor_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "D:/code/cpp/gameGngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "D:/QT/6.4.2/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "D:/QT/6.4.2/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
-	"SETTINGS_FILE" : "D:/code/cpp/gameGngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/editorEntryPoint.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/editorEntryPoint.cpp",
 			"MU",
 			null
 		],
-		[ "D:/code/cpp/gameGngine/gameEngineEditor/mainwindow.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.cpp", "MU", null ],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/AssetFileWidget.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/EditorOpenGLWidget.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/EditorScene.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/EditorOpenGLWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/JsonParser.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/EditorScene.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/JsonParser.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/ProjectParser.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/WordWrapLabel.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/ProjectParser.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/gameEngineEditor/src/flowlayout.cpp",
-			"MU",
-			null
-		],
-		[ "D:/code/cpp/gameGngine/src/Actor.cpp", "MU", null ],
-		[
-			"D:/code/cpp/gameGngine/src/ActorComponent/Component/Component.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/QCollapsibleWidget.cpp",
 			"MU",
 			null
 		],
 		[
-			"D:/code/cpp/gameGngine/src/ActorComponent/Material/Material.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/WordWrapLabel.cpp",
 			"MU",
 			null
 		],
-		[ "D:/code/cpp/gameGngine/src/ActorComponent/Mesh/Mesh.cpp", "MU", null ],
 		[
-			"D:/code/cpp/gameGngine/src/ActorComponent/inputComponent/InputComponent.cpp",
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/flowlayout.cpp",
 			"MU",
 			null
 		],
-		[ "D:/code/cpp/gameGngine/src/Camera.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/CameraController.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/DataStruct/BST/BST.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/DataStruct/Vector/Vector.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/EventSystem.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/FSM.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/GELib.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Actor.cpp", "MU", null ],
 		[
-			"D:/code/cpp/gameGngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp",
+			"D:/code/cpp/gameEngine/src/ActorComponent/Component/Component.cpp",
 			"MU",
 			null
 		],
-		[ "D:/code/cpp/gameGngine/src/GameEngineAPI/ConsoleApi.cpp", "MU", null ],
 		[
-			"D:/code/cpp/gameGngine/src/GameEngineAPI/GameEngineAPI.cpp",
+			"D:/code/cpp/gameEngine/src/ActorComponent/Material/Material.cpp",
 			"MU",
 			null
 		],
-		[ "D:/code/cpp/gameGngine/src/GameObject.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Graphics.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/IndexBuffer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Renderer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Scene/Scene.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Scene/SceneGraph.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Shader.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/ShaderManager.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/SubTexture.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Texture.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/Timestep.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/VertexArray.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/VertexBuffer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/VertexBufferLayout.cpp", "MU", null ],
-		[ "D:/code/cpp/gameGngine/src/physics/boundingBox/AABB.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/ActorComponent/Mesh/Mesh.cpp", "MU", null ],
 		[
-			"D:/code/cpp/gameGngine/third_party/stb_image/std_image.cpp",
+			"D:/code/cpp/gameEngine/src/ActorComponent/inputComponent/InputComponent.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameEngine/src/Camera.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/CameraController.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/DataStruct/BST/BST.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/DataStruct/Vector/Vector.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/EventSystem.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/FSM.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/GELib.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameEngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameEngine/src/GameEngineAPI/ConsoleApi.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameEngine/src/GameEngineAPI/GameEngineAPI.cpp",
+			"MU",
+			null
+		],
+		[ "D:/code/cpp/gameEngine/src/GameObject.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Graphics.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/IndexBuffer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Renderer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Scene/Scene.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Shader.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/ShaderManager.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/SubTexture.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Texture.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Timestep.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/VertexArray.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/VertexBuffer.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/VertexBufferLayout.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/physics/boundingBox/AABB.cpp", "MU", null ],
+		[
+			"D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp",
 			"MU",
 			null
 		]

@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj: \
- D:\code\cpp\gameGngine\gameEngineEditor\src\WordWrapLabel.cpp \
- D:/code/cpp/gameGngine/gameEngineEditor/include/WordWrapLabel.h \
+ D:\code\cpp\gameEngine\gameEngineEditor\src\WordWrapLabel.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

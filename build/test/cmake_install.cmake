@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/cpp/gameGngine/Test
+# Install script for directory: D:/code/cpp/gameEngine/Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

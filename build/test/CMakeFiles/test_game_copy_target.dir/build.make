@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\cpp\gameGngine
+CMAKE_SOURCE_DIR = D:\code\cpp\gameEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\cpp\gameGngine\build
+CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\build
 
 # Utility rule file for test_game_copy_target.
 
@@ -68,12 +68,12 @@ include test/CMakeFiles/test_game_copy_target.dir/progress.make
 test/CMakeFiles/test_game_copy_target: test/copy_assets
 
 test/copy_assets: test/always_rebuild
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating copy_assets"
-	cd /d D:\code\cpp\gameGngine\build\test && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/code/cpp/gameGngine/assets D:/code/cpp/gameGngine/build/test/assets
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating copy_assets"
+	cd /d D:\code\cpp\gameEngine\build\test && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/code/cpp/gameEngine/assets D:/code/cpp/gameEngine/build/test/assets
 
 test/always_rebuild:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating always_rebuild"
-	cd /d D:\code\cpp\gameGngine\build\test && cmake -E echo "copy files"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating always_rebuild"
+	cd /d D:\code\cpp\gameEngine\build\test && cmake -E echo "copy files"
 
 test_game_copy_target: test/CMakeFiles/test_game_copy_target
 test_game_copy_target: test/always_rebuild
@@ -86,10 +86,10 @@ test/CMakeFiles/test_game_copy_target.dir/build: test_game_copy_target
 .PHONY : test/CMakeFiles/test_game_copy_target.dir/build
 
 test/CMakeFiles/test_game_copy_target.dir/clean:
-	cd /d D:\code\cpp\gameGngine\build\test && $(CMAKE_COMMAND) -P CMakeFiles\test_game_copy_target.dir\cmake_clean.cmake
+	cd /d D:\code\cpp\gameEngine\build\test && $(CMAKE_COMMAND) -P CMakeFiles\test_game_copy_target.dir\cmake_clean.cmake
 .PHONY : test/CMakeFiles/test_game_copy_target.dir/clean
 
 test/CMakeFiles/test_game_copy_target.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameGngine D:\code\cpp\gameGngine\Test D:\code\cpp\gameGngine\build D:\code\cpp\gameGngine\build\test D:\code\cpp\gameGngine\build\test\CMakeFiles\test_game_copy_target.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameEngine D:\code\cpp\gameEngine\Test D:\code\cpp\gameEngine\build D:\code\cpp\gameEngine\build\test D:\code\cpp\gameEngine\build\test\CMakeFiles\test_game_copy_target.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test_game_copy_target.dir/depend
 

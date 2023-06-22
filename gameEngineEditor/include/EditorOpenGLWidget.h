@@ -12,11 +12,14 @@
 
 class EditorOpenGLWidget: public QOpenGLWidget
 {
+    Q_OBJECT
 public:
     EditorOpenGLWidget(QWidget* parent = nullptr);
 private:
     void sceneBegin();
     void clickGameObject(int x, int y);
+signals:
+    void resetGameObjectOutline();
 protected:
     void initializeGL() override;
     void resizeGL(int w, int h) override;

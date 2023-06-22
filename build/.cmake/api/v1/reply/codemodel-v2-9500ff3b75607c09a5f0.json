@@ -1,0 +1,165 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-960133f95caeb79c0b91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Test",
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"build" : "gameEngineEditor",
+					"jsonFile" : "directory-gameEngineEditor-Debug-c8d5328faea5692ec89d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "gameEngineEditor",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GameEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TestGame",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "GameEngineEditor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GameEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameEngine-Debug-2b5b4be7c132da83dea7.json",
+					"name" : "GameEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "GameEngineEditor::@486440c6d36e087699f8",
+					"jsonFile" : "target-GameEngineEditor-Debug-8c3c3b17d6241f55abb2.json",
+					"name" : "GameEngineEditor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "GameEngineEditor_autogen::@486440c6d36e087699f8",
+					"jsonFile" : "target-GameEngineEditor_autogen-Debug-40f32d7db5ee3918424b.json",
+					"name" : "GameEngineEditor_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TestGame::@36f028580bb02cc8272a",
+					"jsonFile" : "target-TestGame-Debug-7a7baad1a5cfe062f1c9.json",
+					"name" : "TestGame",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gameEngineEditor_copy_target::@486440c6d36e087699f8",
+					"jsonFile" : "target-gameEngineEditor_copy_target-Debug-4250eb4b49d172beaeed.json",
+					"name" : "gameEngineEditor_copy_target",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_game_copy_target::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_game_copy_target-Debug-53358bfec10bc07eece4.json",
+					"name" : "test_game_copy_target",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/code/cpp/gameEngine/build",
+		"source" : "D:/code/cpp/gameEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,3 +1,3 @@
 CMakeFiles/GameEngine.dir/src/GameObject.cpp.obj: \
- D:\code\cpp\gameGngine\src\GameObject.cpp \
- D:/code/cpp/gameGngine/include/GameObject.h
+ D:\code\cpp\gameEngine\src\GameObject.cpp \
+ D:/code/cpp/gameEngine/include/GameObject.h

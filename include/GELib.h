@@ -3,16 +3,18 @@
 
 #include <time.h>
 #include <stdlib.h>
+#include <string>
 
 /*
     author: JimLin
     作用: 此header為GameEngine所需常用函式的lib
 */
 
+//用於將cpp轉成string
+#define CPP_TO_STRING(word) #word
+
 namespace GameEngine
 {
-    #define CPP_TO_STRING(word) #word
-
     template<class T>
     const T& max(const T& a, const T& b)
     {

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\cpp\gameGngine
+CMAKE_SOURCE_DIR = D:\code\cpp\gameEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\cpp\gameGngine\build
+CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\build
 
 # Utility rule file for GameEngineEditor_autogen.
 
@@ -66,8 +66,8 @@ include gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/compiler_depend
 include gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/progress.make
 
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameGngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target GameEngineEditor"
-	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/code/cpp/gameGngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target GameEngineEditor"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenInfo.json Debug
 
 GameEngineEditor_autogen: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen
 GameEngineEditor_autogen: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build.make
@@ -78,10 +78,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build: GameEngineEditor
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
 
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean:
-	cd /d D:\code\cpp\gameGngine\build\gameEngineEditor && $(CMAKE_COMMAND) -P CMakeFiles\GameEngineEditor_autogen.dir\cmake_clean.cmake
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && $(CMAKE_COMMAND) -P CMakeFiles\GameEngineEditor_autogen.dir\cmake_clean.cmake
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean
 
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameGngine D:\code\cpp\gameGngine\gameEngineEditor D:\code\cpp\gameGngine\build D:\code\cpp\gameGngine\build\gameEngineEditor D:\code\cpp\gameGngine\build\gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\cpp\gameEngine D:\code\cpp\gameEngine\gameEngineEditor D:\code\cpp\gameEngine\build D:\code\cpp\gameEngine\build\gameEngineEditor D:\code\cpp\gameEngine\build\gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/depend
 
