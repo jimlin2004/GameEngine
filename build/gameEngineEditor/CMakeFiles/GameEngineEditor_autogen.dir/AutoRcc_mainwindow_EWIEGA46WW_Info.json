@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen",
+	"CMAKE_BINARY_DIR" : "D:/code/cpp/gameEngine/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/code/cpp/gameEngine/build/gameEngineEditor",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/code/cpp/gameEngine/gameEngineEditor",
+	"CMAKE_SOURCE_DIR" : "D:/code/cpp/gameEngine",
+	"INCLUDE_DIR" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include",
+	"INPUTS" : [ "D:/code/cpp/gameEngine/gameEngineEditor/icon/complie.png" ],
+	"LOCK_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "mainwindow" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_mainwindow.cpp",
+	"RCC_EXECUTABLE" : "D:/QT/6.4.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.qrc",
+	"VERBOSITY" : 0
+}

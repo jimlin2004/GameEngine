@@ -54,18 +54,25 @@ public:
     QScrollArea *scrollArea_detail;
     QWidget *scrollAreaWidgetContents_detail;
     QVBoxLayout *verticalLayout_3;
-    QCollapsibleWidget *qCollapsibleWidget;
-    QWidget *contentWidget;
+    QCollapsibleWidget *qCollapsibleWidget_transform;
+    QWidget *contentWidget_transform;
     QHBoxLayout *horizontalLayout;
-    QLabel *label_x;
-    QLineEdit *lineEdit_x;
-    QLabel *label_y;
-    QLineEdit *lineEdit_y;
-    QLabel *label_z;
-    QLineEdit *lineEdit_z;
-    QCollapsibleWidget *qCollapsibleWidget_2;
-    QWidget *contentWidget_2;
-    QCollapsibleWidget *qCollapsibleWidget_3;
+    QLabel *label_x_transform;
+    QLineEdit *lineEdit_x_transform;
+    QLabel *label_y_transform;
+    QLineEdit *lineEdit_y_transform;
+    QLabel *label_z_transform;
+    QLineEdit *lineEdit_z_transform;
+    QCollapsibleWidget *qCollapsibleWidget_scale;
+    QWidget *contentWidget_scale;
+    QHBoxLayout *horizontalLayout_3;
+    QLabel *label_x_scale;
+    QLineEdit *lineEdit_x_scale;
+    QLabel *label_y_scale;
+    QLineEdit *lineEdit_y_scale;
+    QLabel *label_z_scale;
+    QLineEdit *lineEdit_z_scale;
+    QCollapsibleWidget *qCollapsibleWidget;
     QWidget *contentWidget_3;
     QDockWidget *dockWidgetRight;
     QWidget *dockWidgetContentsRight;
@@ -102,7 +109,7 @@ public:
         actioncompile = new QAction(MainWindow);
         actioncompile->setObjectName("actioncompile");
         QIcon icon;
-        icon.addFile(QString::fromUtf8(":/complieIcon/texture/complie.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/icon/icon/complie.png"), QSize(), QIcon::Normal, QIcon::Off);
         actioncompile->setIcon(icon);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
@@ -164,58 +171,90 @@ public:
         verticalLayout_3->setSpacing(0);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
+        qCollapsibleWidget_transform = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_transform->setObjectName("qCollapsibleWidget_transform");
+        contentWidget_transform = new QWidget(qCollapsibleWidget_transform);
+        contentWidget_transform->setObjectName("contentWidget_transform");
+        horizontalLayout = new QHBoxLayout(contentWidget_transform);
+        horizontalLayout->setObjectName("horizontalLayout");
+        label_x_transform = new QLabel(contentWidget_transform);
+        label_x_transform->setObjectName("label_x_transform");
+
+        horizontalLayout->addWidget(label_x_transform);
+
+        lineEdit_x_transform = new QLineEdit(contentWidget_transform);
+        lineEdit_x_transform->setObjectName("lineEdit_x_transform");
+
+        horizontalLayout->addWidget(lineEdit_x_transform);
+
+        label_y_transform = new QLabel(contentWidget_transform);
+        label_y_transform->setObjectName("label_y_transform");
+
+        horizontalLayout->addWidget(label_y_transform);
+
+        lineEdit_y_transform = new QLineEdit(contentWidget_transform);
+        lineEdit_y_transform->setObjectName("lineEdit_y_transform");
+
+        horizontalLayout->addWidget(lineEdit_y_transform);
+
+        label_z_transform = new QLabel(contentWidget_transform);
+        label_z_transform->setObjectName("label_z_transform");
+
+        horizontalLayout->addWidget(label_z_transform);
+
+        lineEdit_z_transform = new QLineEdit(contentWidget_transform);
+        lineEdit_z_transform->setObjectName("lineEdit_z_transform");
+
+        horizontalLayout->addWidget(lineEdit_z_transform);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_transform);
+
+        qCollapsibleWidget_scale = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_scale->setObjectName("qCollapsibleWidget_scale");
+        contentWidget_scale = new QWidget(qCollapsibleWidget_scale);
+        contentWidget_scale->setObjectName("contentWidget_scale");
+        horizontalLayout_3 = new QHBoxLayout(contentWidget_scale);
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
+        label_x_scale = new QLabel(contentWidget_scale);
+        label_x_scale->setObjectName("label_x_scale");
+
+        horizontalLayout_3->addWidget(label_x_scale);
+
+        lineEdit_x_scale = new QLineEdit(contentWidget_scale);
+        lineEdit_x_scale->setObjectName("lineEdit_x_scale");
+
+        horizontalLayout_3->addWidget(lineEdit_x_scale);
+
+        label_y_scale = new QLabel(contentWidget_scale);
+        label_y_scale->setObjectName("label_y_scale");
+
+        horizontalLayout_3->addWidget(label_y_scale);
+
+        lineEdit_y_scale = new QLineEdit(contentWidget_scale);
+        lineEdit_y_scale->setObjectName("lineEdit_y_scale");
+
+        horizontalLayout_3->addWidget(lineEdit_y_scale);
+
+        label_z_scale = new QLabel(contentWidget_scale);
+        label_z_scale->setObjectName("label_z_scale");
+
+        horizontalLayout_3->addWidget(label_z_scale);
+
+        lineEdit_z_scale = new QLineEdit(contentWidget_scale);
+        lineEdit_z_scale->setObjectName("lineEdit_z_scale");
+
+        horizontalLayout_3->addWidget(lineEdit_z_scale);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_scale);
+
         qCollapsibleWidget = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
         qCollapsibleWidget->setObjectName("qCollapsibleWidget");
-        contentWidget = new QWidget(qCollapsibleWidget);
-        contentWidget->setObjectName("contentWidget");
-        horizontalLayout = new QHBoxLayout(contentWidget);
-        horizontalLayout->setObjectName("horizontalLayout");
-        label_x = new QLabel(contentWidget);
-        label_x->setObjectName("label_x");
-
-        horizontalLayout->addWidget(label_x);
-
-        lineEdit_x = new QLineEdit(contentWidget);
-        lineEdit_x->setObjectName("lineEdit_x");
-
-        horizontalLayout->addWidget(lineEdit_x);
-
-        label_y = new QLabel(contentWidget);
-        label_y->setObjectName("label_y");
-
-        horizontalLayout->addWidget(label_y);
-
-        lineEdit_y = new QLineEdit(contentWidget);
-        lineEdit_y->setObjectName("lineEdit_y");
-
-        horizontalLayout->addWidget(lineEdit_y);
-
-        label_z = new QLabel(contentWidget);
-        label_z->setObjectName("label_z");
-
-        horizontalLayout->addWidget(label_z);
-
-        lineEdit_z = new QLineEdit(contentWidget);
-        lineEdit_z->setObjectName("lineEdit_z");
-
-        horizontalLayout->addWidget(lineEdit_z);
-
-
-        verticalLayout_3->addWidget(qCollapsibleWidget);
-
-        qCollapsibleWidget_2 = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
-        qCollapsibleWidget_2->setObjectName("qCollapsibleWidget_2");
-        contentWidget_2 = new QWidget(qCollapsibleWidget_2);
-        contentWidget_2->setObjectName("contentWidget_2");
-
-        verticalLayout_3->addWidget(qCollapsibleWidget_2);
-
-        qCollapsibleWidget_3 = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
-        qCollapsibleWidget_3->setObjectName("qCollapsibleWidget_3");
-        contentWidget_3 = new QWidget(qCollapsibleWidget_3);
+        contentWidget_3 = new QWidget(qCollapsibleWidget);
         contentWidget_3->setObjectName("contentWidget_3");
 
-        verticalLayout_3->addWidget(qCollapsibleWidget_3);
+        verticalLayout_3->addWidget(qCollapsibleWidget);
 
         scrollArea_detail->setWidget(scrollAreaWidgetContents_detail);
 
@@ -344,10 +383,14 @@ public:
         actioncompile->setText(QCoreApplication::translate("MainWindow", "compile", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
-        qCollapsibleWidget->setTitle(QCoreApplication::translate("MainWindow", "Tranform", nullptr));
-        label_x->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
-        label_y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
-        label_z->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
+        qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Tranform", nullptr));
+        label_x_transform->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_y_transform->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_z_transform->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
+        qCollapsibleWidget_scale->setTitle(QCoreApplication::translate("MainWindow", "Scale", nullptr));
+        label_x_scale->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_y_scale->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_z_scale->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));

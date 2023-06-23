@@ -167,53 +167,89 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QCollapsibleWidget" name="qCollapsibleWidget">
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_transform">
               <property name="Title">
                <string>Tranform</string>
               </property>
-              <widget class="QWidget" name="contentWidget" native="true">
+              <widget class="QWidget" name="contentWidget_transform" native="true">
                <layout class="QHBoxLayout" name="horizontalLayout">
                 <item>
-                 <widget class="QLabel" name="label_x">
+                 <widget class="QLabel" name="label_x_transform">
                   <property name="text">
                    <string>X</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit_x"/>
+                 <widget class="QLineEdit" name="lineEdit_x_transform"/>
                 </item>
                 <item>
-                 <widget class="QLabel" name="label_y">
+                 <widget class="QLabel" name="label_y_transform">
                   <property name="text">
                    <string>Y</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit_y"/>
+                 <widget class="QLineEdit" name="lineEdit_y_transform"/>
                 </item>
                 <item>
-                 <widget class="QLabel" name="label_z">
+                 <widget class="QLabel" name="label_z_transform">
                   <property name="text">
                    <string>Z</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLineEdit" name="lineEdit_z"/>
+                 <widget class="QLineEdit" name="lineEdit_z_transform"/>
                 </item>
                </layout>
               </widget>
              </widget>
             </item>
             <item>
-             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_2">
-              <widget class="QWidget" name="contentWidget_2" native="true"/>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_scale">
+              <property name="Title">
+               <string>Scale</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_scale" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_x_scale">
+                  <property name="text">
+                   <string>X</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_x_scale"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_y_scale">
+                  <property name="text">
+                   <string>Y</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_y_scale"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_z_scale">
+                  <property name="text">
+                   <string>Z</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_z_scale"/>
+                </item>
+               </layout>
+              </widget>
              </widget>
             </item>
             <item>
-             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_3">
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget">
               <widget class="QWidget" name="contentWidget_3" native="true"/>
              </widget>
             </item>
@@ -448,8 +484,8 @@
   </action>
   <action name="actioncompile">
    <property name="icon">
-    <iconset resource="../build/gameEngineEditor/assets/EditorResource.qrc">
-     <normaloff>:/complieIcon/texture/complie.png</normaloff>:/complieIcon/texture/complie.png</iconset>
+    <iconset resource="mainwindow.qrc">
+     <normaloff>:/icon/icon/complie.png</normaloff>:/icon/icon/complie.png</iconset>
    </property>
    <property name="text">
     <string>compile</string>
@@ -470,7 +506,8 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../build/gameEngineEditor/assets/EditorResource.qrc"/>
+  <include location="mainwidow.qrc"/>
+  <include location="mainwindow.qrc"/>
  </resources>
  <connections/>
 </ui>

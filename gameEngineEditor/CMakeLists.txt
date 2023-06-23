@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.16)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC)
 set(CMAKE_WIN32_EXECUTABLE TRUE)
 
 set(CMAKE_PREFIX_PATH D:/QT/6.4.2/mingw_64)
@@ -39,6 +41,7 @@ list(REMOVE_ITEM SRC_FILES ${CMAKE_SOURCE_DIR}/src/GameBase.cpp)
 add_executable(${PROJECT_NAME} 
     editorEntryPoint.cpp 
     mainwindow.ui
+    mainwindow.qrc
     mainwindow.cpp
     ${EDITOR_HEADER_FILES}
     ${EDITOR_SRC_FILES}

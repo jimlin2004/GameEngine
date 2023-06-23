@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.obj"
@@ -91,6 +93,7 @@ file(REMOVE_RECURSE
   "GameEngineEditor.exe"
   "GameEngineEditor.exe.manifest"
   "GameEngineEditor.pdb"
+  "GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp"
   "libGameEngineEditor.dll.a"
 )
 

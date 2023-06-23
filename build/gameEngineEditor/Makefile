@@ -177,6 +177,30 @@ GameEngineEditor_autogen/fast:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
 .PHONY : GameEngineEditor_autogen/fast
 
+GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.obj: GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj
+.PHONY : GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.obj
+
+# target to build an object file
+GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj
+.PHONY : GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj
+
+GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.i: GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.i
+.PHONY : GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.i
+
+# target to preprocess a source file
+GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.i
+.PHONY : GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.i
+
+GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.s: GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.s
+.PHONY : GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.s
+
+# target to generate assembly for a file
+GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.s
+.PHONY : GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.s
+
 GameEngineEditor_autogen/mocs_compilation.obj: GameEngineEditor_autogen/mocs_compilation.cpp.obj
 .PHONY : GameEngineEditor_autogen/mocs_compilation.obj
 
@@ -1222,6 +1246,9 @@ help:
 	@echo ... GameEngineEditor_autogen
 	@echo ... gameEngineEditor_copy_target
 	@echo ... GameEngineEditor
+	@echo ... GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.obj
+	@echo ... GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.i
+	@echo ... GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.s
 	@echo ... GameEngineEditor_autogen/mocs_compilation.obj
 	@echo ... GameEngineEditor_autogen/mocs_compilation.i
 	@echo ... GameEngineEditor_autogen/mocs_compilation.s
