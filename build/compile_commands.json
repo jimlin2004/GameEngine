@@ -351,6 +351,26 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\plugins\\LineEditFloat.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\plugins\\LineEditFloat.cpp",
+  "file": "D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\plugins\\LineEditInt.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\plugins\\LineEditInt.cpp",
+  "file": "D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\plugins\\QCollapsibleWidget.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\plugins\\QCollapsibleWidget.cpp",
+  "file": "D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\plugins\\flowlayout.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\plugins\\flowlayout.cpp",
+  "file": "D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\AssetFileWidget.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\src\\AssetFileWidget.cpp",
   "file": "D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp"
 },
@@ -381,18 +401,8 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\QCollapsibleWidget.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\src\\QCollapsibleWidget.cpp",
-  "file": "D:/code/cpp/gameEngine/gameEngineEditor/src/QCollapsibleWidget.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\WordWrapLabel.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\src\\WordWrapLabel.cpp",
   "file": "D:/code/cpp/gameEngine/gameEngineEditor/src/WordWrapLabel.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\flowlayout.cpp.obj -c D:\\code\\cpp\\gameEngine\\gameEngineEditor\\src\\flowlayout.cpp",
-  "file": "D:/code/cpp/gameEngine/gameEngineEditor/src/flowlayout.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",

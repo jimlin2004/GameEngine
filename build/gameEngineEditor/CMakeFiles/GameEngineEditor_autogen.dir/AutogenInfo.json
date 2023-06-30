@@ -277,27 +277,39 @@
 			null
 		],
 		[
-			"D:/code/cpp/gameEngine/gameEngineEditor/include/QCollapsibleWidget.h",
-			"MU",
-			"6YEA5652QU/moc_QCollapsibleWidget.cpp",
-			null
-		],
-		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h",
 			"MU",
 			"6YEA5652QU/moc_WordWrapLabel.cpp",
 			null
 		],
 		[
-			"D:/code/cpp/gameEngine/gameEngineEditor/include/flowlayout.h",
-			"MU",
-			"6YEA5652QU/moc_flowlayout.cpp",
-			null
-		],
-		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h",
+			"MU",
+			"WETUBSRGIL/moc_LineEditFloat.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.h",
+			"MU",
+			"WETUBSRGIL/moc_LineEditInt.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h",
+			"MU",
+			"WETUBSRGIL/moc_QCollapsibleWidget.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h",
+			"MU",
+			"WETUBSRGIL/moc_flowlayout.cpp",
 			null
 		]
 	],
@@ -336,6 +348,7 @@
 		"D:/code/cpp/gameEngine/third_party",
 		"D:/code/cpp/gameEngine/gameEngineEditor",
 		"D:/code/cpp/gameEngine/gameEngineEditor/include",
+		"D:/code/cpp/gameEngine/gameEngineEditor/plugins",
 		"D:/QT/6.4.2/mingw_64/include/QtZlib",
 		"D:/QT/6.4.2/mingw_64/include/QtWidgets",
 		"D:/QT/6.4.2/mingw_64/include",
@@ -389,6 +402,26 @@
 		],
 		[ "D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.cpp", "MU", null ],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp",
 			"MU",
 			null
@@ -419,17 +452,7 @@
 			null
 		],
 		[
-			"D:/code/cpp/gameEngine/gameEngineEditor/src/QCollapsibleWidget.cpp",
-			"MU",
-			null
-		],
-		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/WordWrapLabel.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/gameEngineEditor/src/flowlayout.cpp",
 			"MU",
 			null
 		],

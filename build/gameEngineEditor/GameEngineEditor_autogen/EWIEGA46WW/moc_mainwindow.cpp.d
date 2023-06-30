@@ -667,6 +667,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qopenglwidget.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
@@ -682,6 +683,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qfiledialog.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
@@ -711,7 +713,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
-  D:/code/cpp/gameEngine/gameEngineEditor/include/flowlayout.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
   D:/code/cpp/gameEngine/include/Actor.h \
   D:/code/cpp/gameEngine/include/Camera.h \
   D:/code/cpp/gameEngine/include/CameraController.h \

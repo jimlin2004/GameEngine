@@ -238,3 +238,8 @@
     1. 設定game object detail 中的transform、scale樣式(qss)
     2. 修復QAction圖檔遺失問題
     存檔紀錄 --version 1.0-dev
+2023/06/30
+    1. 引入LineEditInt、LineEditFloat(Qt plugin)
+    2. 修復game object detail折疊時會抖動的問題
+    3. game object detail新增color一類(未完工)
+    存檔紀錄 --version 1.0-dev

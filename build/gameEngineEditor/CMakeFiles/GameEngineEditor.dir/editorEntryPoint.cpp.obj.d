@@ -381,7 +381,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
- D:/code/cpp/gameEngine/gameEngineEditor/include/flowlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \

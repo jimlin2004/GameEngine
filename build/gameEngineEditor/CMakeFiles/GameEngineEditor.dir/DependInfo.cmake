@@ -43,15 +43,17 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/editorEntryPoint.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj.d"
+  "D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditFloat.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditFloat.cpp.obj.d"
+  "D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditInt.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditInt.cpp.obj.d"
+  "D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.obj.d"
+  "D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/EditorOpenGLWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/EditorScene.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorScene.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorScene.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/JsonParser.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/ProjectParser.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj.d"
-  "D:/code/cpp/gameEngine/gameEngineEditor/src/QCollapsibleWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/WordWrapLabel.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj.d"
-  "D:/code/cpp/gameEngine/gameEngineEditor/src/flowlayout.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.obj.d"
   )
 
 # Targets to which this target links.

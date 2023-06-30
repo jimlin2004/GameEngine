@@ -162,42 +162,63 @@
 #dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform QLineEdit {
     border-width: 2px;
     border-style: inset;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     background-color: #15181b;
     border-color: transparent;
     color: #ffffff;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform #lineEdit_x_transform {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform #lineEditFloat_x_transform {
     border-left-color: #d63535;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform #lineEdit_y_transform {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform #lineEditFloat_y_transform {
     border-left-color: #35d655;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform #lineEdit_z_transform {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform #lineEditFloat_z_transform {
     border-left-color: #3578d6;
 }
 
 #dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale QLineEdit {
     border-width: 2px;
     border-style: inset;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     background-color: #15181b;
     border-color: transparent;
     color: #ffffff;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale #lineEdit_x_scale {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale #lineEditFloat_x_scale {
     border-left-color: #d63535;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale #lineEdit_y_scale {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale #lineEditFloat_y_scale {
     border-left-color: #35d655;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale #lineEdit_z_scale {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_scale #lineEditFloat_z_scale {
+    border-left-color: #3578d6;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color QLineEdit {
+    border-width: 2px;
+    border-style: inset;
+    /* border-radius: 3px; */
+    background-color: #15181b;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color #lineEditFloat_R_color {
+    border-left-color: #d63535;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color #lineEditFloat_G_color {
+    border-left-color: #35d655;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color #lineEditFloat_B_color {
     border-left-color: #3578d6;
 }
 

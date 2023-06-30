@@ -866,16 +866,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  D:/code/cpp/gameEngine/include/Scene/Scene.h \
  D:/code/cpp/gameEngine/include/Component/Component.h \
- D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_QCollapsibleWidget.cpp \
- D:/code/cpp/gameEngine/gameEngineEditor/include/QCollapsibleWidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
- D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QList \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_WordWrapLabel.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\EWIEGA46WW/moc_mainwindow.cpp \
@@ -914,7 +904,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
- D:/code/cpp/gameEngine/gameEngineEditor/include/flowlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
@@ -947,4 +941,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditFloat.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditInt.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_QCollapsibleWidget.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList

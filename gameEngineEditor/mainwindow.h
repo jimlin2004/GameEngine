@@ -9,6 +9,7 @@
 #include <QProcess>
 #include <QTimer>
 #include <filesystem>
+#include <QColorDialog>
 #include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
@@ -44,6 +45,7 @@ private:
     /*重新刷新File system panel*/
     void resetFileSystemPanel();
     void clearOutline();
+    void updateColorViewer();
 private slots:
     void openProject();
     void filesystemPanel_click();
@@ -52,6 +54,7 @@ private slots:
     void parseOutput();
     void resetGameObjectOutline();
     void getTreeWigetItemInfo(QTreeWidgetItem* item, int column);
+    void openColorDialog();
 };
 
 #endif // MAINWINDOW_H

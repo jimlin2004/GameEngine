@@ -36,6 +36,12 @@ file(GLOB_RECURSE EDITOR_HEADER_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*/*.hpp
 )
 
+file(GLOB_RECURSE QT_PLUGINS
+    ${CMAKE_CURRENT_SOURCE_DIR}/plugins/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/plugins/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/plugins/*.h
+)
+
 list(REMOVE_ITEM SRC_FILES ${CMAKE_SOURCE_DIR}/src/GameBase.cpp)
 
 add_executable(${PROJECT_NAME} 
@@ -43,6 +49,7 @@ add_executable(${PROJECT_NAME}
     mainwindow.ui
     mainwindow.qrc
     mainwindow.cpp
+    ${QT_PLUGINS}
     ${EDITOR_HEADER_FILES}
     ${EDITOR_SRC_FILES}
     ${SRC_FILES}
@@ -64,6 +71,7 @@ endif ()
 
 target_include_directories(${PROJECT_NAME} PRIVATE .)
 target_include_directories(${PROJECT_NAME} PRIVATE ./include)
+target_include_directories(${PROJECT_NAME} PRIVATE ./plugins)
 target_include_directories(${PROJECT_NAME} PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} PRIVATE 
     Qt6::Core 

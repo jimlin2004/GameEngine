@@ -1017,6 +1017,102 @@ mainwindow.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+plugins/LineEditFloat.obj: plugins/LineEditFloat.cpp.obj
+.PHONY : plugins/LineEditFloat.obj
+
+# target to build an object file
+plugins/LineEditFloat.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditFloat.cpp.obj
+.PHONY : plugins/LineEditFloat.cpp.obj
+
+plugins/LineEditFloat.i: plugins/LineEditFloat.cpp.i
+.PHONY : plugins/LineEditFloat.i
+
+# target to preprocess a source file
+plugins/LineEditFloat.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditFloat.cpp.i
+.PHONY : plugins/LineEditFloat.cpp.i
+
+plugins/LineEditFloat.s: plugins/LineEditFloat.cpp.s
+.PHONY : plugins/LineEditFloat.s
+
+# target to generate assembly for a file
+plugins/LineEditFloat.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditFloat.cpp.s
+.PHONY : plugins/LineEditFloat.cpp.s
+
+plugins/LineEditInt.obj: plugins/LineEditInt.cpp.obj
+.PHONY : plugins/LineEditInt.obj
+
+# target to build an object file
+plugins/LineEditInt.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditInt.cpp.obj
+.PHONY : plugins/LineEditInt.cpp.obj
+
+plugins/LineEditInt.i: plugins/LineEditInt.cpp.i
+.PHONY : plugins/LineEditInt.i
+
+# target to preprocess a source file
+plugins/LineEditInt.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditInt.cpp.i
+.PHONY : plugins/LineEditInt.cpp.i
+
+plugins/LineEditInt.s: plugins/LineEditInt.cpp.s
+.PHONY : plugins/LineEditInt.s
+
+# target to generate assembly for a file
+plugins/LineEditInt.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/LineEditInt.cpp.s
+.PHONY : plugins/LineEditInt.cpp.s
+
+plugins/QCollapsibleWidget.obj: plugins/QCollapsibleWidget.cpp.obj
+.PHONY : plugins/QCollapsibleWidget.obj
+
+# target to build an object file
+plugins/QCollapsibleWidget.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.obj
+.PHONY : plugins/QCollapsibleWidget.cpp.obj
+
+plugins/QCollapsibleWidget.i: plugins/QCollapsibleWidget.cpp.i
+.PHONY : plugins/QCollapsibleWidget.i
+
+# target to preprocess a source file
+plugins/QCollapsibleWidget.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.i
+.PHONY : plugins/QCollapsibleWidget.cpp.i
+
+plugins/QCollapsibleWidget.s: plugins/QCollapsibleWidget.cpp.s
+.PHONY : plugins/QCollapsibleWidget.s
+
+# target to generate assembly for a file
+plugins/QCollapsibleWidget.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.s
+.PHONY : plugins/QCollapsibleWidget.cpp.s
+
+plugins/flowlayout.obj: plugins/flowlayout.cpp.obj
+.PHONY : plugins/flowlayout.obj
+
+# target to build an object file
+plugins/flowlayout.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj
+.PHONY : plugins/flowlayout.cpp.obj
+
+plugins/flowlayout.i: plugins/flowlayout.cpp.i
+.PHONY : plugins/flowlayout.i
+
+# target to preprocess a source file
+plugins/flowlayout.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.i
+.PHONY : plugins/flowlayout.cpp.i
+
+plugins/flowlayout.s: plugins/flowlayout.cpp.s
+.PHONY : plugins/flowlayout.s
+
+# target to generate assembly for a file
+plugins/flowlayout.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.s
+.PHONY : plugins/flowlayout.cpp.s
+
 src/AssetFileWidget.obj: src/AssetFileWidget.cpp.obj
 .PHONY : src/AssetFileWidget.obj
 
@@ -1161,30 +1257,6 @@ src/ProjectParser.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s
 .PHONY : src/ProjectParser.cpp.s
 
-src/QCollapsibleWidget.obj: src/QCollapsibleWidget.cpp.obj
-.PHONY : src/QCollapsibleWidget.obj
-
-# target to build an object file
-src/QCollapsibleWidget.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.obj
-.PHONY : src/QCollapsibleWidget.cpp.obj
-
-src/QCollapsibleWidget.i: src/QCollapsibleWidget.cpp.i
-.PHONY : src/QCollapsibleWidget.i
-
-# target to preprocess a source file
-src/QCollapsibleWidget.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.i
-.PHONY : src/QCollapsibleWidget.cpp.i
-
-src/QCollapsibleWidget.s: src/QCollapsibleWidget.cpp.s
-.PHONY : src/QCollapsibleWidget.s
-
-# target to generate assembly for a file
-src/QCollapsibleWidget.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/QCollapsibleWidget.cpp.s
-.PHONY : src/QCollapsibleWidget.cpp.s
-
 src/WordWrapLabel.obj: src/WordWrapLabel.cpp.obj
 .PHONY : src/WordWrapLabel.obj
 
@@ -1208,30 +1280,6 @@ src/WordWrapLabel.s: src/WordWrapLabel.cpp.s
 src/WordWrapLabel.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.s
 .PHONY : src/WordWrapLabel.cpp.s
-
-src/flowlayout.obj: src/flowlayout.cpp.obj
-.PHONY : src/flowlayout.obj
-
-# target to build an object file
-src/flowlayout.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.obj
-.PHONY : src/flowlayout.cpp.obj
-
-src/flowlayout.i: src/flowlayout.cpp.i
-.PHONY : src/flowlayout.i
-
-# target to preprocess a source file
-src/flowlayout.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.i
-.PHONY : src/flowlayout.cpp.i
-
-src/flowlayout.s: src/flowlayout.cpp.s
-.PHONY : src/flowlayout.s
-
-# target to generate assembly for a file
-src/flowlayout.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/flowlayout.cpp.s
-.PHONY : src/flowlayout.cpp.s
 
 # Help Target
 help:
@@ -1351,6 +1399,18 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... plugins/LineEditFloat.obj
+	@echo ... plugins/LineEditFloat.i
+	@echo ... plugins/LineEditFloat.s
+	@echo ... plugins/LineEditInt.obj
+	@echo ... plugins/LineEditInt.i
+	@echo ... plugins/LineEditInt.s
+	@echo ... plugins/QCollapsibleWidget.obj
+	@echo ... plugins/QCollapsibleWidget.i
+	@echo ... plugins/QCollapsibleWidget.s
+	@echo ... plugins/flowlayout.obj
+	@echo ... plugins/flowlayout.i
+	@echo ... plugins/flowlayout.s
 	@echo ... src/AssetFileWidget.obj
 	@echo ... src/AssetFileWidget.i
 	@echo ... src/AssetFileWidget.s
@@ -1369,15 +1429,9 @@ help:
 	@echo ... src/ProjectParser.obj
 	@echo ... src/ProjectParser.i
 	@echo ... src/ProjectParser.s
-	@echo ... src/QCollapsibleWidget.obj
-	@echo ... src/QCollapsibleWidget.i
-	@echo ... src/QCollapsibleWidget.s
 	@echo ... src/WordWrapLabel.obj
 	@echo ... src/WordWrapLabel.i
 	@echo ... src/WordWrapLabel.s
-	@echo ... src/flowlayout.obj
-	@echo ... src/flowlayout.i
-	@echo ... src/flowlayout.s
 .PHONY : help
 
 

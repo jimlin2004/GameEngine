@@ -381,7 +381,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
- D:/code/cpp/gameEngine/gameEngineEditor/include/flowlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
@@ -946,6 +948,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdockwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QFrame \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QHBoxLayout \
@@ -962,8 +966,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenuBar \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenubar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QScrollArea \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QSpacerItem \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStatusBar \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstatusbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTabWidget \
@@ -975,10 +984,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
- D:/code/cpp/gameEngine/gameEngineEditor/include/QCollapsibleWidget.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QList

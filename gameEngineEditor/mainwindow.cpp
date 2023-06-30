@@ -109,8 +109,12 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this->ui->treeWidget, &QTreeWidget::itemClicked, this, &MainWindow::getTreeWigetItemInfo);
     
     this->ui->scrollAreaWidgetContents_detail->layout()->setAlignment(Qt::AlignTop);
-    this->ui->dockWidgetContentsLeft->resize(100, this->ui->dockWidgetLeft->height());
-    this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->dockWidgetLeft->width()}, Qt::Horizontal);
+    // this->ui->dockWidgetContentsLeft->resize(100, this->ui->dockWidgetLeft->height());
+    // this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->dockWidgetLeft->width()}, Qt::Horizontal);
+    this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->scrollAreaWidgetContents_detail->width()}, Qt::Horizontal);
+    
+    this->ui->widget_colorViewer->setStyleSheet("background-color: #000000;");
+    connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
     // timer->start(41); //24fps
@@ -166,6 +170,32 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
     OutlineTreeWidgetItem* outlineItem = dynamic_cast<OutlineTreeWidgetItem*>(item);
     if (outlineItem != nullptr)
         outlineItem->click();
+    GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(outlineItem->getEntityID());
+    GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(outlineItem->getEntityID());
+    this->ui->lineEditFloat_x_transform->bind(&transformComponent.translation.x);
+    this->ui->lineEditFloat_y_transform->bind(&transformComponent.translation.y);
+    this->ui->lineEditFloat_z_transform->bind(&transformComponent.translation.z);
+    this->ui->lineEditFloat_x_scale->bind(&transformComponent.scale.x);
+    this->ui->lineEditFloat_y_scale->bind(&transformComponent.scale.y);
+    this->ui->lineEditFloat_z_scale->bind(&transformComponent.scale.z);
+    this->ui->lineEditFloat_R_color->bind(&meshComponent.color.r);
+    this->ui->lineEditFloat_G_color->bind(&meshComponent.color.g);
+    this->ui->lineEditFloat_B_color->bind(&meshComponent.color.b);
+    this->updateColorViewer();
+}
+
+void MainWindow::openColorDialog()
+{
+    QColor color = QColorDialog::getColor();
+}
+
+void MainWindow::updateColorViewer()
+{
+    int R = (int)(this->ui->lineEditFloat_R_color->getValue() * 255);
+    int G = (int)(this->ui->lineEditFloat_G_color->getValue() * 255);
+    int B = (int)(this->ui->lineEditFloat_B_color->getValue() * 255);
+    QColor color(R, G, B);
+    this->ui->widget_colorViewer->setStyleSheet("background-color: " + color.name() + ";");
 }
 
 void MainWindow::resetGameObjectOutline()
