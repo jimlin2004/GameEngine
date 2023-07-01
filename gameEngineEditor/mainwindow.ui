@@ -137,8 +137,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>257</width>
-             <height>296</height>
+             <width>253</width>
+             <height>335</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -175,7 +175,7 @@
                </sizepolicy>
               </property>
               <property name="Title">
-               <string>Tranform</string>
+               <string>Transform</string>
               </property>
               <widget class="QWidget" name="contentWidget_transform" native="true">
                <property name="sizePolicy">
@@ -184,83 +184,143 @@
                  <verstretch>0</verstretch>
                 </sizepolicy>
                </property>
-               <layout class="QHBoxLayout" name="horizontalLayout">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
                 <item>
-                 <widget class="QLabel" name="label_x_transform">
+                 <widget class="QLabel" name="label_position">
                   <property name="text">
-                   <string>X</string>
+                   <string>Position</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LineEditFloat" name="lineEditFloat_x_transform"/>
+                 <layout class="QHBoxLayout" name="horizontalLayout_position">
+                  <item>
+                   <widget class="QLabel" name="label_x_position">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_x_position"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_y_position">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_y_position"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_z_position">
+                    <property name="text">
+                     <string>Z</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_z_position"/>
+                  </item>
+                 </layout>
                 </item>
                 <item>
-                 <widget class="QLabel" name="label_y_transform">
-                  <property name="text">
-                   <string>Y</string>
+                 <widget class="Line" name="line_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LineEditFloat" name="lineEditFloat_y_transform"/>
-                </item>
-                <item>
-                 <widget class="QLabel" name="label_z_transform">
+                 <widget class="QLabel" name="label_scale">
                   <property name="text">
-                   <string>Z</string>
+                   <string>Scale</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LineEditFloat" name="lineEditFloat_z_transform"/>
+                 <layout class="QHBoxLayout" name="horizontalLayout_scale">
+                  <item>
+                   <widget class="QLabel" name="label_x_scale">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_x_scale"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_y_scale">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_y_scale"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_z_scale">
+                    <property name="text">
+                     <string>Z</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_z_scale"/>
+                  </item>
+                 </layout>
                 </item>
-               </layout>
-              </widget>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_scale">
-              <property name="Title">
-               <string>Scale</string>
-              </property>
-              <widget class="QWidget" name="contentWidget_scale" native="true">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_2">
                 <item>
-                 <widget class="QLabel" name="label_x_scale">
-                  <property name="text">
-                   <string>X</string>
+                 <widget class="Line" name="line_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LineEditFloat" name="lineEditFloat_x_scale"/>
-                </item>
-                <item>
-                 <widget class="QLabel" name="label_y_scale">
+                 <widget class="QLabel" name="label_2">
                   <property name="text">
-                   <string>Y</string>
+                   <string>Rotation</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="LineEditFloat" name="lineEditFloat_y_scale"/>
-                </item>
-                <item>
-                 <widget class="QLabel" name="label_z_scale">
-                  <property name="text">
-                   <string>Z</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="LineEditFloat" name="lineEditFloat_z_scale"/>
+                 <layout class="QHBoxLayout" name="horizontalLayout_rotation">
+                  <item>
+                   <widget class="QLabel" name="label_x_rotation">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_x_rotation"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_y_rotation">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_y_rotation"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_z_rotation">
+                    <property name="text">
+                     <string>Z</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_z_rotation"/>
+                  </item>
+                 </layout>
                 </item>
                </layout>
               </widget>
@@ -559,7 +619,7 @@
                  <x>0</x>
                  <y>0</y>
                  <width>671</width>
-                 <height>146</height>
+                 <height>126</height>
                 </rect>
                </property>
               </widget>

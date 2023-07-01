@@ -17,7 +17,7 @@ GameEngine::TransformComponent::TransformComponent(const glm::vec3& translation,
 glm::mat4 GameEngine::TransformComponent::getTransform() const
 {
     return glm::translate(glm::mat4(1.0f), translation)
-        * glm::mat4_cast(glm::quat(rotation))
+        * glm::mat4_cast(glm::quat(glm::radians(rotation)))
         * glm::scale(glm::mat4(1.0f), scale);
 }
 

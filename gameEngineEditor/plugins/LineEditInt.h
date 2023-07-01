@@ -12,6 +12,7 @@ public:
     LineEditInt(QWidget *parent = 0);
     void bind(int* ptr);
     int getValue() const;
+    void setValue(int val);
 private:
     int* _dataPtr;
 private slots:

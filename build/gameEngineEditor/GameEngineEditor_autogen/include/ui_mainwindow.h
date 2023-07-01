@@ -60,22 +60,33 @@ public:
     QVBoxLayout *verticalLayout_3;
     QCollapsibleWidget *qCollapsibleWidget_transform;
     QWidget *contentWidget_transform;
-    QHBoxLayout *horizontalLayout;
-    QLabel *label_x_transform;
-    LineEditFloat *lineEditFloat_x_transform;
-    QLabel *label_y_transform;
-    LineEditFloat *lineEditFloat_y_transform;
-    QLabel *label_z_transform;
-    LineEditFloat *lineEditFloat_z_transform;
-    QCollapsibleWidget *qCollapsibleWidget_scale;
-    QWidget *contentWidget_scale;
-    QHBoxLayout *horizontalLayout_2;
+    QVBoxLayout *verticalLayout_6;
+    QLabel *label_position;
+    QHBoxLayout *horizontalLayout_position;
+    QLabel *label_x_position;
+    LineEditFloat *lineEditFloat_x_position;
+    QLabel *label_y_position;
+    LineEditFloat *lineEditFloat_y_position;
+    QLabel *label_z_position;
+    LineEditFloat *lineEditFloat_z_position;
+    QFrame *line_2;
+    QLabel *label_scale;
+    QHBoxLayout *horizontalLayout_scale;
     QLabel *label_x_scale;
     LineEditFloat *lineEditFloat_x_scale;
     QLabel *label_y_scale;
     LineEditFloat *lineEditFloat_y_scale;
     QLabel *label_z_scale;
     LineEditFloat *lineEditFloat_z_scale;
+    QFrame *line_3;
+    QLabel *label_2;
+    QHBoxLayout *horizontalLayout_rotation;
+    QLabel *label_x_rotation;
+    LineEditFloat *lineEditFloat_x_rotation;
+    QLabel *label_y_rotation;
+    LineEditFloat *lineEditFloat_y_rotation;
+    QLabel *label_z_rotation;
+    LineEditFloat *lineEditFloat_z_rotation;
     QCollapsibleWidget *qCollapsibleWidget_color;
     QWidget *contentWidget_color;
     QVBoxLayout *verticalLayout_4;
@@ -182,7 +193,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 257, 296));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 253, 335));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -204,81 +215,144 @@ public:
         sizePolicy2.setVerticalStretch(0);
         sizePolicy2.setHeightForWidth(contentWidget_transform->sizePolicy().hasHeightForWidth());
         contentWidget_transform->setSizePolicy(sizePolicy2);
-        horizontalLayout = new QHBoxLayout(contentWidget_transform);
-        horizontalLayout->setObjectName("horizontalLayout");
-        label_x_transform = new QLabel(contentWidget_transform);
-        label_x_transform->setObjectName("label_x_transform");
+        verticalLayout_6 = new QVBoxLayout(contentWidget_transform);
+        verticalLayout_6->setObjectName("verticalLayout_6");
+        label_position = new QLabel(contentWidget_transform);
+        label_position->setObjectName("label_position");
 
-        horizontalLayout->addWidget(label_x_transform);
+        verticalLayout_6->addWidget(label_position);
 
-        lineEditFloat_x_transform = new LineEditFloat(contentWidget_transform);
-        lineEditFloat_x_transform->setObjectName("lineEditFloat_x_transform");
+        horizontalLayout_position = new QHBoxLayout();
+        horizontalLayout_position->setObjectName("horizontalLayout_position");
+        label_x_position = new QLabel(contentWidget_transform);
+        label_x_position->setObjectName("label_x_position");
 
-        horizontalLayout->addWidget(lineEditFloat_x_transform);
+        horizontalLayout_position->addWidget(label_x_position);
 
-        label_y_transform = new QLabel(contentWidget_transform);
-        label_y_transform->setObjectName("label_y_transform");
+        lineEditFloat_x_position = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_x_position->setObjectName("lineEditFloat_x_position");
 
-        horizontalLayout->addWidget(label_y_transform);
+        horizontalLayout_position->addWidget(lineEditFloat_x_position);
 
-        lineEditFloat_y_transform = new LineEditFloat(contentWidget_transform);
-        lineEditFloat_y_transform->setObjectName("lineEditFloat_y_transform");
+        label_y_position = new QLabel(contentWidget_transform);
+        label_y_position->setObjectName("label_y_position");
 
-        horizontalLayout->addWidget(lineEditFloat_y_transform);
+        horizontalLayout_position->addWidget(label_y_position);
 
-        label_z_transform = new QLabel(contentWidget_transform);
-        label_z_transform->setObjectName("label_z_transform");
+        lineEditFloat_y_position = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_y_position->setObjectName("lineEditFloat_y_position");
 
-        horizontalLayout->addWidget(label_z_transform);
+        horizontalLayout_position->addWidget(lineEditFloat_y_position);
 
-        lineEditFloat_z_transform = new LineEditFloat(contentWidget_transform);
-        lineEditFloat_z_transform->setObjectName("lineEditFloat_z_transform");
+        label_z_position = new QLabel(contentWidget_transform);
+        label_z_position->setObjectName("label_z_position");
 
-        horizontalLayout->addWidget(lineEditFloat_z_transform);
+        horizontalLayout_position->addWidget(label_z_position);
+
+        lineEditFloat_z_position = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_z_position->setObjectName("lineEditFloat_z_position");
+
+        horizontalLayout_position->addWidget(lineEditFloat_z_position);
+
+
+        verticalLayout_6->addLayout(horizontalLayout_position);
+
+        line_2 = new QFrame(contentWidget_transform);
+        line_2->setObjectName("line_2");
+        line_2->setFrameShape(QFrame::HLine);
+        line_2->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_6->addWidget(line_2);
+
+        label_scale = new QLabel(contentWidget_transform);
+        label_scale->setObjectName("label_scale");
+
+        verticalLayout_6->addWidget(label_scale);
+
+        horizontalLayout_scale = new QHBoxLayout();
+        horizontalLayout_scale->setObjectName("horizontalLayout_scale");
+        label_x_scale = new QLabel(contentWidget_transform);
+        label_x_scale->setObjectName("label_x_scale");
+
+        horizontalLayout_scale->addWidget(label_x_scale);
+
+        lineEditFloat_x_scale = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_x_scale->setObjectName("lineEditFloat_x_scale");
+
+        horizontalLayout_scale->addWidget(lineEditFloat_x_scale);
+
+        label_y_scale = new QLabel(contentWidget_transform);
+        label_y_scale->setObjectName("label_y_scale");
+
+        horizontalLayout_scale->addWidget(label_y_scale);
+
+        lineEditFloat_y_scale = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_y_scale->setObjectName("lineEditFloat_y_scale");
+
+        horizontalLayout_scale->addWidget(lineEditFloat_y_scale);
+
+        label_z_scale = new QLabel(contentWidget_transform);
+        label_z_scale->setObjectName("label_z_scale");
+
+        horizontalLayout_scale->addWidget(label_z_scale);
+
+        lineEditFloat_z_scale = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_z_scale->setObjectName("lineEditFloat_z_scale");
+
+        horizontalLayout_scale->addWidget(lineEditFloat_z_scale);
+
+
+        verticalLayout_6->addLayout(horizontalLayout_scale);
+
+        line_3 = new QFrame(contentWidget_transform);
+        line_3->setObjectName("line_3");
+        line_3->setFrameShape(QFrame::HLine);
+        line_3->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_6->addWidget(line_3);
+
+        label_2 = new QLabel(contentWidget_transform);
+        label_2->setObjectName("label_2");
+
+        verticalLayout_6->addWidget(label_2);
+
+        horizontalLayout_rotation = new QHBoxLayout();
+        horizontalLayout_rotation->setObjectName("horizontalLayout_rotation");
+        label_x_rotation = new QLabel(contentWidget_transform);
+        label_x_rotation->setObjectName("label_x_rotation");
+
+        horizontalLayout_rotation->addWidget(label_x_rotation);
+
+        lineEditFloat_x_rotation = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_x_rotation->setObjectName("lineEditFloat_x_rotation");
+
+        horizontalLayout_rotation->addWidget(lineEditFloat_x_rotation);
+
+        label_y_rotation = new QLabel(contentWidget_transform);
+        label_y_rotation->setObjectName("label_y_rotation");
+
+        horizontalLayout_rotation->addWidget(label_y_rotation);
+
+        lineEditFloat_y_rotation = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_y_rotation->setObjectName("lineEditFloat_y_rotation");
+
+        horizontalLayout_rotation->addWidget(lineEditFloat_y_rotation);
+
+        label_z_rotation = new QLabel(contentWidget_transform);
+        label_z_rotation->setObjectName("label_z_rotation");
+
+        horizontalLayout_rotation->addWidget(label_z_rotation);
+
+        lineEditFloat_z_rotation = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_z_rotation->setObjectName("lineEditFloat_z_rotation");
+
+        horizontalLayout_rotation->addWidget(lineEditFloat_z_rotation);
+
+
+        verticalLayout_6->addLayout(horizontalLayout_rotation);
 
 
         verticalLayout_3->addWidget(qCollapsibleWidget_transform);
-
-        qCollapsibleWidget_scale = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
-        qCollapsibleWidget_scale->setObjectName("qCollapsibleWidget_scale");
-        contentWidget_scale = new QWidget(qCollapsibleWidget_scale);
-        contentWidget_scale->setObjectName("contentWidget_scale");
-        sizePolicy2.setHeightForWidth(contentWidget_scale->sizePolicy().hasHeightForWidth());
-        contentWidget_scale->setSizePolicy(sizePolicy2);
-        horizontalLayout_2 = new QHBoxLayout(contentWidget_scale);
-        horizontalLayout_2->setObjectName("horizontalLayout_2");
-        label_x_scale = new QLabel(contentWidget_scale);
-        label_x_scale->setObjectName("label_x_scale");
-
-        horizontalLayout_2->addWidget(label_x_scale);
-
-        lineEditFloat_x_scale = new LineEditFloat(contentWidget_scale);
-        lineEditFloat_x_scale->setObjectName("lineEditFloat_x_scale");
-
-        horizontalLayout_2->addWidget(lineEditFloat_x_scale);
-
-        label_y_scale = new QLabel(contentWidget_scale);
-        label_y_scale->setObjectName("label_y_scale");
-
-        horizontalLayout_2->addWidget(label_y_scale);
-
-        lineEditFloat_y_scale = new LineEditFloat(contentWidget_scale);
-        lineEditFloat_y_scale->setObjectName("lineEditFloat_y_scale");
-
-        horizontalLayout_2->addWidget(lineEditFloat_y_scale);
-
-        label_z_scale = new QLabel(contentWidget_scale);
-        label_z_scale->setObjectName("label_z_scale");
-
-        horizontalLayout_2->addWidget(label_z_scale);
-
-        lineEditFloat_z_scale = new LineEditFloat(contentWidget_scale);
-        lineEditFloat_z_scale->setObjectName("lineEditFloat_z_scale");
-
-        horizontalLayout_2->addWidget(lineEditFloat_z_scale);
-
-
-        verticalLayout_3->addWidget(qCollapsibleWidget_scale);
 
         qCollapsibleWidget_color = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
         qCollapsibleWidget_color->setObjectName("qCollapsibleWidget_color");
@@ -439,7 +513,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 146));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 126));
         scrollArea->setWidget(scrollAreaWidgetContents);
 
         gridLayout_4->addWidget(scrollArea, 0, 0, 1, 1);
@@ -494,14 +568,19 @@ public:
         actioncompile->setText(QCoreApplication::translate("MainWindow", "compile", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
-        qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Tranform", nullptr));
-        label_x_transform->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
-        label_y_transform->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
-        label_z_transform->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
-        qCollapsibleWidget_scale->setTitle(QCoreApplication::translate("MainWindow", "Scale", nullptr));
+        qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Transform", nullptr));
+        label_position->setText(QCoreApplication::translate("MainWindow", "Position", nullptr));
+        label_x_position->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_y_position->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_z_position->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
+        label_scale->setText(QCoreApplication::translate("MainWindow", "Scale", nullptr));
         label_x_scale->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
         label_y_scale->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
         label_z_scale->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "Rotation", nullptr));
+        label_x_rotation->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_y_rotation->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_z_rotation->setText(QCoreApplication::translate("MainWindow", "Z", nullptr));
         qCollapsibleWidget_color->setTitle(QCoreApplication::translate("MainWindow", "Color", nullptr));
         label_R_color->setText(QCoreApplication::translate("MainWindow", "R", nullptr));
         label_G_color->setText(QCoreApplication::translate("MainWindow", "G", nullptr));

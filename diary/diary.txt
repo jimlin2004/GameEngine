@@ -243,3 +243,7 @@
     2. 修復game object detail折疊時會抖動的問題
     3. game object detail新增color一類(未完工)
     存檔紀錄 --version 1.0-dev
+2023/07/01
+    1. game object detail color一類新增QColorDialog
+    2. game object detail transform一類改為包含position、scale、rotation
+    存檔紀錄 --version 1.0-dev

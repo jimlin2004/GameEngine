@@ -115,6 +115,10 @@ MainWindow::MainWindow(QWidget *parent)
     
     this->ui->widget_colorViewer->setStyleSheet("background-color: #000000;");
     connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
+    connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    this->ui->pushButton_colorPicker->setEnabled(false); //為選取game object前不能點選
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
     // timer->start(41); //24fps
@@ -172,21 +176,29 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
         outlineItem->click();
     GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(outlineItem->getEntityID());
     GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(outlineItem->getEntityID());
-    this->ui->lineEditFloat_x_transform->bind(&transformComponent.translation.x);
-    this->ui->lineEditFloat_y_transform->bind(&transformComponent.translation.y);
-    this->ui->lineEditFloat_z_transform->bind(&transformComponent.translation.z);
+    this->ui->lineEditFloat_x_position->bind(&transformComponent.translation.x);
+    this->ui->lineEditFloat_y_position->bind(&transformComponent.translation.y);
+    this->ui->lineEditFloat_z_position->bind(&transformComponent.translation.z);
     this->ui->lineEditFloat_x_scale->bind(&transformComponent.scale.x);
     this->ui->lineEditFloat_y_scale->bind(&transformComponent.scale.y);
     this->ui->lineEditFloat_z_scale->bind(&transformComponent.scale.z);
+    this->ui->lineEditFloat_x_rotation->bind(&transformComponent.rotation.x);
+    this->ui->lineEditFloat_y_rotation->bind(&transformComponent.rotation.y);
+    this->ui->lineEditFloat_z_rotation->bind(&transformComponent.rotation.z);
     this->ui->lineEditFloat_R_color->bind(&meshComponent.color.r);
     this->ui->lineEditFloat_G_color->bind(&meshComponent.color.g);
     this->ui->lineEditFloat_B_color->bind(&meshComponent.color.b);
+    this->ui->pushButton_colorPicker->setEnabled(true);
     this->updateColorViewer();
 }
 
 void MainWindow::openColorDialog()
 {
     QColor color = QColorDialog::getColor();
+    this->ui->lineEditFloat_R_color->setValue(color.redF());
+    this->ui->lineEditFloat_G_color->setValue(color.greenF());
+    this->ui->lineEditFloat_B_color->setValue(color.blueF());
+    this->updateColorViewer();
 }
 
 void MainWindow::updateColorViewer()
@@ -196,6 +208,7 @@ void MainWindow::updateColorViewer()
     int B = (int)(this->ui->lineEditFloat_B_color->getValue() * 255);
     QColor color(R, G, B);
     this->ui->widget_colorViewer->setStyleSheet("background-color: " + color.name() + ";");
+    this->ui->openglWidget->update();
 }
 
 void MainWindow::resetGameObjectOutline()

@@ -30,3 +30,11 @@ float LineEditFloat::getValue() const
         throw std::runtime_error("must bind data pointer before get its value");
     return this->text().toFloat();
 }
+
+void LineEditFloat::setValue(float val)
+{
+    if (this->_dataPtr == nullptr)
+        throw std::runtime_error("must bind data pointer before set its value");
+    (*this->_dataPtr) = val;
+    this->setText(QString::number(*(this->_dataPtr)));
+}

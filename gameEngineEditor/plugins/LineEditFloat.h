@@ -12,6 +12,7 @@ public:
     LineEditFloat(QWidget *parent = 0);
     void bind(float* ptr);
     float getValue() const;
+    void setValue(float val);
 private:
     float* _dataPtr;
 private slots:
