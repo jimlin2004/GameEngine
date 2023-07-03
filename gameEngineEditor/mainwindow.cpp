@@ -87,7 +87,8 @@ MainWindow::MainWindow(QWidget *parent)
     this->setStyleSheet(qss);
     qssFile.close();
 
-    connect(ui->actionopen, SIGNAL(triggered()), this, SLOT(openProject()));
+    connect(this->ui->actionopen, &QAction::triggered, this, &MainWindow::openProject);
+    connect(this->ui->actionsave, &QAction::triggered, this, &MainWindow::saveScene);
     this->ui->wrapWidgetBottom->resize(this->ui->wrapWidgetBottom->width(), 120);
     this->ui->dockWidgetContentsBottom->resize(this->ui->dockWidgetContentsBottom->width(), 120);
     this->resizeDocks({this->ui->dockWidgetBottom}, {this->ui->dockWidgetContentsBottom->height()}, Qt::Vertical);
@@ -95,7 +96,7 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->dockWidgetContentsRight->resize(100, this->ui->dockWidgetRight->height());
     this->resizeDocks({this->ui->dockWidgetRight}, {this->ui->dockWidgetRight->width()}, Qt::Horizontal);
 
-    connect(this->ui->lineEdit, SIGNAL(returnPressed()), this, SLOT(parseOutput()));
+    connect(this->ui->lineEdit, &QLineEdit::returnPressed, this, &MainWindow::parseOutput);
     
     _textBrowserPtr = this->ui->textBrowser;
     qInstallMessageHandler(parseEditorMsg);
@@ -234,6 +235,31 @@ void MainWindow::openProject()
     this->resetFileSystemPanel();
     qDebug("Load project success.\n");
     qDebug("Current project: %s.\n", this->projectParser->getProjectName().c_str());
+    
+    std::string mapPath = this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map";
+    if (std::filesystem::exists(mapPath))
+    {
+        qDebug("Found scene data in %s.\n", mapPath.c_str());
+        GameEngine::SceneSerializer sceneSerializer;
+        if (sceneSerializer.deserialize(mapPath))
+            qDebug("Load scene success.\n");
+        else
+            qCritical("Fail to load scene.\n");
+    }
+    else
+        qDebug("Scene data not found.\n");
+}
+
+void MainWindow::saveScene()
+{
+    if (this->projectParser->getProjectName() == "")
+    {
+        QMessageBox::warning(this, "Error", "Must load a project before save.");
+        return;
+    }
+    GameEngine::SceneSerializer sceneSerializer;
+    sceneSerializer.serialize(this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map");
+    qDebug("Save scene in %s\n", (this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map").c_str());
 }
 
 void MainWindow::filesystemPanel_click()

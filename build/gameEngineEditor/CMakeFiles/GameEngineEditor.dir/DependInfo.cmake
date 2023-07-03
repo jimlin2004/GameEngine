@@ -31,6 +31,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/src/Renderer.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Scene/Scene.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj.d"
+  "D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Shader.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/ShaderManager.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/SubTexture.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj.d"

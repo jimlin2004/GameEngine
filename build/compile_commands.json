@@ -116,6 +116,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Scene\\SceneSerializer.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Scene\\SceneSerializer.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Shader.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Shader.cpp",
   "file": "D:/code/cpp/gameEngine/src/Shader.cpp"
 },
@@ -283,6 +288,11 @@
   "directory": "D:/code/cpp/gameEngine/build/test",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\Scene\\SceneGraph.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Scene\\SceneGraph.cpp",
   "file": "D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/test",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -o CMakeFiles\\TestGame.dir\\__\\src\\Scene\\SceneSerializer.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Scene\\SceneSerializer.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/test",
@@ -508,6 +518,11 @@
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\Scene\\SceneGraph.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Scene\\SceneGraph.cpp",
   "file": "D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\Scene\\SceneSerializer.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Scene\\SceneSerializer.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",

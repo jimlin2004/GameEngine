@@ -45,6 +45,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Shader.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Shader.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj"

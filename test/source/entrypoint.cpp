@@ -2,7 +2,7 @@
 
 int main(int argc, char* args[])
 {
-    TestGame* game = new TestGame("game", 640.0f, 480.0f);
+    TestGame* game = new TestGame("Test", 640.0f, 480.0f);
     bool success = game->initSDL() && game->initGL();
     if (success)
         game->startGame();

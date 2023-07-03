@@ -7,6 +7,7 @@
 #include "Scene/Scene.h"
 #include "Component/Component.h"
 #include <exception>
+#include <string>
 
 namespace GameEngine
 {
@@ -20,6 +21,7 @@ namespace GameEngine
     public:
         Actor();
         Actor(Actor& other);
+        Actor(entt::entity entityID);
         Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName);
 
         virtual ~Actor();
@@ -30,6 +32,11 @@ namespace GameEngine
         virtual void setPosition(float x, float y);
         virtual void begin();
         virtual void update(const float deltaTime);
+
+        inline uint32_t getID() const
+        {
+            return (uint32_t)this->entityID;
+        }
 
         template <class T>
         bool hasComponent()

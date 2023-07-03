@@ -765,6 +765,30 @@ src/Scene/SceneGraph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.s
 .PHONY : src/Scene/SceneGraph.cpp.s
 
+src/Scene/SceneSerializer.obj: src/Scene/SceneSerializer.cpp.obj
+.PHONY : src/Scene/SceneSerializer.obj
+
+# target to build an object file
+src/Scene/SceneSerializer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj
+.PHONY : src/Scene/SceneSerializer.cpp.obj
+
+src/Scene/SceneSerializer.i: src/Scene/SceneSerializer.cpp.i
+.PHONY : src/Scene/SceneSerializer.i
+
+# target to preprocess a source file
+src/Scene/SceneSerializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.i
+.PHONY : src/Scene/SceneSerializer.cpp.i
+
+src/Scene/SceneSerializer.s: src/Scene/SceneSerializer.cpp.s
+.PHONY : src/Scene/SceneSerializer.s
+
+# target to generate assembly for a file
+src/Scene/SceneSerializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.s
+.PHONY : src/Scene/SceneSerializer.cpp.s
+
 src/Shader.obj: src/Shader.cpp.obj
 .PHONY : src/Shader.obj
 
@@ -1090,6 +1114,9 @@ help:
 	@echo ... src/Scene/SceneGraph.obj
 	@echo ... src/Scene/SceneGraph.i
 	@echo ... src/Scene/SceneGraph.s
+	@echo ... src/Scene/SceneSerializer.obj
+	@echo ... src/Scene/SceneSerializer.i
+	@echo ... src/Scene/SceneSerializer.s
 	@echo ... src/Shader.obj
 	@echo ... src/Shader.i
 	@echo ... src/Shader.s

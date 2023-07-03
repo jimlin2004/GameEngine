@@ -381,6 +381,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
@@ -880,6 +882,24 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  D:/code/cpp/gameEngine/include/Scene/Scene.h \
  D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
+ D:/code/cpp/gameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
  D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \

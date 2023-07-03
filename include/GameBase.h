@@ -13,6 +13,7 @@
 #include "Graphics.h"
 #include "Actor.h"
 #include "Renderer.h"
+#include "Scene/SceneSerializer.h"
 
 #define GAMEENGINE_BEGIN() \
             if (GameEngine::GEngine->getEditorSceneFunc() != nullptr) \

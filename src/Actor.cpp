@@ -11,6 +11,11 @@ GameEngine::Actor::Actor(Actor &other)
 {
 }
 
+GameEngine::Actor::Actor(entt::entity entityID)
+    : entityID(entityID)
+{
+}
+
 GameEngine::Actor::Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName)
     : entityID(entityID)
 {

@@ -428,11 +428,26 @@ test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Scene\SceneGraph.cpp -o CMakeFiles\TestGame.dir\__\src\Scene\SceneGraph.cpp.s
 
+test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj: test/CMakeFiles/TestGame.dir/flags.make
+test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
+test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj: D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp
+test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\Scene\SceneSerializer.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\Scene\SceneSerializer.cpp.obj -c D:\code\cpp\gameEngine\src\Scene\SceneSerializer.cpp
+
+test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Scene\SceneSerializer.cpp > CMakeFiles\TestGame.dir\__\src\Scene\SceneSerializer.cpp.i
+
+test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Scene\SceneSerializer.cpp -o CMakeFiles\TestGame.dir\__\src\Scene\SceneSerializer.cpp.s
+
 test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: test/CMakeFiles/TestGame.dir/flags.make
 test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: D:/code/cpp/gameEngine/src/Shader.cpp
 test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\Shader.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\Shader.cpp.obj -c D:\code\cpp\gameEngine\src\Shader.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.i: cmake_force
@@ -447,7 +462,7 @@ test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj: test/CMakeFiles/TestG
 test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj: D:/code/cpp/gameEngine/src/ShaderManager.cpp
 test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\ShaderManager.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\ShaderManager.cpp.obj -c D:\code\cpp\gameEngine\src\ShaderManager.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.i: cmake_force
@@ -462,7 +477,7 @@ test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj: test/CMakeFiles/TestGame
 test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj: D:/code/cpp/gameEngine/src/SubTexture.cpp
 test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\SubTexture.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\SubTexture.cpp.obj -c D:\code\cpp\gameEngine\src\SubTexture.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.i: cmake_force
@@ -477,7 +492,7 @@ test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj: test/CMakeFiles/TestGame.di
 test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj: D:/code/cpp/gameEngine/src/Texture.cpp
 test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\Texture.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\Texture.cpp.obj -c D:\code\cpp\gameEngine\src\Texture.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.i: cmake_force
@@ -492,7 +507,7 @@ test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj: test/CMakeFiles/TestGame.d
 test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj: D:/code/cpp/gameEngine/src/Timestep.cpp
 test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\Timestep.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\Timestep.cpp.obj -c D:\code\cpp\gameEngine\src\Timestep.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.i: cmake_force
@@ -507,7 +522,7 @@ test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj: test/CMakeFiles/TestGam
 test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj: D:/code/cpp/gameEngine/src/VertexArray.cpp
 test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\VertexArray.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\VertexArray.cpp.obj -c D:\code\cpp\gameEngine\src\VertexArray.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.i: cmake_force
@@ -522,7 +537,7 @@ test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj: test/CMakeFiles/TestGa
 test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj: D:/code/cpp/gameEngine/src/VertexBuffer.cpp
 test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\VertexBuffer.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\VertexBuffer.cpp.obj -c D:\code\cpp\gameEngine\src\VertexBuffer.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.i: cmake_force
@@ -537,7 +552,7 @@ test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj: test/CMakeFiles/
 test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj: D:/code/cpp/gameEngine/src/VertexBufferLayout.cpp
 test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\VertexBufferLayout.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\VertexBufferLayout.cpp.obj -c D:\code\cpp\gameEngine\src\VertexBufferLayout.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.i: cmake_force
@@ -552,7 +567,7 @@ test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj: test/CMake
 test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj: D:/code/cpp/gameEngine/src/physics/boundingBox/AABB.cpp
 test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj -MF CMakeFiles\TestGame.dir\__\src\physics\boundingBox\AABB.cpp.obj.d -o CMakeFiles\TestGame.dir\__\src\physics\boundingBox\AABB.cpp.obj -c D:\code\cpp\gameEngine\src\physics\boundingBox\AABB.cpp
 
 test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.i: cmake_force
@@ -567,7 +582,7 @@ test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: test/CM
 test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: test/CMakeFiles/TestGame.dir/includes_CXX.rsp
 test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp
 test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: test/CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\test && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj -MF CMakeFiles\TestGame.dir\__\third_party\stb_image\std_image.cpp.obj.d -o CMakeFiles\TestGame.dir\__\third_party\stb_image\std_image.cpp.obj -c D:\code\cpp\gameEngine\third_party\stb_image\std_image.cpp
 
 test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.i: cmake_force
@@ -604,6 +619,7 @@ TestGame_OBJECTS = \
 "CMakeFiles/TestGame.dir/__/src/Renderer.cpp.obj" \
 "CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.obj" \
 "CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.obj" \
+"CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj" \
 "CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj" \
 "CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj" \
 "CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj" \
@@ -642,6 +658,7 @@ test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/IndexBuffer.cpp.obj
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.obj
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.obj
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.obj
+test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj
@@ -657,7 +674,7 @@ test/TestGame.exe: C:/Program\ Files/msys64/mingw64/lib/libglew32.dll.a
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/linkLibs.rsp
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/objects1
 test/TestGame.exe: test/CMakeFiles/TestGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable TestGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable TestGame.exe"
 	cd /d D:\code\cpp\gameEngine\build\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

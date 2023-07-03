@@ -247,3 +247,9 @@
     1. game object detail color一類新增QColorDialog
     2. game object detail transform一類改為包含position、scale、rotation
     存檔紀錄 --version 1.0-dev
+2023/07/03
+    1. 新增nlohmann json (第三方)
+    2. 新增SceneSerializer用於解析json
+    Todo list
+        -json格式似乎有誤
+    存檔紀錄 --version 1.0-dev

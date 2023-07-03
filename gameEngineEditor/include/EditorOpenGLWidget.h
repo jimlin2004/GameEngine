@@ -9,6 +9,7 @@
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Renderer.h"
 #include "EditorScene.h"
+#include "Scene/SceneSerializer.h"
 
 class EditorOpenGLWidget: public QOpenGLWidget
 {

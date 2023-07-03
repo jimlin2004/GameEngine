@@ -412,6 +412,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/bcrypt.h
  mdp:C:/Program Files/msys64/mingw64/include/bemapiset.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/algorithm
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/any
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/array
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/atomic
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h
@@ -446,7 +447,10 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/gslice.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ios_base.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc
@@ -454,9 +458,13 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.tcc
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/max_size_type.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/mofunc_impl.h
@@ -471,6 +479,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ranges_algo.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ranges_algobase.h
@@ -482,6 +491,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
@@ -520,6 +530,10 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator_args.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
@@ -536,6 +550,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdio
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstdlib
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cstring
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ctime
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwchar
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cwctype
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h
@@ -549,15 +564,19 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/forward_list
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iomanip
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iostream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iterator
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/list
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/locale
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/map
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/memory
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/new
@@ -569,7 +588,9 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ranges
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/set
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/span
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/sstream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdexcept
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/streambuf
@@ -593,6 +614,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_set
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/utility
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/valarray
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/variant
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/vector
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h
@@ -606,7 +628,9 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h
  mdp:C:/Program Files/msys64/mingw64/include/cderr.h
  mdp:C:/Program Files/msys64/mingw64/include/cguid.h
  mdp:C:/Program Files/msys64/mingw64/include/combaseapi.h
@@ -1019,11 +1043,13 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h
  mdp:D:/code/cpp/gameEngine/include/GELib.h
  mdp:D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
+ mdp:D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h
  mdp:D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h
  mdp:D:/code/cpp/gameEngine/include/GameObject.h
  mdp:D:/code/cpp/gameEngine/include/IndexBuffer.h
  mdp:D:/code/cpp/gameEngine/include/Renderer.h
  mdp:D:/code/cpp/gameEngine/include/Scene/Scene.h
+ mdp:D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h
  mdp:D:/code/cpp/gameEngine/include/Shader.h
  mdp:D:/code/cpp/gameEngine/include/ShaderManager.h
  mdp:D:/code/cpp/gameEngine/include/SubTexture.h
@@ -1201,6 +1227,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h
  mdp:D:/code/cpp/gameEngine/third_party/glm/vec3.hpp
  mdp:D:/code/cpp/gameEngine/third_party/glm/vec4.hpp
  mdp:D:/code/cpp/gameEngine/third_party/glm/vector_relational.hpp
+ mdp:D:/code/cpp/gameEngine/third_party/json/json.hpp
  mdp:D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h
  mdp:D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h
 D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp
@@ -1578,6 +1605,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/bcrypt.h
  mdp:C:/Program Files/msys64/mingw64/include/bemapiset.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/algorithm
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/any
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/array
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/atomic
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h
@@ -1617,7 +1645,10 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/gslice.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/ios_base.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc
@@ -1631,6 +1662,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/max_size_type.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/mofunc_impl.h
@@ -1657,6 +1689,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
@@ -1695,6 +1728,10 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator_args.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cassert
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/cctype
@@ -1727,12 +1764,14 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/filesystem
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/forward_list
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/fstream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/functional
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/initializer_list
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iomanip
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ios
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iosfwd
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iostream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/istream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/iterator
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/limits
@@ -1749,8 +1788,10 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ranges
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/ratio
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/set
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/span
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/sstream
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/stdexcept
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/streambuf
@@ -1775,6 +1816,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_map
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/unordered_set
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/utility
+ mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/valarray
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/variant
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/vector
  mdp:C:/Program Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h
@@ -2232,6 +2274,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget
@@ -2252,6 +2295,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h
+ mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qslider.h
@@ -2281,11 +2325,13 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h
  mdp:D:/code/cpp/gameEngine/include/GELib.h
  mdp:D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h
+ mdp:D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h
  mdp:D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h
  mdp:D:/code/cpp/gameEngine/include/GameObject.h
  mdp:D:/code/cpp/gameEngine/include/IndexBuffer.h
  mdp:D:/code/cpp/gameEngine/include/Renderer.h
  mdp:D:/code/cpp/gameEngine/include/Scene/Scene.h
+ mdp:D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h
  mdp:D:/code/cpp/gameEngine/include/Shader.h
  mdp:D:/code/cpp/gameEngine/include/ShaderManager.h
  mdp:D:/code/cpp/gameEngine/include/SubTexture.h
@@ -2463,6 +2509,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameEngine/third_party/glm/vec3.hpp
  mdp:D:/code/cpp/gameEngine/third_party/glm/vec4.hpp
  mdp:D:/code/cpp/gameEngine/third_party/glm/vector_relational.hpp
+ mdp:D:/code/cpp/gameEngine/third_party/json/json.hpp
  mdp:D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h
  mdp:D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h
 D:/code/cpp/gameEngine/src/Scene/Scene.cpp
@@ -2815,6 +2862,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h
 D:/code/cpp/gameEngine/src/Camera.cpp
+D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp
 D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.h
  mmc:Q_OBJECT
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.h
@@ -3549,3 +3597,4 @@ D:/code/cpp/gameEngine/src/VertexArray.cpp
 D:/code/cpp/gameEngine/src/VertexBuffer.cpp
 D:/code/cpp/gameEngine/src/VertexBufferLayout.cpp
 D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp
+D:/code/cpp/gameEngine/third_party/json/json.hpp

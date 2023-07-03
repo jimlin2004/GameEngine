@@ -2,6 +2,8 @@
 
 ProjectParser::ProjectParser()
     : jsonParser(new JsonParser())
+    , projectDirname(std::string())
+    , projectName(std::string())
 {
 
 }

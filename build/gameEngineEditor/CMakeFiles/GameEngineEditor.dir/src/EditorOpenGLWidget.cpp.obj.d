@@ -827,4 +827,36 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameEngine/include/Timestep.h \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  D:/code/cpp/gameEngine/include/Scene/Scene.h \
- D:/code/cpp/gameEngine/include/Component/Component.h
+ D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
+ D:/code/cpp/gameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/locale \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iomanip \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream

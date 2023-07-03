@@ -311,6 +311,12 @@
 			"MU",
 			"WETUBSRGIL/moc_flowlayout.cpp",
 			null
+		],
+		[
+			"D:/code/cpp/gameEngine/third_party/json/json.hpp",
+			"MU",
+			"SEKTYA3XXP/moc_json.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -497,6 +503,7 @@
 		[ "D:/code/cpp/gameEngine/src/Renderer.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/Scene/Scene.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/Shader.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/ShaderManager.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/SubTexture.cpp", "MU", null ],

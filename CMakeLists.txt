@@ -24,6 +24,7 @@ file(GLOB_RECURSE THIRD_PARTY_SRC
     # ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.c
     # ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/stb_image/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/third_party/json/json.hpp
 )
 
 file(GLOB_RECURSE HEADER_FILES

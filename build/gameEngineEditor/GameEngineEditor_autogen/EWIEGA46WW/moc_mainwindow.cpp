@@ -27,19 +27,20 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_MainWindow_t {
-    uint offsetsAndSizes[24];
+    uint offsetsAndSizes[26];
     char stringdata0[11];
     char stringdata1[12];
     char stringdata2[1];
-    char stringdata3[22];
-    char stringdata4[21];
-    char stringdata5[12];
-    char stringdata6[23];
-    char stringdata7[21];
-    char stringdata8[17];
-    char stringdata9[5];
-    char stringdata10[7];
-    char stringdata11[16];
+    char stringdata3[10];
+    char stringdata4[22];
+    char stringdata5[21];
+    char stringdata6[12];
+    char stringdata7[23];
+    char stringdata8[21];
+    char stringdata9[17];
+    char stringdata10[5];
+    char stringdata11[7];
+    char stringdata12[16];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_MainWindow_t::offsetsAndSizes) + ofs), len 
@@ -48,19 +49,21 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
         QT_MOC_LITERAL(0, 10),  // "MainWindow"
         QT_MOC_LITERAL(11, 11),  // "openProject"
         QT_MOC_LITERAL(23, 0),  // ""
-        QT_MOC_LITERAL(24, 21),  // "filesystemPanel_click"
-        QT_MOC_LITERAL(46, 20),  // "clearFileSystemPanel"
-        QT_MOC_LITERAL(67, 11),  // "parseOutput"
-        QT_MOC_LITERAL(79, 22),  // "resetGameObjectOutline"
-        QT_MOC_LITERAL(102, 20),  // "getTreeWigetItemInfo"
-        QT_MOC_LITERAL(123, 16),  // "QTreeWidgetItem*"
-        QT_MOC_LITERAL(140, 4),  // "item"
-        QT_MOC_LITERAL(145, 6),  // "column"
-        QT_MOC_LITERAL(152, 15)   // "openColorDialog"
+        QT_MOC_LITERAL(24, 9),  // "saveScene"
+        QT_MOC_LITERAL(34, 21),  // "filesystemPanel_click"
+        QT_MOC_LITERAL(56, 20),  // "clearFileSystemPanel"
+        QT_MOC_LITERAL(77, 11),  // "parseOutput"
+        QT_MOC_LITERAL(89, 22),  // "resetGameObjectOutline"
+        QT_MOC_LITERAL(112, 20),  // "getTreeWigetItemInfo"
+        QT_MOC_LITERAL(133, 16),  // "QTreeWidgetItem*"
+        QT_MOC_LITERAL(150, 4),  // "item"
+        QT_MOC_LITERAL(155, 6),  // "column"
+        QT_MOC_LITERAL(162, 15)   // "openColorDialog"
     },
     "MainWindow",
     "openProject",
     "",
+    "saveScene",
     "filesystemPanel_click",
     "clearFileSystemPanel",
     "parseOutput",
@@ -80,7 +83,7 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -88,13 +91,14 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   56,    2, 0x08,    1 /* Private */,
-       3,    0,   57,    2, 0x08,    2 /* Private */,
-       4,    0,   58,    2, 0x08,    3 /* Private */,
-       5,    0,   59,    2, 0x08,    4 /* Private */,
-       6,    0,   60,    2, 0x08,    5 /* Private */,
-       7,    2,   61,    2, 0x08,    6 /* Private */,
-      11,    0,   66,    2, 0x08,    9 /* Private */,
+       1,    0,   62,    2, 0x08,    1 /* Private */,
+       3,    0,   63,    2, 0x08,    2 /* Private */,
+       4,    0,   64,    2, 0x08,    3 /* Private */,
+       5,    0,   65,    2, 0x08,    4 /* Private */,
+       6,    0,   66,    2, 0x08,    5 /* Private */,
+       7,    0,   67,    2, 0x08,    6 /* Private */,
+       8,    2,   68,    2, 0x08,    7 /* Private */,
+      12,    0,   73,    2, 0x08,   10 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -102,7 +106,8 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 8, QMetaType::Int,    9,   10,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 9, QMetaType::Int,   10,   11,
     QMetaType::Void,
 
        0        // eod
@@ -118,6 +123,8 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
         // method 'openProject'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'saveScene'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'filesystemPanel_click'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
@@ -144,12 +151,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         (void)_t;
         switch (_id) {
         case 0: _t->openProject(); break;
-        case 1: _t->filesystemPanel_click(); break;
-        case 2: _t->clearFileSystemPanel(); break;
-        case 3: _t->parseOutput(); break;
-        case 4: _t->resetGameObjectOutline(); break;
-        case 5: _t->getTreeWigetItemInfo((*reinterpret_cast< std::add_pointer_t<QTreeWidgetItem*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
-        case 6: _t->openColorDialog(); break;
+        case 1: _t->saveScene(); break;
+        case 2: _t->filesystemPanel_click(); break;
+        case 3: _t->clearFileSystemPanel(); break;
+        case 4: _t->parseOutput(); break;
+        case 5: _t->resetGameObjectOutline(); break;
+        case 6: _t->getTreeWigetItemInfo((*reinterpret_cast< std::add_pointer_t<QTreeWidgetItem*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        case 7: _t->openColorDialog(); break;
         default: ;
         }
     }
@@ -174,13 +182,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 8;
     }
     return _id;
 }
