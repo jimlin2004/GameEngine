@@ -10,6 +10,7 @@ EditorOpenGLWidget::EditorOpenGLWidget(QWidget* parent)
 void EditorOpenGLWidget::sceneBegin()
 {
     EditorScene::addActor<GameEngine::Actor>({100.0f, 100.0f, 1.0f}, {50.0f, 50.0f, 1.0f}, {0.0f, 0.0f, 0.0f}, "TestActor");
+    EditorScene::addActor<GameEngine::Actor>({250.0f, 100.0f, 1.0f}, {50.0f, 50.0f, 1.0f}, {0.0f, 0.0f, 0.0f}, "TestActor");
     this->resetGameObjectOutline();
 }
 

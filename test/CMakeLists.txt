@@ -13,6 +13,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE .)
 target_include_directories(${PROJECT_NAME} PRIVATE ./source/${GameName})
 target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
 target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
+target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/third_party/lib/libbox2d.a)
 
 add_custom_target(
     test_game_copy_target ALL

@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj: \
  D:\code\cpp\gameEngine\src\Timestep.cpp \
  D:/code/cpp/gameEngine/include/Timestep.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \

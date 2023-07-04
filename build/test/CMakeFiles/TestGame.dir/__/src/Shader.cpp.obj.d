@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: \
  D:\code\cpp\gameEngine\src\Shader.cpp \
  D:/code/cpp/gameEngine/include/Shader.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
@@ -421,4 +421,6 @@ test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj: \
  D:/code/cpp/gameEngine/include/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/include/SubTexture.h \
- D:/code/cpp/gameEngine/include/GELib.h
+ D:/code/cpp/gameEngine/include/GELib.h \
+ D:/code/cpp/gameEngine/include/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream

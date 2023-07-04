@@ -71,6 +71,11 @@
         "variant": "cpp",
         "qvboxlayout": "cpp",
         "source_location": "cpp",
-        "qmouseevent": "cpp"
+        "qmouseevent": "cpp",
+        "any": "cpp",
+        "forward_list": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "valarray": "cpp"
     }
 }

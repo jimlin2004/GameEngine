@@ -633,29 +633,173 @@ __/src/Graphics.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.s
 .PHONY : __/src/Graphics.cpp.s
 
-__/src/IndexBuffer.obj: __/src/IndexBuffer.cpp.obj
-.PHONY : __/src/IndexBuffer.obj
+__/src/Opengl/IndexBuffer.obj: __/src/Opengl/IndexBuffer.cpp.obj
+.PHONY : __/src/Opengl/IndexBuffer.obj
 
 # target to build an object file
-__/src/IndexBuffer.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj
-.PHONY : __/src/IndexBuffer.cpp.obj
+__/src/Opengl/IndexBuffer.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj
+.PHONY : __/src/Opengl/IndexBuffer.cpp.obj
 
-__/src/IndexBuffer.i: __/src/IndexBuffer.cpp.i
-.PHONY : __/src/IndexBuffer.i
+__/src/Opengl/IndexBuffer.i: __/src/Opengl/IndexBuffer.cpp.i
+.PHONY : __/src/Opengl/IndexBuffer.i
 
 # target to preprocess a source file
-__/src/IndexBuffer.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.i
-.PHONY : __/src/IndexBuffer.cpp.i
+__/src/Opengl/IndexBuffer.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.i
+.PHONY : __/src/Opengl/IndexBuffer.cpp.i
 
-__/src/IndexBuffer.s: __/src/IndexBuffer.cpp.s
-.PHONY : __/src/IndexBuffer.s
+__/src/Opengl/IndexBuffer.s: __/src/Opengl/IndexBuffer.cpp.s
+.PHONY : __/src/Opengl/IndexBuffer.s
 
 # target to generate assembly for a file
-__/src/IndexBuffer.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.s
-.PHONY : __/src/IndexBuffer.cpp.s
+__/src/Opengl/IndexBuffer.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.s
+.PHONY : __/src/Opengl/IndexBuffer.cpp.s
+
+__/src/Opengl/Shader.obj: __/src/Opengl/Shader.cpp.obj
+.PHONY : __/src/Opengl/Shader.obj
+
+# target to build an object file
+__/src/Opengl/Shader.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj
+.PHONY : __/src/Opengl/Shader.cpp.obj
+
+__/src/Opengl/Shader.i: __/src/Opengl/Shader.cpp.i
+.PHONY : __/src/Opengl/Shader.i
+
+# target to preprocess a source file
+__/src/Opengl/Shader.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.i
+.PHONY : __/src/Opengl/Shader.cpp.i
+
+__/src/Opengl/Shader.s: __/src/Opengl/Shader.cpp.s
+.PHONY : __/src/Opengl/Shader.s
+
+# target to generate assembly for a file
+__/src/Opengl/Shader.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.s
+.PHONY : __/src/Opengl/Shader.cpp.s
+
+__/src/Opengl/SubTexture.obj: __/src/Opengl/SubTexture.cpp.obj
+.PHONY : __/src/Opengl/SubTexture.obj
+
+# target to build an object file
+__/src/Opengl/SubTexture.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj
+.PHONY : __/src/Opengl/SubTexture.cpp.obj
+
+__/src/Opengl/SubTexture.i: __/src/Opengl/SubTexture.cpp.i
+.PHONY : __/src/Opengl/SubTexture.i
+
+# target to preprocess a source file
+__/src/Opengl/SubTexture.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.i
+.PHONY : __/src/Opengl/SubTexture.cpp.i
+
+__/src/Opengl/SubTexture.s: __/src/Opengl/SubTexture.cpp.s
+.PHONY : __/src/Opengl/SubTexture.s
+
+# target to generate assembly for a file
+__/src/Opengl/SubTexture.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.s
+.PHONY : __/src/Opengl/SubTexture.cpp.s
+
+__/src/Opengl/Texture.obj: __/src/Opengl/Texture.cpp.obj
+.PHONY : __/src/Opengl/Texture.obj
+
+# target to build an object file
+__/src/Opengl/Texture.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj
+.PHONY : __/src/Opengl/Texture.cpp.obj
+
+__/src/Opengl/Texture.i: __/src/Opengl/Texture.cpp.i
+.PHONY : __/src/Opengl/Texture.i
+
+# target to preprocess a source file
+__/src/Opengl/Texture.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.i
+.PHONY : __/src/Opengl/Texture.cpp.i
+
+__/src/Opengl/Texture.s: __/src/Opengl/Texture.cpp.s
+.PHONY : __/src/Opengl/Texture.s
+
+# target to generate assembly for a file
+__/src/Opengl/Texture.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.s
+.PHONY : __/src/Opengl/Texture.cpp.s
+
+__/src/Opengl/VertexArray.obj: __/src/Opengl/VertexArray.cpp.obj
+.PHONY : __/src/Opengl/VertexArray.obj
+
+# target to build an object file
+__/src/Opengl/VertexArray.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj
+.PHONY : __/src/Opengl/VertexArray.cpp.obj
+
+__/src/Opengl/VertexArray.i: __/src/Opengl/VertexArray.cpp.i
+.PHONY : __/src/Opengl/VertexArray.i
+
+# target to preprocess a source file
+__/src/Opengl/VertexArray.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.i
+.PHONY : __/src/Opengl/VertexArray.cpp.i
+
+__/src/Opengl/VertexArray.s: __/src/Opengl/VertexArray.cpp.s
+.PHONY : __/src/Opengl/VertexArray.s
+
+# target to generate assembly for a file
+__/src/Opengl/VertexArray.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.s
+.PHONY : __/src/Opengl/VertexArray.cpp.s
+
+__/src/Opengl/VertexBuffer.obj: __/src/Opengl/VertexBuffer.cpp.obj
+.PHONY : __/src/Opengl/VertexBuffer.obj
+
+# target to build an object file
+__/src/Opengl/VertexBuffer.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj
+.PHONY : __/src/Opengl/VertexBuffer.cpp.obj
+
+__/src/Opengl/VertexBuffer.i: __/src/Opengl/VertexBuffer.cpp.i
+.PHONY : __/src/Opengl/VertexBuffer.i
+
+# target to preprocess a source file
+__/src/Opengl/VertexBuffer.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.i
+.PHONY : __/src/Opengl/VertexBuffer.cpp.i
+
+__/src/Opengl/VertexBuffer.s: __/src/Opengl/VertexBuffer.cpp.s
+.PHONY : __/src/Opengl/VertexBuffer.s
+
+# target to generate assembly for a file
+__/src/Opengl/VertexBuffer.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.s
+.PHONY : __/src/Opengl/VertexBuffer.cpp.s
+
+__/src/Opengl/VertexBufferLayout.obj: __/src/Opengl/VertexBufferLayout.cpp.obj
+.PHONY : __/src/Opengl/VertexBufferLayout.obj
+
+# target to build an object file
+__/src/Opengl/VertexBufferLayout.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj
+.PHONY : __/src/Opengl/VertexBufferLayout.cpp.obj
+
+__/src/Opengl/VertexBufferLayout.i: __/src/Opengl/VertexBufferLayout.cpp.i
+.PHONY : __/src/Opengl/VertexBufferLayout.i
+
+# target to preprocess a source file
+__/src/Opengl/VertexBufferLayout.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.i
+.PHONY : __/src/Opengl/VertexBufferLayout.cpp.i
+
+__/src/Opengl/VertexBufferLayout.s: __/src/Opengl/VertexBufferLayout.cpp.s
+.PHONY : __/src/Opengl/VertexBufferLayout.s
+
+# target to generate assembly for a file
+__/src/Opengl/VertexBufferLayout.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.s
+.PHONY : __/src/Opengl/VertexBufferLayout.cpp.s
 
 __/src/Renderer.obj: __/src/Renderer.cpp.obj
 .PHONY : __/src/Renderer.obj
@@ -753,30 +897,6 @@ __/src/Scene/SceneSerializer.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.s
 .PHONY : __/src/Scene/SceneSerializer.cpp.s
 
-__/src/Shader.obj: __/src/Shader.cpp.obj
-.PHONY : __/src/Shader.obj
-
-# target to build an object file
-__/src/Shader.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj
-.PHONY : __/src/Shader.cpp.obj
-
-__/src/Shader.i: __/src/Shader.cpp.i
-.PHONY : __/src/Shader.i
-
-# target to preprocess a source file
-__/src/Shader.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.i
-.PHONY : __/src/Shader.cpp.i
-
-__/src/Shader.s: __/src/Shader.cpp.s
-.PHONY : __/src/Shader.s
-
-# target to generate assembly for a file
-__/src/Shader.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.s
-.PHONY : __/src/Shader.cpp.s
-
 __/src/ShaderManager.obj: __/src/ShaderManager.cpp.obj
 .PHONY : __/src/ShaderManager.obj
 
@@ -801,54 +921,6 @@ __/src/ShaderManager.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.s
 .PHONY : __/src/ShaderManager.cpp.s
 
-__/src/SubTexture.obj: __/src/SubTexture.cpp.obj
-.PHONY : __/src/SubTexture.obj
-
-# target to build an object file
-__/src/SubTexture.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj
-.PHONY : __/src/SubTexture.cpp.obj
-
-__/src/SubTexture.i: __/src/SubTexture.cpp.i
-.PHONY : __/src/SubTexture.i
-
-# target to preprocess a source file
-__/src/SubTexture.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.i
-.PHONY : __/src/SubTexture.cpp.i
-
-__/src/SubTexture.s: __/src/SubTexture.cpp.s
-.PHONY : __/src/SubTexture.s
-
-# target to generate assembly for a file
-__/src/SubTexture.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.s
-.PHONY : __/src/SubTexture.cpp.s
-
-__/src/Texture.obj: __/src/Texture.cpp.obj
-.PHONY : __/src/Texture.obj
-
-# target to build an object file
-__/src/Texture.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj
-.PHONY : __/src/Texture.cpp.obj
-
-__/src/Texture.i: __/src/Texture.cpp.i
-.PHONY : __/src/Texture.i
-
-# target to preprocess a source file
-__/src/Texture.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.i
-.PHONY : __/src/Texture.cpp.i
-
-__/src/Texture.s: __/src/Texture.cpp.s
-.PHONY : __/src/Texture.s
-
-# target to generate assembly for a file
-__/src/Texture.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.s
-.PHONY : __/src/Texture.cpp.s
-
 __/src/Timestep.obj: __/src/Timestep.cpp.obj
 .PHONY : __/src/Timestep.obj
 
@@ -872,78 +944,6 @@ __/src/Timestep.s: __/src/Timestep.cpp.s
 __/src/Timestep.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.s
 .PHONY : __/src/Timestep.cpp.s
-
-__/src/VertexArray.obj: __/src/VertexArray.cpp.obj
-.PHONY : __/src/VertexArray.obj
-
-# target to build an object file
-__/src/VertexArray.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj
-.PHONY : __/src/VertexArray.cpp.obj
-
-__/src/VertexArray.i: __/src/VertexArray.cpp.i
-.PHONY : __/src/VertexArray.i
-
-# target to preprocess a source file
-__/src/VertexArray.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.i
-.PHONY : __/src/VertexArray.cpp.i
-
-__/src/VertexArray.s: __/src/VertexArray.cpp.s
-.PHONY : __/src/VertexArray.s
-
-# target to generate assembly for a file
-__/src/VertexArray.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.s
-.PHONY : __/src/VertexArray.cpp.s
-
-__/src/VertexBuffer.obj: __/src/VertexBuffer.cpp.obj
-.PHONY : __/src/VertexBuffer.obj
-
-# target to build an object file
-__/src/VertexBuffer.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj
-.PHONY : __/src/VertexBuffer.cpp.obj
-
-__/src/VertexBuffer.i: __/src/VertexBuffer.cpp.i
-.PHONY : __/src/VertexBuffer.i
-
-# target to preprocess a source file
-__/src/VertexBuffer.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.i
-.PHONY : __/src/VertexBuffer.cpp.i
-
-__/src/VertexBuffer.s: __/src/VertexBuffer.cpp.s
-.PHONY : __/src/VertexBuffer.s
-
-# target to generate assembly for a file
-__/src/VertexBuffer.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.s
-.PHONY : __/src/VertexBuffer.cpp.s
-
-__/src/VertexBufferLayout.obj: __/src/VertexBufferLayout.cpp.obj
-.PHONY : __/src/VertexBufferLayout.obj
-
-# target to build an object file
-__/src/VertexBufferLayout.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj
-.PHONY : __/src/VertexBufferLayout.cpp.obj
-
-__/src/VertexBufferLayout.i: __/src/VertexBufferLayout.cpp.i
-.PHONY : __/src/VertexBufferLayout.i
-
-# target to preprocess a source file
-__/src/VertexBufferLayout.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.i
-.PHONY : __/src/VertexBufferLayout.cpp.i
-
-__/src/VertexBufferLayout.s: __/src/VertexBufferLayout.cpp.s
-.PHONY : __/src/VertexBufferLayout.s
-
-# target to generate assembly for a file
-__/src/VertexBufferLayout.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.s
-.PHONY : __/src/VertexBufferLayout.cpp.s
 
 __/src/physics/boundingBox/AABB.obj: __/src/physics/boundingBox/AABB.cpp.obj
 .PHONY : __/src/physics/boundingBox/AABB.obj
@@ -1375,9 +1375,27 @@ help:
 	@echo ... __/src/Graphics.obj
 	@echo ... __/src/Graphics.i
 	@echo ... __/src/Graphics.s
-	@echo ... __/src/IndexBuffer.obj
-	@echo ... __/src/IndexBuffer.i
-	@echo ... __/src/IndexBuffer.s
+	@echo ... __/src/Opengl/IndexBuffer.obj
+	@echo ... __/src/Opengl/IndexBuffer.i
+	@echo ... __/src/Opengl/IndexBuffer.s
+	@echo ... __/src/Opengl/Shader.obj
+	@echo ... __/src/Opengl/Shader.i
+	@echo ... __/src/Opengl/Shader.s
+	@echo ... __/src/Opengl/SubTexture.obj
+	@echo ... __/src/Opengl/SubTexture.i
+	@echo ... __/src/Opengl/SubTexture.s
+	@echo ... __/src/Opengl/Texture.obj
+	@echo ... __/src/Opengl/Texture.i
+	@echo ... __/src/Opengl/Texture.s
+	@echo ... __/src/Opengl/VertexArray.obj
+	@echo ... __/src/Opengl/VertexArray.i
+	@echo ... __/src/Opengl/VertexArray.s
+	@echo ... __/src/Opengl/VertexBuffer.obj
+	@echo ... __/src/Opengl/VertexBuffer.i
+	@echo ... __/src/Opengl/VertexBuffer.s
+	@echo ... __/src/Opengl/VertexBufferLayout.obj
+	@echo ... __/src/Opengl/VertexBufferLayout.i
+	@echo ... __/src/Opengl/VertexBufferLayout.s
 	@echo ... __/src/Renderer.obj
 	@echo ... __/src/Renderer.i
 	@echo ... __/src/Renderer.s
@@ -1390,30 +1408,12 @@ help:
 	@echo ... __/src/Scene/SceneSerializer.obj
 	@echo ... __/src/Scene/SceneSerializer.i
 	@echo ... __/src/Scene/SceneSerializer.s
-	@echo ... __/src/Shader.obj
-	@echo ... __/src/Shader.i
-	@echo ... __/src/Shader.s
 	@echo ... __/src/ShaderManager.obj
 	@echo ... __/src/ShaderManager.i
 	@echo ... __/src/ShaderManager.s
-	@echo ... __/src/SubTexture.obj
-	@echo ... __/src/SubTexture.i
-	@echo ... __/src/SubTexture.s
-	@echo ... __/src/Texture.obj
-	@echo ... __/src/Texture.i
-	@echo ... __/src/Texture.s
 	@echo ... __/src/Timestep.obj
 	@echo ... __/src/Timestep.i
 	@echo ... __/src/Timestep.s
-	@echo ... __/src/VertexArray.obj
-	@echo ... __/src/VertexArray.i
-	@echo ... __/src/VertexArray.s
-	@echo ... __/src/VertexBuffer.obj
-	@echo ... __/src/VertexBuffer.i
-	@echo ... __/src/VertexBuffer.s
-	@echo ... __/src/VertexBufferLayout.obj
-	@echo ... __/src/VertexBufferLayout.i
-	@echo ... __/src/VertexBufferLayout.s
 	@echo ... __/src/physics/boundingBox/AABB.obj
 	@echo ... __/src/physics/boundingBox/AABB.i
 	@echo ... __/src/physics/boundingBox/AABB.s

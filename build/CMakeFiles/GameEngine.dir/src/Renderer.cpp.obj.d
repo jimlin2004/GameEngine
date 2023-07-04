@@ -211,9 +211,9 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameEngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameEngine/include/VertexArray.h \
- D:/code/cpp/gameEngine/include/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -234,13 +234,13 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
- D:/code/cpp/gameEngine/include/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
  C:/PROGRA~1/msys64/mingw64/include/stdio.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
  C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
- D:/code/cpp/gameEngine/include/Shader.h \
+ D:/code/cpp/gameEngine/include/Opengl/Shader.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
@@ -418,6 +418,10 @@ CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/Texture.h \
+ D:/code/cpp/gameEngine/include/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/SubTexture.h
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h

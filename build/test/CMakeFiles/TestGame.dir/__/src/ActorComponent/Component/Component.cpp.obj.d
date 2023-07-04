@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.obj: \
  D:\code\cpp\gameEngine\src\ActorComponent\Component\Component.cpp \
  D:/code/cpp/gameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/third_party/glm/glm.hpp \

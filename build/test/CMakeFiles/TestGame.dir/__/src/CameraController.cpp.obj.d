@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.obj: \
  D:\code\cpp\gameEngine\src\CameraController.cpp \
  D:/code/cpp/gameEngine/include/CameraController.h \
  D:/code/cpp/gameEngine/third_party/glm/glm.hpp \

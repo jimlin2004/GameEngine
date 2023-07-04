@@ -397,11 +397,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cp
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameEngine/include/VertexArray.h \
- D:/code/cpp/gameEngine/include/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/include/IndexBuffer.h \
- D:/code/cpp/gameEngine/include/Shader.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/Shader.h \
  D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
@@ -418,10 +418,14 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cp
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameEngine/include/CameraController.h \
  D:/code/cpp/gameEngine/include/Camera.h \
- D:/code/cpp/gameEngine/include/Texture.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameEngine/include/GELib.h \
+ D:/code/cpp/gameEngine/include/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
  D:/code/cpp/gameEngine/third_party/json/json.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
@@ -470,5 +474,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cp
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h

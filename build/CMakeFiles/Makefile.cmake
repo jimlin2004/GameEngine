@@ -248,7 +248,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenInfo.json"
   "gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json"
   ".qt/QtDeploySupport.cmake"
@@ -258,8 +258,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GameEngine.dir/DependInfo.cmake"
-  "test/CMakeFiles/TestGame.dir/DependInfo.cmake"
-  "test/CMakeFiles/test_game_copy_target.dir/DependInfo.cmake"
+  "Test/CMakeFiles/TestGame.dir/DependInfo.cmake"
+  "Test/CMakeFiles/test_game_copy_target.dir/DependInfo.cmake"
   "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/DependInfo.cmake"
   "gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/DependInfo.cmake"
   "gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/DependInfo.cmake"

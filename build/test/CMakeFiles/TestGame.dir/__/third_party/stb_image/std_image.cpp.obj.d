@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj: \
  D:\code\cpp\gameEngine\third_party\stb_image\std_image.cpp \
  D:\code\cpp\gameEngine\third_party\stb_image\stb_image.h \
  C:/PROGRA~1/msys64/mingw64/include/stdio.h \

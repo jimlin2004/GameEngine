@@ -4,11 +4,11 @@
 #include <array>
 #include "GL/glew.h"
 #include "glm/glm.hpp"
-#include "VertexArray.h"
-#include "IndexBuffer.h"
-#include "Shader.h"
-#include "Texture.h"
-#include "SubTexture.h"
+#include "Opengl/VertexArray.h"
+#include "Opengl/IndexBuffer.h"
+#include "Opengl/Shader.h"
+#include "Opengl/Texture.h"
+#include "Opengl/SubTexture.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 
 namespace GameEngine

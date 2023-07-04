@@ -812,16 +812,19 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/include/Renderer.h \
- D:/code/cpp/gameEngine/include/VertexArray.h \
- D:/code/cpp/gameEngine/include/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/include/IndexBuffer.h \
- D:/code/cpp/gameEngine/include/Shader.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/Texture.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/Shader.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameEngine/include/GELib.h \
+ D:/code/cpp/gameEngine/include/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameEngine/include/Actor.h \
  D:/code/cpp/gameEngine/include/Timestep.h \
@@ -858,5 +861,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
- D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream
+ D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h

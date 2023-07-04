@@ -10,7 +10,8 @@
 #include <vector>
 #include <exception>
 #include "GELib.h"
-#include <typeinfo>
+#include "TypeName.hpp"
+#include <iostream>
 
 namespace GameEngine
 {
@@ -26,14 +27,16 @@ namespace GameEngine
         template<class TActor>
         TActor* spawnActor()
         {
-            TActor* obj = new TActor();
+            TActor* obj = new TActor(this->registry.create());
             return obj;
         }
 
         template<class TActor>
         TActor* spawnActor(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName)
         {
-            TActor* obj = new TActor(this->registry.create(), position, scale, rotation, actorName);
+            auto typeName_strView = TYPE_NAME_BY_TYPE(TActor);
+            std::string typeName = {typeName_strView.begin(), typeName_strView.end()};
+            TActor* obj = new TActor(this->registry.create(), position, scale, rotation, actorName, typeName);
             return obj;
         }
 

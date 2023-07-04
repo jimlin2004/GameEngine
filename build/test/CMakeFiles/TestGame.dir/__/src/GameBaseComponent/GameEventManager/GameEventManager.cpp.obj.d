@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj: \
  D:\code\cpp\gameEngine\src\GameBaseComponent\GameEventManager\GameEventManager.cpp \
  D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \

@@ -390,7 +390,7 @@ Qt6ZlibPrivate_DIR:PATH=D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate
 Qt6_DIR:PATH=D:/QT/6.4.2/mingw_64/lib/cmake/Qt6
 
 //Value Computed by CMake
-TestGame_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/test
+TestGame_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/Test
 
 //Value Computed by CMake
 TestGame_IS_TOP_LEVEL:STATIC=OFF

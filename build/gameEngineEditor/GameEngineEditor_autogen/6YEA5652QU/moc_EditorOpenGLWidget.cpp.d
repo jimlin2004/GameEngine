@@ -652,18 +652,19 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameEngine/include/GameObject.h \
-  D:/code/cpp/gameEngine/include/IndexBuffer.h \
+  D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
+  D:/code/cpp/gameEngine/include/Opengl/Shader.h \
+  D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+  D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+  D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+  D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+  D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
   D:/code/cpp/gameEngine/include/Renderer.h \
   D:/code/cpp/gameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
-  D:/code/cpp/gameEngine/include/Shader.h \
   D:/code/cpp/gameEngine/include/ShaderManager.h \
-  D:/code/cpp/gameEngine/include/SubTexture.h \
-  D:/code/cpp/gameEngine/include/Texture.h \
   D:/code/cpp/gameEngine/include/Timestep.h \
-  D:/code/cpp/gameEngine/include/VertexArray.h \
-  D:/code/cpp/gameEngine/include/VertexBuffer.h \
-  D:/code/cpp/gameEngine/include/VertexBufferLayout.h \
+  D:/code/cpp/gameEngine/include/TypeName.hpp \
   D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
   D:/code/cpp/gameEngine/third_party/glm/common.hpp \
   D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \

@@ -106,14 +106,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\code\cpp\gameEngine\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles D:\code\cpp\gameEngine\build\test\\CMakeFiles\progress.marks
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
+	cd /d D:\code\cpp\gameEngine\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles D:\code\cpp\gameEngine\build\Test\\CMakeFiles\progress.marks
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/clean
 .PHONY : clean
 
 # The main clean target
@@ -122,12 +122,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -136,31 +136,31 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/TestGame.dir/rule:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/TestGame.dir/rule
-.PHONY : test/CMakeFiles/TestGame.dir/rule
+Test/CMakeFiles/TestGame.dir/rule:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/TestGame.dir/rule
+.PHONY : Test/CMakeFiles/TestGame.dir/rule
 
 # Convenience name for target.
-TestGame: test/CMakeFiles/TestGame.dir/rule
+TestGame: Test/CMakeFiles/TestGame.dir/rule
 .PHONY : TestGame
 
 # fast build rule for target.
 TestGame/fast:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/build
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/build
 .PHONY : TestGame/fast
 
 # Convenience name for target.
-test/CMakeFiles/test_game_copy_target.dir/rule:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/test_game_copy_target.dir/rule
-.PHONY : test/CMakeFiles/test_game_copy_target.dir/rule
+Test/CMakeFiles/test_game_copy_target.dir/rule:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/test_game_copy_target.dir/rule
+.PHONY : Test/CMakeFiles/test_game_copy_target.dir/rule
 
 # Convenience name for target.
-test_game_copy_target: test/CMakeFiles/test_game_copy_target.dir/rule
+test_game_copy_target: Test/CMakeFiles/test_game_copy_target.dir/rule
 .PHONY : test_game_copy_target
 
 # fast build rule for target.
 test_game_copy_target/fast:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\test_game_copy_target.dir\build.make test/CMakeFiles/test_game_copy_target.dir/build
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\test_game_copy_target.dir\build.make Test/CMakeFiles/test_game_copy_target.dir/build
 .PHONY : test_game_copy_target/fast
 
 __/src/Actor.obj: __/src/Actor.cpp.obj
@@ -168,7 +168,7 @@ __/src/Actor.obj: __/src/Actor.cpp.obj
 
 # target to build an object file
 __/src/Actor.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.obj
 .PHONY : __/src/Actor.cpp.obj
 
 __/src/Actor.i: __/src/Actor.cpp.i
@@ -176,7 +176,7 @@ __/src/Actor.i: __/src/Actor.cpp.i
 
 # target to preprocess a source file
 __/src/Actor.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.i
 .PHONY : __/src/Actor.cpp.i
 
 __/src/Actor.s: __/src/Actor.cpp.s
@@ -184,7 +184,7 @@ __/src/Actor.s: __/src/Actor.cpp.s
 
 # target to generate assembly for a file
 __/src/Actor.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Actor.cpp.s
 .PHONY : __/src/Actor.cpp.s
 
 __/src/ActorComponent/Component/Component.obj: __/src/ActorComponent/Component/Component.cpp.obj
@@ -192,7 +192,7 @@ __/src/ActorComponent/Component/Component.obj: __/src/ActorComponent/Component/C
 
 # target to build an object file
 __/src/ActorComponent/Component/Component.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.obj
 .PHONY : __/src/ActorComponent/Component/Component.cpp.obj
 
 __/src/ActorComponent/Component/Component.i: __/src/ActorComponent/Component/Component.cpp.i
@@ -200,7 +200,7 @@ __/src/ActorComponent/Component/Component.i: __/src/ActorComponent/Component/Com
 
 # target to preprocess a source file
 __/src/ActorComponent/Component/Component.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.i
 .PHONY : __/src/ActorComponent/Component/Component.cpp.i
 
 __/src/ActorComponent/Component/Component.s: __/src/ActorComponent/Component/Component.cpp.s
@@ -208,7 +208,7 @@ __/src/ActorComponent/Component/Component.s: __/src/ActorComponent/Component/Com
 
 # target to generate assembly for a file
 __/src/ActorComponent/Component/Component.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Component/Component.cpp.s
 .PHONY : __/src/ActorComponent/Component/Component.cpp.s
 
 __/src/ActorComponent/Material/Material.obj: __/src/ActorComponent/Material/Material.cpp.obj
@@ -216,7 +216,7 @@ __/src/ActorComponent/Material/Material.obj: __/src/ActorComponent/Material/Mate
 
 # target to build an object file
 __/src/ActorComponent/Material/Material.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.obj
 .PHONY : __/src/ActorComponent/Material/Material.cpp.obj
 
 __/src/ActorComponent/Material/Material.i: __/src/ActorComponent/Material/Material.cpp.i
@@ -224,7 +224,7 @@ __/src/ActorComponent/Material/Material.i: __/src/ActorComponent/Material/Materi
 
 # target to preprocess a source file
 __/src/ActorComponent/Material/Material.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.i
 .PHONY : __/src/ActorComponent/Material/Material.cpp.i
 
 __/src/ActorComponent/Material/Material.s: __/src/ActorComponent/Material/Material.cpp.s
@@ -232,7 +232,7 @@ __/src/ActorComponent/Material/Material.s: __/src/ActorComponent/Material/Materi
 
 # target to generate assembly for a file
 __/src/ActorComponent/Material/Material.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Material/Material.cpp.s
 .PHONY : __/src/ActorComponent/Material/Material.cpp.s
 
 __/src/ActorComponent/Mesh/Mesh.obj: __/src/ActorComponent/Mesh/Mesh.cpp.obj
@@ -240,7 +240,7 @@ __/src/ActorComponent/Mesh/Mesh.obj: __/src/ActorComponent/Mesh/Mesh.cpp.obj
 
 # target to build an object file
 __/src/ActorComponent/Mesh/Mesh.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Mesh/Mesh.cpp.obj
 .PHONY : __/src/ActorComponent/Mesh/Mesh.cpp.obj
 
 __/src/ActorComponent/Mesh/Mesh.i: __/src/ActorComponent/Mesh/Mesh.cpp.i
@@ -248,7 +248,7 @@ __/src/ActorComponent/Mesh/Mesh.i: __/src/ActorComponent/Mesh/Mesh.cpp.i
 
 # target to preprocess a source file
 __/src/ActorComponent/Mesh/Mesh.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Mesh/Mesh.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Mesh/Mesh.cpp.i
 .PHONY : __/src/ActorComponent/Mesh/Mesh.cpp.i
 
 __/src/ActorComponent/Mesh/Mesh.s: __/src/ActorComponent/Mesh/Mesh.cpp.s
@@ -256,7 +256,7 @@ __/src/ActorComponent/Mesh/Mesh.s: __/src/ActorComponent/Mesh/Mesh.cpp.s
 
 # target to generate assembly for a file
 __/src/ActorComponent/Mesh/Mesh.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Mesh/Mesh.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/Mesh/Mesh.cpp.s
 .PHONY : __/src/ActorComponent/Mesh/Mesh.cpp.s
 
 __/src/ActorComponent/inputComponent/InputComponent.obj: __/src/ActorComponent/inputComponent/InputComponent.cpp.obj
@@ -264,7 +264,7 @@ __/src/ActorComponent/inputComponent/InputComponent.obj: __/src/ActorComponent/i
 
 # target to build an object file
 __/src/ActorComponent/inputComponent/InputComponent.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.obj
 .PHONY : __/src/ActorComponent/inputComponent/InputComponent.cpp.obj
 
 __/src/ActorComponent/inputComponent/InputComponent.i: __/src/ActorComponent/inputComponent/InputComponent.cpp.i
@@ -272,7 +272,7 @@ __/src/ActorComponent/inputComponent/InputComponent.i: __/src/ActorComponent/inp
 
 # target to preprocess a source file
 __/src/ActorComponent/inputComponent/InputComponent.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.i
 .PHONY : __/src/ActorComponent/inputComponent/InputComponent.cpp.i
 
 __/src/ActorComponent/inputComponent/InputComponent.s: __/src/ActorComponent/inputComponent/InputComponent.cpp.s
@@ -280,7 +280,7 @@ __/src/ActorComponent/inputComponent/InputComponent.s: __/src/ActorComponent/inp
 
 # target to generate assembly for a file
 __/src/ActorComponent/inputComponent/InputComponent.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ActorComponent/inputComponent/InputComponent.cpp.s
 .PHONY : __/src/ActorComponent/inputComponent/InputComponent.cpp.s
 
 __/src/Camera.obj: __/src/Camera.cpp.obj
@@ -288,7 +288,7 @@ __/src/Camera.obj: __/src/Camera.cpp.obj
 
 # target to build an object file
 __/src/Camera.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Camera.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Camera.cpp.obj
 .PHONY : __/src/Camera.cpp.obj
 
 __/src/Camera.i: __/src/Camera.cpp.i
@@ -296,7 +296,7 @@ __/src/Camera.i: __/src/Camera.cpp.i
 
 # target to preprocess a source file
 __/src/Camera.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Camera.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Camera.cpp.i
 .PHONY : __/src/Camera.cpp.i
 
 __/src/Camera.s: __/src/Camera.cpp.s
@@ -304,7 +304,7 @@ __/src/Camera.s: __/src/Camera.cpp.s
 
 # target to generate assembly for a file
 __/src/Camera.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Camera.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Camera.cpp.s
 .PHONY : __/src/Camera.cpp.s
 
 __/src/CameraController.obj: __/src/CameraController.cpp.obj
@@ -312,7 +312,7 @@ __/src/CameraController.obj: __/src/CameraController.cpp.obj
 
 # target to build an object file
 __/src/CameraController.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.obj
 .PHONY : __/src/CameraController.cpp.obj
 
 __/src/CameraController.i: __/src/CameraController.cpp.i
@@ -320,7 +320,7 @@ __/src/CameraController.i: __/src/CameraController.cpp.i
 
 # target to preprocess a source file
 __/src/CameraController.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.i
 .PHONY : __/src/CameraController.cpp.i
 
 __/src/CameraController.s: __/src/CameraController.cpp.s
@@ -328,7 +328,7 @@ __/src/CameraController.s: __/src/CameraController.cpp.s
 
 # target to generate assembly for a file
 __/src/CameraController.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/CameraController.cpp.s
 .PHONY : __/src/CameraController.cpp.s
 
 __/src/DataStruct/BST/BST.obj: __/src/DataStruct/BST/BST.cpp.obj
@@ -336,7 +336,7 @@ __/src/DataStruct/BST/BST.obj: __/src/DataStruct/BST/BST.cpp.obj
 
 # target to build an object file
 __/src/DataStruct/BST/BST.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/DataStruct/BST/BST.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/DataStruct/BST/BST.cpp.obj
 .PHONY : __/src/DataStruct/BST/BST.cpp.obj
 
 __/src/DataStruct/BST/BST.i: __/src/DataStruct/BST/BST.cpp.i
@@ -344,7 +344,7 @@ __/src/DataStruct/BST/BST.i: __/src/DataStruct/BST/BST.cpp.i
 
 # target to preprocess a source file
 __/src/DataStruct/BST/BST.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/DataStruct/BST/BST.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/DataStruct/BST/BST.cpp.i
 .PHONY : __/src/DataStruct/BST/BST.cpp.i
 
 __/src/DataStruct/BST/BST.s: __/src/DataStruct/BST/BST.cpp.s
@@ -352,7 +352,7 @@ __/src/DataStruct/BST/BST.s: __/src/DataStruct/BST/BST.cpp.s
 
 # target to generate assembly for a file
 __/src/DataStruct/BST/BST.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/DataStruct/BST/BST.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/DataStruct/BST/BST.cpp.s
 .PHONY : __/src/DataStruct/BST/BST.cpp.s
 
 __/src/DataStruct/Vector/Vector.obj: __/src/DataStruct/Vector/Vector.cpp.obj
@@ -360,7 +360,7 @@ __/src/DataStruct/Vector/Vector.obj: __/src/DataStruct/Vector/Vector.cpp.obj
 
 # target to build an object file
 __/src/DataStruct/Vector/Vector.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/DataStruct/Vector/Vector.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : __/src/DataStruct/Vector/Vector.cpp.obj
 
 __/src/DataStruct/Vector/Vector.i: __/src/DataStruct/Vector/Vector.cpp.i
@@ -368,7 +368,7 @@ __/src/DataStruct/Vector/Vector.i: __/src/DataStruct/Vector/Vector.cpp.i
 
 # target to preprocess a source file
 __/src/DataStruct/Vector/Vector.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/DataStruct/Vector/Vector.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/DataStruct/Vector/Vector.cpp.i
 .PHONY : __/src/DataStruct/Vector/Vector.cpp.i
 
 __/src/DataStruct/Vector/Vector.s: __/src/DataStruct/Vector/Vector.cpp.s
@@ -376,7 +376,7 @@ __/src/DataStruct/Vector/Vector.s: __/src/DataStruct/Vector/Vector.cpp.s
 
 # target to generate assembly for a file
 __/src/DataStruct/Vector/Vector.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/DataStruct/Vector/Vector.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/DataStruct/Vector/Vector.cpp.s
 .PHONY : __/src/DataStruct/Vector/Vector.cpp.s
 
 __/src/EventSystem.obj: __/src/EventSystem.cpp.obj
@@ -384,7 +384,7 @@ __/src/EventSystem.obj: __/src/EventSystem.cpp.obj
 
 # target to build an object file
 __/src/EventSystem.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/EventSystem.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/EventSystem.cpp.obj
 .PHONY : __/src/EventSystem.cpp.obj
 
 __/src/EventSystem.i: __/src/EventSystem.cpp.i
@@ -392,7 +392,7 @@ __/src/EventSystem.i: __/src/EventSystem.cpp.i
 
 # target to preprocess a source file
 __/src/EventSystem.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/EventSystem.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/EventSystem.cpp.i
 .PHONY : __/src/EventSystem.cpp.i
 
 __/src/EventSystem.s: __/src/EventSystem.cpp.s
@@ -400,7 +400,7 @@ __/src/EventSystem.s: __/src/EventSystem.cpp.s
 
 # target to generate assembly for a file
 __/src/EventSystem.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/EventSystem.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/EventSystem.cpp.s
 .PHONY : __/src/EventSystem.cpp.s
 
 __/src/FSM.obj: __/src/FSM.cpp.obj
@@ -408,7 +408,7 @@ __/src/FSM.obj: __/src/FSM.cpp.obj
 
 # target to build an object file
 __/src/FSM.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/FSM.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/FSM.cpp.obj
 .PHONY : __/src/FSM.cpp.obj
 
 __/src/FSM.i: __/src/FSM.cpp.i
@@ -416,7 +416,7 @@ __/src/FSM.i: __/src/FSM.cpp.i
 
 # target to preprocess a source file
 __/src/FSM.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/FSM.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/FSM.cpp.i
 .PHONY : __/src/FSM.cpp.i
 
 __/src/FSM.s: __/src/FSM.cpp.s
@@ -424,7 +424,7 @@ __/src/FSM.s: __/src/FSM.cpp.s
 
 # target to generate assembly for a file
 __/src/FSM.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/FSM.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/FSM.cpp.s
 .PHONY : __/src/FSM.cpp.s
 
 __/src/GELib.obj: __/src/GELib.cpp.obj
@@ -432,7 +432,7 @@ __/src/GELib.obj: __/src/GELib.cpp.obj
 
 # target to build an object file
 __/src/GELib.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.obj
 .PHONY : __/src/GELib.cpp.obj
 
 __/src/GELib.i: __/src/GELib.cpp.i
@@ -440,7 +440,7 @@ __/src/GELib.i: __/src/GELib.cpp.i
 
 # target to preprocess a source file
 __/src/GELib.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.i
 .PHONY : __/src/GELib.cpp.i
 
 __/src/GELib.s: __/src/GELib.cpp.s
@@ -448,7 +448,7 @@ __/src/GELib.s: __/src/GELib.cpp.s
 
 # target to generate assembly for a file
 __/src/GELib.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.s
 .PHONY : __/src/GELib.cpp.s
 
 __/src/GameBase.obj: __/src/GameBase.cpp.obj
@@ -456,7 +456,7 @@ __/src/GameBase.obj: __/src/GameBase.cpp.obj
 
 # target to build an object file
 __/src/GameBase.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.obj
 .PHONY : __/src/GameBase.cpp.obj
 
 __/src/GameBase.i: __/src/GameBase.cpp.i
@@ -464,7 +464,7 @@ __/src/GameBase.i: __/src/GameBase.cpp.i
 
 # target to preprocess a source file
 __/src/GameBase.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.i
 .PHONY : __/src/GameBase.cpp.i
 
 __/src/GameBase.s: __/src/GameBase.cpp.s
@@ -472,7 +472,7 @@ __/src/GameBase.s: __/src/GameBase.cpp.s
 
 # target to generate assembly for a file
 __/src/GameBase.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameBase.cpp.s
 .PHONY : __/src/GameBase.cpp.s
 
 __/src/GameBaseComponent/GameEventManager/GameEventManager.obj: __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
@@ -480,7 +480,7 @@ __/src/GameBaseComponent/GameEventManager/GameEventManager.obj: __/src/GameBaseC
 
 # target to build an object file
 __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
 .PHONY : __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
 
 __/src/GameBaseComponent/GameEventManager/GameEventManager.i: __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
@@ -488,7 +488,7 @@ __/src/GameBaseComponent/GameEventManager/GameEventManager.i: __/src/GameBaseCom
 
 # target to preprocess a source file
 __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
 .PHONY : __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
 
 __/src/GameBaseComponent/GameEventManager/GameEventManager.s: __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
@@ -496,7 +496,7 @@ __/src/GameBaseComponent/GameEventManager/GameEventManager.s: __/src/GameBaseCom
 
 # target to generate assembly for a file
 __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
 .PHONY : __/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
 
 __/src/GameEngineAPI/ConsoleApi.obj: __/src/GameEngineAPI/ConsoleApi.cpp.obj
@@ -504,7 +504,7 @@ __/src/GameEngineAPI/ConsoleApi.obj: __/src/GameEngineAPI/ConsoleApi.cpp.obj
 
 # target to build an object file
 __/src/GameEngineAPI/ConsoleApi.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/ConsoleApi.cpp.obj
 .PHONY : __/src/GameEngineAPI/ConsoleApi.cpp.obj
 
 __/src/GameEngineAPI/ConsoleApi.i: __/src/GameEngineAPI/ConsoleApi.cpp.i
@@ -512,7 +512,7 @@ __/src/GameEngineAPI/ConsoleApi.i: __/src/GameEngineAPI/ConsoleApi.cpp.i
 
 # target to preprocess a source file
 __/src/GameEngineAPI/ConsoleApi.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/ConsoleApi.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/ConsoleApi.cpp.i
 .PHONY : __/src/GameEngineAPI/ConsoleApi.cpp.i
 
 __/src/GameEngineAPI/ConsoleApi.s: __/src/GameEngineAPI/ConsoleApi.cpp.s
@@ -520,7 +520,7 @@ __/src/GameEngineAPI/ConsoleApi.s: __/src/GameEngineAPI/ConsoleApi.cpp.s
 
 # target to generate assembly for a file
 __/src/GameEngineAPI/ConsoleApi.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/ConsoleApi.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/ConsoleApi.cpp.s
 .PHONY : __/src/GameEngineAPI/ConsoleApi.cpp.s
 
 __/src/GameEngineAPI/GameEngineAPI.obj: __/src/GameEngineAPI/GameEngineAPI.cpp.obj
@@ -528,7 +528,7 @@ __/src/GameEngineAPI/GameEngineAPI.obj: __/src/GameEngineAPI/GameEngineAPI.cpp.o
 
 # target to build an object file
 __/src/GameEngineAPI/GameEngineAPI.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj
 .PHONY : __/src/GameEngineAPI/GameEngineAPI.cpp.obj
 
 __/src/GameEngineAPI/GameEngineAPI.i: __/src/GameEngineAPI/GameEngineAPI.cpp.i
@@ -536,7 +536,7 @@ __/src/GameEngineAPI/GameEngineAPI.i: __/src/GameEngineAPI/GameEngineAPI.cpp.i
 
 # target to preprocess a source file
 __/src/GameEngineAPI/GameEngineAPI.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.i
 .PHONY : __/src/GameEngineAPI/GameEngineAPI.cpp.i
 
 __/src/GameEngineAPI/GameEngineAPI.s: __/src/GameEngineAPI/GameEngineAPI.cpp.s
@@ -544,7 +544,7 @@ __/src/GameEngineAPI/GameEngineAPI.s: __/src/GameEngineAPI/GameEngineAPI.cpp.s
 
 # target to generate assembly for a file
 __/src/GameEngineAPI/GameEngineAPI.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.s
 .PHONY : __/src/GameEngineAPI/GameEngineAPI.cpp.s
 
 __/src/GameObject.obj: __/src/GameObject.cpp.obj
@@ -552,7 +552,7 @@ __/src/GameObject.obj: __/src/GameObject.cpp.obj
 
 # target to build an object file
 __/src/GameObject.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameObject.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameObject.cpp.obj
 .PHONY : __/src/GameObject.cpp.obj
 
 __/src/GameObject.i: __/src/GameObject.cpp.i
@@ -560,7 +560,7 @@ __/src/GameObject.i: __/src/GameObject.cpp.i
 
 # target to preprocess a source file
 __/src/GameObject.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameObject.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameObject.cpp.i
 .PHONY : __/src/GameObject.cpp.i
 
 __/src/GameObject.s: __/src/GameObject.cpp.s
@@ -568,7 +568,7 @@ __/src/GameObject.s: __/src/GameObject.cpp.s
 
 # target to generate assembly for a file
 __/src/GameObject.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/GameObject.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/GameObject.cpp.s
 .PHONY : __/src/GameObject.cpp.s
 
 __/src/Graphics.obj: __/src/Graphics.cpp.obj
@@ -576,7 +576,7 @@ __/src/Graphics.obj: __/src/Graphics.cpp.obj
 
 # target to build an object file
 __/src/Graphics.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.obj
 .PHONY : __/src/Graphics.cpp.obj
 
 __/src/Graphics.i: __/src/Graphics.cpp.i
@@ -584,7 +584,7 @@ __/src/Graphics.i: __/src/Graphics.cpp.i
 
 # target to preprocess a source file
 __/src/Graphics.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.i
 .PHONY : __/src/Graphics.cpp.i
 
 __/src/Graphics.s: __/src/Graphics.cpp.s
@@ -592,39 +592,183 @@ __/src/Graphics.s: __/src/Graphics.cpp.s
 
 # target to generate assembly for a file
 __/src/Graphics.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.s
 .PHONY : __/src/Graphics.cpp.s
 
-__/src/IndexBuffer.obj: __/src/IndexBuffer.cpp.obj
-.PHONY : __/src/IndexBuffer.obj
+__/src/Opengl/IndexBuffer.obj: __/src/Opengl/IndexBuffer.cpp.obj
+.PHONY : __/src/Opengl/IndexBuffer.obj
 
 # target to build an object file
-__/src/IndexBuffer.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/IndexBuffer.cpp.obj
-.PHONY : __/src/IndexBuffer.cpp.obj
+__/src/Opengl/IndexBuffer.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/IndexBuffer.cpp.obj
+.PHONY : __/src/Opengl/IndexBuffer.cpp.obj
 
-__/src/IndexBuffer.i: __/src/IndexBuffer.cpp.i
-.PHONY : __/src/IndexBuffer.i
+__/src/Opengl/IndexBuffer.i: __/src/Opengl/IndexBuffer.cpp.i
+.PHONY : __/src/Opengl/IndexBuffer.i
 
 # target to preprocess a source file
-__/src/IndexBuffer.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/IndexBuffer.cpp.i
-.PHONY : __/src/IndexBuffer.cpp.i
+__/src/Opengl/IndexBuffer.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/IndexBuffer.cpp.i
+.PHONY : __/src/Opengl/IndexBuffer.cpp.i
 
-__/src/IndexBuffer.s: __/src/IndexBuffer.cpp.s
-.PHONY : __/src/IndexBuffer.s
+__/src/Opengl/IndexBuffer.s: __/src/Opengl/IndexBuffer.cpp.s
+.PHONY : __/src/Opengl/IndexBuffer.s
 
 # target to generate assembly for a file
-__/src/IndexBuffer.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/IndexBuffer.cpp.s
-.PHONY : __/src/IndexBuffer.cpp.s
+__/src/Opengl/IndexBuffer.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/IndexBuffer.cpp.s
+.PHONY : __/src/Opengl/IndexBuffer.cpp.s
+
+__/src/Opengl/Shader.obj: __/src/Opengl/Shader.cpp.obj
+.PHONY : __/src/Opengl/Shader.obj
+
+# target to build an object file
+__/src/Opengl/Shader.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/Shader.cpp.obj
+.PHONY : __/src/Opengl/Shader.cpp.obj
+
+__/src/Opengl/Shader.i: __/src/Opengl/Shader.cpp.i
+.PHONY : __/src/Opengl/Shader.i
+
+# target to preprocess a source file
+__/src/Opengl/Shader.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/Shader.cpp.i
+.PHONY : __/src/Opengl/Shader.cpp.i
+
+__/src/Opengl/Shader.s: __/src/Opengl/Shader.cpp.s
+.PHONY : __/src/Opengl/Shader.s
+
+# target to generate assembly for a file
+__/src/Opengl/Shader.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/Shader.cpp.s
+.PHONY : __/src/Opengl/Shader.cpp.s
+
+__/src/Opengl/SubTexture.obj: __/src/Opengl/SubTexture.cpp.obj
+.PHONY : __/src/Opengl/SubTexture.obj
+
+# target to build an object file
+__/src/Opengl/SubTexture.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/SubTexture.cpp.obj
+.PHONY : __/src/Opengl/SubTexture.cpp.obj
+
+__/src/Opengl/SubTexture.i: __/src/Opengl/SubTexture.cpp.i
+.PHONY : __/src/Opengl/SubTexture.i
+
+# target to preprocess a source file
+__/src/Opengl/SubTexture.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/SubTexture.cpp.i
+.PHONY : __/src/Opengl/SubTexture.cpp.i
+
+__/src/Opengl/SubTexture.s: __/src/Opengl/SubTexture.cpp.s
+.PHONY : __/src/Opengl/SubTexture.s
+
+# target to generate assembly for a file
+__/src/Opengl/SubTexture.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/SubTexture.cpp.s
+.PHONY : __/src/Opengl/SubTexture.cpp.s
+
+__/src/Opengl/Texture.obj: __/src/Opengl/Texture.cpp.obj
+.PHONY : __/src/Opengl/Texture.obj
+
+# target to build an object file
+__/src/Opengl/Texture.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/Texture.cpp.obj
+.PHONY : __/src/Opengl/Texture.cpp.obj
+
+__/src/Opengl/Texture.i: __/src/Opengl/Texture.cpp.i
+.PHONY : __/src/Opengl/Texture.i
+
+# target to preprocess a source file
+__/src/Opengl/Texture.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/Texture.cpp.i
+.PHONY : __/src/Opengl/Texture.cpp.i
+
+__/src/Opengl/Texture.s: __/src/Opengl/Texture.cpp.s
+.PHONY : __/src/Opengl/Texture.s
+
+# target to generate assembly for a file
+__/src/Opengl/Texture.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/Texture.cpp.s
+.PHONY : __/src/Opengl/Texture.cpp.s
+
+__/src/Opengl/VertexArray.obj: __/src/Opengl/VertexArray.cpp.obj
+.PHONY : __/src/Opengl/VertexArray.obj
+
+# target to build an object file
+__/src/Opengl/VertexArray.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexArray.cpp.obj
+.PHONY : __/src/Opengl/VertexArray.cpp.obj
+
+__/src/Opengl/VertexArray.i: __/src/Opengl/VertexArray.cpp.i
+.PHONY : __/src/Opengl/VertexArray.i
+
+# target to preprocess a source file
+__/src/Opengl/VertexArray.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexArray.cpp.i
+.PHONY : __/src/Opengl/VertexArray.cpp.i
+
+__/src/Opengl/VertexArray.s: __/src/Opengl/VertexArray.cpp.s
+.PHONY : __/src/Opengl/VertexArray.s
+
+# target to generate assembly for a file
+__/src/Opengl/VertexArray.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexArray.cpp.s
+.PHONY : __/src/Opengl/VertexArray.cpp.s
+
+__/src/Opengl/VertexBuffer.obj: __/src/Opengl/VertexBuffer.cpp.obj
+.PHONY : __/src/Opengl/VertexBuffer.obj
+
+# target to build an object file
+__/src/Opengl/VertexBuffer.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexBuffer.cpp.obj
+.PHONY : __/src/Opengl/VertexBuffer.cpp.obj
+
+__/src/Opengl/VertexBuffer.i: __/src/Opengl/VertexBuffer.cpp.i
+.PHONY : __/src/Opengl/VertexBuffer.i
+
+# target to preprocess a source file
+__/src/Opengl/VertexBuffer.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexBuffer.cpp.i
+.PHONY : __/src/Opengl/VertexBuffer.cpp.i
+
+__/src/Opengl/VertexBuffer.s: __/src/Opengl/VertexBuffer.cpp.s
+.PHONY : __/src/Opengl/VertexBuffer.s
+
+# target to generate assembly for a file
+__/src/Opengl/VertexBuffer.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexBuffer.cpp.s
+.PHONY : __/src/Opengl/VertexBuffer.cpp.s
+
+__/src/Opengl/VertexBufferLayout.obj: __/src/Opengl/VertexBufferLayout.cpp.obj
+.PHONY : __/src/Opengl/VertexBufferLayout.obj
+
+# target to build an object file
+__/src/Opengl/VertexBufferLayout.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexBufferLayout.cpp.obj
+.PHONY : __/src/Opengl/VertexBufferLayout.cpp.obj
+
+__/src/Opengl/VertexBufferLayout.i: __/src/Opengl/VertexBufferLayout.cpp.i
+.PHONY : __/src/Opengl/VertexBufferLayout.i
+
+# target to preprocess a source file
+__/src/Opengl/VertexBufferLayout.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexBufferLayout.cpp.i
+.PHONY : __/src/Opengl/VertexBufferLayout.cpp.i
+
+__/src/Opengl/VertexBufferLayout.s: __/src/Opengl/VertexBufferLayout.cpp.s
+.PHONY : __/src/Opengl/VertexBufferLayout.s
+
+# target to generate assembly for a file
+__/src/Opengl/VertexBufferLayout.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/VertexBufferLayout.cpp.s
+.PHONY : __/src/Opengl/VertexBufferLayout.cpp.s
 
 __/src/Renderer.obj: __/src/Renderer.cpp.obj
 .PHONY : __/src/Renderer.obj
 
 # target to build an object file
 __/src/Renderer.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.obj
 .PHONY : __/src/Renderer.cpp.obj
 
 __/src/Renderer.i: __/src/Renderer.cpp.i
@@ -632,7 +776,7 @@ __/src/Renderer.i: __/src/Renderer.cpp.i
 
 # target to preprocess a source file
 __/src/Renderer.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.i
 .PHONY : __/src/Renderer.cpp.i
 
 __/src/Renderer.s: __/src/Renderer.cpp.s
@@ -640,7 +784,7 @@ __/src/Renderer.s: __/src/Renderer.cpp.s
 
 # target to generate assembly for a file
 __/src/Renderer.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Renderer.cpp.s
 .PHONY : __/src/Renderer.cpp.s
 
 __/src/Scene/Scene.obj: __/src/Scene/Scene.cpp.obj
@@ -648,7 +792,7 @@ __/src/Scene/Scene.obj: __/src/Scene/Scene.cpp.obj
 
 # target to build an object file
 __/src/Scene/Scene.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.obj
 .PHONY : __/src/Scene/Scene.cpp.obj
 
 __/src/Scene/Scene.i: __/src/Scene/Scene.cpp.i
@@ -656,7 +800,7 @@ __/src/Scene/Scene.i: __/src/Scene/Scene.cpp.i
 
 # target to preprocess a source file
 __/src/Scene/Scene.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.i
 .PHONY : __/src/Scene/Scene.cpp.i
 
 __/src/Scene/Scene.s: __/src/Scene/Scene.cpp.s
@@ -664,7 +808,7 @@ __/src/Scene/Scene.s: __/src/Scene/Scene.cpp.s
 
 # target to generate assembly for a file
 __/src/Scene/Scene.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/Scene.cpp.s
 .PHONY : __/src/Scene/Scene.cpp.s
 
 __/src/Scene/SceneGraph.obj: __/src/Scene/SceneGraph.cpp.obj
@@ -672,7 +816,7 @@ __/src/Scene/SceneGraph.obj: __/src/Scene/SceneGraph.cpp.obj
 
 # target to build an object file
 __/src/Scene/SceneGraph.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.obj
 .PHONY : __/src/Scene/SceneGraph.cpp.obj
 
 __/src/Scene/SceneGraph.i: __/src/Scene/SceneGraph.cpp.i
@@ -680,7 +824,7 @@ __/src/Scene/SceneGraph.i: __/src/Scene/SceneGraph.cpp.i
 
 # target to preprocess a source file
 __/src/Scene/SceneGraph.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.i
 .PHONY : __/src/Scene/SceneGraph.cpp.i
 
 __/src/Scene/SceneGraph.s: __/src/Scene/SceneGraph.cpp.s
@@ -688,7 +832,7 @@ __/src/Scene/SceneGraph.s: __/src/Scene/SceneGraph.cpp.s
 
 # target to generate assembly for a file
 __/src/Scene/SceneGraph.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/SceneGraph.cpp.s
 .PHONY : __/src/Scene/SceneGraph.cpp.s
 
 __/src/Scene/SceneSerializer.obj: __/src/Scene/SceneSerializer.cpp.obj
@@ -696,7 +840,7 @@ __/src/Scene/SceneSerializer.obj: __/src/Scene/SceneSerializer.cpp.obj
 
 # target to build an object file
 __/src/Scene/SceneSerializer.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.obj
 .PHONY : __/src/Scene/SceneSerializer.cpp.obj
 
 __/src/Scene/SceneSerializer.i: __/src/Scene/SceneSerializer.cpp.i
@@ -704,7 +848,7 @@ __/src/Scene/SceneSerializer.i: __/src/Scene/SceneSerializer.cpp.i
 
 # target to preprocess a source file
 __/src/Scene/SceneSerializer.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.i
 .PHONY : __/src/Scene/SceneSerializer.cpp.i
 
 __/src/Scene/SceneSerializer.s: __/src/Scene/SceneSerializer.cpp.s
@@ -712,39 +856,15 @@ __/src/Scene/SceneSerializer.s: __/src/Scene/SceneSerializer.cpp.s
 
 # target to generate assembly for a file
 __/src/Scene/SceneSerializer.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Scene/SceneSerializer.cpp.s
 .PHONY : __/src/Scene/SceneSerializer.cpp.s
-
-__/src/Shader.obj: __/src/Shader.cpp.obj
-.PHONY : __/src/Shader.obj
-
-# target to build an object file
-__/src/Shader.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.obj
-.PHONY : __/src/Shader.cpp.obj
-
-__/src/Shader.i: __/src/Shader.cpp.i
-.PHONY : __/src/Shader.i
-
-# target to preprocess a source file
-__/src/Shader.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.i
-.PHONY : __/src/Shader.cpp.i
-
-__/src/Shader.s: __/src/Shader.cpp.s
-.PHONY : __/src/Shader.s
-
-# target to generate assembly for a file
-__/src/Shader.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Shader.cpp.s
-.PHONY : __/src/Shader.cpp.s
 
 __/src/ShaderManager.obj: __/src/ShaderManager.cpp.obj
 .PHONY : __/src/ShaderManager.obj
 
 # target to build an object file
 __/src/ShaderManager.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj
 .PHONY : __/src/ShaderManager.cpp.obj
 
 __/src/ShaderManager.i: __/src/ShaderManager.cpp.i
@@ -752,7 +872,7 @@ __/src/ShaderManager.i: __/src/ShaderManager.cpp.i
 
 # target to preprocess a source file
 __/src/ShaderManager.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.i
 .PHONY : __/src/ShaderManager.cpp.i
 
 __/src/ShaderManager.s: __/src/ShaderManager.cpp.s
@@ -760,63 +880,15 @@ __/src/ShaderManager.s: __/src/ShaderManager.cpp.s
 
 # target to generate assembly for a file
 __/src/ShaderManager.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.s
 .PHONY : __/src/ShaderManager.cpp.s
-
-__/src/SubTexture.obj: __/src/SubTexture.cpp.obj
-.PHONY : __/src/SubTexture.obj
-
-# target to build an object file
-__/src/SubTexture.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.obj
-.PHONY : __/src/SubTexture.cpp.obj
-
-__/src/SubTexture.i: __/src/SubTexture.cpp.i
-.PHONY : __/src/SubTexture.i
-
-# target to preprocess a source file
-__/src/SubTexture.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.i
-.PHONY : __/src/SubTexture.cpp.i
-
-__/src/SubTexture.s: __/src/SubTexture.cpp.s
-.PHONY : __/src/SubTexture.s
-
-# target to generate assembly for a file
-__/src/SubTexture.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/SubTexture.cpp.s
-.PHONY : __/src/SubTexture.cpp.s
-
-__/src/Texture.obj: __/src/Texture.cpp.obj
-.PHONY : __/src/Texture.obj
-
-# target to build an object file
-__/src/Texture.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.obj
-.PHONY : __/src/Texture.cpp.obj
-
-__/src/Texture.i: __/src/Texture.cpp.i
-.PHONY : __/src/Texture.i
-
-# target to preprocess a source file
-__/src/Texture.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.i
-.PHONY : __/src/Texture.cpp.i
-
-__/src/Texture.s: __/src/Texture.cpp.s
-.PHONY : __/src/Texture.s
-
-# target to generate assembly for a file
-__/src/Texture.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Texture.cpp.s
-.PHONY : __/src/Texture.cpp.s
 
 __/src/Timestep.obj: __/src/Timestep.cpp.obj
 .PHONY : __/src/Timestep.obj
 
 # target to build an object file
 __/src/Timestep.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.obj
 .PHONY : __/src/Timestep.cpp.obj
 
 __/src/Timestep.i: __/src/Timestep.cpp.i
@@ -824,7 +896,7 @@ __/src/Timestep.i: __/src/Timestep.cpp.i
 
 # target to preprocess a source file
 __/src/Timestep.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.i
 .PHONY : __/src/Timestep.cpp.i
 
 __/src/Timestep.s: __/src/Timestep.cpp.s
@@ -832,87 +904,15 @@ __/src/Timestep.s: __/src/Timestep.cpp.s
 
 # target to generate assembly for a file
 __/src/Timestep.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Timestep.cpp.s
 .PHONY : __/src/Timestep.cpp.s
-
-__/src/VertexArray.obj: __/src/VertexArray.cpp.obj
-.PHONY : __/src/VertexArray.obj
-
-# target to build an object file
-__/src/VertexArray.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.obj
-.PHONY : __/src/VertexArray.cpp.obj
-
-__/src/VertexArray.i: __/src/VertexArray.cpp.i
-.PHONY : __/src/VertexArray.i
-
-# target to preprocess a source file
-__/src/VertexArray.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.i
-.PHONY : __/src/VertexArray.cpp.i
-
-__/src/VertexArray.s: __/src/VertexArray.cpp.s
-.PHONY : __/src/VertexArray.s
-
-# target to generate assembly for a file
-__/src/VertexArray.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexArray.cpp.s
-.PHONY : __/src/VertexArray.cpp.s
-
-__/src/VertexBuffer.obj: __/src/VertexBuffer.cpp.obj
-.PHONY : __/src/VertexBuffer.obj
-
-# target to build an object file
-__/src/VertexBuffer.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.obj
-.PHONY : __/src/VertexBuffer.cpp.obj
-
-__/src/VertexBuffer.i: __/src/VertexBuffer.cpp.i
-.PHONY : __/src/VertexBuffer.i
-
-# target to preprocess a source file
-__/src/VertexBuffer.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.i
-.PHONY : __/src/VertexBuffer.cpp.i
-
-__/src/VertexBuffer.s: __/src/VertexBuffer.cpp.s
-.PHONY : __/src/VertexBuffer.s
-
-# target to generate assembly for a file
-__/src/VertexBuffer.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexBuffer.cpp.s
-.PHONY : __/src/VertexBuffer.cpp.s
-
-__/src/VertexBufferLayout.obj: __/src/VertexBufferLayout.cpp.obj
-.PHONY : __/src/VertexBufferLayout.obj
-
-# target to build an object file
-__/src/VertexBufferLayout.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.obj
-.PHONY : __/src/VertexBufferLayout.cpp.obj
-
-__/src/VertexBufferLayout.i: __/src/VertexBufferLayout.cpp.i
-.PHONY : __/src/VertexBufferLayout.i
-
-# target to preprocess a source file
-__/src/VertexBufferLayout.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.i
-.PHONY : __/src/VertexBufferLayout.cpp.i
-
-__/src/VertexBufferLayout.s: __/src/VertexBufferLayout.cpp.s
-.PHONY : __/src/VertexBufferLayout.s
-
-# target to generate assembly for a file
-__/src/VertexBufferLayout.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/VertexBufferLayout.cpp.s
-.PHONY : __/src/VertexBufferLayout.cpp.s
 
 __/src/physics/boundingBox/AABB.obj: __/src/physics/boundingBox/AABB.cpp.obj
 .PHONY : __/src/physics/boundingBox/AABB.obj
 
 # target to build an object file
 __/src/physics/boundingBox/AABB.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.obj
 .PHONY : __/src/physics/boundingBox/AABB.cpp.obj
 
 __/src/physics/boundingBox/AABB.i: __/src/physics/boundingBox/AABB.cpp.i
@@ -920,7 +920,7 @@ __/src/physics/boundingBox/AABB.i: __/src/physics/boundingBox/AABB.cpp.i
 
 # target to preprocess a source file
 __/src/physics/boundingBox/AABB.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.i
 .PHONY : __/src/physics/boundingBox/AABB.cpp.i
 
 __/src/physics/boundingBox/AABB.s: __/src/physics/boundingBox/AABB.cpp.s
@@ -928,7 +928,7 @@ __/src/physics/boundingBox/AABB.s: __/src/physics/boundingBox/AABB.cpp.s
 
 # target to generate assembly for a file
 __/src/physics/boundingBox/AABB.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/physics/boundingBox/AABB.cpp.s
 .PHONY : __/src/physics/boundingBox/AABB.cpp.s
 
 __/third_party/stb_image/std_image.obj: __/third_party/stb_image/std_image.cpp.obj
@@ -936,7 +936,7 @@ __/third_party/stb_image/std_image.obj: __/third_party/stb_image/std_image.cpp.o
 
 # target to build an object file
 __/third_party/stb_image/std_image.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.obj
 .PHONY : __/third_party/stb_image/std_image.cpp.obj
 
 __/third_party/stb_image/std_image.i: __/third_party/stb_image/std_image.cpp.i
@@ -944,7 +944,7 @@ __/third_party/stb_image/std_image.i: __/third_party/stb_image/std_image.cpp.i
 
 # target to preprocess a source file
 __/third_party/stb_image/std_image.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.i
 .PHONY : __/third_party/stb_image/std_image.cpp.i
 
 __/third_party/stb_image/std_image.s: __/third_party/stb_image/std_image.cpp.s
@@ -952,7 +952,7 @@ __/third_party/stb_image/std_image.s: __/third_party/stb_image/std_image.cpp.s
 
 # target to generate assembly for a file
 __/third_party/stb_image/std_image.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/third_party/stb_image/std_image.cpp.s
 .PHONY : __/third_party/stb_image/std_image.cpp.s
 
 source/Test/TestGame.obj: source/Test/TestGame.cpp.obj
@@ -960,7 +960,7 @@ source/Test/TestGame.obj: source/Test/TestGame.cpp.obj
 
 # target to build an object file
 source/Test/TestGame.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.obj
 .PHONY : source/Test/TestGame.cpp.obj
 
 source/Test/TestGame.i: source/Test/TestGame.cpp.i
@@ -968,7 +968,7 @@ source/Test/TestGame.i: source/Test/TestGame.cpp.i
 
 # target to preprocess a source file
 source/Test/TestGame.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.i
 .PHONY : source/Test/TestGame.cpp.i
 
 source/Test/TestGame.s: source/Test/TestGame.cpp.s
@@ -976,7 +976,7 @@ source/Test/TestGame.s: source/Test/TestGame.cpp.s
 
 # target to generate assembly for a file
 source/Test/TestGame.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/source/Test/TestGame.cpp.s
 .PHONY : source/Test/TestGame.cpp.s
 
 source/entrypoint.obj: source/entrypoint.cpp.obj
@@ -984,7 +984,7 @@ source/entrypoint.obj: source/entrypoint.cpp.obj
 
 # target to build an object file
 source/entrypoint.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj
 .PHONY : source/entrypoint.cpp.obj
 
 source/entrypoint.i: source/entrypoint.cpp.i
@@ -992,7 +992,7 @@ source/entrypoint.i: source/entrypoint.cpp.i
 
 # target to preprocess a source file
 source/entrypoint.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.i
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.i
 .PHONY : source/entrypoint.cpp.i
 
 source/entrypoint.s: source/entrypoint.cpp.s
@@ -1000,7 +1000,7 @@ source/entrypoint.s: source/entrypoint.cpp.s
 
 # target to generate assembly for a file
 source/entrypoint.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\TestGame.dir\build.make test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.s
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/source/entrypoint.cpp.s
 .PHONY : source/entrypoint.cpp.s
 
 # Help Target
@@ -1069,9 +1069,27 @@ help:
 	@echo ... __/src/Graphics.obj
 	@echo ... __/src/Graphics.i
 	@echo ... __/src/Graphics.s
-	@echo ... __/src/IndexBuffer.obj
-	@echo ... __/src/IndexBuffer.i
-	@echo ... __/src/IndexBuffer.s
+	@echo ... __/src/Opengl/IndexBuffer.obj
+	@echo ... __/src/Opengl/IndexBuffer.i
+	@echo ... __/src/Opengl/IndexBuffer.s
+	@echo ... __/src/Opengl/Shader.obj
+	@echo ... __/src/Opengl/Shader.i
+	@echo ... __/src/Opengl/Shader.s
+	@echo ... __/src/Opengl/SubTexture.obj
+	@echo ... __/src/Opengl/SubTexture.i
+	@echo ... __/src/Opengl/SubTexture.s
+	@echo ... __/src/Opengl/Texture.obj
+	@echo ... __/src/Opengl/Texture.i
+	@echo ... __/src/Opengl/Texture.s
+	@echo ... __/src/Opengl/VertexArray.obj
+	@echo ... __/src/Opengl/VertexArray.i
+	@echo ... __/src/Opengl/VertexArray.s
+	@echo ... __/src/Opengl/VertexBuffer.obj
+	@echo ... __/src/Opengl/VertexBuffer.i
+	@echo ... __/src/Opengl/VertexBuffer.s
+	@echo ... __/src/Opengl/VertexBufferLayout.obj
+	@echo ... __/src/Opengl/VertexBufferLayout.i
+	@echo ... __/src/Opengl/VertexBufferLayout.s
 	@echo ... __/src/Renderer.obj
 	@echo ... __/src/Renderer.i
 	@echo ... __/src/Renderer.s
@@ -1084,30 +1102,12 @@ help:
 	@echo ... __/src/Scene/SceneSerializer.obj
 	@echo ... __/src/Scene/SceneSerializer.i
 	@echo ... __/src/Scene/SceneSerializer.s
-	@echo ... __/src/Shader.obj
-	@echo ... __/src/Shader.i
-	@echo ... __/src/Shader.s
 	@echo ... __/src/ShaderManager.obj
 	@echo ... __/src/ShaderManager.i
 	@echo ... __/src/ShaderManager.s
-	@echo ... __/src/SubTexture.obj
-	@echo ... __/src/SubTexture.i
-	@echo ... __/src/SubTexture.s
-	@echo ... __/src/Texture.obj
-	@echo ... __/src/Texture.i
-	@echo ... __/src/Texture.s
 	@echo ... __/src/Timestep.obj
 	@echo ... __/src/Timestep.i
 	@echo ... __/src/Timestep.s
-	@echo ... __/src/VertexArray.obj
-	@echo ... __/src/VertexArray.i
-	@echo ... __/src/VertexArray.s
-	@echo ... __/src/VertexBuffer.obj
-	@echo ... __/src/VertexBuffer.i
-	@echo ... __/src/VertexBuffer.s
-	@echo ... __/src/VertexBufferLayout.obj
-	@echo ... __/src/VertexBufferLayout.i
-	@echo ... __/src/VertexBufferLayout.s
 	@echo ... __/src/physics/boundingBox/AABB.obj
 	@echo ... __/src/physics/boundingBox/AABB.i
 	@echo ... __/src/physics/boundingBox/AABB.s

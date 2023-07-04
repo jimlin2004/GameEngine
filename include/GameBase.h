@@ -10,7 +10,6 @@
 #include "Timestep.h"
 #include "GameEngineAPI/ConsoleApi.h"
 #include "GameEngineAPI/GameEngineAPI.h"
-#include "Graphics.h"
 #include "Actor.h"
 #include "Renderer.h"
 #include "Scene/SceneSerializer.h"
@@ -51,7 +50,7 @@ namespace GameEngine
         virtual void logBuildInfo();
         void startGame();
     private:
-        // b2World physicsWorld;
+        b2World physicsWorld;
         Timestep timestep;
         uint64_t lastFrameTime;
     };

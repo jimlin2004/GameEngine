@@ -112,7 +112,7 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->scrollAreaWidgetContents_detail->layout()->setAlignment(Qt::AlignTop);
     // this->ui->dockWidgetContentsLeft->resize(100, this->ui->dockWidgetLeft->height());
     // this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->dockWidgetLeft->width()}, Qt::Horizontal);
-    this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->scrollAreaWidgetContents_detail->width()}, Qt::Horizontal);
+    this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->scrollAreaWidgetContents_detail->width() + 20}, Qt::Horizontal);
     
     this->ui->widget_colorViewer->setStyleSheet("background-color: #000000;");
     connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
@@ -165,16 +165,13 @@ void MainWindow::resetFileSystemPanel()
     }
 }
 
-void MainWindow::clearOutline()
-{
-
-}
-
 void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
 {
     OutlineTreeWidgetItem* outlineItem = dynamic_cast<OutlineTreeWidgetItem*>(item);
     if (outlineItem != nullptr)
         outlineItem->click();
+    else
+        return;
     GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(outlineItem->getEntityID());
     GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(outlineItem->getEntityID());
     this->ui->lineEditFloat_x_position->bind(&transformComponent.translation.x);
@@ -210,6 +207,14 @@ void MainWindow::updateColorViewer()
     QColor color(R, G, B);
     this->ui->widget_colorViewer->setStyleSheet("background-color: " + color.name() + ";");
     this->ui->openglWidget->update();
+}
+
+void MainWindow::clearOutline()
+{
+    while (this->actorLevel->takeChild(0) != nullptr)
+    {
+        continue;
+    }
 }
 
 void MainWindow::resetGameObjectOutline()
@@ -248,6 +253,7 @@ void MainWindow::openProject()
     }
     else
         qDebug("Scene data not found.\n");
+    this->resetGameObjectOutline();
 }
 
 void MainWindow::saveScene()

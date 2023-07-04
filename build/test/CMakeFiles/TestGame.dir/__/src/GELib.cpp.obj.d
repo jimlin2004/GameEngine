@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/GELib.cpp.obj: \
  D:\code\cpp\gameEngine\src\GELib.cpp \
  D:/code/cpp/gameEngine/include/GELib.h \
  C:/PROGRA~1/msys64/mingw64/include/time.h \

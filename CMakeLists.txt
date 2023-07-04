@@ -21,8 +21,6 @@ file(GLOB_RECURSE SRC_FILES
 )
 
 file(GLOB_RECURSE THIRD_PARTY_SRC
-    # ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.c
-    # ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/src/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/stb_image/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/third_party/json/json.hpp
 )
@@ -46,18 +44,16 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/SDL2/x86_64-w64-ming
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/entt/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party)
 
-# link_libraries(mingw32 SDL2main SDL2)
-# link_libraries(GLEW::GLEW)
-
 # add_subdirectory(./snake)
 add_subdirectory(./test)
 add_subdirectory(./gameEngineEditor)
 
 add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${THIRD_PARTY_SRC})
 
-# target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
 target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
+
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

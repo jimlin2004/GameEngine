@@ -1,4 +1,4 @@
-test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj: \
+Test/CMakeFiles/TestGame.dir/__/src/ShaderManager.cpp.obj: \
  D:\code\cpp\gameEngine\src\ShaderManager.cpp \
  D:/code/cpp/gameEngine/include/ShaderManager.h \
  D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \

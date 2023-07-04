@@ -253,3 +253,11 @@
     Todo list
         -json格式似乎有誤
     存檔紀錄 --version 1.0-dev
+2023/07/04
+    1. 完工SceneSerializer
+    2. 將opengl的檔案歸類到Opengl
+    3. 正式引入box2d
+    4. 將third_party減少不必要的檔案
+    Todo list
+        -frameBuffer
+    存檔紀錄 --version 1.0-dev

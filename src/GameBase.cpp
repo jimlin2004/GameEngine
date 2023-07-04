@@ -5,7 +5,7 @@ GameEngine::GameBase::GameBase(const char* title, int width, int height)
     , screenWidth(width)
     , screenHeight(height)
     , running(false)
-    // , physicsWorld({0.0f, -9.8f})
+    , physicsWorld({0.0f, -9.8f})
 {
     this->lastFrameTime = 0.0f;
     GameEngine::GEngine->_setWindowSize((float)this->screenWidth, (float)this->screenHeight);

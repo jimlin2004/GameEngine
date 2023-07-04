@@ -540,26 +540,116 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Graphics.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Graphics.cpp.s
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: D:/code/cpp/gameEngine/src/IndexBuffer.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.obj -c D:\code\cpp\gameEngine\src\IndexBuffer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/IndexBuffer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\IndexBuffer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\IndexBuffer.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\IndexBuffer.cpp
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\IndexBuffer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.i
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\IndexBuffer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\IndexBuffer.cpp.i
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\IndexBuffer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\IndexBuffer.cpp.s
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\IndexBuffer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\IndexBuffer.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/Shader.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Shader.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Shader.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\Shader.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\Shader.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Shader.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\Shader.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Shader.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/SubTexture.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\SubTexture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\SubTexture.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\SubTexture.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\SubTexture.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\SubTexture.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\SubTexture.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\SubTexture.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/Texture.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Texture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Texture.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\Texture.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\Texture.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Texture.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\Texture.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\Texture.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/VertexArray.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexArray.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexArray.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\VertexArray.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\VertexArray.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexArray.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\VertexArray.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexArray.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/VertexBuffer.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBuffer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBuffer.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\VertexBuffer.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\VertexBuffer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBuffer.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\VertexBuffer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBuffer.cpp.s
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/VertexBufferLayout.cpp
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBufferLayout.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBufferLayout.cpp.obj -c D:\code\cpp\gameEngine\src\Opengl\VertexBufferLayout.cpp
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Opengl\VertexBufferLayout.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBufferLayout.cpp.i
+
+gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Opengl\VertexBufferLayout.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Opengl\VertexBufferLayout.cpp.s
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: D:/code/cpp/gameEngine/src/Renderer.cpp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Renderer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Renderer.cpp.obj -c D:\code\cpp\gameEngine\src\Renderer.cpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.i: cmake_force
@@ -574,7 +664,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: gam
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: D:/code/cpp/gameEngine/src/Scene/Scene.cpp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Scene\Scene.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Scene\Scene.cpp.obj -c D:\code\cpp\gameEngine\src\Scene\Scene.cpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.i: cmake_force
@@ -589,7 +679,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj: D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Scene\SceneGraph.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Scene\SceneGraph.cpp.obj -c D:\code\cpp\gameEngine\src\Scene\SceneGraph.cpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.i: cmake_force
@@ -604,7 +694,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj: D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Scene\SceneSerializer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Scene\SceneSerializer.cpp.obj -c D:\code\cpp\gameEngine\src\Scene\SceneSerializer.cpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.i: cmake_force
@@ -615,26 +705,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Scene\SceneSerializer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Scene\SceneSerializer.cpp.s
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: D:/code/cpp/gameEngine/src/Shader.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.obj -c D:\code\cpp\gameEngine\src\Shader.cpp
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Shader.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.i
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Shader.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Shader.cpp.s
-
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: D:/code/cpp/gameEngine/src/ShaderManager.cpp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.obj -c D:\code\cpp\gameEngine\src\ShaderManager.cpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.i: cmake_force
@@ -645,41 +720,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\ShaderManager.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\ShaderManager.cpp.s
 
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: D:/code/cpp/gameEngine/src/SubTexture.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.obj -c D:\code\cpp\gameEngine\src\SubTexture.cpp
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\SubTexture.cpp > CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.i
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\SubTexture.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\SubTexture.cpp.s
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: D:/code/cpp/gameEngine/src/Texture.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.obj -c D:\code\cpp\gameEngine\src\Texture.cpp
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\Texture.cpp > CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.i
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Texture.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Texture.cpp.s
-
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: D:/code/cpp/gameEngine/src/Timestep.cpp
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.obj -c D:\code\cpp\gameEngine\src\Timestep.cpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.i: cmake_force
@@ -689,51 +734,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.i: cmake_fo
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\Timestep.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\Timestep.cpp.s
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: D:/code/cpp/gameEngine/src/VertexArray.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.obj -c D:\code\cpp\gameEngine\src\VertexArray.cpp
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\VertexArray.cpp > CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.i
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\VertexArray.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\VertexArray.cpp.s
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: D:/code/cpp/gameEngine/src/VertexBuffer.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.obj -c D:\code\cpp\gameEngine\src\VertexBuffer.cpp
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\VertexBuffer.cpp > CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.i
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\VertexBuffer.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBuffer.cpp.s
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: D:/code/cpp/gameEngine/src/VertexBufferLayout.cpp
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.obj -c D:\code\cpp\gameEngine\src\VertexBufferLayout.cpp
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\src\VertexBufferLayout.cpp > CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.i
-
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\src\VertexBufferLayout.cpp -o CMakeFiles\GameEngineEditor.dir\__\src\VertexBufferLayout.cpp.s
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
@@ -813,19 +813,19 @@ GameEngineEditor_OBJECTS = \
 "CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj"
@@ -864,19 +864,19 @@ gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEdi
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameEngineAPI/GameEngineAPI.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/GameObject.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Graphics.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/IndexBuffer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/IndexBuffer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Shader.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/SubTexture.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/Texture.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexArray.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBuffer.cpp.obj
+gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Opengl/VertexBufferLayout.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Renderer.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneGraph.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/SceneSerializer.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Shader.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ShaderManager.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/SubTexture.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Texture.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Timestep.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexArray.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBuffer.cpp.obj
-gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/VertexBufferLayout.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/physics/boundingBox/AABB.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/stb_image/std_image.cpp.obj
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp.obj

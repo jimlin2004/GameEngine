@@ -6,8 +6,10 @@
 #include "glm/glm.hpp"
 #include <string>
 #include "Actor.h"
+#include "TypeName.hpp"
 #include "GameEngineAPI/ConsoleApi.h"
 #include <iostream>
+#include <vector>
 
 namespace GameEngine
 {
@@ -22,6 +24,9 @@ namespace GameEngine
     };
 
     Json toJson(const glm::vec3& other);
+    Json toJson(const glm::vec4& other);
+    glm::vec3 vectorToVec3(const std::vector<float>& vec);
+    glm::vec4 vectorToVec4(const std::vector<float>& vec);
 }
 
 #endif
