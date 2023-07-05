@@ -149,30 +149,17 @@ GameEngine/fast:
 .PHONY : GameEngine/fast
 
 #=============================================================================
-# Target rules for targets named TestGame
+# Target rules for targets named GameEngineLib
 
 # Build rule for target.
-TestGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestGame
-.PHONY : TestGame
+GameEngineLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameEngineLib
+.PHONY : GameEngineLib
 
 # fast build rule for target.
-TestGame/fast:
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/build
-.PHONY : TestGame/fast
-
-#=============================================================================
-# Target rules for targets named test_game_copy_target
-
-# Build rule for target.
-test_game_copy_target: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_game_copy_target
-.PHONY : test_game_copy_target
-
-# fast build rule for target.
-test_game_copy_target/fast:
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\test_game_copy_target.dir\build.make Test/CMakeFiles/test_game_copy_target.dir/build
-.PHONY : test_game_copy_target/fast
+GameEngineLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/build
+.PHONY : GameEngineLib/fast
 
 #=============================================================================
 # Target rules for targets named GameEngineEditor
@@ -243,6 +230,7 @@ src/Actor.obj: src/Actor.cpp.obj
 # target to build an object file
 src/Actor.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Actor.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Actor.cpp.obj
 .PHONY : src/Actor.cpp.obj
 
 src/Actor.i: src/Actor.cpp.i
@@ -251,6 +239,7 @@ src/Actor.i: src/Actor.cpp.i
 # target to preprocess a source file
 src/Actor.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Actor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Actor.cpp.i
 .PHONY : src/Actor.cpp.i
 
 src/Actor.s: src/Actor.cpp.s
@@ -259,6 +248,7 @@ src/Actor.s: src/Actor.cpp.s
 # target to generate assembly for a file
 src/Actor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Actor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Actor.cpp.s
 .PHONY : src/Actor.cpp.s
 
 src/ActorComponent/Component/Component.obj: src/ActorComponent/Component/Component.cpp.obj
@@ -267,6 +257,7 @@ src/ActorComponent/Component/Component.obj: src/ActorComponent/Component/Compone
 # target to build an object file
 src/ActorComponent/Component/Component.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Component/Component.cpp.obj
 .PHONY : src/ActorComponent/Component/Component.cpp.obj
 
 src/ActorComponent/Component/Component.i: src/ActorComponent/Component/Component.cpp.i
@@ -275,6 +266,7 @@ src/ActorComponent/Component/Component.i: src/ActorComponent/Component/Component
 # target to preprocess a source file
 src/ActorComponent/Component/Component.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Component/Component.cpp.i
 .PHONY : src/ActorComponent/Component/Component.cpp.i
 
 src/ActorComponent/Component/Component.s: src/ActorComponent/Component/Component.cpp.s
@@ -283,6 +275,7 @@ src/ActorComponent/Component/Component.s: src/ActorComponent/Component/Component
 # target to generate assembly for a file
 src/ActorComponent/Component/Component.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Component/Component.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Component/Component.cpp.s
 .PHONY : src/ActorComponent/Component/Component.cpp.s
 
 src/ActorComponent/Material/Material.obj: src/ActorComponent/Material/Material.cpp.obj
@@ -291,6 +284,7 @@ src/ActorComponent/Material/Material.obj: src/ActorComponent/Material/Material.c
 # target to build an object file
 src/ActorComponent/Material/Material.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Material/Material.cpp.obj
 .PHONY : src/ActorComponent/Material/Material.cpp.obj
 
 src/ActorComponent/Material/Material.i: src/ActorComponent/Material/Material.cpp.i
@@ -299,6 +293,7 @@ src/ActorComponent/Material/Material.i: src/ActorComponent/Material/Material.cpp
 # target to preprocess a source file
 src/ActorComponent/Material/Material.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Material/Material.cpp.i
 .PHONY : src/ActorComponent/Material/Material.cpp.i
 
 src/ActorComponent/Material/Material.s: src/ActorComponent/Material/Material.cpp.s
@@ -307,6 +302,7 @@ src/ActorComponent/Material/Material.s: src/ActorComponent/Material/Material.cpp
 # target to generate assembly for a file
 src/ActorComponent/Material/Material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Material/Material.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Material/Material.cpp.s
 .PHONY : src/ActorComponent/Material/Material.cpp.s
 
 src/ActorComponent/Mesh/Mesh.obj: src/ActorComponent/Mesh/Mesh.cpp.obj
@@ -315,6 +311,7 @@ src/ActorComponent/Mesh/Mesh.obj: src/ActorComponent/Mesh/Mesh.cpp.obj
 # target to build an object file
 src/ActorComponent/Mesh/Mesh.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Mesh/Mesh.cpp.obj
 .PHONY : src/ActorComponent/Mesh/Mesh.cpp.obj
 
 src/ActorComponent/Mesh/Mesh.i: src/ActorComponent/Mesh/Mesh.cpp.i
@@ -323,6 +320,7 @@ src/ActorComponent/Mesh/Mesh.i: src/ActorComponent/Mesh/Mesh.cpp.i
 # target to preprocess a source file
 src/ActorComponent/Mesh/Mesh.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Mesh/Mesh.cpp.i
 .PHONY : src/ActorComponent/Mesh/Mesh.cpp.i
 
 src/ActorComponent/Mesh/Mesh.s: src/ActorComponent/Mesh/Mesh.cpp.s
@@ -331,6 +329,7 @@ src/ActorComponent/Mesh/Mesh.s: src/ActorComponent/Mesh/Mesh.cpp.s
 # target to generate assembly for a file
 src/ActorComponent/Mesh/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/Mesh/Mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/Mesh/Mesh.cpp.s
 .PHONY : src/ActorComponent/Mesh/Mesh.cpp.s
 
 src/ActorComponent/inputComponent/InputComponent.obj: src/ActorComponent/inputComponent/InputComponent.cpp.obj
@@ -339,6 +338,7 @@ src/ActorComponent/inputComponent/InputComponent.obj: src/ActorComponent/inputCo
 # target to build an object file
 src/ActorComponent/inputComponent/InputComponent.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/inputComponent/InputComponent.cpp.obj
 .PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.obj
 
 src/ActorComponent/inputComponent/InputComponent.i: src/ActorComponent/inputComponent/InputComponent.cpp.i
@@ -347,6 +347,7 @@ src/ActorComponent/inputComponent/InputComponent.i: src/ActorComponent/inputComp
 # target to preprocess a source file
 src/ActorComponent/inputComponent/InputComponent.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/inputComponent/InputComponent.cpp.i
 .PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.i
 
 src/ActorComponent/inputComponent/InputComponent.s: src/ActorComponent/inputComponent/InputComponent.cpp.s
@@ -355,6 +356,7 @@ src/ActorComponent/inputComponent/InputComponent.s: src/ActorComponent/inputComp
 # target to generate assembly for a file
 src/ActorComponent/inputComponent/InputComponent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ActorComponent/inputComponent/InputComponent.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ActorComponent/inputComponent/InputComponent.cpp.s
 .PHONY : src/ActorComponent/inputComponent/InputComponent.cpp.s
 
 src/Camera.obj: src/Camera.cpp.obj
@@ -363,6 +365,7 @@ src/Camera.obj: src/Camera.cpp.obj
 # target to build an object file
 src/Camera.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Camera.cpp.obj
 .PHONY : src/Camera.cpp.obj
 
 src/Camera.i: src/Camera.cpp.i
@@ -371,6 +374,7 @@ src/Camera.i: src/Camera.cpp.i
 # target to preprocess a source file
 src/Camera.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Camera.cpp.i
 .PHONY : src/Camera.cpp.i
 
 src/Camera.s: src/Camera.cpp.s
@@ -379,6 +383,7 @@ src/Camera.s: src/Camera.cpp.s
 # target to generate assembly for a file
 src/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Camera.cpp.s
 .PHONY : src/Camera.cpp.s
 
 src/CameraController.obj: src/CameraController.cpp.obj
@@ -387,6 +392,7 @@ src/CameraController.obj: src/CameraController.cpp.obj
 # target to build an object file
 src/CameraController.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/CameraController.cpp.obj
 .PHONY : src/CameraController.cpp.obj
 
 src/CameraController.i: src/CameraController.cpp.i
@@ -395,6 +401,7 @@ src/CameraController.i: src/CameraController.cpp.i
 # target to preprocess a source file
 src/CameraController.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/CameraController.cpp.i
 .PHONY : src/CameraController.cpp.i
 
 src/CameraController.s: src/CameraController.cpp.s
@@ -403,6 +410,7 @@ src/CameraController.s: src/CameraController.cpp.s
 # target to generate assembly for a file
 src/CameraController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/CameraController.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/CameraController.cpp.s
 .PHONY : src/CameraController.cpp.s
 
 src/DataStruct/BST/BST.obj: src/DataStruct/BST/BST.cpp.obj
@@ -411,6 +419,7 @@ src/DataStruct/BST/BST.obj: src/DataStruct/BST/BST.cpp.obj
 # target to build an object file
 src/DataStruct/BST/BST.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/BST/BST.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/DataStruct/BST/BST.cpp.obj
 .PHONY : src/DataStruct/BST/BST.cpp.obj
 
 src/DataStruct/BST/BST.i: src/DataStruct/BST/BST.cpp.i
@@ -419,6 +428,7 @@ src/DataStruct/BST/BST.i: src/DataStruct/BST/BST.cpp.i
 # target to preprocess a source file
 src/DataStruct/BST/BST.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/BST/BST.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/DataStruct/BST/BST.cpp.i
 .PHONY : src/DataStruct/BST/BST.cpp.i
 
 src/DataStruct/BST/BST.s: src/DataStruct/BST/BST.cpp.s
@@ -427,6 +437,7 @@ src/DataStruct/BST/BST.s: src/DataStruct/BST/BST.cpp.s
 # target to generate assembly for a file
 src/DataStruct/BST/BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/BST/BST.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/DataStruct/BST/BST.cpp.s
 .PHONY : src/DataStruct/BST/BST.cpp.s
 
 src/DataStruct/Vector/Vector.obj: src/DataStruct/Vector/Vector.cpp.obj
@@ -435,6 +446,7 @@ src/DataStruct/Vector/Vector.obj: src/DataStruct/Vector/Vector.cpp.obj
 # target to build an object file
 src/DataStruct/Vector/Vector.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/Vector/Vector.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/DataStruct/Vector/Vector.cpp.obj
 .PHONY : src/DataStruct/Vector/Vector.cpp.obj
 
 src/DataStruct/Vector/Vector.i: src/DataStruct/Vector/Vector.cpp.i
@@ -443,6 +455,7 @@ src/DataStruct/Vector/Vector.i: src/DataStruct/Vector/Vector.cpp.i
 # target to preprocess a source file
 src/DataStruct/Vector/Vector.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/Vector/Vector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/DataStruct/Vector/Vector.cpp.i
 .PHONY : src/DataStruct/Vector/Vector.cpp.i
 
 src/DataStruct/Vector/Vector.s: src/DataStruct/Vector/Vector.cpp.s
@@ -451,6 +464,7 @@ src/DataStruct/Vector/Vector.s: src/DataStruct/Vector/Vector.cpp.s
 # target to generate assembly for a file
 src/DataStruct/Vector/Vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/DataStruct/Vector/Vector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/DataStruct/Vector/Vector.cpp.s
 .PHONY : src/DataStruct/Vector/Vector.cpp.s
 
 src/EventSystem.obj: src/EventSystem.cpp.obj
@@ -459,6 +473,7 @@ src/EventSystem.obj: src/EventSystem.cpp.obj
 # target to build an object file
 src/EventSystem.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/EventSystem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/EventSystem.cpp.obj
 .PHONY : src/EventSystem.cpp.obj
 
 src/EventSystem.i: src/EventSystem.cpp.i
@@ -467,6 +482,7 @@ src/EventSystem.i: src/EventSystem.cpp.i
 # target to preprocess a source file
 src/EventSystem.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/EventSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/EventSystem.cpp.i
 .PHONY : src/EventSystem.cpp.i
 
 src/EventSystem.s: src/EventSystem.cpp.s
@@ -475,6 +491,7 @@ src/EventSystem.s: src/EventSystem.cpp.s
 # target to generate assembly for a file
 src/EventSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/EventSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/EventSystem.cpp.s
 .PHONY : src/EventSystem.cpp.s
 
 src/FSM.obj: src/FSM.cpp.obj
@@ -483,6 +500,7 @@ src/FSM.obj: src/FSM.cpp.obj
 # target to build an object file
 src/FSM.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/FSM.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/FSM.cpp.obj
 .PHONY : src/FSM.cpp.obj
 
 src/FSM.i: src/FSM.cpp.i
@@ -491,6 +509,7 @@ src/FSM.i: src/FSM.cpp.i
 # target to preprocess a source file
 src/FSM.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/FSM.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/FSM.cpp.i
 .PHONY : src/FSM.cpp.i
 
 src/FSM.s: src/FSM.cpp.s
@@ -499,6 +518,7 @@ src/FSM.s: src/FSM.cpp.s
 # target to generate assembly for a file
 src/FSM.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/FSM.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/FSM.cpp.s
 .PHONY : src/FSM.cpp.s
 
 src/GELib.obj: src/GELib.cpp.obj
@@ -507,6 +527,7 @@ src/GELib.obj: src/GELib.cpp.obj
 # target to build an object file
 src/GELib.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GELib.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GELib.cpp.obj
 .PHONY : src/GELib.cpp.obj
 
 src/GELib.i: src/GELib.cpp.i
@@ -515,6 +536,7 @@ src/GELib.i: src/GELib.cpp.i
 # target to preprocess a source file
 src/GELib.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GELib.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GELib.cpp.i
 .PHONY : src/GELib.cpp.i
 
 src/GELib.s: src/GELib.cpp.s
@@ -523,6 +545,7 @@ src/GELib.s: src/GELib.cpp.s
 # target to generate assembly for a file
 src/GELib.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GELib.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GELib.cpp.s
 .PHONY : src/GELib.cpp.s
 
 src/GameBase.obj: src/GameBase.cpp.obj
@@ -531,6 +554,7 @@ src/GameBase.obj: src/GameBase.cpp.obj
 # target to build an object file
 src/GameBase.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBase.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameBase.cpp.obj
 .PHONY : src/GameBase.cpp.obj
 
 src/GameBase.i: src/GameBase.cpp.i
@@ -539,6 +563,7 @@ src/GameBase.i: src/GameBase.cpp.i
 # target to preprocess a source file
 src/GameBase.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBase.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameBase.cpp.i
 .PHONY : src/GameBase.cpp.i
 
 src/GameBase.s: src/GameBase.cpp.s
@@ -547,6 +572,7 @@ src/GameBase.s: src/GameBase.cpp.s
 # target to generate assembly for a file
 src/GameBase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBase.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameBase.cpp.s
 .PHONY : src/GameBase.cpp.s
 
 src/GameBaseComponent/GameEventManager/GameEventManager.obj: src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
@@ -555,6 +581,7 @@ src/GameBaseComponent/GameEventManager/GameEventManager.obj: src/GameBaseCompone
 # target to build an object file
 src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
 .PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.obj
 
 src/GameBaseComponent/GameEventManager/GameEventManager.i: src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
@@ -563,6 +590,7 @@ src/GameBaseComponent/GameEventManager/GameEventManager.i: src/GameBaseComponent
 # target to preprocess a source file
 src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
 .PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.i
 
 src/GameBaseComponent/GameEventManager/GameEventManager.s: src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
@@ -571,6 +599,7 @@ src/GameBaseComponent/GameEventManager/GameEventManager.s: src/GameBaseComponent
 # target to generate assembly for a file
 src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
 .PHONY : src/GameBaseComponent/GameEventManager/GameEventManager.cpp.s
 
 src/GameEngineAPI/ConsoleApi.obj: src/GameEngineAPI/ConsoleApi.cpp.obj
@@ -579,6 +608,7 @@ src/GameEngineAPI/ConsoleApi.obj: src/GameEngineAPI/ConsoleApi.cpp.obj
 # target to build an object file
 src/GameEngineAPI/ConsoleApi.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/ConsoleApi.cpp.obj
 .PHONY : src/GameEngineAPI/ConsoleApi.cpp.obj
 
 src/GameEngineAPI/ConsoleApi.i: src/GameEngineAPI/ConsoleApi.cpp.i
@@ -587,6 +617,7 @@ src/GameEngineAPI/ConsoleApi.i: src/GameEngineAPI/ConsoleApi.cpp.i
 # target to preprocess a source file
 src/GameEngineAPI/ConsoleApi.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/ConsoleApi.cpp.i
 .PHONY : src/GameEngineAPI/ConsoleApi.cpp.i
 
 src/GameEngineAPI/ConsoleApi.s: src/GameEngineAPI/ConsoleApi.cpp.s
@@ -595,6 +626,7 @@ src/GameEngineAPI/ConsoleApi.s: src/GameEngineAPI/ConsoleApi.cpp.s
 # target to generate assembly for a file
 src/GameEngineAPI/ConsoleApi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/ConsoleApi.cpp.s
 .PHONY : src/GameEngineAPI/ConsoleApi.cpp.s
 
 src/GameEngineAPI/GameEngineAPI.obj: src/GameEngineAPI/GameEngineAPI.cpp.obj
@@ -603,6 +635,7 @@ src/GameEngineAPI/GameEngineAPI.obj: src/GameEngineAPI/GameEngineAPI.cpp.obj
 # target to build an object file
 src/GameEngineAPI/GameEngineAPI.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj
 .PHONY : src/GameEngineAPI/GameEngineAPI.cpp.obj
 
 src/GameEngineAPI/GameEngineAPI.i: src/GameEngineAPI/GameEngineAPI.cpp.i
@@ -611,6 +644,7 @@ src/GameEngineAPI/GameEngineAPI.i: src/GameEngineAPI/GameEngineAPI.cpp.i
 # target to preprocess a source file
 src/GameEngineAPI/GameEngineAPI.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.i
 .PHONY : src/GameEngineAPI/GameEngineAPI.cpp.i
 
 src/GameEngineAPI/GameEngineAPI.s: src/GameEngineAPI/GameEngineAPI.cpp.s
@@ -619,6 +653,7 @@ src/GameEngineAPI/GameEngineAPI.s: src/GameEngineAPI/GameEngineAPI.cpp.s
 # target to generate assembly for a file
 src/GameEngineAPI/GameEngineAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.s
 .PHONY : src/GameEngineAPI/GameEngineAPI.cpp.s
 
 src/GameObject.obj: src/GameObject.cpp.obj
@@ -627,6 +662,7 @@ src/GameObject.obj: src/GameObject.cpp.obj
 # target to build an object file
 src/GameObject.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameObject.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameObject.cpp.obj
 .PHONY : src/GameObject.cpp.obj
 
 src/GameObject.i: src/GameObject.cpp.i
@@ -635,6 +671,7 @@ src/GameObject.i: src/GameObject.cpp.i
 # target to preprocess a source file
 src/GameObject.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameObject.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameObject.cpp.i
 .PHONY : src/GameObject.cpp.i
 
 src/GameObject.s: src/GameObject.cpp.s
@@ -643,6 +680,7 @@ src/GameObject.s: src/GameObject.cpp.s
 # target to generate assembly for a file
 src/GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/GameObject.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/GameObject.cpp.s
 .PHONY : src/GameObject.cpp.s
 
 src/Graphics.obj: src/Graphics.cpp.obj
@@ -651,6 +689,7 @@ src/Graphics.obj: src/Graphics.cpp.obj
 # target to build an object file
 src/Graphics.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Graphics.cpp.obj
 .PHONY : src/Graphics.cpp.obj
 
 src/Graphics.i: src/Graphics.cpp.i
@@ -659,6 +698,7 @@ src/Graphics.i: src/Graphics.cpp.i
 # target to preprocess a source file
 src/Graphics.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Graphics.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Graphics.cpp.i
 .PHONY : src/Graphics.cpp.i
 
 src/Graphics.s: src/Graphics.cpp.s
@@ -667,7 +707,35 @@ src/Graphics.s: src/Graphics.cpp.s
 # target to generate assembly for a file
 src/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Graphics.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
+
+src/Opengl/FrameBuffer.obj: src/Opengl/FrameBuffer.cpp.obj
+.PHONY : src/Opengl/FrameBuffer.obj
+
+# target to build an object file
+src/Opengl/FrameBuffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/FrameBuffer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.obj
+.PHONY : src/Opengl/FrameBuffer.cpp.obj
+
+src/Opengl/FrameBuffer.i: src/Opengl/FrameBuffer.cpp.i
+.PHONY : src/Opengl/FrameBuffer.i
+
+# target to preprocess a source file
+src/Opengl/FrameBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/FrameBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.i
+.PHONY : src/Opengl/FrameBuffer.cpp.i
+
+src/Opengl/FrameBuffer.s: src/Opengl/FrameBuffer.cpp.s
+.PHONY : src/Opengl/FrameBuffer.s
+
+# target to generate assembly for a file
+src/Opengl/FrameBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/FrameBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.s
+.PHONY : src/Opengl/FrameBuffer.cpp.s
 
 src/Opengl/IndexBuffer.obj: src/Opengl/IndexBuffer.cpp.obj
 .PHONY : src/Opengl/IndexBuffer.obj
@@ -675,6 +743,7 @@ src/Opengl/IndexBuffer.obj: src/Opengl/IndexBuffer.cpp.obj
 # target to build an object file
 src/Opengl/IndexBuffer.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/IndexBuffer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/IndexBuffer.cpp.obj
 .PHONY : src/Opengl/IndexBuffer.cpp.obj
 
 src/Opengl/IndexBuffer.i: src/Opengl/IndexBuffer.cpp.i
@@ -683,6 +752,7 @@ src/Opengl/IndexBuffer.i: src/Opengl/IndexBuffer.cpp.i
 # target to preprocess a source file
 src/Opengl/IndexBuffer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/IndexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/IndexBuffer.cpp.i
 .PHONY : src/Opengl/IndexBuffer.cpp.i
 
 src/Opengl/IndexBuffer.s: src/Opengl/IndexBuffer.cpp.s
@@ -691,6 +761,7 @@ src/Opengl/IndexBuffer.s: src/Opengl/IndexBuffer.cpp.s
 # target to generate assembly for a file
 src/Opengl/IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/IndexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/IndexBuffer.cpp.s
 .PHONY : src/Opengl/IndexBuffer.cpp.s
 
 src/Opengl/Shader.obj: src/Opengl/Shader.cpp.obj
@@ -699,6 +770,7 @@ src/Opengl/Shader.obj: src/Opengl/Shader.cpp.obj
 # target to build an object file
 src/Opengl/Shader.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.obj
 .PHONY : src/Opengl/Shader.cpp.obj
 
 src/Opengl/Shader.i: src/Opengl/Shader.cpp.i
@@ -707,6 +779,7 @@ src/Opengl/Shader.i: src/Opengl/Shader.cpp.i
 # target to preprocess a source file
 src/Opengl/Shader.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.i
 .PHONY : src/Opengl/Shader.cpp.i
 
 src/Opengl/Shader.s: src/Opengl/Shader.cpp.s
@@ -715,6 +788,7 @@ src/Opengl/Shader.s: src/Opengl/Shader.cpp.s
 # target to generate assembly for a file
 src/Opengl/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.s
 .PHONY : src/Opengl/Shader.cpp.s
 
 src/Opengl/SubTexture.obj: src/Opengl/SubTexture.cpp.obj
@@ -723,6 +797,7 @@ src/Opengl/SubTexture.obj: src/Opengl/SubTexture.cpp.obj
 # target to build an object file
 src/Opengl/SubTexture.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/SubTexture.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/SubTexture.cpp.obj
 .PHONY : src/Opengl/SubTexture.cpp.obj
 
 src/Opengl/SubTexture.i: src/Opengl/SubTexture.cpp.i
@@ -731,6 +806,7 @@ src/Opengl/SubTexture.i: src/Opengl/SubTexture.cpp.i
 # target to preprocess a source file
 src/Opengl/SubTexture.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/SubTexture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/SubTexture.cpp.i
 .PHONY : src/Opengl/SubTexture.cpp.i
 
 src/Opengl/SubTexture.s: src/Opengl/SubTexture.cpp.s
@@ -739,6 +815,7 @@ src/Opengl/SubTexture.s: src/Opengl/SubTexture.cpp.s
 # target to generate assembly for a file
 src/Opengl/SubTexture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/SubTexture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/SubTexture.cpp.s
 .PHONY : src/Opengl/SubTexture.cpp.s
 
 src/Opengl/Texture.obj: src/Opengl/Texture.cpp.obj
@@ -747,6 +824,7 @@ src/Opengl/Texture.obj: src/Opengl/Texture.cpp.obj
 # target to build an object file
 src/Opengl/Texture.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/Texture.cpp.obj
 .PHONY : src/Opengl/Texture.cpp.obj
 
 src/Opengl/Texture.i: src/Opengl/Texture.cpp.i
@@ -755,6 +833,7 @@ src/Opengl/Texture.i: src/Opengl/Texture.cpp.i
 # target to preprocess a source file
 src/Opengl/Texture.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/Texture.cpp.i
 .PHONY : src/Opengl/Texture.cpp.i
 
 src/Opengl/Texture.s: src/Opengl/Texture.cpp.s
@@ -763,6 +842,7 @@ src/Opengl/Texture.s: src/Opengl/Texture.cpp.s
 # target to generate assembly for a file
 src/Opengl/Texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/Texture.cpp.s
 .PHONY : src/Opengl/Texture.cpp.s
 
 src/Opengl/VertexArray.obj: src/Opengl/VertexArray.cpp.obj
@@ -771,6 +851,7 @@ src/Opengl/VertexArray.obj: src/Opengl/VertexArray.cpp.obj
 # target to build an object file
 src/Opengl/VertexArray.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexArray.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexArray.cpp.obj
 .PHONY : src/Opengl/VertexArray.cpp.obj
 
 src/Opengl/VertexArray.i: src/Opengl/VertexArray.cpp.i
@@ -779,6 +860,7 @@ src/Opengl/VertexArray.i: src/Opengl/VertexArray.cpp.i
 # target to preprocess a source file
 src/Opengl/VertexArray.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexArray.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexArray.cpp.i
 .PHONY : src/Opengl/VertexArray.cpp.i
 
 src/Opengl/VertexArray.s: src/Opengl/VertexArray.cpp.s
@@ -787,6 +869,7 @@ src/Opengl/VertexArray.s: src/Opengl/VertexArray.cpp.s
 # target to generate assembly for a file
 src/Opengl/VertexArray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexArray.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexArray.cpp.s
 .PHONY : src/Opengl/VertexArray.cpp.s
 
 src/Opengl/VertexBuffer.obj: src/Opengl/VertexBuffer.cpp.obj
@@ -795,6 +878,7 @@ src/Opengl/VertexBuffer.obj: src/Opengl/VertexBuffer.cpp.obj
 # target to build an object file
 src/Opengl/VertexBuffer.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexBuffer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexBuffer.cpp.obj
 .PHONY : src/Opengl/VertexBuffer.cpp.obj
 
 src/Opengl/VertexBuffer.i: src/Opengl/VertexBuffer.cpp.i
@@ -803,6 +887,7 @@ src/Opengl/VertexBuffer.i: src/Opengl/VertexBuffer.cpp.i
 # target to preprocess a source file
 src/Opengl/VertexBuffer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexBuffer.cpp.i
 .PHONY : src/Opengl/VertexBuffer.cpp.i
 
 src/Opengl/VertexBuffer.s: src/Opengl/VertexBuffer.cpp.s
@@ -811,6 +896,7 @@ src/Opengl/VertexBuffer.s: src/Opengl/VertexBuffer.cpp.s
 # target to generate assembly for a file
 src/Opengl/VertexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexBuffer.cpp.s
 .PHONY : src/Opengl/VertexBuffer.cpp.s
 
 src/Opengl/VertexBufferLayout.obj: src/Opengl/VertexBufferLayout.cpp.obj
@@ -819,6 +905,7 @@ src/Opengl/VertexBufferLayout.obj: src/Opengl/VertexBufferLayout.cpp.obj
 # target to build an object file
 src/Opengl/VertexBufferLayout.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexBufferLayout.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexBufferLayout.cpp.obj
 .PHONY : src/Opengl/VertexBufferLayout.cpp.obj
 
 src/Opengl/VertexBufferLayout.i: src/Opengl/VertexBufferLayout.cpp.i
@@ -827,6 +914,7 @@ src/Opengl/VertexBufferLayout.i: src/Opengl/VertexBufferLayout.cpp.i
 # target to preprocess a source file
 src/Opengl/VertexBufferLayout.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexBufferLayout.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexBufferLayout.cpp.i
 .PHONY : src/Opengl/VertexBufferLayout.cpp.i
 
 src/Opengl/VertexBufferLayout.s: src/Opengl/VertexBufferLayout.cpp.s
@@ -835,6 +923,7 @@ src/Opengl/VertexBufferLayout.s: src/Opengl/VertexBufferLayout.cpp.s
 # target to generate assembly for a file
 src/Opengl/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Opengl/VertexBufferLayout.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Opengl/VertexBufferLayout.cpp.s
 .PHONY : src/Opengl/VertexBufferLayout.cpp.s
 
 src/Renderer.obj: src/Renderer.cpp.obj
@@ -843,6 +932,7 @@ src/Renderer.obj: src/Renderer.cpp.obj
 # target to build an object file
 src/Renderer.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Renderer.cpp.obj
 .PHONY : src/Renderer.cpp.obj
 
 src/Renderer.i: src/Renderer.cpp.i
@@ -851,6 +941,7 @@ src/Renderer.i: src/Renderer.cpp.i
 # target to preprocess a source file
 src/Renderer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Renderer.cpp.i
 .PHONY : src/Renderer.cpp.i
 
 src/Renderer.s: src/Renderer.cpp.s
@@ -859,6 +950,7 @@ src/Renderer.s: src/Renderer.cpp.s
 # target to generate assembly for a file
 src/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Renderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
 src/Scene/Scene.obj: src/Scene/Scene.cpp.obj
@@ -867,6 +959,7 @@ src/Scene/Scene.obj: src/Scene/Scene.cpp.obj
 # target to build an object file
 src/Scene/Scene.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/Scene.cpp.obj
 .PHONY : src/Scene/Scene.cpp.obj
 
 src/Scene/Scene.i: src/Scene/Scene.cpp.i
@@ -875,6 +968,7 @@ src/Scene/Scene.i: src/Scene/Scene.cpp.i
 # target to preprocess a source file
 src/Scene/Scene.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/Scene.cpp.i
 .PHONY : src/Scene/Scene.cpp.i
 
 src/Scene/Scene.s: src/Scene/Scene.cpp.s
@@ -883,6 +977,7 @@ src/Scene/Scene.s: src/Scene/Scene.cpp.s
 # target to generate assembly for a file
 src/Scene/Scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/Scene.cpp.s
 .PHONY : src/Scene/Scene.cpp.s
 
 src/Scene/SceneGraph.obj: src/Scene/SceneGraph.cpp.obj
@@ -891,6 +986,7 @@ src/Scene/SceneGraph.obj: src/Scene/SceneGraph.cpp.obj
 # target to build an object file
 src/Scene/SceneGraph.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/SceneGraph.cpp.obj
 .PHONY : src/Scene/SceneGraph.cpp.obj
 
 src/Scene/SceneGraph.i: src/Scene/SceneGraph.cpp.i
@@ -899,6 +995,7 @@ src/Scene/SceneGraph.i: src/Scene/SceneGraph.cpp.i
 # target to preprocess a source file
 src/Scene/SceneGraph.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/SceneGraph.cpp.i
 .PHONY : src/Scene/SceneGraph.cpp.i
 
 src/Scene/SceneGraph.s: src/Scene/SceneGraph.cpp.s
@@ -907,6 +1004,7 @@ src/Scene/SceneGraph.s: src/Scene/SceneGraph.cpp.s
 # target to generate assembly for a file
 src/Scene/SceneGraph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/SceneGraph.cpp.s
 .PHONY : src/Scene/SceneGraph.cpp.s
 
 src/Scene/SceneSerializer.obj: src/Scene/SceneSerializer.cpp.obj
@@ -915,6 +1013,7 @@ src/Scene/SceneSerializer.obj: src/Scene/SceneSerializer.cpp.obj
 # target to build an object file
 src/Scene/SceneSerializer.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/SceneSerializer.cpp.obj
 .PHONY : src/Scene/SceneSerializer.cpp.obj
 
 src/Scene/SceneSerializer.i: src/Scene/SceneSerializer.cpp.i
@@ -923,6 +1022,7 @@ src/Scene/SceneSerializer.i: src/Scene/SceneSerializer.cpp.i
 # target to preprocess a source file
 src/Scene/SceneSerializer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/SceneSerializer.cpp.i
 .PHONY : src/Scene/SceneSerializer.cpp.i
 
 src/Scene/SceneSerializer.s: src/Scene/SceneSerializer.cpp.s
@@ -931,6 +1031,7 @@ src/Scene/SceneSerializer.s: src/Scene/SceneSerializer.cpp.s
 # target to generate assembly for a file
 src/Scene/SceneSerializer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Scene/SceneSerializer.cpp.s
 .PHONY : src/Scene/SceneSerializer.cpp.s
 
 src/ShaderManager.obj: src/ShaderManager.cpp.obj
@@ -939,6 +1040,7 @@ src/ShaderManager.obj: src/ShaderManager.cpp.obj
 # target to build an object file
 src/ShaderManager.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ShaderManager.cpp.obj
 .PHONY : src/ShaderManager.cpp.obj
 
 src/ShaderManager.i: src/ShaderManager.cpp.i
@@ -947,6 +1049,7 @@ src/ShaderManager.i: src/ShaderManager.cpp.i
 # target to preprocess a source file
 src/ShaderManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ShaderManager.cpp.i
 .PHONY : src/ShaderManager.cpp.i
 
 src/ShaderManager.s: src/ShaderManager.cpp.s
@@ -955,6 +1058,7 @@ src/ShaderManager.s: src/ShaderManager.cpp.s
 # target to generate assembly for a file
 src/ShaderManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/ShaderManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/ShaderManager.cpp.s
 .PHONY : src/ShaderManager.cpp.s
 
 src/Timestep.obj: src/Timestep.cpp.obj
@@ -963,6 +1067,7 @@ src/Timestep.obj: src/Timestep.cpp.obj
 # target to build an object file
 src/Timestep.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Timestep.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Timestep.cpp.obj
 .PHONY : src/Timestep.cpp.obj
 
 src/Timestep.i: src/Timestep.cpp.i
@@ -971,6 +1076,7 @@ src/Timestep.i: src/Timestep.cpp.i
 # target to preprocess a source file
 src/Timestep.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Timestep.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Timestep.cpp.i
 .PHONY : src/Timestep.cpp.i
 
 src/Timestep.s: src/Timestep.cpp.s
@@ -979,6 +1085,7 @@ src/Timestep.s: src/Timestep.cpp.s
 # target to generate assembly for a file
 src/Timestep.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/Timestep.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/Timestep.cpp.s
 .PHONY : src/Timestep.cpp.s
 
 src/physics/boundingBox/AABB.obj: src/physics/boundingBox/AABB.cpp.obj
@@ -987,6 +1094,7 @@ src/physics/boundingBox/AABB.obj: src/physics/boundingBox/AABB.cpp.obj
 # target to build an object file
 src/physics/boundingBox/AABB.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/physics/boundingBox/AABB.cpp.obj
 .PHONY : src/physics/boundingBox/AABB.cpp.obj
 
 src/physics/boundingBox/AABB.i: src/physics/boundingBox/AABB.cpp.i
@@ -995,6 +1103,7 @@ src/physics/boundingBox/AABB.i: src/physics/boundingBox/AABB.cpp.i
 # target to preprocess a source file
 src/physics/boundingBox/AABB.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/physics/boundingBox/AABB.cpp.i
 .PHONY : src/physics/boundingBox/AABB.cpp.i
 
 src/physics/boundingBox/AABB.s: src/physics/boundingBox/AABB.cpp.s
@@ -1003,6 +1112,7 @@ src/physics/boundingBox/AABB.s: src/physics/boundingBox/AABB.cpp.s
 # target to generate assembly for a file
 src/physics/boundingBox/AABB.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/src/physics/boundingBox/AABB.cpp.s
 .PHONY : src/physics/boundingBox/AABB.cpp.s
 
 third_party/stb_image/std_image.obj: third_party/stb_image/std_image.cpp.obj
@@ -1011,6 +1121,7 @@ third_party/stb_image/std_image.obj: third_party/stb_image/std_image.cpp.obj
 # target to build an object file
 third_party/stb_image/std_image.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/third_party/stb_image/std_image.cpp.obj
 .PHONY : third_party/stb_image/std_image.cpp.obj
 
 third_party/stb_image/std_image.i: third_party/stb_image/std_image.cpp.i
@@ -1019,6 +1130,7 @@ third_party/stb_image/std_image.i: third_party/stb_image/std_image.cpp.i
 # target to preprocess a source file
 third_party/stb_image/std_image.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/third_party/stb_image/std_image.cpp.i
 .PHONY : third_party/stb_image/std_image.cpp.i
 
 third_party/stb_image/std_image.s: third_party/stb_image/std_image.cpp.s
@@ -1027,6 +1139,7 @@ third_party/stb_image/std_image.s: third_party/stb_image/std_image.cpp.s
 # target to generate assembly for a file
 third_party/stb_image/std_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/third_party/stb_image/std_image.cpp.s
 .PHONY : third_party/stb_image/std_image.cpp.s
 
 # Help Target
@@ -1041,10 +1154,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... GameEngineEditor_autogen
 	@echo ... gameEngineEditor_copy_target
-	@echo ... test_game_copy_target
 	@echo ... GameEngine
 	@echo ... GameEngineEditor
-	@echo ... TestGame
+	@echo ... GameEngineLib
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -1102,6 +1214,9 @@ help:
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... src/Opengl/FrameBuffer.obj
+	@echo ... src/Opengl/FrameBuffer.i
+	@echo ... src/Opengl/FrameBuffer.s
 	@echo ... src/Opengl/IndexBuffer.obj
 	@echo ... src/Opengl/IndexBuffer.i
 	@echo ... src/Opengl/IndexBuffer.s

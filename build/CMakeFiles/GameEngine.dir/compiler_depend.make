@@ -3563,6 +3563,39 @@ CMakeFiles/GameEngine.dir/src/Graphics.cpp.obj: D:/code/cpp/gameEngine/src/Graph
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream \
   D:/code/cpp/gameEngine/include/Renderer.h
 
+CMakeFiles/GameEngine.dir/src/Opengl/FrameBuffer.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/FrameBuffer.cpp \
+  D:/code/cpp/gameEngine/include/Opengl/FrameBuffer.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
+  C:/Program\ Files/msys64/mingw64/include/assert.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdlib \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/limits.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/msys64/mingw64/include/malloc.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  C:/Program\ Files/msys64/mingw64/include/errno.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h
+
 CMakeFiles/GameEngine.dir/src/Opengl/IndexBuffer.cpp.obj: D:/code/cpp/gameEngine/src/Opengl/IndexBuffer.cpp \
   D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
   D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -7154,6 +7187,8 @@ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/pthread.h:
 
+D:/code/cpp/gameEngine/include/Opengl/FrameBuffer.h:
+
 C:/Program\ Files/msys64/mingw64/include/pthread_signal.h:
 
 C:/Program\ Files/msys64/mingw64/include/time.h:
@@ -7507,6 +7542,8 @@ D:/code/cpp/gameEngine/src/GameEngineAPI/GameEngineAPI.cpp:
 D:/code/cpp/gameEngine/src/GameObject.cpp:
 
 D:/code/cpp/gameEngine/include/Graphics.h:
+
+D:/code/cpp/gameEngine/src/Opengl/FrameBuffer.cpp:
 
 D:/code/cpp/gameEngine/src/Opengl/Shader.cpp:
 

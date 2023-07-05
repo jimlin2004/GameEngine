@@ -1,7 +1,4 @@
 # Hashes of file build rules.
-b8aef5b55d9cd698df41f9b5be2c3c18 Test/CMakeFiles/test_game_copy_target
-1d38cadc50533f9bc31fdb0be829fb74 Test/always_rebuild
-72793d4b517e5730feb1aaaab20b3822 Test/copy_assets
 d12f6dab5973692a3f0a6f5b891ee00c gameEngineEditor/CMakeFiles/GameEngineEditor_autogen
 7c672e366b04e341485f814b56bd3e87 gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target
 50b8994a493cd6d56d02942ace410f33 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp

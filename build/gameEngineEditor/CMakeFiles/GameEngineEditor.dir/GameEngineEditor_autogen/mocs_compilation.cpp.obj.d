@@ -902,6 +902,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_WordWrapLabel.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\BBTDY5WPX3/moc_CompileProcess.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
@@ -919,8 +928,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
  D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
- D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
@@ -959,11 +966,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditFloat.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \

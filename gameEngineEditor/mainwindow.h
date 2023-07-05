@@ -21,6 +21,7 @@
 #include "entt.hpp"
 #include "Component/Component.h"
 #include "Scene/SceneSerializer.h"
+#include "runtime/compile/CompileProcess.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -43,6 +44,7 @@ private:
     QPixmap* fileSpriteSheet;
     std::filesystem::path currentPath;
     QTreeWidgetItem* actorLevel;
+    CompileProcess compileProcess;
 
     /*重新刷新File system panel*/
     void resetFileSystemPanel();
@@ -58,6 +60,7 @@ private slots:
     void resetGameObjectOutline();
     void getTreeWigetItemInfo(QTreeWidgetItem* item, int column);
     void openColorDialog();
+    void compileProject();
 };
 
 #endif // MAINWINDOW_H

@@ -35,6 +35,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TestGame.dir/__/src/GameObject.cpp.obj.d"
   "CMakeFiles/TestGame.dir/__/src/Graphics.cpp.obj"
   "CMakeFiles/TestGame.dir/__/src/Graphics.cpp.obj.d"
+  "CMakeFiles/TestGame.dir/__/src/Opengl/FrameBuffer.cpp.obj"
+  "CMakeFiles/TestGame.dir/__/src/Opengl/FrameBuffer.cpp.obj.d"
   "CMakeFiles/TestGame.dir/__/src/Opengl/IndexBuffer.cpp.obj"
   "CMakeFiles/TestGame.dir/__/src/Opengl/IndexBuffer.cpp.obj.d"
   "CMakeFiles/TestGame.dir/__/src/Opengl/Shader.cpp.obj"

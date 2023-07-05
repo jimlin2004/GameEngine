@@ -63,37 +63,19 @@ CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\build
 
 # The main recursive "all" target.
 all: CMakeFiles/GameEngine.dir/all
-all: Test/all
+all: CMakeFiles/GameEngineLib.dir/all
 all: gameEngineEditor/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Test/preinstall
 preinstall: gameEngineEditor/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/GameEngine.dir/clean
-clean: Test/clean
+clean: CMakeFiles/GameEngineLib.dir/clean
 clean: gameEngineEditor/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory Test
-
-# Recursive "all" directory target.
-Test/all: Test/CMakeFiles/TestGame.dir/all
-Test/all: Test/CMakeFiles/test_game_copy_target.dir/all
-.PHONY : Test/all
-
-# Recursive "preinstall" directory target.
-Test/preinstall:
-.PHONY : Test/preinstall
-
-# Recursive "clean" directory target.
-Test/clean: Test/CMakeFiles/TestGame.dir/clean
-Test/clean: Test/CMakeFiles/test_game_copy_target.dir/clean
-.PHONY : Test/clean
 
 #=============================================================================
 # Directory level rules for directory gameEngineEditor
@@ -140,56 +122,30 @@ CMakeFiles/GameEngine.dir/clean:
 .PHONY : CMakeFiles/GameEngine.dir/clean
 
 #=============================================================================
-# Target rules for target Test/CMakeFiles/TestGame.dir
+# Target rules for target CMakeFiles/GameEngineLib.dir
 
 # All Build rule for target.
-Test/CMakeFiles/TestGame.dir/all:
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/depend
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target TestGame"
-.PHONY : Test/CMakeFiles/TestGame.dir/all
+CMakeFiles/GameEngineLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target GameEngineLib"
+.PHONY : CMakeFiles/GameEngineLib.dir/all
 
 # Build rule for subdir invocation for target.
-Test/CMakeFiles/TestGame.dir/rule: cmake_check_build_system
+CMakeFiles/GameEngineLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 28
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/TestGame.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GameEngineLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
-.PHONY : Test/CMakeFiles/TestGame.dir/rule
+.PHONY : CMakeFiles/GameEngineLib.dir/rule
 
 # Convenience name for target.
-TestGame: Test/CMakeFiles/TestGame.dir/rule
-.PHONY : TestGame
+GameEngineLib: CMakeFiles/GameEngineLib.dir/rule
+.PHONY : GameEngineLib
 
 # clean rule for target.
-Test/CMakeFiles/TestGame.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/clean
-.PHONY : Test/CMakeFiles/TestGame.dir/clean
-
-#=============================================================================
-# Target rules for target Test/CMakeFiles/test_game_copy_target.dir
-
-# All Build rule for target.
-Test/CMakeFiles/test_game_copy_target.dir/all:
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\test_game_copy_target.dir\build.make Test/CMakeFiles/test_game_copy_target.dir/depend
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\test_game_copy_target.dir\build.make Test/CMakeFiles/test_game_copy_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=99,100 "Built target test_game_copy_target"
-.PHONY : Test/CMakeFiles/test_game_copy_target.dir/all
-
-# Build rule for subdir invocation for target.
-Test/CMakeFiles/test_game_copy_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/test_game_copy_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
-.PHONY : Test/CMakeFiles/test_game_copy_target.dir/rule
-
-# Convenience name for target.
-test_game_copy_target: Test/CMakeFiles/test_game_copy_target.dir/rule
-.PHONY : test_game_copy_target
-
-# clean rule for target.
-Test/CMakeFiles/test_game_copy_target.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\test_game_copy_target.dir\build.make Test/CMakeFiles/test_game_copy_target.dir/clean
-.PHONY : Test/CMakeFiles/test_game_copy_target.dir/clean
+CMakeFiles/GameEngineLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineLib.dir\build.make CMakeFiles/GameEngineLib.dir/clean
+.PHONY : CMakeFiles/GameEngineLib.dir/clean
 
 #=============================================================================
 # Target rules for target gameEngineEditor/CMakeFiles/GameEngineEditor.dir
@@ -198,12 +154,12 @@ Test/CMakeFiles/test_game_copy_target.dir/clean:
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Built target GameEngineEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target GameEngineEditor"
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
 
 # Build rule for subdir invocation for target.
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
@@ -224,7 +180,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean:
 gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all:
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=97,98 "Built target gameEngineEditor_copy_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=99,100 "Built target gameEngineEditor_copy_target"
 .PHONY : gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,7 +206,7 @@ gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/clean:
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=68 "Built target GameEngineEditor_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=70 "Built target GameEngineEditor_autogen"
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all
 
 # Build rule for subdir invocation for target.

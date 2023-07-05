@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
-set(CMAKE_AUTOUIC)
+set(CMAKE_AUTOUIC ON)
 set(CMAKE_WIN32_EXECUTABLE TRUE)
 
 set(CMAKE_PREFIX_PATH D:/QT/6.4.2/mingw_64)
@@ -56,6 +56,21 @@ add_executable(${PROJECT_NAME}
     ${THIRD_PARTY_SRC}
 )
 
+target_include_directories(${PROJECT_NAME} PRIVATE .)
+target_include_directories(${PROJECT_NAME} PRIVATE ./include)
+target_include_directories(${PROJECT_NAME} PRIVATE ./plugins)
+target_include_directories(${PROJECT_NAME} PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
+target_link_libraries(${PROJECT_NAME} PRIVATE 
+    Qt6::Core 
+    Qt6::Gui 
+    Qt6::Widgets
+    Qt6::OpenGLWidgets
+)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libbox2d.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libopengl32.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libglew32.dll.a)
+
 # WIN32_EXECUTABLE 會使console消失
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
     set_target_properties(${PROJECT_NAME} PROPERTIES
@@ -68,20 +83,6 @@ elseif (CMAKE_BUILD_TYPE STREQUAL "Release")
         MACOSX_BUNDLE ON
     )
 endif ()
-
-target_include_directories(${PROJECT_NAME} PRIVATE .)
-target_include_directories(${PROJECT_NAME} PRIVATE ./include)
-target_include_directories(${PROJECT_NAME} PRIVATE ./plugins)
-target_include_directories(${PROJECT_NAME} PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
-target_link_libraries(${PROJECT_NAME} PRIVATE 
-    Qt6::Core 
-    Qt6::Gui 
-    Qt6::Widgets
-    Qt6::OpenGLWidgets
-)
-target_link_libraries(${PROJECT_NAME} PRIVATE
-    GLEW::GLEW
-)
 
 add_custom_target(
     gameEngineEditor_copy_target ALL

@@ -955,6 +955,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
  D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
@@ -980,8 +987,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
@@ -1000,8 +1005,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTabWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \

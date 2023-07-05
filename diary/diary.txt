@@ -261,3 +261,9 @@
     Todo list
         -frameBuffer
     存檔紀錄 --version 1.0-dev
+2023/07/05
+    1. 新增Framebuffer(未測試)
+    2. 改變Editor Camera速度
+    3. 新增CompileProcess(未完工)
+    4. 改變Cmake內容(應用static library)
+    存檔紀錄 --version 1.0-dev

@@ -2,6 +2,7 @@
 #include "6YEA5652QU/moc_AssetFileWidget.cpp"
 #include "6YEA5652QU/moc_EditorOpenGLWidget.cpp"
 #include "6YEA5652QU/moc_WordWrapLabel.cpp"
+#include "BBTDY5WPX3/moc_CompileProcess.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "WETUBSRGIL/moc_LineEditFloat.cpp"
 #include "WETUBSRGIL/moc_LineEditInt.cpp"

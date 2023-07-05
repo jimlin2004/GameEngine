@@ -667,7 +667,9 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
@@ -690,6 +692,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
@@ -716,6 +719,8 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
@@ -730,6 +735,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
   D:/code/cpp/gameEngine/include/Actor.h \
   D:/code/cpp/gameEngine/include/Camera.h \

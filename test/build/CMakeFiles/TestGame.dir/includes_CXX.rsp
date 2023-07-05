@@ -1,0 +1,1 @@
+-ID:/code/cpp/gameEngine/include -ID:/code/cpp/gameEngine/Test/./source/Test -I"/third_party/SDL2/x86_64-w64-mingw32/include" -ID:/code/cpp/gameEngine/third_party/box2d/include -ID:/code/cpp/gameEngine/third_party/opengl/glew/include -ID:/code/cpp/gameEngine/third_party/entt/include -ID:/code/cpp/gameEngine/third_party

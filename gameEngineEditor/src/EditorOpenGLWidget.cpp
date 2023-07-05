@@ -28,7 +28,7 @@ void EditorOpenGLWidget::initializeGL()
     GameEngine::Renderer::init();
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
-    GameEngine::cameraController->setSpeed(10.0f);
+    GameEngine::cameraController->setSpeed(5.0f);
     this->sceneBegin();
 }
 

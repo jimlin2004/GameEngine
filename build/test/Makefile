@@ -149,20 +149,6 @@ TestGame/fast:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/build
 .PHONY : TestGame/fast
 
-# Convenience name for target.
-Test/CMakeFiles/test_game_copy_target.dir/rule:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/test_game_copy_target.dir/rule
-.PHONY : Test/CMakeFiles/test_game_copy_target.dir/rule
-
-# Convenience name for target.
-test_game_copy_target: Test/CMakeFiles/test_game_copy_target.dir/rule
-.PHONY : test_game_copy_target
-
-# fast build rule for target.
-test_game_copy_target/fast:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\test_game_copy_target.dir\build.make Test/CMakeFiles/test_game_copy_target.dir/build
-.PHONY : test_game_copy_target/fast
-
 __/src/Actor.obj: __/src/Actor.cpp.obj
 .PHONY : __/src/Actor.obj
 
@@ -595,6 +581,30 @@ __/src/Graphics.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Graphics.cpp.s
 .PHONY : __/src/Graphics.cpp.s
 
+__/src/Opengl/FrameBuffer.obj: __/src/Opengl/FrameBuffer.cpp.obj
+.PHONY : __/src/Opengl/FrameBuffer.obj
+
+# target to build an object file
+__/src/Opengl/FrameBuffer.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/FrameBuffer.cpp.obj
+.PHONY : __/src/Opengl/FrameBuffer.cpp.obj
+
+__/src/Opengl/FrameBuffer.i: __/src/Opengl/FrameBuffer.cpp.i
+.PHONY : __/src/Opengl/FrameBuffer.i
+
+# target to preprocess a source file
+__/src/Opengl/FrameBuffer.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/FrameBuffer.cpp.i
+.PHONY : __/src/Opengl/FrameBuffer.cpp.i
+
+__/src/Opengl/FrameBuffer.s: __/src/Opengl/FrameBuffer.cpp.s
+.PHONY : __/src/Opengl/FrameBuffer.s
+
+# target to generate assembly for a file
+__/src/Opengl/FrameBuffer.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\TestGame.dir\build.make Test/CMakeFiles/TestGame.dir/__/src/Opengl/FrameBuffer.cpp.s
+.PHONY : __/src/Opengl/FrameBuffer.cpp.s
+
 __/src/Opengl/IndexBuffer.obj: __/src/Opengl/IndexBuffer.cpp.obj
 .PHONY : __/src/Opengl/IndexBuffer.obj
 
@@ -1013,7 +1023,6 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... test_game_copy_target
 	@echo ... TestGame
 	@echo ... __/src/Actor.obj
 	@echo ... __/src/Actor.i
@@ -1069,6 +1078,9 @@ help:
 	@echo ... __/src/Graphics.obj
 	@echo ... __/src/Graphics.i
 	@echo ... __/src/Graphics.s
+	@echo ... __/src/Opengl/FrameBuffer.obj
+	@echo ... __/src/Opengl/FrameBuffer.i
+	@echo ... __/src/Opengl/FrameBuffer.s
 	@echo ... __/src/Opengl/IndexBuffer.obj
 	@echo ... __/src/Opengl/IndexBuffer.i
 	@echo ... __/src/Opengl/IndexBuffer.s

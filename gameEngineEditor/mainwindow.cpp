@@ -76,6 +76,7 @@ MainWindow::MainWindow(QWidget *parent)
     , projectParser(new ProjectParser())
     , flowLayout_fileSystemPanel(new FlowLayout())
     , fileSpriteSheet(new QPixmap("./assets/texture/filesystem.png"))
+    , compileProcess(_textBrowserPtr)
 {
     ui->setupUi(this);
     
@@ -120,6 +121,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
     connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
     this->ui->pushButton_colorPicker->setEnabled(false); //為選取game object前不能點選
+    
+    connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
     // timer->start(41); //24fps
@@ -197,6 +200,17 @@ void MainWindow::openColorDialog()
     this->ui->lineEditFloat_G_color->setValue(color.greenF());
     this->ui->lineEditFloat_B_color->setValue(color.blueF());
     this->updateColorViewer();
+}
+
+void MainWindow::compileProject()
+{
+    if (this->projectParser->getProjectName() == "")
+    {
+        QMessageBox::warning(this, "Error", "Must load a project before compile.");
+        return;
+    }
+    // CompileProcess compileProcess(_textBrowserPtr);
+    this->compileProcess.start(this->projectParser->getProjectDirname());
 }
 
 void MainWindow::updateColorViewer()

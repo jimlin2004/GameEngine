@@ -955,6 +955,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
  D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase \
  D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
