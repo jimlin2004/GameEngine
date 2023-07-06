@@ -113,6 +113,7 @@ void GameEngine::GameBase::logBuildInfo()
     GameEngine::ConsoleApi::log("[Info] Build Infomation\n");
     GameEngine::ConsoleApi::log("Opengl version: %s\n", glGetString(GL_VERSION));
     GameEngine::ConsoleApi::log("==============================================\n\n");
+    fflush(stdout);
 }
 
 void GameEngine::GameBase::render()

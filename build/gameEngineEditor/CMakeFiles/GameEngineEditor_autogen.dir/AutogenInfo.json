@@ -475,11 +475,6 @@
 		],
 		[ "D:/code/cpp/gameEngine/src/Actor.cpp", "MU", null ],
 		[
-			"D:/code/cpp/gameEngine/src/ActorComponent/Component/Component.cpp",
-			"MU",
-			null
-		],
-		[
 			"D:/code/cpp/gameEngine/src/ActorComponent/Material/Material.cpp",
 			"MU",
 			null
@@ -492,8 +487,10 @@
 		],
 		[ "D:/code/cpp/gameEngine/src/Camera.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/CameraController.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Component/Component.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/DataStruct/BST/BST.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/DataStruct/Vector/Vector.cpp", "MU", null ],
+		[ "D:/code/cpp/gameEngine/src/Event/Input.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/EventSystem.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/FSM.cpp", "MU", null ],
 		[ "D:/code/cpp/gameEngine/src/GELib.cpp", "MU", null ],

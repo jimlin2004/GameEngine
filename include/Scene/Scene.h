@@ -5,7 +5,6 @@
 
 #include "entt.hpp"
 #include "Timestep.h"
-#include "Component/Component.h"
 #include "Renderer.h"
 #include <vector>
 #include <exception>

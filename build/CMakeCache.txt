@@ -399,13 +399,13 @@ Qt6ZlibPrivate_DIR:PATH=D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate
 Qt6_DIR:PATH=D:/QT/6.4.2/mingw_64/lib/cmake/Qt6
 
 //Value Computed by CMake
-TestGame_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/Test
+TestGame_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/TestGame
 
 //Value Computed by CMake
 TestGame_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-TestGame_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/Test
+TestGame_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/TestGame
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
@@ -563,7 +563,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

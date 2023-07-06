@@ -61,6 +61,7 @@ private slots:
     void getTreeWigetItemInfo(QTreeWidgetItem* item, int column);
     void openColorDialog();
     void compileProject();
+    void runProject();
 };
 
 #endif // MAINWINDOW_H

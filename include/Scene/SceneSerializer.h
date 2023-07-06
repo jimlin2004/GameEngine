@@ -6,6 +6,7 @@
 #include "glm/glm.hpp"
 #include <string>
 #include "Actor.h"
+#include "Component/Component.h"
 #include "TypeName.hpp"
 #include "GameEngineAPI/ConsoleApi.h"
 #include <iostream>

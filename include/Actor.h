@@ -5,7 +5,6 @@
 #include "Timestep.h"
 #include "entt/include/entt.hpp"
 #include "Scene/Scene.h"
-#include "Component/Component.h"
 #include <exception>
 #include <string>
 
@@ -17,7 +16,6 @@ namespace GameEngine
     protected:
         static Scene* scene;
         entt::entity entityID;        
-        virtual void initComponents(const glm::vec3& position = {0.0f, 0.0f, 0.0f}, const glm::vec3& scale = {1.0f, 1.0f, 1.0f}, const glm::vec3& rotation = {0.0f, 0.0f, 0.0f}, const std::string& actorName = "gameObject", const std::string& typeName = "unknow");
     public:
         Actor();
         Actor(Actor& other);
@@ -34,6 +32,7 @@ namespace GameEngine
         virtual void setPosition(float x, float y);
         virtual void begin();
         virtual void update(const float deltaTime);
+        virtual void destory();
 
         inline uint32_t getID() const
         {
@@ -71,16 +70,13 @@ namespace GameEngine
         }
     };
 
-    //可操作的角色(支援Input event)
+    //可編程
     class Character: public Actor
     {
     public:
         Character();
         virtual ~Character();
         virtual void setInputEvent();
-    // protected:
-        //負責註冊InputEvent的Component
-        // InputComponent* playerInputComponent;
     };
 }
 

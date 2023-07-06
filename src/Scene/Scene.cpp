@@ -1,5 +1,7 @@
 #include "Scene/Scene.h"
 
+#include "Component/Component.h"
+
 GameEngine::Scene::Scene()
 {
 

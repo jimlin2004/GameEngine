@@ -44,6 +44,7 @@ public:
     QAction *actionsave;
     QAction *actionopen;
     QAction *actioncompile;
+    QAction *actionrun;
     QWidget *centralwidget;
     QGridLayout *gridLayout;
     EditorOpenGLWidget *openglWidget;
@@ -141,6 +142,11 @@ public:
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/icon/icon/complie.png"), QSize(), QIcon::Normal, QIcon::Off);
         actioncompile->setIcon(icon);
+        actionrun = new QAction(MainWindow);
+        actionrun->setObjectName("actionrun");
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/icon/icon/play.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionrun->setIcon(icon1);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setStyleSheet(QString::fromUtf8(""));
@@ -193,7 +199,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 253, 335));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 417, 335));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -513,7 +519,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 126));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 229));
         scrollArea->setWidget(scrollAreaWidgetContents);
 
         gridLayout_4->addWidget(scrollArea, 0, 0, 1, 1);
@@ -551,6 +557,7 @@ public:
         menuFile->addAction(actionsave);
         menuFile->addAction(actionopen);
         toolBar->addAction(actioncompile);
+        toolBar->addAction(actionrun);
 
         retranslateUi(MainWindow);
 
@@ -566,6 +573,10 @@ public:
         actionsave->setText(QCoreApplication::translate("MainWindow", "save", nullptr));
         actionopen->setText(QCoreApplication::translate("MainWindow", "open", nullptr));
         actioncompile->setText(QCoreApplication::translate("MainWindow", "compile", nullptr));
+        actionrun->setText(QCoreApplication::translate("MainWindow", "run", nullptr));
+#if QT_CONFIG(tooltip)
+        actionrun->setToolTip(QCoreApplication::translate("MainWindow", "compile and run", nullptr));
+#endif // QT_CONFIG(tooltip)
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
         qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Transform", nullptr));

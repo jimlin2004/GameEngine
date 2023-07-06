@@ -1,0 +1,3 @@
+D:/code/cpp/gameEngine/TestGame/build/CMakeFiles/TestGame.dir
+D:/code/cpp/gameEngine/TestGame/build/CMakeFiles/edit_cache.dir
+D:/code/cpp/gameEngine/TestGame/build/CMakeFiles/rebuild_cache.dir

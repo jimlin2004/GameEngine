@@ -30,9 +30,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/SDL2/x86_64-w64-ming
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/entt/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party)
 
-# add_subdirectory(./snake)
-# add_subdirectory(./Test)
-add_subdirectory(./gameEngineEditor)
+
 
 add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${THIRD_PARTY_SRC})
 
@@ -87,6 +85,20 @@ target_link_libraries(GameEngineLib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_pa
 target_link_libraries(GameEngineLib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/libglew32.dll.a)
 
 target_include_directories(GameEngineLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+install(
+    TARGETS GameEngineLib 
+    DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/lib
+)
+
+add_custom_command(
+    TARGET GameEngineLib POST_BUILD
+    COMMAND ${CMAKE_COMMAND} --build ${CMAKE_BINARY_DIR} --target install
+)
+
+# add_subdirectory(./snake)
+add_subdirectory(./TestGame)
+add_subdirectory(./gameEngineEditor)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

@@ -123,6 +123,7 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->pushButton_colorPicker->setEnabled(false); //為選取game object前不能點選
     
     connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
+    connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
     // QTimer* timer = new QTimer(this);
     // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
     // timer->start(41); //24fps
@@ -209,8 +210,17 @@ void MainWindow::compileProject()
         QMessageBox::warning(this, "Error", "Must load a project before compile.");
         return;
     }
-    // CompileProcess compileProcess(_textBrowserPtr);
-    this->compileProcess.start(this->projectParser->getProjectDirname());
+    this->compileProcess.compile(this->projectParser->getProjectDirname());
+}
+
+void MainWindow::runProject()
+{
+    if (this->projectParser->getProjectName() == "")
+    {
+        QMessageBox::warning(this, "Error", "Must load a project before compile.");
+        return;
+    }
+    this->compileProcess.run(this->projectParser->getProjectName(), this->projectParser->getProjectDirname());
 }
 
 void MainWindow::updateColorViewer()
@@ -226,9 +236,7 @@ void MainWindow::updateColorViewer()
 void MainWindow::clearOutline()
 {
     while (this->actorLevel->takeChild(0) != nullptr)
-    {
-        continue;
-    }
+        ;
 }
 
 void MainWindow::resetGameObjectOutline()
@@ -248,6 +256,8 @@ void MainWindow::resetGameObjectOutline()
 void MainWindow::openProject()
 {
     QString path = QFileDialog::getOpenFileName(this, tr("Open project"), QDir::homePath(), tr("*.gproject"));
+    if (path.size() == 0)
+        return;
     this->projectParser->load(path.toStdString().c_str());
     this->currentPath = this->projectParser->getProjectDirname();
     this->currentPath /= "content";

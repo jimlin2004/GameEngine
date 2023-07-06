@@ -267,3 +267,8 @@
     3. 新增CompileProcess(未完工)
     4. 改變Cmake內容(應用static library)
     存檔紀錄 --version 1.0-dev
+2023/07/06
+    1. 完整CompileProcess
+    2. 新增Script component(未完工)
+    3. 新增Event/Input
+    存檔紀錄 --version 1.0-dev

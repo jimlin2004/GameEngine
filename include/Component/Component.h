@@ -4,6 +4,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
+#include "Actor.h"
 #include <string>
 
 namespace GameEngine
@@ -36,6 +37,26 @@ namespace GameEngine
         TagComponent();
         TagComponent(const TagComponent& other);
         TagComponent(const std::string& tagName, const std::string& typeName);
+    };
+
+    struct ScriptComponent
+    {
+        GameEngine::Character* instance;
+
+        GameEngine::Character* (*instantiateScript)();
+        void (*destroyScript)(ScriptComponent*);
+
+        template<class T>
+        void bind()
+        {
+            this->instantiateScript = []() {
+                return static_cast<GameEngine::Character*>(new T());
+            };
+            this->destroyScript = [](ScriptComponent* scriptComponent) {
+                delete (T*)scriptComponent->instance;
+                scriptComponent->instance = nullptr;
+            }
+        }
     };
 }
 

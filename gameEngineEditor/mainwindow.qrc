@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="icon">
+    <file>icon/play.png</file>
     <file>icon/complie.png</file>
   </qresource>
 </RCC>

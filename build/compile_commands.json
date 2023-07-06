@@ -11,11 +11,6 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\ActorComponent\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\ActorComponent\\Component\\Component.cpp",
-  "file": "D:/code/cpp/gameEngine/src/ActorComponent/Component/Component.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\ActorComponent\\Material\\Material.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\ActorComponent\\Material\\Material.cpp",
   "file": "D:/code/cpp/gameEngine/src/ActorComponent/Material/Material.cpp"
 },
@@ -41,6 +36,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Component\\Component.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Component/Component.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\DataStruct\\BST\\BST.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\DataStruct\\BST\\BST.cpp",
   "file": "D:/code/cpp/gameEngine/src/DataStruct/BST/BST.cpp"
 },
@@ -48,6 +48,11 @@
   "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameEngine/src/DataStruct/Vector/Vector.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Event\\Input.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Event/Input.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
@@ -181,11 +186,6 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineLib.dir\\src\\ActorComponent\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\ActorComponent\\Component\\Component.cpp",
-  "file": "D:/code/cpp/gameEngine/src/ActorComponent/Component/Component.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineLib.dir\\src\\ActorComponent\\Material\\Material.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\ActorComponent\\Material\\Material.cpp",
   "file": "D:/code/cpp/gameEngine/src/ActorComponent/Material/Material.cpp"
 },
@@ -211,6 +211,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineLib.dir\\src\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Component\\Component.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Component/Component.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineLib.dir\\src\\DataStruct\\BST\\BST.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\DataStruct\\BST\\BST.cpp",
   "file": "D:/code/cpp/gameEngine/src/DataStruct/BST/BST.cpp"
 },
@@ -218,6 +223,11 @@
   "directory": "D:/code/cpp/gameEngine/build",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineLib.dir\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameEngine/src/DataStruct/Vector/Vector.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineLib.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineLib.dir\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Event\\Input.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Event/Input.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build",
@@ -345,6 +355,16 @@
   "file": "D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp"
 },
 {
+  "directory": "D:/code/cpp/gameEngine/build/TestGame",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\entrypoint.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\entrypoint.cpp",
+  "file": "D:/code/cpp/gameEngine/TestGame/source/entrypoint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/TestGame",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\TestGame\\TestGame.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\TestGame\\TestGame.cpp",
+  "file": "D:/code/cpp/gameEngine/TestGame/source/TestGame/TestGame.cpp"
+},
+{
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\GameEngineEditor_autogen\\mocs_compilation.cpp.obj -c D:\\code\\cpp\\gameEngine\\build\\gameEngineEditor\\GameEngineEditor_autogen\\mocs_compilation.cpp",
   "file": "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/mocs_compilation.cpp"
@@ -426,11 +446,6 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\ActorComponent\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\ActorComponent\\Component\\Component.cpp",
-  "file": "D:/code/cpp/gameEngine/src/ActorComponent/Component/Component.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\ActorComponent\\Material\\Material.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\ActorComponent\\Material\\Material.cpp",
   "file": "D:/code/cpp/gameEngine/src/ActorComponent/Material/Material.cpp"
 },
@@ -456,6 +471,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Component\\Component.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Component/Component.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\DataStruct\\BST\\BST.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\DataStruct\\BST\\BST.cpp",
   "file": "D:/code/cpp/gameEngine/src/DataStruct/BST/BST.cpp"
 },
@@ -463,6 +483,11 @@
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\DataStruct\\Vector\\Vector.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\DataStruct\\Vector\\Vector.cpp",
   "file": "D:/code/cpp/gameEngine/src/DataStruct/Vector/Vector.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\src\\Event\\Input.cpp",
+  "file": "D:/code/cpp/gameEngine/src/Event/Input.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",

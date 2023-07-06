@@ -3980,3 +3980,4 @@ D:/code/cpp/gameEngine/src/ShaderManager.cpp
 D:/code/cpp/gameEngine/src/Timestep.cpp
 D:/code/cpp/gameEngine/src/Opengl/FrameBuffer.cpp
 D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp
+D:/code/cpp/gameEngine/src/Component/Component.cpp

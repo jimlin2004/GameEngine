@@ -104,6 +104,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /d D:\code\cpp\gameEngine\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles D:\code\cpp\gameEngine\build\gameEngineEditor\\CMakeFiles\progress.marks
@@ -249,30 +294,6 @@ __/src/Actor.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Actor.cpp.s
 .PHONY : __/src/Actor.cpp.s
 
-__/src/ActorComponent/Component/Component.obj: __/src/ActorComponent/Component/Component.cpp.obj
-.PHONY : __/src/ActorComponent/Component/Component.obj
-
-# target to build an object file
-__/src/ActorComponent/Component/Component.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.obj
-.PHONY : __/src/ActorComponent/Component/Component.cpp.obj
-
-__/src/ActorComponent/Component/Component.i: __/src/ActorComponent/Component/Component.cpp.i
-.PHONY : __/src/ActorComponent/Component/Component.i
-
-# target to preprocess a source file
-__/src/ActorComponent/Component/Component.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.i
-.PHONY : __/src/ActorComponent/Component/Component.cpp.i
-
-__/src/ActorComponent/Component/Component.s: __/src/ActorComponent/Component/Component.cpp.s
-.PHONY : __/src/ActorComponent/Component/Component.s
-
-# target to generate assembly for a file
-__/src/ActorComponent/Component/Component.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/ActorComponent/Component/Component.cpp.s
-.PHONY : __/src/ActorComponent/Component/Component.cpp.s
-
 __/src/ActorComponent/Material/Material.obj: __/src/ActorComponent/Material/Material.cpp.obj
 .PHONY : __/src/ActorComponent/Material/Material.obj
 
@@ -393,6 +414,30 @@ __/src/CameraController.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/CameraController.cpp.s
 .PHONY : __/src/CameraController.cpp.s
 
+__/src/Component/Component.obj: __/src/Component/Component.cpp.obj
+.PHONY : __/src/Component/Component.obj
+
+# target to build an object file
+__/src/Component/Component.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Component/Component.cpp.obj
+.PHONY : __/src/Component/Component.cpp.obj
+
+__/src/Component/Component.i: __/src/Component/Component.cpp.i
+.PHONY : __/src/Component/Component.i
+
+# target to preprocess a source file
+__/src/Component/Component.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Component/Component.cpp.i
+.PHONY : __/src/Component/Component.cpp.i
+
+__/src/Component/Component.s: __/src/Component/Component.cpp.s
+.PHONY : __/src/Component/Component.s
+
+# target to generate assembly for a file
+__/src/Component/Component.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Component/Component.cpp.s
+.PHONY : __/src/Component/Component.cpp.s
+
 __/src/DataStruct/BST/BST.obj: __/src/DataStruct/BST/BST.cpp.obj
 .PHONY : __/src/DataStruct/BST/BST.obj
 
@@ -440,6 +485,30 @@ __/src/DataStruct/Vector/Vector.s: __/src/DataStruct/Vector/Vector.cpp.s
 __/src/DataStruct/Vector/Vector.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/DataStruct/Vector/Vector.cpp.s
 .PHONY : __/src/DataStruct/Vector/Vector.cpp.s
+
+__/src/Event/Input.obj: __/src/Event/Input.cpp.obj
+.PHONY : __/src/Event/Input.obj
+
+# target to build an object file
+__/src/Event/Input.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Event/Input.cpp.obj
+.PHONY : __/src/Event/Input.cpp.obj
+
+__/src/Event/Input.i: __/src/Event/Input.cpp.i
+.PHONY : __/src/Event/Input.i
+
+# target to preprocess a source file
+__/src/Event/Input.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Event/Input.cpp.i
+.PHONY : __/src/Event/Input.cpp.i
+
+__/src/Event/Input.s: __/src/Event/Input.cpp.s
+.PHONY : __/src/Event/Input.s
+
+# target to generate assembly for a file
+__/src/Event/Input.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Event/Input.cpp.s
+.PHONY : __/src/Event/Input.cpp.s
 
 __/src/EventSystem.obj: __/src/EventSystem.cpp.obj
 .PHONY : __/src/EventSystem.obj
@@ -1360,6 +1429,10 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
@@ -1375,9 +1448,6 @@ help:
 	@echo ... __/src/Actor.obj
 	@echo ... __/src/Actor.i
 	@echo ... __/src/Actor.s
-	@echo ... __/src/ActorComponent/Component/Component.obj
-	@echo ... __/src/ActorComponent/Component/Component.i
-	@echo ... __/src/ActorComponent/Component/Component.s
 	@echo ... __/src/ActorComponent/Material/Material.obj
 	@echo ... __/src/ActorComponent/Material/Material.i
 	@echo ... __/src/ActorComponent/Material/Material.s
@@ -1393,12 +1463,18 @@ help:
 	@echo ... __/src/CameraController.obj
 	@echo ... __/src/CameraController.i
 	@echo ... __/src/CameraController.s
+	@echo ... __/src/Component/Component.obj
+	@echo ... __/src/Component/Component.i
+	@echo ... __/src/Component/Component.s
 	@echo ... __/src/DataStruct/BST/BST.obj
 	@echo ... __/src/DataStruct/BST/BST.i
 	@echo ... __/src/DataStruct/BST/BST.s
 	@echo ... __/src/DataStruct/Vector/Vector.obj
 	@echo ... __/src/DataStruct/Vector/Vector.i
 	@echo ... __/src/DataStruct/Vector/Vector.s
+	@echo ... __/src/Event/Input.obj
+	@echo ... __/src/Event/Input.i
+	@echo ... __/src/Event/Input.s
 	@echo ... __/src/EventSystem.obj
 	@echo ... __/src/EventSystem.i
 	@echo ... __/src/EventSystem.s

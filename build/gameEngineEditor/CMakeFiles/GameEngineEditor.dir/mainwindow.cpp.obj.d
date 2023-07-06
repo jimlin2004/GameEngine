@@ -840,6 +840,41 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
  D:/code/cpp/gameEngine/include/Timestep.h \
+ D:/code/cpp/gameEngine/include/Renderer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/Shader.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
+ D:/code/cpp/gameEngine/include/GELib.h \
+ D:/code/cpp/gameEngine/include/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
+ D:/code/cpp/gameEngine/include/Actor.h \
+ D:/code/cpp/gameEngine/include/Timestep.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
+ D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
+ D:/code/cpp/gameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
@@ -865,42 +900,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameEngine/include/Renderer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/Shader.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/TypeName.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
- D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
- D:/code/cpp/gameEngine/include/Actor.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
- D:/code/cpp/gameEngine/include/Component/Component.h \
- D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
- D:/code/cpp/gameEngine/third_party/json/json.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
