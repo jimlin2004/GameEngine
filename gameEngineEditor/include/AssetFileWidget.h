@@ -11,7 +11,7 @@
 #include <string>
 
 #include "WordWrapLabel.h"
-#include "GELib.h"
+#include "Core/GELib.h"
 
 enum FileType
 {

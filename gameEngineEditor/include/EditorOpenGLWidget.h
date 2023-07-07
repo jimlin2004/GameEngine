@@ -7,7 +7,7 @@
 #include <QMouseEvent>
 
 #include "GameEngineAPI/GameEngineAPI.h"
-#include "Renderer.h"
+#include "Render/Renderer.h"
 #include "EditorScene.h"
 #include "Scene/SceneSerializer.h"
 

@@ -1,11 +1,10 @@
 #ifndef EDITOR_SCENE_H
 #define EDITOR_SCENE_H
 
-#include "Actor.h"
 #include "Scene/Scene.h"
 #include "glm/glm.hpp"
-#include "Actor.h"
-#include "vector"
+#include "Actor/Actor.h"
+#include <vector>
 
 class EditorScene
 {

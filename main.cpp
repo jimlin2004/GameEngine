@@ -1,4 +1,4 @@
-#include "GameBase.h"
+#include "Core/GameBase.h"
 
 int main(int argc, char* args[])
 {

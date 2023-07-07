@@ -473,59 +473,6 @@
 			"MU",
 			null
 		],
-		[ "D:/code/cpp/gameEngine/src/Actor.cpp", "MU", null ],
-		[
-			"D:/code/cpp/gameEngine/src/ActorComponent/Material/Material.cpp",
-			"MU",
-			null
-		],
-		[ "D:/code/cpp/gameEngine/src/ActorComponent/Mesh/Mesh.cpp", "MU", null ],
-		[
-			"D:/code/cpp/gameEngine/src/ActorComponent/inputComponent/InputComponent.cpp",
-			"MU",
-			null
-		],
-		[ "D:/code/cpp/gameEngine/src/Camera.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/CameraController.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Component/Component.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/DataStruct/BST/BST.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/DataStruct/Vector/Vector.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Event/Input.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/EventSystem.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/FSM.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/GELib.cpp", "MU", null ],
-		[
-			"D:/code/cpp/gameEngine/src/GameBaseComponent/GameEventManager/GameEventManager.cpp",
-			"MU",
-			null
-		],
-		[ "D:/code/cpp/gameEngine/src/GameEngineAPI/ConsoleApi.cpp", "MU", null ],
-		[
-			"D:/code/cpp/gameEngine/src/GameEngineAPI/GameEngineAPI.cpp",
-			"MU",
-			null
-		],
-		[ "D:/code/cpp/gameEngine/src/GameObject.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Graphics.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/FrameBuffer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/IndexBuffer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/Shader.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/SubTexture.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/Texture.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/VertexArray.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Opengl/VertexBuffer.cpp", "MU", null ],
-		[
-			"D:/code/cpp/gameEngine/src/Opengl/VertexBufferLayout.cpp",
-			"MU",
-			null
-		],
-		[ "D:/code/cpp/gameEngine/src/Renderer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Scene/Scene.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Scene/SceneGraph.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Scene/SceneSerializer.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/ShaderManager.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/Timestep.cpp", "MU", null ],
-		[ "D:/code/cpp/gameEngine/src/physics/boundingBox/AABB.cpp", "MU", null ],
 		[
 			"D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp",
 			"MU",

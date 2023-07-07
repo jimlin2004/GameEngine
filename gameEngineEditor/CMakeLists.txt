@@ -42,8 +42,6 @@ file(GLOB_RECURSE QT_PLUGINS
     ${CMAKE_CURRENT_SOURCE_DIR}/plugins/*.h
 )
 
-list(REMOVE_ITEM SRC_FILES ${CMAKE_SOURCE_DIR}/src/GameBase.cpp)
-
 add_executable(${PROJECT_NAME} 
     editorEntryPoint.cpp 
     mainwindow.ui
@@ -52,7 +50,6 @@ add_executable(${PROJECT_NAME}
     ${QT_PLUGINS}
     ${EDITOR_HEADER_FILES}
     ${EDITOR_SRC_FILES}
-    ${SRC_FILES}
     ${THIRD_PARTY_SRC}
 )
 
@@ -67,6 +64,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     Qt6::OpenGLWidgets
 )
 
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/lib/libGameEngineLib.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libopengl32.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libglew32.dll.a)

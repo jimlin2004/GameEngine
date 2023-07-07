@@ -194,6 +194,30 @@ TestGame/fast:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/build
 .PHONY : TestGame/fast
 
+source/TestGame/TestActor.obj: source/TestGame/TestActor.cpp.obj
+.PHONY : source/TestGame/TestActor.obj
+
+# target to build an object file
+source/TestGame/TestActor.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj
+.PHONY : source/TestGame/TestActor.cpp.obj
+
+source/TestGame/TestActor.i: source/TestGame/TestActor.cpp.i
+.PHONY : source/TestGame/TestActor.i
+
+# target to preprocess a source file
+source/TestGame/TestActor.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.i
+.PHONY : source/TestGame/TestActor.cpp.i
+
+source/TestGame/TestActor.s: source/TestGame/TestActor.cpp.s
+.PHONY : source/TestGame/TestActor.s
+
+# target to generate assembly for a file
+source/TestGame/TestActor.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.s
+.PHONY : source/TestGame/TestActor.cpp.s
+
 source/TestGame/TestGame.obj: source/TestGame/TestGame.cpp.obj
 .PHONY : source/TestGame/TestGame.obj
 
@@ -257,6 +281,9 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... TestGame
+	@echo ... source/TestGame/TestActor.obj
+	@echo ... source/TestGame/TestActor.i
+	@echo ... source/TestGame/TestActor.s
 	@echo ... source/TestGame/TestGame.obj
 	@echo ... source/TestGame/TestGame.i
 	@echo ... source/TestGame/TestGame.s

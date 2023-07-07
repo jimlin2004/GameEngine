@@ -597,10 +597,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameEngine/include/ShaderManager.h \
- D:/code/cpp/gameEngine/include/GameObject.h \
+ D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
@@ -621,7 +619,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- D:/code/cpp/gameEngine/include/CameraController.h \
+ D:/code/cpp/gameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
@@ -762,7 +760,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameEngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameEngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameEngine/include/Camera.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/constants.hpp \
@@ -785,8 +784,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/include/Renderer.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/include/Core/GELib.h \
+ D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/include/Render/Renderer.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
@@ -795,16 +797,34 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  D:/code/cpp/gameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/TypeName.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
- D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
- D:/code/cpp/gameEngine/include/Actor.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
+ D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
  D:/code/cpp/gameEngine/third_party/json/json.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
@@ -835,29 +855,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj:
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
- D:/code/cpp/gameEngine/include/Component/Component.h \
- D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
- D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
- D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
- D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h

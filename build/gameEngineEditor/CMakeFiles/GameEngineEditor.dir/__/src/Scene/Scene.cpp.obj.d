@@ -353,8 +353,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/include/Renderer.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/include/Render/Renderer.h \
  D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
@@ -365,10 +365,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
  D:/code/cpp/gameEngine/include/Opengl/Shader.h \
  D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameEngine/include/ShaderManager.h \
- D:/code/cpp/gameEngine/include/GameObject.h \
+ D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
@@ -378,8 +376,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- D:/code/cpp/gameEngine/include/CameraController.h \
- D:/code/cpp/gameEngine/include/Camera.h \
+ D:/code/cpp/gameEngine/include/Core/CameraController.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/constants.hpp \
@@ -395,10 +394,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/TypeName.hpp \
+ D:/code/cpp/gameEngine/include/Core/GELib.h \
+ D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
  D:/code/cpp/gameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
@@ -425,7 +422,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameEngine/include/Actor.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
- D:/code/cpp/gameEngine/include/Scene/Scene.h
+ D:/code/cpp/gameEngine/include/Actor/Actor.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp

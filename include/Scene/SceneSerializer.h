@@ -5,11 +5,11 @@
 #include "json/json.hpp"
 #include "glm/glm.hpp"
 #include <string>
-#include "Actor.h"
+#include "Actor/Actor.h"
 #include "Component/Component.h"
-#include "TypeName.hpp"
+#include "Core/TypeName.hpp"
 #include "GameEngineAPI/ConsoleApi.h"
-#include <iostream>
+#include <fstream>
 #include <vector>
 
 namespace GameEngine

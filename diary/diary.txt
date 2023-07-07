@@ -272,3 +272,12 @@
     2. 新增Script component(未完工)
     3. 新增Event/Input
     存檔紀錄 --version 1.0-dev
+2023/07/07
+    1. 新增Core資料夾
+    2. 新增Actor資料夾
+    3. 新增Render資料夾
+    4. 測試Script component可用
+    5. 完成Input
+    Todo list
+        -Texture
+    存檔紀錄 --version 1.0-dev

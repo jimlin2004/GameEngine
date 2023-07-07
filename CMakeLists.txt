@@ -2,8 +2,18 @@ cmake_minimum_required(VERSION 3.16)
 project(GameEngine VERSION 0.1.0)
 
 file(GLOB_RECURSE SRC_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Core/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Core/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Render/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Render/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Actor/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Actor/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Event/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Event/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Opengl/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Opengl/*.cpp
 )
 
 file(GLOB_RECURSE THIRD_PARTY_SRC
@@ -23,16 +33,14 @@ file(GLOB_RECURSE DEBUG_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/debug/*.h
 )
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/opengl/glew/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/SDL2/x86_64-w64-mingw32/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party/entt/include)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/third_party)
-
-
-
 add_executable(${PROJECT_NAME} main.cpp ${SRC_FILES} ${THIRD_PARTY_SRC})
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/opengl/glew/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/SDL2/x86_64-w64-mingw32/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/entt/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE -lmingw32)
@@ -46,8 +54,18 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/in
 
 project(GameEngineLib VERSION 0.1.0)
 file(GLOB_RECURSE SRC_FILES
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Core/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Core/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Render/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Render/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Actor/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Actor/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Event/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Event/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Opengl/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Opengl/*.cpp
 )
 
 file(GLOB_RECURSE THIRD_PARTY_SRC

@@ -1,7 +1,8 @@
 #ifndef TESTGAME_H
 #define TESTGAME_H
 
-#include "GameEngineCore.h"
+#include "Core/GameEngineCore.h"
+#include "TestActor.h"
 
 class TestGame: public GameEngine::GameBase
 {
@@ -10,6 +11,8 @@ public:
     virtual ~TestGame();
     virtual void begin() override;
     virtual void update(float deltaTime) override;
+private:
+    TestActor* testActor;
 };
 
 #endif

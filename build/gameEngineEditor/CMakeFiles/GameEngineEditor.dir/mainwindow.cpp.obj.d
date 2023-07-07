@@ -667,15 +667,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameEngine/include/ShaderManager.h \
- D:/code/cpp/gameEngine/include/GameObject.h \
+ D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
- D:/code/cpp/gameEngine/include/CameraController.h \
+ D:/code/cpp/gameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
@@ -816,7 +814,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameEngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameEngine/include/Camera.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/constants.hpp \
@@ -839,8 +838,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/include/Renderer.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/include/Core/GELib.h \
+ D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/include/Render/Renderer.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
@@ -849,32 +851,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/TypeName.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
- D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
- D:/code/cpp/gameEngine/include/Actor.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
- D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
- D:/code/cpp/gameEngine/third_party/json/json.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
@@ -900,6 +876,25 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/include/Actor/Actor.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
+ D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
+ D:/code/cpp/gameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \

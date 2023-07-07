@@ -603,7 +603,6 @@ CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: D:/code/cpp/gameEngine
   D:/code/cpp/gameEngine/include/Actor.h \
   D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
   D:/code/cpp/gameEngine/include/Scene/Scene.h \
-  D:/code/cpp/gameEngine/include/Component/Component.h \
   D:/code/cpp/gameEngine/include/Renderer.h \
   D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
   D:/code/cpp/gameEngine/third_party/json/json.hpp \
@@ -1249,7 +1248,6 @@ CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameEngine/TestGa
   D:/code/cpp/gameEngine/include/Actor.h \
   D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
   D:/code/cpp/gameEngine/include/Scene/Scene.h \
-  D:/code/cpp/gameEngine/include/Component/Component.h \
   D:/code/cpp/gameEngine/include/Renderer.h \
   D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
   D:/code/cpp/gameEngine/third_party/json/json.hpp \

@@ -82,11 +82,16 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
  C:/PROGRA~1/msys64/mingw64/include/errno.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
- D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+ D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
+ D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
@@ -99,10 +104,6 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/clocale \
@@ -122,13 +123,6 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
- D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameEngine/include/ShaderManager.h \
- D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameEngine/include/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
@@ -179,7 +173,7 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- D:/code/cpp/gameEngine/include/CameraController.h \
+ D:/code/cpp/gameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
@@ -338,7 +332,8 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameEngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameEngine/include/Camera.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/constants.hpp \
@@ -362,6 +357,7 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/atomic_base.h \
@@ -376,6 +372,9 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/map \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -385,19 +384,7 @@ CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/include/Renderer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/Shader.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/TypeName.hpp \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/include/Core/GELib.h \
+ D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream

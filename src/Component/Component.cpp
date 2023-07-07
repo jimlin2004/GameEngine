@@ -21,13 +21,21 @@ glm::mat4 GameEngine::TransformComponent::getTransform() const
         * glm::scale(glm::mat4(1.0f), scale);
 }
 
+GameEngine::MeshComponent::MeshComponent()
+    : color(glm::vec4(0.0f))
+    , texture(nullptr) 
+{
+}
+
 GameEngine::MeshComponent::MeshComponent(const MeshComponent &other)
     : color(other.color)
+    , texture(other.texture) 
 {
 }
 
 GameEngine::MeshComponent::MeshComponent(const glm::vec4 &color)
     : color(color)
+    , texture(nullptr)
 {
 }
 

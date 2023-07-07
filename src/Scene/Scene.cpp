@@ -1,6 +1,7 @@
 #include "Scene/Scene.h"
 
 #include "Component/Component.h"
+#include "Render/Renderer.h"
 
 GameEngine::Scene::Scene()
 {
@@ -14,7 +15,10 @@ GameEngine::Scene::~Scene()
 
 void GameEngine::Scene::unpdateScene(float deltaTime)
 {
-
+    this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
+    {
+        scriptComponent.instance->update(deltaTime);
+    });
 }
 
 void GameEngine::Scene::render()
@@ -24,7 +28,7 @@ void GameEngine::Scene::render()
     for (entt::entity entity: view)
     {
         auto [transform, mesh] = view.get<GameEngine::TransformComponent, GameEngine::MeshComponent>(entity);
-        Renderer::drawQuad(transform.getTransform(), mesh.color);
+        Renderer::draw(transform.getTransform(), mesh);
     }
 }
 

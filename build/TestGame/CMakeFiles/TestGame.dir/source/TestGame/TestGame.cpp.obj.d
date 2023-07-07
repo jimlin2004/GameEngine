@@ -1,9 +1,9 @@
 TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  D:\code\cpp\gameEngine\TestGame\source\TestGame\TestGame.cpp \
  D:\code\cpp\gameEngine\TestGame\source\TestGame\TestGame.h \
- D:/code/cpp/gameEngine/include/GameEngineCore.h \
- D:/code/cpp/gameEngine/include/GameObject.h \
- D:/code/cpp/gameEngine/include/GELib.h \
+ D:/code/cpp/gameEngine/include/Core/GameEngineCore.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/include/Core/GELib.h \
  C:/PROGRA~1/msys64/mingw64/include/time.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
@@ -100,7 +100,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
- D:/code/cpp/gameEngine/include/Timestep.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
  D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tuple \
@@ -127,13 +127,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
- D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
- D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
- D:/code/cpp/gameEngine/include/ShaderManager.h \
+ D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
  D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
@@ -183,7 +177,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- D:/code/cpp/gameEngine/include/CameraController.h \
+ D:/code/cpp/gameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
@@ -342,7 +336,8 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/detail/type_half.inl \
  D:/code/cpp/gameEngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameEngine/third_party/glm/detail/func_integer.inl \
- D:/code/cpp/gameEngine/include/Camera.h \
+ D:/code/cpp/gameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/constants.hpp \
@@ -366,6 +361,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/atomic_base.h \
@@ -380,6 +376,9 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/map \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
@@ -389,22 +388,9 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Timestep.h \
- D:/code/cpp/gameEngine/include/Renderer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/Shader.h \
- D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/include/GELib.h \
- D:/code/cpp/gameEngine/include/TypeName.hpp \
+ D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
- D:/code/cpp/gameEngine/include/GameBase.h \
+ D:/code/cpp/gameEngine/include/Core/GameBase.h \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
@@ -574,11 +560,44 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_time_step.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
- D:/code/cpp/gameEngine/include/Actor.h \
+ D:/code/cpp/gameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
- D:/code/cpp/gameEngine/include/Renderer.h \
+ D:/code/cpp/gameEngine/include/Render/Renderer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/Shader.h \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
  D:/code/cpp/gameEngine/third_party/json/json.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
@@ -618,30 +637,9 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
- D:/code/cpp/gameEngine/include/Actor.h \
- D:/code/cpp/gameEngine/include/Component/Component.h \
- D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
- D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
- D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
- D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h
+ D:/code/cpp/gameEngine/include/Event/Input.h \
+ D:/code/cpp/gameEngine/include/Event/KeyCode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+ D:/code/cpp/gameEngine/include/Event/MouseCode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+ D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.h

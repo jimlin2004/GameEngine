@@ -642,29 +642,27 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
-  D:/code/cpp/gameEngine/include/Actor.h \
-  D:/code/cpp/gameEngine/include/Camera.h \
-  D:/code/cpp/gameEngine/include/CameraController.h \
+  D:/code/cpp/gameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/include/Component/Component.h \
-  D:/code/cpp/gameEngine/include/DataStruct/Vector/Vector.h \
-  D:/code/cpp/gameEngine/include/GELib.h \
-  D:/code/cpp/gameEngine/include/GameBaseComponent/GameEventManager/GameEventManager.h \
+  D:/code/cpp/gameEngine/include/Core/Camera.h \
+  D:/code/cpp/gameEngine/include/Core/CameraController.h \
+  D:/code/cpp/gameEngine/include/Core/GELib.h \
+  D:/code/cpp/gameEngine/include/Core/GameObject.h \
+  D:/code/cpp/gameEngine/include/Core/Timestep.h \
+  D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
-  D:/code/cpp/gameEngine/include/GameObject.h \
   D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
   D:/code/cpp/gameEngine/include/Opengl/Shader.h \
+  D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
   D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
   D:/code/cpp/gameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
   D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
   D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
-  D:/code/cpp/gameEngine/include/Renderer.h \
+  D:/code/cpp/gameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
-  D:/code/cpp/gameEngine/include/ShaderManager.h \
-  D:/code/cpp/gameEngine/include/Timestep.h \
-  D:/code/cpp/gameEngine/include/TypeName.hpp \
   D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
   D:/code/cpp/gameEngine/third_party/glm/common.hpp \
   D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \

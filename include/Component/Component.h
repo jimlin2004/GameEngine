@@ -4,7 +4,8 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
-#include "Actor.h"
+#include "Actor/Actor.h"
+#include "Opengl/Texture.h"
 #include <string>
 
 namespace GameEngine
@@ -24,8 +25,9 @@ namespace GameEngine
     struct MeshComponent
     {
         glm::vec4 color {1.0, 1.0, 1.0, 1.0};
+        Texture* texture;
 
-        MeshComponent() = default;
+        MeshComponent();
         MeshComponent(const MeshComponent& other);
         MeshComponent(const glm::vec4& color);
     };
@@ -55,7 +57,7 @@ namespace GameEngine
             this->destroyScript = [](ScriptComponent* scriptComponent) {
                 delete (T*)scriptComponent->instance;
                 scriptComponent->instance = nullptr;
-            }
+            };
         }
     };
 }

@@ -4,12 +4,11 @@
 #include "glm/glm.hpp"
 
 #include "entt.hpp"
-#include "Timestep.h"
-#include "Renderer.h"
+#include "Core/Timestep.h"
 #include <vector>
 #include <exception>
-#include "GELib.h"
-#include "TypeName.hpp"
+#include "Core/GELib.h"
+#include "Core/TypeName.hpp"
 #include <iostream>
 
 namespace GameEngine
@@ -26,7 +25,8 @@ namespace GameEngine
         template<class TActor>
         TActor* spawnActor()
         {
-            TActor* obj = new TActor(this->registry.create());
+            TActor* obj = new TActor();
+            obj->setEntityID(this->registry.create());
             return obj;
         }
 
@@ -35,7 +35,9 @@ namespace GameEngine
         {
             auto typeName_strView = TYPE_NAME_BY_TYPE(TActor);
             std::string typeName = {typeName_strView.begin(), typeName_strView.end()};
-            TActor* obj = new TActor(this->registry.create(), position, scale, rotation, actorName, typeName);
+            TActor* obj = new TActor();
+            obj->setEntityID(this->registry.create());
+            obj->initComponents(position, scale, rotation, actorName, typeName);
             return obj;
         }
 
