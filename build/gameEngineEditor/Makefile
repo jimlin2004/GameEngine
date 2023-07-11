@@ -270,6 +270,174 @@ GameEngineEditor_autogen/mocs_compilation.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.s
 .PHONY : GameEngineEditor_autogen/mocs_compilation.cpp.s
 
+__/third_party/imgui/include/imgui.obj: __/third_party/imgui/include/imgui.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui.cpp.obj
+
+__/third_party/imgui/include/imgui.i: __/third_party/imgui/include/imgui.cpp.i
+.PHONY : __/third_party/imgui/include/imgui.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui.cpp.i
+.PHONY : __/third_party/imgui/include/imgui.cpp.i
+
+__/third_party/imgui/include/imgui.s: __/third_party/imgui/include/imgui.cpp.s
+.PHONY : __/third_party/imgui/include/imgui.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui.cpp.s
+.PHONY : __/third_party/imgui/include/imgui.cpp.s
+
+__/third_party/imgui/include/imgui_demo.obj: __/third_party/imgui/include/imgui_demo.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_demo.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_demo.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_demo.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_demo.cpp.obj
+
+__/third_party/imgui/include/imgui_demo.i: __/third_party/imgui/include/imgui_demo.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_demo.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_demo.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_demo.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_demo.cpp.i
+
+__/third_party/imgui/include/imgui_demo.s: __/third_party/imgui/include/imgui_demo.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_demo.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_demo.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_demo.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_demo.cpp.s
+
+__/third_party/imgui/include/imgui_draw.obj: __/third_party/imgui/include/imgui_draw.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_draw.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_draw.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_draw.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_draw.cpp.obj
+
+__/third_party/imgui/include/imgui_draw.i: __/third_party/imgui/include/imgui_draw.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_draw.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_draw.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_draw.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_draw.cpp.i
+
+__/third_party/imgui/include/imgui_draw.s: __/third_party/imgui/include/imgui_draw.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_draw.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_draw.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_draw.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_draw.cpp.s
+
+__/third_party/imgui/include/imgui_impl_opengl3.obj: __/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_impl_opengl3.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_impl_opengl3.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
+
+__/third_party/imgui/include/imgui_impl_opengl3.i: __/third_party/imgui/include/imgui_impl_opengl3.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_impl_opengl3.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_opengl3.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_impl_opengl3.cpp.i
+
+__/third_party/imgui/include/imgui_impl_opengl3.s: __/third_party/imgui/include/imgui_impl_opengl3.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_impl_opengl3.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_opengl3.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_impl_opengl3.cpp.s
+
+__/third_party/imgui/include/imgui_impl_sdl2.obj: __/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_impl_sdl2.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_impl_sdl2.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
+
+__/third_party/imgui/include/imgui_impl_sdl2.i: __/third_party/imgui/include/imgui_impl_sdl2.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_impl_sdl2.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_impl_sdl2.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdl2.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_impl_sdl2.cpp.i
+
+__/third_party/imgui/include/imgui_impl_sdl2.s: __/third_party/imgui/include/imgui_impl_sdl2.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_impl_sdl2.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_impl_sdl2.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdl2.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_impl_sdl2.cpp.s
+
+__/third_party/imgui/include/imgui_tables.obj: __/third_party/imgui/include/imgui_tables.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_tables.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_tables.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_tables.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_tables.cpp.obj
+
+__/third_party/imgui/include/imgui_tables.i: __/third_party/imgui/include/imgui_tables.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_tables.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_tables.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_tables.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_tables.cpp.i
+
+__/third_party/imgui/include/imgui_tables.s: __/third_party/imgui/include/imgui_tables.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_tables.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_tables.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_tables.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_tables.cpp.s
+
+__/third_party/imgui/include/imgui_widgets.obj: __/third_party/imgui/include/imgui_widgets.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_widgets.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_widgets.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_widgets.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_widgets.cpp.obj
+
+__/third_party/imgui/include/imgui_widgets.i: __/third_party/imgui/include/imgui_widgets.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_widgets.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_widgets.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_widgets.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_widgets.cpp.i
+
+__/third_party/imgui/include/imgui_widgets.s: __/third_party/imgui/include/imgui_widgets.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_widgets.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_widgets.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_widgets.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_widgets.cpp.s
+
 __/third_party/stb_image/std_image.obj: __/third_party/stb_image/std_image.cpp.obj
 .PHONY : __/third_party/stb_image/std_image.obj
 
@@ -582,6 +750,54 @@ src/ProjectParser.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s
 .PHONY : src/ProjectParser.cpp.s
 
+src/SDL_Editor_Window.obj: src/SDL_Editor_Window.cpp.obj
+.PHONY : src/SDL_Editor_Window.obj
+
+# target to build an object file
+src/SDL_Editor_Window.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj
+.PHONY : src/SDL_Editor_Window.cpp.obj
+
+src/SDL_Editor_Window.i: src/SDL_Editor_Window.cpp.i
+.PHONY : src/SDL_Editor_Window.i
+
+# target to preprocess a source file
+src/SDL_Editor_Window.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.i
+.PHONY : src/SDL_Editor_Window.cpp.i
+
+src/SDL_Editor_Window.s: src/SDL_Editor_Window.cpp.s
+.PHONY : src/SDL_Editor_Window.s
+
+# target to generate assembly for a file
+src/SDL_Editor_Window.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.s
+.PHONY : src/SDL_Editor_Window.cpp.s
+
+src/SDL_Editor_Window_Wrapper.obj: src/SDL_Editor_Window_Wrapper.cpp.obj
+.PHONY : src/SDL_Editor_Window_Wrapper.obj
+
+# target to build an object file
+src/SDL_Editor_Window_Wrapper.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj
+.PHONY : src/SDL_Editor_Window_Wrapper.cpp.obj
+
+src/SDL_Editor_Window_Wrapper.i: src/SDL_Editor_Window_Wrapper.cpp.i
+.PHONY : src/SDL_Editor_Window_Wrapper.i
+
+# target to preprocess a source file
+src/SDL_Editor_Window_Wrapper.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.i
+.PHONY : src/SDL_Editor_Window_Wrapper.cpp.i
+
+src/SDL_Editor_Window_Wrapper.s: src/SDL_Editor_Window_Wrapper.cpp.s
+.PHONY : src/SDL_Editor_Window_Wrapper.s
+
+# target to generate assembly for a file
+src/SDL_Editor_Window_Wrapper.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.s
+.PHONY : src/SDL_Editor_Window_Wrapper.cpp.s
+
 src/WordWrapLabel.obj: src/WordWrapLabel.cpp.obj
 .PHONY : src/WordWrapLabel.obj
 
@@ -653,6 +869,27 @@ help:
 	@echo ... GameEngineEditor_autogen/mocs_compilation.obj
 	@echo ... GameEngineEditor_autogen/mocs_compilation.i
 	@echo ... GameEngineEditor_autogen/mocs_compilation.s
+	@echo ... __/third_party/imgui/include/imgui.obj
+	@echo ... __/third_party/imgui/include/imgui.i
+	@echo ... __/third_party/imgui/include/imgui.s
+	@echo ... __/third_party/imgui/include/imgui_demo.obj
+	@echo ... __/third_party/imgui/include/imgui_demo.i
+	@echo ... __/third_party/imgui/include/imgui_demo.s
+	@echo ... __/third_party/imgui/include/imgui_draw.obj
+	@echo ... __/third_party/imgui/include/imgui_draw.i
+	@echo ... __/third_party/imgui/include/imgui_draw.s
+	@echo ... __/third_party/imgui/include/imgui_impl_opengl3.obj
+	@echo ... __/third_party/imgui/include/imgui_impl_opengl3.i
+	@echo ... __/third_party/imgui/include/imgui_impl_opengl3.s
+	@echo ... __/third_party/imgui/include/imgui_impl_sdl2.obj
+	@echo ... __/third_party/imgui/include/imgui_impl_sdl2.i
+	@echo ... __/third_party/imgui/include/imgui_impl_sdl2.s
+	@echo ... __/third_party/imgui/include/imgui_tables.obj
+	@echo ... __/third_party/imgui/include/imgui_tables.i
+	@echo ... __/third_party/imgui/include/imgui_tables.s
+	@echo ... __/third_party/imgui/include/imgui_widgets.obj
+	@echo ... __/third_party/imgui/include/imgui_widgets.i
+	@echo ... __/third_party/imgui/include/imgui_widgets.s
 	@echo ... __/third_party/stb_image/std_image.obj
 	@echo ... __/third_party/stb_image/std_image.i
 	@echo ... __/third_party/stb_image/std_image.s
@@ -692,6 +929,12 @@ help:
 	@echo ... src/ProjectParser.obj
 	@echo ... src/ProjectParser.i
 	@echo ... src/ProjectParser.s
+	@echo ... src/SDL_Editor_Window.obj
+	@echo ... src/SDL_Editor_Window.i
+	@echo ... src/SDL_Editor_Window.s
+	@echo ... src/SDL_Editor_Window_Wrapper.obj
+	@echo ... src/SDL_Editor_Window_Wrapper.i
+	@echo ... src/SDL_Editor_Window_Wrapper.s
 	@echo ... src/WordWrapLabel.obj
 	@echo ... src/WordWrapLabel.i
 	@echo ... src/WordWrapLabel.s

@@ -11,6 +11,7 @@
 #include <QMessageBox>
 #include <filesystem>
 #include <QColorDialog>
+#include <QCloseEvent>
 #include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
@@ -22,6 +23,8 @@
 #include "Component/Component.h"
 #include "Scene/SceneSerializer.h"
 #include "runtime/compile/CompileProcess.h"
+#include "SDL_Editor_Window.h"
+#include "SDL_Editor_Window_Wrapper.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -34,22 +37,26 @@ class MainWindow: public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void embedSDL(WId winId, SDL_Editor_Window* newSDL_Window);
 
 private:
     Ui::MainWindow *ui;
 
-private:
     ProjectParser* projectParser;
     FlowLayout* flowLayout_fileSystemPanel;
     QPixmap* fileSpriteSheet;
     std::filesystem::path currentPath;
     QTreeWidgetItem* actorLevel;
     CompileProcess compileProcess;
+    SDL_Editor_Window* SDL_editor_window;
+    SDL_Editor_Window_Wrapper* SDLWidget;
 
     /*重新刷新File system panel*/
     void resetFileSystemPanel();
     void clearOutline();
     void updateColorViewer();
+protected:
+    void closeEvent (QCloseEvent* event);
 private slots:
     void openProject();
     void saveScene();

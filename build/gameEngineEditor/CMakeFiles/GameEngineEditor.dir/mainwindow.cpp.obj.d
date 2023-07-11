@@ -385,6 +385,28 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
@@ -393,7 +415,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
- D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
@@ -645,26 +666,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
- D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QList \
- D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
- D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
- D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
- D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
- D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
@@ -956,6 +957,86 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
+ D:/code/cpp/gameEngine/include/Core/GameBase.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/winsdkver.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_audio.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mutex.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_thread.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h \
+ C:/PROGRA~1/msys64/mingw64/include/intrin.h \
+ C:/PROGRA~1/msys64/mingw64/include/setjmp.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_events.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_video.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rect.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_joystick.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_guid.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_sensor.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_quit.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_touch.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_filesystem.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hints.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_loadso.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_log.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_metal.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_power.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_render.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_shape.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_system.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_timer.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_misc.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_syswm.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_api.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_settings.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_types.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_common.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_collision.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_time_step.h \
+ D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
+ D:/code/cpp/gameEngine/third_party/imgui/include/imgui.h \
+ D:/code/cpp/gameEngine/third_party/imgui/include/imconfig.h \
+ D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
  D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
@@ -1009,4 +1090,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QList
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h

@@ -42,6 +42,11 @@ file(GLOB_RECURSE QT_PLUGINS
     ${CMAKE_CURRENT_SOURCE_DIR}/plugins/*.h
 )
 
+file(GLOB_RECURSE QTIMGUI
+    ${CMAKE_SOURCE_DIR}/third_party/imgui/include/*.h
+    ${CMAKE_SOURCE_DIR}/third_party/imgui/include/*.cpp
+)
+
 add_executable(${PROJECT_NAME} 
     editorEntryPoint.cpp 
     mainwindow.ui
@@ -51,12 +56,17 @@ add_executable(${PROJECT_NAME}
     ${EDITOR_HEADER_FILES}
     ${EDITOR_SRC_FILES}
     ${THIRD_PARTY_SRC}
+    ${QTIMGUI}
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE .)
 target_include_directories(${PROJECT_NAME} PRIVATE ./include)
 target_include_directories(${PROJECT_NAME} PRIVATE ./plugins)
 target_include_directories(${PROJECT_NAME} PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/SDL2/x86_64-w64-mingw32/include/SDL2)
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/imgui/include)
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/qtimgui/src)
 target_link_libraries(${PROJECT_NAME} PRIVATE 
     Qt6::Core 
     Qt6::Gui 
@@ -66,6 +76,10 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/lib/libGameEngineLib.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libbox2d.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE -lmingw32)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libSDL2.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libSDL2main.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lsetupapi -lversion -luuid)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libopengl32.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/lib/libglew32.dll.a)
 

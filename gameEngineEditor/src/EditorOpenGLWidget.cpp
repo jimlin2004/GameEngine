@@ -21,6 +21,7 @@ void EditorOpenGLWidget::initializeGL()
         qFatal("glewInit failed");
         return;
     }
+
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glEnable(GL_DEPTH_TEST);
@@ -39,15 +40,14 @@ void EditorOpenGLWidget::resizeGL(int w, int h)
 
 void EditorOpenGLWidget::paintGL()
 {
-    // static float deg = 0.0f;
+    static float r = 0.0f;
+    r += 0.05f;
+    if (r >= 1.0f)
+        r = 0.0f;
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    // deg += 1;
-    // if (deg > 360.0f)
-    //     deg = 0.0f;
     GameEngine::Renderer::begin();
         GameEngine::globalScene->render();
-        // GameEngine::Renderer::drawQuad({0.0f, 0.0f, 0.0f}, {100.0f, 100.0f}, {0.0f, 0.0f, 1.0f, 1.0f});
-        // GameEngine::Renderer::drawRotatedQuad({150.0f, 150.0f, 0.0f}, {50.0f, 50.0f}, deg, {1.0f, 0.0f, 0.0f, 1.0f});
+        GameEngine::Renderer::drawQuad({300.0f, 300.0f, 1.0f}, {50.0f, 50.0f}, {r, 0.0f, 0.0f, 1.0f});
     GameEngine::Renderer::close();
 }
 

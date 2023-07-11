@@ -118,6 +118,9 @@ add_custom_command(
 add_subdirectory(./TestGame)
 add_subdirectory(./gameEngineEditor)
 
+add_dependencies(TestGame GameEngineLib)
+add_dependencies(GameEngineEditor GameEngineLib)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)

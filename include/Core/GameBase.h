@@ -4,6 +4,7 @@
 #include "GL/glew.h"
 #include "SDL2/SDL.h"
 #include "SDL2/SDL_opengl.h"
+#include "SDL2/SDL_syswm.h"
 
 #include "box2d/b2_world.h"
 
@@ -37,22 +38,21 @@ namespace GameEngine
         SDL_Event event;
         SDL_Window* window;
         SDL_GLContext GLContext;
-
+        b2World physicsWorld;
+        Timestep timestep;
+        uint64_t lastFrameTime;
+        
         GameBase(const char* title, int width, int height);
         virtual ~GameBase();
         virtual bool initSDL();
         virtual bool initGL();
-        void init();
+        virtual void init();
         virtual void update(float deltaTime);
-        void render();
-        void gameEventHandle();
+        virtual void render();
+        virtual void gameEventHandle();
         virtual void begin();
         virtual void logBuildInfo();
-        void startGame();
-    private:
-        b2World physicsWorld;
-        Timestep timestep;
-        uint64_t lastFrameTime;
+        virtual void startGame();
     };
 }
 

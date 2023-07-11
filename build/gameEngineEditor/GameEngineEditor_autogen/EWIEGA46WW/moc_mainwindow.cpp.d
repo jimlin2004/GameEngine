@@ -277,6 +277,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/imm.h \
   C:/Program\ Files/msys64/mingw64/include/inaddr.h \
   C:/Program\ Files/msys64/mingw64/include/interlockedapi.h \
+  C:/Program\ Files/msys64/mingw64/include/intrin.h \
   C:/Program\ Files/msys64/mingw64/include/inttypes.h \
   C:/Program\ Files/msys64/mingw64/include/ioapiset.h \
   C:/Program\ Files/msys64/mingw64/include/jobapi.h \
@@ -287,6 +288,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/locale.h \
   C:/Program\ Files/msys64/mingw64/include/lzexpand.h \
   C:/Program\ Files/msys64/mingw64/include/malloc.h \
+  C:/Program\ Files/msys64/mingw64/include/math.h \
   C:/Program\ Files/msys64/mingw64/include/mciapi.h \
   C:/Program\ Files/msys64/mingw64/include/mcx.h \
   C:/Program\ Files/msys64/mingw64/include/memoryapi.h \
@@ -358,6 +360,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/securityappcontainer.h \
   C:/Program\ Files/msys64/mingw64/include/securitybaseapi.h \
   C:/Program\ Files/msys64/mingw64/include/servprov.h \
+  C:/Program\ Files/msys64/mingw64/include/setjmp.h \
   C:/Program\ Files/msys64/mingw64/include/shellapi.h \
   C:/Program\ Files/msys64/mingw64/include/signal.h \
   C:/Program\ Files/msys64/mingw64/include/specstrings.h \
@@ -458,6 +461,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clflushoptintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzerointrin.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cpuid.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/enqcmdintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/f16cintrin.h \
@@ -631,6 +635,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
@@ -734,6 +739,8 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
@@ -742,6 +749,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/include/Core/CameraController.h \
   D:/code/cpp/gameEngine/include/Core/GELib.h \
+  D:/code/cpp/gameEngine/include/Core/GameBase.h \
   D:/code/cpp/gameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/include/Core/Timestep.h \
   D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
@@ -758,6 +766,73 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_audio.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_events.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_filesystem.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_guid.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_hints.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_joystick.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_loadso.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_log.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_metal.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_misc.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mutex.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_opengl.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_power.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_quit.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rect.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_render.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_sensor.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_shape.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_system.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_syswm.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_thread.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_timer.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_touch.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_video.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_api.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_collision.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_common.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_math.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_settings.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_time_step.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_types.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world.h \
+  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
   D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
   D:/code/cpp/gameEngine/third_party/glm/common.hpp \
   D:/code/cpp/gameEngine/third_party/glm/detail/_fixes.hpp \
@@ -927,6 +1002,10 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/third_party/glm/vec3.hpp \
   D:/code/cpp/gameEngine/third_party/glm/vec4.hpp \
   D:/code/cpp/gameEngine/third_party/glm/vector_relational.hpp \
+  D:/code/cpp/gameEngine/third_party/imgui/include/imconfig.h \
+  D:/code/cpp/gameEngine/third_party/imgui/include/imgui.h \
+  D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
+  D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
   D:/code/cpp/gameEngine/third_party/json/json.hpp \
   D:/code/cpp/gameEngine/third_party/opengl/glew/include/GL/glew.h \
   D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h

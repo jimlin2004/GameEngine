@@ -36,13 +36,6 @@
     <property name="spacing">
      <number>0</number>
     </property>
-    <item row="0" column="0">
-     <widget class="EditorOpenGLWidget" name="openglWidget" native="true">
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
-     </widget>
-    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -137,7 +130,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>417</width>
+             <width>213</width>
              <height>335</height>
             </rect>
            </property>
@@ -706,12 +699,6 @@
    <class>QCollapsibleWidget</class>
    <extends>QWidget</extends>
    <header>QCollapsibleWidget.h</header>
-  </customwidget>
-  <customwidget>
-   <class>EditorOpenGLWidget</class>
-   <extends>QWidget</extends>
-   <header>EditorOpenGLWidget.h</header>
-   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources>

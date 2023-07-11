@@ -22,7 +22,7 @@ glm::mat4 GameEngine::TransformComponent::getTransform() const
 }
 
 GameEngine::MeshComponent::MeshComponent()
-    : color(glm::vec4(0.0f))
+    : color({1.0f, 1.0f, 1.0f, 1.0f})
     , texture(nullptr) 
 {
 }

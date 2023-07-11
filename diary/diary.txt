@@ -281,3 +281,13 @@
     Todo list
         -Texture
     存檔紀錄 --version 1.0-dev
+2023/07/10
+    1. 修復Texture
+    2. 引入imgui(目前僅Editor使用)
+2023/07/11
+    1. 將EditorOpenGLWidget棄用
+    2. 將EditorOpenGLWidget的功能改為SDL嵌入
+    3. SDL成功導入imgui
+    Todo list
+        -SDL嵌入keyboard失效
+    存檔紀錄 --version 1.0-dev

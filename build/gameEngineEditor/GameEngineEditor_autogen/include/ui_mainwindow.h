@@ -32,7 +32,6 @@
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include "EditorOpenGLWidget.h"
 #include "LineEditFloat.h"
 #include "QCollapsibleWidget.h"
 
@@ -47,7 +46,6 @@ public:
     QAction *actionrun;
     QWidget *centralwidget;
     QGridLayout *gridLayout;
-    EditorOpenGLWidget *openglWidget;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
@@ -154,12 +152,6 @@ public:
         gridLayout->setSpacing(0);
         gridLayout->setObjectName("gridLayout");
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        openglWidget = new EditorOpenGLWidget(centralwidget);
-        openglWidget->setObjectName("openglWidget");
-        openglWidget->setStyleSheet(QString::fromUtf8(""));
-
-        gridLayout->addWidget(openglWidget, 0, 0, 1, 1);
-
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -199,7 +191,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 417, 335));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 213, 335));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);

@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include <QWindow>
 
 static QTextBrowser* _textBrowserPtr;
 
@@ -77,6 +78,8 @@ MainWindow::MainWindow(QWidget *parent)
     , flowLayout_fileSystemPanel(new FlowLayout())
     , fileSpriteSheet(new QPixmap("./assets/texture/filesystem.png"))
     , compileProcess(_textBrowserPtr)
+    , SDL_editor_window(nullptr)
+    , SDLWidget(nullptr)
 {
     ui->setupUi(this);
     
@@ -107,7 +110,7 @@ MainWindow::MainWindow(QWidget *parent)
     actorLevel = new QTreeWidgetItem(this->ui->treeWidget);
     actorLevel->setText(0, "Actor");
 
-    connect(this->ui->openglWidget, &EditorOpenGLWidget::resetGameObjectOutline, this, &MainWindow::resetGameObjectOutline);
+    // connect(this->ui->openglWidget, &EditorOpenGLWidget::resetGameObjectOutline, this, &MainWindow::resetGameObjectOutline);
     connect(this->ui->treeWidget, &QTreeWidget::itemClicked, this, &MainWindow::getTreeWigetItemInfo);
     
     this->ui->scrollAreaWidgetContents_detail->layout()->setAlignment(Qt::AlignTop);
@@ -124,9 +127,6 @@ MainWindow::MainWindow(QWidget *parent)
     
     connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
     connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
-    // QTimer* timer = new QTimer(this);
-    // connect(timer, &QTimer::timeout, this->ui->openglWidget, &EditorOpenGLWidget::updateGL);
-    // timer->start(41); //24fps
 }
 
 MainWindow::~MainWindow()
@@ -145,6 +145,19 @@ void MainWindow::clearFileSystemPanel()
         delete _widget;
         delete _item;
     }
+}
+
+void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
+{
+    this->SDL_editor_window = newSDL_window;
+    QWindow* window = QWindow::fromWinId(winId);
+    window->requestActivate();
+    window->setFlags(window->flags()| Qt::CustomizeWindowHint | Qt::WindowTitleHint);
+    // QWidget* testWidget = QWidget::createWindowContainer(window, this);
+    SDLWidget = (SDL_Editor_Window_Wrapper*)QWidget::createWindowContainer(window, this);
+    SDLWidget->setWindowFlags(SDLWidget->windowFlags() | Qt::WindowStaysOnTopHint | Qt::WindowDoesNotAcceptFocus);
+    // SDLWidget->setFocusPolicy(Qt::FocusPolicy::ClickFocus);
+    this->ui->centralwidget->layout()->addWidget(SDLWidget);
 }
 
 void MainWindow::resetFileSystemPanel()
@@ -230,7 +243,13 @@ void MainWindow::updateColorViewer()
     int B = (int)(this->ui->lineEditFloat_B_color->getValue() * 255);
     QColor color(R, G, B);
     this->ui->widget_colorViewer->setStyleSheet("background-color: " + color.name() + ";");
-    this->ui->openglWidget->update();
+    // this->ui->openglWidget->update();
+}
+
+void MainWindow::closeEvent(QCloseEvent *event)
+{
+    this->SDL_editor_window->running = false;
+    QMainWindow::closeEvent(event);
 }
 
 void MainWindow::clearOutline()

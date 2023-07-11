@@ -24,7 +24,7 @@ namespace GameEngine
 
     struct MeshComponent
     {
-        glm::vec4 color {1.0, 1.0, 1.0, 1.0};
+        glm::vec4 color;
         Texture* texture;
 
         MeshComponent();

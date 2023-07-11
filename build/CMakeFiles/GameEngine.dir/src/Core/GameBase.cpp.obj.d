@@ -185,6 +185,85 @@ CMakeFiles/GameEngine.dir/src/Core/GameBase.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_misc.h \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_opengl.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_syswm.h \
+ C:/PROGRA~1/msys64/mingw64/include/windows.h \
+ C:/PROGRA~1/msys64/mingw64/include/excpt.h \
+ C:/PROGRA~1/msys64/mingw64/include/windef.h \
+ C:/PROGRA~1/msys64/mingw64/include/minwindef.h \
+ C:/PROGRA~1/msys64/mingw64/include/specstrings.h \
+ C:/PROGRA~1/msys64/mingw64/include/sal.h \
+ C:/PROGRA~1/msys64/mingw64/include/concurrencysal.h \
+ C:/PROGRA~1/msys64/mingw64/include/driverspecs.h \
+ C:/PROGRA~1/msys64/mingw64/include/winnt.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_unicode.h \
+ C:/PROGRA~1/msys64/mingw64/include/ctype.h \
+ C:/PROGRA~1/msys64/mingw64/include/apiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/basetsd.h \
+ C:/PROGRA~1/msys64/mingw64/include/guiddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/string.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack4.h \
+ C:/PROGRA~1/msys64/mingw64/include/poppack.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack4.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack2.h \
+ C:/PROGRA~1/msys64/mingw64/include/poppack.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack2.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack8.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack8.h \
+ C:/PROGRA~1/msys64/mingw64/include/ktmtypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/winbase.h \
+ C:/PROGRA~1/msys64/mingw64/include/apisetcconv.h \
+ C:/PROGRA~1/msys64/mingw64/include/minwinbase.h \
+ C:/PROGRA~1/msys64/mingw64/include/bemapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/debugapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/errhandlingapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/fibersapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/fileapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/handleapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/heapapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/ioapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/interlockedapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/jobapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/libloaderapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/memoryapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/namedpipeapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/namespaceapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/processenv.h \
+ C:/PROGRA~1/msys64/mingw64/include/processthreadsapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/processtopologyapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/profileapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/realtimeapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/securityappcontainer.h \
+ C:/PROGRA~1/msys64/mingw64/include/securitybaseapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/synchapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/sysinfoapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/systemtopologyapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/threadpoolapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/threadpoollegacyapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/utilapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/wow64apiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/winerror.h \
+ C:/PROGRA~1/msys64/mingw64/include/fltwinerror.h \
+ C:/PROGRA~1/msys64/mingw64/include/timezoneapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/wingdi.h \
+ C:/PROGRA~1/msys64/mingw64/include/pshpack1.h \
+ C:/PROGRA~1/msys64/mingw64/include/winuser.h \
+ C:/PROGRA~1/msys64/mingw64/include/tvout.h \
+ C:/PROGRA~1/msys64/mingw64/include/winnls.h \
+ C:/PROGRA~1/msys64/mingw64/include/datetimeapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/stringapiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/wincon.h \
+ C:/PROGRA~1/msys64/mingw64/include/winver.h \
+ C:/PROGRA~1/msys64/mingw64/include/winreg.h \
+ C:/PROGRA~1/msys64/mingw64/include/reason.h \
+ C:/PROGRA~1/msys64/mingw64/include/winnetwk.h \
+ C:/PROGRA~1/msys64/mingw64/include/wnnc.h \
+ C:/PROGRA~1/msys64/mingw64/include/virtdisk.h \
+ C:/PROGRA~1/msys64/mingw64/include/stralign.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/stralign_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/winsvc.h \
+ C:/PROGRA~1/msys64/mingw64/include/mcx.h \
+ C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_api.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_block_allocator.h \
@@ -235,8 +314,6 @@ CMakeFiles/GameEngine.dir/src/Core/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_growable_stack.h \
- C:/PROGRA~1/msys64/mingw64/include/string.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_time_step.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
@@ -306,7 +383,6 @@ CMakeFiles/GameEngine.dir/src/Core/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/locale.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iosfwd \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cctype \
- C:/PROGRA~1/msys64/mingw64/include/ctype.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
@@ -634,4 +710,9 @@ CMakeFiles/GameEngine.dir/src/Core/GameBase.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
+ D:/code/cpp/gameEngine/include/Event/Input.h \
+ D:/code/cpp/gameEngine/include/Event/KeyCode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+ D:/code/cpp/gameEngine/include/Event/MouseCode.h \
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h
