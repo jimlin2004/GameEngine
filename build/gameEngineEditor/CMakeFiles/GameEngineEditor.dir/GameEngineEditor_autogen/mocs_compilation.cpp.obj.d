@@ -896,6 +896,14 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_SDL_Editor_Window_Wrapper.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_WordWrapLabel.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\BBTDY5WPX3/moc_CompileProcess.cpp \
@@ -924,9 +932,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
  D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
- D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
@@ -1060,5 +1065,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
- D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QList

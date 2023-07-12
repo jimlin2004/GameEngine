@@ -12,11 +12,17 @@ public:
     SDL_Editor_Window(const char* title, int width, int height);
     virtual ~SDL_Editor_Window();
     virtual void init() override;
+    virtual bool initSDL() override;
     bool initImGui();
     virtual void startGame() override;
     virtual void update(float deltaTime) override;
     virtual void render() override;
     virtual void gameEventHandle() override;
+
+    void bindisFocusOnSDL(bool* ptr);
+private:
+    bool* isFocusOnSDLPtr;
+    bool isCompleteFocusChange;
 };
 
 #endif

@@ -221,7 +221,9 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   C:/Program\ Files/msys64/mingw64/include/wctype.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
   D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
   D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
   D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
@@ -317,6 +319,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
   D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \
@@ -341,12 +344,15 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgb.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \

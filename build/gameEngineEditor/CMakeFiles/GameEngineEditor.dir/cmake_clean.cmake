@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_opengl3.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdl2.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdl2.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_tables.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_tables.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_widgets.cpp.obj"

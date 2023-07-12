@@ -7,7 +7,7 @@
 #include <QDebug>
 #include <QPixmap>
 #include <QProcess>
-#include <QTimer>
+#include <QMouseEvent>
 #include <QMessageBox>
 #include <filesystem>
 #include <QColorDialog>
@@ -38,7 +38,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void embedSDL(WId winId, SDL_Editor_Window* newSDL_Window);
-
+    void onFocusChanged(bool& isFocusOnSDL);
 private:
     Ui::MainWindow *ui;
 
@@ -57,6 +57,8 @@ private:
     void updateColorViewer();
 protected:
     void closeEvent (QCloseEvent* event);
+    void mousePressEvent(QMouseEvent* event);
+    bool eventFilter(QObject *obj, QEvent *e);
 private slots:
     void openProject();
     void saveScene();

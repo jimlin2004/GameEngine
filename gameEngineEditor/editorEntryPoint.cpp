@@ -9,12 +9,14 @@
 #undef main //SDL_main
 
 bool isRunSDL = false;
+bool isFocusOnSDL = false;
 WId SDL_Editor_Window_ID;
 SDL_Editor_Window* SDL_editor_window;
 
 void runSDL()
 {
     SDL_editor_window = new SDL_Editor_Window("SDLwindow", 640, 480);
+    SDL_editor_window->bindisFocusOnSDL(&isFocusOnSDL);
     bool success = SDL_editor_window->initSDL() && SDL_editor_window->initGL() && SDL_editor_window->initImGui();
     if (!success)
     {
@@ -30,6 +32,20 @@ void runSDL()
     isRunSDL = true;
     SDL_editor_window->startGame();
 }
+
+// class EditorApplication: public QApplication
+// {
+//     Q_OBJECT
+// public:
+//     EditorApplication(int argc, char** argv)
+//         : QApplication(argc, argv)
+//     {
+//     }
+//     void focusChanged(QWidget* old, QWidget* now)
+//     {
+//         QApplication::focusChanged(old, now);
+//     }
+// };
 
 int main(int argc, char* argv[])
 {
@@ -48,10 +64,15 @@ int main(int argc, char* argv[])
     while (!isRunSDL)
         ;
     MainWindow w;
-    
+    QObject::connect(&a, &QApplication::focusChanged, [&](){
+        QWidget* widget = a.focusWidget();
+        if(widget == nullptr) //Focus out
+            return;
+        w.onFocusChanged(isFocusOnSDL);
+    });
     w.embedSDL(SDL_Editor_Window_ID, SDL_editor_window);
     w.show();
-
+    
     qDebug("Create Editor success\n");
     qDebug("Running environment version: %s\n", "1.0 alpha");
 

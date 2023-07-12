@@ -361,6 +361,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.h",
+			"MU",
+			"XGPN6N3MQP/moc_imgui_impl_sdlrenderer2.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_internal.h",
 			"MU",
 			"XGPN6N3MQP/moc_imgui_internal.cpp",
@@ -574,6 +580,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp",
 			"MU",
 			null
 		],

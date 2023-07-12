@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QWindow>
+#include <windows.h>
+#include <tchar.h>
 
 static QTextBrowser* _textBrowserPtr;
 
@@ -127,6 +129,8 @@ MainWindow::MainWindow(QWidget *parent)
     
     connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
     connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
+
+    this->installEventFilter(this);
 }
 
 MainWindow::~MainWindow()
@@ -147,17 +151,21 @@ void MainWindow::clearFileSystemPanel()
     }
 }
 
+void MainWindow::onFocusChanged(bool& isFocusOnSDL)
+{
+    if (isFocusOnSDL)
+    {
+        SetFocus((HWND)this->winId());
+        isFocusOnSDL = false;
+    }
+}
+
 void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
 {
     this->SDL_editor_window = newSDL_window;
-    QWindow* window = QWindow::fromWinId(winId);
-    window->requestActivate();
-    window->setFlags(window->flags()| Qt::CustomizeWindowHint | Qt::WindowTitleHint);
-    // QWidget* testWidget = QWidget::createWindowContainer(window, this);
-    SDLWidget = (SDL_Editor_Window_Wrapper*)QWidget::createWindowContainer(window, this);
-    SDLWidget->setWindowFlags(SDLWidget->windowFlags() | Qt::WindowStaysOnTopHint | Qt::WindowDoesNotAcceptFocus);
-    // SDLWidget->setFocusPolicy(Qt::FocusPolicy::ClickFocus);
-    this->ui->centralwidget->layout()->addWidget(SDLWidget);
+    SDL_Editor_Window_Wrapper_Window* window = (SDL_Editor_Window_Wrapper_Window*)QWindow::fromWinId(winId);
+    this->SDLWidget = (SDL_Editor_Window_Wrapper*)(QWidget::createWindowContainer(window));
+    this->ui->centralwidget->layout()->addWidget(this->SDLWidget);
 }
 
 void MainWindow::resetFileSystemPanel()
@@ -250,6 +258,21 @@ void MainWindow::closeEvent(QCloseEvent *event)
 {
     this->SDL_editor_window->running = false;
     QMainWindow::closeEvent(event);
+}
+
+void MainWindow::mousePressEvent(QMouseEvent *event)
+{
+    // SetFocus((HWND)this->winId());
+    this->setFocus();
+    qDebug("click\n");
+    QMainWindow::mousePressEvent(event);
+}
+
+bool MainWindow::eventFilter(QObject *obj, QEvent *e)
+{
+    if (e->type() == QEvent::MouseButtonPress)
+        qDebug("Click");
+    return QMainWindow::eventFilter(obj, e);
 }
 
 void MainWindow::clearOutline()

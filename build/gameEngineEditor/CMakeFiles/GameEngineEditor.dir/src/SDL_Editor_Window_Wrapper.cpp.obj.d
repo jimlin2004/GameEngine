@@ -326,6 +326,19 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
@@ -340,14 +353,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.c
  D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
  D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
- D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
- D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
  D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent

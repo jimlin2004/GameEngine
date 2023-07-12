@@ -512,6 +512,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
   D:/QT/6.4.2/mingw_64/include/QtCore/QFile \
   D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonArray \
@@ -520,12 +521,12 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
   D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
   D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
   D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
   D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
-  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
   D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
@@ -535,7 +536,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qatomic.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbasicatomic.h \
-  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbindingstorage.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbytearray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -626,7 +626,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qtcore-config.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtcoreexports.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtextstream.h \
-  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtypeinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
@@ -642,6 +641,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
   D:/QT/6.4.2/mingw_64/include/QtGui/QSurfaceFormat \
   D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
   D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \
@@ -671,6 +671,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgb.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
@@ -683,6 +684,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/QOpenGLWidget \

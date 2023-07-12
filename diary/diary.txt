@@ -291,3 +291,10 @@
     Todo list
         -SDL嵌入keyboard失效
     存檔紀錄 --version 1.0-dev
+2023/07/12
+    1. 修復SDL嵌入keyboard失效的問題，此問題乃因Keyboard focus未成功轉移導致
+       目前使用windows.h的setFocuse以及QApplication::focusChanged判斷focus in/out
+    2. 改變SDL版本(2.6->2.8)
+    Todo list
+        -windows api使用需改成跨平台的寫法(如Linux找到一樣的函式用pargma決定平台編譯與否)
+    存檔紀錄 --version 1.0-dev

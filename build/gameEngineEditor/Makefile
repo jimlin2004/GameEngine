@@ -390,6 +390,30 @@ __/third_party/imgui/include/imgui_impl_sdl2.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdl2.cpp.s
 .PHONY : __/third_party/imgui/include/imgui_impl_sdl2.cpp.s
 
+__/third_party/imgui/include/imgui_impl_sdlrenderer2.obj: __/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_impl_sdlrenderer2.obj
+
+# target to build an object file
+__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj
+.PHONY : __/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj
+
+__/third_party/imgui/include/imgui_impl_sdlrenderer2.i: __/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_impl_sdlrenderer2.i
+
+# target to preprocess a source file
+__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.i
+.PHONY : __/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.i
+
+__/third_party/imgui/include/imgui_impl_sdlrenderer2.s: __/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_impl_sdlrenderer2.s
+
+# target to generate assembly for a file
+__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.s
+.PHONY : __/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.s
+
 __/third_party/imgui/include/imgui_tables.obj: __/third_party/imgui/include/imgui_tables.cpp.obj
 .PHONY : __/third_party/imgui/include/imgui_tables.obj
 
@@ -884,6 +908,9 @@ help:
 	@echo ... __/third_party/imgui/include/imgui_impl_sdl2.obj
 	@echo ... __/third_party/imgui/include/imgui_impl_sdl2.i
 	@echo ... __/third_party/imgui/include/imgui_impl_sdl2.s
+	@echo ... __/third_party/imgui/include/imgui_impl_sdlrenderer2.obj
+	@echo ... __/third_party/imgui/include/imgui_impl_sdlrenderer2.i
+	@echo ... __/third_party/imgui/include/imgui_impl_sdlrenderer2.s
 	@echo ... __/third_party/imgui/include/imgui_tables.obj
 	@echo ... __/third_party/imgui/include/imgui_tables.i
 	@echo ... __/third_party/imgui/include/imgui_tables.s
