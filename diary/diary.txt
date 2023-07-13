@@ -298,3 +298,9 @@
     Todo list
         -windows api使用需改成跨平台的寫法(如Linux找到一樣的函式用pargma決定平台編譯與否)
     存檔紀錄 --version 1.0-dev
+2023/07/13
+    1. 將Framebuffer貼到imgui中
+    2. 之後Editor的SDL都多一層imgui image
+    Todo list
+        -imguizmo目前失效
+    存檔紀錄 --version 1.0-dev

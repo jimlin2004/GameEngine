@@ -57,8 +57,6 @@ private:
     void updateColorViewer();
 protected:
     void closeEvent (QCloseEvent* event);
-    void mousePressEvent(QMouseEvent* event);
-    bool eventFilter(QObject *obj, QEvent *e);
 private slots:
     void openProject();
     void saveScene();

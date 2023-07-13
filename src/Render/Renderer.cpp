@@ -46,6 +46,8 @@ struct RendererData
 
     glm::vec4 quadVertexUnitPoint[4];
     GameEngine::RendererInfomation rendererInfomation;
+
+    GameEngine::FrameBuffer* frameBuffer = nullptr;
 };
 
 static RendererData rendererData;
@@ -560,6 +562,20 @@ unsigned int GameEngine::Renderer::getLineNum()
     return rendererData.rendererInfomation.lineNums;
 }
 
+void GameEngine::Renderer::bindFrameBuffer()
+{
+    rendererData.frameBuffer->bind();
+}
+
+void GameEngine::Renderer::unbindFrameBuffer()
+{
+    rendererData.frameBuffer->unbind();
+}
+
+uint32_t GameEngine::Renderer::getFrameBufferColorAttachmentRendererID()
+{
+    return rendererData.frameBuffer->getColorAttachmentRendererID();
+}
 unsigned int GameEngine::Renderer::getDrawCalls()
 {
     return rendererData.rendererInfomation.drawCalls;

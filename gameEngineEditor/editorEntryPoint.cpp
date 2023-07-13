@@ -16,7 +16,7 @@ SDL_Editor_Window* SDL_editor_window;
 void runSDL()
 {
     SDL_editor_window = new SDL_Editor_Window("SDLwindow", 640, 480);
-    SDL_editor_window->bindisFocusOnSDL(&isFocusOnSDL);
+    SDL_editor_window->bindIsFocusOnSDL(&isFocusOnSDL);
     bool success = SDL_editor_window->initSDL() && SDL_editor_window->initGL() && SDL_editor_window->initImGui();
     if (!success)
     {
@@ -32,20 +32,6 @@ void runSDL()
     isRunSDL = true;
     SDL_editor_window->startGame();
 }
-
-// class EditorApplication: public QApplication
-// {
-//     Q_OBJECT
-// public:
-//     EditorApplication(int argc, char** argv)
-//         : QApplication(argc, argv)
-//     {
-//     }
-//     void focusChanged(QWidget* old, QWidget* now)
-//     {
-//         QApplication::focusChanged(old, now);
-//     }
-// };
 
 int main(int argc, char* argv[])
 {

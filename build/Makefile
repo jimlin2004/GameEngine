@@ -207,19 +207,6 @@ GameEngineLib/fast:
 .PHONY : GameEngineLib/fast
 
 #=============================================================================
-# Target rules for targets named TestGame
-
-# Build rule for target.
-TestGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestGame
-.PHONY : TestGame
-
-# fast build rule for target.
-TestGame/fast:
-	$(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/build
-.PHONY : TestGame/fast
-
-#=============================================================================
 # Target rules for targets named GameEngineEditor
 
 # Build rule for target.
@@ -1084,7 +1071,6 @@ help:
 	@echo ... GameEngine
 	@echo ... GameEngineEditor
 	@echo ... GameEngineLib
-	@echo ... TestGame
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

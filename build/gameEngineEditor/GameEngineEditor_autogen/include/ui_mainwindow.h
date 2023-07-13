@@ -29,10 +29,10 @@
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QToolBar>
-#include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "LineEditFloat.h"
+#include "OutlineTreeWidget.h"
 #include "QCollapsibleWidget.h"
 
 QT_BEGIN_NAMESPACE
@@ -108,7 +108,7 @@ public:
     QGridLayout *gridLayout_3;
     QWidget *wrapWidgetRight;
     QGridLayout *gridLayout_7;
-    QTreeWidget *treeWidget;
+    OutlineTreeWidget *treeWidget;
     QDockWidget *dockWidgetBottom;
     QWidget *dockWidgetContentsBottom;
     QGridLayout *gridLayout_2;
@@ -191,7 +191,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 213, 335));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 417, 335));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -463,7 +463,7 @@ public:
         gridLayout_7->setSpacing(0);
         gridLayout_7->setObjectName("gridLayout_7");
         gridLayout_7->setContentsMargins(0, 0, 0, 0);
-        treeWidget = new QTreeWidget(wrapWidgetRight);
+        treeWidget = new OutlineTreeWidget(wrapWidgetRight);
         QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
         __qtreewidgetitem->setText(0, QString::fromUtf8("1"));
         treeWidget->setHeaderItem(__qtreewidgetitem);

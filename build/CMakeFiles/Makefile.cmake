@@ -220,7 +220,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake"
   "D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake"
   "D:/code/cpp/gameEngine/CMakeLists.txt"
-  "D:/code/cpp/gameEngine/TestGame/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
@@ -240,7 +239,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "TestGame/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenInfo.json"
   "gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json"
   ".qt/QtDeploySupport.cmake"
@@ -251,7 +249,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GameEngine.dir/DependInfo.cmake"
   "CMakeFiles/GameEngineLib.dir/DependInfo.cmake"
-  "TestGame/CMakeFiles/TestGame.dir/DependInfo.cmake"
   "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/DependInfo.cmake"
   "gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/DependInfo.cmake"
   "gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/DependInfo.cmake"

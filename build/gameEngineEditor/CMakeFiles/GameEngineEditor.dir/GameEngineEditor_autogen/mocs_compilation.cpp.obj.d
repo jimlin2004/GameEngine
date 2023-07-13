@@ -813,28 +813,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
- D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/set \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Core/Timestep.h \
- D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
- D:/code/cpp/gameEngine/include/Render/Renderer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
- D:/code/cpp/gameEngine/include/Opengl/Shader.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
  D:/code/cpp/gameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
@@ -861,7 +839,30 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/include/Actor/Actor.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/set \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
+ D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
+ D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/include/Render/Renderer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
+ D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
+ D:/code/cpp/gameEngine/include/Opengl/Shader.h \
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/FrameBuffer.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
  D:/code/cpp/gameEngine/third_party/json/json.hpp \
@@ -894,6 +895,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_OutlineTreeWidget.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_SDL_Editor_Window_Wrapper.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
@@ -913,7 +926,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h \
@@ -964,14 +976,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
  D:/code/cpp/gameEngine/include/Core/GameBase.h \
@@ -1048,10 +1052,12 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_time_step.h \
  D:/code/cpp/gameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
  D:/code/cpp/gameEngine/include/Core/Timestep.h \
- D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/third_party/imgui/include/imgui.h \
  D:/code/cpp/gameEngine/third_party/imgui/include/imconfig.h \
+ D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
+ D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditFloat.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \

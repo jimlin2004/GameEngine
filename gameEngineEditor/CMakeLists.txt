@@ -45,6 +45,8 @@ file(GLOB_RECURSE QT_PLUGINS
 file(GLOB_RECURSE QTIMGUI
     ${CMAKE_SOURCE_DIR}/third_party/imgui/include/*.h
     ${CMAKE_SOURCE_DIR}/third_party/imgui/include/*.cpp
+    ${CMAKE_SOURCE_DIR}/third_party/ImGuizmo/ImGuizmo.h
+    ${CMAKE_SOURCE_DIR}/third_party/ImGuizmo/ImGuizmo.cpp
 )
 
 add_executable(${PROJECT_NAME} 
@@ -66,6 +68,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${Qt6Widgets_INCLUDE_DIRS})
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/SDL2/x86_64-w64-mingw32/include/SDL2)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/imgui/include)
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/ImGuizmo)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/third_party/qtimgui/src)
 target_link_libraries(${PROJECT_NAME} PRIVATE 
     Qt6::Core 

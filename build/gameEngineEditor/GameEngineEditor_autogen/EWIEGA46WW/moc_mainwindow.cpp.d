@@ -739,6 +739,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
@@ -757,6 +758,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameEngine/include/GameEngineAPI/GameEngineAPI.h \
+  D:/code/cpp/gameEngine/include/Opengl/FrameBuffer.h \
   D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
   D:/code/cpp/gameEngine/include/Opengl/Shader.h \
   D:/code/cpp/gameEngine/include/Opengl/ShaderManager.h \
@@ -768,6 +770,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
+  D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.h \
   D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
   D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
   D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \

@@ -423,4 +423,5 @@ CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/include/Opengl/SubTexture.h
+ D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
+ D:/code/cpp/gameEngine/include/Opengl/FrameBuffer.h

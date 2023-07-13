@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
 project(GameEngine VERSION 0.1.0)
 
+SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O2")
+SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2")
+# SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
+# SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+
 file(GLOB_RECURSE SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
@@ -115,10 +120,10 @@ add_custom_command(
 )
 
 # add_subdirectory(./snake)
-add_subdirectory(./TestGame)
+# add_subdirectory(./TestGame)
 add_subdirectory(./gameEngineEditor)
 
-add_dependencies(TestGame GameEngineLib)
+# add_dependencies(TestGame GameEngineLib)
 add_dependencies(GameEngineEditor GameEngineLib)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

@@ -2,9 +2,13 @@
 #define SDL_EDITOR_WINDOW_H
 
 #include "Core/GameBase.h"
+#include "Render/Renderer.h"
 
+#include "imgui.h"
 #include "imgui_impl_sdl2.h"
 #include "imgui_impl_opengl3.h"
+#include "ImGuizmo/ImGuizmo.h"
+#include "OutlineTreeWidget.h"
 
 class SDL_Editor_Window: public GameEngine::GameBase
 {
@@ -19,10 +23,14 @@ public:
     virtual void render() override;
     virtual void gameEventHandle() override;
 
-    void bindisFocusOnSDL(bool* ptr);
+    void bindIsFocusOnSDL(bool* ptr);
+    void bindOutlineTreeWidget(OutlineTreeWidget* ptr);
 private:
     bool* isFocusOnSDLPtr;
-    bool isCompleteFocusChange;
+    ImVec2 viewportSize;
+    OutlineTreeWidget* outlineTreeWidgetPtr;
+
+    void updateEditorCamera(float deltaTime);
 };
 
 #endif

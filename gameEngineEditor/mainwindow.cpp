@@ -129,8 +129,6 @@ MainWindow::MainWindow(QWidget *parent)
     
     connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
     connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
-
-    this->installEventFilter(this);
 }
 
 MainWindow::~MainWindow()
@@ -166,6 +164,8 @@ void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
     SDL_Editor_Window_Wrapper_Window* window = (SDL_Editor_Window_Wrapper_Window*)QWindow::fromWinId(winId);
     this->SDLWidget = (SDL_Editor_Window_Wrapper*)(QWidget::createWindowContainer(window));
     this->ui->centralwidget->layout()->addWidget(this->SDLWidget);
+
+    this->SDL_editor_window->bindOutlineTreeWidget(this->ui->treeWidget);
 }
 
 void MainWindow::resetFileSystemPanel()
@@ -258,21 +258,6 @@ void MainWindow::closeEvent(QCloseEvent *event)
 {
     this->SDL_editor_window->running = false;
     QMainWindow::closeEvent(event);
-}
-
-void MainWindow::mousePressEvent(QMouseEvent *event)
-{
-    // SetFocus((HWND)this->winId());
-    this->setFocus();
-    qDebug("click\n");
-    QMainWindow::mousePressEvent(event);
-}
-
-bool MainWindow::eventFilter(QObject *obj, QEvent *e)
-{
-    if (e->type() == QEvent::MouseButtonPress)
-        qDebug("Click");
-    return QMainWindow::eventFilter(obj, e);
 }
 
 void MainWindow::clearOutline()

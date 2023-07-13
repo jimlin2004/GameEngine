@@ -347,7 +347,33 @@ CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.obj: \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/include/Actor/Actor.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
@@ -385,7 +411,10 @@ CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  D:/code/cpp/gameEngine/include/Core/GELib.h \
  D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h

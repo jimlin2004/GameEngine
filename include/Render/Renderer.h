@@ -9,6 +9,7 @@
 #include "Opengl/Shader.h"
 #include "Opengl/Texture.h"
 #include "Opengl/SubTexture.h"
+#include "Opengl/FrameBuffer.h"
 #include "Component/Component.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 
@@ -81,6 +82,10 @@ namespace GameEngine
         static unsigned int getQuadNum();
         static unsigned int getDrawCalls();
         static unsigned int getLineNum();
+
+        static void bindFrameBuffer();
+        static void unbindFrameBuffer();
+        static uint32_t getFrameBufferColorAttachmentRendererID();
     private:
         //初始化渲染四邊形需要的事物
         static void initQuad();

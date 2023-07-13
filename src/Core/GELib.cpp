@@ -15,8 +15,6 @@ int GameEngine::randint(int from, int to)
 void GameEngine::shuffle(void* array, unsigned int len, size_t size, void (*swap)(void* a, void* b))
 {
     int randN;
-    int offset1;
-    int offset2;
     for (unsigned int i = len - 1; i >= 1; --i)
     {
         randN = GameEngine::randint(0, i);

@@ -130,7 +130,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>213</width>
+             <width>417</width>
              <height>335</height>
             </rect>
            </property>
@@ -493,7 +493,7 @@
          <number>0</number>
         </property>
         <item row="0" column="0">
-         <widget class="QTreeWidget" name="treeWidget">
+         <widget class="OutlineTreeWidget" name="treeWidget">
           <property name="columnCount">
            <number>1</number>
           </property>
@@ -699,6 +699,11 @@
    <class>QCollapsibleWidget</class>
    <extends>QWidget</extends>
    <header>QCollapsibleWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>OutlineTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>OutlineTreeWidget.h</header>
   </customwidget>
  </customwidgets>
  <resources>

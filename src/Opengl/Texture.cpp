@@ -26,7 +26,7 @@ GameEngine::Texture::Texture(unsigned int _width, unsigned int _height)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    GLubyte texData[] = { 255, 255, 255, 255 };
+    // GLubyte texData[] = { 255, 255, 255, 255 };
     glTexImage2D(GL_TEXTURE_2D, 0, this->internalFormat, this->width, this->height, 0, this->dataFormat, GL_UNSIGNED_BYTE, NULL);
 }
 

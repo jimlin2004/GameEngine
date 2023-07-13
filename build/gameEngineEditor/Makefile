@@ -270,6 +270,30 @@ GameEngineEditor_autogen/mocs_compilation.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.s
 .PHONY : GameEngineEditor_autogen/mocs_compilation.cpp.s
 
+__/third_party/ImGuizmo/ImGuizmo.obj: __/third_party/ImGuizmo/ImGuizmo.cpp.obj
+.PHONY : __/third_party/ImGuizmo/ImGuizmo.obj
+
+# target to build an object file
+__/third_party/ImGuizmo/ImGuizmo.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/ImGuizmo/ImGuizmo.cpp.obj
+.PHONY : __/third_party/ImGuizmo/ImGuizmo.cpp.obj
+
+__/third_party/ImGuizmo/ImGuizmo.i: __/third_party/ImGuizmo/ImGuizmo.cpp.i
+.PHONY : __/third_party/ImGuizmo/ImGuizmo.i
+
+# target to preprocess a source file
+__/third_party/ImGuizmo/ImGuizmo.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/ImGuizmo/ImGuizmo.cpp.i
+.PHONY : __/third_party/ImGuizmo/ImGuizmo.cpp.i
+
+__/third_party/ImGuizmo/ImGuizmo.s: __/third_party/ImGuizmo/ImGuizmo.cpp.s
+.PHONY : __/third_party/ImGuizmo/ImGuizmo.s
+
+# target to generate assembly for a file
+__/third_party/ImGuizmo/ImGuizmo.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/third_party/ImGuizmo/ImGuizmo.cpp.s
+.PHONY : __/third_party/ImGuizmo/ImGuizmo.cpp.s
+
 __/third_party/imgui/include/imgui.obj: __/third_party/imgui/include/imgui.cpp.obj
 .PHONY : __/third_party/imgui/include/imgui.obj
 
@@ -726,6 +750,30 @@ src/JsonParser.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.s
 .PHONY : src/JsonParser.cpp.s
 
+src/OutlineTreeWidget.obj: src/OutlineTreeWidget.cpp.obj
+.PHONY : src/OutlineTreeWidget.obj
+
+# target to build an object file
+src/OutlineTreeWidget.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj
+.PHONY : src/OutlineTreeWidget.cpp.obj
+
+src/OutlineTreeWidget.i: src/OutlineTreeWidget.cpp.i
+.PHONY : src/OutlineTreeWidget.i
+
+# target to preprocess a source file
+src/OutlineTreeWidget.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.i
+.PHONY : src/OutlineTreeWidget.cpp.i
+
+src/OutlineTreeWidget.s: src/OutlineTreeWidget.cpp.s
+.PHONY : src/OutlineTreeWidget.s
+
+# target to generate assembly for a file
+src/OutlineTreeWidget.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.s
+.PHONY : src/OutlineTreeWidget.cpp.s
+
 src/OutlineTreeWidgetItem.obj: src/OutlineTreeWidgetItem.cpp.obj
 .PHONY : src/OutlineTreeWidgetItem.obj
 
@@ -893,6 +941,9 @@ help:
 	@echo ... GameEngineEditor_autogen/mocs_compilation.obj
 	@echo ... GameEngineEditor_autogen/mocs_compilation.i
 	@echo ... GameEngineEditor_autogen/mocs_compilation.s
+	@echo ... __/third_party/ImGuizmo/ImGuizmo.obj
+	@echo ... __/third_party/ImGuizmo/ImGuizmo.i
+	@echo ... __/third_party/ImGuizmo/ImGuizmo.s
 	@echo ... __/third_party/imgui/include/imgui.obj
 	@echo ... __/third_party/imgui/include/imgui.i
 	@echo ... __/third_party/imgui/include/imgui.s
@@ -950,6 +1001,9 @@ help:
 	@echo ... src/JsonParser.obj
 	@echo ... src/JsonParser.i
 	@echo ... src/JsonParser.s
+	@echo ... src/OutlineTreeWidget.obj
+	@echo ... src/OutlineTreeWidget.i
+	@echo ... src/OutlineTreeWidget.s
 	@echo ... src/OutlineTreeWidgetItem.obj
 	@echo ... src/OutlineTreeWidgetItem.i
 	@echo ... src/OutlineTreeWidgetItem.s

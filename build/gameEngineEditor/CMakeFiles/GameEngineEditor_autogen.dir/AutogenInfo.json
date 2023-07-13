@@ -265,6 +265,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h",
+			"MU",
+			"6YEA5652QU/moc_OutlineTreeWidget.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h",
 			"MU",
 			"6YEA5652QU/moc_OutlineTreeWidgetItem.cpp",
@@ -328,6 +334,12 @@
 			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h",
 			"MU",
 			"WETUBSRGIL/moc_flowlayout.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.h",
+			"MU",
+			"YMGTJOMOJC/moc_ImGuizmo.cpp",
 			null
 		],
 		[
@@ -436,6 +448,7 @@
 		"D:/QT/6.4.2/mingw_64/include/QtZlib",
 		"D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2",
 		"D:/code/cpp/gameEngine/third_party/imgui/include",
+		"D:/code/cpp/gameEngine/third_party/ImGuizmo",
 		"D:/code/cpp/gameEngine/third_party/qtimgui/src",
 		"D:/QT/6.4.2/mingw_64/include/QtWidgets",
 		"D:/QT/6.4.2/mingw_64/include",
@@ -529,6 +542,11 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/OutlineTreeWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp",
 			"MU",
 			null
@@ -555,6 +573,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/runtime/compile/CompileProcess.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.cpp",
 			"MU",
 			null
 		],

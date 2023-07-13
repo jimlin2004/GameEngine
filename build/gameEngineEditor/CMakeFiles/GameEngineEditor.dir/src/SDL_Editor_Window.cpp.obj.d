@@ -595,7 +595,33 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameEngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameEngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/include/Component/Component.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
+ D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/include/Actor/Actor.h \
+ D:/code/cpp/gameEngine/include/Core/Timestep.h \
  D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
@@ -633,46 +659,21 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
- D:/code/cpp/gameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/include/Scene/Scene.h \
+ D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
  D:/code/cpp/gameEngine/include/Core/GELib.h \
  D:/code/cpp/gameEngine/include/Core/TypeName.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
- D:/code/cpp/gameEngine/include/Actor/Actor.h \
- D:/code/cpp/gameEngine/third_party/entt/include/entt.hpp \
+ D:/code/cpp/gameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/include/Render/Renderer.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexArray.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexBuffer.h \
  D:/code/cpp/gameEngine/include/Opengl/VertexBufferLayout.h \
  D:/code/cpp/gameEngine/include/Opengl/IndexBuffer.h \
  D:/code/cpp/gameEngine/include/Opengl/Shader.h \
- D:/code/cpp/gameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/include/Component/Component.h \
- D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/vector_relational.inl \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_float.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_geometric.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_common.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float.hpp \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_relational.inl \
- D:/code/cpp/gameEngine/third_party/glm/detail/type_quat.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_float_precision.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_double_precision.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_trigonometric.inl \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.hpp \
- D:/code/cpp/gameEngine/third_party/glm/ext/quaternion_transform.inl \
- D:/code/cpp/gameEngine/third_party/glm/gtc/quaternion.inl \
- D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.hpp \
- D:/code/cpp/gameEngine/third_party/glm/detail/setup.hpp \
- D:/code/cpp/gameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/include/Opengl/FrameBuffer.h \
  D:/code/cpp/gameEngine/include/Scene/SceneSerializer.h \
  D:/code/cpp/gameEngine/third_party/json/json.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
@@ -712,12 +713,167 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
- D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/third_party/imgui/include/imgui.h \
  D:/code/cpp/gameEngine/third_party/imgui/include/imconfig.h \
+ D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
+ D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qglobal.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qconfig.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtcore-config.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtconfigmacros.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtcoreexports.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsystemdetection.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qprocessordetection.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcompilerdetection.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtypeinfo.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerfwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/variant \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/optional \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsysinfo.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlogging.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qflags.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcompare_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qatomic.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbasicatomic.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qatomic_cxx11.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qgenericatomic.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/atomic \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qglobalstatic.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnumeric.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qforeach.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstring.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qchar.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringview.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbytearray.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qrefcount.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qarraydata.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qpair.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qarraydatapointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qarraydataops.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcontainertools_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayview.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringfwd.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringliteral.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringalgorithms.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qutf8stringview.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringtokenizer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qhashfunctions.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiterator.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbytearraylist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringlist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringmatcher.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qscopedpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmetatype.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcompare.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qscopeguard.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdatastream.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiodevicebase.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiterable.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmetacontainer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerinfo.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtaggedpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmath.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbindingstorage.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/chrono \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qkeysequence.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpaintdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qpoint.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qcolor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qrgb.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsharedpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qshareddata.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qimage.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpixelformat.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpolygon.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qregion.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qline.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtextstream.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringconverter_base.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcontiguouscache.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qshareddata_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qset.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qhash.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpalette.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qfont.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qfontmetrics.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qfontinfo.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvalidator.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qregularexpression.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qslider.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
  D:/code/cpp/gameEngine/include/Event/Input.h \
  D:/code/cpp/gameEngine/include/Event/KeyCode.h \
  D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
  D:/code/cpp/gameEngine/include/Event/MouseCode.h \
- D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h
+ D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/type_ptr.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/vec1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_bool1_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_float1_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_double1_precision.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_int1_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint1.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/ext/vector_uint1_sized.hpp \
+ D:/code/cpp/gameEngine/third_party/glm/gtc/type_ptr.inl

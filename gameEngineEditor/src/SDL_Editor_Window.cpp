@@ -1,11 +1,14 @@
 #include "SDL_Editor_Window.h"
 #include "Event/Input.h"
 #include <winuser.h>
+#include "glm/glm.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
 SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     : GameBase(title, width, height)
     , isFocusOnSDLPtr(nullptr)
-    , isCompleteFocusChange(true)
+    , outlineTreeWidgetPtr(nullptr)
+    , viewportSize(width, height)
 {
 }
 
@@ -34,7 +37,7 @@ bool SDL_Editor_Window::initSDL()
         SDL_WINDOWPOS_UNDEFINED,
         this->screenWidth,
         this->screenHeight,
-        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
+        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN);
         // SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN);
     if (!this->window)
     {
@@ -87,6 +90,7 @@ void SDL_Editor_Window::startGame()
         time = SDL_GetPerformanceCounter();
         this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
         this->gameEventHandle();
+        this->updateEditorCamera(this->timestep);
         this->update(this->timestep);
         this->render();
         SDL_GL_SwapWindow(this->window);
@@ -106,28 +110,88 @@ void SDL_Editor_Window::update(float deltaTime)
 
 void SDL_Editor_Window::render()
 {
-    static int n = 0;
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    static GameEngine::FrameBuffer* frameBuffer = new GameEngine::FrameBuffer(this->viewportSize.x, this->viewportSize.y);
+    static ImGuiIO& io = ImGui::GetIO();
+
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL2_NewFrame(this->window);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
     ImGui::NewFrame();
+    ImGuizmo::BeginFrame();
 
-    ImGui::Begin("Hello Imgui");
-        ImGui::Text("HI");
-        ImGui::InputInt("Test", &n);
-    ImGui::End();
-    ImGui::Render();
-    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
-
-    static float r = 0.0f;
+    // if (this->outlineTreeWidgetPtr)
+    // {
+    //     entt::entity entityId = this->outlineTreeWidgetPtr->getSelectedEntity();
+    //     if (entityId != entt::null)
+    //     {
+    //         ImGui::Begin("Test");
+    //         ImGuizmo::SetOrthographic(false);
+    //         ImGuizmo::SetDrawlist();
+    //         ImGuiIO& io = ImGui::GetIO();
+    //         // ImGuizmo::SetRect(0, 0, io.DisplaySize.x, io.DisplaySize.y);
+    //         ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
+    //         const glm::mat4& cameraProjection = GameEngine::cameraController->getCamera()->getProjectionMatrix();
+    //         glm::mat4 cameraView = glm::inverse(GameEngine::cameraController->getTransform());
+    //         GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityId);
+    //         glm::mat4 transform = transformComponent.getTransform();
+    //         auto flag = ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
+    //             ImGuizmo::OPERATION::TRANSLATE, ImGuizmo::LOCAL, glm::value_ptr(transform)
+    //         );
+    //         // uint32_t textureId = GameEngine::Renderer::getFrameBufferColorAttachmentRendererID();
+    //         uint32_t textureId = frameBuffer->getColorAttachmentRendererID();
+    //         ImGui::Image((void*)textureId, ImVec2{ 256, 256 }, ImVec2{ 0, 1 }, ImVec2{ 1, 0 });
+    //         ImGui::End();
+    //     }
+    // }
+    ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0, 0));
+    ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, ImVec2(0, 0));
+    ImGui::PushStyleVar(ImGuiStyleVar_FrameBorderSize, 0);
+    ImGui::SetNextWindowSize(io.DisplaySize);
+    ImGui::SetNextWindowPos({0, 0});
+    ImGui::Begin("viewport", NULL, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize
+        | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse);
+    {
+        ImVec2 currentViewportSize = ImGui::GetContentRegionAvail();
+        if ((this->viewportSize.x != currentViewportSize.x) || (this->viewportSize.y != currentViewportSize.y))
+        {
+            this->viewportSize = currentViewportSize;
+            GameEngine::cameraController->getCamera()->setProjectionMatrix(0.0, this->viewportSize.x, 0.0, this->viewportSize.y);
+            frameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
+        }
+        uint32_t textureId = frameBuffer->getColorAttachmentRendererID();
+        ImGui::Image((ImTextureID)textureId, currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
     
-    r += 0.001;
-    if (r > 1.0f)
-        r = 0.0f;
+        if (this->outlineTreeWidgetPtr)
+        {
+            entt::entity entityId = this->outlineTreeWidgetPtr->getSelectedEntity();
+            if (entityId != entt::null)
+            {
+                ImGuizmo::SetOrthographic(false);
+                ImGuizmo::SetDrawlist();
+                ImGuizmo::SetRect(0, 0, io.DisplaySize.x, io.DisplaySize.y);
+                // ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
+                const glm::mat4& cameraProjection = GameEngine::cameraController->getCamera()->getProjectionMatrix();
+                glm::mat4 cameraView = glm::inverse(GameEngine::cameraController->getTransform());
+                GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityId);
+                glm::mat4 transform = transformComponent.getTransform();
+                auto flag = ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
+                    ImGuizmo::OPERATION::TRANSLATE, ImGuizmo::LOCAL, glm::value_ptr(transform)
+                );
+                printf("hi\n");
+            }
+        }
+    }
+    ImGui::End();
+    ImGui::PopStyleVar(3);
+    ImGui::Render();
+    frameBuffer->bind(); 
     GameEngine::Renderer::begin();
-        GameEngine::Renderer::drawQuad({100.0f, 30.0f, 1.0f}, {50.0f, 50.0f}, {r, 0.0f, 0.0f, 1.0f});
+        GameEngine::Renderer::drawQuad({100.0f, 30.0f, 1.0f}, {50.0f, 50.0f}, {1.0, 1.0f, 1.0f, 1.0f});
         GameEngine::globalScene->render();
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
     GameEngine::Renderer::close();
+    frameBuffer->unbind();
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
 
 void SDL_Editor_Window::gameEventHandle()
@@ -144,8 +208,6 @@ void SDL_Editor_Window::gameEventHandle()
                 break;
         }
     }
-    if (GameEngine::Input::isKeyPressed(GameEngine::Key_E))
-        GameEngine::ConsoleApi::log("HI\n");
     if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
     {
         if (*(this->isFocusOnSDLPtr) == false)
@@ -153,18 +215,39 @@ void SDL_Editor_Window::gameEventHandle()
             SDL_SysWMinfo wmInfo;
             SDL_VERSION(&wmInfo.version);
             SDL_GetWindowWMInfo(this->window, &wmInfo);
-            SetForegroundWindow(wmInfo.info.win.window);
-            // auto temp = SDL_GetKeyboardFocus();
-            // auto tep = SDL_GetMouseFocus();
             SetFocus(wmInfo.info.win.window);
             *(this->isFocusOnSDLPtr) = true;
         }
-        
-        // printf("temp\n");
     }
 }
 
-void SDL_Editor_Window::bindisFocusOnSDL(bool *ptr)
+void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)
 {
     this->isFocusOnSDLPtr = ptr;
+}
+
+void SDL_Editor_Window::updateEditorCamera(float deltaTime)
+{
+    constexpr static int speed = 100;
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_D))
+    {
+        GameEngine::cameraController->moveCameraX(GameEngine::cameraController->getCameraX() + (speed * deltaTime));
+    }
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_A))
+    {
+        GameEngine::cameraController->moveCameraX(GameEngine::cameraController->getCameraX() - (speed * deltaTime));
+    }
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_W))
+    {
+        GameEngine::cameraController->moveCameraY(GameEngine::cameraController->getCameraY() + (speed * deltaTime));
+    }
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_S))
+    {
+        GameEngine::cameraController->moveCameraY(GameEngine::cameraController->getCameraY() - (speed * deltaTime));
+    }
+}
+
+void SDL_Editor_Window::bindOutlineTreeWidget(OutlineTreeWidget *ptr)
+{
+    this->outlineTreeWidgetPtr = ptr;
 }

@@ -19,10 +19,11 @@ namespace GameEngine
         FrameBuffer();
         FrameBuffer(uint32_t width, uint32_t height);
         virtual ~FrameBuffer();
-        void resize();
+        void generate();
+        void resize(uint32_t width, uint32_t height);
         void bind();
         void unbind();
-        uint32_t gettColorAttachmentRendererID() const;
+        uint32_t getColorAttachmentRendererID() const;
     };
 }
 
