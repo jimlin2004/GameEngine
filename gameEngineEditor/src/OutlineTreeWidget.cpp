@@ -14,5 +14,5 @@ entt::entity OutlineTreeWidget::getSelectedEntity() const
     if (outlineItem != nullptr)
         return outlineItem->getEntityID();
     else
-        throw std::runtime_error("Outline item is nullptr");
+        return entt::null; //點到Level的case
 }

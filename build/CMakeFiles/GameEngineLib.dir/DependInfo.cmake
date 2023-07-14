@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/src/Event/Input.cpp" "CMakeFiles/GameEngineLib.dir/src/Event/Input.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/Event/Input.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/GameEngineAPI/ConsoleApi.cpp" "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/ConsoleApi.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/ConsoleApi.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/GameEngineAPI/GameEngineAPI.cpp" "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj.d"
+  "D:/code/cpp/gameEngine/src/Math/Math.cpp" "CMakeFiles/GameEngineLib.dir/src/Math/Math.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/Math/Math.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Opengl/FrameBuffer.cpp" "CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Opengl/IndexBuffer.cpp" "CMakeFiles/GameEngineLib.dir/src/Opengl/IndexBuffer.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/Opengl/IndexBuffer.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Opengl/Shader.cpp" "CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.obj" "gcc" "CMakeFiles/GameEngineLib.dir/src/Opengl/Shader.cpp.obj.d"

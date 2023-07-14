@@ -291,7 +291,7 @@
                    </widget>
                   </item>
                   <item>
-                   <widget class="LineEditFloat" name="lineEditFloat_x_rotation"/>
+                   <widget class="LineEditRotation" name="lineEditFloat_x_rotation"/>
                   </item>
                   <item>
                    <widget class="QLabel" name="label_y_rotation">
@@ -301,7 +301,7 @@
                    </widget>
                   </item>
                   <item>
-                   <widget class="LineEditFloat" name="lineEditFloat_y_rotation"/>
+                   <widget class="LineEditRotation" name="lineEditFloat_y_rotation"/>
                   </item>
                   <item>
                    <widget class="QLabel" name="label_z_rotation">
@@ -311,7 +311,7 @@
                    </widget>
                   </item>
                   <item>
-                   <widget class="LineEditFloat" name="lineEditFloat_z_rotation"/>
+                   <widget class="LineEditRotation" name="lineEditFloat_z_rotation"/>
                   </item>
                  </layout>
                 </item>
@@ -704,6 +704,11 @@
    <class>OutlineTreeWidget</class>
    <extends>QTreeWidget</extends>
    <header>OutlineTreeWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEditRotation</class>
+   <extends>QLineEdit</extends>
+   <header>LineEditRotation.h</header>
   </customwidget>
  </customwidgets>
  <resources>

@@ -3,12 +3,15 @@
 #include <winuser.h>
 #include "glm/glm.hpp"
 #include "glm/gtc/type_ptr.hpp"
+#include "Math/Math.h"
 
 SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     : GameBase(title, width, height)
     , isFocusOnSDLPtr(nullptr)
     , outlineTreeWidgetPtr(nullptr)
     , viewportSize(width, height)
+    , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
+    , frameBuffer(nullptr)
 {
 }
 
@@ -102,16 +105,29 @@ void SDL_Editor_Window::startGame()
     SDL_Quit();
 }
 
+void SDL_Editor_Window::begin()
+{   
+    GameEngine::FrameBufferSpecification spec;
+    spec.width = this->viewportSize.x,
+    spec.height = this->viewportSize.y,
+    spec.attachments = {
+        GameEngine::FrameBufferTextureFormat::RGBA8,
+        GameEngine::FrameBufferTextureFormat::Depth
+    };
+    this->frameBuffer = new GameEngine::FrameBuffer(spec);
+}
+
 void SDL_Editor_Window::update(float deltaTime)
 {
-    if (GameEngine::Input::isKeyPressed(GameEngine::Key_E))
-        GameEngine::ConsoleApi::log("HI\n");
 }
 
 void SDL_Editor_Window::render()
 {
-    static GameEngine::FrameBuffer* frameBuffer = new GameEngine::FrameBuffer(this->viewportSize.x, this->viewportSize.y);
+    
     static ImGuiIO& io = ImGui::GetIO();
+
+    bool snap = GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL);
+    float snapValue = (this->gizmoOperation == ImGuizmo::ROTATE) ? 45.0f : 10.0f;
 
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL2_NewFrame(this->window);
@@ -119,30 +135,6 @@ void SDL_Editor_Window::render()
     ImGui::NewFrame();
     ImGuizmo::BeginFrame();
 
-    // if (this->outlineTreeWidgetPtr)
-    // {
-    //     entt::entity entityId = this->outlineTreeWidgetPtr->getSelectedEntity();
-    //     if (entityId != entt::null)
-    //     {
-    //         ImGui::Begin("Test");
-    //         ImGuizmo::SetOrthographic(false);
-    //         ImGuizmo::SetDrawlist();
-    //         ImGuiIO& io = ImGui::GetIO();
-    //         // ImGuizmo::SetRect(0, 0, io.DisplaySize.x, io.DisplaySize.y);
-    //         ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
-    //         const glm::mat4& cameraProjection = GameEngine::cameraController->getCamera()->getProjectionMatrix();
-    //         glm::mat4 cameraView = glm::inverse(GameEngine::cameraController->getTransform());
-    //         GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityId);
-    //         glm::mat4 transform = transformComponent.getTransform();
-    //         auto flag = ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
-    //             ImGuizmo::OPERATION::TRANSLATE, ImGuizmo::LOCAL, glm::value_ptr(transform)
-    //         );
-    //         // uint32_t textureId = GameEngine::Renderer::getFrameBufferColorAttachmentRendererID();
-    //         uint32_t textureId = frameBuffer->getColorAttachmentRendererID();
-    //         ImGui::Image((void*)textureId, ImVec2{ 256, 256 }, ImVec2{ 0, 1 }, ImVec2{ 1, 0 });
-    //         ImGui::End();
-    //     }
-    // }
     ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0, 0));
     ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, ImVec2(0, 0));
     ImGui::PushStyleVar(ImGuiStyleVar_FrameBorderSize, 0);
@@ -156,9 +148,9 @@ void SDL_Editor_Window::render()
         {
             this->viewportSize = currentViewportSize;
             GameEngine::cameraController->getCamera()->setProjectionMatrix(0.0, this->viewportSize.x, 0.0, this->viewportSize.y);
-            frameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
+            this->frameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
         }
-        uint32_t textureId = frameBuffer->getColorAttachmentRendererID();
+        uint32_t textureId = this->frameBuffer->getColorAttachmentRendererID();
         ImGui::Image((ImTextureID)textureId, currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
     
         if (this->outlineTreeWidgetPtr)
@@ -166,31 +158,42 @@ void SDL_Editor_Window::render()
             entt::entity entityId = this->outlineTreeWidgetPtr->getSelectedEntity();
             if (entityId != entt::null)
             {
-                ImGuizmo::SetOrthographic(false);
+                ImGuizmo::SetOrthographic(true);
                 ImGuizmo::SetDrawlist();
-                ImGuizmo::SetRect(0, 0, io.DisplaySize.x, io.DisplaySize.y);
-                // ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
+                ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
                 const glm::mat4& cameraProjection = GameEngine::cameraController->getCamera()->getProjectionMatrix();
                 glm::mat4 cameraView = glm::inverse(GameEngine::cameraController->getTransform());
                 GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityId);
                 glm::mat4 transform = transformComponent.getTransform();
-                auto flag = ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
-                    ImGuizmo::OPERATION::TRANSLATE, ImGuizmo::LOCAL, glm::value_ptr(transform)
+                
+                float snapValues[3] = { snapValue, snapValue, snapValue };
+                
+                ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
+                    this->gizmoOperation, ImGuizmo::MODE::LOCAL, glm::value_ptr(transform)
+                    , nullptr, (snap) ? snapValues : nullptr
                 );
-                printf("hi\n");
+                if (ImGuizmo::IsUsing())
+                {
+                    glm::vec3 translation, rotation, scale;
+                    GameEngine::Math::decomposeTransform(transform, translation, rotation, scale);
+                    transformComponent.translation = translation;
+                    glm::vec3 deltaRotation = rotation - transformComponent.rotation;
+                    transformComponent.rotation += deltaRotation; //解決萬向鎖問題
+                    transformComponent.scale = scale;
+                }
             }
         }
     }
     ImGui::End();
     ImGui::PopStyleVar(3);
     ImGui::Render();
-    frameBuffer->bind(); 
+    this->frameBuffer->bind(); 
     GameEngine::Renderer::begin();
         GameEngine::Renderer::drawQuad({100.0f, 30.0f, 1.0f}, {50.0f, 50.0f}, {1.0, 1.0f, 1.0f, 1.0f});
         GameEngine::globalScene->render();
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
     GameEngine::Renderer::close();
-    frameBuffer->unbind();
+    this->frameBuffer->unbind();
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
 
@@ -219,6 +222,12 @@ void SDL_Editor_Window::gameEventHandle()
             *(this->isFocusOnSDLPtr) = true;
         }
     }
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_E))
+        this->gizmoOperation = ImGuizmo::SCALE;
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_R))
+        this->gizmoOperation = ImGuizmo::ROTATE;
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_G))
+        this->gizmoOperation = ImGuizmo::TRANSLATE;
 }
 
 void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)

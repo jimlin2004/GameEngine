@@ -302,5 +302,13 @@
     1. 將Framebuffer貼到imgui中
     2. 之後Editor的SDL都多一層imgui image
     Todo list
-        -imguizmo目前失效
+        -ImGuizmo目前失效
+    存檔紀錄 --version 1.0-dev
+2023/07/14
+    1. ImGuizmo成功渲染
+    2. 將專案改變檔案擺放方式(GameEngine成為一個資料夾)
+    3. 移除cmake GameEngineLib
+    Todo list
+        -ImGuizmo不知道旋轉是否有問題(-180~180 degree)
+        -更好的Framebuffer api
     存檔紀錄 --version 1.0-dev

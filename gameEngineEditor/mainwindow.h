@@ -12,6 +12,7 @@
 #include <filesystem>
 #include <QColorDialog>
 #include <QCloseEvent>
+#include <QTimer>
 #include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
@@ -25,6 +26,7 @@
 #include "runtime/compile/CompileProcess.h"
 #include "SDL_Editor_Window.h"
 #include "SDL_Editor_Window_Wrapper.h"
+#include "glm/glm.hpp"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -50,6 +52,7 @@ private:
     CompileProcess compileProcess;
     SDL_Editor_Window* SDL_editor_window;
     SDL_Editor_Window_Wrapper* SDLWidget;
+    QTimer timer;
 
     /*重新刷新File system panel*/
     void resetFileSystemPanel();

@@ -32,6 +32,7 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "LineEditFloat.h"
+#include "LineEditRotation.h"
 #include "OutlineTreeWidget.h"
 #include "QCollapsibleWidget.h"
 
@@ -81,11 +82,11 @@ public:
     QLabel *label_2;
     QHBoxLayout *horizontalLayout_rotation;
     QLabel *label_x_rotation;
-    LineEditFloat *lineEditFloat_x_rotation;
+    LineEditRotation *lineEditFloat_x_rotation;
     QLabel *label_y_rotation;
-    LineEditFloat *lineEditFloat_y_rotation;
+    LineEditRotation *lineEditFloat_y_rotation;
     QLabel *label_z_rotation;
-    LineEditFloat *lineEditFloat_z_rotation;
+    LineEditRotation *lineEditFloat_z_rotation;
     QCollapsibleWidget *qCollapsibleWidget_color;
     QWidget *contentWidget_color;
     QVBoxLayout *verticalLayout_4;
@@ -321,7 +322,7 @@ public:
 
         horizontalLayout_rotation->addWidget(label_x_rotation);
 
-        lineEditFloat_x_rotation = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_x_rotation = new LineEditRotation(contentWidget_transform);
         lineEditFloat_x_rotation->setObjectName("lineEditFloat_x_rotation");
 
         horizontalLayout_rotation->addWidget(lineEditFloat_x_rotation);
@@ -331,7 +332,7 @@ public:
 
         horizontalLayout_rotation->addWidget(label_y_rotation);
 
-        lineEditFloat_y_rotation = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_y_rotation = new LineEditRotation(contentWidget_transform);
         lineEditFloat_y_rotation->setObjectName("lineEditFloat_y_rotation");
 
         horizontalLayout_rotation->addWidget(lineEditFloat_y_rotation);
@@ -341,7 +342,7 @@ public:
 
         horizontalLayout_rotation->addWidget(label_z_rotation);
 
-        lineEditFloat_z_rotation = new LineEditFloat(contentWidget_transform);
+        lineEditFloat_z_rotation = new LineEditRotation(contentWidget_transform);
         lineEditFloat_z_rotation->setObjectName("lineEditFloat_z_rotation");
 
         horizontalLayout_rotation->addWidget(lineEditFloat_z_rotation);

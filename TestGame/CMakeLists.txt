@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.16)
 set(GameName TestGame)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(GAME_ENGINE_DIR D:/code/cpp/gameEngine)
+set(GAME_ENGINE_DIR D:/code/cpp/gameEngine/GameEngine)
 
 file(
     GLOB_RECURSE LOCAL_SRC_FILES
@@ -20,7 +20,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/third_part
 target_include_directories(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/third_party/opengl/glew/include)
 target_include_directories(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/third_party/entt/include)
 target_include_directories(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/third_party)
-target_link_libraries(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/lib/libGameEngineLib.a) #一定要在最上面
+target_link_libraries(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/lib/libGameEngine.a) #一定要在最上面
 target_link_libraries(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE -lmingw32)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${GAME_ENGINE_DIR}/lib/libSDL2.a)

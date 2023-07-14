@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/ConsoleApi.cpp.obj.d"
   "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj"
   "CMakeFiles/GameEngineLib.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj.d"
+  "CMakeFiles/GameEngineLib.dir/src/Math/Math.cpp.obj"
+  "CMakeFiles/GameEngineLib.dir/src/Math/Math.cpp.obj.d"
   "CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.obj"
   "CMakeFiles/GameEngineLib.dir/src/Opengl/FrameBuffer.cpp.obj.d"
   "CMakeFiles/GameEngineLib.dir/src/Opengl/IndexBuffer.cpp.obj"

@@ -19,6 +19,7 @@ public:
     virtual bool initSDL() override;
     bool initImGui();
     virtual void startGame() override;
+    virtual void begin() override;
     virtual void update(float deltaTime) override;
     virtual void render() override;
     virtual void gameEventHandle() override;
@@ -29,6 +30,8 @@ private:
     bool* isFocusOnSDLPtr;
     ImVec2 viewportSize;
     OutlineTreeWidget* outlineTreeWidgetPtr;
+    ImGuizmo::OPERATION gizmoOperation;
+    GameEngine::FrameBuffer* frameBuffer;
 
     void updateEditorCamera(float deltaTime);
 };

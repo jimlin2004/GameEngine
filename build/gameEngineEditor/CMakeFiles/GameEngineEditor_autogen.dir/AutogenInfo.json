@@ -241,6 +241,72 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h",
+			"MU",
+			"SZO3HTGF7X/moc_ImGuizmo.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h",
+			"MU",
+			"4F5ZIUZINI/moc_imconfig.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h",
+			"MU",
+			"4F5ZIUZINI/moc_imgui.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h",
+			"MU",
+			"4F5ZIUZINI/moc_imgui_impl_opengl3.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3_loader.h",
+			"MU",
+			"4F5ZIUZINI/moc_imgui_impl_opengl3_loader.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h",
+			"MU",
+			"4F5ZIUZINI/moc_imgui_impl_sdl2.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.h",
+			"MU",
+			"4F5ZIUZINI/moc_imgui_impl_sdlrenderer2.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_internal.h",
+			"MU",
+			"4F5ZIUZINI/moc_imgui_internal.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_rectpack.h",
+			"MU",
+			"4F5ZIUZINI/moc_imstb_rectpack.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_textedit.h",
+			"MU",
+			"4F5ZIUZINI/moc_imstb_textedit.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_truetype.h",
+			"MU",
+			"4F5ZIUZINI/moc_imstb_truetype.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h",
 			"MU",
 			"6YEA5652QU/moc_AssetFileWidget.cpp",
@@ -262,6 +328,12 @@
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h",
 			"MU",
 			"6YEA5652QU/moc_JsonParser.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h",
+			"MU",
+			"6YEA5652QU/moc_LineEditRotation.cpp",
 			null
 		],
 		[
@@ -335,78 +407,6 @@
 			"MU",
 			"WETUBSRGIL/moc_flowlayout.cpp",
 			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.h",
-			"MU",
-			"YMGTJOMOJC/moc_ImGuizmo.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imconfig.h",
-			"MU",
-			"XGPN6N3MQP/moc_imconfig.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui.h",
-			"MU",
-			"XGPN6N3MQP/moc_imgui.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3.h",
-			"MU",
-			"XGPN6N3MQP/moc_imgui_impl_opengl3.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3_loader.h",
-			"MU",
-			"XGPN6N3MQP/moc_imgui_impl_opengl3_loader.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.h",
-			"MU",
-			"XGPN6N3MQP/moc_imgui_impl_sdl2.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.h",
-			"MU",
-			"XGPN6N3MQP/moc_imgui_impl_sdlrenderer2.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_internal.h",
-			"MU",
-			"XGPN6N3MQP/moc_imgui_internal.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imstb_rectpack.h",
-			"MU",
-			"XGPN6N3MQP/moc_imstb_rectpack.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imstb_textedit.h",
-			"MU",
-			"XGPN6N3MQP/moc_imstb_textedit.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imstb_truetype.h",
-			"MU",
-			"XGPN6N3MQP/moc_imstb_truetype.cpp",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/json/json.hpp",
-			"MU",
-			"SEKTYA3XXP/moc_json.cpp",
-			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -436,20 +436,19 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"D:/code/cpp/gameEngine/include",
-		"D:/code/cpp/gameEngine/third_party/box2d/include",
-		"D:/code/cpp/gameEngine/third_party/opengl/glew/include",
-		"D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include",
-		"D:/code/cpp/gameEngine/third_party/entt/include",
-		"D:/code/cpp/gameEngine/third_party",
 		"D:/code/cpp/gameEngine/gameEngineEditor",
 		"D:/code/cpp/gameEngine/gameEngineEditor/include",
 		"D:/code/cpp/gameEngine/gameEngineEditor/plugins",
 		"D:/QT/6.4.2/mingw_64/include/QtZlib",
-		"D:/code/cpp/gameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2",
-		"D:/code/cpp/gameEngine/third_party/imgui/include",
-		"D:/code/cpp/gameEngine/third_party/ImGuizmo",
-		"D:/code/cpp/gameEngine/third_party/qtimgui/src",
+		"D:/code/cpp/gameEngine/GameEngine/include",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/entt/include",
+		"D:/code/cpp/gameEngine/GameEngine/third_party",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo",
+		"D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2",
 		"D:/QT/6.4.2/mingw_64/include/QtWidgets",
 		"D:/QT/6.4.2/mingw_64/include",
 		"D:/QT/6.4.2/mingw_64/include/QtCore",
@@ -495,6 +494,51 @@
 	"SETTINGS_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_demo.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_draw.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp",
+			"MU",
+			null
+		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/editorEntryPoint.cpp",
 			"MU",
@@ -542,6 +586,11 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/LineEditRotation.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/OutlineTreeWidget.cpp",
 			"MU",
 			null
@@ -573,56 +622,6 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/runtime/compile/CompileProcess.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/ImGuizmo/ImGuizmo.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_demo.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_draw.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_tables.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/imgui/include/imgui_widgets.cpp",
-			"MU",
-			null
-		],
-		[
-			"D:/code/cpp/gameEngine/third_party/stb_image/std_image.cpp",
 			"MU",
 			null
 		]

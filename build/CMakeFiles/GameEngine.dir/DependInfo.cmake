@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/code/cpp/gameEngine/main.cpp" "CMakeFiles/GameEngine.dir/main.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/main.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Actor/Actor.cpp" "CMakeFiles/GameEngine.dir/src/Actor/Actor.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Actor/Actor.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Component/Component.cpp" "CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Core/Camera.cpp" "CMakeFiles/GameEngine.dir/src/Core/Camera.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Core/Camera.cpp.obj.d"
@@ -22,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/src/Event/Input.cpp" "CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/GameEngineAPI/ConsoleApi.cpp" "CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/GameEngineAPI/GameEngineAPI.cpp" "CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj.d"
+  "D:/code/cpp/gameEngine/src/Math/Math.cpp" "CMakeFiles/GameEngine.dir/src/Math/Math.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Math/Math.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Opengl/FrameBuffer.cpp" "CMakeFiles/GameEngine.dir/src/Opengl/FrameBuffer.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Opengl/FrameBuffer.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Opengl/IndexBuffer.cpp" "CMakeFiles/GameEngine.dir/src/Opengl/IndexBuffer.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Opengl/IndexBuffer.cpp.obj.d"
   "D:/code/cpp/gameEngine/src/Opengl/Shader.cpp" "CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.obj" "gcc" "CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.obj.d"

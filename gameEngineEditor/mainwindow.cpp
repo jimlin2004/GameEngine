@@ -2,7 +2,6 @@
 #include "./ui_mainwindow.h"
 #include <QWindow>
 #include <windows.h>
-#include <tchar.h>
 
 static QTextBrowser* _textBrowserPtr;
 
@@ -129,6 +128,38 @@ MainWindow::MainWindow(QWidget *parent)
     
     connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
     connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
+
+    //bind tiemr to transform
+    connect(&(this->timer), &QTimer::timeout, [=](){
+        if (!this->ui->lineEditFloat_x_position->isEditing())
+            this->ui->lineEditFloat_x_position->refresh();
+        if (!this->ui->lineEditFloat_y_position->isEditing())
+            this->ui->lineEditFloat_y_position->refresh();
+        if (!this->ui->lineEditFloat_z_position->isEditing())
+            this->ui->lineEditFloat_z_position->refresh();
+        if (!this->ui->lineEditFloat_x_scale->isEditing())
+            this->ui->lineEditFloat_x_scale->refresh();
+        if (!this->ui->lineEditFloat_y_scale->isEditing())
+            this->ui->lineEditFloat_y_scale->refresh();
+        if (!this->ui->lineEditFloat_z_scale->isEditing())
+            this->ui->lineEditFloat_z_scale->refresh();
+        if (!this->ui->lineEditFloat_x_rotation->isEditing())
+        {
+            if (this->ui->lineEditFloat_x_rotation->isEnabled())
+                this->ui->lineEditFloat_x_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_x_rotation->getValue())));
+        }
+        if (!this->ui->lineEditFloat_y_rotation->isEditing())
+        {
+            if (this->ui->lineEditFloat_y_rotation->isEnabled())
+                this->ui->lineEditFloat_y_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_y_rotation->getValue())));
+        }
+        if (!this->ui->lineEditFloat_z_rotation->isEditing())
+        {
+            if (this->ui->lineEditFloat_z_rotation->isEnabled())
+                this->ui->lineEditFloat_z_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_z_rotation->getValue())));
+        }        
+    });
+    this->timer.start(41);
 }
 
 MainWindow::~MainWindow()
