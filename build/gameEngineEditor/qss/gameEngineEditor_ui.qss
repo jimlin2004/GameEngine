@@ -13,7 +13,7 @@
 
 #menubar {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #ff171717;
 }
 
 #menubar::item:selected {
@@ -23,7 +23,7 @@
 
 #menubar QMenu {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #ff171717;
 }
 
 #menubar QMenu::item:selected {
@@ -36,7 +36,7 @@
 }
 
 #dockWidgetBottom::title {
-    background-color: #000000;
+    background-color: #ff171717;
     text-align: left;
 }
 
@@ -78,14 +78,14 @@
 
 #tabWidget_manager #tab_console #textBrowser
 {
-    background: #000000;
+    background: #ff171717;
     border: 1px solid #ffe600;
     font-family: "Cascadia Mono";
 }
 
 #tabWidget_manager #tab_console #lineEdit
 {
-    background: #000000;
+    background: #ff171717;
     color: #ffffff;
     border-style: solid solid solid solid;
     border-width: 0px 1px 1px 1px;
@@ -103,7 +103,7 @@
 }
 
 #dockWidgetLeft::title {
-    background-color: #000000;
+    background-color: #ff171717;
     text-align: left;
 }
 
@@ -118,7 +118,7 @@
 }
 
 #dockWidgetRight::title {
-    background-color: #000000;
+    background-color: #ff171717;
     text-align: left;
 }
 

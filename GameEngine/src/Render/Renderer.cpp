@@ -6,6 +6,9 @@ struct QuadVertex
     glm::vec4 color;
     glm::vec2 texCoord;
     float textureIndex;
+
+    //Editor only
+    int entityID;
 };
 
 struct LineVertex
@@ -66,6 +69,7 @@ void GameEngine::Renderer::initQuad()
     layout.push(GL_FLOAT, 4); //color
     layout.push(GL_FLOAT, 2); //texCrood
     layout.push(GL_FLOAT, 1); //textureIndex
+    layout.push(GL_INT, 1); //entityID
     rendererData.quadVertexArray->addBuffer(*(rendererData.quadVertexBuffer), layout);
 
     rendererData.quadVertexBufferBase = new QuadVertex[rendererData.maxVertices];
@@ -209,12 +213,12 @@ void GameEngine::Renderer::drawFrame()
     }
 }
 
-void GameEngine::Renderer::draw(const glm::mat4& transform, const GameEngine::MeshComponent& mesh)
+void GameEngine::Renderer::draw(const glm::mat4& transform, const GameEngine::MeshComponent& mesh, int entityID)
 {
     if (mesh.texture != nullptr)
-        GameEngine::Renderer::drawQuad(transform, mesh.texture, mesh.color);
+        GameEngine::Renderer::drawQuad(transform, mesh.texture, mesh.color, entityID);
     else
-        GameEngine::Renderer::drawQuad(transform, mesh.color);
+        GameEngine::Renderer::drawQuad(transform, mesh.color, entityID);
 }
 
 void GameEngine::Renderer::drawQuad(const glm::vec2& position, const glm::vec2& size, const glm::vec4& color)
@@ -229,7 +233,7 @@ void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& 
     GameEngine::Renderer::drawQuad(transform, color);
 }
 
-void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, const glm::vec4 &color)
+void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, const glm::vec4 &color, int entityID)
 {
     constexpr static glm::vec2 texCoords[] = {
         {0.0f, 0.0f},
@@ -246,6 +250,7 @@ void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, const glm::vec4 
         rendererData.quadVertexBufferPtr->color = color;
         rendererData.quadVertexBufferPtr->texCoord = texCoords[i];
         rendererData.quadVertexBufferPtr->textureIndex = 0;
+        rendererData.quadVertexBufferPtr->entityID = entityID;
         rendererData.quadVertexBufferPtr++;
     }
     rendererData.quadIndexCount += 6;
@@ -264,7 +269,7 @@ void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& 
     GameEngine::Renderer::drawQuad(transform, texture, maskColor);
 }
 
-void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, Texture *texture, const glm::vec4 &maskColor)
+void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, Texture *texture, const glm::vec4 &maskColor, int entityID)
 {
     constexpr static glm::vec2 texCoords[] = {
         {0.0f, 0.0f},
@@ -299,6 +304,7 @@ void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, Texture *texture
         rendererData.quadVertexBufferPtr->color = maskColor;
         rendererData.quadVertexBufferPtr->texCoord = texCoords[i];
         rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
+        rendererData.quadVertexBufferPtr->entityID = entityID;
         rendererData.quadVertexBufferPtr++;
     }
     
@@ -320,7 +326,7 @@ void GameEngine::Renderer::drawQuad(const glm::vec3& position, const glm::vec2& 
     GameEngine::Renderer::drawQuad(transform, subTexture, maskColor);
 }
 
-void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, SubTexture *subTexture, const glm::vec4 &maskColor)
+void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, SubTexture *subTexture, const glm::vec4 &maskColor, int entityID)
 {
     if (rendererData.quadIndexCount >= rendererData.maxIndeices)
         GameEngine::Renderer::startNewBatch();
@@ -352,6 +358,7 @@ void GameEngine::Renderer::drawQuad(const glm::mat4 &transform, SubTexture *subT
         rendererData.quadVertexBufferPtr->color = maskColor;
         rendererData.quadVertexBufferPtr->texCoord = textureCroods[i];
         rendererData.quadVertexBufferPtr->textureIndex = textureIndex;
+        rendererData.quadVertexBufferPtr->entityID = entityID;
         rendererData.quadVertexBufferPtr++;
     }
     

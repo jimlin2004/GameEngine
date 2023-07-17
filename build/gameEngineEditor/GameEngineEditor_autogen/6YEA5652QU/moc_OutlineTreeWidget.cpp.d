@@ -229,6 +229,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   C:/Program\ Files/msys64/mingw64/include/wctype.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
   D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \
@@ -252,6 +253,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdatastream.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qflags.h \

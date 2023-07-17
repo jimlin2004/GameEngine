@@ -8,7 +8,7 @@
 SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     : GameBase(title, width, height)
     , isFocusOnSDLPtr(nullptr)
-    , outlineTreeWidgetPtr(nullptr)
+    , mainWindowExportDataPtr(nullptr)
     , viewportSize(width, height)
     , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
     , frameBuffer(nullptr)
@@ -112,6 +112,7 @@ void SDL_Editor_Window::begin()
     spec.height = this->viewportSize.y,
     spec.attachments = {
         GameEngine::FrameBufferTextureFormat::RGBA8,
+        GameEngine::FrameBufferTextureFormat::RED_INTEGER,
         GameEngine::FrameBufferTextureFormat::Depth
     };
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
@@ -123,7 +124,6 @@ void SDL_Editor_Window::update(float deltaTime)
 
 void SDL_Editor_Window::render()
 {
-    
     static ImGuiIO& io = ImGui::GetIO();
 
     bool snap = GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL);
@@ -153,9 +153,13 @@ void SDL_Editor_Window::render()
         uint32_t textureId = this->frameBuffer->getColorAttachmentRendererID();
         ImGui::Image((ImTextureID)textureId, currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
     
-        if (this->outlineTreeWidgetPtr)
+        if (this->mainWindowExportDataPtr)
         {
-            entt::entity entityId = this->outlineTreeWidgetPtr->getSelectedEntity();
+            if (this->hoveredActor)
+                this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(
+                    this->mainWindowExportDataPtr->actorCollection->getItemByEntityID((entt::entity)this->hoveredActor.getID())
+                );
+            entt::entity entityId = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
             if (entityId != entt::null)
             {
                 ImGuizmo::SetOrthographic(true);
@@ -192,7 +196,25 @@ void SDL_Editor_Window::render()
         GameEngine::Renderer::drawQuad({100.0f, 30.0f, 1.0f}, {50.0f, 50.0f}, {1.0, 1.0f, 1.0f, 1.0f});
         GameEngine::globalScene->render();
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
+    frameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
+
+    int mx, my;
+    GameEngine::Input::getMousePosition(&mx, &my);
+    my = io.DisplaySize.y - my;
+    if (mx >= 0 && mx < io.DisplaySize.x && my >= 0 && my < io.DisplaySize.y)
+    {
+        int pixelData = frameBuffer->readPixel(1, mx, my);
+        if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
+        {
+            if (!ImGuizmo::IsOver())
+            {
+                this->hoveredActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
+            }
+        }
+    }
+    
+
     this->frameBuffer->unbind();
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
@@ -256,7 +278,7 @@ void SDL_Editor_Window::updateEditorCamera(float deltaTime)
     }
 }
 
-void SDL_Editor_Window::bindOutlineTreeWidget(OutlineTreeWidget *ptr)
+void SDL_Editor_Window::bindExportData(GameEngineEditor::ExportData* ptr)
 {
-    this->outlineTreeWidgetPtr = ptr;
+    this->mainWindowExportDataPtr = ptr;
 }

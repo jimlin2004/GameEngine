@@ -28,7 +28,7 @@ void GameEngine::Scene::render()
     for (entt::entity entity: view)
     {
         auto [transform, mesh] = view.get<GameEngine::TransformComponent, GameEngine::MeshComponent>(entity);
-        Renderer::draw(transform.getTransform(), mesh);
+        Renderer::draw(transform.getTransform(), mesh, (int)entity);
     }
 }
 

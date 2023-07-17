@@ -1,17 +1,54 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj: \
  D:\code\cpp\gameEngine\gameEngineEditor\src\OutlineTreeWidgetItem.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qglobal.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/new \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/initializer_list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qglobal.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/stddef.h \
@@ -24,10 +61,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/utility \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/move.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/initializer_list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/stdint.h \
@@ -55,21 +88,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/variant \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/new \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/optional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/exception \
@@ -95,12 +114,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
  C:/PROGRA~1/msys64/mingw64/include/math.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/limits \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
@@ -116,54 +129,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
  D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qforeach.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qstring.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qchar.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_function.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_map \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/array \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/compare \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qstringview.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbytearray.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qrefcount.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qarraydata.h \
@@ -233,6 +199,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/stdexcept \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/streambuf.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/align.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bit \
@@ -246,6 +213,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
@@ -253,6 +224,37 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.o
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbytearrayview.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qstringfwd.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstring.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qchar.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_function.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_map \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/array \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/compare \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qstringview.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qstringliteral.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qstringalgorithms.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qanystringview.h \

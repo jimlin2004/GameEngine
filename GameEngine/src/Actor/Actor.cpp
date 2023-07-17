@@ -3,7 +3,7 @@
 #include "Component/Component.h"
 
 GameEngine::Actor::Actor()
-    : entityID()
+    : entityID(entt::null)
 {
 }
 
@@ -67,6 +67,11 @@ void GameEngine::Actor::update(const float deltaTime)
 
 void GameEngine::Actor::destroy()
 {
+}
+
+GameEngine::Actor::operator bool()
+{
+    return (this->entityID != entt::null);
 }
 
 GameEngine::Character::Character()

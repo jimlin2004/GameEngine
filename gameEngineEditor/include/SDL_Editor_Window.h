@@ -8,7 +8,7 @@
 #include "imgui_impl_sdl2.h"
 #include "imgui_impl_opengl3.h"
 #include "ImGuizmo/ImGuizmo.h"
-#include "OutlineTreeWidget.h"
+#include "MainWindowExportData.h"
 
 class SDL_Editor_Window: public GameEngine::GameBase
 {
@@ -25,13 +25,16 @@ public:
     virtual void gameEventHandle() override;
 
     void bindIsFocusOnSDL(bool* ptr);
-    void bindOutlineTreeWidget(OutlineTreeWidget* ptr);
+    void bindExportData(GameEngineEditor::ExportData* ptr);
 private:
     bool* isFocusOnSDLPtr;
     ImVec2 viewportSize;
-    OutlineTreeWidget* outlineTreeWidgetPtr;
+    
     ImGuizmo::OPERATION gizmoOperation;
     GameEngine::FrameBuffer* frameBuffer;
+    GameEngine::Actor hoveredActor;
+
+    GameEngineEditor::ExportData* mainWindowExportDataPtr;
 
     void updateEditorCamera(float deltaTime);
 };

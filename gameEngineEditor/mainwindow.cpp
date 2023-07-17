@@ -72,6 +72,8 @@ static void parseEditorMsg(QtMsgType type, const QMessageLogContext &context, co
     }
 }
 
+GameEngineEditor::ExportData MainWindow::exportData;
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -108,7 +110,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Game Object outline
     this->ui->treeWidget->headerItem()->setText(0, "Collection");
-    actorLevel = new QTreeWidgetItem(this->ui->treeWidget);
+    actorLevel = new OutlineTreeWidgetItem(this->ui->treeWidget);
     actorLevel->setText(0, "Actor");
 
     // connect(this->ui->openglWidget, &EditorOpenGLWidget::resetGameObjectOutline, this, &MainWindow::resetGameObjectOutline);
@@ -160,6 +162,10 @@ MainWindow::MainWindow(QWidget *parent)
         }        
     });
     this->timer.start(41);
+
+    //export data
+    this->exportData.outlineTreeWidget = this->ui->treeWidget;
+    this->exportData.actorCollection = this->actorLevel;
 }
 
 MainWindow::~MainWindow()
@@ -196,7 +202,7 @@ void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
     this->SDLWidget = (SDL_Editor_Window_Wrapper*)(QWidget::createWindowContainer(window));
     this->ui->centralwidget->layout()->addWidget(this->SDLWidget);
 
-    this->SDL_editor_window->bindOutlineTreeWidget(this->ui->treeWidget);
+    this->SDL_editor_window->bindExportData(this->getExportDataPtr());
 }
 
 void MainWindow::resetFileSystemPanel()
@@ -303,12 +309,14 @@ void MainWindow::resetGameObjectOutline()
     std::vector<entt::entity> entities = EditorScene::getAllActors();
     for (entt::entity entity: entities)
     {
-        OutlineTreeWidgetItem* item = new OutlineTreeWidgetItem();
+        OutlineTreeWidgetItem* item = new OutlineTreeWidgetItem(this->actorLevel);
         GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entity);
         item->setText(0, QString::fromStdString(tagComponent.tagName));
         item->setEntityID(entity);
         this->actorLevel->addChild(item);
     }
+    this->actorLevel->resetItemsVec();
+    // this->ui->treeWidget->setSelectedEntity(this->actorLevel->getItemByEntityID(entities[0]));
 }
 
 void MainWindow::openProject()

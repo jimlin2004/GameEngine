@@ -312,3 +312,12 @@
         -ImGuizmo不知道旋轉是否有問題(-180~180 degree)
         -更好的Framebuffer api
     存檔紀錄 --version 1.0-dev
+2023/07/17
+    1. 改變Framebuffer的api(改為specification的方式以及format還有switch改善hard code)
+    2. 完成mouse picking(有改到glsl)，也許之後要換成editor以及runtime版本改善效能
+    3. mouse picking對editor(QT)的事件對應完成
+    4. MainWindow多了ExportData用於SDL及QT的溝通(用pointer跨過scope限制)
+    Todo list
+        -觀察更多功能以及目前功能是否正常
+        -拖動添加物件的功能
+    存檔紀錄 --version 1.0-dev

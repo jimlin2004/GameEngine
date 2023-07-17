@@ -27,6 +27,7 @@
 #include "SDL_Editor_Window.h"
 #include "SDL_Editor_Window_Wrapper.h"
 #include "glm/glm.hpp"
+#include "MainWindowExportData.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -41,6 +42,10 @@ public:
     ~MainWindow();
     void embedSDL(WId winId, SDL_Editor_Window* newSDL_Window);
     void onFocusChanged(bool& isFocusOnSDL);
+    inline GameEngineEditor::ExportData* getExportDataPtr() const
+    {
+        return &(this->exportData);
+    }
 private:
     Ui::MainWindow *ui;
 
@@ -48,11 +53,12 @@ private:
     FlowLayout* flowLayout_fileSystemPanel;
     QPixmap* fileSpriteSheet;
     std::filesystem::path currentPath;
-    QTreeWidgetItem* actorLevel;
+    OutlineTreeWidgetItem* actorLevel;
     CompileProcess compileProcess;
     SDL_Editor_Window* SDL_editor_window;
     SDL_Editor_Window_Wrapper* SDLWidget;
     QTimer timer;
+    static GameEngineEditor::ExportData exportData;
 
     /*重新刷新File system panel*/
     void resetFileSystemPanel();

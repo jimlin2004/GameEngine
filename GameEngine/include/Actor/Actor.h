@@ -73,6 +73,8 @@ namespace GameEngine
                 throw std::invalid_argument("The actor does not have component");
             this->scene->registry.remove<T>(this->entityID);
         }
+
+        operator bool();
     };
 
     //可編程

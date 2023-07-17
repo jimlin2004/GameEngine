@@ -717,6 +717,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
@@ -858,6 +859,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \

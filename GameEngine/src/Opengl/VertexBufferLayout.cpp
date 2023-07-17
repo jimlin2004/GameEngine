@@ -7,6 +7,10 @@ GameEngine::VertexBufferElement::VertexBufferElement(unsigned int type, unsigned
     this->normalized = normalized;
 }
 
+GameEngine::VertexBufferElement::~VertexBufferElement()
+{
+}
+
 GameEngine::VertexBufferLayout::VertexBufferLayout()
 {
     this->stride = 0;

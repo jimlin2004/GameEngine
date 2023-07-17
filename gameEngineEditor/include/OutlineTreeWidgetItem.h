@@ -1,22 +1,27 @@
 #ifndef OUTLINE_TREE_WIDGET_ITEM_H
 #define OUTLINE_TREE_WIDGET_ITEM_H
 
+#include <vector>
+#include <QChildEvent>
 #include <QTreeWidget>
 #include <entt.hpp>
 
 class OutlineTreeWidgetItem: public QTreeWidgetItem
 {
 public:
-    OutlineTreeWidgetItem();
+    OutlineTreeWidgetItem(QTreeWidget *treeview, int type = 0);
+    OutlineTreeWidgetItem(QTreeWidgetItem *parent, int type = 0);
     void setEntityID(entt::entity ID);
     inline entt::entity getEntityID() const
     {
         return this->entityID;
     }
     void click();
+    void resetItemsVec();
+    OutlineTreeWidgetItem* getItemByEntityID(entt::entity entityID) const;
 private:
     entt::entity entityID;
-protected:
+    static std::vector<OutlineTreeWidgetItem*> itemsVec;
 };
 
 #endif

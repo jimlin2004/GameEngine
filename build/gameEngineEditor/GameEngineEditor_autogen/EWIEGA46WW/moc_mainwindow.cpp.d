@@ -511,6 +511,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsaveoptintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xsavesintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xtestintrin.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
   D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
   D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
   D:/QT/6.4.2/mingw_64/include/QtCore/QFile \
@@ -1009,6 +1010,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \

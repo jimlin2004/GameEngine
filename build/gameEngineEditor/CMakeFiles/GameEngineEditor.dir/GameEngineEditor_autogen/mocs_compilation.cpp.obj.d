@@ -911,12 +911,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_SDL_Editor_Window_Wrapper.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
  D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
- D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
  D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
@@ -1064,8 +1065,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditFloat.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditInt.cpp \
@@ -1075,5 +1078,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/QList

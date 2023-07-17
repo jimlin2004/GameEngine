@@ -12,7 +12,7 @@ public:
     OutlineTreeWidget(QWidget* parent = nullptr);
 
     entt::entity getSelectedEntity() const;
-
+    void setSelectedEntity(QTreeWidgetItem* item);
 };
 
 #endif

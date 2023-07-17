@@ -941,6 +941,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
@@ -1037,17 +1039,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
  D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
- D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
  D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
@@ -1100,5 +1103,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
- D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/QList

@@ -347,6 +347,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ostream \
