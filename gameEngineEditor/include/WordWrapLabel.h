@@ -10,7 +10,6 @@ class WordWrapLabel: public QLabel
 public:
     WordWrapLabel(QWidget *parent = nullptr);
     WordWrapLabel(const QString& text, QWidget *parent = nullptr);
-    ~WordWrapLabel();
 // private:
     void wrapText(const QString& text);
 };

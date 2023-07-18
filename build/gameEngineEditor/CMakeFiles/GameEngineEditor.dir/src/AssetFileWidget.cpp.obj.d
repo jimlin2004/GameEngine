@@ -381,5 +381,17 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qeventloop.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QDrag \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMimeData \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmimedata.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h

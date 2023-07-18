@@ -12,11 +12,6 @@ WordWrapLabel::WordWrapLabel(const QString& text, QWidget *parent)
     
 }
 
-WordWrapLabel::~WordWrapLabel()
-{
-
-}
-
 QString splitText(const QFontMetrics& fm, const QString& text, int labelWidth)
 {
     int textSize = fm.size(0, text).width();

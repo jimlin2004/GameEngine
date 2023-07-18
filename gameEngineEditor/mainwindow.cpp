@@ -1,7 +1,11 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QWindow>
-#include <windows.h>
+#include "Core/Platform.h"
+#if USE_WINDOWS
+    #include <winuser.h>
+    #include <windows.h>
+#endif
 
 static QTextBrowser* _textBrowserPtr;
 
@@ -78,15 +82,11 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
     , projectParser(new ProjectParser())
-    , flowLayout_fileSystemPanel(new FlowLayout())
-    , fileSpriteSheet(new QPixmap("./assets/texture/filesystem.png"))
     , compileProcess(_textBrowserPtr)
     , SDL_editor_window(nullptr)
     , SDLWidget(nullptr)
 {
     ui->setupUi(this);
-    
-    this->ui->scrollAreaWidgetContents->setLayout(this->flowLayout_fileSystemPanel);
     
     QFile qssFile("./qss/gameEngineEditor_ui.qss");
     qssFile.open(QFile::ReadOnly);
@@ -174,24 +174,14 @@ MainWindow::~MainWindow()
     delete this->projectParser;
 }
 
-void MainWindow::clearFileSystemPanel()
-{
-    QLayoutItem* _item;
-    QWidget* _widget;
-    while (_item = this->flowLayout_fileSystemPanel->takeAt(0))
-    {
-        _widget = _item->widget();
-        delete _widget;
-        delete _item;
-    }
-}
-
 void MainWindow::onFocusChanged(bool& isFocusOnSDL)
 {
     if (isFocusOnSDL)
     {
+#if defined(USE_WINDOWS)
         SetFocus((HWND)this->winId());
         isFocusOnSDL = false;
+#endif
     }
 }
 
@@ -203,28 +193,6 @@ void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
     this->ui->centralwidget->layout()->addWidget(this->SDLWidget);
 
     this->SDL_editor_window->bindExportData(this->getExportDataPtr());
-}
-
-void MainWindow::resetFileSystemPanel()
-{
-    this->clearFileSystemPanel();
-
-    if (!std::filesystem::exists(this->currentPath))
-        return;
-    std::filesystem::directory_entry entry(this->currentPath);
-    std::filesystem::directory_iterator fileList(this->currentPath);
-    std::string filename;
-    AssetFileWidget* assetFileWidget;
-    for (auto& file: fileList)
-    {
-        filename = file.path().filename().u8string();
-        if (std::filesystem::is_directory(file.path()))
-            assetFileWidget = new AssetFileWidget(filename, this->fileSpriteSheet, FileType::Fold);
-        else
-            assetFileWidget = new AssetFileWidget(filename, this->fileSpriteSheet, FileType::File);
-        this->flowLayout_fileSystemPanel->addWidget(assetFileWidget);
-        connect(assetFileWidget, &AssetFileWidget::click, this, &MainWindow::filesystemPanel_click);
-    }
 }
 
 void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
@@ -316,7 +284,6 @@ void MainWindow::resetGameObjectOutline()
         this->actorLevel->addChild(item);
     }
     this->actorLevel->resetItemsVec();
-    // this->ui->treeWidget->setSelectedEntity(this->actorLevel->getItemByEntityID(entities[0]));
 }
 
 void MainWindow::openProject()
@@ -325,9 +292,8 @@ void MainWindow::openProject()
     if (path.size() == 0)
         return;
     this->projectParser->load(path.toStdString().c_str());
-    this->currentPath = this->projectParser->getProjectDirname();
-    this->currentPath /= "content";
-    this->resetFileSystemPanel();
+    this->ui->contentBrowserPanel->setPath(this->projectParser->getProjectDirname() + "/content");
+    this->ui->contentBrowserPanel->reset();
     qDebug("Load project success.\n");
     qDebug("Current project: %s.\n", this->projectParser->getProjectName().c_str());
     
@@ -356,14 +322,6 @@ void MainWindow::saveScene()
     GameEngine::SceneSerializer sceneSerializer;
     sceneSerializer.serialize(this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map");
     qDebug("Save scene in %s\n", (this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map").c_str());
-}
-
-void MainWindow::filesystemPanel_click()
-{
-    AssetFileWidget* assetFileWidgget = qobject_cast<AssetFileWidget*>(QObject::sender());
-    this->currentPath /= assetFileWidgget->getAssetName();
-    this->resetFileSystemPanel();
-    return;
 }
 
 void MainWindow::parseOutput()

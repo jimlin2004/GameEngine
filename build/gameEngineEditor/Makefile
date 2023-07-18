@@ -654,6 +654,30 @@ src/AssetFileWidget.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.s
 .PHONY : src/AssetFileWidget.cpp.s
 
+src/ContentBrowserPanel.obj: src/ContentBrowserPanel.cpp.obj
+.PHONY : src/ContentBrowserPanel.obj
+
+# target to build an object file
+src/ContentBrowserPanel.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.obj
+.PHONY : src/ContentBrowserPanel.cpp.obj
+
+src/ContentBrowserPanel.i: src/ContentBrowserPanel.cpp.i
+.PHONY : src/ContentBrowserPanel.i
+
+# target to preprocess a source file
+src/ContentBrowserPanel.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.i
+.PHONY : src/ContentBrowserPanel.cpp.i
+
+src/ContentBrowserPanel.s: src/ContentBrowserPanel.cpp.s
+.PHONY : src/ContentBrowserPanel.s
+
+# target to generate assembly for a file
+src/ContentBrowserPanel.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.s
+.PHONY : src/ContentBrowserPanel.cpp.s
+
 src/EditorOpenGLWidget.obj: src/EditorOpenGLWidget.cpp.obj
 .PHONY : src/EditorOpenGLWidget.obj
 
@@ -894,6 +918,30 @@ src/WordWrapLabel.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.s
 .PHONY : src/WordWrapLabel.cpp.s
 
+src/runtime/SDL/SDLFileParser.obj: src/runtime/SDL/SDLFileParser.cpp.obj
+.PHONY : src/runtime/SDL/SDLFileParser.obj
+
+# target to build an object file
+src/runtime/SDL/SDLFileParser.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.cpp.obj
+.PHONY : src/runtime/SDL/SDLFileParser.cpp.obj
+
+src/runtime/SDL/SDLFileParser.i: src/runtime/SDL/SDLFileParser.cpp.i
+.PHONY : src/runtime/SDL/SDLFileParser.i
+
+# target to preprocess a source file
+src/runtime/SDL/SDLFileParser.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.cpp.i
+.PHONY : src/runtime/SDL/SDLFileParser.cpp.i
+
+src/runtime/SDL/SDLFileParser.s: src/runtime/SDL/SDLFileParser.cpp.s
+.PHONY : src/runtime/SDL/SDLFileParser.s
+
+# target to generate assembly for a file
+src/runtime/SDL/SDLFileParser.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.cpp.s
+.PHONY : src/runtime/SDL/SDLFileParser.cpp.s
+
 src/runtime/compile/CompileProcess.obj: src/runtime/compile/CompileProcess.cpp.obj
 .PHONY : src/runtime/compile/CompileProcess.obj
 
@@ -989,6 +1037,9 @@ help:
 	@echo ... src/AssetFileWidget.obj
 	@echo ... src/AssetFileWidget.i
 	@echo ... src/AssetFileWidget.s
+	@echo ... src/ContentBrowserPanel.obj
+	@echo ... src/ContentBrowserPanel.i
+	@echo ... src/ContentBrowserPanel.s
 	@echo ... src/EditorOpenGLWidget.obj
 	@echo ... src/EditorOpenGLWidget.i
 	@echo ... src/EditorOpenGLWidget.s
@@ -1019,6 +1070,9 @@ help:
 	@echo ... src/WordWrapLabel.obj
 	@echo ... src/WordWrapLabel.i
 	@echo ... src/WordWrapLabel.s
+	@echo ... src/runtime/SDL/SDLFileParser.obj
+	@echo ... src/runtime/SDL/SDLFileParser.i
+	@echo ... src/runtime/SDL/SDLFileParser.s
 	@echo ... src/runtime/compile/CompileProcess.obj
 	@echo ... src/runtime/compile/CompileProcess.i
 	@echo ... src/runtime/compile/CompileProcess.s

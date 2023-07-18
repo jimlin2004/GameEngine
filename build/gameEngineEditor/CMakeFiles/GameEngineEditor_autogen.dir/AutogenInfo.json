@@ -313,6 +313,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h",
+			"MU",
+			"6YEA5652QU/moc_ContentBrowserPanel.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h",
 			"MU",
 			"6YEA5652QU/moc_EditorOpenGLWidget.cpp",
@@ -334,6 +340,12 @@
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h",
 			"MU",
 			"6YEA5652QU/moc_LineEditRotation.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h",
+			"MU",
+			"6YEA5652QU/moc_MainWindowExportData.cpp",
 			null
 		],
 		[
@@ -370,6 +382,12 @@
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h",
 			"MU",
 			"6YEA5652QU/moc_WordWrapLabel.cpp",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/SDL/SDLFileParser.h",
+			"MU",
+			"4JL3Y6JO22/moc_SDLFileParser.cpp",
 			null
 		],
 		[
@@ -571,6 +589,11 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/ContentBrowserPanel.cpp",
+			"MU",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/EditorOpenGLWidget.cpp",
 			"MU",
 			null
@@ -617,6 +640,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/WordWrapLabel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/runtime/SDL/SDLFileParser.cpp",
 			"MU",
 			null
 		],

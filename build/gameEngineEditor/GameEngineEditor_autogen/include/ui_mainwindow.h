@@ -31,6 +31,7 @@
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
+#include "ContentBrowserPanel.h"
 #include "LineEditFloat.h"
 #include "LineEditRotation.h"
 #include "OutlineTreeWidget.h"
@@ -120,6 +121,8 @@ public:
     QGridLayout *gridLayout_4;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
+    QGridLayout *gridLayout_6;
+    ContentBrowserPanel *contentBrowserPanel;
     QWidget *tab_console;
     QVBoxLayout *verticalLayout;
     QTextBrowser *textBrowser;
@@ -513,6 +516,15 @@ public:
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
         scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 229));
+        gridLayout_6 = new QGridLayout(scrollAreaWidgetContents);
+        gridLayout_6->setObjectName("gridLayout_6");
+        gridLayout_6->setVerticalSpacing(0);
+        gridLayout_6->setContentsMargins(0, 0, 0, 0);
+        contentBrowserPanel = new ContentBrowserPanel(scrollAreaWidgetContents);
+        contentBrowserPanel->setObjectName("contentBrowserPanel");
+
+        gridLayout_6->addWidget(contentBrowserPanel, 0, 0, 1, 1);
+
         scrollArea->setWidget(scrollAreaWidgetContents);
 
         gridLayout_4->addWidget(scrollArea, 0, 0, 1, 1);

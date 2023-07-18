@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj.d"
+  "D:/code/cpp/gameEngine/gameEngineEditor/src/ContentBrowserPanel.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/EditorOpenGLWidget.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/EditorScene.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorScene.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorScene.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/JsonParser.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/JsonParser.cpp.obj.d"
@@ -36,6 +37,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/gameEngineEditor/src/SDL_Editor_Window.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/SDL_Editor_Window_Wrapper.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/WordWrapLabel.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj.d"
+  "D:/code/cpp/gameEngine/gameEngineEditor/src/runtime/SDL/SDLFileParser.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.cpp.obj.d"
   "D:/code/cpp/gameEngine/gameEngineEditor/src/runtime/compile/CompileProcess.cpp" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/compile/CompileProcess.cpp.obj" "gcc" "gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/compile/CompileProcess.cpp.obj.d"
   )
 

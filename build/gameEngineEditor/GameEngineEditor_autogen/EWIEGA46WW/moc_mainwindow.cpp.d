@@ -523,6 +523,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
   D:/QT/6.4.2/mingw_64/include/QtCore/QList \
   D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QMimeData \
   D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
   D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
   D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
@@ -556,11 +557,14 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdatastream.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdatetime.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdir.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qeventloop.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qfiledevice.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
@@ -589,6 +593,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qmath.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qmetacontainer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qmetatype.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qmimedata.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnumeric.h \
@@ -639,6 +644,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QDrag \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
@@ -651,14 +657,18 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qcolor.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfont.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qimage.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qkeysequence.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qopengl.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
@@ -695,13 +705,12 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qopenglwidget.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
   D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
@@ -712,6 +721,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
@@ -746,6 +756,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Timestep.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
@@ -1017,5 +1028,4 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
-  D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
-  D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h
+  D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h

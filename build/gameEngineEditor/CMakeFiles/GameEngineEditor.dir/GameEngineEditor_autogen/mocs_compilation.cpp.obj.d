@@ -382,10 +382,66 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qeventloop.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QDrag \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMimeData \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmimedata.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_ContentBrowserPanel.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QDragEnterEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QDropEvent \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/locale \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwctype \
+ C:/PROGRA~1/msys64/mingw64/include/wctype.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iomanip \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ostream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_EditorOpenGLWidget.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -639,25 +695,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ios \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwctype \
- C:/PROGRA~1/msys64/mingw64/include/wctype.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ostream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \
@@ -878,22 +918,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/locale \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iomanip \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
- D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_LineEditRotation.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
@@ -957,12 +982,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
- D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QLayout \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
@@ -986,6 +1005,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
@@ -1060,6 +1080,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_time_step.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Timestep.h \
+ D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
@@ -1075,7 +1096,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditInt.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_QCollapsibleWidget.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QList

@@ -15,11 +15,12 @@ AssetFileWidget::AssetFileWidget(QWidget *parent)
     this->setCursor(Qt::PointingHandCursor);
 }
 
-AssetFileWidget::AssetFileWidget(const QString& assetName, QPixmap* sprite, FileType fileType, QWidget *parent)
+AssetFileWidget::AssetFileWidget(const QString& assetName, const std::string& absolutePath, QPixmap* sprite, FileType fileType, QWidget *parent)
     : QWidget(parent)
     , label_icon(new QLabel())
     , label_assetName(new WordWrapLabel(assetName))
     , fileType(fileType)
+    , absolutePath(absolutePath)
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
     this->label_icon->setFixedSize(64, 64);
@@ -43,11 +44,12 @@ AssetFileWidget::AssetFileWidget(const QString& assetName, QPixmap* sprite, File
     this->setCursor(Qt::PointingHandCursor);
 }
 
-AssetFileWidget::AssetFileWidget(const std::string& assetName, QPixmap* sprite, FileType fileType, QWidget *parent)
+AssetFileWidget::AssetFileWidget(const std::string& assetName, const std::string& absolutePath, QPixmap* sprite, FileType fileType, QWidget *parent)
     : QWidget(parent)
     , label_icon(new QLabel())
     , label_assetName(new WordWrapLabel(QString::fromStdString(assetName)))
     , fileType(fileType)
+    , absolutePath(absolutePath)
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
     this->label_icon->setFixedSize(64, 64);
@@ -89,7 +91,26 @@ void AssetFileWidget::paintEvent(QPaintEvent* event)
 void AssetFileWidget::mousePressEvent(QMouseEvent *event)
 {
     if (this->fileType == FileType::Fold)
+    {
         emit click();
+        return;
+    }
+    if (event->button() == Qt::LeftButton)
+        this->dragStartPosition = event->pos();
+}
+
+void AssetFileWidget::mouseMoveEvent(QMouseEvent *event)
+{
+    if (!(event->buttons() & Qt::LeftButton))
+        return;
+    if ((event->pos() - this->dragStartPosition).manhattanLength()
+        < QApplication::startDragDistance())
+        return;
+    QDrag* drag = new QDrag(this);
+    QMimeData* mimeData = new QMimeData;
+    mimeData->setData("text/uri-list", QString::fromStdString("file:///" + this->absolutePath).toLocal8Bit());
+    drag->setMimeData(mimeData);
+    Qt::DropAction dropAction = drag->exec(Qt::CopyAction | Qt::MoveAction);
 }
 
 const std::string AssetFileWidget::getAssetName()

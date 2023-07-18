@@ -5,15 +5,12 @@
 #include <QFile>
 #include <QFileDialog>
 #include <QDebug>
-#include <QPixmap>
 #include <QProcess>
 #include <QMouseEvent>
 #include <QMessageBox>
-#include <filesystem>
 #include <QColorDialog>
 #include <QCloseEvent>
 #include <QTimer>
-#include "flowlayout.h"
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
 #include "AssetFileWidget.h"
@@ -50,9 +47,6 @@ private:
     Ui::MainWindow *ui;
 
     ProjectParser* projectParser;
-    FlowLayout* flowLayout_fileSystemPanel;
-    QPixmap* fileSpriteSheet;
-    std::filesystem::path currentPath;
     OutlineTreeWidgetItem* actorLevel;
     CompileProcess compileProcess;
     SDL_Editor_Window* SDL_editor_window;
@@ -60,8 +54,6 @@ private:
     QTimer timer;
     static GameEngineEditor::ExportData exportData;
 
-    /*重新刷新File system panel*/
-    void resetFileSystemPanel();
     void clearOutline();
     void updateColorViewer();
 protected:
@@ -69,9 +61,6 @@ protected:
 private slots:
     void openProject();
     void saveScene();
-    void filesystemPanel_click();
-    /*用於clear all item in flowLayout*/
-    void clearFileSystemPanel();
     void parseOutput();
     void resetGameObjectOutline();
     void getTreeWigetItemInfo(QTreeWidgetItem* item, int column);

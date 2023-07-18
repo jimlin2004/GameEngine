@@ -321,3 +321,11 @@
         -觀察更多功能以及目前功能是否正常
         -拖動添加物件的功能
     存檔紀錄 --version 1.0-dev
+2023/07/18
+    1. 研究出如何drag and drop for SDL and QT
+    2. 新增ConsoleApi的功能(std::ostream)，以便自訂義輸出格式(operator overloading)
+    3. 將ContentBrowserPanel 功能收集到一個class中，改善MainWidow的程式可讀性
+    Todo list
+        -ConsoleApi的功能擴充(operator overloading)
+        -Drag and drop for SDL and QT功能需完成
+    存檔紀錄 --version 1.0-dev

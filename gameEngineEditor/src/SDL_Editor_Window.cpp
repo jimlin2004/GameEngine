@@ -1,9 +1,14 @@
 #include "SDL_Editor_Window.h"
 #include "Event/Input.h"
-#include <winuser.h>
 #include "glm/glm.hpp"
 #include "glm/gtc/type_ptr.hpp"
 #include "Math/Math.h"
+#include "runtime/SDL/SDLFileParser.h"
+
+//windows api
+#if USE_WINDOWS
+    #include <winuser.h>
+#endif
 
 SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     : GameBase(title, width, height)
@@ -65,6 +70,9 @@ bool SDL_Editor_Window::initSDL()
     }
     GameEngine::ConsoleApi::log("[Info] OpenGL init success.\n");
     SDL_GL_SetSwapInterval(1);
+
+    SDL_EventState(SDL_DROPFILE, SDL_ENABLE);
+
     return true;
 }
 
@@ -214,7 +222,6 @@ void SDL_Editor_Window::render()
         }
     }
     
-
     this->frameBuffer->unbind();
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
@@ -227,8 +234,18 @@ void SDL_Editor_Window::gameEventHandle()
         switch (this->event.type)
         {
             case SDL_QUIT:
+            {
                 this->running = false;
                 break;
+            }
+            case SDL_DROPFILE:
+            {
+                char* filePath = event.drop.file;
+                GameEngineEditor::SDLFileParser::parseFile(filePath, GameEngine::Input::getMousePosition());
+                GameEngine::ConsoleApi::log() << GameEngine::Input::getMousePosition() << std::endl;
+                SDL_free(filePath);
+                break;
+            }
             default:
                 break;
         }

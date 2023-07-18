@@ -1,6 +1,8 @@
 #ifndef SDL_EDITOR_WINDOW_H
 #define SDL_EDITOR_WINDOW_H
 
+#include "Core/Platform.h"
+
 #include "Core/GameBase.h"
 #include "Render/Renderer.h"
 

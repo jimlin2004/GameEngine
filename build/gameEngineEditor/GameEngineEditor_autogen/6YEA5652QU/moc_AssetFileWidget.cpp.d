@@ -222,6 +222,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QMimeData \
   D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
   D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
   D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
@@ -249,9 +250,12 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdatastream.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qeventloop.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qflags.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qforeach.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qgenericatomic.h \
@@ -272,6 +276,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qmath.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qmetacontainer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qmetatype.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qmimedata.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qnumeric.h \
@@ -317,6 +322,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QDrag \
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
@@ -326,14 +332,18 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qcolor.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfont.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qimage.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qkeysequence.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpaintdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
@@ -359,12 +369,14 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractslider.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
