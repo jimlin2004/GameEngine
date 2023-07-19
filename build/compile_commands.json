@@ -101,6 +101,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\TextureManager.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\TextureManager.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/TextureManager.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexArray.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexArray.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/VertexArray.cpp"
 },

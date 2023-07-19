@@ -329,3 +329,10 @@
         -ConsoleApi的功能擴充(operator overloading)
         -Drag and drop for SDL and QT功能需完成
     存檔紀錄 --version 1.0-dev
+2023/07/19
+    1. 完成drag and drop事件(SDL)，QT的未完成
+    2. 建構Editor的Texture ui(未完工)
+    Todo list
+        -editor texture ui(目前欲利用TextureManager紀錄texture檔名，再用Qt讀檔)
+        -serialize的texture
+    存檔紀錄 --version 1.0-dev

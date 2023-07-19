@@ -2,10 +2,11 @@
 
 GameEngine::GameEngineAPI::GameEngineAPI()
     : shaderManager(new GameEngine::ShaderManager())
+    , textureManager(new GameEngine::TextureManager())
     , editorSceneBeginFunc(nullptr)
 {
-
 }
+
 GameEngine::GameEngineAPI::~GameEngineAPI()
 {
     delete this->shaderManager;
@@ -15,18 +16,6 @@ void GameEngine::GameEngineAPI::setEditorSceneFunc(std::function<void()> func)
 {
     this->editorSceneBeginFunc = func;
 }
-
-// void GameEngine::GameEngineAPI::callKeyEvent(int key)
-// {
-//     this->gameEventManager->callKeyEvent(key);
-//     return;
-// }
-
-// void GameEngine::GameEngineAPI::addKeyEvent(int key, std::function<void()> func)
-// {
-//     this->gameEventManager->bindKeyEvent(key, func);
-//     return;
-// }
 
 void GameEngine::GameEngineAPI::_setWindowSize(float _w, float _h)
 {

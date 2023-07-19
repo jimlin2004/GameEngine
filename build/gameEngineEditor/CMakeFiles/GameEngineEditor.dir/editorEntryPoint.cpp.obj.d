@@ -662,6 +662,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \

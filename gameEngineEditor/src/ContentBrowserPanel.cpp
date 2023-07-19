@@ -8,6 +8,12 @@ ContentBrowserPanel::ContentBrowserPanel(QWidget *parent)
     this->setAcceptDrops(true);
 }
 
+static FileType getFileType(const std::string& extension)
+{
+    if (extension == ".png") return FileType::Texture;
+    else return FileType::File; 
+}
+
 void ContentBrowserPanel::reset()
 {
     this->clear();
@@ -35,7 +41,7 @@ void ContentBrowserPanel::reset()
         if (std::filesystem::is_directory(file.path()))
             assetFileWidget = new AssetFileWidget(filename, file.path().u8string(), this->spriteSheet, FileType::Fold);
         else
-            assetFileWidget = new AssetFileWidget(filename, file.path().u8string(), this->spriteSheet, FileType::File);
+            assetFileWidget = new AssetFileWidget(filename, file.path().u8string(), this->spriteSheet, getFileType(file.path().extension().u8string()));
         this->layout()->addWidget(assetFileWidget);
         connect(assetFileWidget, &AssetFileWidget::click, this, &ContentBrowserPanel::onItemClick);
     }

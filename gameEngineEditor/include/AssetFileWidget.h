@@ -19,7 +19,8 @@
 enum FileType
 {
     Fold,
-    File
+    File,
+    Texture
 };
 
 class AssetFileWidget: public QWidget

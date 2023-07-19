@@ -129,9 +129,9 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
+             <y>-125</y>
              <width>417</width>
-             <height>335</height>
+             <height>441</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -425,6 +425,52 @@
              </widget>
             </item>
             <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_texture">
+              <property name="Title">
+               <string>Texture</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_texture" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="QLabel" name="label_textureViewer">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>64</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_texture"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
              <spacer name="verticalSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -612,7 +658,7 @@
                  <x>0</x>
                  <y>0</y>
                  <width>671</width>
-                 <height>229</height>
+                 <height>126</height>
                 </rect>
                </property>
                <layout class="QGridLayout" name="gridLayout_6">

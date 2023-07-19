@@ -27,7 +27,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_MainWindow_t {
-    uint offsetsAndSizes[26];
+    uint offsetsAndSizes[30];
     char stringdata0[11];
     char stringdata1[12];
     char stringdata2[1];
@@ -41,6 +41,8 @@ struct qt_meta_stringdata_MainWindow_t {
     char stringdata10[16];
     char stringdata11[15];
     char stringdata12[11];
+    char stringdata13[20];
+    char stringdata14[14];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_MainWindow_t::offsetsAndSizes) + ofs), len 
@@ -58,7 +60,9 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
         QT_MOC_LITERAL(112, 6),  // "column"
         QT_MOC_LITERAL(119, 15),  // "openColorDialog"
         QT_MOC_LITERAL(135, 14),  // "compileProject"
-        QT_MOC_LITERAL(150, 10)   // "runProject"
+        QT_MOC_LITERAL(150, 10),  // "runProject"
+        QT_MOC_LITERAL(161, 19),  // "updateTextureViewer"
+        QT_MOC_LITERAL(181, 13)   // "updateWidgets"
     },
     "MainWindow",
     "openProject",
@@ -72,7 +76,9 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
     "column",
     "openColorDialog",
     "compileProject",
-    "runProject"
+    "runProject",
+    "updateTextureViewer",
+    "updateWidgets"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -83,7 +89,7 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+      10,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -91,14 +97,16 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   62,    2, 0x08,    1 /* Private */,
-       3,    0,   63,    2, 0x08,    2 /* Private */,
-       4,    0,   64,    2, 0x08,    3 /* Private */,
-       5,    0,   65,    2, 0x08,    4 /* Private */,
-       6,    2,   66,    2, 0x08,    5 /* Private */,
-      10,    0,   71,    2, 0x08,    8 /* Private */,
-      11,    0,   72,    2, 0x08,    9 /* Private */,
-      12,    0,   73,    2, 0x08,   10 /* Private */,
+       1,    0,   74,    2, 0x08,    1 /* Private */,
+       3,    0,   75,    2, 0x08,    2 /* Private */,
+       4,    0,   76,    2, 0x08,    3 /* Private */,
+       5,    0,   77,    2, 0x08,    4 /* Private */,
+       6,    2,   78,    2, 0x08,    5 /* Private */,
+      10,    0,   83,    2, 0x08,    8 /* Private */,
+      11,    0,   84,    2, 0x08,    9 /* Private */,
+      12,    0,   85,    2, 0x08,   10 /* Private */,
+      13,    0,   86,    2, 0x08,   11 /* Private */,
+      14,    0,   87,    2, 0x08,   12 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -106,6 +114,8 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 7, QMetaType::Int,    8,    9,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -139,6 +149,10 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // method 'compileProject'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'runProject'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'updateTextureViewer'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'updateWidgets'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -158,6 +172,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 5: _t->openColorDialog(); break;
         case 6: _t->compileProject(); break;
         case 7: _t->runProject(); break;
+        case 8: _t->updateTextureViewer(); break;
+        case 9: _t->updateWidgets(); break;
         default: ;
         }
     }
@@ -182,13 +198,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 10;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 8;
+        _id -= 10;
     }
     return _id;
 }

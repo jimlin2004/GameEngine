@@ -132,40 +132,15 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
 
     //bind tiemr to transform
-    connect(&(this->timer), &QTimer::timeout, [=](){
-        if (!this->ui->lineEditFloat_x_position->isEditing())
-            this->ui->lineEditFloat_x_position->refresh();
-        if (!this->ui->lineEditFloat_y_position->isEditing())
-            this->ui->lineEditFloat_y_position->refresh();
-        if (!this->ui->lineEditFloat_z_position->isEditing())
-            this->ui->lineEditFloat_z_position->refresh();
-        if (!this->ui->lineEditFloat_x_scale->isEditing())
-            this->ui->lineEditFloat_x_scale->refresh();
-        if (!this->ui->lineEditFloat_y_scale->isEditing())
-            this->ui->lineEditFloat_y_scale->refresh();
-        if (!this->ui->lineEditFloat_z_scale->isEditing())
-            this->ui->lineEditFloat_z_scale->refresh();
-        if (!this->ui->lineEditFloat_x_rotation->isEditing())
-        {
-            if (this->ui->lineEditFloat_x_rotation->isEnabled())
-                this->ui->lineEditFloat_x_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_x_rotation->getValue())));
-        }
-        if (!this->ui->lineEditFloat_y_rotation->isEditing())
-        {
-            if (this->ui->lineEditFloat_y_rotation->isEnabled())
-                this->ui->lineEditFloat_y_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_y_rotation->getValue())));
-        }
-        if (!this->ui->lineEditFloat_z_rotation->isEditing())
-        {
-            if (this->ui->lineEditFloat_z_rotation->isEnabled())
-                this->ui->lineEditFloat_z_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_z_rotation->getValue())));
-        }        
-    });
+    connect(&(this->timer), &QTimer::timeout, this, &MainWindow::updateWidgets);
     this->timer.start(41);
 
     //export data
     this->exportData.outlineTreeWidget = this->ui->treeWidget;
     this->exportData.actorCollection = this->actorLevel;
+
+    this->ui->label_textureViewer->setStyleSheet("background: #000000;");
+    connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
 }
 
 MainWindow::~MainWindow()
@@ -174,11 +149,48 @@ MainWindow::~MainWindow()
     delete this->projectParser;
 }
 
+void MainWindow::updateWidgets()
+{
+    if (!this->ui->lineEditFloat_x_position->isEditing())
+        this->ui->lineEditFloat_x_position->refresh();
+    if (!this->ui->lineEditFloat_y_position->isEditing())
+        this->ui->lineEditFloat_y_position->refresh();
+    if (!this->ui->lineEditFloat_z_position->isEditing())
+        this->ui->lineEditFloat_z_position->refresh();
+    if (!this->ui->lineEditFloat_x_scale->isEditing())
+        this->ui->lineEditFloat_x_scale->refresh();
+    if (!this->ui->lineEditFloat_y_scale->isEditing())
+        this->ui->lineEditFloat_y_scale->refresh();
+    if (!this->ui->lineEditFloat_z_scale->isEditing())
+        this->ui->lineEditFloat_z_scale->refresh();
+    if (!this->ui->lineEditFloat_x_rotation->isEditing())
+    {
+        if (this->ui->lineEditFloat_x_rotation->isEnabled())
+            this->ui->lineEditFloat_x_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_x_rotation->getValue())));
+    }
+    if (!this->ui->lineEditFloat_y_rotation->isEditing())
+    {
+        if (this->ui->lineEditFloat_y_rotation->isEnabled())
+            this->ui->lineEditFloat_y_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_y_rotation->getValue())));
+    }
+    if (!this->ui->lineEditFloat_z_rotation->isEditing())
+    {
+        if (this->ui->lineEditFloat_z_rotation->isEnabled())
+            this->ui->lineEditFloat_z_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_z_rotation->getValue())));
+    }
+
+    if (this->exportData.needToInsertOutlineTreeWidget != entt::null)
+    {
+        this->addGameObjectToOutline(this->exportData.needToInsertOutlineTreeWidget);
+        this->exportData.needToInsertOutlineTreeWidget = entt::null;
+    }
+}
+
 void MainWindow::onFocusChanged(bool& isFocusOnSDL)
 {
     if (isFocusOnSDL)
     {
-#if defined(USE_WINDOWS)
+#if USE_WINDOWS
         SetFocus((HWND)this->winId());
         isFocusOnSDL = false;
 #endif
@@ -218,6 +230,9 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
     this->ui->lineEditFloat_B_color->bind(&meshComponent.color.b);
     this->ui->pushButton_colorPicker->setEnabled(true);
     this->updateColorViewer();
+
+    std::string prefixPath = this->projectParser->getProjectDirname() + "/content/texture/";
+    // this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findData(QString::fromStdString(prefixPath + meshComponent.textureName)));
 }
 
 void MainWindow::openColorDialog()
@@ -259,6 +274,19 @@ void MainWindow::updateColorViewer()
     // this->ui->openglWidget->update();
 }
 
+void MainWindow::updateTextureViewer()
+{
+    QString texturePath = this->ui->comboBox_texture->currentData().toString();
+    if (texturePath == "")
+    {
+        this->ui->label_textureViewer->setPixmap(QPixmap());
+        return;
+    }
+    QPixmap pixmap = QPixmap(texturePath);
+    pixmap = pixmap.scaled(this->ui->label_textureViewer->width(), this->ui->label_textureViewer->height(), Qt::KeepAspectRatio);
+    this->ui->label_textureViewer->setPixmap(pixmap);
+}
+
 void MainWindow::closeEvent(QCloseEvent *event)
 {
     this->SDL_editor_window->running = false;
@@ -269,6 +297,28 @@ void MainWindow::clearOutline()
 {
     while (this->actorLevel->takeChild(0) != nullptr)
         ;
+}
+
+void MainWindow::resetTextureComboBox()
+{
+    this->ui->comboBox_texture->clear();
+    std::filesystem::directory_iterator fileList(this->projectParser->getProjectDirname() + "/content/texture");
+    this->ui->comboBox_texture->addItem("None", "");
+    for (auto& file: fileList)
+    {
+        this->ui->comboBox_texture->addItem(QString::fromStdString(file.path().filename().u8string()), QString::fromStdString(file.path().u8string()));
+    }
+}
+
+void MainWindow::addGameObjectToOutline(entt::entity entityID)
+{
+    OutlineTreeWidgetItem *item = new OutlineTreeWidgetItem(this->actorLevel);
+    GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entityID);
+    item->setText(0, QString::fromStdString(tagComponent.tagName));
+    item->setEntityID(entityID);
+    this->actorLevel->addChild(item);
+
+    this->actorLevel->insertItem(item);
 }
 
 void MainWindow::resetGameObjectOutline()
@@ -310,6 +360,7 @@ void MainWindow::openProject()
     else
         qDebug("Scene data not found.\n");
     this->resetGameObjectOutline();
+    this->resetTextureComboBox();
 }
 
 void MainWindow::saveScene()

@@ -120,7 +120,7 @@ void SDL_Editor_Window::begin()
     spec.height = this->viewportSize.y,
     spec.attachments = {
         GameEngine::FrameBufferTextureFormat::RGBA8,
-        GameEngine::FrameBufferTextureFormat::RED_INTEGER,
+        GameEngine::FrameBufferTextureFormat::RED_INTEGER, //mouse picking
         GameEngine::FrameBufferTextureFormat::Depth
     };
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
@@ -164,9 +164,13 @@ void SDL_Editor_Window::render()
         if (this->mainWindowExportDataPtr)
         {
             if (this->hoveredActor)
+            {
                 this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(
                     this->mainWindowExportDataPtr->actorCollection->getItemByEntityID((entt::entity)this->hoveredActor.getID())
                 );
+                this->hoveredActor.setEntityID(entt::null);
+            }
+                
             entt::entity entityId = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
             if (entityId != entt::null)
             {
@@ -201,7 +205,6 @@ void SDL_Editor_Window::render()
     ImGui::Render();
     this->frameBuffer->bind(); 
     GameEngine::Renderer::begin();
-        GameEngine::Renderer::drawQuad({100.0f, 30.0f, 1.0f}, {50.0f, 50.0f}, {1.0, 1.0f, 1.0f, 1.0f});
         GameEngine::globalScene->render();
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
     frameBuffer->clearAttachment(1, -1);
@@ -218,6 +221,8 @@ void SDL_Editor_Window::render()
             if (!ImGuizmo::IsOver())
             {
                 this->hoveredActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
+                if (pixelData == -1)
+                    this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(nullptr);
             }
         }
     }
@@ -228,6 +233,7 @@ void SDL_Editor_Window::render()
 
 void SDL_Editor_Window::gameEventHandle()
 {
+    static ImGuiIO& io = ImGui::GetIO();
     while (SDL_PollEvent(&this->event))
     {
         ImGui_ImplSDL2_ProcessEvent(&event);
@@ -240,10 +246,7 @@ void SDL_Editor_Window::gameEventHandle()
             }
             case SDL_DROPFILE:
             {
-                char* filePath = event.drop.file;
-                GameEngineEditor::SDLFileParser::parseFile(filePath, GameEngine::Input::getMousePosition());
-                GameEngine::ConsoleApi::log() << GameEngine::Input::getMousePosition() << std::endl;
-                SDL_free(filePath);
+                this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {GameEngine::Input::getMouseX(), (int)io.DisplaySize.y - GameEngine::Input::getMouseY()});
                 break;
             }
             default:

@@ -25,8 +25,6 @@ namespace GameEngine
 
     Json toJson(const glm::vec3& other);
     Json toJson(const glm::vec4& other);
-    glm::vec3 vectorToVec3(const std::vector<float>& vec);
-    glm::vec4 vectorToVec4(const std::vector<float>& vec);
 }
 
 #endif

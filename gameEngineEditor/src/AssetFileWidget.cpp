@@ -16,32 +16,8 @@ AssetFileWidget::AssetFileWidget(QWidget *parent)
 }
 
 AssetFileWidget::AssetFileWidget(const QString& assetName, const std::string& absolutePath, QPixmap* sprite, FileType fileType, QWidget *parent)
-    : QWidget(parent)
-    , label_icon(new QLabel())
-    , label_assetName(new WordWrapLabel(assetName))
-    , fileType(fileType)
-    , absolutePath(absolutePath)
+    : AssetFileWidget(assetName.toStdString(), absolutePath, sprite, fileType, parent)
 {
-    QVBoxLayout *layout = new QVBoxLayout(this);
-    this->label_icon->setFixedSize(64, 64);
-    this->label_icon->setObjectName("icon");
-    QRect cropArea;
-    if (this->fileType == FileType::Fold)
-        cropArea = {0, 0, 16, 16};
-    else
-        cropArea = {0, 16, 16, 16};
-    QPixmap cropSprite = sprite->copy(cropArea);
-    cropSprite.scaled(this->label_icon->width(), this->label_icon->height(), Qt::KeepAspectRatio);
-    this->label_icon->setPixmap(cropSprite);
-    this->label_assetName->setWordWrap(true);
-    this->label_assetName->setAlignment(Qt::AlignCenter);
-    this->label_assetName->setFixedWidth(64);
-    this->label_assetName->wrapText(assetName);
-    layout->addStretch(0);
-    layout->addWidget(this->label_icon);
-    layout->addWidget(this->label_assetName);
-    layout->setContentsMargins(5, 5, 5, 5);
-    this->setCursor(Qt::PointingHandCursor);
 }
 
 AssetFileWidget::AssetFileWidget(const std::string& assetName, const std::string& absolutePath, QPixmap* sprite, FileType fileType, QWidget *parent)
@@ -55,13 +31,30 @@ AssetFileWidget::AssetFileWidget(const std::string& assetName, const std::string
     this->label_icon->setFixedSize(64, 64);
     this->label_icon->setObjectName("icon");
     QRect cropArea;
+    bool isUseIcon = false;
     if (this->fileType == FileType::Fold)
+    {
         cropArea = {0, 0, 16, 16};
-    else
+        isUseIcon = true;
+    }
+    else if (this->fileType == FileType::File)
+    {
         cropArea = {0, 16, 16, 16};
-    QPixmap cropSprite = sprite->copy(cropArea);
-    cropSprite = cropSprite.scaled(this->label_icon->width(), this->label_icon->height(), Qt::KeepAspectRatio);
-    this->label_icon->setPixmap(cropSprite);
+        isUseIcon = true;
+    }
+    else if (this->fileType == FileType::Texture)
+    {
+        QPixmap texture = QPixmap(QString::fromStdString(absolutePath));
+        texture = texture.scaled(this->label_icon->width(), this->label_icon->height(), Qt::KeepAspectRatio);
+        this->label_icon->setPixmap(texture);
+    }
+
+    if (isUseIcon)
+    {
+        QPixmap cropSprite = sprite->copy(cropArea);
+        cropSprite = cropSprite.scaled(this->label_icon->width(), this->label_icon->height(), Qt::KeepAspectRatio);
+        this->label_icon->setPixmap(cropSprite);
+    }
     this->label_assetName->setWordWrap(true);
     this->label_assetName->setAlignment(Qt::AlignCenter);
     this->label_assetName->setFixedWidth(64);
@@ -110,6 +103,7 @@ void AssetFileWidget::mouseMoveEvent(QMouseEvent *event)
     QMimeData* mimeData = new QMimeData;
     mimeData->setData("text/uri-list", QString::fromStdString("file:///" + this->absolutePath).toLocal8Bit());
     drag->setMimeData(mimeData);
+    drag->setPixmap(this->label_icon->pixmap());
     Qt::DropAction dropAction = drag->exec(Qt::CopyAction | Qt::MoveAction);
 }
 

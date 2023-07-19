@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtGui/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
@@ -104,6 +105,12 @@ public:
     QWidget *widget_colorViewer;
     QSpacerItem *horizontalSpacer;
     QPushButton *pushButton_colorPicker;
+    QCollapsibleWidget *qCollapsibleWidget_texture;
+    QWidget *contentWidget_texture;
+    QHBoxLayout *horizontalLayout;
+    QLabel *label_textureViewer;
+    QComboBox *comboBox_texture;
+    QSpacerItem *horizontalSpacer_2;
     QSpacerItem *verticalSpacer;
     QDockWidget *dockWidgetRight;
     QWidget *dockWidgetContentsRight;
@@ -195,7 +202,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 417, 335));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -125, 417, 441));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -439,6 +446,32 @@ public:
 
         verticalLayout_3->addWidget(qCollapsibleWidget_color);
 
+        qCollapsibleWidget_texture = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_texture->setObjectName("qCollapsibleWidget_texture");
+        contentWidget_texture = new QWidget(qCollapsibleWidget_texture);
+        contentWidget_texture->setObjectName("contentWidget_texture");
+        horizontalLayout = new QHBoxLayout(contentWidget_texture);
+        horizontalLayout->setObjectName("horizontalLayout");
+        label_textureViewer = new QLabel(contentWidget_texture);
+        label_textureViewer->setObjectName("label_textureViewer");
+        sizePolicy3.setHeightForWidth(label_textureViewer->sizePolicy().hasHeightForWidth());
+        label_textureViewer->setSizePolicy(sizePolicy3);
+        label_textureViewer->setMinimumSize(QSize(64, 64));
+
+        horizontalLayout->addWidget(label_textureViewer);
+
+        comboBox_texture = new QComboBox(contentWidget_texture);
+        comboBox_texture->setObjectName("comboBox_texture");
+
+        horizontalLayout->addWidget(comboBox_texture);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_texture);
+
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_3->addItem(verticalSpacer);
@@ -515,7 +548,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 229));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 126));
         gridLayout_6 = new QGridLayout(scrollAreaWidgetContents);
         gridLayout_6->setObjectName("gridLayout_6");
         gridLayout_6->setVerticalSpacing(0);
@@ -603,6 +636,8 @@ public:
         label_B_color->setText(QCoreApplication::translate("MainWindow", "B", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "color", nullptr));
         pushButton_colorPicker->setText(QCoreApplication::translate("MainWindow", "choose color", nullptr));
+        qCollapsibleWidget_texture->setTitle(QCoreApplication::translate("MainWindow", "Texture", nullptr));
+        label_textureViewer->setText(QString());
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));

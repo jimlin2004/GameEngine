@@ -1,5 +1,15 @@
 #include "Core/GELib.h"
 
+glm::vec3 GameEngine::vectorToVec3(const std::vector<float> &vec)
+{
+    return {vec[0], vec[1], vec[2]};
+}
+
+glm::vec4 GameEngine::vectorToVec4(const std::vector<float> &vec)
+{
+    return {vec[0], vec[1], vec[2], vec[3]};
+}
+
 int GameEngine::randint()
 {
     srand(time(NULL));

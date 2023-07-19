@@ -7,6 +7,9 @@ lastest modify
 
 #include "Opengl/Texture.h"
 
+#include <filesystem>
+#include "GameEngineAPI/GameEngineAPI.h"
+
 GameEngine::Texture::Texture()
     : id(0), width(0), height(0), bpp(0), pixels(nullptr), internalFormat(0), dataFormat(0)
 {
@@ -42,8 +45,19 @@ parameter
 */
 void GameEngine::Texture::load(const char* const path, int filter)
 {
+    std::string fileName =  std::filesystem::u8path(std::string(path)).filename().u8string();
+    uint32_t registeredID = GameEngine::GEngine->textureManager->exists(fileName);
+    if (registeredID != 0U)
+    {
+        //此圖片已註冊過
+        this->id = registeredID;
+        return;
+    }
+
     stbi_set_flip_vertically_on_load(1);
     this->pixels = stbi_load(path, &this->width, &this->height, &this->bpp, 4);
+    if (this->id)
+        glDeleteTextures(1, &this->id);
     glGenTextures(1, &this->id);
     glBindTexture(GL_TEXTURE_2D, this->id);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, filter);
@@ -55,6 +69,9 @@ void GameEngine::Texture::load(const char* const path, int filter)
     glBindTexture(GL_TEXTURE_2D, 0);
     if (this->pixels)
         stbi_image_free(this->pixels);
+
+    //保留texture資料給Editor用
+    GameEngine::GEngine->textureManager->registerTexture(this->id, fileName);
 }
 
 void GameEngine::Texture::setData(void* data)

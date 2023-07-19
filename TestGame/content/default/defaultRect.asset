@@ -1,3 +1,23 @@
 {
-    "Name": "Default Rect"
+    "Mesh": {
+        "Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "TagName": "DefaultRect",
+    "Transform": {
+        "Rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Scale": [
+            10.0,
+            10.0,
+            1.0
+        ]
+    }
 }

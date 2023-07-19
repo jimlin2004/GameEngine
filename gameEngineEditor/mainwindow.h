@@ -56,6 +56,8 @@ private:
 
     void clearOutline();
     void updateColorViewer();
+    void addGameObjectToOutline(entt::entity entityID);
+    void resetTextureComboBox();
 protected:
     void closeEvent (QCloseEvent* event);
 private slots:
@@ -67,6 +69,8 @@ private slots:
     void openColorDialog();
     void compileProject();
     void runProject();
+    void updateTextureViewer();
+    void updateWidgets();
 };
 
 #endif // MAINWINDOW_H

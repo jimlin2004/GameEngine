@@ -767,6 +767,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexArray.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexBuffer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexBufferLayout.h \

@@ -6,6 +6,7 @@
 #include <json/json.hpp>
 #include <exception>
 #include <fstream>
+#include "entt.hpp"
 #include "Event/Input.h"
 
 namespace GameEngineEditor
@@ -15,9 +16,9 @@ namespace GameEngineEditor
     class SDLFileParser
     {
     public:
-        static void parseFile(const std::filesystem::path& filePath, const GameEngine::MousePosition& mousePosition);
+        static uint32_t parseFile(const std::filesystem::path& filePath, const GameEngine::MousePosition& mousePosition);
     private:
-        static void parseAssetFile(const std::filesystem::path& filePath, const GameEngine::MousePosition& mousePosition);
+        static uint32_t parseAssetFile(const std::filesystem::path& filePath, const GameEngine::MousePosition& mousePosition);
     };
 }
 

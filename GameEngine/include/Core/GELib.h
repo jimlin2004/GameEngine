@@ -4,6 +4,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <string>
+#include <vector>
+#include "glm/glm.hpp"
 
 /*
     author: JimLin
@@ -15,6 +17,10 @@
 
 namespace GameEngine
 {
+    //以下用於轉換型別
+    glm::vec3 vectorToVec3(const std::vector<float>& vec);
+    glm::vec4 vectorToVec4(const std::vector<float>& vec);
+
     template<class T>
     const T& max(const T& a, const T& b)
     {

@@ -1,8 +1,6 @@
 #include "OutlineTreeWidgetItem.h"
 
-#include <algorithm>
-
-std::vector<OutlineTreeWidgetItem*> OutlineTreeWidgetItem::itemsVec = {};
+std::map<uint32_t, OutlineTreeWidgetItem*> OutlineTreeWidgetItem::itemsMap = {};
 
 OutlineTreeWidgetItem::OutlineTreeWidgetItem(QTreeWidget *treeview, int type)
     : QTreeWidgetItem(treeview, type)
@@ -24,38 +22,25 @@ void OutlineTreeWidgetItem::click()
     qDebug("ID: %u\n", this->entityID);
 }
 
-static bool cmp(OutlineTreeWidgetItem* a, OutlineTreeWidgetItem* b)
-{
-    return (uint32_t)(*a).getEntityID() < (uint32_t)(*b).getEntityID();
-}
-
 void OutlineTreeWidgetItem::resetItemsVec()
 {
-    this->itemsVec.clear();
+    this->itemsMap.clear();
     OutlineTreeWidgetItem* ptr;
     for (int i = 0; i < this->childCount(); ++i)
     {
         ptr = dynamic_cast<OutlineTreeWidgetItem*>(this->child(i));
         assert(ptr != nullptr);
-        this->itemsVec.emplace_back(ptr);
+        this->itemsMap.insert({(uint32_t)ptr->getEntityID(), ptr});
     }
-    std::sort(this->itemsVec.begin(), this->itemsVec.end(), cmp);
+}
+
+void OutlineTreeWidgetItem::insertItem(OutlineTreeWidgetItem *item)
+{
+    this->itemsMap.insert({(uint32_t)item->getEntityID(), item});
 }
 
 OutlineTreeWidgetItem *OutlineTreeWidgetItem::getItemByEntityID(entt::entity entityID) const
 {
-    //binary search
-    int left = 0, right = this->itemsVec.size() - 1;
-    int mid;
-    while (left <= right)
-    {
-        mid = left + ((right - left) >> 1);
-        if (this->itemsVec[mid]->getEntityID() > entityID) 
-            right = mid - 1;
-        else if (this->itemsVec[mid]->getEntityID() < entityID)
-            left = mid + 1;
-        else 
-            return this->itemsVec[mid];
-    }
-    return nullptr;
+    auto it = this->itemsMap.find((uint32_t)entityID);
+    return (it == this->itemsMap.end()) ? nullptr : it->second;
 }

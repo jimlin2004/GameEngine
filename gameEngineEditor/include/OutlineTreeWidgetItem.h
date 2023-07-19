@@ -1,7 +1,7 @@
 #ifndef OUTLINE_TREE_WIDGET_ITEM_H
 #define OUTLINE_TREE_WIDGET_ITEM_H
 
-#include <vector>
+#include <map>
 #include <QChildEvent>
 #include <QTreeWidget>
 #include <entt.hpp>
@@ -18,10 +18,11 @@ public:
     }
     void click();
     void resetItemsVec();
+    void insertItem(OutlineTreeWidgetItem* item);
     OutlineTreeWidgetItem* getItemByEntityID(entt::entity entityID) const;
 private:
     entt::entity entityID;
-    static std::vector<OutlineTreeWidgetItem*> itemsVec;
+    static std::map<uint32_t, OutlineTreeWidgetItem*> itemsMap;
 };
 
 #endif

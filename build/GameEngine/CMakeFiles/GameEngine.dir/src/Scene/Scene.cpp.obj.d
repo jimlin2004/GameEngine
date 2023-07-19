@@ -419,6 +419,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \

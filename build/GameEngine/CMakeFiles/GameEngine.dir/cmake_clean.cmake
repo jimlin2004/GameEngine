@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/Opengl/SubTexture.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Opengl/VertexArray.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Opengl/VertexArray.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Opengl/VertexBuffer.cpp.obj"

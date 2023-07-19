@@ -3,11 +3,10 @@
 
 #include <functional>
 #include "Opengl/ShaderManager.h"
+#include "Opengl/TextureManager.h"
 #include "Core/CameraController.h"
 #include "Scene/Scene.h"
 #include <functional>
-
-
 
 namespace GameEngine
 {
@@ -22,13 +21,12 @@ namespace GameEngine
         ~GameEngineAPI();
         inline std::function<void()> getEditorSceneFunc() const { return editorSceneBeginFunc; }
         void setEditorSceneFunc(std::function<void()> func);
-        // void callKeyEvent(int key);
-        // void addKeyEvent(int key, std::function<void()> func);
         //用來設置全域的window size
         void _setWindowSize(float _w, float _h);
         inline float getWindowWidth() const { return _windowWidth; }
         inline float getWindowHeight() const { return _windowHeight; }
         ShaderManager* shaderManager;
+        TextureManager* textureManager;
     };
 
     //整個遊戲引擎的global pointer，勿修改

@@ -674,6 +674,30 @@ src/Opengl/Texture.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.s
 .PHONY : src/Opengl/Texture.cpp.s
 
+src/Opengl/TextureManager.obj: src/Opengl/TextureManager.cpp.obj
+.PHONY : src/Opengl/TextureManager.obj
+
+# target to build an object file
+src/Opengl/TextureManager.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.obj
+.PHONY : src/Opengl/TextureManager.cpp.obj
+
+src/Opengl/TextureManager.i: src/Opengl/TextureManager.cpp.i
+.PHONY : src/Opengl/TextureManager.i
+
+# target to preprocess a source file
+src/Opengl/TextureManager.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.i
+.PHONY : src/Opengl/TextureManager.cpp.i
+
+src/Opengl/TextureManager.s: src/Opengl/TextureManager.cpp.s
+.PHONY : src/Opengl/TextureManager.s
+
+# target to generate assembly for a file
+src/Opengl/TextureManager.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.s
+.PHONY : src/Opengl/TextureManager.cpp.s
+
 src/Opengl/VertexArray.obj: src/Opengl/VertexArray.cpp.obj
 .PHONY : src/Opengl/VertexArray.obj
 
@@ -989,6 +1013,9 @@ help:
 	@echo ... src/Opengl/Texture.obj
 	@echo ... src/Opengl/Texture.i
 	@echo ... src/Opengl/Texture.s
+	@echo ... src/Opengl/TextureManager.obj
+	@echo ... src/Opengl/TextureManager.i
+	@echo ... src/Opengl/TextureManager.s
 	@echo ... src/Opengl/VertexArray.obj
 	@echo ... src/Opengl/VertexArray.i
 	@echo ... src/Opengl/VertexArray.s
