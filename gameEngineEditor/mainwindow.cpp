@@ -231,8 +231,12 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
     this->ui->pushButton_colorPicker->setEnabled(true);
     this->updateColorViewer();
 
-    std::string prefixPath = this->projectParser->getProjectDirname() + "/content/texture/";
-    // this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findData(QString::fromStdString(prefixPath + meshComponent.textureName)));
+    if (meshComponent.texture != nullptr)
+    {
+        this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findText(QString::fromStdString(GameEngine::GEngine->textureManager->getTextureFileName(meshComponent.texture->getTextureID()))));
+    }
+    else
+        this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findText("None"));
 }
 
 void MainWindow::openColorDialog()
@@ -276,15 +280,36 @@ void MainWindow::updateColorViewer()
 
 void MainWindow::updateTextureViewer()
 {
+    entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+    if (entityID == entt::null)
+        return;
     QString texturePath = this->ui->comboBox_texture->currentData().toString();
     if (texturePath == "")
     {
         this->ui->label_textureViewer->setPixmap(QPixmap());
+        GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
+        if (meshComponent.texture != nullptr)
+        {
+            delete meshComponent.texture;
+            meshComponent.texture = nullptr;
+        }
         return;
     }
     QPixmap pixmap = QPixmap(texturePath);
     pixmap = pixmap.scaled(this->ui->label_textureViewer->width(), this->ui->label_textureViewer->height(), Qt::KeepAspectRatio);
     this->ui->label_textureViewer->setPixmap(pixmap);
+    if (GameEngine::globalScene->actorHasComponent<GameEngine::MeshComponent>(entityID))
+    {
+        GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
+        if (meshComponent.texture == nullptr)
+        {
+            meshComponent.texture = new GameEngine::Texture();
+        }
+        // meshComponent.texture->load("assets/texture/test.png", GL_NEAREST);
+        GameEngine::GEngine->textureManager->createTexture("D:/code/cpp/gameEngine/build/TestGame/assets/texture/test.png", meshComponent.texture, GL_NEAREST);
+    }
+        // qDebug() << this->ui->comboBox_texture->currentData().toString() << '\n';
+        // GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID).texture->load(this->ui->comboBox_texture->currentData().toString().toStdString().c_str(), GL_NEAREST);
 }
 
 void MainWindow::closeEvent(QCloseEvent *event)
@@ -302,10 +327,11 @@ void MainWindow::clearOutline()
 void MainWindow::resetTextureComboBox()
 {
     this->ui->comboBox_texture->clear();
-    std::filesystem::directory_iterator fileList(this->projectParser->getProjectDirname() + "/content/texture");
+    std::filesystem::directory_iterator fileList(this->projectParser->getProjectDirname() + "/assets/texture");
     this->ui->comboBox_texture->addItem("None", "");
     for (auto& file: fileList)
     {
+        qInfo() << QString::fromStdString(file.path().u8string()) <<'\n';
         this->ui->comboBox_texture->addItem(QString::fromStdString(file.path().filename().u8string()), QString::fromStdString(file.path().u8string()));
     }
 }
@@ -342,12 +368,12 @@ void MainWindow::openProject()
     if (path.size() == 0)
         return;
     this->projectParser->load(path.toStdString().c_str());
-    this->ui->contentBrowserPanel->setPath(this->projectParser->getProjectDirname() + "/content");
+    this->ui->contentBrowserPanel->setPath(this->projectParser->getProjectDirname() + "/assets");
     this->ui->contentBrowserPanel->reset();
     qDebug("Load project success.\n");
     qDebug("Current project: %s.\n", this->projectParser->getProjectName().c_str());
     
-    std::string mapPath = this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map";
+    std::string mapPath = this->projectParser->getProjectDirname() + "/assets/scene/" + this->projectParser->getProjectName() + ".map";
     if (std::filesystem::exists(mapPath))
     {
         qDebug("Found scene data in %s.\n", mapPath.c_str());
@@ -361,6 +387,7 @@ void MainWindow::openProject()
         qDebug("Scene data not found.\n");
     this->resetGameObjectOutline();
     this->resetTextureComboBox();
+    GameEngine::GEngine->setWorkingDirname(this->projectParser->getProjectDirname());
 }
 
 void MainWindow::saveScene()
@@ -371,8 +398,8 @@ void MainWindow::saveScene()
         return;
     }
     GameEngine::SceneSerializer sceneSerializer;
-    sceneSerializer.serialize(this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map");
-    qDebug("Save scene in %s\n", (this->projectParser->getProjectDirname() + "/content/scene/" + this->projectParser->getProjectName() + ".map").c_str());
+    sceneSerializer.serialize(this->projectParser->getProjectDirname() + "/assets/scene/" + this->projectParser->getProjectName() + ".map");
+    qDebug("Save scene in %s\n", (this->projectParser->getProjectDirname() + "/assets/scene/" + this->projectParser->getProjectName() + ".map").c_str());
 }
 
 void MainWindow::parseOutput()

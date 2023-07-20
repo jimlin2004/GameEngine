@@ -1,6 +1,7 @@
 #include "Scene/SceneSerializer.h"
 
 #include "Core/GELib.h"
+#include "GameEngineAPI/GameEngineAPI.h"
 
 GameEngine::SceneSerializer::SceneSerializer()
 {
@@ -22,6 +23,8 @@ void GameEngine::SceneSerializer::serializeEntity(Actor &actor, Json& jsonArray)
     {
         MeshComponent meshComponent = actor.getComponent<MeshComponent>();
         jsonObject["Mesh"]["Color"] = toJson(meshComponent.color);
+        if (meshComponent.texture != nullptr)
+            jsonObject["Mesh"]["Texture"] = GameEngine::GEngine->textureManager->getTextureFileName(meshComponent.texture->getTextureID());
     }
     jsonArray.push_back(jsonObject);
 }
@@ -68,6 +71,13 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
         if (jsonActor.contains("Mesh"))
         {
             glm::vec4 color = GameEngine::vectorToVec4(jsonActor["Mesh"]["Color"]);
+            GameEngine::Texture* texture = nullptr;
+            if (jsonActor["Mesh"].contains("Texture"))
+            {
+                std::string absoluteFilePath = GameEngine::GEngine->getWorkingDirname() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
+                texture->load(absoluteFilePath.c_str(), GL_NEAREST);
+            }
+                
             actor->addComponent<MeshComponent>(color);
         }
     }

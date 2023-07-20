@@ -9,7 +9,7 @@ namespace GameEngine
     class Texture
     {
     private:
-        unsigned int id;
+        uint32_t id;
         int width;
         int height;
         int bpp;
@@ -18,18 +18,19 @@ namespace GameEngine
         GLenum dataFormat;
     public:
         Texture();
-        Texture(unsigned int _width, unsigned int _height);
+        Texture(uint32_t _width, uint32_t _height);
         ~Texture();
         void setData(void* data);
         void load(const char* const path, int filter);
-        void bind(unsigned int slot = 0);
+        void bind(uint32_t slot = 0);
         void unbind();
         bool operator==(const Texture& other) const
         {
             return this->id == other.id;
         }
-        inline unsigned int getWidth() const { return width; }
-        inline unsigned int getHeight() const { return height; }
+        inline uint32_t getWidth() const { return this->width; }
+        inline uint32_t getHeight() const { return this->height; }
+        inline uint32_t getTextureID() const { return this->id; }
     };
 }
 

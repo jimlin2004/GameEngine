@@ -51,6 +51,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\UUID.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\UUID.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/UUID.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\Input.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp"
 },

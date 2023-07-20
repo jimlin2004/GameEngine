@@ -5,6 +5,7 @@
 #include "Core/Timestep.h"
 #include "entt.hpp"
 #include "Scene/Scene.h"
+#include "Core/UUID.h"
 #include <exception>
 #include <string>
 
@@ -43,6 +44,8 @@ namespace GameEngine
         {
             return (uint32_t)this->entityID;
         }
+
+        UUID getUUID();
 
         template <class T>
         bool hasComponent()

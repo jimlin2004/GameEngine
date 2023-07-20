@@ -4,6 +4,7 @@
 #include "glm/gtc/type_ptr.hpp"
 #include "Math/Math.h"
 #include "runtime/SDL/SDLFileParser.h"
+#include "Core/UUID.h"
 
 //windows api
 #if USE_WINDOWS
@@ -17,6 +18,7 @@ SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     , viewportSize(width, height)
     , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
     , frameBuffer(nullptr)
+    , imguizmoVisible(false)
 {
 }
 
@@ -124,6 +126,8 @@ void SDL_Editor_Window::begin()
         GameEngine::FrameBufferTextureFormat::Depth
     };
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
+    GameEngine::UUID uuid, uuid2;
+    GameEngine::ConsoleApi::log() << uuid << "\n" << uuid2 << "\n";
 }
 
 void SDL_Editor_Window::update(float deltaTime)
@@ -174,6 +178,7 @@ void SDL_Editor_Window::render()
             entt::entity entityId = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
             if (entityId != entt::null)
             {
+                this->imguizmoVisible = true;
                 ImGuizmo::SetOrthographic(true);
                 ImGuizmo::SetDrawlist();
                 ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
@@ -198,12 +203,17 @@ void SDL_Editor_Window::render()
                     transformComponent.scale = scale;
                 }
             }
+            else
+                this->imguizmoVisible = false;
         }
     }
     ImGui::End();
     ImGui::PopStyleVar(3);
     ImGui::Render();
-    this->frameBuffer->bind(); 
+
+    GameEngine::GEngine->textureManager->processCreateTextureTasks();
+
+    this->frameBuffer->bind();
     GameEngine::Renderer::begin();
         GameEngine::globalScene->render();
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
@@ -218,8 +228,9 @@ void SDL_Editor_Window::render()
         int pixelData = frameBuffer->readPixel(1, mx, my);
         if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
         {
-            if (!ImGuizmo::IsOver())
+            if (!ImGuizmo::IsOver() || !this->imguizmoVisible)
             {
+                GameEngine::ConsoleApi::log("%d\n", pixelData);
                 this->hoveredActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
                 if (pixelData == -1)
                     this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(nullptr);

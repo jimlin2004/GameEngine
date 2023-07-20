@@ -15,6 +15,7 @@ namespace GameEngine
     { 
     private:
         float _windowWidth, _windowHeight;
+        std::string workingDirname;
         std::function<void()> editorSceneBeginFunc;
     public:
         GameEngineAPI();
@@ -23,8 +24,10 @@ namespace GameEngine
         void setEditorSceneFunc(std::function<void()> func);
         //用來設置全域的window size
         void _setWindowSize(float _w, float _h);
+        void setWorkingDirname(const std::string& path);
         inline float getWindowWidth() const { return _windowWidth; }
         inline float getWindowHeight() const { return _windowHeight; }
+        inline std::string getWorkingDirname() const { return this->workingDirname; }
         ShaderManager* shaderManager;
         TextureManager* textureManager;
     };

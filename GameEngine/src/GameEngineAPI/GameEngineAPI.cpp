@@ -1,9 +1,12 @@
 #include "GameEngineApi/GameEngineApi.h"
 
+#include <filesystem>
+
 GameEngine::GameEngineAPI::GameEngineAPI()
     : shaderManager(new GameEngine::ShaderManager())
     , textureManager(new GameEngine::TextureManager())
     , editorSceneBeginFunc(nullptr)
+    , workingDirname(std::filesystem::current_path().u8string())
 {
 }
 
@@ -21,6 +24,11 @@ void GameEngine::GameEngineAPI::_setWindowSize(float _w, float _h)
 {
     this->_windowWidth = _w;
     this->_windowHeight = _h;
+}
+
+void GameEngine::GameEngineAPI::setWorkingDirname(const std::string &path)
+{
+    this->workingDirname = path;
 }
 
 namespace GameEngine

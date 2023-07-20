@@ -69,6 +69,10 @@ void GameEngine::Actor::destroy()
 {
 }
 
+GameEngine::UUID GameEngine::Actor::getUUID()
+{
+    return this->getComponent<GameEngine::IDComponent>().uuid;
+}
 GameEngine::Actor::operator bool()
 {
     return (this->entityID != entt::null);

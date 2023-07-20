@@ -11,16 +11,16 @@ lastest modify
 #include "GameEngineAPI/GameEngineAPI.h"
 
 GameEngine::Texture::Texture()
-    : id(0), width(0), height(0), bpp(0), pixels(nullptr), internalFormat(0), dataFormat(0)
+    : id(0), width(0), height(0), bpp(0), pixels(nullptr)
+    , internalFormat(GL_RGBA8), dataFormat(GL_RGBA)
 {
 
 }
 
-GameEngine::Texture::Texture(unsigned int _width, unsigned int _height)
+GameEngine::Texture::Texture(uint32_t _width, uint32_t _height)
     : id(0), width(_width), height(_height), bpp(0), pixels(nullptr)
+    , internalFormat(GL_RGBA8), dataFormat(GL_RGBA)
 {
-    this->internalFormat = GL_RGBA8;
-    this->dataFormat = GL_RGBA;
     // glCreateTextures(GL_TEXTURE_2D, 1, &this->id);
     // glTextureStorage2D(this->id, 1, this->internalFormat, this->width, this->height);
     glGenTextures(1, &this->id);
@@ -45,7 +45,7 @@ parameter
 */
 void GameEngine::Texture::load(const char* const path, int filter)
 {
-    std::string fileName =  std::filesystem::u8path(std::string(path)).filename().u8string();
+    std::string fileName  = std::filesystem::u8path(std::string(path)).filename().u8string();
     uint32_t registeredID = GameEngine::GEngine->textureManager->exists(fileName);
     if (registeredID != 0U)
     {
@@ -56,8 +56,6 @@ void GameEngine::Texture::load(const char* const path, int filter)
 
     stbi_set_flip_vertically_on_load(1);
     this->pixels = stbi_load(path, &this->width, &this->height, &this->bpp, 4);
-    if (this->id)
-        glDeleteTextures(1, &this->id);
     glGenTextures(1, &this->id);
     glBindTexture(GL_TEXTURE_2D, this->id);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, filter);
@@ -80,7 +78,7 @@ void GameEngine::Texture::setData(void* data)
     glBindTexture(GL_TEXTURE_2D, 0);
 }
 
-void GameEngine::Texture::bind(unsigned int slot/*= 0*/)
+void GameEngine::Texture::bind(uint32_t slot/*= 0*/)
 {
     glActiveTexture(GL_TEXTURE0 + slot); //slot: 0~31(共32)
     glBindTexture(GL_TEXTURE_2D, this->id);

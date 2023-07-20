@@ -49,6 +49,18 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/queue \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/stdint.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
@@ -84,7 +96,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/ctype.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string_view \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/string_view.tcc \
@@ -101,4 +112,10 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/TextureManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdio \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h

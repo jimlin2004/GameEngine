@@ -1,5 +1,7 @@
 #include "Opengl/TextureManager.h"
 
+#include "Opengl/Texture.h"
+
 GameEngine::TextureManager::TextureManager()
 {
 }
@@ -20,4 +22,20 @@ uint32_t GameEngine::TextureManager::exists(const std::string &textureFileName) 
 {
     auto it = this->registerTable.find(textureFileName);
     return (it == this->registerTable.end()) ? 0 : it->second;
+}
+
+void GameEngine::TextureManager::createTexture(const std::string &textureFilePath, GameEngine::Texture *texture, int filter)
+{
+    this->tasksQueue.push({textureFilePath, texture, filter});
+}
+
+void GameEngine::TextureManager::processCreateTextureTasks()
+{
+    GameEngine::CreateTextureTask task;
+    while (!this->tasksQueue.empty())
+    {
+        task = this->tasksQueue.front();
+        this->tasksQueue.pop();
+        task.texture->load(task.textureFilePath.c_str(), task.filter);
+    }
 }

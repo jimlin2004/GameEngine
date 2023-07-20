@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <iostream>
+#include "Core/UUID.h"
 
 namespace GameEngine
 {
@@ -23,6 +24,7 @@ namespace GameEngine
     };
 
     Logger& operator << (Logger& logger, const MousePosition& mousePosition);
+    Logger& operator << (Logger& logger, const UUID& uuid);
 }
 
 #endif

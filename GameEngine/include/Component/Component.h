@@ -7,9 +7,18 @@
 #include "Actor/Actor.h"
 #include "Opengl/Texture.h"
 #include <string>
+#include "Core/UUID.h"
 
 namespace GameEngine
 {
+    struct IDComponent
+    {
+        UUID uuid;
+
+        IDComponent() = default;
+        IDComponent(const IDComponent&) = default;
+    };
+
     struct TransformComponent
     {
         glm::vec3 translation = {0.0f, 0.0f, 0.0f};
@@ -29,7 +38,7 @@ namespace GameEngine
 
         MeshComponent();
         MeshComponent(const MeshComponent& other);
-        MeshComponent(const glm::vec4& color);
+        MeshComponent(const glm::vec4& color, GameEngine::Texture* texture = nullptr);
     };
 
     struct TagComponent

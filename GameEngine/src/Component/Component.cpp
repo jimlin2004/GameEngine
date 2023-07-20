@@ -34,9 +34,9 @@ GameEngine::MeshComponent::MeshComponent(const MeshComponent &other)
 {
 }
 
-GameEngine::MeshComponent::MeshComponent(const glm::vec4 &color)
+GameEngine::MeshComponent::MeshComponent(const glm::vec4 &color, GameEngine::Texture* texture)
     : color(color)
-    , texture(nullptr)
+    , texture(texture)
 {
 }
 

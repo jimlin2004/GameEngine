@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/Core/GameObject.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Core/Timestep.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Core/Timestep.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj"

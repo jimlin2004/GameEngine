@@ -434,6 +434,30 @@ src/Core/Timestep.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/Timestep.cpp.s
 .PHONY : src/Core/Timestep.cpp.s
 
+src/Core/UUID.obj: src/Core/UUID.cpp.obj
+.PHONY : src/Core/UUID.obj
+
+# target to build an object file
+src/Core/UUID.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.obj
+.PHONY : src/Core/UUID.cpp.obj
+
+src/Core/UUID.i: src/Core/UUID.cpp.i
+.PHONY : src/Core/UUID.i
+
+# target to preprocess a source file
+src/Core/UUID.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.i
+.PHONY : src/Core/UUID.cpp.i
+
+src/Core/UUID.s: src/Core/UUID.cpp.s
+.PHONY : src/Core/UUID.s
+
+# target to generate assembly for a file
+src/Core/UUID.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.s
+.PHONY : src/Core/UUID.cpp.s
+
 src/Event/Input.obj: src/Event/Input.cpp.obj
 .PHONY : src/Event/Input.obj
 
@@ -983,6 +1007,9 @@ help:
 	@echo ... src/Core/Timestep.obj
 	@echo ... src/Core/Timestep.i
 	@echo ... src/Core/Timestep.s
+	@echo ... src/Core/UUID.obj
+	@echo ... src/Core/UUID.i
+	@echo ... src/Core/UUID.s
 	@echo ... src/Event/Input.obj
 	@echo ... src/Event/Input.i
 	@echo ... src/Event/Input.s

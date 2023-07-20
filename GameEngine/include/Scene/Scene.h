@@ -41,6 +41,12 @@ namespace GameEngine
             return obj;
         }
 
+        template<class T>
+        bool actorHasComponent(entt::entity entityID)
+        {
+            return (this->registry.all_of<T>(entityID));
+        }
+
         template<class T> 
         T& queryActorComponent(entt::entity entityID)
         {

@@ -41,6 +41,8 @@ void OutlineTreeWidgetItem::insertItem(OutlineTreeWidgetItem *item)
 
 OutlineTreeWidgetItem *OutlineTreeWidgetItem::getItemByEntityID(entt::entity entityID) const
 {
+    if (entityID == entt::null)
+        return nullptr;
     auto it = this->itemsMap.find((uint32_t)entityID);
     return (it == this->itemsMap.end()) ? nullptr : it->second;
 }

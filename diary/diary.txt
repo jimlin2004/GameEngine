@@ -336,3 +336,13 @@
         -editor texture ui(目前欲利用TextureManager紀錄texture檔名，再用Qt讀檔)
         -serialize的texture
     存檔紀錄 --version 1.0-dev
+2023/07/20
+    1. 暫時完成texture ui、texture manager
+    2. 修復imguizmo的點選問題(重複選取點不到)
+    3. 初步建構UUID(version 4 作法，但以兩個uint64_t 代表128 bit)
+    4. TestGame的content資料夾重命名為assets(方便實作texture manager)(未定案)
+    Todo list
+        -UUID的檢驗(hash)
+        -Actor與UUID綁定
+        -UUID的serialize與deserialize
+    存檔紀錄 --version 1.0-dev

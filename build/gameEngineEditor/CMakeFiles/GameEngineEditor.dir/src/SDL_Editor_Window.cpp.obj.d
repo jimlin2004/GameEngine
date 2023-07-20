@@ -409,7 +409,24 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
- D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/UUID.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/random \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bit \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tuple \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
@@ -422,18 +439,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/array \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/compare \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
+ D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
@@ -441,9 +453,12 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/queue \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \
@@ -631,7 +646,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/align.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bit \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
@@ -642,14 +656,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/utility \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/deque \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
@@ -677,9 +687,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
  D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
