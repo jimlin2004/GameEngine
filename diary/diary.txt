@@ -346,3 +346,11 @@
         -Actor與UUID綁定
         -UUID的serialize與deserialize
     存檔紀錄 --version 1.0-dev
+2023/07/21
+    1. 初步檢驗UUID及UUID hash
+    2. 添加IDComponent及CameraComponent
+    3. Camera system初步改善(未完工)
+    Todo list
+        -Camera system改善
+        -Renderer begin、end系統考慮改善
+    存檔紀錄 --version 1.0-dev

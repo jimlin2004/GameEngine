@@ -678,6 +678,30 @@ src/ContentBrowserPanel.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.s
 .PHONY : src/ContentBrowserPanel.cpp.s
 
+src/EditorCamera.obj: src/EditorCamera.cpp.obj
+.PHONY : src/EditorCamera.obj
+
+# target to build an object file
+src/EditorCamera.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj
+.PHONY : src/EditorCamera.cpp.obj
+
+src/EditorCamera.i: src/EditorCamera.cpp.i
+.PHONY : src/EditorCamera.i
+
+# target to preprocess a source file
+src/EditorCamera.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.i
+.PHONY : src/EditorCamera.cpp.i
+
+src/EditorCamera.s: src/EditorCamera.cpp.s
+.PHONY : src/EditorCamera.s
+
+# target to generate assembly for a file
+src/EditorCamera.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.s
+.PHONY : src/EditorCamera.cpp.s
+
 src/EditorOpenGLWidget.obj: src/EditorOpenGLWidget.cpp.obj
 .PHONY : src/EditorOpenGLWidget.obj
 
@@ -1040,6 +1064,9 @@ help:
 	@echo ... src/ContentBrowserPanel.obj
 	@echo ... src/ContentBrowserPanel.i
 	@echo ... src/ContentBrowserPanel.s
+	@echo ... src/EditorCamera.obj
+	@echo ... src/EditorCamera.i
+	@echo ... src/EditorCamera.s
 	@echo ... src/EditorOpenGLWidget.obj
 	@echo ... src/EditorOpenGLWidget.i
 	@echo ... src/EditorOpenGLWidget.s

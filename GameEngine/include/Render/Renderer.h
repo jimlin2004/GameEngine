@@ -11,6 +11,7 @@
 #include "Opengl/SubTexture.h"
 #include "Opengl/FrameBuffer.h"
 #include "Component/Component.h"
+#include "Core/Camera.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 
 namespace GameEngine
@@ -26,7 +27,7 @@ namespace GameEngine
         //初始化Renderer，使用前須call 此 init()
         static void init();
         //執行批量渲染前需呼叫
-        static void begin();
+        static void begin(const Camera& camera, const glm::mat4& transform);
         //批量渲染的function呼叫完後需要調用此function
         static void close();
         //開始一個新的batch rendering

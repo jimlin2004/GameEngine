@@ -5,6 +5,7 @@
 
 #include "Core/GameBase.h"
 #include "Render/Renderer.h"
+#include "EditorCamera.h"
 
 #include "imgui.h"
 #include "imgui_impl_sdl2.h"
@@ -38,6 +39,8 @@ private:
     ImGuizmo::OPERATION gizmoOperation;
     GameEngine::FrameBuffer* frameBuffer;
     GameEngine::Actor hoveredActor;
+    GameEngineEditor::EditorCamera editorCamera;
+    glm::mat4 transform;
 
     GameEngineEditor::ExportData* mainWindowExportDataPtr;
 

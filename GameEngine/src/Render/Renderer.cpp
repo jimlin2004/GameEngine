@@ -51,6 +51,7 @@ struct RendererData
     GameEngine::RendererInfomation rendererInfomation;
 
     GameEngine::FrameBuffer* frameBuffer = nullptr;
+    glm::mat4 viewProjection = glm::mat4(1.0f);
 };
 
 static RendererData rendererData;
@@ -150,16 +151,18 @@ void GameEngine::Renderer::init()
     GameEngine::Renderer::initLine();
 }
 
-void GameEngine::Renderer::begin()
+void GameEngine::Renderer::begin(const Camera &camera, const glm::mat4 &transform)
 {
+    rendererData.viewProjection = camera.getProjection() * glm::inverse(transform);
+
     rendererData.quadShader->bind();
-    rendererData.quadShader->setUniformMat4f("u_MVP", GameEngine::cameraController->getCamera()->getViewProjectionMatrix());
+    rendererData.quadShader->setUniformMat4f("u_MVP", rendererData.viewProjection);
     rendererData.quadIndexCount = 0;
     rendererData.quadVertexBufferPtr = rendererData.quadVertexBufferBase;
     rendererData.textureSlotIndex = 1;
 
     rendererData.lineShader->bind();
-    rendererData.lineShader->setUniformMat4f("u_MVP", GameEngine::cameraController->getCamera()->getViewProjectionMatrix());
+    rendererData.lineShader->setUniformMat4f("u_MVP", rendererData.viewProjection);
     rendererData.lineVertexCount = 0;
     rendererData.lineVertexBufferPtr = rendererData.lineVertexBufferBase;
 }

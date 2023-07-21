@@ -4,6 +4,7 @@
 #include "glm/glm.hpp"
 
 #include "GameObject.h"
+#include "Component/Component.h"
 #include "Camera.h"
 
 namespace GameEngine
@@ -13,6 +14,9 @@ namespace GameEngine
     private:
         Camera* _camera;
         float speed;
+        TransformComponent transformComponent;
+        glm::mat4 viewMatrix;
+        glm::mat4 viewProjectionMatrix;
     public:
         CameraController();
         CameraController(Camera* camera);
@@ -23,13 +27,14 @@ namespace GameEngine
         void moveCameraX(float newX);
         void moveCameraY(float newY);
         void moveCameraZ(float newZ);
-        inline float getCameraX() const { return this->_camera->transformComponent.translation.x; }
-        inline float getCameraY() const { return this->_camera->transformComponent.translation.y; }
-        inline float getCameraZ() const { return this->_camera->transformComponent.translation.z; }
+        inline float getCameraX() const { return this->transformComponent.translation.x; }
+        inline float getCameraY() const { return this->transformComponent.translation.y; }
+        inline float getCameraZ() const { return this->transformComponent.translation.z; }
         void setSpeed(float speed);
+        glm::mat4 getViewProjection() const;
         inline glm::mat4 getTransform() const
         {
-            return this->_camera->transformComponent.getTransform();
+            return this->transformComponent.getTransform();
         }
     };
 }

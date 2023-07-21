@@ -57,3 +57,19 @@ GameEngine::TagComponent::TagComponent(const std::string &tagName, const std::st
     , typeName(typeName)
 {
 }
+
+GameEngine::CameraComponent::CameraComponent(bool isPrimary)
+    : primary(isPrimary)
+{
+}
+
+GameEngine::CameraComponent::CameraComponent(const CameraComponent &other)
+    : primary(other.primary)
+{
+}
+
+GameEngine::CameraComponent::CameraComponent(const Camera &camera)
+    : primary(false)
+    , camera(camera)
+{
+}

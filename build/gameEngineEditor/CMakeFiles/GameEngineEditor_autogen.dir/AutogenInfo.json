@@ -319,6 +319,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h",
+			"MU",
+			"6YEA5652QU/moc_EditorCamera.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h",
 			"MU",
 			"6YEA5652QU/moc_EditorOpenGLWidget.cpp",
@@ -590,6 +596,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/ContentBrowserPanel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/EditorCamera.cpp",
 			"MU",
 			null
 		],

@@ -204,7 +204,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/CameraController.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/integer.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_integer.inl \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_projection.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/constants.hpp \
@@ -217,7 +217,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/CameraController.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.inl \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/quaternion.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_relational.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_relational.inl \
@@ -416,9 +415,49 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/CameraController.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/valarray \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/version \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstring \
+ C:/PROGRA~1/msys64/mingw64/include/string.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/chrono.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ratio \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/ctime \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/locale \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iomanip \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/codecvt \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h

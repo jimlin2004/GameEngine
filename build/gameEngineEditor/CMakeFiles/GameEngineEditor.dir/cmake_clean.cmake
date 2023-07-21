@@ -37,6 +37,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/EditorScene.cpp.obj"

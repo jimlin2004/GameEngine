@@ -564,6 +564,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.c
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.tcc \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Timestep.h \
@@ -610,6 +611,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.c
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h

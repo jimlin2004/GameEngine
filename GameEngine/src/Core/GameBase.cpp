@@ -11,7 +11,7 @@ GameEngine::GameBase::GameBase(const char* title, int width, int height)
     this->lastFrameTime = 0.0f;
     GameEngine::GEngine->_setWindowSize((float)this->screenWidth, (float)this->screenHeight);
     //bind screen size to PROJECTION_MATRIX
-    GameEngine::cameraController->getCamera()->setProjectionMatrix(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight);
+    GameEngine::cameraController->getCamera()->setProjection(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight);
     // GameEngine::PROJECTION_MATRIX = glm::ortho(0.0f, (float)this->screenWidth, 0.0f, (float)this->screenHeight, -1.0f, 1.0f);
     // this->gameEventManager = new GameEventManager();
 }
@@ -117,10 +117,10 @@ void GameEngine::GameBase::logBuildInfo()
 
 void GameEngine::GameBase::render()
 {
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    Renderer::begin();
-        GameEngine::globalScene->render();
-    Renderer::close();
+    // glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    // Renderer::begin();
+    //     GameEngine::globalScene->render();
+    // Renderer::close();
 }
 
 void GameEngine::GameBase::startGame()

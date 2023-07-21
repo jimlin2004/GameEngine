@@ -19,25 +19,29 @@ void GameEngine::CameraController::bindCamera(GameEngine::Camera* camera)
 
 void GameEngine::CameraController::moveCamera(const glm::vec3& vec)
 {
-    this->_camera->setPosition(this->_camera->getPosition() + (this->speed * vec));
+    this->transformComponent.translation += (this->speed * vec);
 }
 
 void GameEngine::CameraController::moveCameraX(float newX)
 {
-    this->_camera->setX(newX);
+    this->transformComponent.translation.x = newX;
 }
 
 void GameEngine::CameraController::moveCameraY(float newY)
 {
-    this->_camera->setY(newY);
+    this->transformComponent.translation.y = newY;
 }
 
 void GameEngine::CameraController::moveCameraZ(float newZ)
 {
-    this->_camera->setZ(newZ);
+    this->transformComponent.translation.z = newZ;
 }
 
 void GameEngine::CameraController::setSpeed(float speed)
 {
     this->speed = speed;
+}
+glm::mat4 GameEngine::CameraController::getViewProjection() const
+{
+    return glm::mat4();
 }

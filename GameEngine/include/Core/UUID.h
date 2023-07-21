@@ -5,20 +5,30 @@
 #include <random>
 #include <sstream>
 #include <functional>
+#include <cstdio>
+#include <inttypes.h>
+#include "json/json.hpp"
 
 namespace GameEngine
 {
+    using Json = nlohmann::json;
     class UUID
     {
     public:
         UUID();
+        bool operator == (const UUID& other) const;
     private:
         uint64_t _UUID[2];
-        
+
         friend struct std::hash<GameEngine::UUID>;
         friend std::ostream& operator<<(std::ostream& logger, const UUID &uuid);
+        friend void to_json(Json &json, const UUID &uuid);
+        friend void from_json(const Json &json, UUID &uuid);
     };
     std::ostream& operator<<(std::ostream &logger, const UUID &uuid);
+    
+    void to_json(Json& json, const UUID& uuid);
+    void from_json(const Json& json, UUID& uuid);
 } // namespace GameEngine
 
 template<class T>
@@ -36,15 +46,8 @@ namespace std
     template<>
     struct hash<GameEngine::UUID>
     {
-        size_t operator()(const GameEngine::UUID& uuid) const
-        {
-            size_t seed = 0;
-            hash_combine(seed, uuid._UUID[0]);
-            hash_combine(seed, uuid._UUID[1]);
-            return seed;
-        }
+        size_t operator()(const GameEngine::UUID& uuid) const;
     };
-    
 };
 
 #endif

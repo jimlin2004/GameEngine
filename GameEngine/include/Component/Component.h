@@ -8,6 +8,7 @@
 #include "Opengl/Texture.h"
 #include <string>
 #include "Core/UUID.h"
+#include "Core/Camera.h"
 
 namespace GameEngine
 {
@@ -17,6 +18,15 @@ namespace GameEngine
 
         IDComponent() = default;
         IDComponent(const IDComponent&) = default;
+    };
+
+    struct TagComponent
+    {
+        std::string tagName;
+        std::string typeName;
+        TagComponent();
+        TagComponent(const TagComponent& other);
+        TagComponent(const std::string& tagName, const std::string& typeName);
     };
 
     struct TransformComponent
@@ -41,13 +51,14 @@ namespace GameEngine
         MeshComponent(const glm::vec4& color, GameEngine::Texture* texture = nullptr);
     };
 
-    struct TagComponent
+    struct CameraComponent
     {
-        std::string tagName;
-        std::string typeName;
-        TagComponent();
-        TagComponent(const TagComponent& other);
-        TagComponent(const std::string& tagName, const std::string& typeName);
+        Camera camera;
+        bool primary;
+
+        CameraComponent(bool isPrimary = false);
+        CameraComponent(const CameraComponent& other);
+        CameraComponent(const Camera& camera);
     };
 
     struct ScriptComponent

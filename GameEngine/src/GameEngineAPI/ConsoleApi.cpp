@@ -17,6 +17,6 @@ GameEngine::Logger &GameEngine::operator<<(GameEngine::Logger &logger, const Mou
 }
 GameEngine::Logger &GameEngine::operator<<(GameEngine::Logger &logger, const UUID &uuid)
 {
-    logger << uuid._UUID[0] << uuid._UUID[1];
+    logger << uuid._UUID[1] << uuid._UUID[0];
     return logger;
 }

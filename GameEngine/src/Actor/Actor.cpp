@@ -35,6 +35,7 @@ void GameEngine::Actor::setEntityID(entt::entity entityID)
 
 void GameEngine::Actor::initComponents(const glm::vec3 &position, const glm::vec3 &scale, const glm::vec3 &rotation, const std::string &actorName, const std::string &typeName)
 {
+    this->addComponent<GameEngine::IDComponent>();
     this->addComponent<GameEngine::TransformComponent>(position, scale, rotation);
     this->addComponent<GameEngine::MeshComponent>();
     this->addComponent<GameEngine::TagComponent>(actorName, typeName);

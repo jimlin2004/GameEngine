@@ -2,6 +2,7 @@
 
 #include "Core/GELib.h"
 #include "GameEngineAPI/GameEngineAPI.h"
+#include "GameEngineAPI/ConsoleApi.h"
 
 GameEngine::SceneSerializer::SceneSerializer()
 {
@@ -10,21 +11,27 @@ GameEngine::SceneSerializer::SceneSerializer()
 void GameEngine::SceneSerializer::serializeEntity(Actor &actor, Json& jsonArray)
 {
     Json jsonObject;
+    if (actor.hasComponent<IDComponent>())
+        jsonObject["UUID"] = actor.getComponent<IDComponent>().uuid;
     if (actor.hasComponent<TagComponent>())
         jsonObject["TagName"] = actor.getComponent<TagComponent>().tagName;
     if (actor.hasComponent<TransformComponent>())
     {
-        TransformComponent transformComponent = actor.getComponent<TransformComponent>();
+        TransformComponent& transformComponent = actor.getComponent<TransformComponent>();
         jsonObject["Transform"]["Position"] = toJson(transformComponent.translation);
         jsonObject["Transform"]["Scale"] = toJson(transformComponent.scale);
         jsonObject["Transform"]["Rotation"] = toJson(transformComponent.rotation);
     }
     if (actor.hasComponent<MeshComponent>())
     {
-        MeshComponent meshComponent = actor.getComponent<MeshComponent>();
+        MeshComponent& meshComponent = actor.getComponent<MeshComponent>();
         jsonObject["Mesh"]["Color"] = toJson(meshComponent.color);
         if (meshComponent.texture != nullptr)
             jsonObject["Mesh"]["Texture"] = GameEngine::GEngine->textureManager->getTextureFileName(meshComponent.texture->getTextureID());
+    }
+    if (actor.hasComponent<CameraComponent>())
+    {
+        jsonObject["Camera"]["Primary"] = actor.getComponent<CameraComponent>().primary;
     }
     jsonArray.push_back(jsonObject);
 }
@@ -55,6 +62,10 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
     for (Json jsonActor: jsonActors)
     {
         Actor* actor = GameEngine::globalScene->spawnActor<Actor>();
+        if (jsonActor.contains("UUID"))
+        {
+            actor->addComponent<IDComponent>(jsonActor["UUID"].get<GameEngine::UUID>());
+        }
         if (jsonActor.contains("TagName"))
         {
             auto typeName_str_view = TYPE_NAME_BY_TYPE(Actor);
@@ -79,6 +90,10 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
             }
                 
             actor->addComponent<MeshComponent>(color);
+        }
+        if (jsonActor.contains("Camera"))
+        {
+            actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
         }
     }
     return true;

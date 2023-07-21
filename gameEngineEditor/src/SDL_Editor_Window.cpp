@@ -126,8 +126,6 @@ void SDL_Editor_Window::begin()
         GameEngine::FrameBufferTextureFormat::Depth
     };
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
-    GameEngine::UUID uuid, uuid2;
-    GameEngine::ConsoleApi::log() << uuid << "\n" << uuid2 << "\n";
 }
 
 void SDL_Editor_Window::update(float deltaTime)
@@ -159,7 +157,7 @@ void SDL_Editor_Window::render()
         if ((this->viewportSize.x != currentViewportSize.x) || (this->viewportSize.y != currentViewportSize.y))
         {
             this->viewportSize = currentViewportSize;
-            GameEngine::cameraController->getCamera()->setProjectionMatrix(0.0, this->viewportSize.x, 0.0, this->viewportSize.y);
+            this->editorCamera.setProjection(0.0, this->viewportSize.x, 0.0, this->viewportSize.y);
             this->frameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
         }
         uint32_t textureId = this->frameBuffer->getColorAttachmentRendererID();
@@ -182,8 +180,8 @@ void SDL_Editor_Window::render()
                 ImGuizmo::SetOrthographic(true);
                 ImGuizmo::SetDrawlist();
                 ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
-                const glm::mat4& cameraProjection = GameEngine::cameraController->getCamera()->getProjectionMatrix();
-                glm::mat4 cameraView = glm::inverse(GameEngine::cameraController->getTransform());
+                const glm::mat4& cameraProjection = this->editorCamera.getProjection();
+                glm::mat4 cameraView = glm::inverse(this->editorCamera.getTransform());
                 GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityId);
                 glm::mat4 transform = transformComponent.getTransform();
                 
@@ -214,10 +212,10 @@ void SDL_Editor_Window::render()
     GameEngine::GEngine->textureManager->processCreateTextureTasks();
 
     this->frameBuffer->bind();
-    GameEngine::Renderer::begin();
+    GameEngine::Renderer::begin(this->editorCamera, this->editorCamera.getTransform());
         GameEngine::globalScene->render();
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
-    frameBuffer->clearAttachment(1, -1);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
+        frameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
 
     int mx, my;
@@ -230,7 +228,6 @@ void SDL_Editor_Window::render()
         {
             if (!ImGuizmo::IsOver() || !this->imguizmoVisible)
             {
-                GameEngine::ConsoleApi::log("%d\n", pixelData);
                 this->hoveredActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
                 if (pixelData == -1)
                     this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(nullptr);
@@ -244,6 +241,16 @@ void SDL_Editor_Window::render()
 
 void SDL_Editor_Window::gameEventHandle()
 {
+    //用於防止SDL失去focus時key event卡住
+    static bool resetedKeyboard = false;
+    if (!(*this->isFocusOnSDLPtr) && !resetedKeyboard)
+    {
+        SDL_ResetKeyboard();
+        resetedKeyboard = true;
+    }
+    if ((*this->isFocusOnSDLPtr) && resetedKeyboard)
+        resetedKeyboard = false;
+    
     static ImGuiIO& io = ImGui::GetIO();
     while (SDL_PollEvent(&this->event))
     {
@@ -257,7 +264,7 @@ void SDL_Editor_Window::gameEventHandle()
             }
             case SDL_DROPFILE:
             {
-                this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {GameEngine::Input::getMouseX(), (int)io.DisplaySize.y - GameEngine::Input::getMouseY()});
+                this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY())});
                 break;
             }
             default:
@@ -290,23 +297,16 @@ void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)
 
 void SDL_Editor_Window::updateEditorCamera(float deltaTime)
 {
-    constexpr static int speed = 100;
+    constexpr static int speed = 150;
+
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_D))
-    {
-        GameEngine::cameraController->moveCameraX(GameEngine::cameraController->getCameraX() + (speed * deltaTime));
-    }
+        this->editorCamera.setX(this->editorCamera.getX() + (speed * deltaTime));
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_A))
-    {
-        GameEngine::cameraController->moveCameraX(GameEngine::cameraController->getCameraX() - (speed * deltaTime));
-    }
+        this->editorCamera.setX(this->editorCamera.getX() - (speed * deltaTime));
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_W))
-    {
-        GameEngine::cameraController->moveCameraY(GameEngine::cameraController->getCameraY() + (speed * deltaTime));
-    }
+        this->editorCamera.setY(this->editorCamera.getY() + (speed * deltaTime));
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_S))
-    {
-        GameEngine::cameraController->moveCameraY(GameEngine::cameraController->getCameraY() - (speed * deltaTime));
-    }
+        this->editorCamera.setY(this->editorCamera.getY() - (speed * deltaTime));
 }
 
 void SDL_Editor_Window::bindExportData(GameEngineEditor::ExportData* ptr)

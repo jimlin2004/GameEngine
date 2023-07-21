@@ -8,6 +8,7 @@
 #include "Actor/Actor.h"
 #include "Component/Component.h"
 #include "Core/TypeName.hpp"
+#include "Core/UUID.h"
 #include <fstream>
 #include <vector>
 

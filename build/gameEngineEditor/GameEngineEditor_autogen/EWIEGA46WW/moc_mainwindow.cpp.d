@@ -2,7 +2,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/moc_predefs.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/_bsd_types.h \
   C:/Program\ Files/msys64/mingw64/include/_mingw.h \
   C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
   C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
@@ -15,7 +14,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/apisetcconv.h \
   C:/Program\ Files/msys64/mingw64/include/assert.h \
   C:/Program\ Files/msys64/mingw64/include/basetsd.h \
-  C:/Program\ Files/msys64/mingw64/include/bcrypt.h \
   C:/Program\ Files/msys64/mingw64/include/bemapiset.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/algorithm \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
@@ -249,10 +247,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
-  C:/Program\ Files/msys64/mingw64/include/cderr.h \
-  C:/Program\ Files/msys64/mingw64/include/cguid.h \
-  C:/Program\ Files/msys64/mingw64/include/combaseapi.h \
-  C:/Program\ Files/msys64/mingw64/include/commdlg.h \
   C:/Program\ Files/msys64/mingw64/include/concurrencysal.h \
   C:/Program\ Files/msys64/mingw64/include/corecrt.h \
   C:/Program\ Files/msys64/mingw64/include/corecrt_startup.h \
@@ -261,11 +255,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
   C:/Program\ Files/msys64/mingw64/include/ctype.h \
   C:/Program\ Files/msys64/mingw64/include/datetimeapi.h \
-  C:/Program\ Files/msys64/mingw64/include/dde.h \
-  C:/Program\ Files/msys64/mingw64/include/ddeml.h \
   C:/Program\ Files/msys64/mingw64/include/debugapi.h \
-  C:/Program\ Files/msys64/mingw64/include/dlgs.h \
-  C:/Program\ Files/msys64/mingw64/include/dpapi.h \
   C:/Program\ Files/msys64/mingw64/include/driverspecs.h \
   C:/Program\ Files/msys64/mingw64/include/errhandlingapi.h \
   C:/Program\ Files/msys64/mingw64/include/errno.h \
@@ -278,58 +268,29 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/handleapi.h \
   C:/Program\ Files/msys64/mingw64/include/heapapi.h \
   C:/Program\ Files/msys64/mingw64/include/imm.h \
-  C:/Program\ Files/msys64/mingw64/include/inaddr.h \
   C:/Program\ Files/msys64/mingw64/include/interlockedapi.h \
   C:/Program\ Files/msys64/mingw64/include/intrin.h \
   C:/Program\ Files/msys64/mingw64/include/inttypes.h \
   C:/Program\ Files/msys64/mingw64/include/ioapiset.h \
   C:/Program\ Files/msys64/mingw64/include/jobapi.h \
-  C:/Program\ Files/msys64/mingw64/include/joystickapi.h \
   C:/Program\ Files/msys64/mingw64/include/ktmtypes.h \
   C:/Program\ Files/msys64/mingw64/include/libloaderapi.h \
   C:/Program\ Files/msys64/mingw64/include/limits.h \
   C:/Program\ Files/msys64/mingw64/include/locale.h \
-  C:/Program\ Files/msys64/mingw64/include/lzexpand.h \
   C:/Program\ Files/msys64/mingw64/include/malloc.h \
   C:/Program\ Files/msys64/mingw64/include/math.h \
-  C:/Program\ Files/msys64/mingw64/include/mciapi.h \
   C:/Program\ Files/msys64/mingw64/include/mcx.h \
   C:/Program\ Files/msys64/mingw64/include/memoryapi.h \
   C:/Program\ Files/msys64/mingw64/include/minwinbase.h \
   C:/Program\ Files/msys64/mingw64/include/minwindef.h \
-  C:/Program\ Files/msys64/mingw64/include/mmeapi.h \
-  C:/Program\ Files/msys64/mingw64/include/mmiscapi.h \
-  C:/Program\ Files/msys64/mingw64/include/mmiscapi2.h \
-  C:/Program\ Files/msys64/mingw64/include/mmsyscom.h \
-  C:/Program\ Files/msys64/mingw64/include/mmsystem.h \
-  C:/Program\ Files/msys64/mingw64/include/msxml.h \
   C:/Program\ Files/msys64/mingw64/include/namedpipeapi.h \
   C:/Program\ Files/msys64/mingw64/include/namespaceapi.h \
-  C:/Program\ Files/msys64/mingw64/include/nb30.h \
-  C:/Program\ Files/msys64/mingw64/include/ncrypt.h \
-  C:/Program\ Files/msys64/mingw64/include/oaidl.h \
-  C:/Program\ Files/msys64/mingw64/include/objbase.h \
-  C:/Program\ Files/msys64/mingw64/include/objidl.h \
-  C:/Program\ Files/msys64/mingw64/include/objidlbase.h \
-  C:/Program\ Files/msys64/mingw64/include/ole2.h \
-  C:/Program\ Files/msys64/mingw64/include/oleauto.h \
-  C:/Program\ Files/msys64/mingw64/include/oleidl.h \
-  C:/Program\ Files/msys64/mingw64/include/playsoundapi.h \
   C:/Program\ Files/msys64/mingw64/include/poppack.h \
   C:/Program\ Files/msys64/mingw64/include/process.h \
   C:/Program\ Files/msys64/mingw64/include/processenv.h \
   C:/Program\ Files/msys64/mingw64/include/processthreadsapi.h \
   C:/Program\ Files/msys64/mingw64/include/processtopologyapi.h \
   C:/Program\ Files/msys64/mingw64/include/profileapi.h \
-  C:/Program\ Files/msys64/mingw64/include/propidl.h \
-  C:/Program\ Files/msys64/mingw64/include/prsht.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_fd_types.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_ip_mreq1.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_ip_types.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_socket_types.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_wsadata.h \
-  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_xmitfile.h \
   C:/Program\ Files/msys64/mingw64/include/psdk_inc/intrin-impl.h \
   C:/Program\ Files/msys64/mingw64/include/pshpack1.h \
   C:/Program\ Files/msys64/mingw64/include/pshpack2.h \
@@ -342,15 +303,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/pthread_unistd.h \
   C:/Program\ Files/msys64/mingw64/include/realtimeapiset.h \
   C:/Program\ Files/msys64/mingw64/include/reason.h \
-  C:/Program\ Files/msys64/mingw64/include/rpc.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcasync.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcdce.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcdcep.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcndr.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcnsi.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcnsip.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcnterr.h \
-  C:/Program\ Files/msys64/mingw64/include/rpcsal.h \
   C:/Program\ Files/msys64/mingw64/include/sal.h \
   C:/Program\ Files/msys64/mingw64/include/sdkddkver.h \
   C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
@@ -362,9 +314,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/sec_api/wchar_s.h \
   C:/Program\ Files/msys64/mingw64/include/securityappcontainer.h \
   C:/Program\ Files/msys64/mingw64/include/securitybaseapi.h \
-  C:/Program\ Files/msys64/mingw64/include/servprov.h \
   C:/Program\ Files/msys64/mingw64/include/setjmp.h \
-  C:/Program\ Files/msys64/mingw64/include/shellapi.h \
   C:/Program\ Files/msys64/mingw64/include/signal.h \
   C:/Program\ Files/msys64/mingw64/include/specstrings.h \
   C:/Program\ Files/msys64/mingw64/include/stdarg.h \
@@ -384,12 +334,8 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/threadpoolapiset.h \
   C:/Program\ Files/msys64/mingw64/include/threadpoollegacyapiset.h \
   C:/Program\ Files/msys64/mingw64/include/time.h \
-  C:/Program\ Files/msys64/mingw64/include/timeapi.h \
   C:/Program\ Files/msys64/mingw64/include/timezoneapi.h \
   C:/Program\ Files/msys64/mingw64/include/tvout.h \
-  C:/Program\ Files/msys64/mingw64/include/unknwn.h \
-  C:/Program\ Files/msys64/mingw64/include/unknwnbase.h \
-  C:/Program\ Files/msys64/mingw64/include/urlmon.h \
   C:/Program\ Files/msys64/mingw64/include/utilapiset.h \
   C:/Program\ Files/msys64/mingw64/include/vadefs.h \
   C:/Program\ Files/msys64/mingw64/include/virtdisk.h \
@@ -398,29 +344,19 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/winapifamily.h \
   C:/Program\ Files/msys64/mingw64/include/winbase.h \
   C:/Program\ Files/msys64/mingw64/include/wincon.h \
-  C:/Program\ Files/msys64/mingw64/include/wincrypt.h \
   C:/Program\ Files/msys64/mingw64/include/windef.h \
   C:/Program\ Files/msys64/mingw64/include/windows.h \
-  C:/Program\ Files/msys64/mingw64/include/winefs.h \
   C:/Program\ Files/msys64/mingw64/include/winerror.h \
   C:/Program\ Files/msys64/mingw64/include/wingdi.h \
-  C:/Program\ Files/msys64/mingw64/include/winioctl.h \
   C:/Program\ Files/msys64/mingw64/include/winnetwk.h \
   C:/Program\ Files/msys64/mingw64/include/winnls.h \
   C:/Program\ Files/msys64/mingw64/include/winnt.h \
-  C:/Program\ Files/msys64/mingw64/include/winperf.h \
   C:/Program\ Files/msys64/mingw64/include/winreg.h \
-  C:/Program\ Files/msys64/mingw64/include/winscard.h \
-  C:/Program\ Files/msys64/mingw64/include/winsmcrd.h \
-  C:/Program\ Files/msys64/mingw64/include/winsock.h \
-  C:/Program\ Files/msys64/mingw64/include/winspool.h \
   C:/Program\ Files/msys64/mingw64/include/winsvc.h \
   C:/Program\ Files/msys64/mingw64/include/winuser.h \
   C:/Program\ Files/msys64/mingw64/include/winver.h \
   C:/Program\ Files/msys64/mingw64/include/wnnc.h \
   C:/Program\ Files/msys64/mingw64/include/wow64apiset.h \
-  C:/Program\ Files/msys64/mingw64/include/wtypes.h \
-  C:/Program\ Files/msys64/mingw64/include/wtypesbase.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/adxintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
@@ -631,7 +567,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qstringview.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qsysinfo.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qsystemdetection.h \
-  D:/QT/6.4.2/mingw_64/include/QtCore/qt_windows.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtaggedpointer.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtconfigmacros.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtcore-config.h \
@@ -652,7 +587,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
-  D:/QT/6.4.2/mingw_64/include/QtGui/QSurfaceFormat \
   D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
   D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
   D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
@@ -673,8 +607,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qkeysequence.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qopengl.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qopenglext.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpaintdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpalette.h \
@@ -704,10 +636,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/QOpenGLWidget \
-  D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qopenglwidget.h \
-  D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
-  D:/QT/6.4.2/mingw_64/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
@@ -1023,6 +951,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
