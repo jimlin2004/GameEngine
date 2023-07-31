@@ -57,6 +57,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/Titlebar.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/Titlebar.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/WordWrapLabel.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.cpp.obj"

@@ -5,6 +5,7 @@
 #if USE_WINDOWS
     #include <winuser.h>
     #include <windows.h>
+    #include <dwmapi.h>
 #endif
 
 static QTextBrowser* _textBrowserPtr;
@@ -85,17 +86,27 @@ MainWindow::MainWindow(QWidget *parent)
     , compileProcess(_textBrowserPtr)
     , SDL_editor_window(nullptr)
     , SDLWidget(nullptr)
+    , border(10)
 {
     ui->setupUi(this);
-    
+
+    //titlebar and borderless window
+    this->setWindowFlags(Qt::CustomizeWindowHint);
+    connect(this->ui->pushButton_close, &QPushButton::clicked, this, &MainWindow::onCloseClick);
+    connect(this->ui->pushButton_expand, &QPushButton::clicked, this, &MainWindow::onExpandClick);
+    connect(this->ui->pushButton_minimize, &QPushButton::clicked, this, &MainWindow::onMinimizeClick);
+    this->initTitlebar();
+    //
+    this->initToolbar();
+
     QFile qssFile("./qss/gameEngineEditor_ui.qss");
     qssFile.open(QFile::ReadOnly);
     QString qss = QString::fromUtf8(qssFile.readAll());
     this->setStyleSheet(qss);
     qssFile.close();
 
-    connect(this->ui->actionopen, &QAction::triggered, this, &MainWindow::openProject);
-    connect(this->ui->actionsave, &QAction::triggered, this, &MainWindow::saveScene);
+    
+
     this->ui->wrapWidgetBottom->resize(this->ui->wrapWidgetBottom->width(), 120);
     this->ui->dockWidgetContentsBottom->resize(this->ui->dockWidgetContentsBottom->width(), 120);
     this->resizeDocks({this->ui->dockWidgetBottom}, {this->ui->dockWidgetContentsBottom->height()}, Qt::Vertical);
@@ -128,8 +139,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
     this->ui->pushButton_colorPicker->setEnabled(false); //為選取game object前不能點選
     
-    connect(this->ui->actioncompile, &QAction::triggered, this, &MainWindow::compileProject);
-    connect(this->ui->actionrun, &QAction::triggered, this, &MainWindow::runProject);
+    
 
     //bind tiemr to transform
     connect(&(this->timer), &QTimer::timeout, this, &MainWindow::updateWidgets);
@@ -141,6 +151,10 @@ MainWindow::MainWindow(QWidget *parent)
 
     this->ui->label_textureViewer->setStyleSheet("background: #000000;");
     connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
+
+    connect(this->ui->titlebar, &Titlebar::onMousePressEventSignal, [=]{
+        this->window()->windowHandle()->startSystemMove();
+    });
 }
 
 MainWindow::~MainWindow()
@@ -148,6 +162,86 @@ MainWindow::~MainWindow()
     delete ui;
     delete this->projectParser;
 }
+
+void MainWindow::initTitlebar()
+{
+    QMenuBar* menubar = new QMenuBar();
+    menubar->setObjectName("menubar");
+    QMenu* fileMenu = new QMenu("File", menubar);
+    QAction* actionSave = new QAction("Save", fileMenu);
+    QAction* actionOpen = new QAction("Open", fileMenu);
+    connect(actionOpen, &QAction::triggered, this, &MainWindow::openProject);
+    connect(actionSave, &QAction::triggered, this, &MainWindow::saveScene);
+    fileMenu->addAction(actionSave);
+    fileMenu->addAction(actionOpen);
+    menubar->addMenu(fileMenu);
+    this->ui->menubarLayout->addWidget(menubar);
+}
+
+void MainWindow::initToolbar()
+{
+    QWidget* leftSpacer = new QWidget(this);
+    QWidget* rightSpacer = new QWidget(this);
+    leftSpacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+    rightSpacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+
+    QToolBar* toolbar = new QToolBar(this);
+    toolbar->setObjectName("toolbar");
+    toolbar->addWidget(leftSpacer);
+    QAction* actionCompile = new QAction(toolbar);
+    QIcon iconCompile;
+    iconCompile.addFile(QString::fromUtf8(":/icon/icon/complie.png"), QSize(), QIcon::Normal, QIcon::Off);
+    actionCompile->setIcon(iconCompile);
+    QAction* actionRun = new QAction(toolbar);
+    QIcon iconRun;
+    iconRun.addFile(QString::fromUtf8(":/icon/icon/play.png"), QSize(), QIcon::Normal, QIcon::Off);
+    actionRun->setIcon(iconRun);
+    
+    toolbar->addAction(actionCompile);
+    toolbar->addAction(actionRun);
+    connect(actionCompile, &QAction::triggered, this, &MainWindow::compileProject);
+    connect(actionRun, &QAction::triggered, this, &MainWindow::runProject);
+    
+    toolbar->addWidget(rightSpacer);
+    this->ui->toolbarLayout->addWidget(toolbar);
+}
+
+#ifdef Q_OS_WIN
+bool MainWindow::nativeEvent(const QByteArray& eventType, void* message, qintptr* result)
+{
+    static RECT borderThickness;
+    static bool isShown = false;
+    static int borderThicknessTop = 0;
+    MSG* msg = static_cast<MSG*>(message);
+
+    if (!this->isVisible())
+        return false;
+    HWND hwnd = (HWND)this->winId();
+    if (!isShown)
+    {
+        AdjustWindowRectEx(&borderThickness, GetWindowLongPtr(hwnd, GWL_STYLE) & ~WS_CAPTION, FALSE, NULL);
+        borderThicknessTop = -(borderThickness.top) - 1; //保留上方伸縮功能 1px
+        isShown = true;
+    }
+    
+    switch (msg->message)
+    {
+    case WM_NCCALCSIZE:
+    {
+        //去除win10上方的白線(borderless)
+        if (msg->lParam)
+        {
+            NCCALCSIZE_PARAMS* sz = (NCCALCSIZE_PARAMS*)msg->lParam;
+            sz->rgrc[0].top -= borderThicknessTop;
+        }
+        break;
+    }
+    default:
+        break;
+    }
+    return false;
+}
+#endif
 
 void MainWindow::updateWidgets()
 {
@@ -188,21 +282,57 @@ void MainWindow::updateWidgets()
 
 void MainWindow::onFocusChanged(bool& isFocusOnSDL)
 {
+#if USE_WINDOWS    
     if (isFocusOnSDL)
     {
-#if USE_WINDOWS
         SetFocus((HWND)this->winId());
         isFocusOnSDL = false;
-#endif
     }
+#endif
+}
+
+void MainWindow::onCloseClick()
+{
+    this->close();
+}
+
+void MainWindow::onExpandClick()
+{
+    static QIcon iconExpandWindowMin;
+    static QIcon iconExpandWindowMax;
+    //init僅會執行一次
+    static bool init = [=](){
+        iconExpandWindowMin.addFile(QString::fromUtf8(":/icon/icon/expand-window-min.png"), QSize(), QIcon::Normal, QIcon::Off);
+        iconExpandWindowMax.addFile(QString::fromUtf8(":/icon/icon/expand-window-max.png"), QSize(), QIcon::Normal, QIcon::Off);
+        return true;
+    }();
+    static bool isExpanded = false;
+    
+    if (isExpanded)
+    {
+        this->showNormal();
+        this->ui->pushButton_expand->setIcon(iconExpandWindowMax);
+        isExpanded = false;
+    }
+    else
+    {
+        this->showMaximized();
+        this->ui->pushButton_expand->setIcon(iconExpandWindowMin);
+        isExpanded = true;
+    }
+}
+
+void MainWindow::onMinimizeClick()
+{
+    this->showMinimized();
 }
 
 void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
 {
     this->SDL_editor_window = newSDL_window;
-    SDL_Editor_Window_Wrapper_Window* window = (SDL_Editor_Window_Wrapper_Window*)QWindow::fromWinId(winId);
+    QWindow* window = QWindow::fromWinId(winId);
     this->SDLWidget = (SDL_Editor_Window_Wrapper*)(QWidget::createWindowContainer(window));
-    this->ui->centralwidget->layout()->addWidget(this->SDLWidget);
+    this->ui->SDL_windgetWrap->layout()->addWidget(this->SDLWidget);
 
     this->SDL_editor_window->bindExportData(this->getExportDataPtr());
 }
@@ -335,6 +465,8 @@ void MainWindow::resetTextureComboBox()
         this->ui->comboBox_texture->addItem(QString::fromStdString(file.path().filename().u8string()), QString::fromStdString(file.path().u8string()));
     }
 }
+
+
 
 void MainWindow::addGameObjectToOutline(entt::entity entityID)
 {

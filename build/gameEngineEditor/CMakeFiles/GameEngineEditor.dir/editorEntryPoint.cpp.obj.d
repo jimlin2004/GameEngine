@@ -398,6 +398,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QHoverEvent \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
@@ -406,6 +407,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenuBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenubar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QSizePolicy \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \

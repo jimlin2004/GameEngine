@@ -10,7 +10,7 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDockWidget>
@@ -21,15 +21,12 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenu>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextBrowser>
-#include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "ContentBrowserPanel.h"
@@ -37,20 +34,18 @@
 #include "LineEditRotation.h"
 #include "OutlineTreeWidget.h"
 #include "QCollapsibleWidget.h"
+#include "Titlebar.h"
 
 QT_BEGIN_NAMESPACE
 
 class Ui_MainWindow
 {
 public:
-    QAction *actionsave;
-    QAction *actionopen;
-    QAction *actioncompile;
-    QAction *actionrun;
     QWidget *centralwidget;
-    QGridLayout *gridLayout;
-    QMenuBar *menubar;
-    QMenu *menuFile;
+    QVBoxLayout *verticalLayout_7;
+    QHBoxLayout *toolbarLayout;
+    QWidget *SDL_windgetWrap;
+    QHBoxLayout *horizontalLayout_5;
     QStatusBar *statusbar;
     QDockWidget *dockWidgetLeft;
     QWidget *dockWidgetContentsLeft;
@@ -134,44 +129,46 @@ public:
     QVBoxLayout *verticalLayout;
     QTextBrowser *textBrowser;
     QLineEdit *lineEdit;
-    QToolBar *toolBar;
+    Titlebar *titlebar;
+    QWidget *titlebarContents;
+    QVBoxLayout *verticalLayout_8;
+    QHBoxLayout *titlebarLayout;
+    QLabel *label_windowIcon;
+    QLabel *label_3;
+    QSpacerItem *horizontalSpacer_3;
+    QPushButton *pushButton_minimize;
+    QPushButton *pushButton_expand;
+    QPushButton *pushButton_close;
+    QHBoxLayout *menubarLayout;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(679, 600);
+        MainWindow->resize(681, 605);
         MainWindow->setStyleSheet(QString::fromUtf8(""));
-        actionsave = new QAction(MainWindow);
-        actionsave->setObjectName("actionsave");
-        actionopen = new QAction(MainWindow);
-        actionopen->setObjectName("actionopen");
-        actioncompile = new QAction(MainWindow);
-        actioncompile->setObjectName("actioncompile");
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/icon/icon/complie.png"), QSize(), QIcon::Normal, QIcon::Off);
-        actioncompile->setIcon(icon);
-        actionrun = new QAction(MainWindow);
-        actionrun->setObjectName("actionrun");
-        QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/icon/icon/play.png"), QSize(), QIcon::Normal, QIcon::Off);
-        actionrun->setIcon(icon1);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setStyleSheet(QString::fromUtf8(""));
-        gridLayout = new QGridLayout(centralwidget);
-        gridLayout->setSpacing(0);
-        gridLayout->setObjectName("gridLayout");
-        gridLayout->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_7 = new QVBoxLayout(centralwidget);
+        verticalLayout_7->setSpacing(0);
+        verticalLayout_7->setObjectName("verticalLayout_7");
+        verticalLayout_7->setContentsMargins(0, 0, 0, 0);
+        toolbarLayout = new QHBoxLayout();
+        toolbarLayout->setObjectName("toolbarLayout");
+
+        verticalLayout_7->addLayout(toolbarLayout);
+
+        SDL_windgetWrap = new QWidget(centralwidget);
+        SDL_windgetWrap->setObjectName("SDL_windgetWrap");
+        horizontalLayout_5 = new QHBoxLayout(SDL_windgetWrap);
+        horizontalLayout_5->setSpacing(0);
+        horizontalLayout_5->setObjectName("horizontalLayout_5");
+        horizontalLayout_5->setContentsMargins(0, 0, 0, 0);
+
+        verticalLayout_7->addWidget(SDL_windgetWrap);
+
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 679, 22));
-        menubar->setStyleSheet(QString::fromUtf8(""));
-        menuFile = new QMenu(menubar);
-        menuFile->setObjectName("menuFile");
-        menuFile->setStyleSheet(QString::fromUtf8(""));
-        MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
@@ -202,7 +199,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -125, 417, 441));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 213, 441));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -548,7 +545,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 671, 126));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 673, 161));
         gridLayout_6 = new QGridLayout(scrollAreaWidgetContents);
         gridLayout_6->setObjectName("gridLayout_6");
         gridLayout_6->setVerticalSpacing(0);
@@ -587,15 +584,92 @@ public:
 
         dockWidgetBottom->setWidget(dockWidgetContentsBottom);
         MainWindow->addDockWidget(Qt::BottomDockWidgetArea, dockWidgetBottom);
-        toolBar = new QToolBar(MainWindow);
-        toolBar->setObjectName("toolBar");
-        MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
+        titlebar = new Titlebar(MainWindow);
+        titlebar->setObjectName("titlebar");
+        QSizePolicy sizePolicy4(QSizePolicy::Minimum, QSizePolicy::Minimum);
+        sizePolicy4.setHorizontalStretch(0);
+        sizePolicy4.setVerticalStretch(0);
+        sizePolicy4.setHeightForWidth(titlebar->sizePolicy().hasHeightForWidth());
+        titlebar->setSizePolicy(sizePolicy4);
+        titlebar->setFeatures(QDockWidget::NoDockWidgetFeatures);
+        titlebarContents = new QWidget();
+        titlebarContents->setObjectName("titlebarContents");
+        QSizePolicy sizePolicy5(QSizePolicy::Preferred, QSizePolicy::Fixed);
+        sizePolicy5.setHorizontalStretch(0);
+        sizePolicy5.setVerticalStretch(0);
+        sizePolicy5.setHeightForWidth(titlebarContents->sizePolicy().hasHeightForWidth());
+        titlebarContents->setSizePolicy(sizePolicy5);
+        verticalLayout_8 = new QVBoxLayout(titlebarContents);
+        verticalLayout_8->setSpacing(2);
+        verticalLayout_8->setObjectName("verticalLayout_8");
+        verticalLayout_8->setContentsMargins(6, 3, 3, 3);
+        titlebarLayout = new QHBoxLayout();
+        titlebarLayout->setObjectName("titlebarLayout");
+        titlebarLayout->setContentsMargins(0, 2, -1, -1);
+        label_windowIcon = new QLabel(titlebarContents);
+        label_windowIcon->setObjectName("label_windowIcon");
+        label_windowIcon->setEnabled(true);
+        sizePolicy3.setHeightForWidth(label_windowIcon->sizePolicy().hasHeightForWidth());
+        label_windowIcon->setSizePolicy(sizePolicy3);
+        label_windowIcon->setMinimumSize(QSize(0, 0));
+        label_windowIcon->setBaseSize(QSize(0, 0));
+        label_windowIcon->setPixmap(QPixmap(QString::fromUtf8(":/icon/icon/windowIcon.jpg")));
 
-        menubar->addAction(menuFile->menuAction());
-        menuFile->addAction(actionsave);
-        menuFile->addAction(actionopen);
-        toolBar->addAction(actioncompile);
-        toolBar->addAction(actionrun);
+        titlebarLayout->addWidget(label_windowIcon);
+
+        label_3 = new QLabel(titlebarContents);
+        label_3->setObjectName("label_3");
+
+        titlebarLayout->addWidget(label_3);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        titlebarLayout->addItem(horizontalSpacer_3);
+
+        pushButton_minimize = new QPushButton(titlebarContents);
+        pushButton_minimize->setObjectName("pushButton_minimize");
+        sizePolicy3.setHeightForWidth(pushButton_minimize->sizePolicy().hasHeightForWidth());
+        pushButton_minimize->setSizePolicy(sizePolicy3);
+        pushButton_minimize->setMinimumSize(QSize(32, 32));
+        pushButton_minimize->setMaximumSize(QSize(32, 32));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/icon/icon/minimize.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_minimize->setIcon(icon);
+
+        titlebarLayout->addWidget(pushButton_minimize);
+
+        pushButton_expand = new QPushButton(titlebarContents);
+        pushButton_expand->setObjectName("pushButton_expand");
+        pushButton_expand->setMinimumSize(QSize(32, 32));
+        pushButton_expand->setMaximumSize(QSize(32, 32));
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/icon/icon/expand-window-max.png"), QSize(), QIcon::Selected, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/icon/icon/expand-window-min.png"), QSize(), QIcon::Selected, QIcon::On);
+        pushButton_expand->setIcon(icon1);
+
+        titlebarLayout->addWidget(pushButton_expand);
+
+        pushButton_close = new QPushButton(titlebarContents);
+        pushButton_close->setObjectName("pushButton_close");
+        pushButton_close->setMinimumSize(QSize(32, 32));
+        pushButton_close->setMaximumSize(QSize(32, 32));
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/icon/icon/close.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_close->setIcon(icon2);
+
+        titlebarLayout->addWidget(pushButton_close);
+
+
+        verticalLayout_8->addLayout(titlebarLayout);
+
+        menubarLayout = new QHBoxLayout();
+        menubarLayout->setObjectName("menubarLayout");
+        menubarLayout->setContentsMargins(-1, 0, -1, -1);
+
+        verticalLayout_8->addLayout(menubarLayout);
+
+        titlebar->setWidget(titlebarContents);
+        MainWindow->addDockWidget(Qt::TopDockWidgetArea, titlebar);
 
         retranslateUi(MainWindow);
 
@@ -608,14 +682,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Engine Editor", nullptr));
-        actionsave->setText(QCoreApplication::translate("MainWindow", "save", nullptr));
-        actionopen->setText(QCoreApplication::translate("MainWindow", "open", nullptr));
-        actioncompile->setText(QCoreApplication::translate("MainWindow", "compile", nullptr));
-        actionrun->setText(QCoreApplication::translate("MainWindow", "run", nullptr));
-#if QT_CONFIG(tooltip)
-        actionrun->setToolTip(QCoreApplication::translate("MainWindow", "compile and run", nullptr));
-#endif // QT_CONFIG(tooltip)
-        menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
         qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Transform", nullptr));
         label_position->setText(QCoreApplication::translate("MainWindow", "Position", nullptr));
@@ -642,7 +708,11 @@ public:
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_console), QCoreApplication::translate("MainWindow", "Console", nullptr));
-        toolBar->setWindowTitle(QCoreApplication::translate("MainWindow", "toolBar", nullptr));
+        label_windowIcon->setText(QString());
+        label_3->setText(QCoreApplication::translate("MainWindow", "GameEngine", nullptr));
+        pushButton_minimize->setText(QString());
+        pushButton_expand->setText(QString());
+        pushButton_close->setText(QString());
     } // retranslateUi
 
 };

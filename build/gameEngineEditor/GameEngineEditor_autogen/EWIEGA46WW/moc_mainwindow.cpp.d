@@ -583,6 +583,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtCore/qversiontagging.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QDrag \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QHoverEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
@@ -641,9 +642,12 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenuBar \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QSizePolicy \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
@@ -663,6 +667,8 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenubar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -673,6 +679,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreeview.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \

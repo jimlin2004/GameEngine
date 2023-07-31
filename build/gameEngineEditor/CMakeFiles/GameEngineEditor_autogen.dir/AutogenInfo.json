@@ -385,6 +385,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/Titlebar.h",
+			"MU",
+			"6YEA5652QU/moc_Titlebar.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h",
 			"MU",
 			"6YEA5652QU/moc_WordWrapLabel.cpp",
@@ -646,6 +652,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/SDL_Editor_Window_Wrapper.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/Titlebar.cpp",
 			"MU",
 			null
 		],

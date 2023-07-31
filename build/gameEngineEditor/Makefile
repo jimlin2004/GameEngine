@@ -918,6 +918,30 @@ src/SDL_Editor_Window_Wrapper.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.s
 .PHONY : src/SDL_Editor_Window_Wrapper.cpp.s
 
+src/Titlebar.obj: src/Titlebar.cpp.obj
+.PHONY : src/Titlebar.obj
+
+# target to build an object file
+src/Titlebar.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Titlebar.cpp.obj
+.PHONY : src/Titlebar.cpp.obj
+
+src/Titlebar.i: src/Titlebar.cpp.i
+.PHONY : src/Titlebar.i
+
+# target to preprocess a source file
+src/Titlebar.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Titlebar.cpp.i
+.PHONY : src/Titlebar.cpp.i
+
+src/Titlebar.s: src/Titlebar.cpp.s
+.PHONY : src/Titlebar.s
+
+# target to generate assembly for a file
+src/Titlebar.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Titlebar.cpp.s
+.PHONY : src/Titlebar.cpp.s
+
 src/WordWrapLabel.obj: src/WordWrapLabel.cpp.obj
 .PHONY : src/WordWrapLabel.obj
 
@@ -1094,6 +1118,9 @@ help:
 	@echo ... src/SDL_Editor_Window_Wrapper.obj
 	@echo ... src/SDL_Editor_Window_Wrapper.i
 	@echo ... src/SDL_Editor_Window_Wrapper.s
+	@echo ... src/Titlebar.obj
+	@echo ... src/Titlebar.i
+	@echo ... src/Titlebar.s
 	@echo ... src/WordWrapLabel.obj
 	@echo ... src/WordWrapLabel.i
 	@echo ... src/WordWrapLabel.s

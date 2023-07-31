@@ -4,6 +4,7 @@
 #include "6YEA5652QU/moc_LineEditRotation.cpp"
 #include "6YEA5652QU/moc_OutlineTreeWidget.cpp"
 #include "6YEA5652QU/moc_SDL_Editor_Window_Wrapper.cpp"
+#include "6YEA5652QU/moc_Titlebar.cpp"
 #include "6YEA5652QU/moc_WordWrapLabel.cpp"
 #include "BBTDY5WPX3/moc_CompileProcess.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"

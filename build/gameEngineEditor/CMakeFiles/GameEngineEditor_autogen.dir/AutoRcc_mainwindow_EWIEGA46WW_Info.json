@@ -8,7 +8,12 @@
 	"INPUTS" : 
 	[
 		"D:/code/cpp/gameEngine/gameEngineEditor/icon/complie.png",
-		"D:/code/cpp/gameEngine/gameEngineEditor/icon/play.png"
+		"D:/code/cpp/gameEngine/gameEngineEditor/icon/expand-window-max.png",
+		"D:/code/cpp/gameEngine/gameEngineEditor/icon/expand-window-min.png",
+		"D:/code/cpp/gameEngine/gameEngineEditor/icon/windowIcon.jpg",
+		"D:/code/cpp/gameEngine/gameEngineEditor/icon/minimize.png",
+		"D:/code/cpp/gameEngine/gameEngineEditor/icon/play.png",
+		"D:/code/cpp/gameEngine/gameEngineEditor/icon/close.png"
 	],
 	"LOCK_FILE" : "D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

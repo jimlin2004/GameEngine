@@ -1,46 +1,29 @@
 #include "Core/CameraController.h"
 
 GameEngine::CameraController::CameraController()
-    :_camera(nullptr), speed(0.0f)
+    : cameraPtr(nullptr)
+    , transformComponentPtr(nullptr)
 {
-
 }
 
 GameEngine::CameraController::CameraController(GameEngine::Camera* camera)
-    :_camera(camera), speed(0.0f)
+    : cameraPtr(camera)
+    , transformComponentPtr(nullptr)
 {
-    
 }
 
-void GameEngine::CameraController::bindCamera(GameEngine::Camera* camera)
+void GameEngine::CameraController::setViewTarget(GameEngine::Camera* camera, GameEngine::TransformComponent* transformComponent)
 {
-    this->_camera = camera;
+    this->cameraPtr = camera;
+    this->transformComponentPtr = transformComponent;
 }
 
-void GameEngine::CameraController::moveCamera(const glm::vec3& vec)
+void GameEngine::CameraController::setViewTarget(GameEngine::CameraComponent* cameraComponent, GameEngine::TransformComponent* transformComponent)
 {
-    this->transformComponent.translation += (this->speed * vec);
+    this->cameraPtr = &cameraComponent->camera;
+    this->transformComponentPtr = transformComponent;
 }
 
-void GameEngine::CameraController::moveCameraX(float newX)
-{
-    this->transformComponent.translation.x = newX;
-}
-
-void GameEngine::CameraController::moveCameraY(float newY)
-{
-    this->transformComponent.translation.y = newY;
-}
-
-void GameEngine::CameraController::moveCameraZ(float newZ)
-{
-    this->transformComponent.translation.z = newZ;
-}
-
-void GameEngine::CameraController::setSpeed(float speed)
-{
-    this->speed = speed;
-}
 glm::mat4 GameEngine::CameraController::getViewProjection() const
 {
     return glm::mat4();

@@ -354,3 +354,20 @@
         -Camera system改善
         -Renderer begin、end系統考慮改善
     存檔紀錄 --version 1.0-dev
+2023/07/28
+    1. 重新用回cameraController(bindCamera改名為setViewTarget，支持CameraComponent及camera)
+    2. 嘗試將gameEngine Editor改為無邊框，
+       嘗試framelessWindowHint後棄用(雖然看起來沒問題，但resize時閃爍，窗體變透明，失去拖拉、
+       縮放控制權需自己寫程式)，經csdn查資料顯示此為client area與non client area size重疊導致
+       ，因此改為嘗試Qt::CustomizeWindowHint，有拖拉縮放等功能，但遇到win 10 bug(窗體上方有6 pixel
+       的白邊，需操作native event及windows api [DWM api]才能處理)
+    Note: 今日無存檔
+2023/07/31
+    1. 修復borderless上的白線問題(使用windows DWM api)
+    2. 建構自定義標題欄
+    3. 將menubar與toolbar放入正確位置
+    4. 發現borderless上的白線問題在快速移動視窗或運行阻塞式運算時能會出現(可能是event來不及)
+    Todo list
+        -繼續做其他功能
+        -白線問題是否可以解決
+    存檔紀錄 --version 1.0-dev

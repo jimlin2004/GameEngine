@@ -8,8 +8,6 @@
 
 namespace GameEngine
 {
-    class CameraController;
-
     class Camera: GameObject
     {
     public:

@@ -398,6 +398,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QHoverEvent \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
@@ -406,6 +407,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenuBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenubar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QSizePolicy \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
@@ -996,8 +1004,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/QAction \
- D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QIcon \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h \
@@ -1014,11 +1022,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenuBar \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenubar.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -1031,8 +1034,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTabWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h \
@@ -1051,4 +1052,36 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QList
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/Titlebar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
+ C:/PROGRA~1/msys64/mingw64/include/dwmapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/wtypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpc.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcdce.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcdcep.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcnsi.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcnterr.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcasync.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcndr.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcnsip.h \
+ C:/PROGRA~1/msys64/mingw64/include/rpcsal.h \
+ C:/PROGRA~1/msys64/mingw64/include/ole2.h \
+ C:/PROGRA~1/msys64/mingw64/include/objbase.h \
+ C:/PROGRA~1/msys64/mingw64/include/combaseapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/wtypesbase.h \
+ C:/PROGRA~1/msys64/mingw64/include/unknwnbase.h \
+ C:/PROGRA~1/msys64/mingw64/include/objidlbase.h \
+ C:/PROGRA~1/msys64/mingw64/include/cguid.h \
+ C:/PROGRA~1/msys64/mingw64/include/objidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/unknwn.h \
+ C:/PROGRA~1/msys64/mingw64/include/urlmon.h \
+ C:/PROGRA~1/msys64/mingw64/include/oleidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/servprov.h \
+ C:/PROGRA~1/msys64/mingw64/include/msxml.h \
+ C:/PROGRA~1/msys64/mingw64/include/oaidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/propidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/oleauto.h \
+ C:/PROGRA~1/msys64/mingw64/include/uxtheme.h \
+ C:/PROGRA~1/msys64/mingw64/include/commctrl.h \
+ C:/PROGRA~1/msys64/mingw64/include/prsht.h

@@ -6,9 +6,29 @@
     background-color: #404040;
 }
 
+#centralwidget {
+    background-color: #404040;
+}
+
 #MainWindow::separator {
     width: 1px;
     height: 1px;
+}
+
+#titlebar #titlebarContents {
+    background-color: #ff171717;
+}
+
+#titlebar #titlebarContents QPushButton {
+    background-color: #ff171717;
+}
+
+#titlebar #titlebarContents QPushButton:hover {
+    background-color: #ff749eb3;
+}
+
+#titlebar #titlebarContents #pushButton_close:hover {
+    background-color: #e22;
 }
 
 #menubar {
@@ -29,6 +49,14 @@
 #menubar QMenu::item:selected {
     color: #ffffff;
     background-color: #6c757d;
+}
+
+#toolbar {
+    border: none;
+}
+
+#toolbar QToolButton:hover {
+    background-color: #e22;
 }
 
 #dockWidgetBottom {
@@ -225,6 +253,3 @@
     border-left-color: #3578d6;
 }
 
-#toolBar {
-    border: none;
-}

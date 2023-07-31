@@ -7,10 +7,14 @@
 #include <QDebug>
 #include <QProcess>
 #include <QMouseEvent>
+#include <QHoverEvent>
 #include <QMessageBox>
 #include <QColorDialog>
 #include <QCloseEvent>
 #include <QTimer>
+#include <QMenuBar>
+#include <QToolBar>
+#include <QSizePolicy>
 #include "EditorOpenGLWidget.h"
 #include "ProjectParser.h"
 #include "AssetFileWidget.h"
@@ -52,14 +56,21 @@ private:
     SDL_Editor_Window* SDL_editor_window;
     SDL_Editor_Window_Wrapper* SDLWidget;
     QTimer timer;
+    qreal border;
     static GameEngineEditor::ExportData exportData;
 
+    void initTitlebar();
+    void initToolbar();
     void clearOutline();
     void updateColorViewer();
     void addGameObjectToOutline(entt::entity entityID);
     void resetTextureComboBox();
+
 protected:
     void closeEvent (QCloseEvent* event);
+#ifdef Q_OS_WIN
+    bool nativeEvent(const QByteArray& eventType, void* message, qintptr* result) override;
+#endif
 private slots:
     void openProject();
     void saveScene();
@@ -71,6 +82,10 @@ private slots:
     void runProject();
     void updateTextureViewer();
     void updateWidgets();
+
+    void onCloseClick();
+    void onExpandClick();
+    void onMinimizeClick();
 };
 
 #endif // MAINWINDOW_H

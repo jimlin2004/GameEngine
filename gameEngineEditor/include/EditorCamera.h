@@ -9,7 +9,7 @@ namespace GameEngineEditor
     class EditorCamera: public GameEngine::Camera
     {
         private:
-            GameEngine::TransformComponent transformComponent;
+            
             glm::mat4 viewMatrix;
             glm::mat4 viewProjectionMatrix;
         private:
@@ -32,7 +32,7 @@ namespace GameEngineEditor
             void setZ(float z);
             inline float getZ() const { return this->transformComponent.translation.z; }
         
-            friend class CameraController;
+            GameEngine::TransformComponent transformComponent;
     };
 }
 

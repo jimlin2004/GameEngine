@@ -126,6 +126,7 @@ void SDL_Editor_Window::begin()
         GameEngine::FrameBufferTextureFormat::Depth
     };
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
+    GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 }
 
 void SDL_Editor_Window::update(float deltaTime)
@@ -212,7 +213,7 @@ void SDL_Editor_Window::render()
     GameEngine::GEngine->textureManager->processCreateTextureTasks();
 
     this->frameBuffer->bind();
-    GameEngine::Renderer::begin(this->editorCamera, this->editorCamera.getTransform());
+    GameEngine::Renderer::begin((*GameEngine::cameraController->getCamera()), GameEngine::cameraController->getTransform());
         GameEngine::globalScene->render();
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
         frameBuffer->clearAttachment(1, -1);
