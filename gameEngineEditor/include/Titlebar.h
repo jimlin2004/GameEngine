@@ -11,8 +11,11 @@ public:
     explicit Titlebar(QWidget *parent = nullptr, Qt::WindowFlags flags = Qt::WindowFlags());
 signals:
     void onMousePressEventSignal(void);
+    void onMouseDoubleClickEventSignal(void);
+    void onHitBorderSignal(QPoint);
 protected:
     void mousePressEvent(QMouseEvent *event) override;
+    void mouseDoubleClickEvent(QMouseEvent *event) override;
 };
 
 #endif

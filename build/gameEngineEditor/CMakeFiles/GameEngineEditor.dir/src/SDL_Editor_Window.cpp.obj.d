@@ -869,6 +869,30 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \

@@ -26,10 +26,12 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_Titlebar_t {
-    uint offsetsAndSizes[6];
+    uint offsetsAndSizes[10];
     char stringdata0[9];
     char stringdata1[24];
     char stringdata2[1];
+    char stringdata3[30];
+    char stringdata4[18];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_Titlebar_t::offsetsAndSizes) + ofs), len 
@@ -37,11 +39,15 @@ Q_CONSTINIT static const qt_meta_stringdata_Titlebar_t qt_meta_stringdata_Titleb
     {
         QT_MOC_LITERAL(0, 8),  // "Titlebar"
         QT_MOC_LITERAL(9, 23),  // "onMousePressEventSignal"
-        QT_MOC_LITERAL(33, 0)   // ""
+        QT_MOC_LITERAL(33, 0),  // ""
+        QT_MOC_LITERAL(34, 29),  // "onMouseDoubleClickEventSignal"
+        QT_MOC_LITERAL(64, 17)   // "onHitBorderSignal"
     },
     "Titlebar",
     "onMousePressEventSignal",
-    ""
+    "",
+    "onMouseDoubleClickEventSignal",
+    "onHitBorderSignal"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -52,18 +58,22 @@ Q_CONSTINIT static const uint qt_meta_data_Titlebar[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       1,       // signalCount
+       3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x06,    1 /* Public */,
+       1,    0,   32,    2, 0x06,    1 /* Public */,
+       3,    0,   33,    2, 0x06,    2 /* Public */,
+       4,    1,   34,    2, 0x06,    3 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QPoint,    2,
 
        0        // eod
 };
@@ -78,7 +88,12 @@ Q_CONSTINIT const QMetaObject Titlebar::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Titlebar, std::true_type>,
         // method 'onMousePressEventSignal'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onMouseDoubleClickEventSignal'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onHitBorderSignal'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QPoint, std::false_type>
     >,
     nullptr
 } };
@@ -90,6 +105,8 @@ void Titlebar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         (void)_t;
         switch (_id) {
         case 0: _t->onMousePressEventSignal(); break;
+        case 1: _t->onMouseDoubleClickEventSignal(); break;
+        case 2: _t->onHitBorderSignal((*reinterpret_cast< std::add_pointer_t<QPoint>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -101,8 +118,21 @@ void Titlebar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
                 return;
             }
         }
+        {
+            using _t = void (Titlebar::*)();
+            if (_t _q_method = &Titlebar::onMouseDoubleClickEventSignal; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (Titlebar::*)(QPoint );
+            if (_t _q_method = &Titlebar::onHitBorderSignal; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
+                return;
+            }
+        }
     }
-    (void)_a;
 }
 
 const QMetaObject *Titlebar::metaObject() const
@@ -124,13 +154,13 @@ int Titlebar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
 }
@@ -139,6 +169,19 @@ int Titlebar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void Titlebar::onMousePressEventSignal()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void Titlebar::onMouseDoubleClickEventSignal()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void Titlebar::onHitBorderSignal(QPoint _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

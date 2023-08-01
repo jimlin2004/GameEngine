@@ -371,3 +371,11 @@
         -繼續做其他功能
         -白線問題是否可以解決
     存檔紀錄 --version 1.0-dev
+2023/08/01
+    1. 發現FramelessWindowHint比CustomizeWindowHint好，視窗在快速移動時
+       不會有白線，但伸縮功能需要自己實現
+    2. 完成拖曳伸縮功能，啟用hover move，可能會有效能問題
+    3. 利用DWM api找回Aero snap及視窗陰影功能
+    Todo list
+        -發現現在在resize時視窗右邊可能會出現白線(很少出現)，可以修復也可忽略
+    存檔紀錄 --version 1.0-dev

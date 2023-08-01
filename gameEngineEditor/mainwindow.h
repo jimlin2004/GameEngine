@@ -67,6 +67,7 @@ private:
     void resetTextureComboBox();
 
 protected:
+    bool event(QEvent* event) override;
     void closeEvent (QCloseEvent* event);
 #ifdef Q_OS_WIN
     bool nativeEvent(const QByteArray& eventType, void* message, qintptr* result) override;
@@ -86,6 +87,7 @@ private slots:
     void onCloseClick();
     void onExpandClick();
     void onMinimizeClick();
+    void onHitBorder(QPoint pos);
 };
 
 #endif // MAINWINDOW_H

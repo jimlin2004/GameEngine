@@ -19,6 +19,10 @@
     background-color: #ff171717;
 }
 
+#titlebar #titlebarContents #label_windowTitle {
+    color: #ffffff;
+}
+
 #titlebar #titlebarContents QPushButton {
     background-color: #ff171717;
 }

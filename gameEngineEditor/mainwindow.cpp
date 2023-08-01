@@ -91,7 +91,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     //titlebar and borderless window
-    this->setWindowFlags(Qt::CustomizeWindowHint);
+    // this->setWindowFlags(Qt::CustomizeWindowHint);
+    this->setWindowFlags(Qt::FramelessWindowHint);
+    
+    SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
+    const MARGINS shadow = {1, 1, 1, 1};
+    DwmExtendFrameIntoClientArea((HWND)this->winId(), &shadow);
+
     connect(this->ui->pushButton_close, &QPushButton::clicked, this, &MainWindow::onCloseClick);
     connect(this->ui->pushButton_expand, &QPushButton::clicked, this, &MainWindow::onExpandClick);
     connect(this->ui->pushButton_minimize, &QPushButton::clicked, this, &MainWindow::onMinimizeClick);
@@ -99,13 +105,13 @@ MainWindow::MainWindow(QWidget *parent)
     //
     this->initToolbar();
 
+    this->setAttribute(Qt::WA_Hover);
+
     QFile qssFile("./qss/gameEngineEditor_ui.qss");
     qssFile.open(QFile::ReadOnly);
     QString qss = QString::fromUtf8(qssFile.readAll());
     this->setStyleSheet(qss);
     qssFile.close();
-
-    
 
     this->ui->wrapWidgetBottom->resize(this->ui->wrapWidgetBottom->width(), 120);
     this->ui->dockWidgetContentsBottom->resize(this->ui->dockWidgetContentsBottom->width(), 120);
@@ -138,8 +144,6 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
     connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
     this->ui->pushButton_colorPicker->setEnabled(false); //為選取game object前不能點選
-    
-    
 
     //bind tiemr to transform
     connect(&(this->timer), &QTimer::timeout, this, &MainWindow::updateWidgets);
@@ -151,10 +155,6 @@ MainWindow::MainWindow(QWidget *parent)
 
     this->ui->label_textureViewer->setStyleSheet("background: #000000;");
     connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
-
-    connect(this->ui->titlebar, &Titlebar::onMousePressEventSignal, [=]{
-        this->window()->windowHandle()->startSystemMove();
-    });
 }
 
 MainWindow::~MainWindow()
@@ -168,14 +168,31 @@ void MainWindow::initTitlebar()
     QMenuBar* menubar = new QMenuBar();
     menubar->setObjectName("menubar");
     QMenu* fileMenu = new QMenu("File", menubar);
-    QAction* actionSave = new QAction("Save", fileMenu);
-    QAction* actionOpen = new QAction("Open", fileMenu);
-    connect(actionOpen, &QAction::triggered, this, &MainWindow::openProject);
-    connect(actionSave, &QAction::triggered, this, &MainWindow::saveScene);
-    fileMenu->addAction(actionSave);
-    fileMenu->addAction(actionOpen);
+        QAction* actionSave = new QAction("Save", fileMenu);
+        QAction* actionOpen = new QAction("Open", fileMenu);
+        connect(actionOpen, &QAction::triggered, this, &MainWindow::openProject);
+        connect(actionSave, &QAction::triggered, this, &MainWindow::saveScene);
+        fileMenu->addAction(actionSave);
+        fileMenu->addAction(actionOpen);
     menubar->addMenu(fileMenu);
+    QMenu* settingMenu = new QMenu("Setting", menubar);
+    menubar->addMenu(settingMenu);
+    QMenu* helpMenu = new QMenu("Help", menubar);
+    menubar->addMenu(helpMenu);
+    menubar->setSizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
+    this->ui->menubarLayout->setAlignment(Qt::AlignCenter);
     this->ui->menubarLayout->addWidget(menubar);
+    
+    connect(this->ui->titlebar, &Titlebar::onMousePressEventSignal, [=](){
+        this->window()->windowHandle()->startSystemMove();
+    });
+    connect(this->ui->titlebar, &Titlebar::onMouseDoubleClickEventSignal, [=](){
+        this->onExpandClick();
+    });
+    // hit border event
+    connect(this->ui->titlebar, &Titlebar::onHitBorderSignal, this, &MainWindow::onHitBorder);
+    this->ui->treeWidget->bindMainWindowPtr(this);
+    connect(this->ui->treeWidget, &OutlineTreeWidget::onHitBorderSignal, this, &MainWindow::onHitBorder);
 }
 
 void MainWindow::initToolbar()
@@ -209,37 +226,32 @@ void MainWindow::initToolbar()
 #ifdef Q_OS_WIN
 bool MainWindow::nativeEvent(const QByteArray& eventType, void* message, qintptr* result)
 {
-    static RECT borderThickness;
-    static bool isShown = false;
-    static int borderThicknessTop = 0;
     MSG* msg = static_cast<MSG*>(message);
 
     if (!this->isVisible())
         return false;
     HWND hwnd = (HWND)this->winId();
-    if (!isShown)
-    {
-        AdjustWindowRectEx(&borderThickness, GetWindowLongPtr(hwnd, GWL_STYLE) & ~WS_CAPTION, FALSE, NULL);
-        borderThicknessTop = -(borderThickness.top) - 1; //保留上方伸縮功能 1px
-        isShown = true;
-    }
     
     switch (msg->message)
     {
     case WM_NCCALCSIZE:
     {
-        //去除win10上方的白線(borderless)
         if (msg->lParam)
         {
             NCCALCSIZE_PARAMS* sz = (NCCALCSIZE_PARAMS*)msg->lParam;
-            sz->rgrc[0].top -= borderThicknessTop;
+            // sz->rgrc[0].top -= borderThicknessTop;
+            // sz->rgrc[0].left += 1;
+            // sz->rgrc[0].right += 1;
+            sz->rgrc[0].bottom += 1; //為了讓非客戶區大於客戶區一點點，又只有bottom不會出現奇怪的白線1px
         }
-        break;
+        // break;
+        *result = 0;
+        return true;
     }
     default:
         break;
     }
-    return false;
+    return QMainWindow::nativeEvent(eventType, message, result);
 }
 #endif
 
@@ -325,6 +337,24 @@ void MainWindow::onExpandClick()
 void MainWindow::onMinimizeClick()
 {
     this->showMinimized();
+}
+
+void MainWindow::onHitBorder(QPoint pos)
+{
+    Qt::Edges edges;
+    if (pos.x() > this->width() - border)
+        edges |= Qt::RightEdge;
+    if (pos.x() < border)
+        edges |= Qt::LeftEdge;
+    if (pos.y() > this->height() - border)
+        edges |= Qt::BottomEdge;
+    if (pos.y() < border)
+        edges |= Qt::TopEdge;
+    if (edges != 0) 
+    {
+        // Note: on Mac, this will return false which means isn't supported.
+        this->windowHandle()->startSystemResize(edges);
+    }
 }
 
 void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
@@ -440,6 +470,51 @@ void MainWindow::updateTextureViewer()
     }
         // qDebug() << this->ui->comboBox_texture->currentData().toString() << '\n';
         // GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID).texture->load(this->ui->comboBox_texture->currentData().toString().toStdString().c_str(), GL_NEAREST);
+}
+
+bool MainWindow::event(QEvent *event)
+{
+    static constexpr int border = 6;
+
+    if (event->type() == QEvent::HoverMove)
+    {
+        QPoint pos = dynamic_cast<QHoverEvent*>(event)->position().toPoint();
+        if (pos.y() > this->height() - border)
+        {
+            if (pos.x() < border)
+                this->setCursor(Qt::SizeBDiagCursor);
+            else if (pos.x() > this->width() - border)
+                this->setCursor(Qt::SizeFDiagCursor);
+            else
+                this->setCursor(Qt::SizeVerCursor);
+        }
+        else if (pos.y() < border)
+        {
+            if (pos.x() < border)
+                this->setCursor(Qt::SizeFDiagCursor);
+            else if (pos.x() > this->width() - border)
+                this->setCursor(Qt::SizeBDiagCursor);
+            else
+                this->setCursor(Qt::SizeVerCursor);
+        }
+        else if ((pos.y() > border)
+                    &&
+                (((pos.x() > this->width() - border) || (pos.x() < border))))
+        {
+            this->setCursor(Qt::SizeHorCursor);
+        }
+        else
+            this->setCursor(Qt::ArrowCursor);
+    }
+    else if (event->type() == QEvent::MouseButtonPress) 
+    {
+        if (dynamic_cast<QMouseEvent*>(event)->button() != Qt::LeftButton)
+            return QMainWindow::event(event);
+        QPoint pos = dynamic_cast<QMouseEvent*>(event)->position().toPoint();
+        this->onHitBorder(pos);
+    }
+
+    return QMainWindow::event(event);
 }
 
 void MainWindow::closeEvent(QCloseEvent *event)
