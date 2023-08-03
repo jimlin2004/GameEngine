@@ -73,3 +73,8 @@ GameEngine::CameraComponent::CameraComponent(const Camera &camera)
     , camera(camera)
 {
 }
+
+GameEngine::IDComponent::IDComponent(const UUID &otherUUID)
+    : uuid(otherUUID)
+{
+}

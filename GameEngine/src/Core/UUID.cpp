@@ -17,6 +17,12 @@ bool GameEngine::UUID::operator==(const GameEngine::UUID &other) const
     return this->_UUID[0] == other._UUID[1];
 }
 
+void GameEngine::UUID::operator=(const UUID &other)
+{
+    this->_UUID[0] = other._UUID[0];
+    this->_UUID[1] = other._UUID[1];
+}
+
 std::size_t std::hash<GameEngine::UUID>::operator()(const GameEngine::UUID &uuid) const
 {
     size_t seed = 0;

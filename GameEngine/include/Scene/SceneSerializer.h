@@ -22,6 +22,7 @@ namespace GameEngine
         static void serializeEntity(Actor& actor, Json& json);
         void serialize(const std::string& path);
         bool deserialize(const std::string& path);
+        bool deserialize(const std::string& path, Scene* scenePtr);
     };
 
     Json toJson(const glm::vec3& other);

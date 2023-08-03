@@ -13,10 +13,16 @@
 #include "ImGuizmo/ImGuizmo.h"
 #include "MainWindowExportData.h"
 
+enum SceneState
+{
+    Edit = 0,
+    Play
+};
+
 class SDL_Editor_Window: public GameEngine::GameBase
 {
 public:
-    SDL_Editor_Window(const char* title, int width, int height);
+    explicit SDL_Editor_Window(const char* title, int width, int height);
     virtual ~SDL_Editor_Window();
     virtual void init() override;
     virtual bool initSDL() override;
@@ -27,8 +33,14 @@ public:
     virtual void render() override;
     virtual void gameEventHandle() override;
 
+    void onScenePlay();
+    void onSceneStop();
+
     void bindIsFocusOnSDL(bool* ptr);
     void bindExportData(GameEngineEditor::ExportData* ptr);
+    
+    GameEngine::Scene* editorScene;
+    SceneState sceneState;
 private:
     bool* isFocusOnSDLPtr;
     //imguizmo 的isOver會用到緩存數據(當hoverActor的id不是entt::null才會更新)

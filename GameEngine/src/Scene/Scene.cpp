@@ -3,14 +3,14 @@
 #include "Component/Component.h"
 #include "Render/Renderer.h"
 
+#include <unordered_map>
+
 GameEngine::Scene::Scene()
 {
-
 }
 
 GameEngine::Scene::~Scene()
 {
-
 }
 
 void GameEngine::Scene::unpdateScene(float deltaTime)
@@ -39,6 +39,45 @@ std::vector<entt::entity> GameEngine::Scene::getAllActors()
     for (entt::entity entity: view)
         entities.push_back(entity);
     return entities;
+}
+
+template<class Component>
+static void copyComponent(entt::registry& src, entt::registry& dst, std::unordered_map<GameEngine::UUID, entt::entity>& entityMap)
+{
+    auto view = src.view<Component>();
+    for (entt::entity entity: view)
+    {
+        GameEngine::UUID& uuid = src.get<GameEngine::IDComponent>(entity).uuid;
+        entt::entity dstEntityID = entityMap[uuid];
+        Component& component = src.get<Component>(entity);
+        dst.emplace_or_replace<Component>(dstEntityID, component);
+    }
+}
+
+GameEngine::Scene* GameEngine::Scene::copy(GameEngine::Scene* other)
+{
+    Scene* newScene = new Scene();
+    Actor::bindScene(newScene);
+    entt::registry& srcRegistry = other->registry;
+    entt::registry& dstRegistry = newScene->registry;
+    std::unordered_map<UUID, entt::entity> entityMap;
+    
+    auto idView = srcRegistry.view<IDComponent>();
+    for (entt::entity entity: idView)
+    {
+        UUID& uuid = srcRegistry.get<IDComponent>(entity).uuid;
+        Actor* newActor = newScene->spawnActor<Actor>(uuid);
+        entityMap.insert({uuid, (entt::entity)newActor->getID()});
+    }
+
+    copyComponent<TagComponent>(srcRegistry, dstRegistry, entityMap);
+    copyComponent<TransformComponent>(srcRegistry, dstRegistry, entityMap);
+    copyComponent<MeshComponent>(srcRegistry, dstRegistry, entityMap);
+    copyComponent<CameraComponent>(srcRegistry, dstRegistry, entityMap);
+    copyComponent<ScriptComponent>(srcRegistry, dstRegistry, entityMap);
+
+    Actor::bindScene(other);
+    return newScene;
 }
 
 namespace GameEngine

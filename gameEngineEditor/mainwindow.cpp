@@ -91,12 +91,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     //titlebar and borderless window
-    // this->setWindowFlags(Qt::CustomizeWindowHint);
     this->setWindowFlags(Qt::FramelessWindowHint);
-    
+
+#ifdef Q_OS_WIN
     SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
     const MARGINS shadow = {1, 1, 1, 1};
     DwmExtendFrameIntoClientArea((HWND)this->winId(), &shadow);
+#endif
 
     connect(this->ui->pushButton_close, &QPushButton::clicked, this, &MainWindow::onCloseClick);
     connect(this->ui->pushButton_expand, &QPushButton::clicked, this, &MainWindow::onExpandClick);
@@ -207,17 +208,33 @@ void MainWindow::initToolbar()
     toolbar->addWidget(leftSpacer);
     QAction* actionCompile = new QAction(toolbar);
     QIcon iconCompile;
-    iconCompile.addFile(QString::fromUtf8(":/icon/icon/complie.png"), QSize(), QIcon::Normal, QIcon::Off);
+    iconCompile.addFile(QString::fromUtf8(":/icon/icon/compile.png"), QSize(), QIcon::Normal, QIcon::Off);
     actionCompile->setIcon(iconCompile);
-    QAction* actionRun = new QAction(toolbar);
+    this->actionRun = new QAction(toolbar);
     QIcon iconRun;
     iconRun.addFile(QString::fromUtf8(":/icon/icon/play.png"), QSize(), QIcon::Normal, QIcon::Off);
-    actionRun->setIcon(iconRun);
+    this->actionRun->setIcon(iconRun);
     
     toolbar->addAction(actionCompile);
     toolbar->addAction(actionRun);
     connect(actionCompile, &QAction::triggered, this, &MainWindow::compileProject);
-    connect(actionRun, &QAction::triggered, this, &MainWindow::runProject);
+    connect(actionRun, &QAction::triggered, [=]() {
+        if (this->SDL_editor_window->sceneState == SceneState::Edit)
+        {
+            QIcon iconRun;
+            iconRun.addFile(QString::fromUtf8(":/icon/icon/pause.png"), QSize(), QIcon::Normal, QIcon::Off);
+            this->actionRun->setIcon(iconRun);
+            this->SDL_editor_window->onScenePlay();
+        }
+        else if (this->SDL_editor_window->sceneState == SceneState::Play)
+        {
+            QIcon iconRun;
+            iconRun.addFile(QString::fromUtf8(":/icon/icon/play.png"), QSize(), QIcon::Normal, QIcon::Off);
+            this->actionRun->setIcon(iconRun);
+            this->SDL_editor_window->onSceneStop();
+        }
+    });
+    // connect(actionRun, &QAction::triggered, this, &MainWindow::runProject);
     
     toolbar->addWidget(rightSpacer);
     this->ui->toolbarLayout->addWidget(toolbar);
@@ -586,7 +603,9 @@ void MainWindow::openProject()
         qDebug("Found scene data in %s.\n", mapPath.c_str());
         GameEngine::SceneSerializer sceneSerializer;
         if (sceneSerializer.deserialize(mapPath))
+        {
             qDebug("Load scene success.\n");
+        }
         else
             qCritical("Fail to load scene.\n");
     }

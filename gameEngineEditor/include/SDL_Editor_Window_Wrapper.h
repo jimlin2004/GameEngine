@@ -20,10 +20,6 @@ class SDL_Editor_Window_Wrapper: public QWidget
     Q_OBJECT
 public:
     SDL_Editor_Window_Wrapper(QWidget* parent);
-protected:
-    void mousePressEvent(QMouseEvent* event);
-    void keyPressEvent(QKeyEvent *event);
-    bool event(QEvent* e);
 };
 
 #endif

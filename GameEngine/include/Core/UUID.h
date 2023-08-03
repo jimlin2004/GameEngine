@@ -17,6 +17,7 @@ namespace GameEngine
     public:
         UUID();
         bool operator == (const UUID& other) const;
+        void operator = (const UUID& other);
     private:
         uint64_t _UUID[2];
 

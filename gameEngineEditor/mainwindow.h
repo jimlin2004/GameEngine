@@ -57,6 +57,10 @@ private:
     SDL_Editor_Window_Wrapper* SDLWidget;
     QTimer timer;
     qreal border;
+
+    //actions
+    QAction* actionRun;
+    //
     static GameEngineEditor::ExportData exportData;
 
     void initTitlebar();

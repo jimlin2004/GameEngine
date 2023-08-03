@@ -1,11 +1,12 @@
 <RCC>
   <qresource prefix="icon">
+    <file>icon/pause.png</file>
     <file>icon/minimize.png</file>
     <file>icon/expand-window-max.png</file>
     <file>icon/expand-window-min.png</file>
     <file>icon/close.png</file>
     <file>icon/play.png</file>
     <file>icon/windowIcon.jpg</file>
-    <file>icon/complie.png</file>
+    <file>icon/compile.png</file>
   </qresource>
 </RCC>

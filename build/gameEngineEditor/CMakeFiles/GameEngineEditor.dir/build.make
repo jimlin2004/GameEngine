@@ -70,13 +70,14 @@ include gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.qrc
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json
-gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/complie.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/expand-window-max.png
+gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/pause.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/expand-window-min.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/windowIcon.jpg
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/minimize.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/play.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/close.png
+gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/compile.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/QT/6.4.2/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for mainwindow.qrc"
 	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug

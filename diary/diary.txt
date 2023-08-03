@@ -379,3 +379,12 @@
     Todo list
         -發現現在在resize時視窗右邊可能會出現白線(很少出現)，可以修復也可忽略
     存檔紀錄 --version 1.0-dev
+2023/08/03
+    1. 製作Scene的play、pause、edit
+    2. Scene的copy，以及copyComponent
+    Todo list
+        -白邊沒有處理
+        -GameObject detail應改成有該component才顯示對應介面
+        -Editor的AddComponent
+        -box2D
+    存檔紀錄 --version 1.0-dev

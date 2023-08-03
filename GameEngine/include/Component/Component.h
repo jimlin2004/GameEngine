@@ -17,6 +17,7 @@ namespace GameEngine
         UUID uuid;
 
         IDComponent() = default;
+        IDComponent(const UUID& otherUUID);
         IDComponent(const IDComponent&) = default;
     };
 

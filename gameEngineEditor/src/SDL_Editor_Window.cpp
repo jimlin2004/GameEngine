@@ -19,6 +19,8 @@ SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
     , frameBuffer(nullptr)
     , imguizmoVisible(false)
+    , editorScene(nullptr)
+    , sceneState(SceneState::Edit)
 {
 }
 
@@ -103,7 +105,8 @@ void SDL_Editor_Window::startGame()
         time = SDL_GetPerformanceCounter();
         this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
         this->gameEventHandle();
-        this->updateEditorCamera(this->timestep);
+        if (this->sceneState == SceneState::Edit)
+            this->updateEditorCamera(this->timestep);
         this->update(this->timestep);
         this->render();
         SDL_GL_SwapWindow(this->window);
@@ -289,6 +292,19 @@ void SDL_Editor_Window::gameEventHandle()
         this->gizmoOperation = ImGuizmo::ROTATE;
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_G))
         this->gizmoOperation = ImGuizmo::TRANSLATE;
+}
+
+void SDL_Editor_Window::onScenePlay()
+{
+    this->sceneState = SceneState::Play;
+    this->editorScene = GameEngine::Scene::copy(GameEngine::globalScene);
+}
+
+void SDL_Editor_Window::onSceneStop()
+{
+    this->sceneState = SceneState::Edit;
+    GameEngine::globalScene = this->editorScene;
+    GameEngine::Actor::bindScene(GameEngine::globalScene);
 }
 
 void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)

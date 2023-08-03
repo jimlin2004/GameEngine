@@ -41,6 +41,11 @@ void GameEngine::Actor::initComponents(const glm::vec3 &position, const glm::vec
     this->addComponent<GameEngine::TagComponent>(actorName, typeName);
 }
 
+void GameEngine::Actor::initIDComponent(const UUID &uuid)
+{
+    this->addComponent<GameEngine::IDComponent>(uuid);
+}
+
 GameEngine::Actor::~Actor()
 {
     this->destroy();

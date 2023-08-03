@@ -3,6 +3,7 @@
 
 #include "glm/glm.hpp"
 
+#include "Core/UUID.h"
 #include "entt.hpp"
 #include "Core/Timestep.h"
 #include <vector>
@@ -17,16 +18,28 @@ namespace GameEngine
     {
     public:
         entt::registry registry;
-        Scene();
+        explicit Scene();
         ~Scene();
         void unpdateScene(const float deltaTime);
         void render();
         std::vector<entt::entity> getAllActors();
+
+        static Scene* copy(Scene* other);
+
         template<class TActor>
         TActor* spawnActor()
         {
             TActor* obj = new TActor();
             obj->setEntityID(this->registry.create());
+            return obj;
+        }
+
+        template<class TActor>
+        TActor* spawnActor(const UUID& uuid)
+        {
+            TActor* obj = new TActor();
+            obj->setEntityID(this->registry.create());
+            obj->initIDComponent(uuid);
             return obj;
         }
 

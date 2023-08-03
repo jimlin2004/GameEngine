@@ -29,6 +29,8 @@ namespace GameEngine
         virtual void setEntityID(entt::entity entityID);
         // User should not use
         void initComponents(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& typeName);
+        // User should not use
+        void initIDComponent(const UUID& uuid);
 
         virtual ~Actor();
         virtual void HandleEvent();
