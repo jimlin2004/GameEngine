@@ -1001,6 +1001,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase \
  D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/thread \

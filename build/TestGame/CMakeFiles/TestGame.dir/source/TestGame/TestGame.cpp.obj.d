@@ -727,4 +727,5 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_mouse.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
  D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.h

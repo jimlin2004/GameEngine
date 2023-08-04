@@ -191,7 +191,7 @@
     background-color: #15181b;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform QLineEdit {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform LineEditFloat {
     border-width: 2px;
     border-style: inset;
     /* border-radius: 3px; */

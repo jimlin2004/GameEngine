@@ -689,6 +689,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \

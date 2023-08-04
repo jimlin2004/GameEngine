@@ -388,3 +388,10 @@
         -Editor的AddComponent
         -box2D
     存檔紀錄 --version 1.0-dev
+2023/08/04
+    1. 初步重構GameObject detail系統(未完工)
+    Tofo list
+        -繼續GameObject detail應改成有該component才顯示對應介面(color、mesh、texture，以及bind、update功能)
+        -Editor的AddComponent
+        -box2D
+    存檔紀錄 --version 1.0-dev

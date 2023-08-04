@@ -1039,6 +1039,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   gameEngineEditor/GameEngineEditor_autogen/WETUBSRGIL/moc_LineEditFloat.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
   gameEngineEditor/GameEngineEditor_autogen/WETUBSRGIL/moc_LineEditInt.cpp \
@@ -3698,6 +3699,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase \
   D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/thread \
@@ -4706,18 +4708,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QIcon \
   D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qdockwidget.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QFrame \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QHBoxLayout \
@@ -4752,14 +4751,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
-  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
-  D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
-  D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
-  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
   D:/code/cpp/gameEngine/gameEngineEditor/include/Titlebar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
+  D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
   C:/Program\ Files/msys64/mingw64/include/dwmapi.h \
   C:/Program\ Files/msys64/mingw64/include/wtypes.h \
   C:/Program\ Files/msys64/mingw64/include/rpc.h \
@@ -10843,7 +10841,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
-  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h
+  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidgetItem.cpp.obj: D:/code/cpp/gameEngine/gameEngineEditor/src/OutlineTreeWidgetItem.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
@@ -14707,6 +14706,10 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h:
 
+D:/QT/6.4.2/mingw_64/include/QtCore/QMetaType:
+
+D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/Program\ Files/msys64/mingw64/include/threadpoollegacyapiset.h:
@@ -15268,8 +15271,6 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc:
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat4x4.hpp:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/QFrame:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc:
 
@@ -16027,9 +16028,9 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool3_precision.hpp
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog:
 
-D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double3_precision.hpp:
-
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_thread.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double3_precision.hpp:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint3.hpp:
 
@@ -16913,10 +16914,6 @@ gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/QIcon:
 
-D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h:
-
 D:/QT/6.4.2/mingw_64/include/QtGui/qsessionmanager.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QHBoxLayout:
@@ -17267,6 +17264,8 @@ D:/QT/6.4.2/mingw_64/include/QtGui/QActionGroup:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolumnview.h:
 
+D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h:
+
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qcommandlinkbutton.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qdatawidgetmapper.h:
@@ -17322,8 +17321,6 @@ D:/QT/6.4.2/mingw_64/include/QtWidgets/qradiobutton.h:
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QScrollerProperties:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qscrollerproperties.h:
-
-D:/QT/6.4.2/mingw_64/include/QtCore/QMetaType:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizegrip.h:
 

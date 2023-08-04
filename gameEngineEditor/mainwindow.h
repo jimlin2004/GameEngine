@@ -29,6 +29,7 @@
 #include "SDL_Editor_Window_Wrapper.h"
 #include "glm/glm.hpp"
 #include "MainWindowExportData.h"
+#include "Core/Assert.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -69,6 +70,14 @@ private:
     void updateColorViewer();
     void addGameObjectToOutline(entt::entity entityID);
     void resetTextureComboBox();
+
+    template<class Component>
+    void pushComponentProperty()
+    {
+        GAME_ENGINE_ASSERT(false, "Unknow Component type");
+    }
+
+    void updateDetail();
 
 protected:
     bool event(QEvent* event) override;

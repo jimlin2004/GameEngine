@@ -3270,6 +3270,7 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h
+ mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h

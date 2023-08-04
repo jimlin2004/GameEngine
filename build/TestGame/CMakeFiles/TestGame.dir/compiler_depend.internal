@@ -730,6 +730,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj
  D:/code/cpp/gameEngine/TestGame/source/TestGame/TestGame.cpp
@@ -1460,6 +1461,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
  D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.h
 
 TestGame/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj
@@ -2191,5 +2193,6 @@ TestGame/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_keycode.h
  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h
  C:/Program Files/msys64/mingw64/include/SDL2/SDL_mouse.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
  D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.h
 

@@ -21,6 +21,10 @@ public:
     void setLayout(QLayout* layout);
     QString getPushButtonStyle() const;
     void setPushButtonStyle(QString styleSheet);
+    inline QWidget* getContentWidget()
+    {
+        return this->contentWidget;
+    }
 public slots:
     void changeContentState();
 protected:
@@ -30,6 +34,8 @@ private:
     QPushButton* pushButton;
     QWidget* contentWidget;
     bool isContentClose;
+    //if true，代表是由c++加入，不是Designer
+    bool needToInsertPushButton;
 };
 
 #endif // QCOLLAPSIBLEWIDGET_H

@@ -6,3 +6,4 @@
 #include "Render/Renderer.h"
 #include "Actor/Actor.h"
 #include "Event/Input.h"
+#include "Core/Assert.h"

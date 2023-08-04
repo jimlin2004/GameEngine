@@ -1001,4 +1001,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
- D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h

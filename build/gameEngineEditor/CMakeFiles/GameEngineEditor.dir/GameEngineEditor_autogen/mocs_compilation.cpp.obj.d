@@ -1035,6 +1035,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditFloat.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\WETUBSRGIL/moc_LineEditInt.cpp \

@@ -1001,18 +1001,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
  D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QVariant \
  D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QIcon \
  D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qdockwidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QFrame \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QHBoxLayout \
@@ -1047,14 +1044,13 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
- D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
- D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
- D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/QList \
  D:/code/cpp/gameEngine/gameEngineEditor/include/Titlebar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
+ D:\code\cpp\gameEngine\gameEngineEditor\plugins/QCollapsibleWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+ D:\code\cpp\gameEngine\gameEngineEditor\plugins/LineEditFloat.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
  C:/PROGRA~1/msys64/mingw64/include/dwmapi.h \
  C:/PROGRA~1/msys64/mingw64/include/wtypes.h \
  C:/PROGRA~1/msys64/mingw64/include/rpc.h \

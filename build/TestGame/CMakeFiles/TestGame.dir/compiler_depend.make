@@ -728,7 +728,8 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: D:/code/cpp/
   D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_keycode.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
-  C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_mouse.h
+  C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_mouse.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/TestGame/TestGame.cpp \
   D:/code/cpp/gameEngine/TestGame/source/TestGame/TestGame.h \
@@ -1458,6 +1459,7 @@ TestGame/CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: D:/code/cpp/g
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_keycode.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_mouse.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.h
 
 TestGame/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/entrypoint.cpp \
@@ -2188,6 +2190,7 @@ TestGame/CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameEngi
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_keycode.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
   C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_mouse.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.h
 
 
@@ -2434,6 +2437,8 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdin
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_math.h:
 
 C:/Program\ Files/msys64/mingw64/include/SDL2/SDL_rwops.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h:
 
 C:/Program\ Files/msys64/mingw64/include/winnls.h:
 
