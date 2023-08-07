@@ -143,24 +143,36 @@ MainWindow::MainWindow(QWidget *parent)
     // this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->dockWidgetLeft->width()}, Qt::Horizontal);
     this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->scrollAreaWidgetContents_detail->width() + 20}, Qt::Horizontal);
     
-    // this->ui->widget_colorViewer->setStyleSheet("background-color: #000000;");
-    // connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
-    // connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    // connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    // connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    // this->ui->pushButton_colorPicker->setEnabled(false); //為選取game object前不能點選
-
-    //bind tiemr to transform
-    // connect(&(this->timer), &QTimer::timeout, this, &MainWindow::updateWidgets);
-    // this->timer.start(41);
+    //bind tiemr to outline if there is an entity need to insert to outline
+    connect(&(this->timer), &QTimer::timeout, this, &MainWindow::updateOutline);
+    connect(this->ui->treeWidget, &OutlineTreeWidget::onSetSelectedItemToNull, [this](){
+        this->hideAllDetail();
+    });
+    this->timer.start(41);
 
     //export data
     this->exportData.outlineTreeWidget = this->ui->treeWidget;
     this->exportData.actorCollection = this->actorLevel;
 
     // this->ui->label_textureViewer->setStyleSheet("background: #000000;");
-    // connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
-    this->updateDetail();
+    connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
+    
+    // init detail connection
+
+    // this->ui->widget_colorViewer->setStyleSheet("background-color: #000000;");
+    connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
+    connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+
+    //end init detail connection
+    {
+        //將detail關閉(不能用this->hideAllDetail，因為this尚未show)
+        this->ui->widget_addComponentWrap->hide();
+        this->ui->qCollapsibleWidget_transform->hide();
+        this->ui->qCollapsibleWidget_color->hide();
+        this->ui->qCollapsibleWidget_texture->hide();
+    }
 }
 
 MainWindow::~MainWindow()
@@ -223,7 +235,7 @@ void MainWindow::initToolbar()
     toolbar->addAction(actionCompile);
     toolbar->addAction(actionRun);
     connect(actionCompile, &QAction::triggered, this, &MainWindow::compileProject);
-    connect(actionRun, &QAction::triggered, [=]() {
+    connect(actionRun, &QAction::triggered, [this]() {
         if (this->SDL_editor_window->sceneState == SceneState::Edit)
         {
             QIcon iconRun;
@@ -277,41 +289,13 @@ bool MainWindow::nativeEvent(const QByteArray& eventType, void* message, qintptr
 }
 #endif
 
-void MainWindow::updateWidgets()
+void MainWindow::updateOutline()
 {
-    // if (!this->ui->lineEditFloat_x_position->isEditing())
-    //     this->ui->lineEditFloat_x_position->refresh();
-    // if (!this->ui->lineEditFloat_y_position->isEditing())
-    //     this->ui->lineEditFloat_y_position->refresh();
-    // if (!this->ui->lineEditFloat_z_position->isEditing())
-    //     this->ui->lineEditFloat_z_position->refresh();
-    // if (!this->ui->lineEditFloat_x_scale->isEditing())
-    //     this->ui->lineEditFloat_x_scale->refresh();
-    // if (!this->ui->lineEditFloat_y_scale->isEditing())
-    //     this->ui->lineEditFloat_y_scale->refresh();
-    // if (!this->ui->lineEditFloat_z_scale->isEditing())
-    //     this->ui->lineEditFloat_z_scale->refresh();
-    // if (!this->ui->lineEditFloat_x_rotation->isEditing())
-    // {
-    //     if (this->ui->lineEditFloat_x_rotation->isEnabled())
-    //         this->ui->lineEditFloat_x_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_x_rotation->getValue())));
-    // }
-    // if (!this->ui->lineEditFloat_y_rotation->isEditing())
-    // {
-    //     if (this->ui->lineEditFloat_y_rotation->isEnabled())
-    //         this->ui->lineEditFloat_y_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_y_rotation->getValue())));
-    // }
-    // if (!this->ui->lineEditFloat_z_rotation->isEditing())
-    // {
-    //     if (this->ui->lineEditFloat_z_rotation->isEnabled())
-    //         this->ui->lineEditFloat_z_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_z_rotation->getValue())));
-    // }
-
-    // if (this->exportData.needToInsertOutlineTreeWidget != entt::null)
-    // {
-    //     this->addGameObjectToOutline(this->exportData.needToInsertOutlineTreeWidget);
-    //     this->exportData.needToInsertOutlineTreeWidget = entt::null;
-    // }
+    if (this->exportData.needToInsertOutlineTreeWidget != entt::null)
+    {
+        this->addGameObjectToOutline(this->exportData.needToInsertOutlineTreeWidget);
+        this->exportData.needToInsertOutlineTreeWidget = entt::null;
+    }
 }
 
 void MainWindow::onFocusChanged(bool& isFocusOnSDL)
@@ -344,13 +328,13 @@ void MainWindow::onExpandClick()
     
     if (isExpanded)
     {
-        this->showNormal();
+        this->ToNormal();
         this->ui->pushButton_expand->setIcon(iconExpandWindowMax);
         isExpanded = false;
     }
     else
     {
-        this->showMaximized();
+        this->ToMaximize();
         this->ui->pushButton_expand->setIcon(iconExpandWindowMin);
         isExpanded = true;
     }
@@ -396,22 +380,7 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
         outlineItem->click();
     else
         return;
-    GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(outlineItem->getEntityID());
-    GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(outlineItem->getEntityID());
-    // this->ui->lineEditFloat_x_position->bind(&transformComponent.translation.x);
-    // this->ui->lineEditFloat_y_position->bind(&transformComponent.translation.y);
-    // this->ui->lineEditFloat_z_position->bind(&transformComponent.translation.z);
-    // this->ui->lineEditFloat_x_scale->bind(&transformComponent.scale.x);
-    // this->ui->lineEditFloat_y_scale->bind(&transformComponent.scale.y);
-    // this->ui->lineEditFloat_z_scale->bind(&transformComponent.scale.z);
-    // this->ui->lineEditFloat_x_rotation->bind(&transformComponent.rotation.x);
-    // this->ui->lineEditFloat_y_rotation->bind(&transformComponent.rotation.y);
-    // this->ui->lineEditFloat_z_rotation->bind(&transformComponent.rotation.z);
-    // this->ui->lineEditFloat_R_color->bind(&meshComponent.color.r);
-    // this->ui->lineEditFloat_G_color->bind(&meshComponent.color.g);
-    // this->ui->lineEditFloat_B_color->bind(&meshComponent.color.b);
-    // this->ui->pushButton_colorPicker->setEnabled(true);
-    // this->updateColorViewer();
+    this->updateDetail();
 
     // if (meshComponent.texture != nullptr)
     // {
@@ -424,9 +393,9 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
 void MainWindow::openColorDialog()
 {
     QColor color = QColorDialog::getColor();
-    // this->ui->lineEditFloat_R_color->setValue(color.redF());
-    // this->ui->lineEditFloat_G_color->setValue(color.greenF());
-    // this->ui->lineEditFloat_B_color->setValue(color.blueF());
+    this->ui->lineEditFloat_R_color->setValue(color.redF());
+    this->ui->lineEditFloat_G_color->setValue(color.greenF());
+    this->ui->lineEditFloat_B_color->setValue(color.blueF());
     this->updateColorViewer();
 }
 
@@ -452,46 +421,44 @@ void MainWindow::runProject()
 
 void MainWindow::updateColorViewer()
 {
-    // int R = (int)(this->ui->lineEditFloat_R_color->getValue() * 255);
-    // int G = (int)(this->ui->lineEditFloat_G_color->getValue() * 255);
-    // int B = (int)(this->ui->lineEditFloat_B_color->getValue() * 255);
-    // QColor color(R, G, B);
-    // this->ui->widget_colorViewer->setStyleSheet("background-color: " + color.name() + ";");
+    int R = (int)(this->ui->lineEditFloat_R_color->getValue() * 255);
+    int G = (int)(this->ui->lineEditFloat_G_color->getValue() * 255);
+    int B = (int)(this->ui->lineEditFloat_B_color->getValue() * 255);
+    QColor color(R, G, B);
+    this->ui->widget_colorViewer->setStyleSheet("background-color: " + color.name() + ";");
 }
 
 void MainWindow::updateTextureViewer()
 {
-    // entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
-    // if (entityID == entt::null)
-    //     return;
-    // QString texturePath = this->ui->comboBox_texture->currentData().toString();
-    // if (texturePath == "")
-    // {
-    //     this->ui->label_textureViewer->setPixmap(QPixmap());
-    //     GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
-    //     if (meshComponent.texture != nullptr)
-    //     {
-    //         delete meshComponent.texture;
-    //         meshComponent.texture = nullptr;
-    //     }
-    //     return;
-    // }
-    // QPixmap pixmap = QPixmap(texturePath);
-    // pixmap = pixmap.scaled(this->ui->label_textureViewer->width(), this->ui->label_textureViewer->height(), Qt::KeepAspectRatio);
-    // this->ui->label_textureViewer->setPixmap(pixmap);
-    // if (GameEngine::globalScene->actorHasComponent<GameEngine::MeshComponent>(entityID))
-    // {
-    //     GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
-    //     if (meshComponent.texture == nullptr)
-    //     {
-    //         meshComponent.texture = new GameEngine::Texture();
-    //     }
-    //     // meshComponent.texture->load("assets/texture/test.png", GL_NEAREST);
-    //     GameEngine::GEngine->textureManager->createTexture("D:/code/cpp/gameEngine/build/TestGame/assets/texture/test.png", meshComponent.texture, GL_NEAREST);
-    // }
+    entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+    if (entityID == entt::null)
+        return;
+    QString texturePath = this->ui->comboBox_texture->currentData().toString();
+    if (texturePath == "")
+    {
+        this->ui->label_textureViewer->setPixmap(QPixmap());
+        GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
+        if (meshComponent.texture != nullptr)
+        {
+            delete meshComponent.texture;
+            meshComponent.texture = nullptr;
+        }
+        return;
+    }
+    QPixmap pixmap = QPixmap(texturePath);
+    pixmap = pixmap.scaled(this->ui->label_textureViewer->width(), this->ui->label_textureViewer->height(), Qt::KeepAspectRatio);
+    this->ui->label_textureViewer->setPixmap(pixmap);
+    if (GameEngine::globalScene->actorHasComponent<GameEngine::MeshComponent>(entityID))
+    {
+        GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
+        if (meshComponent.texture == nullptr)
+        {
+            meshComponent.texture = new GameEngine::Texture();
+        }
+        // meshComponent.texture->load("assets/texture/test.png", GL_NEAREST);
+        GameEngine::GEngine->textureManager->createTexture("D:/code/cpp/gameEngine/build/TestGame/assets/texture/test.png", meshComponent.texture, GL_NEAREST);
+    }
 }
-
-
 
 bool MainWindow::event(QEvent *event)
 {
@@ -552,17 +519,33 @@ void MainWindow::clearOutline()
 
 void MainWindow::resetTextureComboBox()
 {
-    // this->ui->comboBox_texture->clear();
-    // std::filesystem::directory_iterator fileList(this->projectParser->getProjectDirname() + "/assets/texture");
-    // this->ui->comboBox_texture->addItem("None", "");
-    // for (auto& file: fileList)
-    // {
-    //     qInfo() << QString::fromStdString(file.path().u8string()) <<'\n';
-    //     this->ui->comboBox_texture->addItem(QString::fromStdString(file.path().filename().u8string()), QString::fromStdString(file.path().u8string()));
-    // }
+    this->ui->comboBox_texture->clear();
+    std::filesystem::directory_iterator fileList(this->projectParser->getProjectDirname() + "/assets/texture");
+    this->ui->comboBox_texture->addItem("None", "");
+    for (auto& file: fileList)
+    {
+        qInfo() << QString::fromStdString(file.path().u8string()) <<'\n';
+        this->ui->comboBox_texture->addItem(QString::fromStdString(file.path().filename().u8string()), QString::fromStdString(file.path().u8string()));
+    }
 }
 
+void MainWindow::ToMaximize()
+{
+#ifdef Q_OS_WIN
+    SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) & ~(WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION));
+#endif
+    this->showMaximized();
+}
 
+void MainWindow::ToNormal()
+{
+#ifdef Q_OS_WIN
+    SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
+    const MARGINS shadow = {1, 1, 1, 1};
+    DwmExtendFrameIntoClientArea((HWND)this->winId(), &shadow);
+#endif
+    this->showNormal();
+}
 
 void MainWindow::addGameObjectToOutline(entt::entity entityID)
 {
@@ -639,118 +622,108 @@ void MainWindow::parseOutput()
 }
 
 //以下為detail中加入對應widget的function
+
 template<>
-void MainWindow::pushComponentProperty<GameEngine::TransformComponent>()
+void MainWindow::pushComponentProperty<GameEngine::TransformComponent>(const entt::entity& entityID)
 {
-    QLayout* layout = this->ui->scrollAreaWidgetContents_detail->layout();
-    QVBoxLayout* detailLayout = qobject_cast<QVBoxLayout*>(layout);
-    QCollapsibleWidget* collapsibleWidget = new QCollapsibleWidget(this->ui->scrollAreaWidgetContents_detail);
-    collapsibleWidget->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-    QWidget* contentWidget = collapsibleWidget->getContentWidget();
-    contentWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
-    collapsibleWidget->setObjectName("qCollapsibleWidget_transform");
-    collapsibleWidget->setTitle("Transform");
+    GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityID);
+    this->ui->lineEditFloat_x_position->bind(&transformComponent.translation.x);
+    this->ui->lineEditFloat_y_position->bind(&transformComponent.translation.y);
+    this->ui->lineEditFloat_z_position->bind(&transformComponent.translation.z);
+    this->ui->lineEditFloat_x_scale->bind(&transformComponent.scale.x);
+    this->ui->lineEditFloat_y_scale->bind(&transformComponent.scale.y);
+    this->ui->lineEditFloat_z_scale->bind(&transformComponent.scale.z);
+    this->ui->lineEditFloat_x_rotation->bind(&transformComponent.rotation.x);
+    this->ui->lineEditFloat_y_rotation->bind(&transformComponent.rotation.y);
+    this->ui->lineEditFloat_z_rotation->bind(&transformComponent.rotation.z);
 
-    QVBoxLayout* contentLayout = new QVBoxLayout(contentWidget);
-    contentLayout->setContentsMargins(9, 9, 9, 9);
-    contentLayout->setSpacing(6);
-    collapsibleWidget->setLayout(contentLayout);
-    
-    // //position
-    QLabel* label_position = new QLabel(contentWidget);
-    label_position->setText("Position");
-    contentLayout->addWidget(label_position);
-    QHBoxLayout* positionLayout = new QHBoxLayout(contentWidget);
-    positionLayout->setContentsMargins(0, 0, 0, 0);
-    positionLayout->setSpacing(6);
-    QLabel* label_x_position = new QLabel(contentWidget);
-    label_x_position->setObjectName("label_x_position");
-    label_x_position->setText("X");
-    LineEditFloat* lineEditFloat_x_position = new LineEditFloat(contentWidget);
-    lineEditFloat_x_position->setObjectName("lineEditFloat_x_position");
-    positionLayout->addWidget(label_x_position);
-    positionLayout->addWidget(lineEditFloat_x_position);
-    QLabel* label_y_position = new QLabel(contentWidget);
-    label_y_position->setObjectName("label_y_position");
-    label_y_position->setText("Y");
-    LineEditFloat* lineEditFloat_y_position = new LineEditFloat(contentWidget);
-    lineEditFloat_y_position->setObjectName("lineEditFloat_y_position");
-    positionLayout->addWidget(label_y_position);
-    positionLayout->addWidget(lineEditFloat_y_position);
-    QLabel* label_z_position = new QLabel(contentWidget);
-    label_z_position->setObjectName("label_z_position");
-    label_z_position->setText("Z");
-    LineEditFloat* lineEditFloat_z_position = new LineEditFloat(contentWidget);
-    lineEditFloat_z_position->setObjectName("lineEditFloat_z_position");
-    positionLayout->addWidget(label_z_position);
-    positionLayout->addWidget(lineEditFloat_z_position);
-    
-    contentLayout->addLayout(positionLayout);
-    //scale
-    QLabel* label_scale = new QLabel(contentWidget);
-    label_scale->setText("Scale");
-    contentLayout->addWidget(label_scale);
-    QHBoxLayout* scaleLayout = new QHBoxLayout(contentWidget);
-    scaleLayout->setContentsMargins(0, 0, 0, 0);
-    scaleLayout->setSpacing(6);
-    QLabel* label_x_scale = new QLabel(contentWidget);
-    label_x_scale->setObjectName("label_x_scale");
-    label_x_scale->setText("X");
-    LineEditFloat* lineEditFloat_x_scale = new LineEditFloat(contentWidget);
-    lineEditFloat_x_scale->setObjectName("lineEditFloat_x_scale");
-    scaleLayout->addWidget(label_x_scale);
-    scaleLayout->addWidget(lineEditFloat_x_scale);
-    QLabel* label_y_scale = new QLabel(contentWidget);
-    label_y_scale->setObjectName("label_y_scale");
-    label_y_scale->setText("Y");
-    LineEditFloat* lineEditFloat_y_scale = new LineEditFloat(contentWidget);
-    lineEditFloat_y_scale->setObjectName("lineEditFloat_y_scale");
-    scaleLayout->addWidget(label_y_scale);
-    scaleLayout->addWidget(lineEditFloat_y_scale);
-    QLabel* label_z_scale = new QLabel(contentWidget);
-    label_z_scale->setObjectName("label_z_scale");
-    label_z_scale->setText("Z");
-    LineEditFloat* lineEditFloat_z_scale = new LineEditFloat(contentWidget);
-    lineEditFloat_z_scale->setObjectName("lineEditFloat_z_scale");
-    scaleLayout->addWidget(label_z_scale);
-    scaleLayout->addWidget(lineEditFloat_z_scale);
-    
-    contentLayout->addLayout(scaleLayout);
-    //rotation
-    QLabel* label_rotation = new QLabel(contentWidget);
-    label_rotation->setText("Rotation");
-    contentLayout->addWidget(label_rotation);
-    QHBoxLayout* rotationLayout = new QHBoxLayout(contentWidget);
-    rotationLayout->setContentsMargins(0, 0, 0, 0);
-    rotationLayout->setSpacing(6);
-    QLabel* label_x_rotation = new QLabel(contentWidget);
-    label_x_rotation->setObjectName("label_x_rotation");
-    label_x_rotation->setText("X");
-    LineEditFloat* lineEditFloat_x_rotation = new LineEditFloat(contentWidget);
-    lineEditFloat_x_rotation->setObjectName("lineEditFloat_x_rotation");
-    rotationLayout->addWidget(label_x_rotation);
-    rotationLayout->addWidget(lineEditFloat_x_rotation);
-    QLabel* label_y_rotation = new QLabel(contentWidget);
-    label_y_rotation->setObjectName("label_y_rotation");
-    label_y_rotation->setText("Y");
-    LineEditFloat* lineEditFloat_y_rotation = new LineEditFloat(contentWidget);
-    lineEditFloat_y_rotation->setObjectName("lineEditFloat_y_rotation");
-    rotationLayout->addWidget(label_y_rotation);
-    rotationLayout->addWidget(lineEditFloat_y_rotation);
-    QLabel* label_z_rotation = new QLabel(contentWidget);
-    label_z_rotation->setObjectName("label_z_rotation");
-    label_z_rotation->setText("Z");
-    LineEditFloat* lineEditFloat_z_rotation = new LineEditFloat(contentWidget);
-    lineEditFloat_z_rotation->setObjectName("lineEditFloat_z_rotation");
-    rotationLayout->addWidget(label_z_rotation);
-    rotationLayout->addWidget(lineEditFloat_z_rotation);
+    connect(&(this->timer), &QTimer::timeout, this, &MainWindow::onTransformUpdate);
 
-    contentLayout->addLayout(rotationLayout);
+    this->ui->qCollapsibleWidget_transform->show();
+}
 
-    detailLayout->insertWidget(detailLayout->count() - 1, collapsibleWidget);
+template<>
+void MainWindow::pushComponentProperty<GameEngine::MeshComponent>(const entt::entity& entityID)
+{
+    GameEngine::MeshComponent& meshComponent = GameEngine::globalScene->queryActorComponent<GameEngine::MeshComponent>(entityID);
+    this->ui->lineEditFloat_R_color->bind(&meshComponent.color.r);
+    this->ui->lineEditFloat_G_color->bind(&meshComponent.color.g);
+    this->ui->lineEditFloat_B_color->bind(&meshComponent.color.b);
+    this->ui->pushButton_colorPicker->setEnabled(true);
+    this->updateColorViewer();
+
+    this->ui->qCollapsibleWidget_color->show();
+
+    this->ui->label_textureViewer->setStyleSheet("background: #000000;");
+    if (meshComponent.texture != nullptr)
+    {
+        this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findText(QString::fromStdString(GameEngine::GEngine->textureManager->getTextureFileName(meshComponent.texture->getTextureID()))));
+    }
+    else
+        this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findText("None"));
+    
+    this->ui->qCollapsibleWidget_texture->show();
+}
+
+void MainWindow::onTransformUpdate()
+{
+    if (!this->ui->lineEditFloat_x_position->isEditing())
+        this->ui->lineEditFloat_x_position->refresh();
+    if (!this->ui->lineEditFloat_y_position->isEditing())
+        this->ui->lineEditFloat_y_position->refresh();
+    if (!this->ui->lineEditFloat_z_position->isEditing())
+        this->ui->lineEditFloat_z_position->refresh();
+    if (!this->ui->lineEditFloat_x_scale->isEditing())
+        this->ui->lineEditFloat_x_scale->refresh();
+    if (!this->ui->lineEditFloat_y_scale->isEditing())
+        this->ui->lineEditFloat_y_scale->refresh();
+    if (!this->ui->lineEditFloat_z_scale->isEditing())
+        this->ui->lineEditFloat_z_scale->refresh();
+    if (!this->ui->lineEditFloat_x_rotation->isEditing())
+    {
+        if (this->ui->lineEditFloat_x_rotation->isEnabled())
+            this->ui->lineEditFloat_x_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_x_rotation->getValue())));
+    }
+    if (!this->ui->lineEditFloat_y_rotation->isEditing())
+    {
+        if (this->ui->lineEditFloat_y_rotation->isEnabled())
+            this->ui->lineEditFloat_y_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_y_rotation->getValue())));
+    }
+    if (!this->ui->lineEditFloat_z_rotation->isEditing())
+    {
+        if (this->ui->lineEditFloat_z_rotation->isEnabled())
+            this->ui->lineEditFloat_z_rotation->setText(QString::number(glm::degrees(this->ui->lineEditFloat_z_rotation->getValue())));
+    }
+}
+
+void MainWindow::hideAllDetail()
+{
+    if (this->ui->widget_addComponentWrap->isVisible())
+        this->ui->widget_addComponentWrap->hide();
+    if (this->ui->qCollapsibleWidget_transform->isVisible())
+    {
+        disconnect(&(this->timer), &QTimer::timeout, this, &MainWindow::onTransformUpdate);
+        this->ui->qCollapsibleWidget_transform->hide();
+    }
+    if (this->ui->qCollapsibleWidget_color->isVisible())
+    {
+        this->ui->qCollapsibleWidget_color->hide();
+    }
+    if (this->ui->qCollapsibleWidget_texture->isVisible())
+    {
+        this->ui->qCollapsibleWidget_texture->hide();
+    }
 }
 
 void MainWindow::updateDetail()
 {
-    this->pushComponentProperty<GameEngine::TransformComponent>();
+    this->hideAllDetail();
+    entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+    if (entityID == entt::null)
+        return;
+    this->ui->widget_addComponentWrap->show();
+    if (GameEngine::globalScene->actorHasComponent<GameEngine::TransformComponent>(entityID))
+        this->pushComponentProperty<GameEngine::TransformComponent>(entityID);
+    if (GameEngine::globalScene->actorHasComponent<GameEngine::MeshComponent>(entityID))
+        this->pushComponentProperty<GameEngine::MeshComponent>(entityID);
 }

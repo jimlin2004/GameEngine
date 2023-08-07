@@ -39,3 +39,10 @@ void OutlineTreeWidget::mousePressEvent(QMouseEvent *event)
         emit this->onHitBorderSignal(pos);
     return QTreeWidget::mousePressEvent(event);
 }
+
+void OutlineTreeWidget::selectionChanged(const QItemSelection &selected, const QItemSelection &deselected)
+{
+    if (selected.indexes().isEmpty())
+        emit this->onSetSelectedItemToNull();
+    QTreeWidget::selectionChanged(selected, deselected);
+}

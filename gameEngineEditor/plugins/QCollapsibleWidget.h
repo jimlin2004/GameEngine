@@ -25,6 +25,10 @@ public:
     {
         return this->contentWidget;
     }
+    inline bool isClosed() const
+    {
+        return this->isContentClose;
+    }
 public slots:
     void changeContentState();
 protected:
@@ -34,7 +38,7 @@ private:
     QPushButton* pushButton;
     QWidget* contentWidget;
     bool isContentClose;
-    //if true，代表是由c++加入，不是Designer
+    //if false，代表是由c++加入，不是Designer
     bool needToInsertPushButton;
 };
 

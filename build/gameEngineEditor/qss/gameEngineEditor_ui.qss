@@ -182,20 +182,30 @@
     color: #ffffff;
 }
 
+#dockWidgetLeft #scrollAreaWidgetContents_detail #widget_addComponentWrap {
+    background-color: #404040;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #pushButton_addComponent {
+    color: #ffffff;
+    background-color: #252525;
+    border: 1px solid #15181b;
+}
+
 #dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QWidget {
     background-color: #404040;
 }
 
 #dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QPushButton {
     color: #ffffff;
-    background-color: #15181b;
+    background-color: #252525;
 }
 
 #dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform LineEditFloat {
     border-width: 2px;
     border-style: inset;
     /* border-radius: 3px; */
-    background-color: #15181b;
+    background-color: #252525;
     border-color: transparent;
     color: #ffffff;
 }
@@ -240,7 +250,7 @@
     border-width: 2px;
     border-style: inset;
     /* border-radius: 3px; */
-    background-color: #15181b;
+    background-color: #252525;
     border-color: transparent;
     color: #ffffff;
 }

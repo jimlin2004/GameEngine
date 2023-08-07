@@ -44,9 +44,9 @@ void QCollapsibleWidget::childEvent(QChildEvent *event)
         if (event->child()->isWidgetType())
         {
             QWidget* widget = qobject_cast<QWidget*>(event->child());
-            if (qobject_cast<QPushButton*>(widget) != nullptr)//如果不用designer，會抓到pushbutton
+            if (qobject_cast<QPushButton*>(widget) != nullptr)
             {
-                //此時contentWidget需要在此加入
+                //此時contentWidget需要在此加入(防止不是由designer加入的case)
                 this->verticalLayout->addWidget(widget);
                 this->contentWidget = new QWidget(this);
                 this->needToInsertPushButton = false;
@@ -56,6 +56,11 @@ void QCollapsibleWidget::childEvent(QChildEvent *event)
             {
                 this->contentWidget = widget;
                 this->contentWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+                if (this->verticalLayout->count() == 2)
+                {
+                    QLayoutItem* oldContentWidget = this->verticalLayout->takeAt(1);
+                    delete oldContentWidget->widget();
+                }
                 this->verticalLayout->addWidget(this->contentWidget);
             }
             else

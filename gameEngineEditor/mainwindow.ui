@@ -133,8 +133,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>435</width>
-             <height>206</height>
+             <width>276</width>
+             <height>483</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -162,6 +162,330 @@
             <property name="bottomMargin">
              <number>0</number>
             </property>
+            <item>
+             <widget class="QWidget" name="widget_addComponentWrap" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <item>
+                <widget class="QPushButton" name="pushButton_addComponent">
+                 <property name="text">
+                  <string>Add component</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_transform">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="Title">
+               <string>Transform</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_transform" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label_position">
+                  <property name="text">
+                   <string>Position</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_position">
+                  <item>
+                   <widget class="QLabel" name="label_x_position">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_x_position"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_y_position">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_y_position"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_z_position">
+                    <property name="text">
+                     <string>Z</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_z_position"/>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="Line" name="line_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_scale">
+                  <property name="text">
+                   <string>Scale</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_scale">
+                  <item>
+                   <widget class="QLabel" name="label_x_scale">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_x_scale"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_y_scale">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_y_scale"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_z_scale">
+                    <property name="text">
+                     <string>Z</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_z_scale"/>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="Line" name="line_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="text">
+                   <string>Rotation</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_rotation">
+                  <item>
+                   <widget class="QLabel" name="label_x_rotation">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditRotation" name="lineEditFloat_x_rotation"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_y_rotation">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditRotation" name="lineEditFloat_y_rotation"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_z_rotation">
+                    <property name="text">
+                     <string>Z</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditRotation" name="lineEditFloat_z_rotation"/>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_color">
+              <property name="Title">
+               <string>Color</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_color" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_3">
+                  <item>
+                   <widget class="QLabel" name="label_R_color">
+                    <property name="text">
+                     <string>R</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_R_color"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_G_color">
+                    <property name="text">
+                     <string>G</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_G_color"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_B_color">
+                    <property name="text">
+                     <string>B</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_B_color"/>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="Line" name="line">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_4">
+                  <item>
+                   <widget class="QLabel" name="label">
+                    <property name="text">
+                     <string>color</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget_colorViewer" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>50</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_colorPicker">
+                    <property name="text">
+                     <string>choose color</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_texture">
+              <property name="Title">
+               <string>Texture</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_texture" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="QLabel" name="label_textureViewer">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>64</width>
+                    <height>64</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_texture"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
             <item>
              <spacer name="verticalSpacer">
               <property name="orientation">
@@ -589,9 +913,24 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>LineEditFloat</class>
+   <extends>QLineEdit</extends>
+   <header>LineEditFloat.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QCollapsibleWidget</class>
+   <extends>QWidget</extends>
+   <header>QCollapsibleWidget.h</header>
+  </customwidget>
+  <customwidget>
    <class>OutlineTreeWidget</class>
    <extends>QTreeWidget</extends>
    <header>OutlineTreeWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEditRotation</class>
+   <extends>QLineEdit</extends>
+   <header>LineEditRotation.h</header>
   </customwidget>
   <customwidget>
    <class>ContentBrowserPanel</class>

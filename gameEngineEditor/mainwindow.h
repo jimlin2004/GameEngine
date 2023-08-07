@@ -71,12 +71,16 @@ private:
     void addGameObjectToOutline(entt::entity entityID);
     void resetTextureComboBox();
 
+    void ToMaximize();
+    void ToNormal();
+
     template<class Component>
-    void pushComponentProperty()
+    void pushComponentProperty(const entt::entity& entityID = entt::null)
     {
         GAME_ENGINE_ASSERT(false, "Unknow Component type");
     }
-
+    
+    void hideAllDetail();
     void updateDetail();
 
 protected:
@@ -95,12 +99,14 @@ private slots:
     void compileProject();
     void runProject();
     void updateTextureViewer();
-    void updateWidgets();
+    void updateOutline();
 
     void onCloseClick();
     void onExpandClick();
     void onMinimizeClick();
     void onHitBorder(QPoint pos);
+    
+    void onTransformUpdate();
 };
 
 #endif // MAINWINDOW_H

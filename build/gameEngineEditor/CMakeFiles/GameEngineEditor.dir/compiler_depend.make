@@ -4715,8 +4715,12 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtGui/QIcon \
   D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qdockwidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QFrame \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QHBoxLayout \
@@ -4751,13 +4755,16 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyle.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
+  D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
+  D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
   D:/code/cpp/gameEngine/gameEngineEditor/include/Titlebar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
-  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
   C:/Program\ Files/msys64/mingw64/include/dwmapi.h \
   C:/Program\ Files/msys64/mingw64/include/wtypes.h \
   C:/Program\ Files/msys64/mingw64/include/rpc.h \
@@ -15272,6 +15279,8 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat4x4.hpp:
 
+D:/QT/6.4.2/mingw_64/include/QtWidgets/QFrame:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h:
@@ -16914,6 +16923,10 @@ gameEngineEditor/GameEngineEditor_autogen/include/ui_mainwindow.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/QIcon:
 
+D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox:
+
+D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h:
+
 D:/QT/6.4.2/mingw_64/include/QtGui/qsessionmanager.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QHBoxLayout:
@@ -17263,8 +17276,6 @@ D:/QT/6.4.2/mingw_64/include/QtGui/QAction:
 D:/QT/6.4.2/mingw_64/include/QtGui/QActionGroup:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolumnview.h:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qcommandlinkbutton.h:
 

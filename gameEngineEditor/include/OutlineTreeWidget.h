@@ -18,9 +18,13 @@ public:
     void setSelectedEntity(QTreeWidgetItem* item);
     void bindMainWindowPtr(MainWindow* ptr);
 signals:
+    //僅為mainWindow 的frameless移動時避免搶mouse focus所使用
     void onHitBorderSignal(QPoint);
+    //當selected item變Null時觸發
+    void onSetSelectedItemToNull();
 protected:
     void mousePressEvent(QMouseEvent *event) override;
+    virtual void selectionChanged(const QItemSelection &selected, const QItemSelection &deselected) override;
 private:
     MainWindow* mainWindowPtr;
 };
