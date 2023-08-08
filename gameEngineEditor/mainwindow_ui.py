@@ -57,7 +57,6 @@ public:
     QVBoxLayout *verticalLayout_3;
     QWidget *widget_addComponentWrap;
     QVBoxLayout *verticalLayout_9;
-    QPushButton *pushButton_addComponent;
     QCollapsibleWidget *qCollapsibleWidget_transform;
     QWidget *contentWidget_transform;
     QVBoxLayout *verticalLayout_6;
@@ -203,7 +202,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 276, 483));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 418, 459));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -215,11 +214,6 @@ public:
         widget_addComponentWrap->setObjectName("widget_addComponentWrap");
         verticalLayout_9 = new QVBoxLayout(widget_addComponentWrap);
         verticalLayout_9->setObjectName("verticalLayout_9");
-        pushButton_addComponent = new QPushButton(widget_addComponentWrap);
-        pushButton_addComponent->setObjectName("pushButton_addComponent");
-
-        verticalLayout_9->addWidget(pushButton_addComponent);
-
 
         verticalLayout_3->addWidget(widget_addComponentWrap);
 
@@ -699,7 +693,6 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Engine Editor", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
-        pushButton_addComponent->setText(QCoreApplication::translate("MainWindow", "Add component", nullptr));
         qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Transform", nullptr));
         label_position->setText(QCoreApplication::translate("MainWindow", "Position", nullptr));
         label_x_position->setText(QCoreApplication::translate("MainWindow", "X", nullptr));

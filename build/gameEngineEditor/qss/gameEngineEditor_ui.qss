@@ -186,10 +186,26 @@
     background-color: #404040;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #pushButton_addComponent {
+#dockWidgetLeft #scrollAreaWidgetContents_detail #toolButton_addComponent {
     color: #ffffff;
     background-color: #252525;
     border: 1px solid #15181b;
+}
+
+ComponentBrowserButton QMenu{
+    background-color: #404040;
+}
+
+ComponentBrowserWidget #searchBar {
+    color: #ffffff;
+    background-color: #252525;
+    border: none;
+}
+
+ComponentBrowserWidget QToolButton {
+    background-color: #252525;
+    color: #ffffff;
+    border: none;
 }
 
 #dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QWidget {
@@ -266,4 +282,3 @@
 #dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color #lineEditFloat_B_color {
     border-left-color: #3578d6;
 }
-

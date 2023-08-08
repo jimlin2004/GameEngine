@@ -27,7 +27,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_MainWindow_t {
-    uint offsetsAndSizes[42];
+    uint offsetsAndSizes[44];
     char stringdata0[11];
     char stringdata1[12];
     char stringdata2[1];
@@ -48,7 +48,8 @@ struct qt_meta_stringdata_MainWindow_t {
     char stringdata17[16];
     char stringdata18[12];
     char stringdata19[4];
-    char stringdata20[18];
+    char stringdata20[15];
+    char stringdata21[18];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_MainWindow_t::offsetsAndSizes) + ofs), len 
@@ -74,7 +75,8 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
         QT_MOC_LITERAL(222, 15),  // "onMinimizeClick"
         QT_MOC_LITERAL(238, 11),  // "onHitBorder"
         QT_MOC_LITERAL(250, 3),  // "pos"
-        QT_MOC_LITERAL(254, 17)   // "onTransformUpdate"
+        QT_MOC_LITERAL(254, 14),  // "onAddComponent"
+        QT_MOC_LITERAL(269, 17)   // "onTransformUpdate"
     },
     "MainWindow",
     "openProject",
@@ -96,6 +98,7 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
     "onMinimizeClick",
     "onHitBorder",
     "pos",
+    "onAddComponent",
     "onTransformUpdate"
 };
 #undef QT_MOC_LITERAL
@@ -107,7 +110,7 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-      15,   14, // methods
+      16,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -115,21 +118,22 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,  104,    2, 0x08,    1 /* Private */,
-       3,    0,  105,    2, 0x08,    2 /* Private */,
-       4,    0,  106,    2, 0x08,    3 /* Private */,
-       5,    0,  107,    2, 0x08,    4 /* Private */,
-       6,    2,  108,    2, 0x08,    5 /* Private */,
-      10,    0,  113,    2, 0x08,    8 /* Private */,
-      11,    0,  114,    2, 0x08,    9 /* Private */,
-      12,    0,  115,    2, 0x08,   10 /* Private */,
-      13,    0,  116,    2, 0x08,   11 /* Private */,
-      14,    0,  117,    2, 0x08,   12 /* Private */,
-      15,    0,  118,    2, 0x08,   13 /* Private */,
-      16,    0,  119,    2, 0x08,   14 /* Private */,
-      17,    0,  120,    2, 0x08,   15 /* Private */,
-      18,    1,  121,    2, 0x08,   16 /* Private */,
-      20,    0,  124,    2, 0x08,   18 /* Private */,
+       1,    0,  110,    2, 0x08,    1 /* Private */,
+       3,    0,  111,    2, 0x08,    2 /* Private */,
+       4,    0,  112,    2, 0x08,    3 /* Private */,
+       5,    0,  113,    2, 0x08,    4 /* Private */,
+       6,    2,  114,    2, 0x08,    5 /* Private */,
+      10,    0,  119,    2, 0x08,    8 /* Private */,
+      11,    0,  120,    2, 0x08,    9 /* Private */,
+      12,    0,  121,    2, 0x08,   10 /* Private */,
+      13,    0,  122,    2, 0x08,   11 /* Private */,
+      14,    0,  123,    2, 0x08,   12 /* Private */,
+      15,    0,  124,    2, 0x08,   13 /* Private */,
+      16,    0,  125,    2, 0x08,   14 /* Private */,
+      17,    0,  126,    2, 0x08,   15 /* Private */,
+      18,    1,  127,    2, 0x08,   16 /* Private */,
+      20,    0,  130,    2, 0x08,   18 /* Private */,
+      21,    0,  131,    2, 0x08,   19 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -146,6 +150,7 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::QPoint,   19,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -191,6 +196,8 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // method 'onHitBorder'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QPoint, std::false_type>,
+        // method 'onAddComponent'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'onTransformUpdate'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
@@ -217,7 +224,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 11: _t->onExpandClick(); break;
         case 12: _t->onMinimizeClick(); break;
         case 13: _t->onHitBorder((*reinterpret_cast< std::add_pointer_t<QPoint>>(_a[1]))); break;
-        case 14: _t->onTransformUpdate(); break;
+        case 14: _t->onAddComponent(); break;
+        case 15: _t->onTransformUpdate(); break;
         default: ;
         }
     }
@@ -242,13 +250,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 15)
+        if (_id < 16)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 15;
+        _id -= 16;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 15)
+        if (_id < 16)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 15;
+        _id -= 16;
     }
     return _id;
 }

@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="icon">
+    <file>icon/search.png</file>
     <file>icon/pause.png</file>
     <file>icon/minimize.png</file>
     <file>icon/expand-window-max.png</file>

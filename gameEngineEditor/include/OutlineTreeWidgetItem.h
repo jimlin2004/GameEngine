@@ -4,7 +4,7 @@
 #include <map>
 #include <QChildEvent>
 #include <QTreeWidget>
-#include <entt.hpp>
+#include "entt.hpp"
 
 class OutlineTreeWidgetItem: public QTreeWidgetItem
 {

@@ -1058,6 +1058,15 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
  D:\code\cpp\gameEngine\gameEngineEditor\plugins/QCollapsibleWidget.h \
  D:\code\cpp\gameEngine\gameEngineEditor\plugins/LineEditFloat.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidgetAction \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidgetaction.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolButton \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStackedWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstackedwidget.h \
  C:/PROGRA~1/msys64/mingw64/include/dwmapi.h \
  C:/PROGRA~1/msys64/mingw64/include/wtypes.h \
  C:/PROGRA~1/msys64/mingw64/include/rpc.h \

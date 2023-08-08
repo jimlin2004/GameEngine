@@ -654,6 +654,30 @@ src/AssetFileWidget.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.s
 .PHONY : src/AssetFileWidget.cpp.s
 
+src/ComponentBrowserWidget.obj: src/ComponentBrowserWidget.cpp.obj
+.PHONY : src/ComponentBrowserWidget.obj
+
+# target to build an object file
+src/ComponentBrowserWidget.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.obj
+.PHONY : src/ComponentBrowserWidget.cpp.obj
+
+src/ComponentBrowserWidget.i: src/ComponentBrowserWidget.cpp.i
+.PHONY : src/ComponentBrowserWidget.i
+
+# target to preprocess a source file
+src/ComponentBrowserWidget.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.i
+.PHONY : src/ComponentBrowserWidget.cpp.i
+
+src/ComponentBrowserWidget.s: src/ComponentBrowserWidget.cpp.s
+.PHONY : src/ComponentBrowserWidget.s
+
+# target to generate assembly for a file
+src/ComponentBrowserWidget.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.s
+.PHONY : src/ComponentBrowserWidget.cpp.s
+
 src/ContentBrowserPanel.obj: src/ContentBrowserPanel.cpp.obj
 .PHONY : src/ContentBrowserPanel.obj
 
@@ -1085,6 +1109,9 @@ help:
 	@echo ... src/AssetFileWidget.obj
 	@echo ... src/AssetFileWidget.i
 	@echo ... src/AssetFileWidget.s
+	@echo ... src/ComponentBrowserWidget.obj
+	@echo ... src/ComponentBrowserWidget.i
+	@echo ... src/ComponentBrowserWidget.s
 	@echo ... src/ContentBrowserPanel.obj
 	@echo ... src/ContentBrowserPanel.i
 	@echo ... src/ContentBrowserPanel.s

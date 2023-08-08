@@ -5,6 +5,7 @@
 #include "Core/Platform.h"
 #include "plugins/QCollapsibleWidget.h"
 #include "plugins/LineEditFloat.h"
+#include "ComponentBrowserWidget.h"
 #include <QVBoxLayout>
 #if USE_WINDOWS
     #include <winuser.h>
@@ -110,6 +111,8 @@ MainWindow::MainWindow(QWidget *parent)
     //
     this->initToolbar();
 
+    this->initAddComponentToolButton();
+
     this->setAttribute(Qt::WA_Hover);
 
     QFile qssFile("./qss/gameEngineEditor_ui.qss");
@@ -166,9 +169,12 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
 
     //end init detail connection
+    
+    // click addComponentPushButton
+    // connect(this->ui->pushButton_addComponent, &QPushButton::clicked, this, &MainWindow::onAddComponent);
     {
         //將detail關閉(不能用this->hideAllDetail，因為this尚未show)
-        this->ui->widget_addComponentWrap->hide();
+        // this->ui->widget_addComponentWrap->hide();
         this->ui->qCollapsibleWidget_transform->hide();
         this->ui->qCollapsibleWidget_color->hide();
         this->ui->qCollapsibleWidget_texture->hide();
@@ -211,6 +217,8 @@ void MainWindow::initTitlebar()
     connect(this->ui->titlebar, &Titlebar::onHitBorderSignal, this, &MainWindow::onHitBorder);
     this->ui->treeWidget->bindMainWindowPtr(this);
     connect(this->ui->treeWidget, &OutlineTreeWidget::onHitBorderSignal, this, &MainWindow::onHitBorder);
+
+    
 }
 
 void MainWindow::initToolbar()
@@ -255,6 +263,12 @@ void MainWindow::initToolbar()
     
     toolbar->addWidget(rightSpacer);
     this->ui->toolbarLayout->addWidget(toolbar);
+}
+
+void MainWindow::initAddComponentToolButton()
+{
+    ComponentBrowserButton* componentBrowserButton = new ComponentBrowserButton(this->ui->widget_addComponentWrap);
+    this->ui->widget_addComponentWrap->layout()->addWidget(componentBrowserButton);
 }
 
 #ifdef Q_OS_WIN
@@ -363,6 +377,11 @@ void MainWindow::onHitBorder(QPoint pos)
     }
 }
 
+void MainWindow::onAddComponent()
+{
+    // ComponentBrowserDialog::getComponent();
+}
+
 void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
 {
     this->SDL_editor_window = newSDL_window;
@@ -381,13 +400,6 @@ void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
     else
         return;
     this->updateDetail();
-
-    // if (meshComponent.texture != nullptr)
-    // {
-    //     this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findText(QString::fromStdString(GameEngine::GEngine->textureManager->getTextureFileName(meshComponent.texture->getTextureID()))));
-    // }
-    // else
-    //     this->ui->comboBox_texture->setCurrentIndex(this->ui->comboBox_texture->findText("None"));
 }
 
 void MainWindow::openColorDialog()
@@ -727,3 +739,5 @@ void MainWindow::updateDetail()
     if (GameEngine::globalScene->actorHasComponent<GameEngine::MeshComponent>(entityID))
         this->pushComponentProperty<GameEngine::MeshComponent>(entityID);
 }
+
+

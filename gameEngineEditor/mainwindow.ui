@@ -133,8 +133,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>276</width>
-             <height>483</height>
+             <width>418</width>
+             <height>459</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -164,15 +164,7 @@
             </property>
             <item>
              <widget class="QWidget" name="widget_addComponentWrap" native="true">
-              <layout class="QVBoxLayout" name="verticalLayout_9">
-               <item>
-                <widget class="QPushButton" name="pushButton_addComponent">
-                 <property name="text">
-                  <string>Add component</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+              <layout class="QVBoxLayout" name="verticalLayout_9"/>
              </widget>
             </item>
             <item>

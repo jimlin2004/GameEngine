@@ -538,13 +538,23 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_integer.inl \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_ComponentBrowserWidget.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidgetAction \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidgetaction.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolButton \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStackedWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstackedwidget.h \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_ContentBrowserPanel.cpp \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QDragEnterEvent \
  D:/QT/6.4.2/mingw_64/include/QtGui/QDropEvent \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \

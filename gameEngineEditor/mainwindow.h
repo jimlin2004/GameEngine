@@ -66,6 +66,7 @@ private:
 
     void initTitlebar();
     void initToolbar();
+    void initAddComponentToolButton();
     void clearOutline();
     void updateColorViewer();
     void addGameObjectToOutline(entt::entity entityID);
@@ -105,6 +106,7 @@ private slots:
     void onExpandClick();
     void onMinimizeClick();
     void onHitBorder(QPoint pos);
+    void onAddComponent();
     
     void onTransformUpdate();
 };

@@ -403,3 +403,9 @@
         -add component的QDialog選擇對話框
         -box2d
     存檔紀錄 --version 1.0-dev
+2023/08/08
+    1. 新增ComponentBrowserWidget，用於選取欲添加的component，透過QWidgetAction
+    2. 編寫ComponentBrowserWidget的UI、search bar(未完工)
+    Todo list
+        -search bar的search欲使用Trie加速，但空間優化需要思考
+    存檔紀錄 --version 1.0-dev

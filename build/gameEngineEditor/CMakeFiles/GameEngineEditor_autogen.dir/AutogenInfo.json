@@ -313,6 +313,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h",
+			"MU",
+			"6YEA5652QU/moc_ComponentBrowserWidget.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h",
 			"MU",
 			"6YEA5652QU/moc_ContentBrowserPanel.cpp",
@@ -597,6 +603,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/ComponentBrowserWidget.cpp",
 			"MU",
 			null
 		],
