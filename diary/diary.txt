@@ -409,3 +409,10 @@
     Todo list
         -search bar的search欲使用Trie加速，但空間優化需要思考
     存檔紀錄 --version 1.0-dev
+2023/08/10
+    1. 完成trie加速search功能
+    2. 建構依據search的結果顯示對應的button
+    Todo list
+        -發現大寫搜尋失效
+        -QMenu的大小問題未解決
+    存檔紀錄 --version 1.0-dev

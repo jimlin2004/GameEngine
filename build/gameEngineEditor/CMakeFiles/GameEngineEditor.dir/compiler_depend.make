@@ -553,6 +553,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStackedWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstackedwidget.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
   gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_ContentBrowserPanel.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QDragEnterEvent \
@@ -599,8 +601,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_LineEditRotation.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
   gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_OutlineTreeWidget.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
@@ -7925,21 +7925,55 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
-  D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
-  D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QScrollArea \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qscrollarea.h \
-  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qeventloop.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QResizeEvent \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpointingdevice.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qinputdevice.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qscreen.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QList \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qlist.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qobject.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QRect \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qrect.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QSize \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qsize.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/QSizeF \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
+  C:/Program\ Files/msys64/mingw64/include/memory.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cassert
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ContentBrowserPanel.cpp.obj: D:/code/cpp/gameEngine/gameEngineEditor/src/ContentBrowserPanel.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h \
@@ -16612,6 +16646,16 @@ C:/Program\ Files/msys64/mingw64/include/oleauto.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QStackedWidget:
 
+D:/QT/6.4.2/mingw_64/include/QtCore/qstack.h:
+
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h:
+
+D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout:
+
+D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit:
+
+D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h:
+
 gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_ContentBrowserPanel.cpp:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qprogressdialog.h:
@@ -16719,16 +16763,6 @@ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyle:
 gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_LineEditRotation.cpp:
 
 D:/code/cpp/gameEngine/gameEngineEditor/include/LineEditRotation.h:
-
-D:/QT/6.4.2/mingw_64/include/QtCore/qstack.h:
-
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/QGridLayout:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit:
-
-D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h:
 
 gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_OutlineTreeWidget.cpp:
 
@@ -17392,6 +17426,8 @@ C:/Program\ Files/msys64/mingw64/include/urlmon.h:
 
 C:/Program\ Files/msys64/mingw64/include/oleidl.h:
 
+C:/Program\ Files/msys64/mingw64/include/memory.h:
+
 C:/Program\ Files/msys64/mingw64/include/servprov.h:
 
 C:/Program\ Files/msys64/mingw64/include/commctrl.h:
@@ -17757,6 +17793,8 @@ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwhatsthis.h:
 D:/code/cpp/gameEngine/gameEngineEditor/src/ProjectParser.cpp:
 
 D:/code/cpp/gameEngine/gameEngineEditor/src/AssetFileWidget.cpp:
+
+D:/QT/6.4.2/mingw_64/include/QtGui/QResizeEvent:
 
 D:/code/cpp/gameEngine/gameEngineEditor/src/EditorCamera.cpp:
 

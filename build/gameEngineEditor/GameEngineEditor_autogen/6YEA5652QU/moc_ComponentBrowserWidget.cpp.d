@@ -300,6 +300,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtCore/qtextstream.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtmetamacros.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qtypeinfo.h \
+  D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qutf8stringview.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvariant.h \
   D:/QT/6.4.2/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -317,25 +318,37 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/QT/6.4.2/mingw_64/include/QtGui/qkeysequence.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpaintdevice.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpalette.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpixelformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qpolygon.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qregion.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgb.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qrgba64.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+  D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QLineEdit \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenu \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QStackedWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolButton \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidgetAction \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+  D:/QT/6.4.2/mingw_64/include/QtWidgets/qlineedit.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstackedwidget.h \

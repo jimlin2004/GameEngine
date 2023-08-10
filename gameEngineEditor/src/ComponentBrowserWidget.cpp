@@ -4,6 +4,8 @@
 #include <QLabel>
 #include <QLineEdit>
 #include <QScrollArea>
+#include <QApplication>
+#include <QResizeEvent>
 #include <memory.h>
 #include "Core/Assert.h"
 
@@ -13,8 +15,7 @@ bool ComponentBrowserTriePair::operator<(const ComponentBrowserTriePair &other) 
 }
 
 ComponentBrowserTrieNode::ComponentBrowserTrieNode()
-    : isWord(false)
-    , hasNext(false)
+    : buttonPtr(nullptr)
     , size(0U)
 {
     this->nexts = (ComponentBrowserTriePair*)malloc(sizeof(ComponentBrowserTriePair));
@@ -38,40 +39,70 @@ int ComponentBrowserTrieNode::binarySearch(char target)
     return -1;
 }
 
-void ComponentBrowserTrieNode::insert(const std::string& str)
+void ComponentBrowserTrieNode::dfs(std::vector<QToolButton*> &res)
+{
+    if (this->isWord())
+        res.push_back(this->buttonPtr);
+    for (int i = 0; i < this->size; ++i)
+    {
+        this->nexts[i].trieNodePtr->dfs(res);
+    }
+    return;
+}
+
+bool ComponentBrowserTrieNode::isWord() const
+{
+    return (this->buttonPtr != nullptr);
+}
+
+void ComponentBrowserTrieNode::insert(const std::string& str, QToolButton* targetPtr)
 {
     ComponentBrowserTrieNode* current = this;
     int index = 0;
-    int target;
-    char c;
-    for (int strIndex = 0; strIndex < str.size(); ++i)
+    char target;
+    for (int strIndex = 0; strIndex < str.size(); ++strIndex)
     {
         //只存小寫字母或一些_、&、!等符號
-        c = str[i];
-        target = tolower(c) - 'a';
+        target = tolower(str[strIndex]);
         index = current->binarySearch(target);        
         if (index == -1)
         {
             //代表需要擴充空間
-            ComponentBrowserTriePair newPair = {c, new ComponentBrowserTrieNode()};
-            ++this->size;
-            this->nexts = realloc(this->nextsm, sizeof(ComponentBrowserTriePair) * this->size);
-            GAME_ENGINE_ASSERT(this->nexts == NULL, "Can't realloc more memory");
-
-            auto it = std::lower_bound(this->nexts, this->nexts + this->size, newPair);
-            for (int i = this->size - 1; i > it - this->nexts; --i)
-                this->nexts[i] = this->nexts[i - 1];
-            this->nexts[it - this->nexts] = newPair;
-            current = newPair;
+            ComponentBrowserTriePair newPair = {target, new ComponentBrowserTrieNode()};
+            
+            //平移並插入
+            ++current->size;
+            current->nexts = (ComponentBrowserTriePair*)realloc(current->nexts, sizeof(ComponentBrowserTriePair) * current->size);
+            GAME_ENGINE_ASSERT(current->nexts != NULL, "Can't realloc more memory");
+            
+            auto it = std::lower_bound(current->nexts, current->nexts + (current->size - 1), newPair);
+            if (it == current->nexts + (current->size - 1))
+            {
+                //代表在最尾端
+                current->nexts[current->size - 1] = newPair;
+            }
+            else
+            {
+                int insertPos = it - current->nexts;
+                for (int i = current->size - 1; i > insertPos; --i)
+                    current->nexts[i] = current->nexts[i - 1];
+                current->nexts[insertPos] = newPair;
+            }
+            current = newPair.trieNodePtr;
         }
         else
         {
-            current = this->nexts[index];
+            current = current->nexts[index].trieNodePtr;
         }
-        if (i == this->size - 1)
-            current->isWord = true;
+        if (strIndex == str.size() - 1)
+            current->buttonPtr = targetPtr;
     }
     
+}
+
+bool ComponentBrowserTrieNode::queryNext(char target)
+{
+    return (this->binarySearch(target) != -1);
 }
 
 //ComponentBrowserTrie
@@ -80,14 +111,26 @@ ComponentBrowserTrie::ComponentBrowserTrie()
 {
 }
 
-void ComponentBrowserTrie::insert(const std::string& str)
+void ComponentBrowserTrie::insert(const std::string& str, QToolButton* targetPtr)
 {
-
+    this->root->insert(str, targetPtr);
 }
 
-std::vector<std::string> ComponentBrowserTrie::getAllStartWith(const std::string& prefix) const
+std::vector<QToolButton*> ComponentBrowserTrie::getAllStartWith(const std::string& prefix) const
 {
-    return std::vector<std::string>();
+    std::vector<QToolButton*> res;
+    ComponentBrowserTrieNode* current = this->root;
+    int index;
+    for (int i = 0; i < prefix.size(); i++)
+    {
+        index = current->binarySearch(prefix[i]);
+        if (index != -1)
+            current = current->nexts[index].trieNodePtr;
+        else //代表沒有符合前綴的資料
+            return res;
+    }
+    current->dfs(res);
+    return res;
 }
 
 //ComponentBrowserStackedWidget
@@ -97,10 +140,21 @@ ComponentBrowserStackedWidget::ComponentBrowserStackedWidget(QWidget* parent)
 }
 
 //ComponentBrowserWidget
-ComponentBrowserWidget::ComponentBrowserWidget(QWidget *parent)
+ComponentBrowserWidget::ComponentBrowserWidget(QMenu* ptr, QWidget *parent)
     : QWidget(parent)
+    , trie(new ComponentBrowserTrie())
+    , menuPtr(ptr)
 {
     this->setupUI();
+}
+
+static QToolButton* createToolButton(QWidget* widget, QVBoxLayout* layout, const std::string& buttonText)
+{
+    QToolButton* button = new QToolButton(widget);
+    button->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
+    button->setText(QString::fromStdString(buttonText));
+    layout->addWidget(button);
+    return button;
 }
 
 void ComponentBrowserWidget::setupUI()
@@ -111,38 +165,74 @@ void ComponentBrowserWidget::setupUI()
     this->setLayout(layout);
 
     //search bar
-    QLineEdit* searchBar = new QLineEdit(this);
-    searchBar->addAction(QIcon(":/icon/icon/search.png"), QLineEdit::LeadingPosition);
-    searchBar->setClearButtonEnabled(true);
-    searchBar->setPlaceholderText("Search...");
-    searchBar->setObjectName("searchBar");
-    layout->addWidget(searchBar);
+    this->searchBar = new QLineEdit(this);
+    this->searchBar->addAction(QIcon(":/icon/icon/search.png"), QLineEdit::LeadingPosition);
+    this->searchBar->setClearButtonEnabled(true);
+    this->searchBar->setPlaceholderText("Search...");
+    this->searchBar->setObjectName("searchBar");
+    layout->addWidget(this->searchBar);
 
     // componentBrowser
     this->componentBrowserStackedWidget = new ComponentBrowserStackedWidget(this);
 
     QScrollArea* scrollarea = new QScrollArea(this->componentBrowserStackedWidget);
-    QWidget* browserWrap = new QWidget(scrollarea);
-    scrollarea->setWidget(browserWrap);
+    this->browserWrap = new QWidget(scrollarea);
+    this->browserWrap->setObjectName("browserWrap");
+    scrollarea->setWidget(this->browserWrap);
 
-    QVBoxLayout* browserLayout = new QVBoxLayout(browserWrap);
-    browserLayout->setContentsMargins(0, 0, 0, 0);
-    browserLayout->setSpacing(0);
-    browserWrap->setLayout(browserLayout);
+    this->browserLayout = new QVBoxLayout(this->browserWrap);
+    this->browserLayout->setContentsMargins(0, 0, 0, 0);
+    this->browserLayout->setSpacing(0);
+    this->browserWrap->setLayout(this->browserLayout);
 
-    QToolButton* transformButton = new QToolButton(browserWrap);
-    transformButton->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
-    transformButton->setText("Transform");
-    browserLayout->addWidget(transformButton);
+    QToolButton* transformButton = createToolButton(this->browserWrap, this->browserLayout, "Transform");
+    this->trie->insert("Transform", transformButton);
 
-    this->componentBrowserStackedWidget->addWidget(browserWrap);
+    QToolButton* meshButton = createToolButton(this->browserWrap, this->browserLayout, "Mesh");
+    this->trie->insert("Mesh", meshButton);
+
+    QToolButton* cameraButton = createToolButton(this->browserWrap, this->browserLayout, "Camera");
+    this->trie->insert("Camera", cameraButton);
+
+    this->componentBrowserStackedWidget->addWidget(this->browserWrap);
 
     layout->addWidget(this->componentBrowserStackedWidget);
+
+    connect(this->searchBar, &QLineEdit::textChanged, this, &ComponentBrowserWidget::filterComponentBrowser);
+}
+
+void ComponentBrowserWidget::hideAllComponentBrowser()
+{
+    for (int i = 0; i < this->browserLayout->count(); ++i)
+    {
+        this->browserLayout->itemAt(i)->widget()->hide();
+    }
 }
 
 void ComponentBrowserWidget::getComponent()
 {
     
+}
+
+void ComponentBrowserWidget::filterComponentBrowser()
+{
+    this->hideAllComponentBrowser();
+    std::vector<QToolButton*> buttons = this->trie->getAllStartWith(this->searchBar->text().toStdString());
+    for (QToolButton* button: buttons)
+    {
+        button->show();
+    }
+    if (buttons.empty())
+    {
+        //當找不到button觸發
+        //解決QMenu不更新size的問題
+        this->browserWrap->adjustSize();
+        this->componentBrowserStackedWidget->adjustSize();
+        this->adjustSize();
+    }
+    QResizeEvent re(QSize(), this->menuPtr->size());
+    qApp->sendEvent(this->menuPtr, &re);
+    this->menuPtr->adjustSize();
 }
 
 //ComponentBrowserButton
@@ -156,10 +246,8 @@ ComponentBrowserButton::ComponentBrowserButton(QWidget *parent)
     this->setObjectName("toolButton_addComponent");
     this->setText("Add component");
 
-    ComponentBrowserWidget* componentBrowserWidget = new ComponentBrowserWidget();
+    ComponentBrowserWidget* componentBrowserWidget = new ComponentBrowserWidget(this->menu);
     this->popupWidget->setDefaultWidget(componentBrowserWidget);
     this->menu->addAction(this->popupWidget);
     this->setMenu(this->menu);
 }
-
-
