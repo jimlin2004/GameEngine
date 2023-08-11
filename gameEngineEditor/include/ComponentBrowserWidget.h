@@ -11,6 +11,9 @@
 #include <vector>
 #include <stdint.h>
 
+#include "Component/Component.h"
+#include "MainWindowExportData.h"
+
 class ComponentBrowserTrieNode;
 
 struct ComponentBrowserTriePair
@@ -58,36 +61,55 @@ public:
     explicit ComponentBrowserStackedWidget(QWidget* parent = (QWidget*)nullptr);
 };
 
-class ComponentBrowserButton: public QToolButton
-{
-    Q_OBJECT
-public:
-    explicit ComponentBrowserButton(QWidget *parent = (QWidget *)nullptr);
-private:
-    QWidgetAction* popupWidget;
-    QMenu* menu;
-};
-
 class ComponentBrowserWidget: public QWidget
 {
     Q_OBJECT
 public:
     explicit ComponentBrowserWidget(QMenu* ptr, QWidget* parent = (QWidget*)nullptr);
-    static void getComponent();
+    void bindExportDataPtr(GameEngineEditor::ExportData* ptr);
+    void setSelectedComponentType(GameEngine::GameEngineComponentType type);
+    inline GameEngine::GameEngineComponentType getSelectedComponentType() const
+    {
+        return this->selectedComponentType;
+    }
+signals:
+    //內部使用
+    void onAddComponentSignal();
+    
+    //當呼叫entityAddComponent時觸發
+    void onAddedComponent();
+public slots:
+    void onToolButtonClick();
 private:
+    GameEngineEditor::ExportData* exportDataPtr;
     ComponentBrowserStackedWidget* componentBrowserStackedWidget;
     ComponentBrowserTrie* trie;
     QWidget* browserWrap;
     QVBoxLayout* browserLayout;
     QLineEdit* searchBar;
     QMenu* menuPtr;
+    GameEngine::GameEngineComponentType selectedComponentType;
 
     void setupUI();
     void hideAllComponentBrowser();
+    void entityAddComponent(entt::entity &entityID, GameEngine::GameEngineComponentType type);
 private slots:
     void filterComponentBrowser();
 };
 
+class ComponentBrowserButton: public QToolButton
+{
+    Q_OBJECT
+public:
+    explicit ComponentBrowserButton(QWidget *parent = (QWidget *)nullptr);
 
-
+    inline ComponentBrowserWidget* getPopupWidget() const
+    {
+        return this->componentBrowserWidget;
+    }
+private:
+    QWidgetAction* popupWidget;
+    ComponentBrowserWidget* componentBrowserWidget;
+    QMenu* menu;
+};
 #endif

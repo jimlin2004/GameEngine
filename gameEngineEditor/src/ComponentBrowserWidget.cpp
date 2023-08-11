@@ -123,7 +123,7 @@ std::vector<QToolButton*> ComponentBrowserTrie::getAllStartWith(const std::strin
     int index;
     for (int i = 0; i < prefix.size(); i++)
     {
-        index = current->binarySearch(prefix[i]);
+        index = current->binarySearch(tolower(prefix[i]));
         if (index != -1)
             current = current->nexts[index].trieNodePtr;
         else //代表沒有符合前綴的資料
@@ -144,17 +144,56 @@ ComponentBrowserWidget::ComponentBrowserWidget(QMenu* ptr, QWidget *parent)
     : QWidget(parent)
     , trie(new ComponentBrowserTrie())
     , menuPtr(ptr)
+    , exportDataPtr(nullptr)
 {
     this->setupUI();
 }
 
-static QToolButton* createToolButton(QWidget* widget, QVBoxLayout* layout, const std::string& buttonText)
+void ComponentBrowserWidget::bindExportDataPtr(GameEngineEditor::ExportData *ptr)
+{
+    this->exportDataPtr = ptr;
+}
+
+void ComponentBrowserWidget::setSelectedComponentType(GameEngine::GameEngineComponentType type)
+{
+    this->selectedComponentType = type;
+}
+
+static QToolButton* createToolButton(ComponentBrowserWidget* browserWidget, QWidget* widget, QVBoxLayout* layout, const std::string& buttonText, GameEngine::GameEngineComponentType type)
 {
     QToolButton* button = new QToolButton(widget);
     button->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
     button->setText(QString::fromStdString(buttonText));
     layout->addWidget(button);
+    QObject::connect(button, &QToolButton::clicked, [browserWidget, type](){
+        browserWidget->setSelectedComponentType(type);
+        browserWidget->onToolButtonClick();
+    });
     return button;
+}
+
+void ComponentBrowserWidget::entityAddComponent(entt::entity &entityID, GameEngine::GameEngineComponentType type)
+{
+    GameEngine::Actor actor(entityID);
+    bool isAddedComponent = true;
+    switch (type)
+    {
+    case GameEngine::GameEngineComponentType::TransformComponent :
+        actor.addComponent<GameEngine::TransformComponent>();
+        break;
+    case GameEngine::GameEngineComponentType::MeshComponent :
+        actor.addComponent<GameEngine::MeshComponent>();
+        break;
+    case GameEngine::GameEngineComponentType::CameraComponent :
+        actor.addComponent<GameEngine::CameraComponent>();
+        break;
+    default:
+        isAddedComponent = false;
+        break;
+    }
+
+    if (isAddedComponent)
+        emit this->onAddedComponent();
 }
 
 void ComponentBrowserWidget::setupUI()
@@ -185,13 +224,13 @@ void ComponentBrowserWidget::setupUI()
     this->browserLayout->setSpacing(0);
     this->browserWrap->setLayout(this->browserLayout);
 
-    QToolButton* transformButton = createToolButton(this->browserWrap, this->browserLayout, "Transform");
+    QToolButton* transformButton = createToolButton(this, this->browserWrap, this->browserLayout, "Transform", GameEngine::GameEngineComponentType::TransformComponent);
     this->trie->insert("Transform", transformButton);
 
-    QToolButton* meshButton = createToolButton(this->browserWrap, this->browserLayout, "Mesh");
+    QToolButton* meshButton = createToolButton(this, this->browserWrap, this->browserLayout, "Mesh", GameEngine::GameEngineComponentType::MeshComponent);
     this->trie->insert("Mesh", meshButton);
 
-    QToolButton* cameraButton = createToolButton(this->browserWrap, this->browserLayout, "Camera");
+    QToolButton* cameraButton = createToolButton(this, this->browserWrap, this->browserLayout, "Camera", GameEngine::GameEngineComponentType::CameraComponent);
     this->trie->insert("Camera", cameraButton);
 
     this->componentBrowserStackedWidget->addWidget(this->browserWrap);
@@ -199,6 +238,18 @@ void ComponentBrowserWidget::setupUI()
     layout->addWidget(this->componentBrowserStackedWidget);
 
     connect(this->searchBar, &QLineEdit::textChanged, this, &ComponentBrowserWidget::filterComponentBrowser);
+
+    connect(this, &ComponentBrowserWidget::onAddComponentSignal, [this](){
+        entt::entity entityID = this->exportDataPtr->outlineTreeWidget->getSelectedEntity();
+        if (entityID != entt::null)
+        {
+            if (this->selectedComponentType != GameEngine::GameEngineComponentType::Null)
+            {
+                entityAddComponent(entityID, this->selectedComponentType);
+                this->selectedComponentType = GameEngine::GameEngineComponentType::Null;
+            }
+        }
+    });
 }
 
 void ComponentBrowserWidget::hideAllComponentBrowser()
@@ -209,9 +260,9 @@ void ComponentBrowserWidget::hideAllComponentBrowser()
     }
 }
 
-void ComponentBrowserWidget::getComponent()
+void ComponentBrowserWidget::onToolButtonClick()
 {
-    
+    emit this->onAddComponentSignal();
 }
 
 void ComponentBrowserWidget::filterComponentBrowser()
@@ -224,7 +275,7 @@ void ComponentBrowserWidget::filterComponentBrowser()
     }
     if (buttons.empty())
     {
-        //當找不到button觸發
+        //當找不到button時觸發
         //解決QMenu不更新size的問題
         this->browserWrap->adjustSize();
         this->componentBrowserStackedWidget->adjustSize();
@@ -246,8 +297,16 @@ ComponentBrowserButton::ComponentBrowserButton(QWidget *parent)
     this->setObjectName("toolButton_addComponent");
     this->setText("Add component");
 
-    ComponentBrowserWidget* componentBrowserWidget = new ComponentBrowserWidget(this->menu);
+    this->componentBrowserWidget = new ComponentBrowserWidget(this->menu);
     this->popupWidget->setDefaultWidget(componentBrowserWidget);
     this->menu->addAction(this->popupWidget);
     this->setMenu(this->menu);
+
+    connect(this->menu, &QMenu::aboutToShow, [this](){
+        this->menu->setMinimumWidth(this->width());
+        QResizeEvent re(QSize(), this->menu->size());
+        qApp->sendEvent(this->menu, &re);
+        this->menu->adjustSize();
+    });
 }
+

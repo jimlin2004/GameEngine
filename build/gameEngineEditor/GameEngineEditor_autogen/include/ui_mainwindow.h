@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDockWidget>
 #include <QtWidgets/QFrame>
@@ -108,6 +109,12 @@ public:
     QLabel *label_textureViewer;
     QComboBox *comboBox_texture;
     QSpacerItem *horizontalSpacer_2;
+    QCollapsibleWidget *qCollapsibleWidget_camera;
+    QWidget *contentWidget_camera;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *label_isPrimary;
+    QCheckBox *checkBox_isPrimary;
+    QSpacerItem *horizontalSpacer_4;
     QSpacerItem *verticalSpacer;
     QDockWidget *dockWidgetRight;
     QWidget *dockWidgetContentsRight;
@@ -202,7 +209,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 418, 459));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -311, 418, 521));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -226,7 +233,7 @@ public:
         qCollapsibleWidget_transform->setSizePolicy(sizePolicy1);
         contentWidget_transform = new QWidget(qCollapsibleWidget_transform);
         contentWidget_transform->setObjectName("contentWidget_transform");
-        QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Preferred);
+        QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Minimum);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
         sizePolicy2.setHeightForWidth(contentWidget_transform->sizePolicy().hasHeightForWidth());
@@ -457,6 +464,8 @@ public:
         qCollapsibleWidget_texture->setObjectName("qCollapsibleWidget_texture");
         contentWidget_texture = new QWidget(qCollapsibleWidget_texture);
         contentWidget_texture->setObjectName("contentWidget_texture");
+        sizePolicy2.setHeightForWidth(contentWidget_texture->sizePolicy().hasHeightForWidth());
+        contentWidget_texture->setSizePolicy(sizePolicy2);
         horizontalLayout = new QHBoxLayout(contentWidget_texture);
         horizontalLayout->setObjectName("horizontalLayout");
         label_textureViewer = new QLabel(contentWidget_texture);
@@ -478,6 +487,31 @@ public:
 
 
         verticalLayout_3->addWidget(qCollapsibleWidget_texture);
+
+        qCollapsibleWidget_camera = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_camera->setObjectName("qCollapsibleWidget_camera");
+        contentWidget_camera = new QWidget(qCollapsibleWidget_camera);
+        contentWidget_camera->setObjectName("contentWidget_camera");
+        sizePolicy2.setHeightForWidth(contentWidget_camera->sizePolicy().hasHeightForWidth());
+        contentWidget_camera->setSizePolicy(sizePolicy2);
+        horizontalLayout_2 = new QHBoxLayout(contentWidget_camera);
+        horizontalLayout_2->setObjectName("horizontalLayout_2");
+        label_isPrimary = new QLabel(contentWidget_camera);
+        label_isPrimary->setObjectName("label_isPrimary");
+
+        horizontalLayout_2->addWidget(label_isPrimary);
+
+        checkBox_isPrimary = new QCheckBox(contentWidget_camera);
+        checkBox_isPrimary->setObjectName("checkBox_isPrimary");
+
+        horizontalLayout_2->addWidget(checkBox_isPrimary);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer_4);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_camera);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -714,6 +748,9 @@ public:
         pushButton_colorPicker->setText(QCoreApplication::translate("MainWindow", "choose color", nullptr));
         qCollapsibleWidget_texture->setTitle(QCoreApplication::translate("MainWindow", "Texture", nullptr));
         label_textureViewer->setText(QString());
+        qCollapsibleWidget_camera->setTitle(QCoreApplication::translate("MainWindow", "Camera", nullptr));
+        label_isPrimary->setText(QCoreApplication::translate("MainWindow", "Is primary", nullptr));
+        checkBox_isPrimary->setText(QString());
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));

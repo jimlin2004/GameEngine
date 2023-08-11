@@ -1008,6 +1008,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtGui/QIcon \
  D:/QT/6.4.2/mingw_64/include/QtGui/qicon.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QCheckBox \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qcheckbox.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
@@ -1025,7 +1028,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QPushButton \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QScrollArea \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qscrollarea.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QSpacerItem \

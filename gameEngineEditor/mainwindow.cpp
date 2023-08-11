@@ -174,10 +174,11 @@ MainWindow::MainWindow(QWidget *parent)
     // connect(this->ui->pushButton_addComponent, &QPushButton::clicked, this, &MainWindow::onAddComponent);
     {
         //將detail關閉(不能用this->hideAllDetail，因為this尚未show)
-        // this->ui->widget_addComponentWrap->hide();
+        this->ui->widget_addComponentWrap->hide();
         this->ui->qCollapsibleWidget_transform->hide();
         this->ui->qCollapsibleWidget_color->hide();
         this->ui->qCollapsibleWidget_texture->hide();
+        this->ui->qCollapsibleWidget_camera->hide();
     }
 }
 
@@ -269,6 +270,11 @@ void MainWindow::initAddComponentToolButton()
 {
     ComponentBrowserButton* componentBrowserButton = new ComponentBrowserButton(this->ui->widget_addComponentWrap);
     this->ui->widget_addComponentWrap->layout()->addWidget(componentBrowserButton);
+    componentBrowserButton->getPopupWidget()->bindExportDataPtr(&(this->exportData));
+
+    connect(componentBrowserButton->getPopupWidget(), &ComponentBrowserWidget::onAddedComponent, [this](){
+        this->updateDetail();
+    });
 }
 
 #ifdef Q_OS_WIN
@@ -338,19 +344,16 @@ void MainWindow::onExpandClick()
         iconExpandWindowMax.addFile(QString::fromUtf8(":/icon/icon/expand-window-max.png"), QSize(), QIcon::Normal, QIcon::Off);
         return true;
     }();
-    static bool isExpanded = false;
     
-    if (isExpanded)
+    if (this->isMaximized())
     {
         this->ToNormal();
         this->ui->pushButton_expand->setIcon(iconExpandWindowMax);
-        isExpanded = false;
     }
     else
     {
         this->ToMaximize();
         this->ui->pushButton_expand->setIcon(iconExpandWindowMin);
-        isExpanded = true;
     }
 }
 
@@ -677,6 +680,15 @@ void MainWindow::pushComponentProperty<GameEngine::MeshComponent>(const entt::en
     this->ui->qCollapsibleWidget_texture->show();
 }
 
+template<>
+void MainWindow::pushComponentProperty<GameEngine::CameraComponent>(const entt::entity& entityID)
+{
+    GameEngine::CameraComponent& cameraComponent = GameEngine::globalScene->queryActorComponent<GameEngine::CameraComponent>(entityID);
+    // if (cameraComponent.primary)
+        
+    this->ui->qCollapsibleWidget_camera->show();
+}
+
 void MainWindow::onTransformUpdate()
 {
     if (!this->ui->lineEditFloat_x_position->isEditing())
@@ -725,6 +737,10 @@ void MainWindow::hideAllDetail()
     {
         this->ui->qCollapsibleWidget_texture->hide();
     }
+    if (this->ui->qCollapsibleWidget_camera->isVisible())
+    {
+        this->ui->qCollapsibleWidget_camera->hide();
+    }
 }
 
 void MainWindow::updateDetail()
@@ -734,10 +750,13 @@ void MainWindow::updateDetail()
     if (entityID == entt::null)
         return;
     this->ui->widget_addComponentWrap->show();
-    if (GameEngine::globalScene->actorHasComponent<GameEngine::TransformComponent>(entityID))
+    GameEngine::Actor actor(entityID);
+    if (actor.hasComponent<GameEngine::TransformComponent>())
         this->pushComponentProperty<GameEngine::TransformComponent>(entityID);
-    if (GameEngine::globalScene->actorHasComponent<GameEngine::MeshComponent>(entityID))
+    if (actor.hasComponent<GameEngine::MeshComponent>())
         this->pushComponentProperty<GameEngine::MeshComponent>(entityID);
+    if (actor.hasComponent<GameEngine::CameraComponent>())
+        this->pushComponentProperty<GameEngine::CameraComponent>(entityID);
 }
 
 

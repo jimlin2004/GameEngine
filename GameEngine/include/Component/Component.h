@@ -12,6 +12,17 @@
 
 namespace GameEngine
 {
+    enum class GameEngineComponentType
+    {
+        Null = 0,
+        IDComponent,
+        TagComponent,
+        TransformComponent,
+        MeshComponent,
+        CameraComponent,
+        ScriptComponent
+    };
+
     struct IDComponent
     {
         UUID uuid;

@@ -193,17 +193,13 @@
 }
 
 ComponentBrowserButton QMenu{
-    /* background-color: #e62626; */
+    background-color: #252525;
 }
 
 ComponentBrowserWidget #searchBar {
     color: #ffffff;
     background-color: #252525;
     border: none;
-}
-
-ComponentBrowserWidget #browserWrap {
-    background-color: #d42e2e;
 }
 
 ComponentBrowserWidget QToolButton {

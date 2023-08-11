@@ -416,3 +416,12 @@
         -發現大寫搜尋失效
         -QMenu的大小問題未解決
     存檔紀錄 --version 1.0-dev
+2023/08/11
+    1. 修復大寫搜尋問題(忘記加上tolower())
+    2. 基本完成AddComponent的功能，ToolButton click後的換頁功能未編寫(ex: physics的更多分類)
+    3. AddComponent的大小問題目前會跟隨ComponentBrowserButton的大小，但ComponentBrowserButton過小的時
+       會出現QMenu比較大的問題
+    Todo list
+        -box2d
+        -runtime simulation
+    存檔紀錄 --version 1.0-dev
