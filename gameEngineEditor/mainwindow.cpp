@@ -138,12 +138,9 @@ MainWindow::MainWindow(QWidget *parent)
     actorLevel = new OutlineTreeWidgetItem(this->ui->treeWidget);
     actorLevel->setText(0, "Actor");
 
-    // connect(this->ui->openglWidget, &EditorOpenGLWidget::resetGameObjectOutline, this, &MainWindow::resetGameObjectOutline);
     connect(this->ui->treeWidget, &QTreeWidget::itemClicked, this, &MainWindow::getTreeWigetItemInfo);
     
     this->ui->scrollAreaWidgetContents_detail->layout()->setAlignment(Qt::AlignTop);
-    // this->ui->dockWidgetContentsLeft->resize(100, this->ui->dockWidgetLeft->height());
-    // this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->dockWidgetLeft->width()}, Qt::Horizontal);
     this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->scrollAreaWidgetContents_detail->width() + 20}, Qt::Horizontal);
     
     //bind tiemr to outline if there is an entity need to insert to outline
@@ -157,29 +154,11 @@ MainWindow::MainWindow(QWidget *parent)
     this->exportData.outlineTreeWidget = this->ui->treeWidget;
     this->exportData.actorCollection = this->actorLevel;
 
-    // this->ui->label_textureViewer->setStyleSheet("background: #000000;");
-    connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
-    
     // init detail connection
-
-    // this->ui->widget_colorViewer->setStyleSheet("background-color: #000000;");
-    connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
-    connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-
+    this->initDetailConnection();
     //end init detail connection
     
-    // click addComponentPushButton
-    // connect(this->ui->pushButton_addComponent, &QPushButton::clicked, this, &MainWindow::onAddComponent);
-    {
-        //將detail關閉(不能用this->hideAllDetail，因為this尚未show)
-        this->ui->widget_addComponentWrap->hide();
-        this->ui->qCollapsibleWidget_transform->hide();
-        this->ui->qCollapsibleWidget_color->hide();
-        this->ui->qCollapsibleWidget_texture->hide();
-        this->ui->qCollapsibleWidget_camera->hide();
-    }
+    this->hideAllDetail();
 }
 
 MainWindow::~MainWindow()
@@ -275,6 +254,23 @@ void MainWindow::initAddComponentToolButton()
     connect(componentBrowserButton->getPopupWidget(), &ComponentBrowserWidget::onAddedComponent, [this](){
         this->updateDetail();
     });
+}
+
+void MainWindow::initDetailConnection()
+{
+    // init detail connection
+    
+    // mesh component(texture)
+    connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
+    
+    // mesh component(color)
+    connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
+    connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+
+    // camera component
+    connect(this->ui->checkBox_isPrimary, &QCheckBox::stateChanged, this, &MainWindow::onIsPrimaryStateChanged);
 }
 
 #ifdef Q_OS_WIN
@@ -616,6 +612,20 @@ void MainWindow::openProject()
     this->resetGameObjectOutline();
     this->resetTextureComboBox();
     GameEngine::GEngine->setWorkingDirname(this->projectParser->getProjectDirname());
+
+    GameEngine::Actor actor0 = {(entt::entity)0};
+    actor0.addComponent<GameEngine::Rigidbody2DComponent>();
+    actor0.addComponent<GameEngine::BoxCollider2DComponent>();
+
+    GameEngine::Rigidbody2DComponent& rigidbody2DComponent0 = actor0.getComponent<GameEngine::Rigidbody2DComponent>();
+    rigidbody2DComponent0.type = GameEngine::Rigidbody2DComponent::BodyType::Dynamic;
+
+    GameEngine::Actor actor1 = {(entt::entity)1};
+    actor1.addComponent<GameEngine::Rigidbody2DComponent>();
+    actor1.addComponent<GameEngine::BoxCollider2DComponent>();
+
+    GameEngine::Rigidbody2DComponent& rigidbody2DComponent1 = actor1.getComponent<GameEngine::Rigidbody2DComponent>();
+    rigidbody2DComponent1.type = GameEngine::Rigidbody2DComponent::BodyType::Static;
 }
 
 void MainWindow::saveScene()
@@ -683,10 +693,30 @@ void MainWindow::pushComponentProperty<GameEngine::MeshComponent>(const entt::en
 template<>
 void MainWindow::pushComponentProperty<GameEngine::CameraComponent>(const entt::entity& entityID)
 {
-    GameEngine::CameraComponent& cameraComponent = GameEngine::globalScene->queryActorComponent<GameEngine::CameraComponent>(entityID);
-    // if (cameraComponent.primary)
-        
     this->ui->qCollapsibleWidget_camera->show();
+}
+
+template<>
+void MainWindow::pushComponentProperty<GameEngine::Rigidbody2DComponent>(const entt::entity& entityID)
+{
+    this->ui->qCollapsibleWidget_rigidbody2D->show();
+}
+
+template<>
+void MainWindow::pushComponentProperty<GameEngine::BoxCollider2DComponent>(const entt::entity& entityID)
+{
+    GameEngine::BoxCollider2DComponent& boxCollider2DComponent = GameEngine::globalScene->queryActorComponent<GameEngine::BoxCollider2DComponent>(entityID);
+
+    this->ui->lineEditFloat_boxCollider2D_offset_x->bind(&boxCollider2DComponent.offset.x);
+    this->ui->lineEditFloat_boxCollider2D_offset_y->bind(&boxCollider2DComponent.offset.y);
+    this->ui->lineEditFloat_boxCollider2D_size_x->bind(&boxCollider2DComponent.size.x);
+    this->ui->lineEditFloat_boxCollider2D_size_y->bind(&boxCollider2DComponent.size.y);
+    this->ui->lineEditFloat_boxCollider2D_density->bind(&boxCollider2DComponent.density);
+    this->ui->lineEditFloat_boxCollider2D_friction->bind(&boxCollider2DComponent.friction);
+    this->ui->lineEditFloat_boxCollider2D_restitution->bind(&boxCollider2DComponent.restitution);
+    this->ui->lineEditFloat_boxCollider2D_restitutionThreshold->bind(&boxCollider2DComponent.restitutionThreshold);
+
+    this->ui->qCollapsibleWidget_boxCollider2D->show();
 }
 
 void MainWindow::onTransformUpdate()
@@ -720,27 +750,33 @@ void MainWindow::onTransformUpdate()
     }
 }
 
+void MainWindow::onIsPrimaryStateChanged()
+{
+    entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+    if (entityID == entt::null)
+        return;
+    GameEngine::CameraComponent& cameraComponent = GameEngine::globalScene->queryActorComponent<GameEngine::CameraComponent>(entityID);
+    cameraComponent.primary = this->ui->checkBox_isPrimary->isChecked();
+}
+
 void MainWindow::hideAllDetail()
 {
-    if (this->ui->widget_addComponentWrap->isVisible())
-        this->ui->widget_addComponentWrap->hide();
     if (this->ui->qCollapsibleWidget_transform->isVisible())
     {
         disconnect(&(this->timer), &QTimer::timeout, this, &MainWindow::onTransformUpdate);
         this->ui->qCollapsibleWidget_transform->hide();
     }
-    if (this->ui->qCollapsibleWidget_color->isVisible())
+    QLayout* layout = this->ui->scrollAreaWidgetContents_detail->layout();
+    QWidget* childWidget;
+    //-1 for verticalSpacer
+    for (int i = 0; i < layout->count() - 1; ++i)
     {
-        this->ui->qCollapsibleWidget_color->hide();
+        childWidget = layout->itemAt(i)->widget();
+        childWidget->hide();
     }
-    if (this->ui->qCollapsibleWidget_texture->isVisible())
-    {
-        this->ui->qCollapsibleWidget_texture->hide();
-    }
-    if (this->ui->qCollapsibleWidget_camera->isVisible())
-    {
-        this->ui->qCollapsibleWidget_camera->hide();
-    }
+
+    // this->ui->qCollapsibleWidget_rigidbody2D->show();
+    // this->ui->qCollapsibleWidget_boxCollider2D->show();
 }
 
 void MainWindow::updateDetail()
@@ -757,6 +793,10 @@ void MainWindow::updateDetail()
         this->pushComponentProperty<GameEngine::MeshComponent>(entityID);
     if (actor.hasComponent<GameEngine::CameraComponent>())
         this->pushComponentProperty<GameEngine::CameraComponent>(entityID);
+    if (actor.hasComponent<GameEngine::Rigidbody2DComponent>())
+        this->pushComponentProperty<GameEngine::Rigidbody2DComponent>(entityID);
+    if (actor.hasComponent<GameEngine::BoxCollider2DComponent>())
+        this->pushComponentProperty<GameEngine::BoxCollider2DComponent>(entityID);
 }
 
 

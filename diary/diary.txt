@@ -425,3 +425,10 @@
         -box2d
         -runtime simulation
     存檔紀錄 --version 1.0-dev
+2023/08/15
+    1. 初步加入box2d完成
+    2. Editor新增Rigidbody2D以及boxCollider2D的操作面板
+    Todo list
+        -opengl 坐標系的比例可能需要修改(box2d看起來物理模擬太慢，可能是因為世界座標太大)
+        -physics component操作面板的add component功能及其餘功能
+    存檔紀錄 --version 1.0-dev

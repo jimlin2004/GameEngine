@@ -15,6 +15,7 @@
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDockWidget>
+#include <QtWidgets/QFormLayout>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
@@ -115,6 +116,41 @@ public:
     QLabel *label_isPrimary;
     QCheckBox *checkBox_isPrimary;
     QSpacerItem *horizontalSpacer_4;
+    QCollapsibleWidget *qCollapsibleWidget_rigidbody2D;
+    QWidget *contentWidget_rigidbody2D;
+    QVBoxLayout *verticalLayout_10;
+    QHBoxLayout *horizontalLayout_6;
+    QLabel *label_bodyType;
+    QComboBox *comboBox_bodyType;
+    QSpacerItem *horizontalSpacer_5;
+    QHBoxLayout *horizontalLayout_7;
+    QLabel *label_fixedRotation;
+    QCheckBox *checkBox_fixedRotation;
+    QSpacerItem *horizontalSpacer_6;
+    QCollapsibleWidget *qCollapsibleWidget_boxCollider2D;
+    QWidget *contentWidget_boxCollider2D;
+    QVBoxLayout *verticalLayout_11;
+    QLabel *label_boxCollider2D_offset;
+    QHBoxLayout *horizontalLayout_boxCollider2D_offset;
+    QLabel *label_boxCollider2D_offset_x;
+    LineEditFloat *lineEditFloat_boxCollider2D_offset_x;
+    QLabel *label_boxCollider2D_offset_y;
+    LineEditFloat *lineEditFloat_boxCollider2D_offset_y;
+    QLabel *label_boxCollider2D_size;
+    QHBoxLayout *horizontalLayout_boxCollider2D_size;
+    QLabel *label_boxCollider2D_size_x;
+    LineEditFloat *lineEditFloat_boxCollider2D_size_x;
+    QLabel *label_boxCollider2D_size_y;
+    LineEditFloat *lineEditFloat_boxCollider2D_size_y;
+    QFormLayout *formLayout;
+    QLabel *label_boxCollider2D_density;
+    LineEditFloat *lineEditFloat_boxCollider2D_density;
+    QLabel *label_boxCollider2D_friction;
+    LineEditFloat *lineEditFloat_boxCollider2D_friction;
+    QLabel *label_boxCollider2D_restitution;
+    QLabel *label_boxCollider2D_restitutionThreshold;
+    LineEditFloat *lineEditFloat_boxCollider2D_restitution;
+    LineEditFloat *lineEditFloat_boxCollider2D_restitutionThreshold;
     QSpacerItem *verticalSpacer;
     QDockWidget *dockWidgetRight;
     QWidget *dockWidgetContentsRight;
@@ -209,7 +245,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -311, 418, 521));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -471, 418, 856));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -513,6 +549,174 @@ public:
 
         verticalLayout_3->addWidget(qCollapsibleWidget_camera);
 
+        qCollapsibleWidget_rigidbody2D = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_rigidbody2D->setObjectName("qCollapsibleWidget_rigidbody2D");
+        contentWidget_rigidbody2D = new QWidget(qCollapsibleWidget_rigidbody2D);
+        contentWidget_rigidbody2D->setObjectName("contentWidget_rigidbody2D");
+        sizePolicy2.setHeightForWidth(contentWidget_rigidbody2D->sizePolicy().hasHeightForWidth());
+        contentWidget_rigidbody2D->setSizePolicy(sizePolicy2);
+        verticalLayout_10 = new QVBoxLayout(contentWidget_rigidbody2D);
+        verticalLayout_10->setObjectName("verticalLayout_10");
+        horizontalLayout_6 = new QHBoxLayout();
+        horizontalLayout_6->setObjectName("horizontalLayout_6");
+        label_bodyType = new QLabel(contentWidget_rigidbody2D);
+        label_bodyType->setObjectName("label_bodyType");
+
+        horizontalLayout_6->addWidget(label_bodyType);
+
+        comboBox_bodyType = new QComboBox(contentWidget_rigidbody2D);
+        comboBox_bodyType->addItem(QString());
+        comboBox_bodyType->addItem(QString());
+        comboBox_bodyType->addItem(QString());
+        comboBox_bodyType->setObjectName("comboBox_bodyType");
+
+        horizontalLayout_6->addWidget(comboBox_bodyType);
+
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_6->addItem(horizontalSpacer_5);
+
+
+        verticalLayout_10->addLayout(horizontalLayout_6);
+
+        horizontalLayout_7 = new QHBoxLayout();
+        horizontalLayout_7->setObjectName("horizontalLayout_7");
+        label_fixedRotation = new QLabel(contentWidget_rigidbody2D);
+        label_fixedRotation->setObjectName("label_fixedRotation");
+
+        horizontalLayout_7->addWidget(label_fixedRotation);
+
+        checkBox_fixedRotation = new QCheckBox(contentWidget_rigidbody2D);
+        checkBox_fixedRotation->setObjectName("checkBox_fixedRotation");
+
+        horizontalLayout_7->addWidget(checkBox_fixedRotation);
+
+        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_7->addItem(horizontalSpacer_6);
+
+
+        verticalLayout_10->addLayout(horizontalLayout_7);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_rigidbody2D);
+
+        qCollapsibleWidget_boxCollider2D = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_boxCollider2D->setObjectName("qCollapsibleWidget_boxCollider2D");
+        contentWidget_boxCollider2D = new QWidget(qCollapsibleWidget_boxCollider2D);
+        contentWidget_boxCollider2D->setObjectName("contentWidget_boxCollider2D");
+        sizePolicy2.setHeightForWidth(contentWidget_boxCollider2D->sizePolicy().hasHeightForWidth());
+        contentWidget_boxCollider2D->setSizePolicy(sizePolicy2);
+        verticalLayout_11 = new QVBoxLayout(contentWidget_boxCollider2D);
+        verticalLayout_11->setObjectName("verticalLayout_11");
+        label_boxCollider2D_offset = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_offset->setObjectName("label_boxCollider2D_offset");
+
+        verticalLayout_11->addWidget(label_boxCollider2D_offset);
+
+        horizontalLayout_boxCollider2D_offset = new QHBoxLayout();
+        horizontalLayout_boxCollider2D_offset->setObjectName("horizontalLayout_boxCollider2D_offset");
+        label_boxCollider2D_offset_x = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_offset_x->setObjectName("label_boxCollider2D_offset_x");
+
+        horizontalLayout_boxCollider2D_offset->addWidget(label_boxCollider2D_offset_x);
+
+        lineEditFloat_boxCollider2D_offset_x = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_offset_x->setObjectName("lineEditFloat_boxCollider2D_offset_x");
+
+        horizontalLayout_boxCollider2D_offset->addWidget(lineEditFloat_boxCollider2D_offset_x);
+
+        label_boxCollider2D_offset_y = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_offset_y->setObjectName("label_boxCollider2D_offset_y");
+
+        horizontalLayout_boxCollider2D_offset->addWidget(label_boxCollider2D_offset_y);
+
+        lineEditFloat_boxCollider2D_offset_y = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_offset_y->setObjectName("lineEditFloat_boxCollider2D_offset_y");
+
+        horizontalLayout_boxCollider2D_offset->addWidget(lineEditFloat_boxCollider2D_offset_y);
+
+
+        verticalLayout_11->addLayout(horizontalLayout_boxCollider2D_offset);
+
+        label_boxCollider2D_size = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_size->setObjectName("label_boxCollider2D_size");
+
+        verticalLayout_11->addWidget(label_boxCollider2D_size);
+
+        horizontalLayout_boxCollider2D_size = new QHBoxLayout();
+        horizontalLayout_boxCollider2D_size->setObjectName("horizontalLayout_boxCollider2D_size");
+        label_boxCollider2D_size_x = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_size_x->setObjectName("label_boxCollider2D_size_x");
+
+        horizontalLayout_boxCollider2D_size->addWidget(label_boxCollider2D_size_x);
+
+        lineEditFloat_boxCollider2D_size_x = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_size_x->setObjectName("lineEditFloat_boxCollider2D_size_x");
+
+        horizontalLayout_boxCollider2D_size->addWidget(lineEditFloat_boxCollider2D_size_x);
+
+        label_boxCollider2D_size_y = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_size_y->setObjectName("label_boxCollider2D_size_y");
+
+        horizontalLayout_boxCollider2D_size->addWidget(label_boxCollider2D_size_y);
+
+        lineEditFloat_boxCollider2D_size_y = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_size_y->setObjectName("lineEditFloat_boxCollider2D_size_y");
+
+        horizontalLayout_boxCollider2D_size->addWidget(lineEditFloat_boxCollider2D_size_y);
+
+
+        verticalLayout_11->addLayout(horizontalLayout_boxCollider2D_size);
+
+        formLayout = new QFormLayout();
+        formLayout->setObjectName("formLayout");
+        label_boxCollider2D_density = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_density->setObjectName("label_boxCollider2D_density");
+
+        formLayout->setWidget(0, QFormLayout::LabelRole, label_boxCollider2D_density);
+
+        lineEditFloat_boxCollider2D_density = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_density->setObjectName("lineEditFloat_boxCollider2D_density");
+
+        formLayout->setWidget(0, QFormLayout::FieldRole, lineEditFloat_boxCollider2D_density);
+
+        label_boxCollider2D_friction = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_friction->setObjectName("label_boxCollider2D_friction");
+
+        formLayout->setWidget(1, QFormLayout::LabelRole, label_boxCollider2D_friction);
+
+        lineEditFloat_boxCollider2D_friction = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_friction->setObjectName("lineEditFloat_boxCollider2D_friction");
+
+        formLayout->setWidget(1, QFormLayout::FieldRole, lineEditFloat_boxCollider2D_friction);
+
+        label_boxCollider2D_restitution = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_restitution->setObjectName("label_boxCollider2D_restitution");
+
+        formLayout->setWidget(2, QFormLayout::LabelRole, label_boxCollider2D_restitution);
+
+        label_boxCollider2D_restitutionThreshold = new QLabel(contentWidget_boxCollider2D);
+        label_boxCollider2D_restitutionThreshold->setObjectName("label_boxCollider2D_restitutionThreshold");
+
+        formLayout->setWidget(3, QFormLayout::LabelRole, label_boxCollider2D_restitutionThreshold);
+
+        lineEditFloat_boxCollider2D_restitution = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_restitution->setObjectName("lineEditFloat_boxCollider2D_restitution");
+
+        formLayout->setWidget(2, QFormLayout::FieldRole, lineEditFloat_boxCollider2D_restitution);
+
+        lineEditFloat_boxCollider2D_restitutionThreshold = new LineEditFloat(contentWidget_boxCollider2D);
+        lineEditFloat_boxCollider2D_restitutionThreshold->setObjectName("lineEditFloat_boxCollider2D_restitutionThreshold");
+
+        formLayout->setWidget(3, QFormLayout::FieldRole, lineEditFloat_boxCollider2D_restitutionThreshold);
+
+
+        verticalLayout_11->addLayout(formLayout);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_boxCollider2D);
+
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout_3->addItem(verticalSpacer);
@@ -751,6 +955,26 @@ public:
         qCollapsibleWidget_camera->setTitle(QCoreApplication::translate("MainWindow", "Camera", nullptr));
         label_isPrimary->setText(QCoreApplication::translate("MainWindow", "Is primary", nullptr));
         checkBox_isPrimary->setText(QString());
+        qCollapsibleWidget_rigidbody2D->setTitle(QCoreApplication::translate("MainWindow", "Rigidbody2D", nullptr));
+        qCollapsibleWidget_rigidbody2D->setPushButtonStyle(QString());
+        label_bodyType->setText(QCoreApplication::translate("MainWindow", "Type", nullptr));
+        comboBox_bodyType->setItemText(0, QCoreApplication::translate("MainWindow", "Static", nullptr));
+        comboBox_bodyType->setItemText(1, QCoreApplication::translate("MainWindow", "Dynamic", nullptr));
+        comboBox_bodyType->setItemText(2, QCoreApplication::translate("MainWindow", "Kinematic", nullptr));
+
+        label_fixedRotation->setText(QCoreApplication::translate("MainWindow", "Fix rotation", nullptr));
+        checkBox_fixedRotation->setText(QString());
+        qCollapsibleWidget_boxCollider2D->setTitle(QCoreApplication::translate("MainWindow", "BoxCollider2D", nullptr));
+        label_boxCollider2D_offset->setText(QCoreApplication::translate("MainWindow", "Offset", nullptr));
+        label_boxCollider2D_offset_x->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_boxCollider2D_offset_y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_boxCollider2D_size->setText(QCoreApplication::translate("MainWindow", "Size", nullptr));
+        label_boxCollider2D_size_x->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_boxCollider2D_size_y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        label_boxCollider2D_density->setText(QCoreApplication::translate("MainWindow", "Density", nullptr));
+        label_boxCollider2D_friction->setText(QCoreApplication::translate("MainWindow", "Friction", nullptr));
+        label_boxCollider2D_restitution->setText(QCoreApplication::translate("MainWindow", "Restitution", nullptr));
+        label_boxCollider2D_restitutionThreshold->setText(QCoreApplication::translate("MainWindow", "Restitution threshold", nullptr));
         dockWidgetRight->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Objects", nullptr));
         dockWidgetBottom->setWindowTitle(QCoreApplication::translate("MainWindow", "Manager", nullptr));
         tabWidget_manager->setTabText(tabWidget_manager->indexOf(tab_assets), QCoreApplication::translate("MainWindow", "Assets", nullptr));

@@ -92,6 +92,43 @@ namespace GameEngine
             };
         }
     };
+
+    //physics
+
+    struct Rigidbody2DComponent
+    {
+        enum class BodyType {
+            Static = 0, Dynamic, Kinematic
+        };
+        BodyType type = BodyType::Static;
+        bool fixedRotation = false;
+
+        //storage for runtime
+        void* runtimeBody = nullptr;
+
+        Rigidbody2DComponent() = default;
+        Rigidbody2DComponent(const Rigidbody2DComponent& other) = default;
+    };
+
+    struct BoxCollider2DComponent
+    {
+        glm::vec2 offset = {0.0f, 0.0f};
+        glm::vec2 size   = {0.5f, 0.5f};
+
+        //密度
+        float density  = 1.0f;
+        //摩擦力
+        float friction = 0.0f;
+        //恢復係數
+        float restitution = 0.0f;
+        //恢復係數閾值
+        float restitutionThreshold = 0.5f;
+
+        void* runtimeFixture = nullptr;
+
+        BoxCollider2DComponent() = default;
+        BoxCollider2DComponent(const BoxCollider2DComponent& other) = default;
+    };
 }
 
 

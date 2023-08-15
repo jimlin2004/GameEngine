@@ -192,7 +192,7 @@
     border: 1px solid #15181b;
 }
 
-ComponentBrowserButton QMenu{
+ComponentBrowserButton QMenu {
     background-color: #252525;
 }
 
@@ -217,10 +217,20 @@ ComponentBrowserWidget QToolButton {
     background-color: #252525;
 }
 
-#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_transform LineEditFloat {
+#dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QComboBox {
+    color: #ffffff;
+    background-color: #252525;
+}
+
+/* combobox的下拉選單 */
+#dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QComboBox QAbstractItemView {
+    color: #ffffff;
+    background-color: #252525;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget LineEditFloat {
     border-width: 2px;
     border-style: inset;
-    /* border-radius: 3px; */
     background-color: #252525;
     border-color: transparent;
     color: #ffffff;
@@ -265,7 +275,6 @@ ComponentBrowserWidget QToolButton {
 #dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color QLineEdit {
     border-width: 2px;
     border-style: inset;
-    /* border-radius: 3px; */
     background-color: #252525;
     border-color: transparent;
     color: #ffffff;
@@ -281,4 +290,14 @@ ComponentBrowserWidget QToolButton {
 
 #dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_color #lineEditFloat_B_color {
     border-left-color: #3578d6;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_boxCollider2D #lineEditFloat_boxCollider2D_offset_x, 
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_boxCollider2D #lineEditFloat_boxCollider2D_size_x {
+    border-left-color: #d63535;
+}
+
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_boxCollider2D #lineEditFloat_boxCollider2D_offset_y,
+#dockWidgetLeft #scrollAreaWidgetContents_detail #qCollapsibleWidget_boxCollider2D #lineEditFloat_boxCollider2D_size_y {
+    border-left-color: #35d655;
 }

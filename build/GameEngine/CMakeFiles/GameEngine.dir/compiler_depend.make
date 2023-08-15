@@ -7612,7 +7612,32 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: D:/code/cpp/gameEn
   D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h
+  D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_api.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_settings.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_types.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_common.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_collision.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_math.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/math.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_time_step.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_shape.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_fixture.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_polygon_shape.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Scene/SceneGraph.cpp
 
@@ -8582,6 +8607,8 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clzer
 
 C:/Program\ Files/msys64/mingw64/include/math.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_polygon_shape.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h:
@@ -8705,6 +8732,8 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_map:
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h:
 
 C:/Program\ Files/msys64/mingw64/include/winnls.h:
 
@@ -9806,6 +9835,8 @@ C:/Program\ Files/msys64/mingw64/include/virtdisk.h:
 
 C:/Program\ Files/msys64/mingw64/include/stralign.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_shape.h:
+
 C:/Program\ Files/msys64/mingw64/include/winsvc.h:
 
 C:/Program\ Files/msys64/mingw64/include/imm.h:
@@ -9871,6 +9902,10 @@ D:/code/cpp/gameEngine/GameEngine/src/Opengl/TextureManager.cpp:
 D:/code/cpp/gameEngine/GameEngine/include/Render/Graphics.h:
 
 D:/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_fixture.h:
 
 D:/code/cpp/gameEngine/GameEngine/src/Scene/SceneSerializer.cpp:
 

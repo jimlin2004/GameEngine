@@ -137,7 +137,7 @@ void GameEngine::GameBase::startGame()
         this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
         this->gameEventHandle();
         this->update(this->timestep);
-        GameEngine::globalScene->unpdateScene(this->timestep);
+        GameEngine::globalScene->unpdateRuntimeScene(this->timestep);
         this->render();
         SDL_GL_SwapWindow(this->window);
     }

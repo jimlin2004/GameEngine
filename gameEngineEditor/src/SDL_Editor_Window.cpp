@@ -134,6 +134,8 @@ void SDL_Editor_Window::begin()
 
 void SDL_Editor_Window::update(float deltaTime)
 {
+    if (this->sceneState == SceneState::Play)
+        GameEngine::globalScene->unpdateRuntimeScene(deltaTime);
 }
 
 void SDL_Editor_Window::render()
@@ -296,15 +298,19 @@ void SDL_Editor_Window::gameEventHandle()
 
 void SDL_Editor_Window::onScenePlay()
 {
-    this->sceneState = SceneState::Play;
     this->editorScene = GameEngine::Scene::copy(GameEngine::globalScene);
+    GameEngine::globalScene->onRuntimeStart();
+    //放在onRunTimeStart()後面防止進程順序打架(this->update)
+    this->sceneState = SceneState::Play;
 }
 
 void SDL_Editor_Window::onSceneStop()
 {
+    GameEngine::globalScene->onRunTimeStop();
     this->sceneState = SceneState::Edit;
     GameEngine::globalScene = this->editorScene;
     GameEngine::Actor::bindScene(GameEngine::globalScene);
+    GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 }
 
 void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)

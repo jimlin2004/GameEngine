@@ -132,9 +132,9 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-311</y>
+             <y>-471</y>
              <width>418</width>
-             <height>521</height>
+             <height>856</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -523,6 +523,223 @@
                    </size>
                   </property>
                  </spacer>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_rigidbody2D">
+              <property name="Title">
+               <string>Rigidbody2D</string>
+              </property>
+              <property name="PushButtonStyle">
+               <string/>
+              </property>
+              <widget class="QWidget" name="contentWidget_rigidbody2D" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_10">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_6">
+                  <item>
+                   <widget class="QLabel" name="label_bodyType">
+                    <property name="text">
+                     <string>Type</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QComboBox" name="comboBox_bodyType">
+                    <item>
+                     <property name="text">
+                      <string>Static</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Dynamic</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Kinematic</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_5">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_7">
+                  <item>
+                   <widget class="QLabel" name="label_fixedRotation">
+                    <property name="text">
+                     <string>Fix rotation</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QCheckBox" name="checkBox_fixedRotation">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_6">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_boxCollider2D">
+              <property name="Title">
+               <string>BoxCollider2D</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_boxCollider2D" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <item>
+                 <widget class="QLabel" name="label_boxCollider2D_offset">
+                  <property name="text">
+                   <string>Offset</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_boxCollider2D_offset">
+                  <item>
+                   <widget class="QLabel" name="label_boxCollider2D_offset_x">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_offset_x"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_boxCollider2D_offset_y">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_offset_y"/>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_boxCollider2D_size">
+                  <property name="text">
+                   <string>Size</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_boxCollider2D_size">
+                  <item>
+                   <widget class="QLabel" name="label_boxCollider2D_size_x">
+                    <property name="text">
+                     <string>X</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_size_x"/>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_boxCollider2D_size_y">
+                    <property name="text">
+                     <string>Y</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_size_y"/>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QFormLayout" name="formLayout">
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_boxCollider2D_density">
+                    <property name="text">
+                     <string>Density</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_density"/>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_boxCollider2D_friction">
+                    <property name="text">
+                     <string>Friction</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_friction"/>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_boxCollider2D_restitution">
+                    <property name="text">
+                     <string>Restitution</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="label_boxCollider2D_restitutionThreshold">
+                    <property name="text">
+                     <string>Restitution threshold</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_restitution"/>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="LineEditFloat" name="lineEditFloat_boxCollider2D_restitutionThreshold"/>
+                  </item>
+                 </layout>
                 </item>
                </layout>
               </widget>

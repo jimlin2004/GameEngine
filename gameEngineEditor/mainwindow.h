@@ -67,6 +67,7 @@ private:
     void initTitlebar();
     void initToolbar();
     void initAddComponentToolButton();
+    void initDetailConnection();
     void clearOutline();
     void updateColorViewer();
     void addGameObjectToOutline(entt::entity entityID);
@@ -109,6 +110,7 @@ private slots:
     void onAddComponent();
     
     void onTransformUpdate();
+    void onIsPrimaryStateChanged();
 };
 
 #endif // MAINWINDOW_H

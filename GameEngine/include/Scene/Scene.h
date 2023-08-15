@@ -12,6 +12,8 @@
 #include "Core/TypeName.hpp"
 #include <iostream>
 
+class b2World;
+
 namespace GameEngine
 {
     class Scene
@@ -20,11 +22,13 @@ namespace GameEngine
         entt::registry registry;
         explicit Scene();
         ~Scene();
-        void unpdateScene(const float deltaTime);
+        void unpdateRuntimeScene(const float deltaTime);
         void render();
         std::vector<entt::entity> getAllActors();
 
         static Scene* copy(Scene* other);
+        void onRuntimeStart();
+        void onRunTimeStop();
 
         template<class TActor>
         TActor* spawnActor()
@@ -67,6 +71,8 @@ namespace GameEngine
                 throw std::invalid_argument("The actor does not have component");
             return this->registry.get<T>(entityID);
         }
+    private:
+        b2World* physicsWorld;
     };
 
     //整個遊戲引擎的global pointer，勿修改
