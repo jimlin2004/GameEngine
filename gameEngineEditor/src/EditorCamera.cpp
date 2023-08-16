@@ -1,10 +1,13 @@
 #include "EditorCamera.h"
 
-GameEngineEditor::EditorCamera::EditorCamera()
+GameEngineEditor::EditorCamera::EditorCamera(float _aspectRatio)
     : GameEngine::Camera()
+    , zoomLevel(10.0f)
+    , aspectRatio(_aspectRatio)
     , viewMatrix(glm::mat4(1.0f))
     , transformComponent()
 {
+    this->setProjection(-(this->aspectRatio * this->zoomLevel), this->aspectRatio * this->zoomLevel, -(this->zoomLevel), this->zoomLevel);
     this->viewProjectionMatrix = this->projection * this->viewMatrix;
 }
 
@@ -57,4 +60,17 @@ void GameEngineEditor::EditorCamera::setZ(float z)
 {
     this->transformComponent.translation.z = z;
     this->updateViewMatrix();
+}
+
+void GameEngineEditor::EditorCamera::resize(float width, float height)
+{
+    this->aspectRatio = width / height;
+    this->setProjection(-(this->aspectRatio * this->zoomLevel), this->aspectRatio * this->zoomLevel, -(this->zoomLevel), this->zoomLevel);
+}
+
+void GameEngineEditor::EditorCamera::onScrollWheel(float x, float y)
+{
+    this->zoomLevel -= y * 0.25f;
+    this->zoomLevel = std::max(this->zoomLevel, 0.25f);
+    this->setProjection(-(this->aspectRatio * this->zoomLevel), this->aspectRatio * this->zoomLevel, -(this->zoomLevel), this->zoomLevel);
 }

@@ -59,6 +59,11 @@ class ComponentBrowserStackedWidget: public QStackedWidget
     Q_OBJECT
 public:
     explicit ComponentBrowserStackedWidget(QWidget* parent = (QWidget*)nullptr);
+
+    QSize sizeHint() const override;
+    QSize minimumSizeHint() const override;
+
+    virtual void showEvent(QShowEvent* event);
 };
 
 class ComponentBrowserWidget: public QWidget
@@ -68,6 +73,11 @@ public:
     explicit ComponentBrowserWidget(QMenu* ptr, QWidget* parent = (QWidget*)nullptr);
     void bindExportDataPtr(GameEngineEditor::ExportData* ptr);
     void setSelectedComponentType(GameEngine::GameEngineComponentType type);
+    void swithToHomePage();
+    inline int getCurrentPageIndex() const
+    {
+        return this->componentBrowserStackedWidget->currentIndex();
+    }
     inline GameEngine::GameEngineComponentType getSelectedComponentType() const
     {
         return this->selectedComponentType;
@@ -91,6 +101,7 @@ private:
     GameEngine::GameEngineComponentType selectedComponentType;
 
     void setupUI();
+    QWidget* setupPhysicsWidget();
     void hideAllComponentBrowser();
     void entityAddComponent(entt::entity &entityID, GameEngine::GameEngineComponentType type);
 private slots:

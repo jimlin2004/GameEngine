@@ -139,6 +139,32 @@ ComponentBrowserStackedWidget::ComponentBrowserStackedWidget(QWidget* parent)
 {
 }
 
+QSize ComponentBrowserStackedWidget::sizeHint() const
+{
+    return this->currentWidget()->sizeHint();
+}
+
+QSize ComponentBrowserStackedWidget::minimumSizeHint() const
+{
+    return this->currentWidget()->minimumSizeHint();
+}
+
+void ComponentBrowserStackedWidget::showEvent(QShowEvent *event)
+{
+    // if (this->count() > 1)
+    // {
+    //     // for (int i = this->count() - 1; i > 0; ++i)
+    //     // {
+    //     //     QWidget* widget = this->widget(i);
+    //     //     this->removeWidget(widget);
+    //     //     widget->deleteLater();
+    //     // }
+    //     this->setCurrentIndex(0);
+    // }
+
+    QStackedWidget::showEvent(event);
+}
+
 //ComponentBrowserWidget
 ComponentBrowserWidget::ComponentBrowserWidget(QMenu* ptr, QWidget *parent)
     : QWidget(parent)
@@ -159,6 +185,27 @@ void ComponentBrowserWidget::setSelectedComponentType(GameEngine::GameEngineComp
     this->selectedComponentType = type;
 }
 
+void ComponentBrowserWidget::swithToHomePage()
+{
+    if (this->componentBrowserStackedWidget->count() > 1)
+    {
+        // for (int i = this->componentBrowserStackedWidget->count() - 1; i > 0; ++i)
+        // {
+        //     QWidget* widget = this->componentBrowserStackedWidget->widget(i);
+        //     this->componentBrowserStackedWidget->removeWidget(widget);
+        //     widget->deleteLater();
+        // }
+        this->componentBrowserStackedWidget->setCurrentIndex(0);
+    }
+
+    this->browserWrap->adjustSize();
+    this->componentBrowserStackedWidget->adjustSize();
+    this->adjustSize();
+    // QResizeEvent re(QSize(), this->menuPtr->size());
+    // qApp->sendEvent(this->menuPtr, &re);
+    // this->menuPtr->adjustSize();
+}
+
 static QToolButton* createToolButton(ComponentBrowserWidget* browserWidget, QWidget* widget, QVBoxLayout* layout, const std::string& buttonText, GameEngine::GameEngineComponentType type)
 {
     QToolButton* button = new QToolButton(widget);
@@ -169,6 +216,16 @@ static QToolButton* createToolButton(ComponentBrowserWidget* browserWidget, QWid
         browserWidget->setSelectedComponentType(type);
         browserWidget->onToolButtonClick();
     });
+    return button;
+}
+
+static QToolButton* createToolButton(QWidget* widget, QVBoxLayout* layout, const std::string& buttonText, std::function<void()> func)
+{
+    QToolButton* button = new QToolButton(widget);
+    button->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
+    button->setText(QString::fromStdString(buttonText));
+    layout->addWidget(button);
+    QObject::connect(button, &QToolButton::clicked, func);
     return button;
 }
 
@@ -214,10 +271,8 @@ void ComponentBrowserWidget::setupUI()
     // componentBrowser
     this->componentBrowserStackedWidget = new ComponentBrowserStackedWidget(this);
 
-    QScrollArea* scrollarea = new QScrollArea(this->componentBrowserStackedWidget);
-    this->browserWrap = new QWidget(scrollarea);
+    this->browserWrap = new QWidget(this->componentBrowserStackedWidget);
     this->browserWrap->setObjectName("browserWrap");
-    scrollarea->setWidget(this->browserWrap);
 
     this->browserLayout = new QVBoxLayout(this->browserWrap);
     this->browserLayout->setContentsMargins(0, 0, 0, 0);
@@ -232,6 +287,8 @@ void ComponentBrowserWidget::setupUI()
 
     QToolButton* cameraButton = createToolButton(this, this->browserWrap, this->browserLayout, "Camera", GameEngine::GameEngineComponentType::CameraComponent);
     this->trie->insert("Camera", cameraButton);
+
+    this->setupPhysicsWidget();
 
     this->componentBrowserStackedWidget->addWidget(this->browserWrap);
 
@@ -250,6 +307,32 @@ void ComponentBrowserWidget::setupUI()
             }
         }
     });
+}
+
+QWidget *ComponentBrowserWidget::setupPhysicsWidget()
+{
+    QToolButton* physicsButton = createToolButton(this->browserWrap, this->browserLayout, "Physics2D", []()->void{});
+
+    this->trie->insert("physics2D", physicsButton);
+
+    QWidget* physicsWidget = new QWidget(this->componentBrowserStackedWidget);
+    QVBoxLayout* physicsLayout = new QVBoxLayout(physicsWidget);
+    physicsLayout->setContentsMargins(0, 0, 0, 0);
+    physicsLayout->setSpacing(0);
+    physicsLayout->addLayout(physicsLayout);
+
+    QToolButton* rigidbodyButton = createToolButton(this, physicsWidget, physicsLayout, "Rigidbody2D", GameEngine::GameEngineComponentType::Rigidbody2DComponent);
+    this->trie->insert("rigidbody2D", physicsButton);
+
+    connect(physicsButton, QToolButton::clicked, [this, physicsWidget]() {
+        this->componentBrowserStackedWidget->addWidget(physicsWidget);
+        this->componentBrowserStackedWidget->setCurrentIndex(1);
+        
+        physicsWidget->adjustSize();
+        this->filterComponentBrowser();
+    });
+    
+    return physicsWidget;
 }
 
 void ComponentBrowserWidget::hideAllComponentBrowser()
@@ -304,6 +387,10 @@ ComponentBrowserButton::ComponentBrowserButton(QWidget *parent)
 
     connect(this->menu, &QMenu::aboutToShow, [this](){
         this->menu->setMinimumWidth(this->width());
+
+        if (this->componentBrowserWidget->getCurrentPageIndex() != 0)
+            this->componentBrowserWidget->swithToHomePage();
+
         QResizeEvent re(QSize(), this->menu->size());
         qApp->sendEvent(this->menu, &re);
         this->menu->adjustSize();

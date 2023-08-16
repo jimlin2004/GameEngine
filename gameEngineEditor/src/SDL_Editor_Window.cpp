@@ -16,6 +16,7 @@ SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     , isFocusOnSDLPtr(nullptr)
     , mainWindowExportDataPtr(nullptr)
     , viewportSize(width, height)
+    , editorCamera(width / height)
     , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
     , frameBuffer(nullptr)
     , imguizmoVisible(false)
@@ -163,7 +164,9 @@ void SDL_Editor_Window::render()
         if ((this->viewportSize.x != currentViewportSize.x) || (this->viewportSize.y != currentViewportSize.y))
         {
             this->viewportSize = currentViewportSize;
-            this->editorCamera.setProjection(0.0, this->viewportSize.x, 0.0, this->viewportSize.y);
+            // this->editorCamera.setProjection(0.0, this->viewportSize.x, 0.0, this->viewportSize.y);
+            // this->editorCamera.setProjection(0.0, 16, 0.0, 16);
+            this->editorCamera.resize(this->viewportSize.x, this->viewportSize.y);
             this->frameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
         }
         uint32_t textureId = this->frameBuffer->getColorAttachmentRendererID();
@@ -273,6 +276,11 @@ void SDL_Editor_Window::gameEventHandle()
                 this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY())});
                 break;
             }
+            case SDL_MOUSEWHEEL:
+            {
+                this->editorCamera.onScrollWheel(event.wheel.preciseX, event.wheel.preciseY);
+                break;
+            }
             default:
                 break;
         }
@@ -320,7 +328,7 @@ void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)
 
 void SDL_Editor_Window::updateEditorCamera(float deltaTime)
 {
-    constexpr static int speed = 150;
+    constexpr static int speed = 5;
 
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_D))
         this->editorCamera.setX(this->editorCamera.getX() + (speed * deltaTime));

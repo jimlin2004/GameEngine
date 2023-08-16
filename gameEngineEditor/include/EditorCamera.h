@@ -9,14 +9,16 @@ namespace GameEngineEditor
     class EditorCamera: public GameEngine::Camera
     {
         private:
-            
+            float aspectRatio;
+            float zoomLevel;
+
             glm::mat4 viewMatrix;
             glm::mat4 viewProjectionMatrix;
-        private:
+
             void updateViewMatrix();
             void updateViewProjectionMatrix();
         public:
-            EditorCamera();
+            EditorCamera(float _aspectRatio);
             EditorCamera(const glm::vec3& pos);
             inline const glm::mat4& getProjectionMatrix() const { return this->projection; }
             inline const glm::mat4& getViewMatrix() const { return viewMatrix; }
@@ -32,6 +34,9 @@ namespace GameEngineEditor
             void setZ(float z);
             inline float getZ() const { return this->transformComponent.translation.z; }
         
+            void resize(float width, float height);
+            void onScrollWheel(float x, float y);
+
             GameEngine::TransformComponent transformComponent;
     };
 }

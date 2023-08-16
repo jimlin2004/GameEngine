@@ -432,3 +432,13 @@
         -opengl 坐標系的比例可能需要修改(box2d看起來物理模擬太慢，可能是因為世界座標太大)
         -physics component操作面板的add component功能及其餘功能
     存檔紀錄 --version 1.0-dev
+2023/08/16
+    1. 將opengl坐標系改成不是screen坐標系，而是相對座標(假設為1 meter)
+    2. 初步建構physics2D的ToolButton，成為資料夾的概念
+    3. Editor新增zoom的功能，但不太滑順
+    Todo list
+        -physics2D的Editor add component面板完善(UI，bind 功能)
+        -add component的換頁後換回首頁時是否需要刪除其他頁面的思考
+        -zoom功能的研究
+        -physics 功能是否表現正常需要檢查(旋轉會有無限旋轉的現象，而unity沒有)
+    存檔紀錄 --version 1.0-dev

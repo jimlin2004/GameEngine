@@ -20,7 +20,9 @@ namespace GameEngine
         TransformComponent,
         MeshComponent,
         CameraComponent,
-        ScriptComponent
+        ScriptComponent,
+        Rigidbody2DComponent,
+        BoxCollider2DComponent
     };
 
     struct IDComponent
