@@ -149,22 +149,6 @@ QSize ComponentBrowserStackedWidget::minimumSizeHint() const
     return this->currentWidget()->minimumSizeHint();
 }
 
-void ComponentBrowserStackedWidget::showEvent(QShowEvent *event)
-{
-    // if (this->count() > 1)
-    // {
-    //     // for (int i = this->count() - 1; i > 0; ++i)
-    //     // {
-    //     //     QWidget* widget = this->widget(i);
-    //     //     this->removeWidget(widget);
-    //     //     widget->deleteLater();
-    //     // }
-    //     this->setCurrentIndex(0);
-    // }
-
-    QStackedWidget::showEvent(event);
-}
-
 //ComponentBrowserWidget
 ComponentBrowserWidget::ComponentBrowserWidget(QMenu* ptr, QWidget *parent)
     : QWidget(parent)
@@ -189,12 +173,12 @@ void ComponentBrowserWidget::swithToHomePage()
 {
     if (this->componentBrowserStackedWidget->count() > 1)
     {
-        // for (int i = this->componentBrowserStackedWidget->count() - 1; i > 0; ++i)
-        // {
-        //     QWidget* widget = this->componentBrowserStackedWidget->widget(i);
-        //     this->componentBrowserStackedWidget->removeWidget(widget);
-        //     widget->deleteLater();
-        // }
+        for (int i = this->componentBrowserStackedWidget->count() - 1; i > 0; --i)
+        {
+            QWidget* widget = this->componentBrowserStackedWidget->widget(i);
+            this->componentBrowserStackedWidget->removeWidget(widget);
+            widget->deleteLater();
+        }
         this->componentBrowserStackedWidget->setCurrentIndex(0);
     }
 
@@ -235,14 +219,20 @@ void ComponentBrowserWidget::entityAddComponent(entt::entity &entityID, GameEngi
     bool isAddedComponent = true;
     switch (type)
     {
-    case GameEngine::GameEngineComponentType::TransformComponent :
+    case GameEngine::GameEngineComponentType::TransformComponent:
         actor.addComponent<GameEngine::TransformComponent>();
         break;
-    case GameEngine::GameEngineComponentType::MeshComponent :
+    case GameEngine::GameEngineComponentType::MeshComponent:
         actor.addComponent<GameEngine::MeshComponent>();
         break;
-    case GameEngine::GameEngineComponentType::CameraComponent :
+    case GameEngine::GameEngineComponentType::CameraComponent:
         actor.addComponent<GameEngine::CameraComponent>();
+        break;
+    case GameEngine::GameEngineComponentType::Rigidbody2DComponent:
+        actor.addComponent<GameEngine::Rigidbody2DComponent>();
+        break;
+    case GameEngine::GameEngineComponentType::BoxCollider2DComponent:
+        actor.addComponent<GameEngine::BoxCollider2DComponent>();
         break;
     default:
         isAddedComponent = false;
@@ -288,7 +278,17 @@ void ComponentBrowserWidget::setupUI()
     QToolButton* cameraButton = createToolButton(this, this->browserWrap, this->browserLayout, "Camera", GameEngine::GameEngineComponentType::CameraComponent);
     this->trie->insert("Camera", cameraButton);
 
-    this->setupPhysicsWidget();
+    QToolButton* physicsButton = createToolButton(this->browserWrap, this->browserLayout, "Physics2D", []()->void{});
+    this->trie->insert("physics2D", physicsButton);
+    this->setupPhysicsWidget(physicsButton);
+    connect(physicsButton, QToolButton::clicked, [this, physicsButton]() {
+        QWidget* physicsWidget = this->setupPhysicsWidget(physicsButton);
+        this->componentBrowserStackedWidget->addWidget(physicsWidget);
+        this->componentBrowserStackedWidget->setCurrentIndex(1);
+        
+        physicsWidget->adjustSize();
+        this->filterComponentBrowser();
+    });
 
     this->componentBrowserStackedWidget->addWidget(this->browserWrap);
 
@@ -309,29 +309,20 @@ void ComponentBrowserWidget::setupUI()
     });
 }
 
-QWidget *ComponentBrowserWidget::setupPhysicsWidget()
+QWidget *ComponentBrowserWidget::setupPhysicsWidget(QToolButton* physicsButton)
 {
-    QToolButton* physicsButton = createToolButton(this->browserWrap, this->browserLayout, "Physics2D", []()->void{});
-
-    this->trie->insert("physics2D", physicsButton);
-
     QWidget* physicsWidget = new QWidget(this->componentBrowserStackedWidget);
     QVBoxLayout* physicsLayout = new QVBoxLayout(physicsWidget);
     physicsLayout->setContentsMargins(0, 0, 0, 0);
     physicsLayout->setSpacing(0);
     physicsLayout->addLayout(physicsLayout);
 
-    QToolButton* rigidbodyButton = createToolButton(this, physicsWidget, physicsLayout, "Rigidbody2D", GameEngine::GameEngineComponentType::Rigidbody2DComponent);
+    QToolButton* rigidbody2DButton = createToolButton(this, physicsWidget, physicsLayout, "Rigidbody2D", GameEngine::GameEngineComponentType::Rigidbody2DComponent);
     this->trie->insert("rigidbody2D", physicsButton);
-
-    connect(physicsButton, QToolButton::clicked, [this, physicsWidget]() {
-        this->componentBrowserStackedWidget->addWidget(physicsWidget);
-        this->componentBrowserStackedWidget->setCurrentIndex(1);
-        
-        physicsWidget->adjustSize();
-        this->filterComponentBrowser();
-    });
     
+    QToolButton* BoxCollider2DNutton = createToolButton(this, physicsWidget, physicsLayout, "BoxCollider2D", GameEngine::GameEngineComponentType::BoxCollider2DComponent);
+    this->trie->insert("BoxCollider2D", physicsButton);
+
     return physicsWidget;
 }
 

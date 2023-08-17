@@ -404,6 +404,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindowStateChangeEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
@@ -1043,6 +1044,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/AdvancedComboBox.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWheelEvent \
  D:/code/cpp/gameEngine/gameEngineEditor/include/ContentBrowserPanel.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QDragEnterEvent \
  D:/QT/6.4.2/mingw_64/include/QtGui/QDropEvent \

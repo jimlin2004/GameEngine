@@ -110,6 +110,9 @@ namespace GameEngine
 
         Rigidbody2DComponent() = default;
         Rigidbody2DComponent(const Rigidbody2DComponent& other) = default;
+    
+        static BodyType stringToBodyType(const std::string& str);
+        static std::string bodyTypeToString(BodyType bodyType);
     };
 
     struct BoxCollider2DComponent

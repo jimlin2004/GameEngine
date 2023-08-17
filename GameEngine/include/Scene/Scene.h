@@ -73,6 +73,7 @@ namespace GameEngine
         }
     private:
         b2World* physicsWorld;
+        
     };
 
     //整個遊戲引擎的global pointer，勿修改

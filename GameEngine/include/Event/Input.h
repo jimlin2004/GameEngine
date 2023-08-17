@@ -10,7 +10,7 @@ namespace GameEngine
 {
     struct MousePosition
     {
-        int x, y;
+        float x, y;
         operator glm::vec2 ();
     };
     

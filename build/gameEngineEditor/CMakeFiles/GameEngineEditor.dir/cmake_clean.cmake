@@ -33,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/plugins/QCollapsibleWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/AdvancedComboBox.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/AdvancedComboBox.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/AssetFileWidget.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.obj"

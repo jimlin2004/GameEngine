@@ -1,5 +1,10 @@
 #include "Core/GELib.h"
 
+glm::vec2 GameEngine::vectorToVec2(const std::vector<float>& vec)
+{
+    return {vec[0], vec[1]};
+}
+
 glm::vec3 GameEngine::vectorToVec3(const std::vector<float> &vec)
 {
     return {vec[0], vec[1], vec[2]};

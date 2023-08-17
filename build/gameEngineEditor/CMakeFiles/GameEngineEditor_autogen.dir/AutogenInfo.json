@@ -307,6 +307,12 @@
 			null
 		],
 		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/include/AdvancedComboBox.h",
+			"MU",
+			"6YEA5652QU/moc_AdvancedComboBox.cpp",
+			null
+		],
+		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h",
 			"MU",
 			"6YEA5652QU/moc_AssetFileWidget.cpp",
@@ -598,6 +604,11 @@
 		],
 		[
 			"D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/code/cpp/gameEngine/gameEngineEditor/src/AdvancedComboBox.cpp",
 			"MU",
 			null
 		],

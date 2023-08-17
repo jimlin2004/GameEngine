@@ -630,6 +630,30 @@ plugins/flowlayout.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/plugins/flowlayout.cpp.s
 .PHONY : plugins/flowlayout.cpp.s
 
+src/AdvancedComboBox.obj: src/AdvancedComboBox.cpp.obj
+.PHONY : src/AdvancedComboBox.obj
+
+# target to build an object file
+src/AdvancedComboBox.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AdvancedComboBox.cpp.obj
+.PHONY : src/AdvancedComboBox.cpp.obj
+
+src/AdvancedComboBox.i: src/AdvancedComboBox.cpp.i
+.PHONY : src/AdvancedComboBox.i
+
+# target to preprocess a source file
+src/AdvancedComboBox.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AdvancedComboBox.cpp.i
+.PHONY : src/AdvancedComboBox.cpp.i
+
+src/AdvancedComboBox.s: src/AdvancedComboBox.cpp.s
+.PHONY : src/AdvancedComboBox.s
+
+# target to generate assembly for a file
+src/AdvancedComboBox.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/AdvancedComboBox.cpp.s
+.PHONY : src/AdvancedComboBox.cpp.s
+
 src/AssetFileWidget.obj: src/AssetFileWidget.cpp.obj
 .PHONY : src/AssetFileWidget.obj
 
@@ -1106,6 +1130,9 @@ help:
 	@echo ... plugins/flowlayout.obj
 	@echo ... plugins/flowlayout.i
 	@echo ... plugins/flowlayout.s
+	@echo ... src/AdvancedComboBox.obj
+	@echo ... src/AdvancedComboBox.i
+	@echo ... src/AdvancedComboBox.s
 	@echo ... src/AssetFileWidget.obj
 	@echo ... src/AssetFileWidget.i
 	@echo ... src/AssetFileWidget.s

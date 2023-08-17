@@ -1,6 +1,6 @@
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj: \
  D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\mocs_compilation.cpp \
- D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_AssetFileWidget.cpp \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_AdvancedComboBox.cpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -104,9 +104,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
- D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/AdvancedComboBox.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QComboBox \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qcombobox.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtguiglobal.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qglobal.h \
@@ -171,6 +171,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtGui/qtguiexports.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qwindowdefs.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qobjectdefs.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnamespace.h \
@@ -327,15 +328,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
- D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qlocale.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
@@ -347,23 +340,14 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabbar.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qrubberband.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qframe.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qabstractitemmodel.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
- D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
- D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWheelEvent \
  D:/QT/6.4.2/mingw_64/include/QtGui/qevent.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qiodevice.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qpointer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qurl.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qeventpoint.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qvector2d.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h \
@@ -382,6 +366,29 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
  D:/QT/6.4.2/mingw_64/include/QtGui/qtransform.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:\code\cpp\gameEngine\build\gameEngineEditor\GameEngineEditor_autogen\6YEA5652QU/moc_AssetFileWidget.cpp \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QMouseEvent \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
@@ -674,8 +681,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemview.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qitemselectionmodel.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
- D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/QChildEvent \
@@ -745,6 +750,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindowStateChangeEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \

@@ -474,4 +474,5 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h

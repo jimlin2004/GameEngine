@@ -3,6 +3,7 @@
 #include "Core/GELib.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "GameEngineAPI/ConsoleApi.h"
+#include "Core/Assert.h"
 
 GameEngine::SceneSerializer::SceneSerializer()
 {
@@ -33,6 +34,25 @@ void GameEngine::SceneSerializer::serializeEntity(Actor &actor, Json& jsonArray)
     {
         jsonObject["Camera"]["Primary"] = actor.getComponent<CameraComponent>().primary;
     }
+    if (actor.hasComponent<Rigidbody2DComponent>())
+    {
+        Rigidbody2DComponent& rigidbody2DComponent = actor.getComponent<Rigidbody2DComponent>();
+
+        jsonObject["Rigidbody2D"]["BodyType"] = toJson(rigidbody2DComponent.type);
+        jsonObject["Rigidbody2D"]["FixedRotation"] = rigidbody2DComponent.fixedRotation;
+    }
+    if (actor.hasComponent<BoxCollider2DComponent>())
+    {
+        BoxCollider2DComponent& boxCollider2DComponent = actor.getComponent<BoxCollider2DComponent>();
+
+        jsonObject["BoxCollider2D"]["Offset"] = toJson(boxCollider2DComponent.offset);
+        jsonObject["BoxCollider2D"]["Size"]   = toJson(boxCollider2DComponent.size);
+        jsonObject["BoxCollider2D"]["Density"]  = boxCollider2DComponent.density;
+        jsonObject["BoxCollider2D"]["Friction"] = boxCollider2DComponent.friction;
+        jsonObject["BoxCollider2D"]["Restitution"] = boxCollider2DComponent.restitution;
+        jsonObject["BoxCollider2D"]["RestitutionThreshold"] = boxCollider2DComponent.restitutionThreshold;
+    }
+
     jsonArray.push_back(jsonObject);
 }
 
@@ -96,6 +116,24 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
         {
             actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
         }
+        if (jsonActor.contains("Rigidbody2D"))
+        {
+            GameEngine::Rigidbody2DComponent rigidbody2DComponent;
+            rigidbody2DComponent.type = GameEngine::Rigidbody2DComponent::stringToBodyType(jsonActor["Rigidbody2D"]["BodyType"].get<std::string>());
+            rigidbody2DComponent.fixedRotation = jsonActor["Rigidbody2D"]["FixedRotation"].get<bool>();
+            actor->addComponent<GameEngine::Rigidbody2DComponent>(rigidbody2DComponent);
+        }
+        if (jsonActor.contains("BoxCollider2D"))
+        {
+            GameEngine::BoxCollider2DComponent boxCollider2DComponent;
+            boxCollider2DComponent.offset = GameEngine::vectorToVec2(jsonActor["BoxCollider2D"]["Offset"].get<std::vector<float>>());
+            boxCollider2DComponent.size   = GameEngine::vectorToVec2(jsonActor["BoxCollider2D"]["Size"].get<std::vector<float>>());
+            boxCollider2DComponent.density     = jsonActor["BoxCollider2D"]["Density"].get<float>();
+            boxCollider2DComponent.friction    = jsonActor["BoxCollider2D"]["Friction"].get<float>();
+            boxCollider2DComponent.restitution = jsonActor["BoxCollider2D"]["Restitution"].get<float>();
+            boxCollider2DComponent.restitutionThreshold = jsonActor["BoxCollider2D"]["RestitutionThreshold"].get<float>();
+            actor->addComponent<GameEngine::BoxCollider2DComponent>(boxCollider2DComponent);
+        }
     }
     return true;
 }
@@ -147,8 +185,34 @@ bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *sc
         {
             actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
         }
+        if (jsonActor.contains("Rigidbody2D"))
+        {
+            GameEngine::Rigidbody2DComponent rigidbody2DComponent;
+            rigidbody2DComponent.type = GameEngine::Rigidbody2DComponent::stringToBodyType(jsonActor["Rigidbody2D"]["BodyType"].get<std::string>());
+            rigidbody2DComponent.fixedRotation = jsonActor["Rigidbody2D"]["FixedRotation"].get<bool>();
+            actor->addComponent<GameEngine::Rigidbody2DComponent>(rigidbody2DComponent);
+        }
+        if (jsonActor.contains("BoxCollider2D"))
+        {
+            GameEngine::BoxCollider2DComponent boxCollider2DComponent;
+            boxCollider2DComponent.offset = GameEngine::vectorToVec2(jsonActor["BoxCollider2D"]["Offset"].get<std::vector<float>>());
+            boxCollider2DComponent.size   = GameEngine::vectorToVec2(jsonActor["BoxCollider2D"]["Size"].get<std::vector<float>>());
+            boxCollider2DComponent.density     = jsonActor["BoxCollider2D"]["Density"].get<float>();
+            boxCollider2DComponent.friction    = jsonActor["BoxCollider2D"]["Friction"].get<float>();
+            boxCollider2DComponent.restitution = jsonActor["BoxCollider2D"]["Restitution"].get<float>();
+            boxCollider2DComponent.restitutionThreshold = jsonActor["BoxCollider2D"]["RestitutionThreshold"].get<float>();
+            actor->addComponent<GameEngine::BoxCollider2DComponent>(boxCollider2DComponent);
+        }
     }
     return true;
+}
+
+GameEngine::Json GameEngine::toJson(const glm::vec2 &other)
+{
+    Json node = Json::array();
+    node.push_back(other.x);
+    node.push_back(other.y);
+    return node;
 }
 
 GameEngine::Json GameEngine::toJson(const glm::vec3 &other)
@@ -167,5 +231,11 @@ GameEngine::Json GameEngine::toJson(const glm::vec4 &other)
     node.push_back(other.g);
     node.push_back(other.b);
     node.push_back(other.a);
+    return node;
+}
+
+GameEngine::Json GameEngine::toJson(const GameEngine::Rigidbody2DComponent::BodyType bodyType)
+{
+    Json node = GameEngine::Rigidbody2DComponent::bodyTypeToString(bodyType);
     return node;
 }

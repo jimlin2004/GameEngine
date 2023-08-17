@@ -62,8 +62,6 @@ public:
 
     QSize sizeHint() const override;
     QSize minimumSizeHint() const override;
-
-    virtual void showEvent(QShowEvent* event);
 };
 
 class ComponentBrowserWidget: public QWidget
@@ -101,7 +99,7 @@ private:
     GameEngine::GameEngineComponentType selectedComponentType;
 
     void setupUI();
-    QWidget* setupPhysicsWidget();
+    QWidget* setupPhysicsWidget(QToolButton* physicsButton);
     void hideAllComponentBrowser();
     void entityAddComponent(entt::entity &entityID, GameEngine::GameEngineComponentType type);
 private slots:

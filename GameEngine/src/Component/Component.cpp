@@ -1,5 +1,7 @@
 #include "Component/Component.h"
 
+#include "Core/Assert.h"
+
 GameEngine::TransformComponent::TransformComponent(const TransformComponent &other)
     : translation(other.translation)
     , rotation(other.rotation)
@@ -77,4 +79,34 @@ GameEngine::CameraComponent::CameraComponent(const Camera &camera)
 GameEngine::IDComponent::IDComponent(const UUID &otherUUID)
     : uuid(otherUUID)
 {
+}
+
+GameEngine::Rigidbody2DComponent::BodyType GameEngine::Rigidbody2DComponent::stringToBodyType(const std::string &str)
+{
+    if (str == "Static")
+        return GameEngine::Rigidbody2DComponent::BodyType::Static;
+    if (str == "Dynamic")
+        return GameEngine::Rigidbody2DComponent::BodyType::Dynamic;
+    if (str == "Kinematic")
+        return GameEngine::Rigidbody2DComponent::BodyType::Kinematic;
+    
+    GAME_ENGINE_ASSERT(false, "Unknow rigidbody type");
+    return GameEngine::Rigidbody2DComponent::BodyType::Static;
+}
+std::string GameEngine::Rigidbody2DComponent::bodyTypeToString(BodyType bodyType)
+{
+    switch (bodyType)
+    {
+    case GameEngine::Rigidbody2DComponent::BodyType::Static:
+        return "Static";
+    case GameEngine::Rigidbody2DComponent::BodyType::Dynamic:
+        return "Dynamic";
+    case GameEngine::Rigidbody2DComponent::BodyType::Kinematic:
+        return "Kinematic";
+    default:
+        break;
+    }
+
+    GAME_ENGINE_ASSERT(false, "Unknow rigidbody type");
+    return "Static";
 }

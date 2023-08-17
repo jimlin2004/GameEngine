@@ -197,8 +197,6 @@ void MainWindow::initTitlebar()
     connect(this->ui->titlebar, &Titlebar::onHitBorderSignal, this, &MainWindow::onHitBorder);
     this->ui->treeWidget->bindMainWindowPtr(this);
     connect(this->ui->treeWidget, &OutlineTreeWidget::onHitBorderSignal, this, &MainWindow::onHitBorder);
-
-    
 }
 
 void MainWindow::initToolbar()
@@ -254,23 +252,6 @@ void MainWindow::initAddComponentToolButton()
     connect(componentBrowserButton->getPopupWidget(), &ComponentBrowserWidget::onAddedComponent, [this](){
         this->updateDetail();
     });
-}
-
-void MainWindow::initDetailConnection()
-{
-    // init detail connection
-    
-    // mesh component(texture)
-    connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
-    
-    // mesh component(color)
-    connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
-    connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-    connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
-
-    // camera component
-    connect(this->ui->checkBox_isPrimary, &QCheckBox::stateChanged, this, &MainWindow::onIsPrimaryStateChanged);
 }
 
 #ifdef Q_OS_WIN
@@ -343,12 +324,12 @@ void MainWindow::onExpandClick()
     
     if (this->isMaximized())
     {
-        this->ToNormal();
+        this->showNormal();
         this->ui->pushButton_expand->setIcon(iconExpandWindowMax);
     }
     else
     {
-        this->ToMaximize();
+        this->showMaximized();
         this->ui->pushButton_expand->setIcon(iconExpandWindowMin);
     }
 }
@@ -522,6 +503,37 @@ void MainWindow::closeEvent(QCloseEvent *event)
     QMainWindow::closeEvent(event);
 }
 
+#ifdef Q_OS_WIN
+void MainWindow::changeEvent(QEvent *event)
+{
+    if (event->type() == QEvent::WindowStateChange)
+    {
+        // GameEngine::ConsoleApi::log("hi\n");
+        //for windows Aero最大化時的異常
+        if (this->isMaximized())
+        {
+            // 
+            // this->ToMaximize();
+            RECT frame = { 0, 0, 0, 0 };
+            AdjustWindowRectEx(&frame, WS_OVERLAPPEDWINDOW, FALSE, 0);
+            frame.left = abs(frame.left);
+            frame.top = abs(frame.bottom);
+            // -1 for 奇怪的1px多餘border
+            this->setContentsMargins(frame.left - 1, frame.top - 1, frame.right - 1, frame.bottom - 1);
+            // SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) & ~(WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION));
+        }
+        else
+        {
+            this->setContentsMargins(0, 0, 0, 0);
+            // SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
+            // const MARGINS shadow = {1, 1, 1, 1};
+            // DwmExtendFrameIntoClientArea((HWND)this->winId(), &shadow);
+        }
+    }
+    QMainWindow::changeEvent(event);
+}
+#endif
+
 void MainWindow::clearOutline()
 {
     while (this->actorLevel->takeChild(0) != nullptr)
@@ -538,24 +550,6 @@ void MainWindow::resetTextureComboBox()
         qInfo() << QString::fromStdString(file.path().u8string()) <<'\n';
         this->ui->comboBox_texture->addItem(QString::fromStdString(file.path().filename().u8string()), QString::fromStdString(file.path().u8string()));
     }
-}
-
-void MainWindow::ToMaximize()
-{
-#ifdef Q_OS_WIN
-    SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) & ~(WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION));
-#endif
-    this->showMaximized();
-}
-
-void MainWindow::ToNormal()
-{
-#ifdef Q_OS_WIN
-    SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
-    const MARGINS shadow = {1, 1, 1, 1};
-    DwmExtendFrameIntoClientArea((HWND)this->winId(), &shadow);
-#endif
-    this->showNormal();
 }
 
 void MainWindow::addGameObjectToOutline(entt::entity entityID)
@@ -612,20 +606,6 @@ void MainWindow::openProject()
     this->resetGameObjectOutline();
     this->resetTextureComboBox();
     GameEngine::GEngine->setWorkingDirname(this->projectParser->getProjectDirname());
-
-    GameEngine::Actor actor0 = {(entt::entity)0};
-    actor0.addComponent<GameEngine::Rigidbody2DComponent>();
-    actor0.addComponent<GameEngine::BoxCollider2DComponent>();
-
-    GameEngine::Rigidbody2DComponent& rigidbody2DComponent0 = actor0.getComponent<GameEngine::Rigidbody2DComponent>();
-    rigidbody2DComponent0.type = GameEngine::Rigidbody2DComponent::BodyType::Dynamic;
-
-    GameEngine::Actor actor1 = {(entt::entity)1};
-    actor1.addComponent<GameEngine::Rigidbody2DComponent>();
-    actor1.addComponent<GameEngine::BoxCollider2DComponent>();
-
-    GameEngine::Rigidbody2DComponent& rigidbody2DComponent1 = actor1.getComponent<GameEngine::Rigidbody2DComponent>();
-    rigidbody2DComponent1.type = GameEngine::Rigidbody2DComponent::BodyType::Static;
 }
 
 void MainWindow::saveScene()
@@ -647,6 +627,50 @@ void MainWindow::parseOutput()
 }
 
 //以下為detail中加入對應widget的function
+
+void MainWindow::initDetailConnection()
+{
+    // init detail connection
+    
+    // mesh component(texture)
+    connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
+    
+    // mesh component(color)
+    connect(this->ui->pushButton_colorPicker, &QPushButton::clicked, this, &MainWindow::openColorDialog);
+    connect(this->ui->lineEditFloat_R_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_G_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+    connect(this->ui->lineEditFloat_B_color, &LineEditFloat::editingFinished, this, &MainWindow::updateColorViewer);
+
+    // camera component
+    connect(this->ui->checkBox_isPrimary, &QCheckBox::stateChanged, this, &MainWindow::onIsPrimaryStateChanged);
+
+    //rigidbody component
+    connect(this->ui->checkBox_fixedRotation, &QCheckBox::stateChanged, [this](){
+        entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+        if (entityID == entt::null)
+            return;
+        GameEngine::Rigidbody2DComponent& rigidbody2DComponent = GameEngine::globalScene->queryActorComponent<GameEngine::Rigidbody2DComponent>(entityID);
+        rigidbody2DComponent.fixedRotation = this->ui->checkBox_fixedRotation->isChecked();
+    });
+    connect(this->ui->comboBox_bodyType, &QComboBox::currentIndexChanged, [this](){
+        entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+        if (entityID == entt::null)
+            return;
+        GameEngine::Rigidbody2DComponent& rigidbody2DComponent = GameEngine::globalScene->queryActorComponent<GameEngine::Rigidbody2DComponent>(entityID);
+        
+        GameEngine::Rigidbody2DComponent::BodyType bodyType;
+        std::string comboBaxCurrentType = this->ui->comboBox_bodyType->currentText().toStdString();
+        
+        if (comboBaxCurrentType == "Static")
+            bodyType = GameEngine::Rigidbody2DComponent::BodyType::Static;
+        else if (comboBaxCurrentType == "Dynamic")
+            bodyType = GameEngine::Rigidbody2DComponent::BodyType::Dynamic;
+        else
+            bodyType = GameEngine::Rigidbody2DComponent::BodyType::Kinematic;
+
+        rigidbody2DComponent.type = bodyType;
+    });
+}
 
 template<>
 void MainWindow::pushComponentProperty<GameEngine::TransformComponent>(const entt::entity& entityID)
@@ -693,12 +717,35 @@ void MainWindow::pushComponentProperty<GameEngine::MeshComponent>(const entt::en
 template<>
 void MainWindow::pushComponentProperty<GameEngine::CameraComponent>(const entt::entity& entityID)
 {
+    GameEngine::CameraComponent& cameraComponent = GameEngine::globalScene->queryActorComponent<GameEngine::CameraComponent>(entityID);
+
+    this->ui->checkBox_isPrimary->setCheckState((cameraComponent.primary) ? Qt::CheckState::Checked : Qt::CheckState::Unchecked);
+
     this->ui->qCollapsibleWidget_camera->show();
 }
 
 template<>
 void MainWindow::pushComponentProperty<GameEngine::Rigidbody2DComponent>(const entt::entity& entityID)
 {
+    GameEngine::Rigidbody2DComponent& rigidbody2DComponent = GameEngine::globalScene->queryActorComponent<GameEngine::Rigidbody2DComponent>(entityID);
+
+    this->ui->checkBox_fixedRotation->setCheckState((rigidbody2DComponent.fixedRotation) ? (Qt::CheckState::Checked) : (Qt::CheckState::Unchecked));
+
+    switch (rigidbody2DComponent.type)
+    {
+    case GameEngine::Rigidbody2DComponent::BodyType::Static:
+        this->ui->comboBox_bodyType->setCurrentText("Static");
+        break;
+    case GameEngine::Rigidbody2DComponent::BodyType::Dynamic:
+        this->ui->comboBox_bodyType->setCurrentText("Dynamic");
+        break;
+    case GameEngine::Rigidbody2DComponent::BodyType::Kinematic:
+        this->ui->comboBox_bodyType->setCurrentText("Kinematic");
+        break;
+    default:
+        break;
+    }
+
     this->ui->qCollapsibleWidget_rigidbody2D->show();
 }
 

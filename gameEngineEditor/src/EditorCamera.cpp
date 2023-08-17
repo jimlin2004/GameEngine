@@ -2,7 +2,7 @@
 
 GameEngineEditor::EditorCamera::EditorCamera(float _aspectRatio)
     : GameEngine::Camera()
-    , zoomLevel(10.0f)
+    , zoomLevel(8.0f)
     , aspectRatio(_aspectRatio)
     , viewMatrix(glm::mat4(1.0f))
     , transformComponent()

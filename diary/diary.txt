@@ -442,3 +442,14 @@
         -zoom功能的研究
         -physics 功能是否表現正常需要檢查(旋轉會有無限旋轉的現象，而unity沒有)
     存檔紀錄 --version 1.0-dev
+2023/08/17
+    1. 經過測試，固定x軸無限旋轉的現象是因為沒有加上摩擦力
+    2. editor detail面板中 textureComponent的comboBox改成使用AdvancedComboBox，
+       以停用滑鼠滾輪事件已以防止使用者滾輪滾動太快而導致程式崩潰
+       (可能是texture有預覽的功能，變更太快導致崩潰) 
+    3. 棄用2023/08/07的void ToMaximize()、void ToNormal()，改以windowStateChange event檢測最大化及normal
+       ，取消SetWindowLongPtr 中 &~ 來刪除加入的flag的作法，改成最大化時Qt setContentsMargins來增加MainWindow
+       的margin以此防止MainWindow超出螢幕範圍
+    Todo list
+        -最大化時titlebar的最上層不應有resize功能
+    存檔紀錄 --version 1.0-dev

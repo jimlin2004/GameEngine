@@ -404,6 +404,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
  D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindowStateChangeEvent \
  D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
  D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
  D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \

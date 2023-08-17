@@ -18,6 +18,7 @@
 namespace GameEngine
 {
     //以下用於轉換型別
+    glm::vec2 vectorToVec2(const std::vector<float>& vec);
     glm::vec3 vectorToVec3(const std::vector<float>& vec);
     glm::vec4 vectorToVec4(const std::vector<float>& vec);
 

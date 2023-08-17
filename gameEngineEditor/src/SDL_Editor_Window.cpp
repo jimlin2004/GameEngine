@@ -273,7 +273,11 @@ void SDL_Editor_Window::gameEventHandle()
             }
             case SDL_DROPFILE:
             {
-                this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY())});
+                glm::vec3 windowCoord = {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY()), 0};
+                //將screen coordinates 轉換成 world coordinates
+                glm::vec3 worldCoord  = glm::unProject(windowCoord, glm::mat4(1.0f), editorCamera.getProjectionMatrix(), (glm::vec4){0, 0, io.DisplaySize.x, io.DisplaySize.y});
+                this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {worldCoord.x, worldCoord.y});
+                // this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY())});
                 break;
             }
             case SDL_MOUSEWHEEL:

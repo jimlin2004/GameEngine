@@ -31,6 +31,7 @@
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
+#include "AdvancedComboBox.h"
 #include "ContentBrowserPanel.h"
 #include "LineEditFloat.h"
 #include "LineEditRotation.h"
@@ -108,7 +109,7 @@ public:
     QWidget *contentWidget_texture;
     QHBoxLayout *horizontalLayout;
     QLabel *label_textureViewer;
-    QComboBox *comboBox_texture;
+    AdvancedComboBox *comboBox_texture;
     QSpacerItem *horizontalSpacer_2;
     QCollapsibleWidget *qCollapsibleWidget_camera;
     QWidget *contentWidget_camera;
@@ -245,7 +246,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -471, 418, 856));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -273, 418, 856));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -512,7 +513,7 @@ public:
 
         horizontalLayout->addWidget(label_textureViewer);
 
-        comboBox_texture = new QComboBox(contentWidget_texture);
+        comboBox_texture = new AdvancedComboBox(contentWidget_texture);
         comboBox_texture->setObjectName("comboBox_texture");
 
         horizontalLayout->addWidget(comboBox_texture);

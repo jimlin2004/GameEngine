@@ -25,8 +25,10 @@ namespace GameEngine
         bool deserialize(const std::string& path, Scene* scenePtr);
     };
 
+    Json toJson(const glm::vec2& other);
     Json toJson(const glm::vec3& other);
     Json toJson(const glm::vec4& other);
+    Json toJson(const GameEngine::Rigidbody2DComponent::BodyType bodyType);
 }
 
 #endif

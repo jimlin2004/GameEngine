@@ -590,6 +590,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
   D:/QT/6.4.2/mingw_64/include/QtGui/QTransform \
   D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
+  D:/QT/6.4.2/mingw_64/include/QtGui/QWindowStateChangeEvent \
   D:/QT/6.4.2/mingw_64/include/QtGui/qaction.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbitmap.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/qbrush.h \

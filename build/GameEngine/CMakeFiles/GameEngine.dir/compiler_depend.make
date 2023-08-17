@@ -921,7 +921,8 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj: D:/code/cp
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h
+  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/Core/Camera.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Core/Camera.cpp \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
@@ -8116,7 +8117,8 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj: D:/code/
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
   C:/Program\ Files/msys64/mingw64/include/stdarg.h \
-  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/physics/boundingBox/AABB.cpp \
   D:/code/cpp/gameEngine/GameEngine/include/physics/boundingBox/AABB.h \
@@ -8733,13 +8735,13 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h:
 
-D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h:
-
 C:/Program\ Files/msys64/mingw64/include/winnls.h:
 
 C:/Program\ Files/msys64/mingw64/include/threadpoollegacyapiset.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h:
 
 C:/Program\ Files/msys64/mingw64/include/minwindef.h:
 
@@ -9084,10 +9086,6 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx51
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x4.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ios:
-
-C:/Program\ Files/msys64/mingw64/include/windef.h:
-
-C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h:
 
@@ -9626,6 +9624,10 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86in
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/clwbintrin.h:
+
+C:/Program\ Files/msys64/mingw64/include/windef.h:
+
+C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rdseedintrin.h:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/serializeintrin.h:
 

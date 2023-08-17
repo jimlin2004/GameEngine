@@ -132,7 +132,7 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-471</y>
+             <y>-273</y>
              <width>418</width>
              <height>856</height>
             </rect>
@@ -465,7 +465,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_texture"/>
+                 <widget class="AdvancedComboBox" name="comboBox_texture"/>
                 </item>
                 <item>
                  <spacer name="horizontalSpacer_2">
@@ -1202,6 +1202,11 @@
    <extends>QDockWidget</extends>
    <header>Titlebar.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AdvancedComboBox</class>
+   <extends>QComboBox</extends>
+   <header>AdvancedComboBox.h</header>
   </customwidget>
  </customwidgets>
  <resources>

@@ -24,7 +24,7 @@ GameEngine::MousePosition GameEngine::Input::getMousePosition()
 {
     int x, y;
     SDL_GetMouseState(&x, &y);
-    return MousePosition{x, y};
+    return (MousePosition){(float)x, (float)y};
 }
 
 void GameEngine::Input::getMousePosition(int *x, int *y)

@@ -924,6 +924,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj
  C:/Program Files/msys64/mingw64/include/GL/gl.h
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/Core/Camera.cpp.obj
  D:/code/cpp/gameEngine/GameEngine/src/Core/Camera.cpp
@@ -8147,6 +8148,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj
  C:/Program Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h
  C:/Program Files/msys64/mingw64/include/stdarg.h
  C:/Program Files/msys64/mingw64/include/_mingw_stdarg.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj
  D:/code/cpp/gameEngine/GameEngine/src/physics/boundingBox/AABB.cpp

@@ -172,7 +172,8 @@ void GameEngine::Scene::onRuntimeStart()
             GameEngine::BoxCollider2DComponent& boxCollider2DComponent = actor.getComponent<GameEngine::BoxCollider2DComponent>();
 
             b2PolygonShape boxShape;
-            boxShape.SetAsBox(boxCollider2DComponent.size.x * transformComponent.scale.x, boxCollider2DComponent.size.y * transformComponent.scale.y);
+            boxShape.SetAsBox(boxCollider2DComponent.size.x * transformComponent.scale.x, boxCollider2DComponent.size.y * transformComponent.scale.y
+            , b2Vec2(boxCollider2DComponent.offset.x, boxCollider2DComponent.offset.y), 0.0f);
 
             b2FixtureDef fixtureDef;
             fixtureDef.shape = &boxShape;

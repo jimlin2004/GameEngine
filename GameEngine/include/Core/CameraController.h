@@ -24,6 +24,8 @@ namespace GameEngine
         void setViewTarget(Camera* camera, TransformComponent* transformComponent);
         void setViewTarget(CameraComponent* cameraComponent, TransformComponent* transformComponent);
         glm::mat4 getViewProjection() const;
+        inline const glm::mat4& getViewMatrix() const { return this->viewMatrix; }
+        inline const glm::mat4& getProjetcMatrix() const { return this->cameraPtr->getProjection(); }
         inline glm::mat4 getTransform() const
         {
             return this->transformComponentPtr->getTransform();

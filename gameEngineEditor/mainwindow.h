@@ -11,6 +11,7 @@
 #include <QMessageBox>
 #include <QColorDialog>
 #include <QCloseEvent>
+#include <QWindowStateChangeEvent>
 #include <QTimer>
 #include <QMenuBar>
 #include <QToolBar>
@@ -73,9 +74,6 @@ private:
     void addGameObjectToOutline(entt::entity entityID);
     void resetTextureComboBox();
 
-    void ToMaximize();
-    void ToNormal();
-
     template<class Component>
     void pushComponentProperty(const entt::entity& entityID = entt::null)
     {
@@ -87,7 +85,10 @@ private:
 
 protected:
     bool event(QEvent* event) override;
-    void closeEvent (QCloseEvent* event);
+    void closeEvent (QCloseEvent* event) override;
+#ifdef Q_OS_WIN
+    void changeEvent(QEvent* event) override;
+#endif
 #ifdef Q_OS_WIN
     bool nativeEvent(const QByteArray& eventType, void* message, qintptr* result) override;
 #endif
