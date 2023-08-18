@@ -341,6 +341,10 @@ void MainWindow::onMinimizeClick()
 
 void MainWindow::onHitBorder(QPoint pos)
 {
+    //最大化時不應有resize功能
+    if (this->isMaximized())
+        return;
+
     Qt::Edges edges;
     if (pos.x() > this->width() - border)
         edges |= Qt::RightEdge;
@@ -508,26 +512,19 @@ void MainWindow::changeEvent(QEvent *event)
 {
     if (event->type() == QEvent::WindowStateChange)
     {
-        // GameEngine::ConsoleApi::log("hi\n");
         //for windows Aero最大化時的異常
         if (this->isMaximized())
         {
-            // 
-            // this->ToMaximize();
             RECT frame = { 0, 0, 0, 0 };
             AdjustWindowRectEx(&frame, WS_OVERLAPPEDWINDOW, FALSE, 0);
             frame.left = abs(frame.left);
             frame.top = abs(frame.bottom);
             // -1 for 奇怪的1px多餘border
             this->setContentsMargins(frame.left - 1, frame.top - 1, frame.right - 1, frame.bottom - 1);
-            // SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) & ~(WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION));
         }
         else
         {
             this->setContentsMargins(0, 0, 0, 0);
-            // SetWindowLongPtr((HWND)this->winId(), GWL_STYLE, GetWindowLongPtr((HWND)this->winId(), GWL_STYLE) | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_CAPTION);
-            // const MARGINS shadow = {1, 1, 1, 1};
-            // DwmExtendFrameIntoClientArea((HWND)this->winId(), &shadow);
         }
     }
     QMainWindow::changeEvent(event);
@@ -821,9 +818,6 @@ void MainWindow::hideAllDetail()
         childWidget = layout->itemAt(i)->widget();
         childWidget->hide();
     }
-
-    // this->ui->qCollapsibleWidget_rigidbody2D->show();
-    // this->ui->qCollapsibleWidget_boxCollider2D->show();
 }
 
 void MainWindow::updateDetail()
@@ -845,5 +839,3 @@ void MainWindow::updateDetail()
     if (actor.hasComponent<GameEngine::BoxCollider2DComponent>())
         this->pushComponentProperty<GameEngine::BoxCollider2DComponent>(entityID);
 }
-
-

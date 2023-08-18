@@ -1,9 +1,10 @@
 #ifndef TEST_ACTOR_H
 #define TEST_ACTOR_H
 
+#include "Script/ScriptEngineMacro.h"
 #include "Core/GameEngineCore.h"
 
-class TestActor: public GameEngine::Character
+class GENGINE_API TestActor: public GameEngine::Character
 {
 public:
     TestActor();

@@ -59,6 +59,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj.d"
+  "CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj"
+  "CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj"
   "CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj.d"
   "CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj"

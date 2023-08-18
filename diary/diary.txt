@@ -453,3 +453,9 @@
     Todo list
         -最大化時titlebar的最上層不應有resize功能
     存檔紀錄 --version 1.0-dev
+2023/08/18
+    1. 修復最大化時仍可以resize的問題
+    2. 研究Script hot compile 及可能的實現方法
+    Todo list
+        -找出好的script engine api實現方式
+    存檔紀錄 --version 1.0-dev

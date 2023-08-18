@@ -51,7 +51,6 @@ bool SDL_Editor_Window::initSDL()
         this->screenWidth,
         this->screenHeight,
         SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN);
-        // SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN);
     if (!this->window)
     {
         GameEngine::ConsoleApi::log("[Error] Create Window Error: %s\n", SDL_GetError());
@@ -275,9 +274,8 @@ void SDL_Editor_Window::gameEventHandle()
             {
                 glm::vec3 windowCoord = {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY()), 0};
                 //將screen coordinates 轉換成 world coordinates
-                glm::vec3 worldCoord  = glm::unProject(windowCoord, glm::mat4(1.0f), editorCamera.getProjectionMatrix(), (glm::vec4){0, 0, io.DisplaySize.x, io.DisplaySize.y});
+                glm::vec3 worldCoord  = glm::unProject(windowCoord, glm::mat4(1.0f), editorCamera.getProjectionMatrix(), (glm::vec4){0.0f, 0.0f, (float)io.DisplaySize.x, (float)io.DisplaySize.y});
                 this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {worldCoord.x, worldCoord.y});
-                // this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY())});
                 break;
             }
             case SDL_MOUSEWHEEL:
