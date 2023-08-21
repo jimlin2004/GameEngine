@@ -1,8 +1,8 @@
 #ifndef GE_ACTOR_H
 #define GE_ACTOR_H
 
+#include "glm/glm.hpp"
 #include "Core/GameObject.h"
-#include "Core/Timestep.h"
 #include "entt.hpp"
 #include "Scene/Scene.h"
 #include "Core/UUID.h"
@@ -22,6 +22,7 @@ namespace GameEngine
         Actor(Actor& other);
         Actor(entt::entity entityID);
         Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& typeName);
+        virtual ~Actor();
 
         static void bindScene(GameEngine::Scene* newScene);
 
@@ -32,12 +33,6 @@ namespace GameEngine
         // User should not use
         void initIDComponent(const UUID& uuid);
 
-        virtual ~Actor();
-        virtual void HandleEvent();
-        //渲染
-        virtual void render();
-        //設定角色在世界的位置
-        virtual void setPosition(float x, float y);
         virtual void begin();
         virtual void update(const float deltaTime);
         virtual void destroy();

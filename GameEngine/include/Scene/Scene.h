@@ -5,12 +5,10 @@
 
 #include "Core/UUID.h"
 #include "entt.hpp"
-#include "Core/Timestep.h"
 #include <vector>
 #include <exception>
 #include "Core/GELib.h"
 #include "Core/TypeName.hpp"
-#include <iostream>
 
 class b2World;
 
@@ -73,7 +71,6 @@ namespace GameEngine
         }
     private:
         b2World* physicsWorld;
-        
     };
 
     //整個遊戲引擎的global pointer，勿修改

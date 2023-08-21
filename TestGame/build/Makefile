@@ -128,6 +128,19 @@ TestGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/build
 .PHONY : TestGame/fast
 
+#=============================================================================
+# Target rules for targets named TestGameLib
+
+# Build rule for target.
+TestGameLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestGameLib
+.PHONY : TestGameLib
+
+# fast build rule for target.
+TestGameLib/fast:
+	$(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/build
+.PHONY : TestGameLib/fast
+
 source/TestGame/TestActor.obj: source/TestGame/TestActor.cpp.obj
 .PHONY : source/TestGame/TestActor.obj
 
@@ -151,30 +164,6 @@ source/TestGame/TestActor.s: source/TestGame/TestActor.cpp.s
 source/TestGame/TestActor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.s
 .PHONY : source/TestGame/TestActor.cpp.s
-
-source/TestGame/TestGame.obj: source/TestGame/TestGame.cpp.obj
-.PHONY : source/TestGame/TestGame.obj
-
-# target to build an object file
-source/TestGame/TestGame.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj
-.PHONY : source/TestGame/TestGame.cpp.obj
-
-source/TestGame/TestGame.i: source/TestGame/TestGame.cpp.i
-.PHONY : source/TestGame/TestGame.i
-
-# target to preprocess a source file
-source/TestGame/TestGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.i
-.PHONY : source/TestGame/TestGame.cpp.i
-
-source/TestGame/TestGame.s: source/TestGame/TestGame.cpp.s
-.PHONY : source/TestGame/TestGame.s
-
-# target to generate assembly for a file
-source/TestGame/TestGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.s
-.PHONY : source/TestGame/TestGame.cpp.s
 
 source/entrypoint.obj: source/entrypoint.cpp.obj
 .PHONY : source/entrypoint.obj
@@ -209,12 +198,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TestGame
+	@echo ... TestGameLib
 	@echo ... source/TestGame/TestActor.obj
 	@echo ... source/TestGame/TestActor.i
 	@echo ... source/TestGame/TestActor.s
-	@echo ... source/TestGame/TestGame.obj
-	@echo ... source/TestGame/TestGame.i
-	@echo ... source/TestGame/TestGame.s
 	@echo ... source/entrypoint.obj
 	@echo ... source/entrypoint.i
 	@echo ... source/entrypoint.s

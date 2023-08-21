@@ -2,6 +2,7 @@
 
 #include "glm/glm.hpp"
 
+REGISTER_CLASS(TestActor)
 TestActor::TestActor()
     : GameEngine::Character()
 {

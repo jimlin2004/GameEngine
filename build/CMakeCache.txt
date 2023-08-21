@@ -393,6 +393,15 @@ Qt6ZlibPrivate_DIR:PATH=D:/QT/6.4.2/mingw_64/lib/cmake/Qt6ZlibPrivate
 Qt6_DIR:PATH=D:/QT/6.4.2/mingw_64/lib/cmake/Qt6
 
 //Value Computed by CMake
+TestGameLib_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/TestGame/resource
+
+//Value Computed by CMake
+TestGameLib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+TestGameLib_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/TestGame/resource
+
+//Value Computed by CMake
 TestGame_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/TestGame
 
 //Value Computed by CMake
@@ -557,7 +566,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

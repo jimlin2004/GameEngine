@@ -2,14 +2,14 @@
 #define RENDERER_H
 
 #include <array>
-#include "GL/glew.h"
+// #include "GL/glew.h"
 #include "glm/glm.hpp"
-#include "Opengl/VertexArray.h"
-#include "Opengl/IndexBuffer.h"
-#include "Opengl/Shader.h"
-#include "Opengl/Texture.h"
-#include "Opengl/SubTexture.h"
-#include "Opengl/FrameBuffer.h"
+// #include "Opengl/VertexArray.h"
+// #include "Opengl/IndexBuffer.h"
+// #include "Opengl/Shader.h"
+// #include "Opengl/Texture.h"
+// #include "Opengl/SubTexture.h"
+// #include "Opengl/FrameBuffer.h"
 #include "Component/Component.h"
 #include "Core/Camera.h"
 #include "GameEngineAPI/GameEngineAPI.h"
@@ -21,6 +21,9 @@ namespace GameEngine
         作用: 渲染
         note: 純static，無記憶變數(變數以static記憶在外部)
     */
+   class Texture;
+   class SubTexture;
+
     class Renderer
     {
     public:

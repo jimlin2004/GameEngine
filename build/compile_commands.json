@@ -338,20 +338,5 @@
   "directory": "D:/code/cpp/gameEngine/build/gameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\GameEngineEditor_autogen\\EWIEGA46WW\\qrc_mainwindow.cpp.obj -c D:\\code\\cpp\\gameEngine\\build\\gameEngineEditor\\GameEngineEditor_autogen\\EWIEGA46WW\\qrc_mainwindow.cpp",
   "file": "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/TestGame",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\entrypoint.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\entrypoint.cpp",
-  "file": "D:/code/cpp/gameEngine/TestGame/source/entrypoint.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/TestGame",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\TestGame\\TestActor.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\TestGame\\TestActor.cpp",
-  "file": "D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/TestGame",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\TestGame\\TestGame.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\TestGame\\TestGame.cpp",
-  "file": "D:/code/cpp/gameEngine/TestGame/source/TestGame/TestGame.cpp"
 }
 ]

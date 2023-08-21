@@ -1,5 +1,7 @@
 #include "Opengl/ShaderManager.h"
 
+#include "GL/glew.h"
+
 GameEngine::ShaderManager::ShaderManager()
 {
 

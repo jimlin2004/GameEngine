@@ -4,18 +4,23 @@
 #include "Actor/Actor.h"
 #include "Core/Platform.h"
 #include <unordered_map>
-#ifdef USE_WINDOWS
+#include "Script/ClassMap.h"
+#if USE_WINDOWS
     #include <windows.h>
 #endif
+
+#if USE_WINDOWS
 
 struct ScriptEngineData
 {
     HMODULE dllModule = NULL;
 
-    // std::unordered_map<std::string, 
+    GameEngine::ClassMapType* classMapPtr = nullptr;
 };
 
 static ScriptEngineData scriptEngineData;
+
+typedef GameEngine::ClassMapType* (WINAPI* getClassMapFuncPtr)();
 
 void GameEngine::ScriptEngine::init(const std::string &dllPath)
 {
@@ -25,9 +30,13 @@ void GameEngine::ScriptEngine::init(const std::string &dllPath)
         GameEngine::ConsoleApi::log("[Error] load %s fail\n.", dllPath.c_str());
         return;
     }
+
+
 }
 
 GameEngine::Actor* GameEngine::ScriptEngine::createActor(const std::string &actorType)
 {
     return nullptr;
 }
+
+#endif

@@ -1,5 +1,13 @@
 #include "Render/Renderer.h"
 
+#include "GL/glew.h"
+#include "Opengl/VertexArray.h"
+#include "Opengl/IndexBuffer.h"
+#include "Opengl/Shader.h"
+#include "Opengl/Texture.h"
+#include "Opengl/SubTexture.h"
+#include "Opengl/FrameBuffer.h"
+
 struct QuadVertex
 {
     glm::vec3 position;

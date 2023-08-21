@@ -2,7 +2,10 @@
 #define TEST_ACTOR_H
 
 #include "Script/ScriptEngineMacro.h"
-#include "Core/GameEngineCore.h"
+#include "Script/ClassMap.h"
+#include "Actor/Actor.h"
+#include "Event/Input.h"
+#include "Component/Component.h"
 
 class GENGINE_API TestActor: public GameEngine::Character
 {
@@ -12,5 +15,7 @@ public:
     virtual void begin() override;
     virtual void update(const float deltaTime) override;
 };
+
+void test();
 
 #endif

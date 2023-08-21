@@ -5,7 +5,7 @@
 #include "Opengl/ShaderManager.h"
 #include "Opengl/TextureManager.h"
 #include "Core/CameraController.h"
-#include "Scene/Scene.h"
+// #include "Scene/Scene.h"
 #include <functional>
 
 namespace GameEngine

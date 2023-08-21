@@ -1,0 +1,37 @@
+[
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\entrypoint.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\entrypoint.cpp",
+  "file": "D:/code/cpp/gameEngine/TestGame/source/entrypoint.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/TestGame.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGame.dir\\source\\TestGame\\TestActor.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\TestGame\\TestActor.cpp",
+  "file": "D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build/resource",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DTestGameLib_EXPORTS @CMakeFiles/TestGameLib.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGameLib.dir\\D_\\code\\cpp\\gameEngine\\GameEngine\\src\\Actor\\Actor.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Actor\\Actor.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build/resource",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DTestGameLib_EXPORTS @CMakeFiles/TestGameLib.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGameLib.dir\\D_\\code\\cpp\\gameEngine\\GameEngine\\src\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Component\\Component.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build/resource",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DTestGameLib_EXPORTS @CMakeFiles/TestGameLib.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGameLib.dir\\D_\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\Input.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build/resource",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DTestGameLib_EXPORTS @CMakeFiles/TestGameLib.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGameLib.dir\\D_\\code\\cpp\\gameEngine\\GameEngine\\src\\Scene\\Scene.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Scene\\Scene.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/TestGame/build/resource",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DTestGameLib_EXPORTS @CMakeFiles/TestGameLib.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TestGameLib.dir\\__\\source\\TestGame\\TestActor.cpp.obj -c D:\\code\\cpp\\gameEngine\\TestGame\\source\\TestGame\\TestActor.cpp",
+  "file": "D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.cpp"
+}
+]

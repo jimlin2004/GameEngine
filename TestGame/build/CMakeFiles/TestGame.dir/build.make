@@ -73,58 +73,41 @@ CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: CMakeFiles/TestGame.dir/inclu
 CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/entrypoint.cpp
 CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj: CMakeFiles/TestGame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj -MF CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj.d -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\entrypoint.cpp
+	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj -MF CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj.d -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\entrypoint.cpp
 
 CMakeFiles/TestGame.dir/source/entrypoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGame.dir/source/entrypoint.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\TestGame\source\entrypoint.cpp > CMakeFiles\TestGame.dir\source\entrypoint.cpp.i
+	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\TestGame\source\entrypoint.cpp > CMakeFiles\TestGame.dir\source\entrypoint.cpp.i
 
 CMakeFiles/TestGame.dir/source/entrypoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/source/entrypoint.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\TestGame\source\entrypoint.cpp -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.s
+	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\TestGame\source\entrypoint.cpp -o CMakeFiles\TestGame.dir\source\entrypoint.cpp.s
 
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: CMakeFiles/TestGame.dir/flags.make
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: CMakeFiles/TestGame.dir/includes_CXX.rsp
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.cpp
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: CMakeFiles/TestGame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj -MF CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.obj.d -o CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp
+	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj -MF CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.obj.d -o CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp
 
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp > CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.i
+	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp > CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.i
 
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp -o CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.s
-
-CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: CMakeFiles/TestGame.dir/flags.make
-CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: CMakeFiles/TestGame.dir/includes_CXX.rsp
-CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/TestGame/TestGame.cpp
-CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj: CMakeFiles/TestGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj -MF CMakeFiles\TestGame.dir\source\TestGame\TestGame.cpp.obj.d -o CMakeFiles\TestGame.dir\source\TestGame\TestGame.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\TestGame\TestGame.cpp
-
-CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.i"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\TestGame\source\TestGame\TestGame.cpp > CMakeFiles\TestGame.dir\source\TestGame\TestGame.cpp.i
-
-CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.s"
-	C:\PROGRA~1\msys64\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\TestGame\source\TestGame\TestGame.cpp -o CMakeFiles\TestGame.dir\source\TestGame\TestGame.cpp.s
+	C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp -o CMakeFiles\TestGame.dir\source\TestGame\TestActor.cpp.s
 
 # Object files for target TestGame
 TestGame_OBJECTS = \
 "CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj" \
-"CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj" \
-"CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj"
+"CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj"
 
 # External object files for target TestGame
 TestGame_EXTERNAL_OBJECTS =
 
 TestGame.exe: CMakeFiles/TestGame.dir/source/entrypoint.cpp.obj
 TestGame.exe: CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj
-TestGame.exe: CMakeFiles/TestGame.dir/source/TestGame/TestGame.cpp.obj
 TestGame.exe: CMakeFiles/TestGame.dir/build.make
 TestGame.exe: D:/code/cpp/gameEngine/GameEngine/lib/libGameEngine.a
 TestGame.exe: D:/code/cpp/gameEngine/GameEngine/lib/libbox2d.a
@@ -135,7 +118,7 @@ TestGame.exe: D:/code/cpp/gameEngine/GameEngine/lib/libglew32.dll.a
 TestGame.exe: CMakeFiles/TestGame.dir/linkLibs.rsp
 TestGame.exe: CMakeFiles/TestGame.dir/objects1
 TestGame.exe: CMakeFiles/TestGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TestGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TestGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

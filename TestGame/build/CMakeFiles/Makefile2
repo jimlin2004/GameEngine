@@ -63,15 +63,32 @@ CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\TestGame\build
 
 # The main recursive "all" target.
 all: CMakeFiles/TestGame.dir/all
+all: resource/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: resource/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/TestGame.dir/clean
+clean: resource/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory resource
+
+# Recursive "all" directory target.
+resource/all: resource/CMakeFiles/TestGameLib.dir/all
+.PHONY : resource/all
+
+# Recursive "preinstall" directory target.
+resource/preinstall:
+.PHONY : resource/preinstall
+
+# Recursive "clean" directory target.
+resource/clean: resource/CMakeFiles/TestGameLib.dir/clean
+.PHONY : resource/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/TestGame.dir
@@ -80,12 +97,12 @@ clean: CMakeFiles/TestGame.dir/clean
 CMakeFiles/TestGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=1,2,3,4 "Built target TestGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=1,2,3 "Built target TestGame"
 .PHONY : CMakeFiles/TestGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\TestGame\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\TestGame\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TestGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\TestGame\build\CMakeFiles 0
 .PHONY : CMakeFiles/TestGame.dir/rule
@@ -98,6 +115,32 @@ TestGame: CMakeFiles/TestGame.dir/rule
 CMakeFiles/TestGame.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/clean
 .PHONY : CMakeFiles/TestGame.dir/clean
+
+#=============================================================================
+# Target rules for target resource/CMakeFiles/TestGameLib.dir
+
+# All Build rule for target.
+resource/CMakeFiles/TestGameLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=4,5,6,7,8,9 "Built target TestGameLib"
+.PHONY : resource/CMakeFiles/TestGameLib.dir/all
+
+# Build rule for subdir invocation for target.
+resource/CMakeFiles/TestGameLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\TestGame\build\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 resource/CMakeFiles/TestGameLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\TestGame\build\CMakeFiles 0
+.PHONY : resource/CMakeFiles/TestGameLib.dir/rule
+
+# Convenience name for target.
+TestGameLib: resource/CMakeFiles/TestGameLib.dir/rule
+.PHONY : TestGameLib
+
+# clean rule for target.
+resource/CMakeFiles/TestGameLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/clean
+.PHONY : resource/CMakeFiles/TestGameLib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

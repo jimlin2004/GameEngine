@@ -248,10 +248,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
@@ -378,7 +374,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Timestep.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
@@ -427,6 +422,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
@@ -466,16 +462,11 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexArray.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexBuffer.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexBufferLayout.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/IndexBuffer.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/Shader.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h
+ D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h

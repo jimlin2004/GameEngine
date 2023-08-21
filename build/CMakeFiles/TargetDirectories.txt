@@ -26,12 +26,3 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/install.dir
 D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/install/local.dir
 D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/install/strip.dir
 D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/TestGame.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/package.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/package_source.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/edit_cache.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/rebuild_cache.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/list_install_components.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/install.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/install/local.dir
-D:/code/cpp/gameEngine/build/TestGame/CMakeFiles/install/strip.dir

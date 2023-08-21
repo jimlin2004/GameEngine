@@ -1,3 +1,0 @@
-D:/code/cpp/gameEngine/Test/CMakeFiles/TestGame.dir
-D:/code/cpp/gameEngine/Test/CMakeFiles/ALL_BUILD.dir
-D:/code/cpp/gameEngine/Test/CMakeFiles/ZERO_CHECK.dir

@@ -51,18 +51,6 @@ GameEngine::Actor::~Actor()
     this->destroy();
 }
 
-void GameEngine::Actor::HandleEvent()
-{
-}
-
-void GameEngine::Actor::render()
-{
-}
-
-void GameEngine::Actor::setPosition(float x, float y)
-{
-}
-
 void GameEngine::Actor::begin()
 {
 }
@@ -99,6 +87,7 @@ void GameEngine::Character::setEntityID(entt::entity entityID)
     GameEngine::ScriptComponent& scriptComponent = this->addComponent<GameEngine::ScriptComponent>();
     scriptComponent.instance = this;
 }
+
 namespace GameEngine
 {
     Scene* Actor::scene = globalScene;

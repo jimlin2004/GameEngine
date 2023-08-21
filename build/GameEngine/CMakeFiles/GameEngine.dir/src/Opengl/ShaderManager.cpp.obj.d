@@ -1,21 +1,6 @@
 GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/ShaderManager.cpp.obj: \
  D:\code\cpp\gameEngine\GameEngine\src\Opengl\ShaderManager.cpp \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
- C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
- C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
- C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
- C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/stddef.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -28,6 +13,12 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/ShaderManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cwchar \
  C:/PROGRA~1/msys64/mingw64/include/wchar.h \
+ C:/PROGRA~1/msys64/mingw64/include/corecrt.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_mac.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_secapi.h \
+ C:/PROGRA~1/msys64/mingw64/include/vadefs.h \
+ C:/PROGRA~1/msys64/mingw64/include/sdks/_mingw_ddk.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
@@ -36,6 +27,11 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/ShaderManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/wchar_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/type_traits \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstdint \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+ C:/PROGRA~1/msys64/mingw64/include/stddef.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
@@ -147,4 +143,8 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/ShaderManager.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h

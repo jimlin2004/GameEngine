@@ -1,8 +1,8 @@
-#include "TestGame.h"
+#include "Core/GameBase.h"
 
 int main(int argc, char* args[])
 {
-    TestGame* game = new TestGame("TestGame", 640.0f, 480.0f);
+    GameEngine::GameBase* game = new GameEngine::GameBase("TestGame", 640.0f, 480.0f);
     bool success = game->initSDL() && game->initGL();
     if (success)
         game->startGame();

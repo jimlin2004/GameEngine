@@ -459,3 +459,11 @@
     Todo list
         -找出好的script engine api實現方式
     存檔紀錄 --version 1.0-dev
+2023/08/21
+    1. 想出Script dll可能的實現方式(利用unordered_map及template function pointer)
+       詳情看ClassMap.h、ScriptEngine.h
+    2. 清理一些程式的include(code review)
+    Todo list
+        -dll發現檔案太大的問題(30MB)，需要理解為何這麼大，並想辦法減少
+        -code review，將一些歷史遺物清除
+    存檔紀錄 --version 1.0-dev

@@ -232,19 +232,6 @@ GameEngineEditor_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
 .PHONY : GameEngineEditor_autogen/fast
 
-#=============================================================================
-# Target rules for targets named TestGame
-
-# Build rule for target.
-TestGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestGame
-.PHONY : TestGame
-
-# fast build rule for target.
-TestGame/fast:
-	$(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/build
-.PHONY : TestGame/fast
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -263,7 +250,6 @@ help:
 	@echo ... gameEngineEditor_copy_target
 	@echo ... GameEngine
 	@echo ... GameEngineEditor
-	@echo ... TestGame
 .PHONY : help
 
 

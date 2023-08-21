@@ -64,19 +64,16 @@ CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\build
 # The main recursive "all" target.
 all: GameEngine/all
 all: gameEngineEditor/all
-all: TestGame/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: GameEngine/preinstall
 preinstall: gameEngineEditor/preinstall
-preinstall: TestGame/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: GameEngine/clean
 clean: gameEngineEditor/clean
-clean: TestGame/clean
 .PHONY : clean
 
 #=============================================================================
@@ -93,21 +90,6 @@ GameEngine/preinstall:
 # Recursive "clean" directory target.
 GameEngine/clean: GameEngine/CMakeFiles/GameEngine.dir/clean
 .PHONY : GameEngine/clean
-
-#=============================================================================
-# Directory level rules for directory TestGame
-
-# Recursive "all" directory target.
-TestGame/all: TestGame/CMakeFiles/TestGame.dir/all
-.PHONY : TestGame/all
-
-# Recursive "preinstall" directory target.
-TestGame/preinstall:
-.PHONY : TestGame/preinstall
-
-# Recursive "clean" directory target.
-TestGame/clean: TestGame/CMakeFiles/TestGame.dir/clean
-.PHONY : TestGame/clean
 
 #=============================================================================
 # Directory level rules for directory gameEngineEditor
@@ -187,7 +169,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean:
 gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all:
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=77,78 "Built target gameEngineEditor_copy_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=73,74 "Built target gameEngineEditor_copy_target"
 .PHONY : gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,32 +213,6 @@ GameEngineEditor_autogen: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.d
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean:
 	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean
 .PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean
-
-#=============================================================================
-# Target rules for target TestGame/CMakeFiles/TestGame.dir
-
-# All Build rule for target.
-TestGame/CMakeFiles/TestGame.dir/all: GameEngine/CMakeFiles/GameEngine.dir/all
-	$(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/depend
-	$(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=73,74,75,76 "Built target TestGame"
-.PHONY : TestGame/CMakeFiles/TestGame.dir/all
-
-# Build rule for subdir invocation for target.
-TestGame/CMakeFiles/TestGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 38
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestGame/CMakeFiles/TestGame.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
-.PHONY : TestGame/CMakeFiles/TestGame.dir/rule
-
-# Convenience name for target.
-TestGame: TestGame/CMakeFiles/TestGame.dir/rule
-.PHONY : TestGame
-
-# clean rule for target.
-TestGame/CMakeFiles/TestGame.dir/clean:
-	$(MAKE) $(MAKESILENT) -f TestGame\CMakeFiles\TestGame.dir\build.make TestGame/CMakeFiles/TestGame.dir/clean
-.PHONY : TestGame/CMakeFiles/TestGame.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

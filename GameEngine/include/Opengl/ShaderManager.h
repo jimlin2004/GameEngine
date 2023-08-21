@@ -1,7 +1,7 @@
 #ifndef SHADERMANAGER_H
 #define SHADERMANAGER_H
 
-#include "GL/glew.h"
+// #include "GL/glew.h"
 #include "Core/GameObject.h"
 #include <string>
 #include <fstream>
