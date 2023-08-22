@@ -10,6 +10,10 @@
 #include "box2d/b2_fixture.h"
 #include "box2d/b2_polygon_shape.h"
 
+#include "Script/ScriptEngine.h"
+#include "Script/ClassMap.h"
+#include "Event/Input.h"
+
 GameEngine::Scene::Scene()
     : physicsWorld(nullptr)
 {
@@ -28,6 +32,8 @@ void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
 {
     this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
     {
+        // printf("%p\n%p\n", this, GameEngine::globalScene);
+        printf("Input in exe: %p\n", GameEngine::DLLtest);
         scriptComponent.instance->update(deltaTime);
     });
 
@@ -40,7 +46,7 @@ void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
         auto view = this->registry.view<GameEngine::Rigidbody2DComponent>();
         for (entt::entity entity: view)
         {
-            GameEngine::Actor actor = {entity};
+            GameEngine::Actor actor = {entity, this};
             GameEngine::TransformComponent& transformComponent = actor.getComponent<GameEngine::TransformComponent>();
             GameEngine::Rigidbody2DComponent& rigidbody2DComponent = actor.getComponent<GameEngine::Rigidbody2DComponent>();
 
@@ -100,11 +106,11 @@ static void copyComponent(entt::registry& src, entt::registry& dst, std::unorder
     }
 }
 
-GameEngine::Scene* GameEngine::Scene::copy(GameEngine::Scene* other)
+GameEngine::Scene* GameEngine::Scene::copy(GameEngine::Scene* originalScene)
 {
     Scene* newScene = new Scene();
-    Actor::bindScene(newScene);
-    entt::registry& srcRegistry = other->registry;
+    // Actor::bindScene(newScene);
+    entt::registry& srcRegistry = originalScene->registry;
     entt::registry& dstRegistry = newScene->registry;
     std::unordered_map<UUID, entt::entity> entityMap;
     
@@ -124,7 +130,7 @@ GameEngine::Scene* GameEngine::Scene::copy(GameEngine::Scene* other)
     copyComponent<Rigidbody2DComponent>(srcRegistry, dstRegistry, entityMap);
     copyComponent<BoxCollider2DComponent>(srcRegistry, dstRegistry, entityMap);
 
-    Actor::bindScene(other);
+    // Actor::bindScene(originalScene);
     return newScene;
 }
 
@@ -148,13 +154,14 @@ static b2BodyType getBox2DRigidbodyType(GameEngine::Rigidbody2DComponent::BodyTy
 
 void GameEngine::Scene::onRuntimeStart()
 {
+    //physics
     this->physicsWorld = new b2World({0.0f, -9.8f});
 
-    auto view = this->registry.view<GameEngine::Rigidbody2DComponent>();
+    auto rigidbody2DView = this->registry.view<GameEngine::Rigidbody2DComponent>();
 
-    for (entt::entity entity: view)
+    for (entt::entity entity: rigidbody2DView)
     {
-        GameEngine::Actor actor = {entity};
+        GameEngine::Actor actor = {entity, this};
         GameEngine::TransformComponent& transformComponent = actor.getComponent<GameEngine::TransformComponent>();
         GameEngine::Rigidbody2DComponent& rigidbody2DComponent = actor.getComponent<GameEngine::Rigidbody2DComponent>();
 
@@ -184,6 +191,18 @@ void GameEngine::Scene::onRuntimeStart()
             
             body->CreateFixture(&fixtureDef);
         }
+    }
+
+    //script
+    GameEngine::ScriptEngine::init("D:/code/cpp/gameEngine/TestGame/build/lib/GameEngineScript.dll");
+    auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
+    for (entt::entity entityID: scriptView)
+    {
+        GameEngine::Actor actor = {entityID, this};
+        GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
+        // temp->setEntityID(entityID);
+        scriptComponent.instance = (GameEngine::Actor*)GameEngine::ScriptEngine::createActor("TestActor", entityID, this);
+        // scriptComponent.instance->setEntityID(entityID);
     }
 }
 

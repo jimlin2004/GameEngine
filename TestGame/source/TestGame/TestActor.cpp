@@ -1,10 +1,10 @@
 #include "TestActor.h"
 
-#include "glm/glm.hpp"
+#include "Script/ScriptEngine.h"
 
 REGISTER_CLASS(TestActor)
 TestActor::TestActor()
-    : GameEngine::Character()
+    : GameEngine::Actor()
 {
 }
 
@@ -18,13 +18,16 @@ void TestActor::begin()
 
 void TestActor::update(const float deltaTime)
 {
-    GameEngine::TransformComponent& transform = this->getComponent<GameEngine::TransformComponent>();
-    if (GameEngine::Input::isKeyPressed(GameEngine::Key_A))
-        transform.translation.x -= (100.0f * deltaTime);
-    if (GameEngine::Input::isKeyPressed(GameEngine::Key_D))
-        transform.translation.x += (100.0f * deltaTime);
-    if (GameEngine::Input::isKeyPressed(GameEngine::Key_W))
-        transform.translation.y += (100.0f * deltaTime);
-    if (GameEngine::Input::isKeyPressed(GameEngine::Key_S))
-        transform.translation.y -= (100.0f * deltaTime);
+    // printf("dll: %p\n", this->scene);
+    // GameEngine::TransformComponent& transform = this->getComponent<GameEngine::TransformComponent>();
+    // transform.translation.x += (10.0f * deltaTime);
+    // if (GameEngine::Input::isKeyPressed(GameEngine::Key_A))
+    //     transform.translation.x -= (100.0f * deltaTime);
+    // if (GameEngine::Input::isKeyPressed(GameEngine::Key_D))
+    //     transform.translation.x += (100.0f * deltaTime);
+    // if (GameEngine::Input::isKeyPressed(GameEngine::Key_W))
+    //     transform.translation.y += (100.0f * deltaTime);
+    // if (GameEngine::Input::isKeyPressed(GameEngine::Key_S))
+    //     transform.translation.y -= (100.0f * deltaTime);
+    printf("Input in dll: %p\n", GameEngine::DLLtest);
 }

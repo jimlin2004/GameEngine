@@ -15,16 +15,16 @@ namespace GameEngine
     class Actor: public GameObject
     {
     protected:
-        static Scene* scene;
+        Scene* scene;
         entt::entity entityID;        
     public:
         Actor();
         Actor(Actor& other);
-        Actor(entt::entity entityID);
+        Actor(entt::entity entityID, Scene* scenePtr);
         Actor(entt::entity entityID, const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& typeName);
         virtual ~Actor();
 
-        static void bindScene(GameEngine::Scene* newScene);
+        void bindScene(GameEngine::Scene* newScene);
 
         // User should not use
         virtual void setEntityID(entt::entity entityID);
@@ -75,16 +75,6 @@ namespace GameEngine
         }
 
         operator bool();
-    };
-
-    //可編程
-    class Character: public Actor
-    {
-    public:
-        Character();
-        virtual ~Character();
-        // User should not use
-        virtual void setEntityID(entt::entity entityID) override;
     };
 }
 

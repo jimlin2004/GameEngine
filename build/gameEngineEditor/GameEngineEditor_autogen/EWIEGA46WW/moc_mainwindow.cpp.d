@@ -703,15 +703,9 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/IndexBuffer.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Shader.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexArray.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexBuffer.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/VertexBufferLayout.h \
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \

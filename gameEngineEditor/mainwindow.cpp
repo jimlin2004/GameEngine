@@ -827,7 +827,7 @@ void MainWindow::updateDetail()
     if (entityID == entt::null)
         return;
     this->ui->widget_addComponentWrap->show();
-    GameEngine::Actor actor(entityID);
+    GameEngine::Actor actor(entityID, GameEngine::globalScene);
     if (actor.hasComponent<GameEngine::TransformComponent>())
         this->pushComponentProperty<GameEngine::TransformComponent>(entityID);
     if (actor.hasComponent<GameEngine::MeshComponent>())

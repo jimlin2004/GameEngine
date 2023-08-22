@@ -4,16 +4,19 @@
 
 GameEngine::Actor::Actor()
     : entityID(entt::null)
+    , scene(nullptr)
 {
 }
 
 GameEngine::Actor::Actor(Actor &other)
     : entityID(other.entityID)
+    , scene(other.scene)
 {
 }
 
-GameEngine::Actor::Actor(entt::entity entityID)
+GameEngine::Actor::Actor(entt::entity entityID, Scene* scenePtr)
     : entityID(entityID)
+    , scene(scenePtr)
 {
 }
 
@@ -25,7 +28,7 @@ GameEngine::Actor::Actor(entt::entity entityID, const glm::vec3 &position, const
 
 void GameEngine::Actor::bindScene(GameEngine::Scene *newScene)
 {
-    GameEngine::Actor::scene = newScene;
+    this->scene = newScene;
 }
 
 void GameEngine::Actor::setEntityID(entt::entity entityID)
@@ -70,25 +73,4 @@ GameEngine::UUID GameEngine::Actor::getUUID()
 GameEngine::Actor::operator bool()
 {
     return (this->entityID != entt::null);
-}
-
-GameEngine::Character::Character()
-    : GameEngine::Actor()
-{
-}
-
-GameEngine::Character::~Character()
-{
-}
-
-void GameEngine::Character::setEntityID(entt::entity entityID)
-{
-    this->entityID = entityID;
-    GameEngine::ScriptComponent& scriptComponent = this->addComponent<GameEngine::ScriptComponent>();
-    scriptComponent.instance = this;
-}
-
-namespace GameEngine
-{
-    Scene* Actor::scene = globalScene;
 }

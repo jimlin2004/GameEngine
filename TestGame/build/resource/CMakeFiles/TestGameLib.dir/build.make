@@ -160,6 +160,12 @@ lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEn
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.obj
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/build.make
+lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libGameEngine.a
+lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libbox2d.a
+lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libSDL2.a
+lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libSDL2main.a
+lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libopengl32.a
+lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libglew32.dll.a
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/linkLibs.rsp
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/objects1
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/link.txt

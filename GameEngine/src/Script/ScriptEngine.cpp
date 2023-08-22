@@ -20,23 +20,35 @@ struct ScriptEngineData
 
 static ScriptEngineData scriptEngineData;
 
-typedef GameEngine::ClassMapType* (WINAPI* getClassMapFuncPtr)();
+typedef GameEngine::ClassMapType* (WINAPI* GetClassMapFuncPtr)();
 
 void GameEngine::ScriptEngine::init(const std::string &dllPath)
 {
     scriptEngineData.dllModule = LoadLibrary(dllPath.c_str());
     if (scriptEngineData.dllModule == NULL)
     {
-        GameEngine::ConsoleApi::log("[Error] load %s fail\n.", dllPath.c_str());
+        GameEngine::ConsoleApi::log("[Error] load %s fail.\n", dllPath.c_str());
         return;
     }
 
+    GetClassMapFuncPtr getClassMapFuncPtr = (GetClassMapFuncPtr)GetProcAddress(scriptEngineData.dllModule, "getClassMap");
+    if (getClassMapFuncPtr == nullptr)
+    {
+        GameEngine::ConsoleApi::log("[Error] load getClassMap function fail.\n");
+        return;
+    }
 
+    scriptEngineData.classMapPtr = getClassMapFuncPtr();
 }
 
-GameEngine::Actor* GameEngine::ScriptEngine::createActor(const std::string &actorType)
+GameEngine::Actor* GameEngine::ScriptEngine::createActor(const std::string &actorType, entt::entity entityID, Scene* scenePtr)
 {
-    return nullptr;
+    return (*scriptEngineData.classMapPtr)[actorType](entityID, scenePtr);
 }
 
 #endif
+
+void GameEngine::DLLtest()
+{
+    printf("DLL test\n");
+}

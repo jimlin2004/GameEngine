@@ -61,7 +61,7 @@ void GameEngine::SceneSerializer::serialize(const std::string& path)
     Json jsonRoot;
     Json jsonArray = Json::array();
     GameEngine::globalScene->registry.each([&jsonArray](auto entityID){
-        GameEngine::Actor actor = {entityID};
+        GameEngine::Actor actor = {entityID, GameEngine::globalScene};
         GameEngine::SceneSerializer::serializeEntity(actor, jsonArray);
     });
     jsonRoot["Actors"] = jsonArray;
@@ -74,7 +74,7 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
     if (GameEngine::globalScene != nullptr)
         delete GameEngine::globalScene;
     GameEngine::globalScene = new Scene();
-    GameEngine::Actor::bindScene(GameEngine::globalScene);
+    // GameEngine::Actor::bindScene(GameEngine::globalScene);
 
     Json json;
     std::ifstream input(path);
@@ -83,6 +83,7 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
     for (Json jsonActor: jsonActors)
     {
         Actor* actor = GameEngine::globalScene->spawnActor<Actor>();
+        actor->bindScene(GameEngine::globalScene);
         if (jsonActor.contains("UUID"))
         {
             actor->addComponent<IDComponent>(jsonActor["UUID"].get<GameEngine::UUID>());
@@ -143,7 +144,7 @@ bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *sc
     if (scenePtr != nullptr)
         delete scenePtr;
     scenePtr = new Scene();
-    GameEngine::Actor::bindScene(scenePtr);
+    // GameEngine::Actor::bindScene(scenePtr);
 
     Json json;
     std::ifstream input(path);
@@ -152,6 +153,7 @@ bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *sc
     for (Json jsonActor: jsonActors)
     {
         Actor* actor = scenePtr->spawnActor<Actor>();
+        actor->bindScene(GameEngine::globalScene);
         if (jsonActor.contains("UUID"))
         {
             actor->addComponent<IDComponent>(jsonActor["UUID"].get<GameEngine::UUID>());

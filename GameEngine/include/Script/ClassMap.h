@@ -1,15 +1,20 @@
 #ifndef CLASS_MAP
 #define CLASS_MAP
 
+#include <string>
 #include <unordered_map>
 #include <functional>
 #include <type_traits>
 #include "Script/ScriptEngineMacro.h"
-#include "Actor/Actor.h"
+#include "Core/TypeName.hpp"
+#include "entt.hpp"
 
 namespace GameEngine
 {
-    using ClassMapType = std::unordered_map<std::string, std::function<Actor*()>>;
+    class Actor;
+    class Scene;
+
+    using ClassMapType = std::unordered_map<std::string, std::function<Actor*(entt::entity, Scene*)>>;
     
     // 用於Script engine儲存使用者自訂義scriptable actor的constructor
     // 並做到連接dll及exe作用域的功能
@@ -17,7 +22,8 @@ namespace GameEngine
     // 所以需要用dll中的接口函數獲得dll中的ClassMap pointer
     inline ClassMapType* classMap = new ClassMapType(); 
 
-    extern "C" GENGINE_API inline ClassMapType* getClassMap()
+    // 獲得ClassMapType的接口函式
+    extern "C" __declspec(dllexport) inline ClassMapType* getClassMap()
     {
         return classMap;
     }
@@ -31,8 +37,11 @@ namespace GameEngine
         {
             std::string_view strView = TYPE_NAME_BY_TYPE(T);
             std::string typeName = {strView.begin(), strView.end()};
-            auto classFactoryFunc = [](){
-                return (Actor*)new T();
+            auto classFactoryFunc = [](entt::entity entityID, Scene* scenePtr){
+                T* actor = new T();
+                actor->setEntityID(entityID);
+                actor->bindScene(scenePtr);
+                return (GameEngine::Actor*)actor;
             };
             GameEngine::classMap->insert({typeName, classFactoryFunc});
         }

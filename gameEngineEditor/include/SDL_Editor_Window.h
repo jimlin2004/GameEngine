@@ -5,6 +5,7 @@
 
 #include "Core/GameBase.h"
 #include "Render/Renderer.h"
+#include "Opengl/FrameBuffer.h"
 #include "EditorCamera.h"
 
 #include "imgui.h"

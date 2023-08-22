@@ -7,7 +7,7 @@
 #include "Event/Input.h"
 #include "Component/Component.h"
 
-class GENGINE_API TestActor: public GameEngine::Character
+class GENGINE_API TestActor: public GameEngine::Actor
 {
 public:
     TestActor();
@@ -15,7 +15,5 @@ public:
     virtual void begin() override;
     virtual void update(const float deltaTime) override;
 };
-
-void test();
 
 #endif

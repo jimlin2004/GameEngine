@@ -467,3 +467,10 @@
         -dll發現檔案太大的問題(30MB)，需要理解為何這麼大，並想辦法減少
         -code review，將一些歷史遺物清除
     存檔紀錄 --version 1.0-dev
+2023/08/22
+    1. 刪除Character，改成統一繼承自Actor，更符合ECS一點
+    2. Actor的scene取消static，如此dll中actor的scene才不會是兩個不同的pointer
+    Todo list
+        -dll檔案依舊太大
+        -dll中如何調用GameEngine::Input，現在會有exe更新而dll不更新的問題
+    存檔紀錄 --version 1.0-dev

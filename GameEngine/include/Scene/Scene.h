@@ -41,6 +41,7 @@ namespace GameEngine
         {
             TActor* obj = new TActor();
             obj->setEntityID(this->registry.create());
+            obj->bindScene(this);
             obj->initIDComponent(uuid);
             return obj;
         }
@@ -52,6 +53,7 @@ namespace GameEngine
             std::string typeName = {typeName_strView.begin(), typeName_strView.end()};
             TActor* obj = new TActor();
             obj->setEntityID(this->registry.create());
+            obj->bindScene(this);
             obj->initComponents(position, scale, rotation, actorName, typeName);
             return obj;
         }

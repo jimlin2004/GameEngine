@@ -215,7 +215,7 @@ static QToolButton* createToolButton(QWidget* widget, QVBoxLayout* layout, const
 
 void ComponentBrowserWidget::entityAddComponent(entt::entity &entityID, GameEngine::GameEngineComponentType type)
 {
-    GameEngine::Actor actor(entityID);
+    GameEngine::Actor actor(entityID, GameEngine::globalScene);
     bool isAddedComponent = true;
     switch (type)
     {
@@ -233,6 +233,9 @@ void ComponentBrowserWidget::entityAddComponent(entt::entity &entityID, GameEngi
         break;
     case GameEngine::GameEngineComponentType::BoxCollider2DComponent:
         actor.addComponent<GameEngine::BoxCollider2DComponent>();
+        break;
+    case GameEngine::GameEngineComponentType::ScriptComponent:
+        actor.addComponent<GameEngine::ScriptComponent>();
         break;
     default:
         isAddedComponent = false;
@@ -289,6 +292,9 @@ void ComponentBrowserWidget::setupUI()
         physicsWidget->adjustSize();
         this->filterComponentBrowser();
     });
+
+    QToolButton* scriptButton = createToolButton(this, this->browserWrap, this->browserLayout, "Script", GameEngine::GameEngineComponentType::ScriptComponent);
+    this->trie->insert("Script", scriptButton);
 
     this->componentBrowserStackedWidget->addWidget(this->browserWrap);
 
