@@ -6,7 +6,6 @@
 #include "entt.hpp"
 #include "Scene/Scene.h"
 #include "Core/UUID.h"
-#include <exception>
 #include <string>
 
 namespace GameEngine

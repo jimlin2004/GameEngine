@@ -1,7 +1,6 @@
 #ifndef INPUT_H
 #define INPUT_H
 
-#include "SDL2/SDL.h"
 #include "KeyCode.h"
 #include "MouseCode.h"
 #include "glm/glm.hpp"

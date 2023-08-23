@@ -11,7 +11,7 @@
 #include "box2d/b2_polygon_shape.h"
 
 #include "Script/ScriptEngine.h"
-#include "Script/ClassMap.h"
+#include "Script/ScriptCore.h"
 #include "Event/Input.h"
 
 GameEngine::Scene::Scene()
@@ -32,8 +32,6 @@ void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
 {
     this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
     {
-        // printf("%p\n%p\n", this, GameEngine::globalScene);
-        printf("Input in exe: %p\n", GameEngine::DLLtest);
         scriptComponent.instance->update(deltaTime);
     });
 
@@ -194,14 +192,16 @@ void GameEngine::Scene::onRuntimeStart()
     }
 
     //script
+    
     GameEngine::ScriptEngine::init("D:/code/cpp/gameEngine/TestGame/build/lib/GameEngineScript.dll");
+    
     auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
     for (entt::entity entityID: scriptView)
     {
         GameEngine::Actor actor = {entityID, this};
         GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
         // temp->setEntityID(entityID);
-        scriptComponent.instance = (GameEngine::Actor*)GameEngine::ScriptEngine::createActor("TestActor", entityID, this);
+        scriptComponent.instance = GameEngine::ScriptEngine::createActor("TestActor", entityID, this);
         // scriptComponent.instance->setEntityID(entityID);
     }
 }

@@ -50,7 +50,7 @@ bool SDL_Editor_Window::initSDL()
         SDL_WINDOWPOS_UNDEFINED,
         this->screenWidth,
         this->screenHeight,
-        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN);
+        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE); //SDL_WINDOW_HIDDEN
     if (!this->window)
     {
         GameEngine::ConsoleApi::log("[Error] Create Window Error: %s\n", SDL_GetError());

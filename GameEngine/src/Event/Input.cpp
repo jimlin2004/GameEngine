@@ -1,5 +1,7 @@
 #include "Event/Input.h"
 
+#include "SDL2/SDL.h"
+
 namespace GameEngine
 {
     const uint8_t* GameEngine::Input::keyboardState = SDL_GetKeyboardState(NULL);

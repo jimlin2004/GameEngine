@@ -28,25 +28,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 42,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 61,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 8,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 44,
 				"parent" : 0
 			},
 			{
@@ -78,6 +72,12 @@
 				"file" : 0,
 				"line" : 49,
 				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
 			}
 		]
 	},
@@ -87,7 +87,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O2 -g -DNDEBUG"
 				}
 			],
 			"defines" : 
@@ -159,7 +159,10 @@
 				29,
 				30,
 				31,
-				33
+				32,
+				33,
+				34,
+				36
 			]
 		}
 	],
@@ -223,14 +226,17 @@
 				29,
 				30,
 				31,
-				33
+				32,
+				33,
+				34,
+				36
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				32
+				35
 			]
 		}
 	],
@@ -419,7 +425,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Script/Character.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Script/ScriptCore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "GameEngine/src/Script/ScriptEngine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Script/ScriptInterfaceImplement.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

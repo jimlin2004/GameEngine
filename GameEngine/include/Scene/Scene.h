@@ -7,7 +7,6 @@
 #include "entt.hpp"
 #include <vector>
 #include <exception>
-#include "Core/GELib.h"
 #include "Core/TypeName.hpp"
 
 class b2World;

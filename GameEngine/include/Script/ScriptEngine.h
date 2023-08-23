@@ -7,7 +7,7 @@
 
 namespace GameEngine
 {
-    class Actor;
+    class Character;
     class Scene;
     class ScriptEngine
     {
@@ -15,10 +15,8 @@ namespace GameEngine
         //初始化Script engine
         static void init(const std::string& dllPath);
 
-        static Actor* createActor(const std::string& actorType, entt::entity entityID, Scene* scenePtr);
+        static Character* createActor(const std::string& actorType, entt::entity entityID, Scene* scenePtr);
     };
-
-    GENGINE_API void DLLtest();
 }
 
 #endif

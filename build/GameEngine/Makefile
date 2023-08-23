@@ -914,6 +914,54 @@ src/Scene/SceneSerializer.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.s
 .PHONY : src/Scene/SceneSerializer.cpp.s
 
+src/Script/Character.obj: src/Script/Character.cpp.obj
+.PHONY : src/Script/Character.obj
+
+# target to build an object file
+src/Script/Character.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Character.cpp.obj
+.PHONY : src/Script/Character.cpp.obj
+
+src/Script/Character.i: src/Script/Character.cpp.i
+.PHONY : src/Script/Character.i
+
+# target to preprocess a source file
+src/Script/Character.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Character.cpp.i
+.PHONY : src/Script/Character.cpp.i
+
+src/Script/Character.s: src/Script/Character.cpp.s
+.PHONY : src/Script/Character.s
+
+# target to generate assembly for a file
+src/Script/Character.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Character.cpp.s
+.PHONY : src/Script/Character.cpp.s
+
+src/Script/ScriptCore.obj: src/Script/ScriptCore.cpp.obj
+.PHONY : src/Script/ScriptCore.obj
+
+# target to build an object file
+src/Script/ScriptCore.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptCore.cpp.obj
+.PHONY : src/Script/ScriptCore.cpp.obj
+
+src/Script/ScriptCore.i: src/Script/ScriptCore.cpp.i
+.PHONY : src/Script/ScriptCore.i
+
+# target to preprocess a source file
+src/Script/ScriptCore.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptCore.cpp.i
+.PHONY : src/Script/ScriptCore.cpp.i
+
+src/Script/ScriptCore.s: src/Script/ScriptCore.cpp.s
+.PHONY : src/Script/ScriptCore.s
+
+# target to generate assembly for a file
+src/Script/ScriptCore.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptCore.cpp.s
+.PHONY : src/Script/ScriptCore.cpp.s
+
 src/Script/ScriptEngine.obj: src/Script/ScriptEngine.cpp.obj
 .PHONY : src/Script/ScriptEngine.obj
 
@@ -937,6 +985,30 @@ src/Script/ScriptEngine.s: src/Script/ScriptEngine.cpp.s
 src/Script/ScriptEngine.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.s
 .PHONY : src/Script/ScriptEngine.cpp.s
+
+src/Script/ScriptInterfaceImplement.obj: src/Script/ScriptInterfaceImplement.cpp.obj
+.PHONY : src/Script/ScriptInterfaceImplement.obj
+
+# target to build an object file
+src/Script/ScriptInterfaceImplement.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInterfaceImplement.cpp.obj
+.PHONY : src/Script/ScriptInterfaceImplement.cpp.obj
+
+src/Script/ScriptInterfaceImplement.i: src/Script/ScriptInterfaceImplement.cpp.i
+.PHONY : src/Script/ScriptInterfaceImplement.i
+
+# target to preprocess a source file
+src/Script/ScriptInterfaceImplement.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInterfaceImplement.cpp.i
+.PHONY : src/Script/ScriptInterfaceImplement.cpp.i
+
+src/Script/ScriptInterfaceImplement.s: src/Script/ScriptInterfaceImplement.cpp.s
+.PHONY : src/Script/ScriptInterfaceImplement.s
+
+# target to generate assembly for a file
+src/Script/ScriptInterfaceImplement.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInterfaceImplement.cpp.s
+.PHONY : src/Script/ScriptInterfaceImplement.cpp.s
 
 src/physics/boundingBox/AABB.obj: src/physics/boundingBox/AABB.cpp.obj
 .PHONY : src/physics/boundingBox/AABB.obj
@@ -1091,9 +1163,18 @@ help:
 	@echo ... src/Scene/SceneSerializer.obj
 	@echo ... src/Scene/SceneSerializer.i
 	@echo ... src/Scene/SceneSerializer.s
+	@echo ... src/Script/Character.obj
+	@echo ... src/Script/Character.i
+	@echo ... src/Script/Character.s
+	@echo ... src/Script/ScriptCore.obj
+	@echo ... src/Script/ScriptCore.i
+	@echo ... src/Script/ScriptCore.s
 	@echo ... src/Script/ScriptEngine.obj
 	@echo ... src/Script/ScriptEngine.i
 	@echo ... src/Script/ScriptEngine.s
+	@echo ... src/Script/ScriptInterfaceImplement.obj
+	@echo ... src/Script/ScriptInterfaceImplement.i
+	@echo ... src/Script/ScriptInterfaceImplement.s
 	@echo ... src/physics/boundingBox/AABB.obj
 	@echo ... src/physics/boundingBox/AABB.i
 	@echo ... src/physics/boundingBox/AABB.s

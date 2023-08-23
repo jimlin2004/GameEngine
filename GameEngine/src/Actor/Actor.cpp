@@ -1,5 +1,6 @@
 #include "Actor/Actor.h"
 
+#include <exception>
 #include "Component/Component.h"
 
 GameEngine::Actor::Actor()

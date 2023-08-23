@@ -18,6 +18,8 @@
 			"set_target_properties",
 			"include",
 			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
 			"add_dependencies",
 			"target_include_directories"
 		],
@@ -29,6 +31,11 @@
 			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
 			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
+			"C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"D:/QT/6.4.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 			"CMakeLists.txt"
@@ -161,114 +168,168 @@
 				"parent" : 21
 			},
 			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 40,
+				"parent" : 19
+			},
+			{
+				"file" : 10,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 24
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 108,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 47,
+				"parent" : 26
+			},
+			{
+				"file" : 7,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 52,
+				"parent" : 28
+			},
+			{
+				"file" : 6,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 30
+			},
+			{
 				"command" : 4,
 				"file" : 3,
 				"line" : 157,
 				"parent" : 12
 			},
 			{
-				"file" : 7,
-				"parent" : 23
+				"file" : 12,
+				"parent" : 33
 			},
 			{
 				"command" : 3,
-				"file" : 7,
+				"file" : 12,
 				"line" : 52,
-				"parent" : 24
+				"parent" : 34
 			},
 			{
-				"file" : 6,
-				"parent" : 25
+				"file" : 11,
+				"parent" : 35
 			},
 			{
 				"command" : 2,
-				"file" : 6,
+				"file" : 11,
 				"line" : 61,
-				"parent" : 26
+				"parent" : 36
 			},
 			{
-				"file" : 8
+				"file" : 13
 			},
 			{
-				"command" : 5,
-				"file" : 8,
+				"command" : 7,
+				"file" : 13,
 				"line" : 6,
-				"parent" : 28
+				"parent" : 38
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 65,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 66,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 67,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 68,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 69,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 70,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 71,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 72,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 73,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 74,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 75,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 76,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
+				"command" : 8,
 				"file" : 0,
 				"line" : 77,
 				"parent" : 0
@@ -281,7 +342,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-O2 -g -DNDEBUG"
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -300,6 +361,14 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NEEDS_QMAIN"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 2,
@@ -345,74 +414,74 @@
 					"path" : "D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/include"
 				},
 				{
-					"backtrace" : 30,
+					"backtrace" : 40,
 					"path" : "D:/code/cpp/gameEngine/gameEngineEditor/."
 				},
 				{
-					"backtrace" : 31,
+					"backtrace" : 41,
 					"path" : "D:/code/cpp/gameEngine/gameEngineEditor/./include"
 				},
 				{
-					"backtrace" : 32,
+					"backtrace" : 42,
 					"path" : "D:/code/cpp/gameEngine/gameEngineEditor/./plugins"
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 43,
 					"path" : "D:/QT/6.4.2/mingw_64/include/QtZlib"
 				},
 				{
-					"backtrace" : 34,
+					"backtrace" : 44,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/include"
 				},
 				{
-					"backtrace" : 35,
+					"backtrace" : 45,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include"
 				},
 				{
-					"backtrace" : 36,
+					"backtrace" : 46,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include"
 				},
 				{
-					"backtrace" : 37,
+					"backtrace" : 47,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include"
 				},
 				{
-					"backtrace" : 38,
+					"backtrace" : 48,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/entt/include"
 				},
 				{
-					"backtrace" : 39,
+					"backtrace" : 49,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party"
 				},
 				{
-					"backtrace" : 40,
+					"backtrace" : 50,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include"
 				},
 				{
-					"backtrace" : 41,
+					"backtrace" : 51,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo"
 				},
 				{
-					"backtrace" : 42,
+					"backtrace" : 52,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2"
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "D:/QT/6.4.2/mingw_64/include/QtWidgets"
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "D:/QT/6.4.2/mingw_64/include"
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "D:/QT/6.4.2/mingw_64/include/QtCore"
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 43,
 					"isSystem" : true,
 					"path" : "D:/QT/6.4.2/mingw_64/include/QtGui"
 				},
@@ -485,7 +554,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 29,
+			"backtrace" : 39,
 			"id" : "GameEngine::@3f1430db303f85cff844"
 		},
 		{
@@ -499,11 +568,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O2 -g -DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-mwindows",
 				"role" : "flags"
 			},
 			{
@@ -652,17 +721,32 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 27,
+				"backtrace" : 31,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "D:\\QT\\6.4.2\\mingw_64\\lib\\libQt6EntryPoint.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
 				"fragment" : "-ld3d11",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 27,
+				"backtrace" : 37,
 				"fragment" : "-ldxgi",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 27,
+				"backtrace" : 37,
 				"fragment" : "-ldxguid",
 				"role" : "libraries"
 			},

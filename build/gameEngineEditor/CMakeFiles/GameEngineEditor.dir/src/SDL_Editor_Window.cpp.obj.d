@@ -410,23 +410,18 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
  D:/code/cpp/gameEngine/GameEngine/include/Core/UUID.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/random \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bit \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+ D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/functional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tuple \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
@@ -439,21 +434,19 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/vector \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/array \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/compare \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/algorithm \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/memory \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/align.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bit \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
@@ -464,6 +457,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/utility \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
@@ -706,8 +702,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \

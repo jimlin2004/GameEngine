@@ -1,5 +1,12 @@
 #include "Core/UUID.h"
 
+#include <string>
+#include <random>
+#include <sstream>
+#include <functional>
+#include <cstdio>
+#include <inttypes.h>
+
 static std::random_device randomDevice;
 static std::mt19937_64    randomEngine(randomDevice());
 static std::uniform_int_distribution<uint64_t> distribution;

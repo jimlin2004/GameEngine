@@ -201,7 +201,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/random \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ranges \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ratio \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
@@ -709,6 +708,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \

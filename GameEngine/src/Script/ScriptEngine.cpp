@@ -1,10 +1,11 @@
 #include "Script/ScriptEngine.h"
 
 #include "GameEngineAPI/ConsoleApi.h"
-#include "Actor/Actor.h"
+#include "Script/Character.h"
 #include "Core/Platform.h"
 #include <unordered_map>
 #include "Script/ClassMap.h"
+#include "Script/ScriptInterfaceImplement.h"
 #if USE_WINDOWS
     #include <windows.h>
 #endif
@@ -21,6 +22,7 @@ struct ScriptEngineData
 static ScriptEngineData scriptEngineData;
 
 typedef GameEngine::ClassMapType* (WINAPI* GetClassMapFuncPtr)();
+typedef void (WINAPI* InitDllScriptCoreFuncPtr)(ScriptInterface*);
 
 void GameEngine::ScriptEngine::init(const std::string &dllPath)
 {
@@ -39,16 +41,22 @@ void GameEngine::ScriptEngine::init(const std::string &dllPath)
     }
 
     scriptEngineData.classMapPtr = getClassMapFuncPtr();
+    
+    static bool initScriptCore = [](){
+        InitDllScriptCoreFuncPtr initDllScriptCoreFuncPtr = (InitDllScriptCoreFuncPtr)GetProcAddress(scriptEngineData.dllModule, "initDllScriptCore");
+        if (initDllScriptCoreFuncPtr == nullptr)
+        {
+            GameEngine::ConsoleApi::log("[Error] load initDllScriptCore function fail.\n");
+            return false;
+        }
+        initDllScriptCoreFuncPtr(new ScriptInterfaceImplement());
+        return true;
+    }();
 }
 
-GameEngine::Actor* GameEngine::ScriptEngine::createActor(const std::string &actorType, entt::entity entityID, Scene* scenePtr)
+GameEngine::Character* GameEngine::ScriptEngine::createActor(const std::string &actorType, entt::entity entityID, Scene* scenePtr)
 {
     return (*scriptEngineData.classMapPtr)[actorType](entityID, scenePtr);
 }
 
 #endif
-
-void GameEngine::DLLtest()
-{
-    printf("DLL test\n");
-}

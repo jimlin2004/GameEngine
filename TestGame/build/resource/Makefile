@@ -129,102 +129,6 @@ TestGameLib/fast:
 	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/build
 .PHONY : TestGameLib/fast
 
-D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.obj: D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.obj
-
-# target to build an object file
-D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.obj
-
-D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.i: D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.i
-
-# target to preprocess a source file
-D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.i:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.i
-
-D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.s: D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.s
-
-# target to generate assembly for a file
-D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.s:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp.s
-
-D_/code/cpp/gameEngine/GameEngine/src/Component/Component.obj: D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Component/Component.obj
-
-# target to build an object file
-D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.obj
-
-D_/code/cpp/gameEngine/GameEngine/src/Component/Component.i: D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Component/Component.i
-
-# target to preprocess a source file
-D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.i:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.i
-
-D_/code/cpp/gameEngine/GameEngine/src/Component/Component.s: D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Component/Component.s
-
-# target to generate assembly for a file
-D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.s:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp.s
-
-D_/code/cpp/gameEngine/GameEngine/src/Event/Input.obj: D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Event/Input.obj
-
-# target to build an object file
-D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.obj
-
-D_/code/cpp/gameEngine/GameEngine/src/Event/Input.i: D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Event/Input.i
-
-# target to preprocess a source file
-D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.i:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.i
-
-D_/code/cpp/gameEngine/GameEngine/src/Event/Input.s: D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Event/Input.s
-
-# target to generate assembly for a file
-D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.s:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp.s
-
-D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.obj: D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.obj
-
-# target to build an object file
-D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.obj
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.obj
-
-D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.i: D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.i
-
-# target to preprocess a source file
-D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.i:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.i
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.i
-
-D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.s: D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.s
-
-# target to generate assembly for a file
-D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.s:
-	cd /d D:\code\cpp\gameEngine\TestGame\build && $(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.s
-.PHONY : D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp.s
-
 __/source/TestGame/TestActor.obj: __/source/TestGame/TestActor.cpp.obj
 .PHONY : __/source/TestGame/TestActor.obj
 
@@ -258,18 +162,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TestGameLib
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.obj
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.i
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Actor/Actor.s
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Component/Component.obj
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Component/Component.i
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Component/Component.s
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Event/Input.obj
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Event/Input.i
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Event/Input.s
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.obj
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.i
-	@echo ... D_/code/cpp/gameEngine/GameEngine/src/Scene/Scene.s
 	@echo ... __/source/TestGame/TestActor.obj
 	@echo ... __/source/TestGame/TestActor.i
 	@echo ... __/source/TestGame/TestActor.s

@@ -5,6 +5,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
 #include "Actor/Actor.h"
+#include "Script/Character.h"
 #include "Opengl/Texture.h"
 #include <string>
 #include "Core/UUID.h"
@@ -77,16 +78,16 @@ namespace GameEngine
 
     struct ScriptComponent
     {
-        GameEngine::Actor* instance;
+        GameEngine::Character* instance;
 
-        GameEngine::Actor* (*instantiateScript)();
+        GameEngine::Character* (*instantiateScript)();
         void (*destroyScript)(ScriptComponent*);
 
         template<class T>
         void bind()
         {
             this->instantiateScript = []() {
-                return static_cast<GameEngine::Actor*>(new T());
+                return static_cast<GameEngine::Character*>(new T());
             };
             this->destroyScript = [](ScriptComponent* scriptComponent) {
                 delete (T*)scriptComponent->instance;

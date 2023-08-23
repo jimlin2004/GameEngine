@@ -474,3 +474,11 @@
         -dll檔案依舊太大
         -dll中如何調用GameEngine::Input，現在會有exe更新而dll不更新的問題
     存檔紀錄 --version 1.0-dev
+2023/08/23
+    1. 重新定義Character為scriptable actor，但不繼承自actor
+    2. 新增ScriptInterface、ScriptCore等Script相關class，用以解決dll中呼叫engine side的函式不更新問題
+    3. 成功讓TestActor用GEngine::Input去監聽keyboard事件
+    4. GEngine是user side的函示包裝
+    Todo list
+        -發現release模式下sdl與qt有進程順序問題
+    存檔紀錄 --version 1.0-dev

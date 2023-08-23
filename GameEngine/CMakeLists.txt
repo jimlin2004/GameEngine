@@ -20,6 +20,7 @@ file(GLOB_RECURSE SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Event/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Opengl/*.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Opengl/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Script/*.cpp
 )
 
 file(GLOB_RECURSE THIRD_PARTY_SRC
