@@ -45,6 +45,7 @@ public:
     ~MainWindow();
     void embedSDL(WId winId, SDL_Editor_Window* newSDL_Window);
     void onFocusChanged(bool& isFocusOnSDL);
+    void onReloadDLL();
     inline GameEngineEditor::ExportData* getExportDataPtr() const
     {
         return &(this->exportData);

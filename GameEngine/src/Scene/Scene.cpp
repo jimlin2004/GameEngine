@@ -200,9 +200,9 @@ void GameEngine::Scene::onRuntimeStart()
     {
         GameEngine::Actor actor = {entityID, this};
         GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
-        // temp->setEntityID(entityID);
+        
         scriptComponent.instance = GameEngine::ScriptEngine::createActor("TestActor", entityID, this);
-        // scriptComponent.instance->setEntityID(entityID);
+        scriptComponent.instance->begin();
     }
 }
 

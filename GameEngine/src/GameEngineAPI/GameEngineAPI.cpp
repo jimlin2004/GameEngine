@@ -6,7 +6,7 @@ GameEngine::GameEngineAPI::GameEngineAPI()
     : shaderManager(new GameEngine::ShaderManager())
     , textureManager(new GameEngine::TextureManager())
     , editorSceneBeginFunc(nullptr)
-    , workingDirname(std::filesystem::current_path().u8string())
+    , projectRootPath(std::filesystem::current_path().u8string())
 {
 }
 
@@ -26,9 +26,14 @@ void GameEngine::GameEngineAPI::_setWindowSize(float _w, float _h)
     this->_windowHeight = _h;
 }
 
-void GameEngine::GameEngineAPI::setWorkingDirname(const std::string &path)
+void GameEngine::GameEngineAPI::setProjectRootPath(const std::string &path)
 {
-    this->workingDirname = path;
+    this->projectRootPath = path;
+}
+
+void GameEngine::GameEngineAPI::setProjectName(const std::string &name)
+{
+    this->projectName = name;
 }
 
 namespace GameEngine

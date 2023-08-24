@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>681</width>
+    <width>820</width>
     <height>605</height>
    </rect>
   </property>
@@ -132,9 +132,9 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-273</y>
-             <width>418</width>
-             <height>856</height>
+             <y>-431</y>
+             <width>454</width>
+             <height>919</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -513,6 +513,46 @@
                 </item>
                 <item>
                  <spacer name="horizontalSpacer_4">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_script">
+              <property name="Title">
+               <string>Script</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_script" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="QLabel" name="label_script">
+                  <property name="text">
+                   <string>Class</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_script"/>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_7">
                   <property name="orientation">
                    <enum>Qt::Horizontal</enum>
                   </property>
@@ -932,7 +972,7 @@
                 <rect>
                  <x>0</x>
                  <y>0</y>
-                 <width>673</width>
+                 <width>812</width>
                  <height>229</height>
                 </rect>
                </property>

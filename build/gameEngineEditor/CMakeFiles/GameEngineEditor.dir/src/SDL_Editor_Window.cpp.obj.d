@@ -691,6 +691,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/list \
@@ -703,7 +704,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
- D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
@@ -904,4 +904,114 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint1_sized.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.inl \
  D:/code/cpp/gameEngine/GameEngine/include/Math/Math.h \
- D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/SDL/SDLFileParser.h
+ D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/SDL/SDLFileParser.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QFile \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfiledevice.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qfiledialog.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdir.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfile.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdatetime.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcalendar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qdialog.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QDebug \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qdebug.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QProcess \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qprocess.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QHoverEvent \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMessageBox \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmessagebox.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QColorDialog \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qcolordialog.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QCloseEvent \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindowStateChangeEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QTimer \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qtimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qbasictimer.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QMenuBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenubar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QToolBar \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtoolbar.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QSizePolicy \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/ProjectParser.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QFileInfo \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qfileinfo.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/JsonParser.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonObject \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonobject.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcborvalue.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcborcommon.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/quuid.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonArray \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonarray.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonDocument \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsondocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonvalue.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QJsonParseError \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QWidget \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QLabel \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlabel.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpicture.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QStyleOption \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPainter \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpainter.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextoption.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpen.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QPixmap \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qpixmap.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qeventloop.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qinputmethod.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QDrag \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qdrag.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMimeData \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmimedata.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/WordWrapLabel.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/EditorScene.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/compile/CompileProcess.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/QTextBrowser \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextbrowser.h \
+ D:/QT/6.4.2/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextcursor.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qtextformat.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QObject \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QWindow \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qwindow.h \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QEvent \
+ D:/QT/6.4.2/mingw_64/include/QtCore/QMargins \
+ D:/QT/6.4.2/mingw_64/include/QtCore/qmargins.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurface.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
+ D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
+ D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h

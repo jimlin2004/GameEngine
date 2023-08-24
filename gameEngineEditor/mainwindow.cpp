@@ -7,6 +7,7 @@
 #include "plugins/LineEditFloat.h"
 #include "ComponentBrowserWidget.h"
 #include <QVBoxLayout>
+#include "Script/ScriptEngine.h"
 #if USE_WINDOWS
     #include <winuser.h>
     #include <windows.h>
@@ -366,6 +367,17 @@ void MainWindow::onAddComponent()
     // ComponentBrowserDialog::getComponent();
 }
 
+void MainWindow::onReloadDLL()
+{
+    QComboBox* comboBox = this->ui->comboBox_script;
+    std::vector<std::string> classNames = GameEngine::ScriptEngine::getAllClassName();
+    comboBox->clear();
+    for (const std::string& className: classNames)
+    {
+        comboBox->addItem(QString::fromStdString(className));
+    }
+}
+
 void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
 {
     this->SDL_editor_window = newSDL_window;
@@ -374,6 +386,7 @@ void MainWindow::embedSDL(WId winId, SDL_Editor_Window* newSDL_window)
     this->ui->SDL_windgetWrap->layout()->addWidget(this->SDLWidget);
 
     this->SDL_editor_window->bindExportData(this->getExportDataPtr());
+    this->SDL_editor_window->bindMainWindow(this);
 }
 
 void MainWindow::getTreeWigetItemInfo(QTreeWidgetItem* item, int column)
@@ -602,7 +615,10 @@ void MainWindow::openProject()
         qDebug("Scene data not found.\n");
     this->resetGameObjectOutline();
     this->resetTextureComboBox();
-    GameEngine::GEngine->setWorkingDirname(this->projectParser->getProjectDirname());
+
+    GameEngine::GEngine->setProjectRootPath(this->projectParser->getProjectDirname());
+    GameEngine::GEngine->setProjectName(this->projectParser->getProjectName());
+    this->SDL_editor_window->reloadDll();
 }
 
 void MainWindow::saveScene()
@@ -722,6 +738,12 @@ void MainWindow::pushComponentProperty<GameEngine::CameraComponent>(const entt::
 }
 
 template<>
+void MainWindow::pushComponentProperty<GameEngine::ScriptComponent>(const entt::entity& entityID)
+{
+    this->ui->qCollapsibleWidget_script->show();
+}
+
+template<>
 void MainWindow::pushComponentProperty<GameEngine::Rigidbody2DComponent>(const entt::entity& entityID)
 {
     GameEngine::Rigidbody2DComponent& rigidbody2DComponent = GameEngine::globalScene->queryActorComponent<GameEngine::Rigidbody2DComponent>(entityID);
@@ -834,8 +856,12 @@ void MainWindow::updateDetail()
         this->pushComponentProperty<GameEngine::MeshComponent>(entityID);
     if (actor.hasComponent<GameEngine::CameraComponent>())
         this->pushComponentProperty<GameEngine::CameraComponent>(entityID);
+    if (actor.hasComponent<GameEngine::ScriptComponent>())
+        this->pushComponentProperty<GameEngine::ScriptComponent>(entityID);
     if (actor.hasComponent<GameEngine::Rigidbody2DComponent>())
         this->pushComponentProperty<GameEngine::Rigidbody2DComponent>(entityID);
     if (actor.hasComponent<GameEngine::BoxCollider2DComponent>())
         this->pushComponentProperty<GameEngine::BoxCollider2DComponent>(entityID);
 }
+
+

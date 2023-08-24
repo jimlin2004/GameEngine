@@ -691,6 +691,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj: D:/code/cp
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
@@ -891,7 +892,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj: D:/code/cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -1362,6 +1362,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/CameraController.cpp.obj: D:/code/
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
@@ -1562,7 +1563,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/CameraController.cpp.obj: D:/code/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -2528,6 +2528,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/GameBase.cpp.obj: D:/code/cpp/game
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
@@ -2540,7 +2541,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/GameBase.cpp.obj: D:/code/cpp/game
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
@@ -3980,6 +3980,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: D:
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iterator \
@@ -4058,7 +4059,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj: D:
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -4785,6 +4785,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.obj: D:/code/cpp/game
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iterator \
@@ -4863,7 +4864,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/Shader.cpp.obj: D:/code/cpp/game
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
@@ -5637,6 +5637,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.obj: D:/code/cpp/gam
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iterator \
@@ -5692,7 +5693,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/Texture.cpp.obj: D:/code/cpp/gam
   C:/Program\ Files/msys64/mingw64/include/sec_api/string_s.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h
 
@@ -6335,6 +6335,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj: D:/code/cpp/ga
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iterator \
@@ -6413,7 +6414,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj: D:/code/cpp/ga
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -6669,6 +6669,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Renderer.cpp.obj: D:/code/cpp/ga
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
@@ -6865,7 +6866,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Render/Renderer.cpp.obj: D:/code/cpp/ga
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -7331,9 +7331,9 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: D:/code/cpp/gameEn
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
@@ -8405,6 +8405,11 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: D:/code/cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cerrno \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/vector \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cassert \
   C:/Program\ Files/msys64/mingw64/include/assert.h \
@@ -8438,11 +8443,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: D:/code/cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/vector \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/array \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/compare \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \

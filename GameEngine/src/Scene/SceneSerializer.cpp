@@ -107,7 +107,7 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path)
             GameEngine::Texture* texture = nullptr;
             if (jsonActor["Mesh"].contains("Texture"))
             {
-                std::string absoluteFilePath = GameEngine::GEngine->getWorkingDirname() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
+                std::string absoluteFilePath = GameEngine::GEngine->getProjectRootPath() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
                 texture->load(absoluteFilePath.c_str(), GL_NEAREST);
             }
                 
@@ -177,7 +177,7 @@ bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *sc
             GameEngine::Texture* texture = nullptr;
             if (jsonActor["Mesh"].contains("Texture"))
             {
-                std::string absoluteFilePath = GameEngine::GEngine->getWorkingDirname() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
+                std::string absoluteFilePath = GameEngine::GEngine->getProjectRootPath() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
                 texture->load(absoluteFilePath.c_str(), GL_NEAREST);
             }
                 

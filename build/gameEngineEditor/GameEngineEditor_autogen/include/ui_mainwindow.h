@@ -117,6 +117,12 @@ public:
     QLabel *label_isPrimary;
     QCheckBox *checkBox_isPrimary;
     QSpacerItem *horizontalSpacer_4;
+    QCollapsibleWidget *qCollapsibleWidget_script;
+    QWidget *contentWidget_script;
+    QHBoxLayout *horizontalLayout_8;
+    QLabel *label_script;
+    QComboBox *comboBox_script;
+    QSpacerItem *horizontalSpacer_7;
     QCollapsibleWidget *qCollapsibleWidget_rigidbody2D;
     QWidget *contentWidget_rigidbody2D;
     QVBoxLayout *verticalLayout_10;
@@ -191,7 +197,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(681, 605);
+        MainWindow->resize(820, 605);
         MainWindow->setMouseTracking(false);
         MainWindow->setStyleSheet(QString::fromUtf8(""));
         centralwidget = new QWidget(MainWindow);
@@ -246,7 +252,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -273, 418, 856));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -431, 454, 919));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -550,6 +556,31 @@ public:
 
         verticalLayout_3->addWidget(qCollapsibleWidget_camera);
 
+        qCollapsibleWidget_script = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_script->setObjectName("qCollapsibleWidget_script");
+        contentWidget_script = new QWidget(qCollapsibleWidget_script);
+        contentWidget_script->setObjectName("contentWidget_script");
+        sizePolicy2.setHeightForWidth(contentWidget_script->sizePolicy().hasHeightForWidth());
+        contentWidget_script->setSizePolicy(sizePolicy2);
+        horizontalLayout_8 = new QHBoxLayout(contentWidget_script);
+        horizontalLayout_8->setObjectName("horizontalLayout_8");
+        label_script = new QLabel(contentWidget_script);
+        label_script->setObjectName("label_script");
+
+        horizontalLayout_8->addWidget(label_script);
+
+        comboBox_script = new QComboBox(contentWidget_script);
+        comboBox_script->setObjectName("comboBox_script");
+
+        horizontalLayout_8->addWidget(comboBox_script);
+
+        horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_8->addItem(horizontalSpacer_7);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_script);
+
         qCollapsibleWidget_rigidbody2D = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
         qCollapsibleWidget_rigidbody2D->setObjectName("qCollapsibleWidget_rigidbody2D");
         contentWidget_rigidbody2D = new QWidget(qCollapsibleWidget_rigidbody2D);
@@ -794,7 +825,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 673, 229));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 812, 229));
         gridLayout_6 = new QGridLayout(scrollAreaWidgetContents);
         gridLayout_6->setObjectName("gridLayout_6");
         gridLayout_6->setVerticalSpacing(0);
@@ -956,6 +987,8 @@ public:
         qCollapsibleWidget_camera->setTitle(QCoreApplication::translate("MainWindow", "Camera", nullptr));
         label_isPrimary->setText(QCoreApplication::translate("MainWindow", "Is primary", nullptr));
         checkBox_isPrimary->setText(QString());
+        qCollapsibleWidget_script->setTitle(QCoreApplication::translate("MainWindow", "Script", nullptr));
+        label_script->setText(QCoreApplication::translate("MainWindow", "Class", nullptr));
         qCollapsibleWidget_rigidbody2D->setTitle(QCoreApplication::translate("MainWindow", "Rigidbody2D", nullptr));
         qCollapsibleWidget_rigidbody2D->setPushButtonStyle(QString());
         label_bodyType->setText(QCoreApplication::translate("MainWindow", "Type", nullptr));

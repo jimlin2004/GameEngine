@@ -87,7 +87,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O2 -g -DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 

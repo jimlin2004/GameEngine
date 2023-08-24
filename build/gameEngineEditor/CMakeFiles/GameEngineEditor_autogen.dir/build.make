@@ -67,7 +67,7 @@ include gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/progress.make
 
 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target GameEngineEditor"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenInfo.json RelWithDebInfo
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutogenInfo.json Debug
 
 GameEngineEditor_autogen: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen
 GameEngineEditor_autogen: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build.make

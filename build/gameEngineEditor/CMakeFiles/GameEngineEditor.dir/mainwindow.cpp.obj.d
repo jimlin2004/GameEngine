@@ -1066,6 +1066,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qmenu.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QStackedWidget \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/qstackedwidget.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h \
  C:/PROGRA~1/msys64/mingw64/include/dwmapi.h \
  C:/PROGRA~1/msys64/mingw64/include/wtypes.h \
  C:/PROGRA~1/msys64/mingw64/include/rpc.h \

@@ -20,6 +20,8 @@ enum SceneState
     Play
 };
 
+class MainWindow;
+
 class SDL_Editor_Window: public GameEngine::GameBase
 {
 public:
@@ -36,9 +38,11 @@ public:
 
     void onScenePlay();
     void onSceneStop();
+    void reloadDll();
 
     void bindIsFocusOnSDL(bool* ptr);
     void bindExportData(GameEngineEditor::ExportData* ptr);
+    void bindMainWindow(MainWindow* ptr);
     
     GameEngine::Scene* editorScene;
     SceneState sceneState;
@@ -55,6 +59,7 @@ private:
     GameEngineEditor::EditorCamera editorCamera;
     glm::mat4 transform;
 
+    MainWindow* mainWindowPtr;
     GameEngineEditor::ExportData* mainWindowExportDataPtr;
 
     void updateEditorCamera(float deltaTime);

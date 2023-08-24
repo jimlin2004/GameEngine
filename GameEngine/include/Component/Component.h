@@ -4,7 +4,6 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
-#include "Actor/Actor.h"
 #include "Script/Character.h"
 #include "Opengl/Texture.h"
 #include <string>
@@ -79,21 +78,6 @@ namespace GameEngine
     struct ScriptComponent
     {
         GameEngine::Character* instance;
-
-        GameEngine::Character* (*instantiateScript)();
-        void (*destroyScript)(ScriptComponent*);
-
-        template<class T>
-        void bind()
-        {
-            this->instantiateScript = []() {
-                return static_cast<GameEngine::Character*>(new T());
-            };
-            this->destroyScript = [](ScriptComponent* scriptComponent) {
-                delete (T*)scriptComponent->instance;
-                scriptComponent->instance = nullptr;
-            };
-        }
     };
 
     //physics

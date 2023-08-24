@@ -6,5 +6,5 @@ CXX_DEFINES = -DGENGINE_STATIC_LIB
 
 CXX_INCLUDES = @CMakeFiles/GameEngine.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O2 -g -DNDEBUG
+CXX_FLAGS = -g
 

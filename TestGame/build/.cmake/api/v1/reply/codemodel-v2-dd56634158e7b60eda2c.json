@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -24,7 +24,7 @@
 				},
 				{
 					"build" : "resource",
-					"jsonFile" : "directory-resource-Release-80dc4a031b050a82b6de.json",
+					"jsonFile" : "directory-resource-Debug-80dc4a031b050a82b6de.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -38,7 +38,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -74,14 +74,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TestGame::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestGame-Release-6b3bcef76fd5a6761f33.json",
+					"jsonFile" : "target-TestGame-Debug-8edd3ea3025ecd006e4c.json",
 					"name" : "TestGame",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "TestGameLib::@39a055bb0fe0876e1e00",
-					"jsonFile" : "target-TestGameLib-Release-6007a1bcb41ea960480f.json",
+					"jsonFile" : "target-TestGameLib-Debug-f5e009ff04c346e17add.json",
 					"name" : "TestGameLib",
 					"projectIndex" : 1
 				}

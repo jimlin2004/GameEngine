@@ -7,11 +7,15 @@
 // #undef QT_NEEDS_QMAIN
 
 #include <thread>
+#include <mutex>
+#include <condition_variable>
 
-bool isRunSDL = false;
 bool isFocusOnSDL = false;
 WId SDL_Editor_Window_ID = 0;
 SDL_Editor_Window* SDL_editor_window = nullptr;
+
+std::mutex m;
+std::condition_variable conditionVar;
 
 void runSDL()
 {
@@ -30,7 +34,8 @@ void runSDL()
     SDL_GetWindowWMInfo(SDL_editor_window->window, &wmInfo);
     SDL_Editor_Window_ID = (WId)wmInfo.info.win.window;
     
-    isRunSDL = true;
+    conditionVar.notify_one(); //讓main thread繼續運行
+
     SDL_editor_window->startGame();
 }
 
@@ -41,6 +46,8 @@ void runSDL()
 
 int main(int argc, char* argv[])
 {
+    std::unique_lock<std::mutex> lock(m);
+
     QApplication a(argc, argv);
     
     QFontDatabase::addApplicationFont("assets/font/CascadiaMono.ttf");
@@ -55,11 +62,8 @@ int main(int argc, char* argv[])
         w.onFocusChanged(isFocusOnSDL);
     });
     
-    while (!isRunSDL || (SDL_Editor_Window_ID == 0))
-    {
-        printf("hi\n");
-        continue;
-    }
+    conditionVar.wait(lock); // 等待SDL thread
+
     w.embedSDL(SDL_Editor_Window_ID, SDL_editor_window);
     w.show();
     qDebug("Create Editor success\n");

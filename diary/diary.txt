@@ -482,3 +482,13 @@
     Todo list
         -發現release模式下sdl與qt有進程順序問題
     存檔紀錄 --version 1.0-dev
+2023/08/24
+    1. sdl與qt的進程問題用thread lock解決
+    2. 讓editor中SDL與QT相互知道彼此，如此可以解決SDL與QT event處理
+    3. dll要是使用者編寫前就有，如此editor中script component才可以選擇class
+       ，知道class之後才能呼叫相對應的建構子並運行對應程式
+    Todo list
+        -dll的reload與使用者新增class後，需要立即reload dll，也許發展hot reload
+        -editor的script component尚未完成editor修改script component的功能(comboBox event)
+        -dll雖然從30MB降至450KB，但看了unreal及unity覺得還可以更低，以及dll的編譯速度是否可以加快
+    存檔紀錄 --version 1.0-dev

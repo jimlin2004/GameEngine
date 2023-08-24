@@ -5,6 +5,10 @@
 #include "Math/Math.h"
 #include "runtime/SDL/SDLFileParser.h"
 #include "Core/UUID.h"
+#include "Script/ScriptEngine.h"
+#include "mainwindow.h"
+
+#include <filesystem>
 
 //windows api
 #if USE_WINDOWS
@@ -50,7 +54,7 @@ bool SDL_Editor_Window::initSDL()
         SDL_WINDOWPOS_UNDEFINED,
         this->screenWidth,
         this->screenHeight,
-        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE); //SDL_WINDOW_HIDDEN
+        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE | SDL_WINDOW_HIDDEN);
     if (!this->window)
     {
         GameEngine::ConsoleApi::log("[Error] Create Window Error: %s\n", SDL_GetError());
@@ -324,6 +328,28 @@ void SDL_Editor_Window::onSceneStop()
     GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 }
 
+void SDL_Editor_Window::reloadDll()
+{
+    if (std::filesystem::exists(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll"))
+    {
+        GameEngine::ScriptEngine::init(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
+    }
+    else
+    {
+        std::string scriptPath = GameEngine::GEngine->getProjectRootPath() + "/source";
+        std::string extension;
+        if (std::filesystem::exists(scriptPath))
+        {
+            for (auto& file: std::filesystem::directory_iterator(scriptPath))
+            {
+                extension = file.path().extension().u8string();
+                GameEngine::ConsoleApi::log("%s\n", extension.c_str());
+            }
+        }
+    }
+    this->mainWindowPtr->onReloadDLL();
+}
+
 void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)
 {
     this->isFocusOnSDLPtr = ptr;
@@ -346,4 +372,9 @@ void SDL_Editor_Window::updateEditorCamera(float deltaTime)
 void SDL_Editor_Window::bindExportData(GameEngineEditor::ExportData* ptr)
 {
     this->mainWindowExportDataPtr = ptr;
+}
+
+void SDL_Editor_Window::bindMainWindow(MainWindow *ptr)
+{
+    this->mainWindowPtr = ptr;
 }

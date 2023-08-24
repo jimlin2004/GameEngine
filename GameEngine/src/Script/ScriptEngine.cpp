@@ -42,21 +42,29 @@ void GameEngine::ScriptEngine::init(const std::string &dllPath)
 
     scriptEngineData.classMapPtr = getClassMapFuncPtr();
     
-    static bool initScriptCore = [](){
-        InitDllScriptCoreFuncPtr initDllScriptCoreFuncPtr = (InitDllScriptCoreFuncPtr)GetProcAddress(scriptEngineData.dllModule, "initDllScriptCore");
-        if (initDllScriptCoreFuncPtr == nullptr)
-        {
-            GameEngine::ConsoleApi::log("[Error] load initDllScriptCore function fail.\n");
-            return false;
-        }
-        initDllScriptCoreFuncPtr(new ScriptInterfaceImplement());
-        return true;
-    }();
+    InitDllScriptCoreFuncPtr initDllScriptCoreFuncPtr = (InitDllScriptCoreFuncPtr)GetProcAddress(scriptEngineData.dllModule, "initDllScriptCore");
+    if (initDllScriptCoreFuncPtr == nullptr)
+    {
+        GameEngine::ConsoleApi::log("[Error] load initDllScriptCore function fail.\n");
+        return;
+    }
+    static ScriptInterfaceImplement* scriptInterfaceImplement = new ScriptInterfaceImplement();
+    initDllScriptCoreFuncPtr(scriptInterfaceImplement);
 }
 
 GameEngine::Character* GameEngine::ScriptEngine::createActor(const std::string &actorType, entt::entity entityID, Scene* scenePtr)
 {
     return (*scriptEngineData.classMapPtr)[actorType](entityID, scenePtr);
+}
+
+std::vector<std::string> GameEngine::ScriptEngine::getAllClassName()
+{
+    std::vector<std::string> classVec;
+    for (auto& p: *(scriptEngineData.classMapPtr))
+    {
+        classVec.emplace_back(p.first);
+    }
+    return classVec;
 }
 
 #endif

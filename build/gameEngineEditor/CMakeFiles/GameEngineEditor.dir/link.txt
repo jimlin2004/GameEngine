@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\GameEngineEditor.dir/objects.a
 C:\PROGRA~1\msys64\mingw64\bin\ar.exe qc CMakeFiles\GameEngineEditor.dir/objects.a @CMakeFiles\GameEngineEditor.dir\objects1
-C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE -O2 -g -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\GameEngineEditor.dir/objects.a -Wl,--no-whole-archive -o GameEngineEditor.exe -Wl,--out-implib,libGameEngineEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GameEngineEditor.dir\linkLibs.rsp
+C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\GameEngineEditor.dir/objects.a -Wl,--no-whole-archive -o GameEngineEditor.exe -Wl,--out-implib,libGameEngineEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GameEngineEditor.dir\linkLibs.rsp

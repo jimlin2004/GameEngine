@@ -12,6 +12,7 @@ void TestActor::destroy()
 
 void TestActor::begin()
 {
+    printf("file: %s\n", __FILE__);
 }
 
 void TestActor::update(const float deltaTime)

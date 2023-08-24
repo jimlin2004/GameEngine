@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\TestGameLib.dir/objects.a
 C:\PROGRA~1\msys64\mingw64\bin\ar.exe qc CMakeFiles\TestGameLib.dir/objects.a @CMakeFiles\TestGameLib.dir\objects1
-C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE -O3 -DNDEBUG -shared -o ..\lib\GameEngineScript.dll -Wl,--out-implib,..\lib\libGameEngineScript.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\TestGameLib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\TestGameLib.dir\linkLibs.rsp
+C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE -g -shared -o ..\lib\GameEngineScript.dll -Wl,--out-implib,..\lib\libGameEngineScript.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\TestGameLib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\TestGameLib.dir\linkLibs.rsp
