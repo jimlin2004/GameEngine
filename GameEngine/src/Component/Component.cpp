@@ -110,3 +110,21 @@ std::string GameEngine::Rigidbody2DComponent::bodyTypeToString(BodyType bodyType
     GAME_ENGINE_ASSERT(false, "Unknow rigidbody type");
     return "Static";
 }
+
+GameEngine::ScriptComponent::ScriptComponent()
+    : instance(nullptr)
+    , className("None")
+{
+}
+
+GameEngine::ScriptComponent::ScriptComponent(const GameEngine::ScriptComponent& other)
+    : instance(other.instance)
+    , className(other.className)
+{
+}
+
+GameEngine::ScriptComponent::ScriptComponent(const std::string &newClassName)
+    : instance(nullptr)
+    , className(newClassName)
+{
+}

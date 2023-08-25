@@ -666,7 +666,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
@@ -1029,12 +1028,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
@@ -3207,19 +3200,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/deque \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
@@ -3358,6 +3339,21 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/integer.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_integer.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/deque \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_set \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
+  D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_projection.hpp \
@@ -3396,24 +3392,14 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_set \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
@@ -4413,7 +4399,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
@@ -4673,12 +4658,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
@@ -4763,6 +4742,9 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtCore/QList \
   D:/code/cpp/gameEngine/gameEngineEditor/include/Titlebar.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QDockWidget \
+  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/QCollapsibleWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/plugins/LineEditFloat.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h \
@@ -8536,7 +8518,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
@@ -9398,7 +9379,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj: D:/co
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.inl \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.inl \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/quaternion.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_relational.hpp \
@@ -11570,7 +11550,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
@@ -11830,12 +11809,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
@@ -13083,19 +13056,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/deque \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
@@ -13234,6 +13195,21 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/integer.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_integer.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/deque \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_set \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
+  D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_projection.hpp \
@@ -13272,24 +13248,14 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_set \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
@@ -13487,6 +13453,12 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
   D:/code/cpp/gameEngine/gameEngineEditor/include/runtime/SDL/SDLFileParser.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
   D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/QMainWindow \
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qmainwindow.h \
@@ -15124,7 +15096,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.c
   C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/compile/CompileProcess.cpp.obj: D:/code/cpp/gameEngine/gameEngineEditor/src/runtime/compile/CompileProcess.cpp \
@@ -16097,11 +16068,11 @@ C:/Program\ Files/msys64/mingw64/include/assert.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qstyleoption.h:
 
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h:
+D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x3_precision.hpp:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/QFontDatabase:
 
-D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x3_precision.hpp:
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qundogroup.h:
 
@@ -16433,11 +16404,11 @@ D:/QT/6.4.2/mingw_64/include/QtGui/qpagelayout.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qtextlayout.h:
 
-D:/code/cpp/gameEngine/gameEngineEditor/editorEntryPoint.cpp:
-
 D:/QT/6.4.2/mingw_64/include/QtGui/qvectornd.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qbytearray.h:
+
+D:/code/cpp/gameEngine/gameEngineEditor/editorEntryPoint.cpp:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qrefcount.h:
 
@@ -16592,10 +16563,6 @@ D:/QT/6.4.2/mingw_64/include/QtCore/qstringalgorithms.h:
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_quat.inl:
-
-D:/QT/6.4.2/mingw_64/include/QtGui/qrasterwindow.h:
-
-D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qutf8stringview.h:
 
@@ -16963,11 +16930,11 @@ D:/QT/6.4.2/mingw_64/include/QtWidgets/QApplication:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint4_sized.hpp:
 
+D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h:
+
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qapplication.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h:
-
-D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/climits:
 
@@ -17155,9 +17122,9 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/vaesi
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_vector_relational.inl:
 
-D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp:
-
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_vectorize.hpp:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_common.inl:
 
@@ -17607,10 +17574,6 @@ D:/QT/6.4.2/mingw_64/include/QtCore/qjsonarray.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/QJsonDocument:
 
-D:/QT/6.4.2/mingw_64/include/QtWidgets/qwizard.h:
-
-D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h:
-
 D:/QT/6.4.2/mingw_64/include/QtCore/qjsondocument.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/QJsonValue:
@@ -17859,6 +17822,8 @@ C:/Program\ Files/msys64/mingw64/include/timezoneapi.h:
 
 C:/Program\ Files/msys64/mingw64/include/wingdi.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp:
+
 C:/Program\ Files/msys64/mingw64/include/tvout.h:
 
 C:/Program\ Files/msys64/mingw64/include/datetimeapi.h:
@@ -17889,10 +17854,6 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream:
 
 D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h:
 
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue:
-
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h:
-
 D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h:
 
 D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h:
@@ -17912,8 +17873,6 @@ D:/QT/6.4.2/mingw_64/include/QtGui/qbackingstore.h:
 D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_truetype.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp:
-
-D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qfontdatabase.h:
 
@@ -17956,6 +17915,14 @@ D:/QT/6.4.2/mingw_64/include/QtCore/qlibrary.h:
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qstatusbar.h:
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QTabWidget:
+
+D:/QT/6.4.2/mingw_64/include/QtWidgets/qwizard.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h:
+
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue:
+
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h:
 
 D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h:
 
@@ -18264,6 +18231,8 @@ D:/QT/6.4.2/mingw_64/include/QtGui/qpaintengine.h:
 D:/QT/6.4.2/mingw_64/include/QtGui/qpainterpath.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qpixmapcache.h:
+
+D:/QT/6.4.2/mingw_64/include/QtGui/qrasterwindow.h:
 
 D:/QT/6.4.2/mingw_64/include/QtGui/qshortcut.h:
 

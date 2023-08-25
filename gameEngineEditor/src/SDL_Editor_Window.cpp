@@ -6,6 +6,8 @@
 #include "runtime/SDL/SDLFileParser.h"
 #include "Core/UUID.h"
 #include "Script/ScriptEngine.h"
+#include "Core/CameraController.h"
+#include "Opengl/TextureManager.h"
 #include "mainwindow.h"
 
 #include <filesystem>
@@ -24,6 +26,7 @@ SDL_Editor_Window::SDL_Editor_Window(const char* title, int width, int height)
     , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
     , frameBuffer(nullptr)
     , imguizmoVisible(false)
+    , isNeedToStopScene(false)
     , editorScene(nullptr)
     , sceneState(SceneState::Edit)
 {
@@ -140,6 +143,18 @@ void SDL_Editor_Window::update(float deltaTime)
 {
     if (this->sceneState == SceneState::Play)
         GameEngine::globalScene->unpdateRuntimeScene(deltaTime);
+
+    if (this->isNeedToStopScene)
+    {
+        // 防止qt的進程呼叫runtimeStop，SDL的進程卻還在更新physics
+        // 所以要防止physics world在更新時被刪除
+        // 利用isNeedToStopScene在下一次要更新時將scene stop
+        GameEngine::globalScene->onRunTimeStop();
+        GameEngine::globalScene = this->editorScene;
+        GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
+        this->isNeedToStopScene = false;
+        GameEngine::ScriptEngine::stop();
+    }
 }
 
 void SDL_Editor_Window::render()
@@ -321,33 +336,35 @@ void SDL_Editor_Window::onScenePlay()
 
 void SDL_Editor_Window::onSceneStop()
 {
-    GameEngine::globalScene->onRunTimeStop();
     this->sceneState = SceneState::Edit;
-    GameEngine::globalScene = this->editorScene;
-    // GameEngine::Actor::bindScene(GameEngine::globalScene);
-    GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
+    this->isNeedToStopScene = true;
+    // GameEngine::globalScene->onRunTimeStop();
+    // GameEngine::globalScene = this->editorScene;
+    // GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 }
 
 void SDL_Editor_Window::reloadDll()
 {
     if (std::filesystem::exists(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll"))
     {
-        GameEngine::ScriptEngine::init(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
+        GameEngine::ScriptEngine::reload(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
     }
-    else
-    {
-        std::string scriptPath = GameEngine::GEngine->getProjectRootPath() + "/source";
-        std::string extension;
-        if (std::filesystem::exists(scriptPath))
-        {
-            for (auto& file: std::filesystem::directory_iterator(scriptPath))
-            {
-                extension = file.path().extension().u8string();
-                GameEngine::ConsoleApi::log("%s\n", extension.c_str());
-            }
-        }
-    }
+    // else
+    // {
+    //     std::string scriptPath = GameEngine::GEngine->getProjectRootPath() + "/source";
+    //     std::string extension;
+    //     if (std::filesystem::exists(scriptPath))
+    //     {
+    //         for (auto& file: std::filesystem::directory_iterator(scriptPath))
+    //         {
+    //             extension = file.path().extension().u8string();
+    //             GameEngine::ConsoleApi::log("%s\n", extension.c_str());
+    //         }
+    //     }
+    // }
     this->mainWindowPtr->onReloadDLL();
+    // 在mainWindow改變完script component面板後，關閉Script Engine
+    GameEngine::ScriptEngine::stop();
 }
 
 void SDL_Editor_Window::bindIsFocusOnSDL(bool *ptr)

@@ -3,6 +3,7 @@
 #include <QWindow>
 #include "Component/Component.h"
 #include "Core/Platform.h"
+#include "Opengl/TextureManager.h"
 #include "plugins/QCollapsibleWidget.h"
 #include "plugins/LineEditFloat.h"
 #include "ComponentBrowserWidget.h"
@@ -172,6 +173,7 @@ void MainWindow::initTitlebar()
 {
     QMenuBar* menubar = new QMenuBar();
     menubar->setObjectName("menubar");
+    
     QMenu* fileMenu = new QMenu("File", menubar);
         QAction* actionSave = new QAction("Save", fileMenu);
         QAction* actionOpen = new QAction("Open", fileMenu);
@@ -180,10 +182,21 @@ void MainWindow::initTitlebar()
         fileMenu->addAction(actionSave);
         fileMenu->addAction(actionOpen);
     menubar->addMenu(fileMenu);
+    
     QMenu* settingMenu = new QMenu("Setting", menubar);
     menubar->addMenu(settingMenu);
+    
     QMenu* helpMenu = new QMenu("Help", menubar);
     menubar->addMenu(helpMenu);
+    
+    QMenu* scriptToolMenu = new QMenu("Script tool", menubar);
+        QAction* actionReloadScript = new QAction("Reload", scriptToolMenu);
+        connect(actionReloadScript, &QAction::triggered, [this](){
+            this->SDL_editor_window->reloadDll();
+        });
+        scriptToolMenu->addAction(actionReloadScript);
+    menubar->addMenu(scriptToolMenu);
+
     menubar->setSizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
     this->ui->menubarLayout->setAlignment(Qt::AlignCenter);
     this->ui->menubarLayout->addWidget(menubar);
@@ -372,6 +385,7 @@ void MainWindow::onReloadDLL()
     QComboBox* comboBox = this->ui->comboBox_script;
     std::vector<std::string> classNames = GameEngine::ScriptEngine::getAllClassName();
     comboBox->clear();
+    comboBox->addItem("None");
     for (const std::string& className: classNames)
     {
         comboBox->addItem(QString::fromStdString(className));
@@ -683,6 +697,13 @@ void MainWindow::initDetailConnection()
 
         rigidbody2DComponent.type = bodyType;
     });
+    connect(this->ui->comboBox_script, &QComboBox::currentIndexChanged, [this](){
+        entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+        if (entityID == entt::null)
+            return;
+        GameEngine::ScriptComponent& scriptComponent = GameEngine::globalScene->queryActorComponent<GameEngine::ScriptComponent>(entityID);
+        scriptComponent.className = this->ui->comboBox_script->currentText().toStdString();
+    });
 }
 
 template<>
@@ -740,6 +761,11 @@ void MainWindow::pushComponentProperty<GameEngine::CameraComponent>(const entt::
 template<>
 void MainWindow::pushComponentProperty<GameEngine::ScriptComponent>(const entt::entity& entityID)
 {
+    GameEngine::ScriptComponent& scriptComponent = GameEngine::globalScene->queryActorComponent<GameEngine::ScriptComponent>(entityID);
+    
+    //<Todo> script class如果不存在時的異常處理(2023/08/25)
+    this->ui->comboBox_script->setCurrentText(QString::fromStdString(scriptComponent.className));
+
     this->ui->qCollapsibleWidget_script->show();
 }
 

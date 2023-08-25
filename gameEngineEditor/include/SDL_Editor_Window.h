@@ -51,6 +51,7 @@ private:
     //imguizmo 的isOver會用到緩存數據(當hoverActor的id不是entt::null才會更新)
     //為了修復此問題所以增加此變數防止點物件再點空的空間再點原物件會點不到的問題
     bool imguizmoVisible;
+    bool isNeedToStopScene;
     ImVec2 viewportSize;
     
     ImGuizmo::OPERATION gizmoOperation;

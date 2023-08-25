@@ -479,5 +479,4 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.c
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h

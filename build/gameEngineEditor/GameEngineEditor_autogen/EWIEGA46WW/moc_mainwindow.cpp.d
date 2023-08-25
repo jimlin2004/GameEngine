@@ -122,7 +122,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
@@ -200,7 +199,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
-  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/queue \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ranges \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ratio \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
@@ -691,7 +689,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
@@ -702,9 +699,7 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \

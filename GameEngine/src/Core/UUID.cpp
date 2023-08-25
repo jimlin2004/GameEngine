@@ -42,9 +42,9 @@ void  GameEngine::to_json(GameEngine::Json &json, const GameEngine::UUID &uuid)
 {
     std::string uuidData;
     char buffer[24];
-    std::snprintf(buffer, sizeof(buffer), "%020"PRIu64, uuid._UUID[1]);
+    std::snprintf(buffer, sizeof(buffer), "%020" PRIu64, uuid._UUID[1]);
     uuidData += std::string(buffer);
-    std::snprintf(buffer, sizeof(buffer), "%020"PRIu64, uuid._UUID[0]);
+    std::snprintf(buffer, sizeof(buffer), "%020" PRIu64, uuid._UUID[0]);
     uuidData += std::string(buffer);
     json = GameEngine::Json{
         {"UUID", uuidData}

@@ -141,6 +141,30 @@ TestGameLib/fast:
 	$(MAKE) $(MAKESILENT) -f resource\CMakeFiles\TestGameLib.dir\build.make resource/CMakeFiles/TestGameLib.dir/build
 .PHONY : TestGameLib/fast
 
+source/TestGame/Bird.obj: source/TestGame/Bird.cpp.obj
+.PHONY : source/TestGame/Bird.obj
+
+# target to build an object file
+source/TestGame/Bird.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/Bird.cpp.obj
+.PHONY : source/TestGame/Bird.cpp.obj
+
+source/TestGame/Bird.i: source/TestGame/Bird.cpp.i
+.PHONY : source/TestGame/Bird.i
+
+# target to preprocess a source file
+source/TestGame/Bird.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/Bird.cpp.i
+.PHONY : source/TestGame/Bird.cpp.i
+
+source/TestGame/Bird.s: source/TestGame/Bird.cpp.s
+.PHONY : source/TestGame/Bird.s
+
+# target to generate assembly for a file
+source/TestGame/Bird.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestGame.dir\build.make CMakeFiles/TestGame.dir/source/TestGame/Bird.cpp.s
+.PHONY : source/TestGame/Bird.cpp.s
+
 source/TestGame/TestActor.obj: source/TestGame/TestActor.cpp.obj
 .PHONY : source/TestGame/TestActor.obj
 
@@ -199,6 +223,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... TestGame
 	@echo ... TestGameLib
+	@echo ... source/TestGame/Bird.obj
+	@echo ... source/TestGame/Bird.i
+	@echo ... source/TestGame/Bird.s
 	@echo ... source/TestGame/TestActor.obj
 	@echo ... source/TestGame/TestActor.i
 	@echo ... source/TestGame/TestActor.s

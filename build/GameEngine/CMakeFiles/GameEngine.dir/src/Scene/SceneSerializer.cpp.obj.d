@@ -448,19 +448,15 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/queue \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \

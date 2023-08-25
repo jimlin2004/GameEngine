@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/code/cpp/gameEngine/TestGame/source/TestGame/Bird.cpp" "resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj" "gcc" "resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj.d"
   "D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.cpp" "resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj" "gcc" "resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj.d"
   )
 

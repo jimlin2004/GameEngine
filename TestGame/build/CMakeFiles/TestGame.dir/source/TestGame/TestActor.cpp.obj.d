@@ -1,6 +1,7 @@
 CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp \
  D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/GameEngineCore.h \
  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h \
  D:/code/cpp/gameEngine/GameEngine/include/Script/ClassMap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/string \
@@ -119,10 +120,23 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
- D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
- C:/PROGRA~1/msys64/mingw64/include/assert.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptCore.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/sys/types.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/string.h \
+ C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
+ C:/PROGRA~1/msys64/mingw64/include/strings.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cmath \
  C:/PROGRA~1/msys64/mingw64/include/math.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
@@ -139,6 +153,14 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+ C:/PROGRA~1/msys64/mingw64/include/float.h \
+ C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInterface.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
+ C:/PROGRA~1/msys64/mingw64/include/assert.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstddef \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iterator \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
@@ -149,7 +171,6 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
  C:/PROGRA~1/msys64/mingw64/include/pthread.h \
- C:/PROGRA~1/msys64/mingw64/include/sys/types.h \
  C:/PROGRA~1/msys64/mingw64/include/process.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_startup.h \
  C:/PROGRA~1/msys64/mingw64/include/signal.h \
@@ -225,8 +246,6 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/simd/platform.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/climits \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cfloat \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
- C:/PROGRA~1/msys64/mingw64/include/float.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/fwd.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/qualifier.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
@@ -361,24 +380,14 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/UUID.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/random \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/opt_random.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/emmintrin.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xmmintrin.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mmintrin.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mwaitintrin.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/random.tcc \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/sstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/istream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/numeric \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/forward_list \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
@@ -394,8 +403,6 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/version \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cstring \
- C:/PROGRA~1/msys64/mingw64/include/string.h \
- C:/PROGRA~1/msys64/mingw64/include/sec_api/string_s.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/filesystem \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/chrono.h \
@@ -416,21 +423,6 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h \
- D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptCore.h \
- D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_keycode.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_stdinc.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_config.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_platform.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/begin_code.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/close_code.h \
- C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
- C:/PROGRA~1/msys64/mingw64/include/strings.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
- C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
  D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_projection.hpp \
@@ -473,5 +465,4 @@ CMakeFiles/TestGame.dir/source/TestGame/TestActor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h

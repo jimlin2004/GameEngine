@@ -4,11 +4,9 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 
-#include "GameObject.h"
-
 namespace GameEngine
 {
-    class Camera: GameObject
+    class Camera
     {
     public:
         Camera();

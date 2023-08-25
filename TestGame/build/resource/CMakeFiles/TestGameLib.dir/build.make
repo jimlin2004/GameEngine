@@ -68,11 +68,26 @@ include resource/CMakeFiles/TestGameLib.dir/progress.make
 # Include the compile flags for this target's objects.
 include resource/CMakeFiles/TestGameLib.dir/flags.make
 
+resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: resource/CMakeFiles/TestGameLib.dir/flags.make
+resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: resource/CMakeFiles/TestGameLib.dir/includes_CXX.rsp
+resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/TestGame/Bird.cpp
+resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: resource/CMakeFiles/TestGameLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\TestGame\build\resource && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj -MF CMakeFiles\TestGameLib.dir\__\source\TestGame\Bird.cpp.obj.d -o CMakeFiles\TestGameLib.dir\__\source\TestGame\Bird.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\TestGame\Bird.cpp
+
+resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.i"
+	cd /d D:\code\cpp\gameEngine\TestGame\build\resource && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\TestGame\source\TestGame\Bird.cpp > CMakeFiles\TestGameLib.dir\__\source\TestGame\Bird.cpp.i
+
+resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.s"
+	cd /d D:\code\cpp\gameEngine\TestGame\build\resource && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\TestGame\source\TestGame\Bird.cpp -o CMakeFiles\TestGameLib.dir\__\source\TestGame\Bird.cpp.s
+
 resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj: resource/CMakeFiles/TestGameLib.dir/flags.make
 resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj: resource/CMakeFiles/TestGameLib.dir/includes_CXX.rsp
 resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj: D:/code/cpp/gameEngine/TestGame/source/TestGame/TestActor.cpp
 resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj: resource/CMakeFiles/TestGameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\TestGame\build\resource && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj -MF CMakeFiles\TestGameLib.dir\__\source\TestGame\TestActor.cpp.obj.d -o CMakeFiles\TestGameLib.dir\__\source\TestGame\TestActor.cpp.obj -c D:\code\cpp\gameEngine\TestGame\source\TestGame\TestActor.cpp
 
 resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.i: cmake_force
@@ -85,18 +100,20 @@ resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.s: cmake_fo
 
 # Object files for target TestGameLib
 TestGameLib_OBJECTS = \
+"CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj" \
 "CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj"
 
 # External object files for target TestGameLib
 TestGameLib_EXTERNAL_OBJECTS =
 
+lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/build.make
 lib/GameEngineScript.dll: D:/code/cpp/gameEngine/GameEngine/lib/libGameEngine.a
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/linkLibs.rsp
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/objects1
 lib/GameEngineScript.dll: resource/CMakeFiles/TestGameLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ..\lib\GameEngineScript.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\TestGame\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ..\lib\GameEngineScript.dll"
 	cd /d D:\code\cpp\gameEngine\TestGame\build\resource && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestGameLib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

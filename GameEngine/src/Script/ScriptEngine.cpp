@@ -52,6 +52,21 @@ void GameEngine::ScriptEngine::init(const std::string &dllPath)
     initDllScriptCoreFuncPtr(scriptInterfaceImplement);
 }
 
+void GameEngine::ScriptEngine::stop()
+{
+    if (scriptEngineData.dllModule != NULL)
+    {
+        FreeLibrary(scriptEngineData.dllModule);
+        scriptEngineData.dllModule = NULL;
+    }
+}
+
+void GameEngine::ScriptEngine::reload(const std::string &dllPath)
+{
+    GameEngine::ScriptEngine::stop();
+    GameEngine::ScriptEngine::init(dllPath);
+}
+
 GameEngine::Character* GameEngine::ScriptEngine::createActor(const std::string &actorType, entt::entity entityID, Scene* scenePtr)
 {
     return (*scriptEngineData.classMapPtr)[actorType](entityID, scenePtr);

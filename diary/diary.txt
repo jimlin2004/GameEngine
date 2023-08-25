@@ -492,3 +492,15 @@
         -editor的script component尚未完成editor修改script component的功能(comboBox event)
         -dll雖然從30MB降至450KB，但看了unreal及unity覺得還可以更低，以及dll的編譯速度是否可以加快
     存檔紀錄 --version 1.0-dev
+2023/08/25
+    1. 移除棄用的FSM.cpp、自己編寫的physics、Graphics.cpp、SceneGraph.cpp、EveneSystem.cpp
+    2. 測試Editor reload dll功能可用(尚未hot reload)
+    3. dll降至120KB，但還有進步空間
+    4. 修復ScriptCore 重複宣告的問題(要extern給dll的function需要加上inline，REGISTER_CLASS補上static)
+    5. Qt ScriptComponent的面板可以設定script className，但dll改變導致script className過時
+       的異常處理尚未實作
+    Todo list
+        -ScriptComponent的異常處理
+        -Script system
+        -Editor各項異常處理
+    存檔紀錄 --version 1.0-dev

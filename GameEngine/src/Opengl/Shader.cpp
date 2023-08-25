@@ -1,5 +1,7 @@
 #include "Opengl/Shader.h"
 
+#include "Opengl/ShaderManager.h"
+
 GameEngine::Shader::Shader()
 {
     this->id = 0;

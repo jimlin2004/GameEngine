@@ -81,7 +81,7 @@ gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/code/cpp/gameEngine/gameEngineEditor/icon/compile.png
 gameEngineEditor/GameEngineEditor_autogen/EWIEGA46WW/qrc_mainwindow.cpp: D:/QT/6.4.2/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for mainwindow.qrc"
-	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+	cd /d D:\code\cpp\gameEngine\build\gameEngineEditor && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/code/cpp/gameEngine/build/gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_compilation.cpp.obj: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
@@ -696,6 +696,7 @@ gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6Widgets.a
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6OpenGL.a
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6Gui.a
 gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6Core.a
+gameEngineEditor/GameEngineEditor.exe: D:/QT/6.4.2/mingw_64/lib/libQt6EntryPoint.a
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/linkLibs.rsp
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/objects1
 gameEngineEditor/GameEngineEditor.exe: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/link.txt

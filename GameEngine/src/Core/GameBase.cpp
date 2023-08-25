@@ -1,4 +1,5 @@
 #include "Core/GameBase.h"
+#include "Core/CameraController.h"
 #include "Event/Input.h"
 
 GameEngine::GameBase::GameBase(const char* title, int width, int height)

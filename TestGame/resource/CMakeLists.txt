@@ -11,6 +11,11 @@ file(
     ${CMAKE_SOURCE_DIR}/source/${GameName}/*.cpp
 )
 
+if (CMAKE_BUILD_TYPE STREQUAL "Release")
+    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Os -Wall -s")
+    set(CMAKE_C_FLAGS_RELEASE "${CMAKE_FLAGS_RELEASE} -Os -Wall -s")
+endif ()
+
 add_library(${PROJECT_NAME} SHARED ${LOCAL_SRC_FILES})
 
 # 取消dll的前綴"Lib" 

@@ -290,54 +290,6 @@ src/Core/CameraController.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/CameraController.cpp.s
 .PHONY : src/Core/CameraController.cpp.s
 
-src/Core/EventSystem.obj: src/Core/EventSystem.cpp.obj
-.PHONY : src/Core/EventSystem.obj
-
-# target to build an object file
-src/Core/EventSystem.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/EventSystem.cpp.obj
-.PHONY : src/Core/EventSystem.cpp.obj
-
-src/Core/EventSystem.i: src/Core/EventSystem.cpp.i
-.PHONY : src/Core/EventSystem.i
-
-# target to preprocess a source file
-src/Core/EventSystem.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/EventSystem.cpp.i
-.PHONY : src/Core/EventSystem.cpp.i
-
-src/Core/EventSystem.s: src/Core/EventSystem.cpp.s
-.PHONY : src/Core/EventSystem.s
-
-# target to generate assembly for a file
-src/Core/EventSystem.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/EventSystem.cpp.s
-.PHONY : src/Core/EventSystem.cpp.s
-
-src/Core/FSM.obj: src/Core/FSM.cpp.obj
-.PHONY : src/Core/FSM.obj
-
-# target to build an object file
-src/Core/FSM.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/FSM.cpp.obj
-.PHONY : src/Core/FSM.cpp.obj
-
-src/Core/FSM.i: src/Core/FSM.cpp.i
-.PHONY : src/Core/FSM.i
-
-# target to preprocess a source file
-src/Core/FSM.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/FSM.cpp.i
-.PHONY : src/Core/FSM.cpp.i
-
-src/Core/FSM.s: src/Core/FSM.cpp.s
-.PHONY : src/Core/FSM.s
-
-# target to generate assembly for a file
-src/Core/FSM.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/FSM.cpp.s
-.PHONY : src/Core/FSM.cpp.s
-
 src/Core/GELib.obj: src/Core/GELib.cpp.obj
 .PHONY : src/Core/GELib.obj
 
@@ -794,30 +746,6 @@ src/Opengl/VertexBufferLayout.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/VertexBufferLayout.cpp.s
 .PHONY : src/Opengl/VertexBufferLayout.cpp.s
 
-src/Render/Graphics.obj: src/Render/Graphics.cpp.obj
-.PHONY : src/Render/Graphics.obj
-
-# target to build an object file
-src/Render/Graphics.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.obj
-.PHONY : src/Render/Graphics.cpp.obj
-
-src/Render/Graphics.i: src/Render/Graphics.cpp.i
-.PHONY : src/Render/Graphics.i
-
-# target to preprocess a source file
-src/Render/Graphics.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.i
-.PHONY : src/Render/Graphics.cpp.i
-
-src/Render/Graphics.s: src/Render/Graphics.cpp.s
-.PHONY : src/Render/Graphics.s
-
-# target to generate assembly for a file
-src/Render/Graphics.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Render/Graphics.cpp.s
-.PHONY : src/Render/Graphics.cpp.s
-
 src/Render/Renderer.obj: src/Render/Renderer.cpp.obj
 .PHONY : src/Render/Renderer.obj
 
@@ -865,30 +793,6 @@ src/Scene/Scene.s: src/Scene/Scene.cpp.s
 src/Scene/Scene.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.s
 .PHONY : src/Scene/Scene.cpp.s
-
-src/Scene/SceneGraph.obj: src/Scene/SceneGraph.cpp.obj
-.PHONY : src/Scene/SceneGraph.obj
-
-# target to build an object file
-src/Scene/SceneGraph.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.obj
-.PHONY : src/Scene/SceneGraph.cpp.obj
-
-src/Scene/SceneGraph.i: src/Scene/SceneGraph.cpp.i
-.PHONY : src/Scene/SceneGraph.i
-
-# target to preprocess a source file
-src/Scene/SceneGraph.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.i
-.PHONY : src/Scene/SceneGraph.cpp.i
-
-src/Scene/SceneGraph.s: src/Scene/SceneGraph.cpp.s
-.PHONY : src/Scene/SceneGraph.s
-
-# target to generate assembly for a file
-src/Scene/SceneGraph.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneGraph.cpp.s
-.PHONY : src/Scene/SceneGraph.cpp.s
 
 src/Scene/SceneSerializer.obj: src/Scene/SceneSerializer.cpp.obj
 .PHONY : src/Scene/SceneSerializer.obj
@@ -1010,30 +914,6 @@ src/Script/ScriptInterfaceImplement.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInterfaceImplement.cpp.s
 .PHONY : src/Script/ScriptInterfaceImplement.cpp.s
 
-src/physics/boundingBox/AABB.obj: src/physics/boundingBox/AABB.cpp.obj
-.PHONY : src/physics/boundingBox/AABB.obj
-
-# target to build an object file
-src/physics/boundingBox/AABB.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.obj
-.PHONY : src/physics/boundingBox/AABB.cpp.obj
-
-src/physics/boundingBox/AABB.i: src/physics/boundingBox/AABB.cpp.i
-.PHONY : src/physics/boundingBox/AABB.i
-
-# target to preprocess a source file
-src/physics/boundingBox/AABB.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.i
-.PHONY : src/physics/boundingBox/AABB.cpp.i
-
-src/physics/boundingBox/AABB.s: src/physics/boundingBox/AABB.cpp.s
-.PHONY : src/physics/boundingBox/AABB.s
-
-# target to generate assembly for a file
-src/physics/boundingBox/AABB.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/physics/boundingBox/AABB.cpp.s
-.PHONY : src/physics/boundingBox/AABB.cpp.s
-
 third_party/stb_image/std_image.obj: third_party/stb_image/std_image.cpp.obj
 .PHONY : third_party/stb_image/std_image.obj
 
@@ -1085,12 +965,6 @@ help:
 	@echo ... src/Core/CameraController.obj
 	@echo ... src/Core/CameraController.i
 	@echo ... src/Core/CameraController.s
-	@echo ... src/Core/EventSystem.obj
-	@echo ... src/Core/EventSystem.i
-	@echo ... src/Core/EventSystem.s
-	@echo ... src/Core/FSM.obj
-	@echo ... src/Core/FSM.i
-	@echo ... src/Core/FSM.s
 	@echo ... src/Core/GELib.obj
 	@echo ... src/Core/GELib.i
 	@echo ... src/Core/GELib.s
@@ -1148,18 +1022,12 @@ help:
 	@echo ... src/Opengl/VertexBufferLayout.obj
 	@echo ... src/Opengl/VertexBufferLayout.i
 	@echo ... src/Opengl/VertexBufferLayout.s
-	@echo ... src/Render/Graphics.obj
-	@echo ... src/Render/Graphics.i
-	@echo ... src/Render/Graphics.s
 	@echo ... src/Render/Renderer.obj
 	@echo ... src/Render/Renderer.i
 	@echo ... src/Render/Renderer.s
 	@echo ... src/Scene/Scene.obj
 	@echo ... src/Scene/Scene.i
 	@echo ... src/Scene/Scene.s
-	@echo ... src/Scene/SceneGraph.obj
-	@echo ... src/Scene/SceneGraph.i
-	@echo ... src/Scene/SceneGraph.s
 	@echo ... src/Scene/SceneSerializer.obj
 	@echo ... src/Scene/SceneSerializer.i
 	@echo ... src/Scene/SceneSerializer.s
@@ -1175,9 +1043,6 @@ help:
 	@echo ... src/Script/ScriptInterfaceImplement.obj
 	@echo ... src/Script/ScriptInterfaceImplement.i
 	@echo ... src/Script/ScriptInterfaceImplement.s
-	@echo ... src/physics/boundingBox/AABB.obj
-	@echo ... src/physics/boundingBox/AABB.i
-	@echo ... src/physics/boundingBox/AABB.s
 	@echo ... third_party/stb_image/std_image.obj
 	@echo ... third_party/stb_image/std_image.i
 	@echo ... third_party/stb_image/std_image.s

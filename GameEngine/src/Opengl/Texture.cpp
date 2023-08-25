@@ -8,6 +8,7 @@ lastest modify
 #include "Opengl/Texture.h"
 
 #include <filesystem>
+#include "Opengl/TextureManager.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 
 GameEngine::Texture::Texture()

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../lib/GameEngineScript.dll.manifest"
   "../lib/GameEngineScript.pdb"
   "../lib/libGameEngineScript.dll.a"
+  "CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj"
+  "CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj.d"
   "CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj"
   "CMakeFiles/TestGameLib.dir/__/source/TestGame/TestActor.cpp.obj.d"
 )

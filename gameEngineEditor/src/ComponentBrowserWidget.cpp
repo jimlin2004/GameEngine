@@ -235,7 +235,7 @@ void ComponentBrowserWidget::entityAddComponent(entt::entity &entityID, GameEngi
         actor.addComponent<GameEngine::BoxCollider2DComponent>();
         break;
     case GameEngine::GameEngineComponentType::ScriptComponent:
-        actor.addComponent<GameEngine::ScriptComponent>();
+        actor.addComponent<GameEngine::ScriptComponent>("None");
         break;
     default:
         isAddedComponent = false;

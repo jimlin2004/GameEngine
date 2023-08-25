@@ -2,14 +2,13 @@
 #define GE_GAMEENGINEAPI_H
 
 #include <functional>
-#include "Opengl/ShaderManager.h"
-#include "Opengl/TextureManager.h"
-#include "Core/CameraController.h"
-// #include "Scene/Scene.h"
-#include <functional>
+#include <string>
 
 namespace GameEngine
 {
+    class ShaderManager;
+    class TextureManager;
+    class CameraController;
     //操作基本底層訪問的api
     class GameEngineAPI
     { 

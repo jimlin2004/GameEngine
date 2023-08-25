@@ -30,7 +30,7 @@ namespace GameEngine
     }
 
     // 為dll中的scriptInterface bind 為 exe GameEngine中的
-    extern "C" __declspec(dllexport) void initDllScriptCore(ScriptInterface* newScriptInterface)
+    extern "C" __declspec(dllexport) inline void initDllScriptCore(ScriptInterface* newScriptInterface)
     {
         GEngineCore::initScriptCore(newScriptInterface);
     }
@@ -55,7 +55,7 @@ namespace GameEngine
 
     
     #define REGISTER_CLASS(classTypeName)\
-        GameEngine::ClassFactoryInitializer<classTypeName> initializer;
+        static GameEngine::ClassFactoryInitializer<classTypeName> initializer;
 }
 
 #endif

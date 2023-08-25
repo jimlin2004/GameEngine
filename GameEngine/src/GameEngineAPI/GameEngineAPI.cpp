@@ -1,5 +1,9 @@
 #include "GameEngineApi/GameEngineApi.h"
 
+#include "Opengl/ShaderManager.h"
+#include "Opengl/TextureManager.h"
+#include "Core/CameraController.h"
+
 #include <filesystem>
 
 GameEngine::GameEngineAPI::GameEngineAPI()

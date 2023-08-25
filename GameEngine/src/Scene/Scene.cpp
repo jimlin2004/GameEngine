@@ -3,6 +3,7 @@
 #include "Component/Component.h"
 #include "Render/Renderer.h"
 #include "Core/Assert.h"
+#include "Core/CameraController.h"
 
 #include <unordered_map>
 #include "box2d/b2_world.h"
@@ -32,7 +33,8 @@ void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
 {
     this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
     {
-        scriptComponent.instance->update(deltaTime);
+        if (scriptComponent.instance != nullptr)
+            scriptComponent.instance->update(deltaTime);
     });
 
     //physics
@@ -201,7 +203,9 @@ void GameEngine::Scene::onRuntimeStart()
         GameEngine::Actor actor = {entityID, this};
         GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
         
-        scriptComponent.instance = GameEngine::ScriptEngine::createActor("TestActor", entityID, this);
+        if (scriptComponent.className == "None")
+            continue;
+        scriptComponent.instance = GameEngine::ScriptEngine::createActor(scriptComponent.className, entityID, this);
         scriptComponent.instance->begin();
     }
 }

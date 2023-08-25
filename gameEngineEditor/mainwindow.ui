@@ -132,7 +132,7 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-431</y>
+             <y>-484</y>
              <width>454</width>
              <height>919</height>
             </rect>
@@ -549,7 +549,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QComboBox" name="comboBox_script"/>
+                 <widget class="AdvancedComboBox" name="comboBox_script"/>
                 </item>
                 <item>
                  <spacer name="horizontalSpacer_7">

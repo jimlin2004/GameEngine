@@ -6,5 +6,5 @@ CXX_DEFINES = -DGENGINE_DLL -DTestGameLib_EXPORTS
 
 CXX_INCLUDES = @CMakeFiles/TestGameLib.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS = -O3 -DNDEBUG -Os -Wall -s -std=gnu++17
 

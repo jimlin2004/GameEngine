@@ -595,7 +595,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \

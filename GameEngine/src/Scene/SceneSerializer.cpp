@@ -2,6 +2,7 @@
 
 #include "Core/GELib.h"
 #include "GameEngineAPI/GameEngineAPI.h"
+#include "Opengl/TextureManager.h"
 #include "GameEngineAPI/ConsoleApi.h"
 #include "Core/Assert.h"
 
@@ -33,6 +34,10 @@ void GameEngine::SceneSerializer::serializeEntity(Actor &actor, Json& jsonArray)
     if (actor.hasComponent<CameraComponent>())
     {
         jsonObject["Camera"]["Primary"] = actor.getComponent<CameraComponent>().primary;
+    }
+    if (actor.hasComponent<ScriptComponent>())
+    {
+        jsonObject["Script"]["ClassName"] = actor.getComponent<ScriptComponent>().className;
     }
     if (actor.hasComponent<Rigidbody2DComponent>())
     {
@@ -71,79 +76,14 @@ void GameEngine::SceneSerializer::serialize(const std::string& path)
 
 bool GameEngine::SceneSerializer::deserialize(const std::string& path)
 {
-    if (GameEngine::globalScene != nullptr)
-        delete GameEngine::globalScene;
-    GameEngine::globalScene = new Scene();
-    // GameEngine::Actor::bindScene(GameEngine::globalScene);
-
-    Json json;
-    std::ifstream input(path);
-    input >> json;
-    Json jsonActors = json["Actors"];
-    for (Json jsonActor: jsonActors)
-    {
-        Actor* actor = GameEngine::globalScene->spawnActor<Actor>();
-        actor->bindScene(GameEngine::globalScene);
-        if (jsonActor.contains("UUID"))
-        {
-            actor->addComponent<IDComponent>(jsonActor["UUID"].get<GameEngine::UUID>());
-        }
-        if (jsonActor.contains("TagName"))
-        {
-            auto typeName_str_view = TYPE_NAME_BY_TYPE(Actor);
-            std::string typeName = {typeName_str_view.begin(), typeName_str_view.end()};
-            actor->addComponent<TagComponent>(jsonActor["TagName"].get<std::string>(), typeName);
-        }
-        if (jsonActor.contains("Transform"))
-        {
-            glm::vec3 position = GameEngine::vectorToVec3(jsonActor["Transform"]["Position"].get<std::vector<float>>());
-            glm::vec3 scale = GameEngine::vectorToVec3(jsonActor["Transform"]["Scale"].get<std::vector<float>>());
-            glm::vec3 rotation = GameEngine::vectorToVec3(jsonActor["Transform"]["Rotation"].get<std::vector<float>>());
-            actor->addComponent<TransformComponent>(position, scale, rotation);
-        }
-        if (jsonActor.contains("Mesh"))
-        {
-            glm::vec4 color = GameEngine::vectorToVec4(jsonActor["Mesh"]["Color"]);
-            GameEngine::Texture* texture = nullptr;
-            if (jsonActor["Mesh"].contains("Texture"))
-            {
-                std::string absoluteFilePath = GameEngine::GEngine->getProjectRootPath() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
-                texture->load(absoluteFilePath.c_str(), GL_NEAREST);
-            }
-                
-            actor->addComponent<MeshComponent>(color);
-        }
-        if (jsonActor.contains("Camera"))
-        {
-            actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
-        }
-        if (jsonActor.contains("Rigidbody2D"))
-        {
-            GameEngine::Rigidbody2DComponent rigidbody2DComponent;
-            rigidbody2DComponent.type = GameEngine::Rigidbody2DComponent::stringToBodyType(jsonActor["Rigidbody2D"]["BodyType"].get<std::string>());
-            rigidbody2DComponent.fixedRotation = jsonActor["Rigidbody2D"]["FixedRotation"].get<bool>();
-            actor->addComponent<GameEngine::Rigidbody2DComponent>(rigidbody2DComponent);
-        }
-        if (jsonActor.contains("BoxCollider2D"))
-        {
-            GameEngine::BoxCollider2DComponent boxCollider2DComponent;
-            boxCollider2DComponent.offset = GameEngine::vectorToVec2(jsonActor["BoxCollider2D"]["Offset"].get<std::vector<float>>());
-            boxCollider2DComponent.size   = GameEngine::vectorToVec2(jsonActor["BoxCollider2D"]["Size"].get<std::vector<float>>());
-            boxCollider2DComponent.density     = jsonActor["BoxCollider2D"]["Density"].get<float>();
-            boxCollider2DComponent.friction    = jsonActor["BoxCollider2D"]["Friction"].get<float>();
-            boxCollider2DComponent.restitution = jsonActor["BoxCollider2D"]["Restitution"].get<float>();
-            boxCollider2DComponent.restitutionThreshold = jsonActor["BoxCollider2D"]["RestitutionThreshold"].get<float>();
-            actor->addComponent<GameEngine::BoxCollider2DComponent>(boxCollider2DComponent);
-        }
-    }
-    return true;
+    return this->deserialize(path, &GameEngine::globalScene);
 }
 
-bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *scenePtr)
+bool GameEngine::SceneSerializer::deserialize(const std::string& path, Scene** scenePtr)
 {
-    if (scenePtr != nullptr)
-        delete scenePtr;
-    scenePtr = new Scene();
+    if ((*scenePtr) != nullptr)
+        delete (*scenePtr);
+    (*scenePtr) = new Scene();
     // GameEngine::Actor::bindScene(scenePtr);
 
     Json json;
@@ -152,8 +92,8 @@ bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *sc
     Json jsonActors = json["Actors"];
     for (Json jsonActor: jsonActors)
     {
-        Actor* actor = scenePtr->spawnActor<Actor>();
-        actor->bindScene(GameEngine::globalScene);
+        Actor* actor = (*scenePtr)->spawnActor<Actor>();
+        actor->bindScene((*scenePtr));
         if (jsonActor.contains("UUID"))
         {
             actor->addComponent<IDComponent>(jsonActor["UUID"].get<GameEngine::UUID>());
@@ -186,6 +126,12 @@ bool GameEngine::SceneSerializer::deserialize(const std::string &path, Scene *sc
         if (jsonActor.contains("Camera"))
         {
             actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
+        }
+        if (jsonActor.contains("Script"))
+        {
+            GameEngine::ScriptComponent scriptComponent;
+            scriptComponent.className = jsonActor["Script"]["ClassName"].get<std::string>();
+            actor->addComponent<GameEngine::ScriptComponent>(scriptComponent);
         }
         if (jsonActor.contains("Rigidbody2D"))
         {

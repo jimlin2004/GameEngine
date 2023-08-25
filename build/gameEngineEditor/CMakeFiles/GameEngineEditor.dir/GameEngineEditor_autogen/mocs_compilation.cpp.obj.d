@@ -662,7 +662,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
  D:/QT/6.4.2/mingw_64/include/QtWidgets/QTreeWidget \
@@ -1025,12 +1024,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/ShaderManager.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/TextureManager.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/queue \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/CameraController.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
  D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \

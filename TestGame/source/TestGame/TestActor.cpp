@@ -12,12 +12,13 @@ void TestActor::destroy()
 
 void TestActor::begin()
 {
-    printf("file: %s\n", __FILE__);
 }
 
 void TestActor::update(const float deltaTime)
 {
     GameEngine::TransformComponent& transform = this->getComponent<GameEngine::TransformComponent>();
+    // GameEngine::MeshComponent& mesh = this->getComponent<GameEngine::MeshComponent>();
+    // mesh.color.r = 0;
     if (GEngineCore::Input::isKeyPressed(GameEngine::Key_A))
         transform.translation.x -= (10.0f * deltaTime);
     if (GEngineCore::Input::isKeyPressed(GameEngine::Key_D))

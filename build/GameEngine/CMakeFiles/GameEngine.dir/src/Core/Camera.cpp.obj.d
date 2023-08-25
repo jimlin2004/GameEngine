@@ -214,5 +214,4 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Core/Camera.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_clip_space.inl \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.inl \
- D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.inl \
- D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h
+ D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.inl

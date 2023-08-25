@@ -121,7 +121,7 @@ public:
     QWidget *contentWidget_script;
     QHBoxLayout *horizontalLayout_8;
     QLabel *label_script;
-    QComboBox *comboBox_script;
+    AdvancedComboBox *comboBox_script;
     QSpacerItem *horizontalSpacer_7;
     QCollapsibleWidget *qCollapsibleWidget_rigidbody2D;
     QWidget *contentWidget_rigidbody2D;
@@ -252,7 +252,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -431, 454, 919));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -484, 454, 919));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -569,7 +569,7 @@ public:
 
         horizontalLayout_8->addWidget(label_script);
 
-        comboBox_script = new QComboBox(contentWidget_script);
+        comboBox_script = new AdvancedComboBox(contentWidget_script);
         comboBox_script->setObjectName("comboBox_script");
 
         horizontalLayout_8->addWidget(comboBox_script);

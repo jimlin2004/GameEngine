@@ -77,7 +77,11 @@ namespace GameEngine
 
     struct ScriptComponent
     {
+        ScriptComponent();
+        ScriptComponent(const ScriptComponent& other);
+        ScriptComponent(const std::string& newClassName);
         GameEngine::Character* instance;
+        std::string className; 
     };
 
     //physics
