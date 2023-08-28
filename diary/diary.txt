@@ -504,3 +504,12 @@
         -Script system
         -Editor各項異常處理
     存檔紀錄 --version 1.0-dev
+2023/08/28
+    1. 修復editor layout 加到 layout自己的bug(程式打錯字)
+    2. 重構Event system，目前想要用event dispatcher的方式，配合訂閱制的架構(unordered_map)
+    Todo list
+        -Event system的改進與完善
+        -Script core 的完善
+        -event在同一class的建構子addCallback時會有重複add的問題
+        -支持的event種類
+    存檔紀錄 --version 1.0-dev

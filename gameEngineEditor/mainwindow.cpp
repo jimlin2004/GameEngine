@@ -9,6 +9,7 @@
 #include "ComponentBrowserWidget.h"
 #include <QVBoxLayout>
 #include "Script/ScriptEngine.h"
+#include "Opengl/Texture.h"
 #if USE_WINDOWS
     #include <winuser.h>
     #include <windows.h>

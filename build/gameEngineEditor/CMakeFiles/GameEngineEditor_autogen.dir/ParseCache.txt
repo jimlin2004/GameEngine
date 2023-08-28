@@ -934,8 +934,6 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h
  mmc:Q_OBJECT
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h
  mdp:D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/moc_predefs.h
- mdp:C:/Program Files/msys64/mingw64/include/GL/gl.h
- mdp:C:/Program Files/msys64/mingw64/include/GL/glu.h
  mdp:C:/Program Files/msys64/mingw64/include/_mingw.h
  mdp:C:/Program Files/msys64/mingw64/include/_mingw_mac.h
  mdp:C:/Program Files/msys64/mingw64/include/_mingw_off_t.h
@@ -1167,7 +1165,6 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h
  mdp:C:/Program Files/msys64/mingw64/include/ctype.h
  mdp:C:/Program Files/msys64/mingw64/include/errno.h
  mdp:C:/Program Files/msys64/mingw64/include/float.h
- mdp:C:/Program Files/msys64/mingw64/include/inttypes.h
  mdp:C:/Program Files/msys64/mingw64/include/limits.h
  mdp:C:/Program Files/msys64/mingw64/include/locale.h
  mdp:C:/Program Files/msys64/mingw64/include/malloc.h
@@ -1381,7 +1378,6 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Core/UUID.h
- mdp:D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp
@@ -1554,8 +1550,6 @@ D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/glm/vec4.hpp
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/glm/vector_relational.hpp
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp
- mdp:D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h
- mdp:D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h
@@ -3920,7 +3914,6 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h
- mdp:D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h
  mdp:D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h
@@ -4168,7 +4161,6 @@ D:/code/cpp/gameEngine/gameEngineEditor/mainwindow.h
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp
  mdp:D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h
- mdp:D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h
  mdp:D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h

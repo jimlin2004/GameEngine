@@ -5,13 +5,14 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
 #include "Script/Character.h"
-#include "Opengl/Texture.h"
 #include <string>
 #include "Core/UUID.h"
 #include "Core/Camera.h"
 
 namespace GameEngine
 {
+    class Texture;
+
     enum class GameEngineComponentType
     {
         Null = 0,
@@ -94,7 +95,7 @@ namespace GameEngine
         BodyType type = BodyType::Static;
         bool fixedRotation = false;
 
-        //storage for runtime
+        //storage for runtime(b2Body*)
         void* runtimeBody = nullptr;
 
         Rigidbody2DComponent() = default;

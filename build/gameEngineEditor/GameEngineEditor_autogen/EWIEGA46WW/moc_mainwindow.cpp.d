@@ -699,7 +699,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
   D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h \
   D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/include/Render/Renderer.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
@@ -947,7 +946,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/EWIEGA46W
   D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/AssetFileWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorCamera.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/EditorOpenGLWidget.h \

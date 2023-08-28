@@ -10,13 +10,21 @@
 #include "box2d/b2_body.h"
 #include "box2d/b2_fixture.h"
 #include "box2d/b2_polygon_shape.h"
+#include "box2d/b2_contact.h"
+#include "Physics/ActorData.h"
+#include "Physics/ContactListener.h"
 
 #include "Script/ScriptEngine.h"
 #include "Script/ScriptCore.h"
+
+// Event
 #include "Event/Input.h"
+#include "Event/PhysicsEvent.h"
+#include "Event/EventDispatcher.h"
 
 GameEngine::Scene::Scene()
     : physicsWorld(nullptr)
+    , contactListener(nullptr)
 {
 }
 
@@ -26,6 +34,11 @@ GameEngine::Scene::~Scene()
     {
         delete this->physicsWorld;
         this->physicsWorld = nullptr;
+    }
+    if (this->contactListener != nullptr)
+    {
+        delete this->contactListener;
+        this->contactListener = nullptr;
     }
 }
 
@@ -159,9 +172,9 @@ void GameEngine::Scene::onRuntimeStart()
 
     auto rigidbody2DView = this->registry.view<GameEngine::Rigidbody2DComponent>();
 
-    for (entt::entity entity: rigidbody2DView)
+    for (entt::entity entityID: rigidbody2DView)
     {
-        GameEngine::Actor actor = {entity, this};
+        GameEngine::Actor actor = {entityID, this};
         GameEngine::TransformComponent& transformComponent = actor.getComponent<GameEngine::TransformComponent>();
         GameEngine::Rigidbody2DComponent& rigidbody2DComponent = actor.getComponent<GameEngine::Rigidbody2DComponent>();
 
@@ -169,10 +182,20 @@ void GameEngine::Scene::onRuntimeStart()
         bodyDef.type = getBox2DRigidbodyType(rigidbody2DComponent.type);
         bodyDef.position.Set(transformComponent.translation.x, transformComponent.translation.y);
         bodyDef.angle = transformComponent.rotation.z;
+        bodyDef.userData.pointer = (uintptr_t)(new GameEngine::ActorData(entityID, this));
 
         b2Body* body = this->physicsWorld->CreateBody(&bodyDef);
         body->SetFixedRotation(rigidbody2DComponent.fixedRotation);
         rigidbody2DComponent.runtimeBody = body;
+
+        this->contactListener = new GameEngine::ContactListener();
+        this->contactListener->setBeginContact([](b2Contact* contact){
+            GameEngine::ActorData* a =  (GameEngine::ActorData*)contact->GetFixtureA()->GetBody()->GetUserData().pointer;
+            GameEngine::ActorData* b =  (GameEngine::ActorData*)contact->GetFixtureB()->GetBody()->GetUserData().pointer;
+            GameEngine::CollisionEvent collisionEvent(a, b);
+            GameEngine::EventDispatcher::trigger(collisionEvent);
+        });
+        this->physicsWorld->SetContactListener(this->contactListener);
 
         if (actor.hasComponent<GameEngine::BoxCollider2DComponent>())
         {

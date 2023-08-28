@@ -4,6 +4,9 @@ REGISTER_CLASS(TestActor)
 TestActor::TestActor()
     : GameEngine::Character()
 {
+    GEngineCore::addCallback(GameEngine::EventType::CollisionEvent, [](const GameEngine::Event& event){
+        printf("HI\n");
+    });
 }
 
 void TestActor::destroy()

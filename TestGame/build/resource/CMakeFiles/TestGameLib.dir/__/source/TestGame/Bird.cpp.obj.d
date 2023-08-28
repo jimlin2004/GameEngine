@@ -156,6 +156,7 @@ resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/SDL2/SDL_scancode.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInterface.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
@@ -460,9 +461,4 @@ resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h

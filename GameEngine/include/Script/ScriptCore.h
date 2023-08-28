@@ -3,6 +3,8 @@
 
 #include "Script/ScriptEngineMacro.h"
 #include "Event/KeyCode.h"
+#include "Event/Event.h"
+#include <functional>
 
 class ScriptInterface;
 
@@ -17,6 +19,8 @@ namespace GEngineCore
     public:
         static bool isKeyPressed(GameEngine::KeyCode keyCode);
     };
+
+    void addCallback(GameEngine::EventType type, std::function<void(const GameEngine::Event& event)> funcPtr);
 }
 
 #endif

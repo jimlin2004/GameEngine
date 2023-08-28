@@ -321,7 +321,7 @@ QWidget *ComponentBrowserWidget::setupPhysicsWidget(QToolButton* physicsButton)
     QVBoxLayout* physicsLayout = new QVBoxLayout(physicsWidget);
     physicsLayout->setContentsMargins(0, 0, 0, 0);
     physicsLayout->setSpacing(0);
-    physicsLayout->addLayout(physicsLayout);
+    physicsWidget->setLayout(physicsLayout);
 
     QToolButton* rigidbody2DButton = createToolButton(this, physicsWidget, physicsLayout, "Rigidbody2D", GameEngine::GameEngineComponentType::Rigidbody2DComponent);
     this->trie->insert("rigidbody2D", physicsButton);

@@ -87,7 +87,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -O2"
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -157,7 +157,11 @@
 				27,
 				28,
 				29,
-				31
+				30,
+				31,
+				32,
+				33,
+				35
 			]
 		}
 	],
@@ -219,14 +223,18 @@
 				27,
 				28,
 				29,
-				31
+				30,
+				31,
+				32,
+				33,
+				35
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				30
+				34
 			]
 		}
 	],
@@ -289,7 +297,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Event/EventDispatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "GameEngine/src/Event/Input.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Event/PhysicsEvent.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -368,6 +388,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "GameEngine/src/Opengl/VertexBufferLayout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Physics/ActorData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "GameEngine/src/Physics/ContactListener.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

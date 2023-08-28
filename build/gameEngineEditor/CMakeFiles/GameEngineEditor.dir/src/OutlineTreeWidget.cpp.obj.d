@@ -700,12 +700,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
  D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
- C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
- C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
@@ -722,6 +716,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
  D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \

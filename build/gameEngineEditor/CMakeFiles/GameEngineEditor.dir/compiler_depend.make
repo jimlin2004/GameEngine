@@ -659,12 +659,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
@@ -784,6 +778,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/GameEngineEditor_autogen/mocs_c
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
@@ -3392,8 +3390,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: D:/co
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
@@ -4392,12 +4388,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
@@ -4414,6 +4404,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
@@ -4758,6 +4752,8 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/mainwindow.cpp.obj: D:/code/cpp
   D:/QT/6.4.2/mingw_64/include/QtWidgets/qstackedwidget.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   C:/Program\ Files/msys64/mingw64/include/dwmapi.h \
   C:/Program\ Files/msys64/mingw64/include/wtypes.h \
   C:/Program\ Files/msys64/mingw64/include/rpc.h \
@@ -8511,12 +8507,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ComponentBrowserWidget.cpp.
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
@@ -9604,13 +9594,7 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj: D:/co
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h
+  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorOpenGLWidget.cpp.obj: D:/code/cpp/gameEngine/gameEngineEditor/src/EditorOpenGLWidget.cpp
 
@@ -11543,12 +11527,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
@@ -11565,6 +11543,10 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/OutlineTreeWidget.cpp.obj: 
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
+  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
@@ -13248,8 +13230,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/fstream \
@@ -15089,12 +15069,6 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/runtime/SDL/SDLFileParser.c
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/GELib.h
 
@@ -15712,9 +15686,9 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h:
 
 C:/Program\ Files/msys64/mingw64/include/processthreadsapi.h:
 
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/thread:
-
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
+
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/thread:
 
 C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h:
 
@@ -16996,9 +16970,9 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool3_precision.hpp
 
 D:/QT/6.4.2/mingw_64/include/QtWidgets/QFileDialog:
 
-C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_thread.h:
-
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double3_precision.hpp:
+
+C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_thread.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint3.hpp:
 
@@ -17238,8 +17212,6 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_transform.inl:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/rtmintrin.h:
 
-D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h:
-
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.inl:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_relational.hpp:
@@ -17416,14 +17388,6 @@ D:/QT/6.4.2/mingw_64/include/QtCore/QPointF:
 
 D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp:
 
-D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h:
-
-D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h:
-
-C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h:
-
-C:/Program\ Files/msys64/mingw64/include/GL/gl.h:
-
 D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h:
 
 D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h:
@@ -17597,6 +17561,12 @@ D:/QT/6.4.2/mingw_64/include/QtGui/qopenglcontext.h:
 D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window.h:
 
 D:/code/cpp/gameEngine/GameEngine/include/Core/GameBase.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h:
+
+C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fxsrintrin.h:
+
+C:/Program\ Files/msys64/mingw64/include/GL/gl.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL.h:
 
@@ -17927,6 +17897,10 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_queue.h:
 D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h:
 
 D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h:
 
 C:/Program\ Files/msys64/mingw64/include/wtypes.h:
 

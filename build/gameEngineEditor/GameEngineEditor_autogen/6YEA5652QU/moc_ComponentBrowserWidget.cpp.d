@@ -1,7 +1,5 @@
 D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652QU/moc_ComponentBrowserWidget.cpp: D:/code/cpp/gameEngine/gameEngineEditor/include/ComponentBrowserWidget.h \
   D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/moc_predefs.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/gl.h \
-  C:/Program\ Files/msys64/mingw64/include/GL/glu.h \
   C:/Program\ Files/msys64/mingw64/include/_mingw.h \
   C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
   C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
@@ -233,7 +231,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   C:/Program\ Files/msys64/mingw64/include/ctype.h \
   C:/Program\ Files/msys64/mingw64/include/errno.h \
   C:/Program\ Files/msys64/mingw64/include/float.h \
-  C:/Program\ Files/msys64/mingw64/include/inttypes.h \
   C:/Program\ Files/msys64/mingw64/include/limits.h \
   C:/Program\ Files/msys64/mingw64/include/locale.h \
   C:/Program\ Files/msys64/mingw64/include/malloc.h \
@@ -447,7 +444,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/Core/UUID.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
   D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
@@ -620,8 +616,6 @@ D:/code/cpp/gameEngine/build/gameEngineEditor/GameEngineEditor_autogen/6YEA5652Q
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/vec4.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/vector_relational.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
-  D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
-  D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidget.h \
   D:/code/cpp/gameEngine/gameEngineEditor/include/OutlineTreeWidgetItem.h

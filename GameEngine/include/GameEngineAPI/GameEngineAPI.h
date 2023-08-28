@@ -8,6 +8,7 @@ namespace GameEngine
 {
     class ShaderManager;
     class TextureManager;
+    class EventDispatcher;
     class CameraController;
     //操作基本底層訪問的api
     class GameEngineAPI
@@ -26,10 +27,15 @@ namespace GameEngine
         void _setWindowSize(float _w, float _h);
         void setProjectRootPath(const std::string& path);
         void setProjectName(const std::string& name);
+
+        //Event dispatcher
+
+
         inline float getWindowWidth() const { return _windowWidth; }
         inline float getWindowHeight() const { return _windowHeight; }
         inline std::string getProjectRootPath() const { return this->projectRootPath; }
         inline std::string getProjectName() const { return this->projectName; }
+        
         ShaderManager* shaderManager;
         TextureManager* textureManager;
     };

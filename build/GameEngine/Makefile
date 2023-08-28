@@ -410,6 +410,30 @@ src/Core/UUID.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.s
 .PHONY : src/Core/UUID.cpp.s
 
+src/Event/EventDispatcher.obj: src/Event/EventDispatcher.cpp.obj
+.PHONY : src/Event/EventDispatcher.obj
+
+# target to build an object file
+src/Event/EventDispatcher.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/EventDispatcher.cpp.obj
+.PHONY : src/Event/EventDispatcher.cpp.obj
+
+src/Event/EventDispatcher.i: src/Event/EventDispatcher.cpp.i
+.PHONY : src/Event/EventDispatcher.i
+
+# target to preprocess a source file
+src/Event/EventDispatcher.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/EventDispatcher.cpp.i
+.PHONY : src/Event/EventDispatcher.cpp.i
+
+src/Event/EventDispatcher.s: src/Event/EventDispatcher.cpp.s
+.PHONY : src/Event/EventDispatcher.s
+
+# target to generate assembly for a file
+src/Event/EventDispatcher.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/EventDispatcher.cpp.s
+.PHONY : src/Event/EventDispatcher.cpp.s
+
 src/Event/Input.obj: src/Event/Input.cpp.obj
 .PHONY : src/Event/Input.obj
 
@@ -433,6 +457,30 @@ src/Event/Input.s: src/Event/Input.cpp.s
 src/Event/Input.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/Input.cpp.s
 .PHONY : src/Event/Input.cpp.s
+
+src/Event/PhysicsEvent.obj: src/Event/PhysicsEvent.cpp.obj
+.PHONY : src/Event/PhysicsEvent.obj
+
+# target to build an object file
+src/Event/PhysicsEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/PhysicsEvent.cpp.obj
+.PHONY : src/Event/PhysicsEvent.cpp.obj
+
+src/Event/PhysicsEvent.i: src/Event/PhysicsEvent.cpp.i
+.PHONY : src/Event/PhysicsEvent.i
+
+# target to preprocess a source file
+src/Event/PhysicsEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/PhysicsEvent.cpp.i
+.PHONY : src/Event/PhysicsEvent.cpp.i
+
+src/Event/PhysicsEvent.s: src/Event/PhysicsEvent.cpp.s
+.PHONY : src/Event/PhysicsEvent.s
+
+# target to generate assembly for a file
+src/Event/PhysicsEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/PhysicsEvent.cpp.s
+.PHONY : src/Event/PhysicsEvent.cpp.s
 
 src/GameEngineAPI/ConsoleApi.obj: src/GameEngineAPI/ConsoleApi.cpp.obj
 .PHONY : src/GameEngineAPI/ConsoleApi.obj
@@ -746,6 +794,54 @@ src/Opengl/VertexBufferLayout.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Opengl/VertexBufferLayout.cpp.s
 .PHONY : src/Opengl/VertexBufferLayout.cpp.s
 
+src/Physics/ActorData.obj: src/Physics/ActorData.cpp.obj
+.PHONY : src/Physics/ActorData.obj
+
+# target to build an object file
+src/Physics/ActorData.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Physics/ActorData.cpp.obj
+.PHONY : src/Physics/ActorData.cpp.obj
+
+src/Physics/ActorData.i: src/Physics/ActorData.cpp.i
+.PHONY : src/Physics/ActorData.i
+
+# target to preprocess a source file
+src/Physics/ActorData.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Physics/ActorData.cpp.i
+.PHONY : src/Physics/ActorData.cpp.i
+
+src/Physics/ActorData.s: src/Physics/ActorData.cpp.s
+.PHONY : src/Physics/ActorData.s
+
+# target to generate assembly for a file
+src/Physics/ActorData.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Physics/ActorData.cpp.s
+.PHONY : src/Physics/ActorData.cpp.s
+
+src/Physics/ContactListener.obj: src/Physics/ContactListener.cpp.obj
+.PHONY : src/Physics/ContactListener.obj
+
+# target to build an object file
+src/Physics/ContactListener.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Physics/ContactListener.cpp.obj
+.PHONY : src/Physics/ContactListener.cpp.obj
+
+src/Physics/ContactListener.i: src/Physics/ContactListener.cpp.i
+.PHONY : src/Physics/ContactListener.i
+
+# target to preprocess a source file
+src/Physics/ContactListener.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Physics/ContactListener.cpp.i
+.PHONY : src/Physics/ContactListener.cpp.i
+
+src/Physics/ContactListener.s: src/Physics/ContactListener.cpp.s
+.PHONY : src/Physics/ContactListener.s
+
+# target to generate assembly for a file
+src/Physics/ContactListener.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Physics/ContactListener.cpp.s
+.PHONY : src/Physics/ContactListener.cpp.s
+
 src/Render/Renderer.obj: src/Render/Renderer.cpp.obj
 .PHONY : src/Render/Renderer.obj
 
@@ -980,9 +1076,15 @@ help:
 	@echo ... src/Core/UUID.obj
 	@echo ... src/Core/UUID.i
 	@echo ... src/Core/UUID.s
+	@echo ... src/Event/EventDispatcher.obj
+	@echo ... src/Event/EventDispatcher.i
+	@echo ... src/Event/EventDispatcher.s
 	@echo ... src/Event/Input.obj
 	@echo ... src/Event/Input.i
 	@echo ... src/Event/Input.s
+	@echo ... src/Event/PhysicsEvent.obj
+	@echo ... src/Event/PhysicsEvent.i
+	@echo ... src/Event/PhysicsEvent.s
 	@echo ... src/GameEngineAPI/ConsoleApi.obj
 	@echo ... src/GameEngineAPI/ConsoleApi.i
 	@echo ... src/GameEngineAPI/ConsoleApi.s
@@ -1022,6 +1124,12 @@ help:
 	@echo ... src/Opengl/VertexBufferLayout.obj
 	@echo ... src/Opengl/VertexBufferLayout.i
 	@echo ... src/Opengl/VertexBufferLayout.s
+	@echo ... src/Physics/ActorData.obj
+	@echo ... src/Physics/ActorData.i
+	@echo ... src/Physics/ActorData.s
+	@echo ... src/Physics/ContactListener.obj
+	@echo ... src/Physics/ContactListener.i
+	@echo ... src/Physics/ContactListener.s
 	@echo ... src/Render/Renderer.obj
 	@echo ... src/Render/Renderer.i
 	@echo ... src/Render/Renderer.s

@@ -3,6 +3,7 @@
 #include "Core/GELib.h"
 #include "GameEngineAPI/GameEngineAPI.h"
 #include "Opengl/TextureManager.h"
+#include "Opengl/Texture.h"
 #include "GameEngineAPI/ConsoleApi.h"
 #include "Core/Assert.h"
 

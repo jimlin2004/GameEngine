@@ -1,5 +1,6 @@
 #include "Component/Component.h"
 
+#include "Opengl/Texture.h"
 #include "Core/Assert.h"
 
 GameEngine::TransformComponent::TransformComponent(const TransformComponent &other)

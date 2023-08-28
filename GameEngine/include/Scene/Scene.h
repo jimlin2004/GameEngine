@@ -13,6 +13,8 @@ class b2World;
 
 namespace GameEngine
 {
+    class ContactListener;
+    
     class Scene
     {
     public:
@@ -72,6 +74,7 @@ namespace GameEngine
         }
     private:
         b2World* physicsWorld;
+        ContactListener* contactListener;
     };
 
     //整個遊戲引擎的global pointer，勿修改

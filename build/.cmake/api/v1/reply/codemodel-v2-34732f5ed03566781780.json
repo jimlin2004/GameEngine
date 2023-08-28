@@ -12,7 +12,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -23,7 +23,7 @@
 				{
 					"build" : "GameEngine",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-GameEngine-Release-1849934ed0ef5cd43459.json",
+					"jsonFile" : "directory-GameEngine-Debug-1849934ed0ef5cd43459.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -38,7 +38,7 @@
 				},
 				{
 					"build" : "gameEngineEditor",
-					"jsonFile" : "directory-gameEngineEditor-Release-c8d5328faea5692ec89d.json",
+					"jsonFile" : "directory-gameEngineEditor-Debug-c8d5328faea5692ec89d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -54,7 +54,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -101,28 +101,28 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "GameEngine::@3f1430db303f85cff844",
-					"jsonFile" : "target-GameEngine-Release-b5b2e0d41fe54151f6f3.json",
+					"jsonFile" : "target-GameEngine-Debug-7c1374c4c3a6031d1220.json",
 					"name" : "GameEngine",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GameEngineEditor::@486440c6d36e087699f8",
-					"jsonFile" : "target-GameEngineEditor-Release-c7af656c4d40fe2e52c0.json",
+					"jsonFile" : "target-GameEngineEditor-Debug-4ebada13780e64c0c9c4.json",
 					"name" : "GameEngineEditor",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "GameEngineEditor_autogen::@486440c6d36e087699f8",
-					"jsonFile" : "target-GameEngineEditor_autogen-Release-3aaf91580ef38d317ad5.json",
+					"jsonFile" : "target-GameEngineEditor_autogen-Debug-3aaf91580ef38d317ad5.json",
 					"name" : "GameEngineEditor_autogen",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "gameEngineEditor_copy_target::@486440c6d36e087699f8",
-					"jsonFile" : "target-gameEngineEditor_copy_target-Release-18a945e4b6e49aa3bcb6.json",
+					"jsonFile" : "target-gameEngineEditor_copy_target-Debug-18a945e4b6e49aa3bcb6.json",
 					"name" : "gameEngineEditor_copy_target",
 					"projectIndex" : 2
 				}
