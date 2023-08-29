@@ -32,5 +32,8 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 target_include_directories(${PROJECT_NAME} PUBLIC ${GAME_ENGINE_DIR}/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/source/${GameName})
 target_include_directories(${PROJECT_NAME} PUBLIC ${GAME_ENGINE_DIR}/third_party/entt/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${GAME_ENGINE_DIR}/third_party/box2d/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${GAME_ENGINE_DIR}/third_party)
+
 target_link_libraries(${PROJECT_NAME} PUBLIC ${GAME_ENGINE_DIR}/lib/libGameEngine.a) #一定要在最上面
+target_link_libraries(${PROJECT_NAME} PUBLIC ${GAME_ENGINE_DIR}/lib/libbox2d.a)

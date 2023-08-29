@@ -513,3 +513,11 @@
         -event在同一class的建構子addCallback時會有重複add的問題
         -支持的event種類
     存檔紀錄 --version 1.0-dev
+2023/08/29
+    1. 修復collision event的解構子會將ActorData刪除的問題
+    2. 研究User side如何應用box2d移動
+    Todo list
+        -TestGame裡bird跳躍(box2d jump)
+        -Script core 的完善
+        -Keyboard event(keyDown、keyUp)
+    存檔紀錄 --version 1.0-dev

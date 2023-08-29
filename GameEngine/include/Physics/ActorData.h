@@ -13,7 +13,6 @@ namespace GameEngine
         explicit ActorData(entt::entity entityID, Scene* scenePtr);
         ~ActorData();
         std::string getTag();
-    private:
         Actor actor;
     };
 }

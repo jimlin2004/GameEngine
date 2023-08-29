@@ -118,11 +118,13 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path, Scene** s
             GameEngine::Texture* texture = nullptr;
             if (jsonActor["Mesh"].contains("Texture"))
             {
-                std::string absoluteFilePath = GameEngine::GEngine->getProjectRootPath() + "/assets/texture" + jsonActor["Mesh"]["Texture"].get<std::string>();
-                texture->load(absoluteFilePath.c_str(), GL_NEAREST);
+                texture = new GameEngine::Texture();
+                std::string absoluteFilePath = GameEngine::GEngine->getProjectRootPath() + "/assets/texture/" + jsonActor["Mesh"]["Texture"].get<std::string>();
+                // texture->load(absoluteFilePath.c_str(), GL_NEAREST);
+                GameEngine::GEngine->textureManager->createTexture(absoluteFilePath.c_str(), texture, GL_NEAREST);
             }
                 
-            actor->addComponent<MeshComponent>(color);
+            actor->addComponent<MeshComponent>(color, texture);
         }
         if (jsonActor.contains("Camera"))
         {

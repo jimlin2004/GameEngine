@@ -14,9 +14,10 @@ namespace GameEngine
     class Actor: public GameObject
     {
     protected:
-        Scene* scene;
+        
         entt::entity entityID;        
     public:
+        Scene* scene;
         Actor();
         Actor(Actor& other);
         Actor(entt::entity entityID, Scene* scenePtr);

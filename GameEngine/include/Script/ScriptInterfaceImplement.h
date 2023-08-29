@@ -7,7 +7,7 @@ class ScriptInterfaceImplement: public ScriptInterface
 {
 public:
     virtual bool input_isKeyPressed(GameEngine::KeyCode keyCode) override;
-    virtual void addCallback(GameEngine::EventType type, std::function<void(const GameEngine::Event& event)> funcPtr) override;
+    virtual void addCallback(GameEngine::EventType type, std::function<void(GameEngine::Event& event)> funcPtr) override;
 };
 
 #endif

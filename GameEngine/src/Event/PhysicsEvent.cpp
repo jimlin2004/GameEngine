@@ -9,6 +9,6 @@ GameEngine::CollisionEvent::CollisionEvent(ActorData* a, ActorData* b)
 
 GameEngine::CollisionEvent::~CollisionEvent()
 {
-    delete this->dataA;
-    delete this->dataB;
+    // delete this->dataA;
+    // delete this->dataB;
 }

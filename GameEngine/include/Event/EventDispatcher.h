@@ -11,12 +11,13 @@ namespace GameEngine
 {
     class EventDispatcher
     {
-        using EventFunc = std::function<void(const GameEngine::Event& event)>; 
+        using EventFunc = std::function<void(GameEngine::Event& event)>; 
     public:
         explicit EventDispatcher();
         void subscribe(EventType type, EventFunc eventFunc);
         void callback(Event& event);
 
+        static void reset();
         static void addCallback(EventType type, EventFunc eventFunc);
         static void trigger(Event& event);
     private:

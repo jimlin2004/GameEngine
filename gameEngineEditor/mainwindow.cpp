@@ -480,7 +480,8 @@ void MainWindow::updateTextureViewer()
             meshComponent.texture = new GameEngine::Texture();
         }
         // meshComponent.texture->load("assets/texture/test.png", GL_NEAREST);
-        GameEngine::GEngine->textureManager->createTexture("D:/code/cpp/gameEngine/build/TestGame/assets/texture/test.png", meshComponent.texture, GL_NEAREST);
+        // GameEngine::GEngine->textureManager->createTexture("D:/code/cpp/gameEngine/build/TestGame/assets/texture/test.png", meshComponent.texture, GL_NEAREST);
+        GameEngine::GEngine->textureManager->createTexture(texturePath.toStdString(), meshComponent.texture, GL_NEAREST);
     }
 }
 
@@ -613,6 +614,9 @@ void MainWindow::openProject()
     this->ui->contentBrowserPanel->reset();
     qDebug("Load project success.\n");
     qDebug("Current project: %s.\n", this->projectParser->getProjectName().c_str());
+
+    GameEngine::GEngine->setProjectRootPath(this->projectParser->getProjectDirname());
+    GameEngine::GEngine->setProjectName(this->projectParser->getProjectName());
     
     std::string mapPath = this->projectParser->getProjectDirname() + "/assets/scene/" + this->projectParser->getProjectName() + ".map";
     if (std::filesystem::exists(mapPath))
@@ -631,8 +635,6 @@ void MainWindow::openProject()
     this->resetGameObjectOutline();
     this->resetTextureComboBox();
 
-    GameEngine::GEngine->setProjectRootPath(this->projectParser->getProjectDirname());
-    GameEngine::GEngine->setProjectName(this->projectParser->getProjectName());
     this->SDL_editor_window->reloadDll();
 }
 

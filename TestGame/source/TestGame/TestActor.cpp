@@ -1,11 +1,15 @@
 #include "TestActor.h"
+#include "Event/PhysicsEvent.h"
+#include "box2d/b2_body.h"
 
 REGISTER_CLASS(TestActor)
 TestActor::TestActor()
     : GameEngine::Character()
 {
-    GEngineCore::addCallback(GameEngine::EventType::CollisionEvent, [](const GameEngine::Event& event){
-        printf("HI\n");
+    GEngineCore::addCallback(GameEngine::EventType::CollisionEvent, [](GameEngine::Event& event){
+        GameEngine::CollisionEvent& collisionEvent = dynamic_cast<GameEngine::CollisionEvent&>(event);
+        printf("a: %s\n", collisionEvent.dataA->getTag().c_str());
+        printf("b: %s\n", collisionEvent.dataB->getTag().c_str());
     });
 }
 
@@ -30,4 +34,10 @@ void TestActor::update(const float deltaTime)
         transform.translation.y += (10.0f * deltaTime);
     if (GEngineCore::Input::isKeyPressed(GameEngine::Key_S))
         transform.translation.y -= (10.0f * deltaTime);
+    if (GEngineCore::Input::isKeyPressed(GameEngine::Key_SPACE))
+    {
+        b2Body* body = (b2Body*)this->getComponent<GameEngine::Rigidbody2DComponent>().runtimeBody;
+        printf("space\n");
+        body->ApplyLinearImpulse(b2Vec2(0, 5), body->GetWorldCenter(), true);
+    }
 }

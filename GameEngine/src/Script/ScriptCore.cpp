@@ -14,7 +14,7 @@ ScriptInterface *GEngineCore::getScriptInterface()
     return scriptInterface;
 }
 
-void GEngineCore::addCallback(GameEngine::EventType type, std::function<void(const GameEngine::Event &event)> funcPtr)
+void GEngineCore::addCallback(GameEngine::EventType type, std::function<void(GameEngine::Event &event)> funcPtr)
 {
     scriptInterface->addCallback(type, funcPtr);
 }

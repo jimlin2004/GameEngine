@@ -1,5 +1,7 @@
 #include "Event/EventDispatcher.h"
 
+#include "Event/PhysicsEvent.h"
+
 namespace GameEngine
 {
     // event 中樞
@@ -27,7 +29,15 @@ void GameEngine::EventDispatcher::callback(Event& event)
     }
 }
 
-void GameEngine::EventDispatcher::addCallback(EventType type, EventFunc eventFunc)
+void GameEngine::EventDispatcher::reset()
+{
+    for (auto& p: eventDispatcher.listeners)
+    {
+        p.second.clear();
+    }
+}
+
+void GameEngine::EventDispatcher::addCallback(EventType type, EventFunc eventFunc) 
 {
     eventDispatcher.subscribe(type, eventFunc);
 }

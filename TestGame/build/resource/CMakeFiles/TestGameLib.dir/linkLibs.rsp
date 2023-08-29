@@ -1,1 +1,1 @@
- D:/code/cpp/gameEngine/GameEngine/lib/libGameEngine.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ D:/code/cpp/gameEngine/GameEngine/lib/libGameEngine.a D:/code/cpp/gameEngine/GameEngine/lib/libbox2d.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,6 +1,73 @@
 {
     "Actors": [
         {
+            "BoxCollider2D": {
+                "Density": 1.0,
+                "Friction": 0.0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ],
+                "Restitution": 0.0,
+                "RestitutionThreshold": 0.5,
+                "Size": [
+                    0.5,
+                    0.5
+                ]
+            },
+            "Mesh": {
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Texture": "bird.png"
+            },
+            "Rigidbody2D": {
+                "BodyType": "Dynamic",
+                "FixedRotation": false
+            },
+            "Script": {
+                "ClassName": "TestActor"
+            },
+            "TagName": "TestActor",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    4.900000095367432,
+                    1.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.7000000476837158,
+                    1.2000000476837158,
+                    1.0
+                ]
+            },
+            "UUID": {
+                "UUID": "0237513610551306383203590419210288748231"
+            }
+        },
+        {
+            "BoxCollider2D": {
+                "Density": 1.0,
+                "Friction": 0.0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ],
+                "Restitution": 0.0,
+                "RestitutionThreshold": 0.5,
+                "Size": [
+                    0.5,
+                    0.5
+                ]
+            },
             "Mesh": {
                 "Color": [
                     1.0,
@@ -8,6 +75,10 @@
                     1.0,
                     1.0
                 ]
+            },
+            "Rigidbody2D": {
+                "BodyType": "Static",
+                "FixedRotation": false
             },
             "TagName": "TestActor",
             "Transform": {
@@ -29,40 +100,6 @@
             },
             "UUID": {
                 "UUID": "0313564175322502268207491917973459487661"
-            }
-        },
-        {
-            "Mesh": {
-                "Color": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "Script": {
-                "ClassName": "TestActor"
-            },
-            "TagName": "TestActor",
-            "Transform": {
-                "Position": [
-                    0.0,
-                    4.900000095367432,
-                    1.0
-                ],
-                "Rotation": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Scale": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "UUID": {
-                "UUID": "0237513610551306383203590419210288748231"
             }
         }
     ]

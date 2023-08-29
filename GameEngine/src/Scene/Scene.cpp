@@ -182,20 +182,11 @@ void GameEngine::Scene::onRuntimeStart()
         bodyDef.type = getBox2DRigidbodyType(rigidbody2DComponent.type);
         bodyDef.position.Set(transformComponent.translation.x, transformComponent.translation.y);
         bodyDef.angle = transformComponent.rotation.z;
-        bodyDef.userData.pointer = (uintptr_t)(new GameEngine::ActorData(entityID, this));
+        bodyDef.userData.pointer = reinterpret_cast<uintptr_t>(new GameEngine::ActorData(entityID, this));
 
         b2Body* body = this->physicsWorld->CreateBody(&bodyDef);
         body->SetFixedRotation(rigidbody2DComponent.fixedRotation);
         rigidbody2DComponent.runtimeBody = body;
-
-        this->contactListener = new GameEngine::ContactListener();
-        this->contactListener->setBeginContact([](b2Contact* contact){
-            GameEngine::ActorData* a =  (GameEngine::ActorData*)contact->GetFixtureA()->GetBody()->GetUserData().pointer;
-            GameEngine::ActorData* b =  (GameEngine::ActorData*)contact->GetFixtureB()->GetBody()->GetUserData().pointer;
-            GameEngine::CollisionEvent collisionEvent(a, b);
-            GameEngine::EventDispatcher::trigger(collisionEvent);
-        });
-        this->physicsWorld->SetContactListener(this->contactListener);
 
         if (actor.hasComponent<GameEngine::BoxCollider2DComponent>())
         {
@@ -214,11 +205,22 @@ void GameEngine::Scene::onRuntimeStart()
             
             body->CreateFixture(&fixtureDef);
         }
+        
     }
 
+    delete this->contactListener;
+    this->contactListener = new GameEngine::ContactListener();
+    this->contactListener->setBeginContact([](b2Contact* contact){
+        GameEngine::ActorData* a = (GameEngine::ActorData*)(contact->GetFixtureA()->GetBody()->GetUserData().pointer);
+        GameEngine::ActorData* b = (GameEngine::ActorData*)(contact->GetFixtureB()->GetBody()->GetUserData().pointer);
+        GameEngine::CollisionEvent collisionEvent(a, b);
+        GameEngine::EventDispatcher::trigger(collisionEvent);
+    });
+    this->physicsWorld->SetContactListener(this->contactListener);
+    
     //script
     
-    GameEngine::ScriptEngine::init("D:/code/cpp/gameEngine/TestGame/build/lib/GameEngineScript.dll");
+    GameEngine::ScriptEngine::reload("D:/code/cpp/gameEngine/TestGame/build/lib/GameEngineScript.dll");
     
     auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
     for (entt::entity entityID: scriptView)
@@ -235,6 +237,8 @@ void GameEngine::Scene::onRuntimeStart()
 
 void GameEngine::Scene::onRunTimeStop()
 {
+    // 不能再onRunTimeStart裡面reset，std::funciton必須在dll還在的時候delete
+    GameEngine::EventDispatcher::reset();
     delete this->physicsWorld;
     this->physicsWorld = nullptr;
 }
