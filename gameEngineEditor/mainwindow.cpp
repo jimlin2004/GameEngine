@@ -581,7 +581,10 @@ void MainWindow::resetTextureComboBox()
 void MainWindow::addGameObjectToOutline(entt::entity entityID)
 {
     OutlineTreeWidgetItem *item = new OutlineTreeWidgetItem(this->actorLevel);
-    GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entityID);
+    GameEngine::Actor actor(entityID, GameEngine::globalScene);
+    GameEngine::TagComponent& tagComponent = actor.getComponent<GameEngine::TagComponent>();
+    actor.addComponent<GameEngine::IDComponent>();
+
     item->setText(0, QString::fromStdString(tagComponent.tagName));
     item->setEntityID(entityID);
     this->actorLevel->addChild(item);

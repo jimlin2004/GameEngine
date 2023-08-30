@@ -8,7 +8,13 @@
 #include "Script/ScriptEngine.h"
 #include "Core/CameraController.h"
 #include "Opengl/TextureManager.h"
+
 #include "mainwindow.h"
+
+// GameEngine event
+#include "Event/EventDispatcher.h"
+#include "Event/KeyDownEvent.h"
+#include "Event/KeyUpEvent.h"
 
 #include <filesystem>
 
@@ -166,7 +172,6 @@ void SDL_Editor_Window::render()
 
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL2_NewFrame(this->window);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
     ImGui::NewFrame();
     ImGuizmo::BeginFrame();
 
@@ -240,8 +245,8 @@ void SDL_Editor_Window::render()
 
     this->frameBuffer->bind();
     GameEngine::Renderer::begin((*GameEngine::cameraController->getCamera()), GameEngine::cameraController->getTransform());
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         GameEngine::globalScene->render();
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //我不知道為什麼一定要
         frameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
 
@@ -281,9 +286,27 @@ void SDL_Editor_Window::gameEventHandle()
     static ImGuiIO& io = ImGui::GetIO();
     while (SDL_PollEvent(&this->event))
     {
-        ImGui_ImplSDL2_ProcessEvent(&event);
+        ImGui_ImplSDL2_ProcessEvent(&this->event);
         switch (this->event.type)
         {
+            case SDL_KEYDOWN:
+            {
+                if (this->event.key.repeat == 0)
+                {
+                    GameEngine::KeyDownEvent keyDownEvent((GameEngine::KeyCode)(this->event.key.keysym.scancode));
+                    GameEngine::EventDispatcher::trigger(keyDownEvent);
+                }
+                break;
+            }
+            case SDL_KEYUP:
+            {
+                if (this->event.key.repeat == 0)
+                {
+                    GameEngine::KeyUpEvent keyUpEvent((GameEngine::KeyCode)(this->event.key.keysym.scancode));
+                    GameEngine::EventDispatcher::trigger(keyUpEvent);
+                }
+                break;
+            }
             case SDL_QUIT:
             {
                 this->running = false;

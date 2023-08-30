@@ -6,6 +6,8 @@ namespace GameEngine
     enum class EventType
     {
         None = 0,
+        KeyDownEvent,
+        KeyUpEvent,
         CollisionEvent
     };
 

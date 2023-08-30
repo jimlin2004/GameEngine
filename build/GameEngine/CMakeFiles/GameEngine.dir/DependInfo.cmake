@@ -19,6 +19,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/GameEngine/src/Core/UUID.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Core/UUID.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/Event/EventDispatcher.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/EventDispatcher.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/EventDispatcher.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj.d"
+  "D:/code/cpp/gameEngine/GameEngine/src/Event/KeyDownEvent.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyDownEvent.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyDownEvent.cpp.obj.d"
+  "D:/code/cpp/gameEngine/GameEngine/src/Event/KeyUpEvent.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyUpEvent.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyUpEvent.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/Event/PhysicsEvent.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/PhysicsEvent.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Event/PhysicsEvent.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/GameEngineAPI/ConsoleApi.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/GameEngineAPI/ConsoleApi.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/GameEngineAPI/GameEngineAPI.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/GameEngineAPI/GameEngineAPI.cpp.obj.d"

@@ -56,6 +56,16 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\KeyDownEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\KeyDownEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/KeyDownEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\KeyUpEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\KeyUpEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/KeyUpEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\PhysicsEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\PhysicsEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/PhysicsEvent.cpp"
 },

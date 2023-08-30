@@ -458,6 +458,54 @@ src/Event/Input.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/Input.cpp.s
 .PHONY : src/Event/Input.cpp.s
 
+src/Event/KeyDownEvent.obj: src/Event/KeyDownEvent.cpp.obj
+.PHONY : src/Event/KeyDownEvent.obj
+
+# target to build an object file
+src/Event/KeyDownEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyDownEvent.cpp.obj
+.PHONY : src/Event/KeyDownEvent.cpp.obj
+
+src/Event/KeyDownEvent.i: src/Event/KeyDownEvent.cpp.i
+.PHONY : src/Event/KeyDownEvent.i
+
+# target to preprocess a source file
+src/Event/KeyDownEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyDownEvent.cpp.i
+.PHONY : src/Event/KeyDownEvent.cpp.i
+
+src/Event/KeyDownEvent.s: src/Event/KeyDownEvent.cpp.s
+.PHONY : src/Event/KeyDownEvent.s
+
+# target to generate assembly for a file
+src/Event/KeyDownEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyDownEvent.cpp.s
+.PHONY : src/Event/KeyDownEvent.cpp.s
+
+src/Event/KeyUpEvent.obj: src/Event/KeyUpEvent.cpp.obj
+.PHONY : src/Event/KeyUpEvent.obj
+
+# target to build an object file
+src/Event/KeyUpEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyUpEvent.cpp.obj
+.PHONY : src/Event/KeyUpEvent.cpp.obj
+
+src/Event/KeyUpEvent.i: src/Event/KeyUpEvent.cpp.i
+.PHONY : src/Event/KeyUpEvent.i
+
+# target to preprocess a source file
+src/Event/KeyUpEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyUpEvent.cpp.i
+.PHONY : src/Event/KeyUpEvent.cpp.i
+
+src/Event/KeyUpEvent.s: src/Event/KeyUpEvent.cpp.s
+.PHONY : src/Event/KeyUpEvent.s
+
+# target to generate assembly for a file
+src/Event/KeyUpEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyUpEvent.cpp.s
+.PHONY : src/Event/KeyUpEvent.cpp.s
+
 src/Event/PhysicsEvent.obj: src/Event/PhysicsEvent.cpp.obj
 .PHONY : src/Event/PhysicsEvent.obj
 
@@ -1082,6 +1130,12 @@ help:
 	@echo ... src/Event/Input.obj
 	@echo ... src/Event/Input.i
 	@echo ... src/Event/Input.s
+	@echo ... src/Event/KeyDownEvent.obj
+	@echo ... src/Event/KeyDownEvent.i
+	@echo ... src/Event/KeyDownEvent.s
+	@echo ... src/Event/KeyUpEvent.obj
+	@echo ... src/Event/KeyUpEvent.i
+	@echo ... src/Event/KeyUpEvent.s
 	@echo ... src/Event/PhysicsEvent.obj
 	@echo ... src/Event/PhysicsEvent.i
 	@echo ... src/Event/PhysicsEvent.s

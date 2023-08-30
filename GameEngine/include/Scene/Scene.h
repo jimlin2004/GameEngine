@@ -34,6 +34,7 @@ namespace GameEngine
         {
             TActor* obj = new TActor();
             obj->setEntityID(this->registry.create());
+            obj->bindScene(this);
             return obj;
         }
 

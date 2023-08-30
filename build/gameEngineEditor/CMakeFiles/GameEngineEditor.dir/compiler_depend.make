@@ -13546,7 +13546,12 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj: 
   D:/QT/6.4.2/mingw_64/include/QtGui/qsurfaceformat.h \
   D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent \
   D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyDownEvent.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyUpEvent.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj: D:/code/cpp/gameEngine/gameEngineEditor/src/SDL_Editor_Window_Wrapper.cpp \
   D:/code/cpp/gameEngine/gameEngineEditor/include/SDL_Editor_Window_Wrapper.h \
@@ -16076,6 +16081,8 @@ D:/QT/6.4.2/mingw_64/include/QtCore/QMimeData:
 
 C:/Program\ Files/msys64/mingw64/include/guiddef.h:
 
+D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h:
+
 D:/QT/6.4.2/mingw_64/include/QtCore/qconfig.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_block_allocator.h:
@@ -17298,6 +17305,8 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ios:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h:
 
+D:/code/cpp/gameEngine/GameEngine/include/Event/KeyUpEvent.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h:
 
 C:/Program\ Files/msys64/mingw64/include/GL/glu.h:
@@ -17439,6 +17448,8 @@ C:/Program\ Files/msys64/mingw64/include/pshpack4.h:
 D:/QT/6.4.2/mingw_64/include/QtWidgets/qaction.h:
 
 D:/code/cpp/gameEngine/gameEngineEditor/plugins/flowlayout.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Event/KeyDownEvent.h:
 
 D:/QT/6.4.2/mingw_64/include/QtCore/qtimezone.h:
 
@@ -18331,6 +18342,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double1.hpp:
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint1.hpp:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.inl:
+
+D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h:
 
 D:/code/cpp/gameEngine/gameEngineEditor/src/SDL_Editor_Window_Wrapper.cpp:
 

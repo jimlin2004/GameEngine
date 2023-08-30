@@ -521,3 +521,14 @@
         -Script core 的完善
         -Keyboard event(keyDown、keyUp)
     存檔紀錄 --version 1.0-dev
+2023/08/30
+    1. 研究出flappy bird jump的好方法是SetLinearVelocity，如此可以無視重力跳躍
+    2. 新增KeyDownEvent與KeyUpEvent(按鍵不重複觸發)
+    3. 初次意識到opengl blend與depth衝突問題
+       (若有alpha的物件比其底下物件先被渲染，此時會看到底下物件不被渲染，會直接穿透)
+    4. 由(3)的問題，目前未發展渲染queue或order independent transparency(OIT的技術)
+       ，所以目前先透過 fragment shader將alpha == 0.0的pixel直接discard
+    Todo list
+        --Script core 的完善
+        -渲染queue或OIT
+    存檔紀錄 --version 1.0-dev

@@ -461,4 +461,15 @@ resource/CMakeFiles/TestGameLib.dir/__/source/TestGame/Bird.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_api.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_math.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_settings.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_types.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_common.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_shape.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_collision.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/PhysicsEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Physics/ActorData.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyDownEvent.h

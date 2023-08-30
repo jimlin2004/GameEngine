@@ -3575,6 +3575,64 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Event/Input.cpp.obj: D:/code/cpp/gameEn
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_misc.h
 
+GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyDownEvent.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Event/KeyDownEvent.cpp \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyDownEvent.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+  C:/Program\ Files/msys64/mingw64/include/winsdkver.h \
+  C:/Program\ Files/msys64/mingw64/include/winapifamily.h \
+  C:/Program\ Files/msys64/mingw64/include/sdkddkver.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h
+
+GameEngine/CMakeFiles/GameEngine.dir/src/Event/KeyUpEvent.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Event/KeyUpEvent.cpp \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyUpEvent.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+  C:/Program\ Files/msys64/mingw64/include/winsdkver.h \
+  C:/Program\ Files/msys64/mingw64/include/winapifamily.h \
+  C:/Program\ Files/msys64/mingw64/include/sdkddkver.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h
+
 GameEngine/CMakeFiles/GameEngine.dir/src/Event/PhysicsEvent.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Event/PhysicsEvent.cpp \
   D:/code/cpp/gameEngine/GameEngine/include/Event/PhysicsEvent.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
@@ -10155,6 +10213,8 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cfloat:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h:
 
+D:/code/cpp/gameEngine/GameEngine/src/Event/KeyUpEvent.cpp:
+
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/fwd.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h:
@@ -10642,6 +10702,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SD
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h:
+
+D:/code/cpp/gameEngine/GameEngine/include/Event/KeyUpEvent.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h:
 
@@ -11396,6 +11458,10 @@ D:/code/cpp/gameEngine/GameEngine/src/Event/EventDispatcher.cpp:
 D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h:
 
 D:/code/cpp/gameEngine/GameEngine/include/Event/PhysicsEvent.h:
+
+D:/code/cpp/gameEngine/GameEngine/src/Event/KeyDownEvent.cpp:
+
+D:/code/cpp/gameEngine/GameEngine/include/Event/KeyDownEvent.h:
 
 C:/Program\ Files/msys64/mingw64/include/mmsyscom.h:
 

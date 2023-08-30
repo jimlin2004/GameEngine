@@ -13577,6 +13577,11 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window.cpp.obj
  D:/QT/6.4.2/mingw_64/include/QtGui/QKeyEvent
  D:/code/cpp/gameEngine/gameEngineEditor/include/MainWindowExportData.h
  D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
+ D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h
+ D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyDownEvent.h
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyUpEvent.h
 
 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDL_Editor_Window_Wrapper.cpp.obj
  D:/code/cpp/gameEngine/gameEngineEditor/src/SDL_Editor_Window_Wrapper.cpp
