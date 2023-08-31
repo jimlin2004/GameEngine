@@ -50,6 +50,9 @@ public:
     {
         return &(this->exportData);
     }
+    
+    void addGameObjectToOutline(entt::entity entityID);
+    void deleteGameObjectOfOutline(entt::entity entityID);
 private:
     Ui::MainWindow *ui;
 
@@ -72,7 +75,6 @@ private:
     void initDetailConnection();
     void clearOutline();
     void updateColorViewer();
-    void addGameObjectToOutline(entt::entity entityID);
     void resetTextureComboBox();
 
     template<class Component>
@@ -103,7 +105,6 @@ private slots:
     void compileProject();
     void runProject();
     void updateTextureViewer();
-    void updateOutline();
 
     void onCloseClick();
     void onExpandClick();

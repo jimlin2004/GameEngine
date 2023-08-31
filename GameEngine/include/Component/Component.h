@@ -124,6 +124,16 @@ namespace GameEngine
         BoxCollider2DComponent() = default;
         BoxCollider2DComponent(const BoxCollider2DComponent& other) = default;
     };
+
+    template <typename ...Component>
+    struct ComponentGroup
+    {
+    };
+
+    //無IDComponent
+    using AllCompnents = ComponentGroup<TagComponent,
+        TransformComponent, MeshComponent, CameraComponent,
+        ScriptComponent, Rigidbody2DComponent, BoxCollider2DComponent>;
 }
 
 

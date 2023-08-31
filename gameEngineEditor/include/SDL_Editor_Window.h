@@ -36,6 +36,8 @@ public:
     virtual void render() override;
     virtual void gameEventHandle() override;
 
+    void setSelectedEntity(entt::entity entityID);
+
     void onScenePlay();
     void onSceneStop();
     void reloadDll();
@@ -57,6 +59,7 @@ private:
     ImGuizmo::OPERATION gizmoOperation;
     GameEngine::FrameBuffer* frameBuffer;
     GameEngine::Actor hoveredActor;
+    entt::entity copyedEntityID;
     GameEngineEditor::EditorCamera editorCamera;
     glm::mat4 transform;
 
@@ -64,6 +67,12 @@ private:
     GameEngineEditor::ExportData* mainWindowExportDataPtr;
 
     void updateEditorCamera(float deltaTime);
+    // 用於bind GameEngine::EventDispatcher
+    void bindEditorEvents();
+
+    void onCopyActor();
+    void onPasteActor();
+    void onDeleteActor();
 };
 
 #endif

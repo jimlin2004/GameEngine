@@ -26,6 +26,7 @@ namespace GameEngine
         std::vector<entt::entity> getAllActors();
 
         static Scene* copy(Scene* other);
+        entt::entity copyActor(entt::entity srcEntityID);
         void onRuntimeStart();
         void onRunTimeStop();
 

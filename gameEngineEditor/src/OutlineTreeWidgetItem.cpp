@@ -4,11 +4,13 @@ std::map<uint32_t, OutlineTreeWidgetItem*> OutlineTreeWidgetItem::itemsMap = {};
 
 OutlineTreeWidgetItem::OutlineTreeWidgetItem(QTreeWidget *treeview, int type)
     : QTreeWidgetItem(treeview, type)
+    , entityID(entt::null)
 {
 }
 
 OutlineTreeWidgetItem::OutlineTreeWidgetItem(QTreeWidgetItem *parent, int type)
     : QTreeWidgetItem(parent, type)
+    , entityID(entt::null)
 {
 }
 
@@ -36,13 +38,18 @@ void OutlineTreeWidgetItem::resetItemsVec()
 
 void OutlineTreeWidgetItem::insertItem(OutlineTreeWidgetItem *item)
 {
-    this->itemsMap.insert({(uint32_t)item->getEntityID(), item});
+    OutlineTreeWidgetItem::itemsMap.insert({(uint32_t)item->getEntityID(), item});
 }
 
-OutlineTreeWidgetItem *OutlineTreeWidgetItem::getItemByEntityID(entt::entity entityID) const
+void OutlineTreeWidgetItem::removeItem(entt::entity entityID)
+{
+    OutlineTreeWidgetItem::itemsMap.erase((uint32_t)entityID);
+}
+
+OutlineTreeWidgetItem *OutlineTreeWidgetItem::getItemByEntityID(entt::entity entityID)
 {
     if (entityID == entt::null)
         return nullptr;
-    auto it = this->itemsMap.find((uint32_t)entityID);
-    return (it == this->itemsMap.end()) ? nullptr : it->second;
+    auto it = OutlineTreeWidgetItem::itemsMap.find((uint32_t)entityID);
+    return (it == OutlineTreeWidgetItem::itemsMap.end()) ? nullptr : it->second;
 }

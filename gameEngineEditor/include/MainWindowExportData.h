@@ -3,7 +3,6 @@
 
 #include "OutlineTreeWidget.h"
 #include "OutlineTreeWidgetItem.h"
-#include "entt.hpp"
 
 namespace GameEngineEditor
 {
@@ -11,7 +10,6 @@ namespace GameEngineEditor
     {
         OutlineTreeWidget* outlineTreeWidget   = nullptr;
         OutlineTreeWidgetItem* actorCollection = nullptr;
-        entt::entity needToInsertOutlineTreeWidget = entt::null;
     };
 }
 

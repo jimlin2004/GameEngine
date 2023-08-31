@@ -143,6 +143,8 @@ void SDL_Editor_Window::begin()
     };
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
     GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
+
+    this->bindEditorEvents();
 }
 
 void SDL_Editor_Window::update(float deltaTime)
@@ -204,7 +206,6 @@ void SDL_Editor_Window::render()
                 );
                 this->hoveredActor.setEntityID(entt::null);
             }
-                
             entt::entity entityId = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
             if (entityId != entt::null)
             {
@@ -317,7 +318,7 @@ void SDL_Editor_Window::gameEventHandle()
                 glm::vec3 windowCoord = {(int)(this->editorCamera.getX() + GameEngine::Input::getMouseX()), (int)(io.DisplaySize.y - GameEngine::Input::getMouseY() + this->editorCamera.getY()), 0};
                 //將screen coordinates 轉換成 world coordinates
                 glm::vec3 worldCoord  = glm::unProject(windowCoord, glm::mat4(1.0f), editorCamera.getProjectionMatrix(), (glm::vec4){0.0f, 0.0f, (float)io.DisplaySize.x, (float)io.DisplaySize.y});
-                this->mainWindowExportDataPtr->needToInsertOutlineTreeWidget = (entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {worldCoord.x, worldCoord.y});
+                this->mainWindowPtr->addGameObjectToOutline((entt::entity)GameEngineEditor::SDLFileParser::parseFile(event.drop.file, {worldCoord.x, worldCoord.y}));
                 break;
             }
             case SDL_MOUSEWHEEL:
@@ -341,11 +342,103 @@ void SDL_Editor_Window::gameEventHandle()
         }
     }
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_E))
+    {
         this->gizmoOperation = ImGuizmo::SCALE;
+        return;
+    }
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_R))
+    {
         this->gizmoOperation = ImGuizmo::ROTATE;
+        return;
+    }
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_G))
+    {
         this->gizmoOperation = ImGuizmo::TRANSLATE;
+        return;
+    }
+}
+
+void SDL_Editor_Window::setSelectedEntity(entt::entity entityID)
+{
+    this->hoveredActor.setEntityID(entityID);
+}
+
+void SDL_Editor_Window::bindEditorEvents()
+{
+    GameEngine::EventDispatcher::addCallback(GameEngine::EventType::KeyDownEvent, [this](GameEngine::Event& event){
+        if (this->sceneState == SceneState::Play)
+            return;
+
+        GameEngine::KeyDownEvent& keyDownEvent = dynamic_cast<GameEngine::KeyDownEvent&>(event);
+        switch (keyDownEvent.key())
+        {
+        case GameEngine::Key_LCTRL:
+        case GameEngine::Key_RCTRL:
+        {
+            if (GameEngine::Input::isKeyPressed(GameEngine::Key_C))
+            {
+                this->onCopyActor();
+            }
+            if (GameEngine::Input::isKeyPressed(GameEngine::Key_V))
+            {
+                this->onPasteActor();
+            }
+            break;
+        }
+        case GameEngine::Key_C:
+        {
+            if (GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL) || 
+                GameEngine::Input::isKeyPressed(GameEngine::Key_RCTRL))
+            {
+                this->onCopyActor();
+            }
+            break;
+        }
+        case GameEngine::Key_V:
+        {
+            if (GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL) || 
+                GameEngine::Input::isKeyPressed(GameEngine::Key_RCTRL))
+            {
+                this->onPasteActor();
+            }
+            break;
+        }
+        case GameEngine::Key_DELETE:
+        {
+            this->onDeleteActor();
+        }
+        default:
+            break;
+        }
+    });
+}
+
+void SDL_Editor_Window::onCopyActor()
+{
+    entt::entity selectedEntityID = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
+    if (selectedEntityID != entt::null)
+    {
+        this->copyedEntityID = selectedEntityID;
+    }
+}
+
+void SDL_Editor_Window::onPasteActor()
+{
+    if (this->copyedEntityID != entt::null)
+    {
+        entt::entity newEntityID = GameEngine::globalScene->copyActor(this->copyedEntityID);
+        this->mainWindowPtr->addGameObjectToOutline(newEntityID);
+    }
+}
+
+void SDL_Editor_Window::onDeleteActor()
+{
+    entt::entity selectedEntityID = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
+    if (selectedEntityID != entt::null)
+    {
+        this->mainWindowPtr->deleteGameObjectOfOutline(selectedEntityID);
+        GameEngine::globalScene->registry.destroy(selectedEntityID);
+    }
 }
 
 void SDL_Editor_Window::onScenePlay()
@@ -408,6 +501,8 @@ void SDL_Editor_Window::updateEditorCamera(float deltaTime)
     if (GameEngine::Input::isKeyPressed(GameEngine::Key_S))
         this->editorCamera.setY(this->editorCamera.getY() - (speed * deltaTime));
 }
+
+
 
 void SDL_Editor_Window::bindExportData(GameEngineEditor::ExportData* ptr)
 {

@@ -529,6 +529,18 @@
     4. 由(3)的問題，目前未發展渲染queue或order independent transparency(OIT的技術)
        ，所以目前先透過 fragment shader將alpha == 0.0的pixel直接discard
     Todo list
-        --Script core 的完善
+        -Script core 的完善
         -渲染queue或OIT
+    存檔紀錄 --version 1.0-dev
+2023/08/31
+    1. Component新增AllComponents一類，幫助減少Scene的code
+    2. 完成Editor的copy paste actor，以及 delete Actor的功能
+    3. 取消mainWindow中用timeout去更新treeWidget的機制，取消mainWindowExportData中的needToInsertOutlineTreeWidget
+       , 改成sdl直接透過pointer呼叫mainWindow去更新
+    4. 修復treeWidget在未選擇project時點擊top的Actor Collection程式崩潰的問題
+       (透過OutlineTreeWidgetItem的建構子將其所包含的entityID設為entt::null修復)
+    Todo list
+        -Script core 的完善
+        -渲染queue或OIT
+        -GameEngine scriptable actor可以spawnActor的功能
     存檔紀錄 --version 1.0-dev

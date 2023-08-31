@@ -60,6 +60,11 @@ public:
     QVBoxLayout *verticalLayout_3;
     QWidget *widget_addComponentWrap;
     QVBoxLayout *verticalLayout_9;
+    QCollapsibleWidget *qCollapsibleWidget_tag;
+    QWidget *contentWidget_tag;
+    QHBoxLayout *horizontalLayout_9;
+    QLabel *label_tag;
+    QLineEdit *lineEdit_tag;
     QCollapsibleWidget *qCollapsibleWidget_transform;
     QWidget *contentWidget_transform;
     QVBoxLayout *verticalLayout_6;
@@ -252,7 +257,7 @@ public:
         scrollArea_detail->setWidgetResizable(true);
         scrollAreaWidgetContents_detail = new QWidget();
         scrollAreaWidgetContents_detail->setObjectName("scrollAreaWidgetContents_detail");
-        scrollAreaWidgetContents_detail->setGeometry(QRect(0, -484, 454, 919));
+        scrollAreaWidgetContents_detail->setGeometry(QRect(0, 0, 454, 981));
         sizePolicy.setHeightForWidth(scrollAreaWidgetContents_detail->sizePolicy().hasHeightForWidth());
         scrollAreaWidgetContents_detail->setSizePolicy(sizePolicy);
         scrollAreaWidgetContents_detail->setLayoutDirection(Qt::LeftToRight);
@@ -267,20 +272,41 @@ public:
 
         verticalLayout_3->addWidget(widget_addComponentWrap);
 
-        qCollapsibleWidget_transform = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
-        qCollapsibleWidget_transform->setObjectName("qCollapsibleWidget_transform");
-        QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        qCollapsibleWidget_tag = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_tag->setObjectName("qCollapsibleWidget_tag");
+        contentWidget_tag = new QWidget(qCollapsibleWidget_tag);
+        contentWidget_tag->setObjectName("contentWidget_tag");
+        QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Minimum);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(qCollapsibleWidget_transform->sizePolicy().hasHeightForWidth());
-        qCollapsibleWidget_transform->setSizePolicy(sizePolicy1);
-        contentWidget_transform = new QWidget(qCollapsibleWidget_transform);
-        contentWidget_transform->setObjectName("contentWidget_transform");
-        QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Minimum);
+        sizePolicy1.setHeightForWidth(contentWidget_tag->sizePolicy().hasHeightForWidth());
+        contentWidget_tag->setSizePolicy(sizePolicy1);
+        horizontalLayout_9 = new QHBoxLayout(contentWidget_tag);
+        horizontalLayout_9->setObjectName("horizontalLayout_9");
+        label_tag = new QLabel(contentWidget_tag);
+        label_tag->setObjectName("label_tag");
+
+        horizontalLayout_9->addWidget(label_tag);
+
+        lineEdit_tag = new QLineEdit(contentWidget_tag);
+        lineEdit_tag->setObjectName("lineEdit_tag");
+
+        horizontalLayout_9->addWidget(lineEdit_tag);
+
+
+        verticalLayout_3->addWidget(qCollapsibleWidget_tag);
+
+        qCollapsibleWidget_transform = new QCollapsibleWidget(scrollAreaWidgetContents_detail);
+        qCollapsibleWidget_transform->setObjectName("qCollapsibleWidget_transform");
+        QSizePolicy sizePolicy2(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(contentWidget_transform->sizePolicy().hasHeightForWidth());
-        contentWidget_transform->setSizePolicy(sizePolicy2);
+        sizePolicy2.setHeightForWidth(qCollapsibleWidget_transform->sizePolicy().hasHeightForWidth());
+        qCollapsibleWidget_transform->setSizePolicy(sizePolicy2);
+        contentWidget_transform = new QWidget(qCollapsibleWidget_transform);
+        contentWidget_transform->setObjectName("contentWidget_transform");
+        sizePolicy1.setHeightForWidth(contentWidget_transform->sizePolicy().hasHeightForWidth());
+        contentWidget_transform->setSizePolicy(sizePolicy1);
         verticalLayout_6 = new QVBoxLayout(contentWidget_transform);
         verticalLayout_6->setObjectName("verticalLayout_6");
         label_position = new QLabel(contentWidget_transform);
@@ -424,8 +450,8 @@ public:
         qCollapsibleWidget_color->setObjectName("qCollapsibleWidget_color");
         contentWidget_color = new QWidget(qCollapsibleWidget_color);
         contentWidget_color->setObjectName("contentWidget_color");
-        sizePolicy2.setHeightForWidth(contentWidget_color->sizePolicy().hasHeightForWidth());
-        contentWidget_color->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(contentWidget_color->sizePolicy().hasHeightForWidth());
+        contentWidget_color->setSizePolicy(sizePolicy1);
         verticalLayout_4 = new QVBoxLayout(contentWidget_color);
         verticalLayout_4->setObjectName("verticalLayout_4");
         horizontalLayout_3 = new QHBoxLayout();
@@ -507,8 +533,8 @@ public:
         qCollapsibleWidget_texture->setObjectName("qCollapsibleWidget_texture");
         contentWidget_texture = new QWidget(qCollapsibleWidget_texture);
         contentWidget_texture->setObjectName("contentWidget_texture");
-        sizePolicy2.setHeightForWidth(contentWidget_texture->sizePolicy().hasHeightForWidth());
-        contentWidget_texture->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(contentWidget_texture->sizePolicy().hasHeightForWidth());
+        contentWidget_texture->setSizePolicy(sizePolicy1);
         horizontalLayout = new QHBoxLayout(contentWidget_texture);
         horizontalLayout->setObjectName("horizontalLayout");
         label_textureViewer = new QLabel(contentWidget_texture);
@@ -535,8 +561,8 @@ public:
         qCollapsibleWidget_camera->setObjectName("qCollapsibleWidget_camera");
         contentWidget_camera = new QWidget(qCollapsibleWidget_camera);
         contentWidget_camera->setObjectName("contentWidget_camera");
-        sizePolicy2.setHeightForWidth(contentWidget_camera->sizePolicy().hasHeightForWidth());
-        contentWidget_camera->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(contentWidget_camera->sizePolicy().hasHeightForWidth());
+        contentWidget_camera->setSizePolicy(sizePolicy1);
         horizontalLayout_2 = new QHBoxLayout(contentWidget_camera);
         horizontalLayout_2->setObjectName("horizontalLayout_2");
         label_isPrimary = new QLabel(contentWidget_camera);
@@ -560,8 +586,8 @@ public:
         qCollapsibleWidget_script->setObjectName("qCollapsibleWidget_script");
         contentWidget_script = new QWidget(qCollapsibleWidget_script);
         contentWidget_script->setObjectName("contentWidget_script");
-        sizePolicy2.setHeightForWidth(contentWidget_script->sizePolicy().hasHeightForWidth());
-        contentWidget_script->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(contentWidget_script->sizePolicy().hasHeightForWidth());
+        contentWidget_script->setSizePolicy(sizePolicy1);
         horizontalLayout_8 = new QHBoxLayout(contentWidget_script);
         horizontalLayout_8->setObjectName("horizontalLayout_8");
         label_script = new QLabel(contentWidget_script);
@@ -585,8 +611,8 @@ public:
         qCollapsibleWidget_rigidbody2D->setObjectName("qCollapsibleWidget_rigidbody2D");
         contentWidget_rigidbody2D = new QWidget(qCollapsibleWidget_rigidbody2D);
         contentWidget_rigidbody2D->setObjectName("contentWidget_rigidbody2D");
-        sizePolicy2.setHeightForWidth(contentWidget_rigidbody2D->sizePolicy().hasHeightForWidth());
-        contentWidget_rigidbody2D->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(contentWidget_rigidbody2D->sizePolicy().hasHeightForWidth());
+        contentWidget_rigidbody2D->setSizePolicy(sizePolicy1);
         verticalLayout_10 = new QVBoxLayout(contentWidget_rigidbody2D);
         verticalLayout_10->setObjectName("verticalLayout_10");
         horizontalLayout_6 = new QHBoxLayout();
@@ -637,8 +663,8 @@ public:
         qCollapsibleWidget_boxCollider2D->setObjectName("qCollapsibleWidget_boxCollider2D");
         contentWidget_boxCollider2D = new QWidget(qCollapsibleWidget_boxCollider2D);
         contentWidget_boxCollider2D->setObjectName("contentWidget_boxCollider2D");
-        sizePolicy2.setHeightForWidth(contentWidget_boxCollider2D->sizePolicy().hasHeightForWidth());
-        contentWidget_boxCollider2D->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(contentWidget_boxCollider2D->sizePolicy().hasHeightForWidth());
+        contentWidget_boxCollider2D->setSizePolicy(sizePolicy1);
         verticalLayout_11 = new QVBoxLayout(contentWidget_boxCollider2D);
         verticalLayout_11->setObjectName("verticalLayout_11");
         label_boxCollider2D_offset = new QLabel(contentWidget_boxCollider2D);
@@ -963,6 +989,8 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Game Engine Editor", nullptr));
         dockWidgetLeft->setWindowTitle(QCoreApplication::translate("MainWindow", "Object information", nullptr));
+        qCollapsibleWidget_tag->setTitle(QCoreApplication::translate("MainWindow", "Tag", nullptr));
+        label_tag->setText(QCoreApplication::translate("MainWindow", "Tag", nullptr));
         qCollapsibleWidget_transform->setTitle(QCoreApplication::translate("MainWindow", "Transform", nullptr));
         label_position->setText(QCoreApplication::translate("MainWindow", "Position", nullptr));
         label_x_position->setText(QCoreApplication::translate("MainWindow", "X", nullptr));

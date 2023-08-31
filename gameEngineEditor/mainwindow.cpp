@@ -146,8 +146,6 @@ MainWindow::MainWindow(QWidget *parent)
     this->ui->scrollAreaWidgetContents_detail->layout()->setAlignment(Qt::AlignTop);
     this->resizeDocks({this->ui->dockWidgetLeft}, {this->ui->scrollAreaWidgetContents_detail->width() + 20}, Qt::Horizontal);
     
-    //bind tiemr to outline if there is an entity need to insert to outline
-    connect(&(this->timer), &QTimer::timeout, this, &MainWindow::updateOutline);
     connect(this->ui->treeWidget, &OutlineTreeWidget::onSetSelectedItemToNull, [this](){
         this->hideAllDetail();
     });
@@ -300,15 +298,6 @@ bool MainWindow::nativeEvent(const QByteArray& eventType, void* message, qintptr
     return QMainWindow::nativeEvent(eventType, message, result);
 }
 #endif
-
-void MainWindow::updateOutline()
-{
-    if (this->exportData.needToInsertOutlineTreeWidget != entt::null)
-    {
-        this->addGameObjectToOutline(this->exportData.needToInsertOutlineTreeWidget);
-        this->exportData.needToInsertOutlineTreeWidget = entt::null;
-    }
-}
 
 void MainWindow::onFocusChanged(bool& isFocusOnSDL)
 {
@@ -580,16 +569,29 @@ void MainWindow::resetTextureComboBox()
 
 void MainWindow::addGameObjectToOutline(entt::entity entityID)
 {
+    // 這裡的entity 由Editor拖入或copy paste entity時觸發
     OutlineTreeWidgetItem *item = new OutlineTreeWidgetItem(this->actorLevel);
     GameEngine::Actor actor(entityID, GameEngine::globalScene);
     GameEngine::TagComponent& tagComponent = actor.getComponent<GameEngine::TagComponent>();
-    actor.addComponent<GameEngine::IDComponent>();
+    if (!actor.hasComponent<GameEngine::IDComponent>())
+        actor.addComponent<GameEngine::IDComponent>();
 
     item->setText(0, QString::fromStdString(tagComponent.tagName));
     item->setEntityID(entityID);
     this->actorLevel->addChild(item);
-
     this->actorLevel->insertItem(item);
+
+    this->SDL_editor_window->setSelectedEntity(entityID);
+}
+
+void MainWindow::deleteGameObjectOfOutline(entt::entity entityID)
+{
+    OutlineTreeWidgetItem* item = OutlineTreeWidgetItem::getItemByEntityID(entityID);
+    OutlineTreeWidgetItem::removeItem(entityID);
+    
+    delete item;
+
+    this->ui->treeWidget->setSelectedEntity(nullptr);
 }
 
 void MainWindow::resetGameObjectOutline()
@@ -665,6 +667,17 @@ void MainWindow::initDetailConnection()
 {
     // init detail connection
     
+    // tag component
+    connect(this->ui->lineEdit_tag, &QLineEdit::editingFinished, [this](){
+        entt::entity entityID = this->ui->treeWidget->getSelectedEntity();
+        if (entityID == entt::null)
+            return;
+        GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entityID);
+        tagComponent.tagName = this->ui->lineEdit_tag->text().toStdString();
+        OutlineTreeWidgetItem* item = OutlineTreeWidgetItem::getItemByEntityID(entityID);
+        item->setText(0, QString::fromStdString(tagComponent.tagName));
+    });
+
     // mesh component(texture)
     connect(this->ui->comboBox_texture, &QComboBox::currentIndexChanged, this, &MainWindow::updateTextureViewer);
     
@@ -710,6 +723,15 @@ void MainWindow::initDetailConnection()
         GameEngine::ScriptComponent& scriptComponent = GameEngine::globalScene->queryActorComponent<GameEngine::ScriptComponent>(entityID);
         scriptComponent.className = this->ui->comboBox_script->currentText().toStdString();
     });
+}
+
+template<>
+void MainWindow::pushComponentProperty<GameEngine::TagComponent>(const entt::entity& entityID)
+{
+    GameEngine::TagComponent& tagComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TagComponent>(entityID);
+    this->ui->lineEdit_tag->setText(QString::fromStdString(tagComponent.tagName));
+    
+    this->ui->qCollapsibleWidget_tag->show();
 }
 
 template<>
@@ -882,6 +904,8 @@ void MainWindow::updateDetail()
         return;
     this->ui->widget_addComponentWrap->show();
     GameEngine::Actor actor(entityID, GameEngine::globalScene);
+    if (actor.hasComponent<GameEngine::TagComponent>())
+        this->pushComponentProperty<GameEngine::TagComponent>(entityID);
     if (actor.hasComponent<GameEngine::TransformComponent>())
         this->pushComponentProperty<GameEngine::TransformComponent>(entityID);
     if (actor.hasComponent<GameEngine::MeshComponent>())

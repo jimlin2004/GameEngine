@@ -18,8 +18,9 @@ public:
     }
     void click();
     void resetItemsVec();
-    void insertItem(OutlineTreeWidgetItem* item);
-    OutlineTreeWidgetItem* getItemByEntityID(entt::entity entityID) const;
+    static void insertItem(OutlineTreeWidgetItem* item);
+    static void removeItem(entt::entity entityID);
+    static OutlineTreeWidgetItem* getItemByEntityID(entt::entity entityID);
 private:
     entt::entity entityID;
     static std::map<uint32_t, OutlineTreeWidgetItem*> itemsMap;

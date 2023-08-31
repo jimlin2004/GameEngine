@@ -132,9 +132,9 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-484</y>
+             <y>0</y>
              <width>454</width>
-             <height>919</height>
+             <height>981</height>
             </rect>
            </property>
            <property name="sizePolicy">
@@ -165,6 +165,33 @@
             <item>
              <widget class="QWidget" name="widget_addComponentWrap" native="true">
               <layout class="QVBoxLayout" name="verticalLayout_9"/>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCollapsibleWidget" name="qCollapsibleWidget_tag">
+              <property name="Title">
+               <string>Tag</string>
+              </property>
+              <widget class="QWidget" name="contentWidget_tag" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <item>
+                 <widget class="QLabel" name="label_tag">
+                  <property name="text">
+                   <string>Tag</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_tag"/>
+                </item>
+               </layout>
+              </widget>
              </widget>
             </item>
             <item>

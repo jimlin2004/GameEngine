@@ -212,6 +212,14 @@ ComponentBrowserWidget QToolButton {
     background-color: #404040;
 }
 
+#dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QLineEdit {
+    border-width: 2px;
+    border-style: inset;
+    background-color: #252525;
+    border-color: transparent;
+    color: #ffffff;
+}
+
 #dockWidgetLeft #scrollAreaWidgetContents_detail QCollapsibleWidget QPushButton {
     color: #ffffff;
     background-color: #252525;

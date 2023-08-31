@@ -106,17 +106,38 @@ std::vector<entt::entity> GameEngine::Scene::getAllActors()
     return entities;
 }
 
-template<class Component>
+// template<class Component>
+// static void copyComponent(entt::registry& src, entt::registry& dst, std::unordered_map<GameEngine::UUID, entt::entity>& entityMap)
+// {
+//     auto view = src.view<Component>();
+//     for (entt::entity entity: view)
+//     {
+//         GameEngine::UUID& uuid = src.get<GameEngine::IDComponent>(entity).uuid;
+//         entt::entity dstEntityID = entityMap[uuid];
+//         Component& component = src.get<Component>(entity);
+//         dst.emplace_or_replace<Component>(dstEntityID, component);
+//     }
+// }
+
+template<typename... Component>
 static void copyComponent(entt::registry& src, entt::registry& dst, std::unordered_map<GameEngine::UUID, entt::entity>& entityMap)
 {
-    auto view = src.view<Component>();
-    for (entt::entity entity: view)
-    {
-        GameEngine::UUID& uuid = src.get<GameEngine::IDComponent>(entity).uuid;
-        entt::entity dstEntityID = entityMap[uuid];
-        Component& component = src.get<Component>(entity);
-        dst.emplace_or_replace<Component>(dstEntityID, component);
-    }
+    ([&](){
+        auto view = src.view<Component>();
+        for (entt::entity entity: view)
+        {
+            GameEngine::UUID& uuid = src.get<GameEngine::IDComponent>(entity).uuid;
+            entt::entity dstEntityID = entityMap[uuid];
+            Component& component = src.get<Component>(entity);
+            dst.emplace_or_replace<Component>(dstEntityID, component);
+        }
+    }(), ...);
+}
+
+template<typename... Component>
+static void copyComponent(GameEngine::ComponentGroup<Component...>, entt::registry& src, entt::registry& dst, std::unordered_map<GameEngine::UUID, entt::entity>& entityMap)
+{
+    copyComponent<Component...>(src, dst, entityMap);
 }
 
 GameEngine::Scene* GameEngine::Scene::copy(GameEngine::Scene* originalScene)
@@ -135,16 +156,35 @@ GameEngine::Scene* GameEngine::Scene::copy(GameEngine::Scene* originalScene)
         entityMap.insert({uuid, (entt::entity)newActor->getID()});
     }
 
-    copyComponent<TagComponent>(srcRegistry, dstRegistry, entityMap);
-    copyComponent<TransformComponent>(srcRegistry, dstRegistry, entityMap);
-    copyComponent<MeshComponent>(srcRegistry, dstRegistry, entityMap);
-    copyComponent<CameraComponent>(srcRegistry, dstRegistry, entityMap);
-    copyComponent<ScriptComponent>(srcRegistry, dstRegistry, entityMap);
-    copyComponent<Rigidbody2DComponent>(srcRegistry, dstRegistry, entityMap);
-    copyComponent<BoxCollider2DComponent>(srcRegistry, dstRegistry, entityMap);
+    copyComponent(GameEngine::AllCompnents{}, srcRegistry, dstRegistry, entityMap);
 
-    // Actor::bindScene(originalScene);
     return newScene;
+}
+
+template<typename... Component>
+static void copyActorComponents(entt::entity src, entt::entity dst, entt::registry& registry)
+{
+    ([&](){
+        if (!registry.all_of<Component>(src)) //entity has not this component
+            return;
+        Component& component = registry.get<Component>(src);
+        registry.emplace_or_replace<Component>(dst, component);
+    }(), ...);
+}
+
+template<typename... Component>
+static void copyActorComponents(GameEngine::ComponentGroup<Component...>, entt::entity src, entt::entity dst, entt::registry& registry)
+{
+    copyActorComponents<Component...>(src, dst, registry);
+}
+
+entt::entity GameEngine::Scene::copyActor(entt::entity srcEntityID)
+{
+    entt::entity newEntityID = this->registry.create();
+    GameEngine::IDComponent idCommponent;
+    this->registry.emplace_or_replace<IDComponent>(newEntityID, idCommponent);
+    copyActorComponents(GameEngine::AllCompnents{}, srcEntityID, newEntityID, this->registry);
+    return newEntityID;
 }
 
 static b2BodyType getBox2DRigidbodyType(GameEngine::Rigidbody2DComponent::BodyType bodyType)

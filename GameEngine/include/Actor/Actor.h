@@ -14,10 +14,9 @@ namespace GameEngine
     class Actor: public GameObject
     {
     protected:
-        
+        Scene* scene;
         entt::entity entityID;        
     public:
-        Scene* scene;
         Actor();
         Actor(Actor& other);
         Actor(entt::entity entityID, Scene* scenePtr);
@@ -27,7 +26,8 @@ namespace GameEngine
         void bindScene(GameEngine::Scene* newScene);
 
         // User should not use
-        virtual void setEntityID(entt::entity entityID);
+        void setEntityID(entt::entity entityID);
+        
         // User should not use
         void initComponents(const glm::vec3& position, const glm::vec3& scale, const glm::vec3& rotation, const std::string& actorName, const std::string& typeName);
         // User should not use
@@ -36,12 +36,19 @@ namespace GameEngine
         virtual void begin();
         virtual void update(const float deltaTime);
         virtual void destroy();
-
+        
+        // User should not use
         inline uint32_t getID() const
         {
             return (uint32_t)this->entityID;
         }
-
+        
+        // User should not use
+        inline Scene* getScenePtr() const
+        {
+            return this->scene;
+        }
+        
         UUID getUUID();
 
         template <class T>

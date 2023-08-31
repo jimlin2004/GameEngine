@@ -15,9 +15,9 @@ entt::entity OutlineTreeWidget::getSelectedEntity() const
         return entt::null;
     OutlineTreeWidgetItem* outlineItem = dynamic_cast<OutlineTreeWidgetItem*>(items[0]);
     if (outlineItem != nullptr)
-        return outlineItem->getEntityID();
+        return outlineItem->getEntityID(); //點到Level的case依舊回傳entt::null(建構子初始化)
     else
-        return entt::null; //點到Level的case
+        return entt::null;
 }
 
 void OutlineTreeWidget::setSelectedEntity(QTreeWidgetItem* item)
