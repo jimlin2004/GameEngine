@@ -51,4 +51,3 @@
 
 ## Current progress
 <image src = "./image/20230831.png"/>
-=======
