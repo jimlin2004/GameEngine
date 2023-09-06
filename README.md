@@ -49,8 +49,5 @@
 | Mingw-w64 | 12.2          |
 | Cmake     | 3.16 or higher|
 
-<<<<<<< HEAD
 ## Current progress
 <image src = "./image/20230831.png"/>
-=======
->>>>>>> 5af3515ceed8ba6097adf1a452e9541cb86862ec
