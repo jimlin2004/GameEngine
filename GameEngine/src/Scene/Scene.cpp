@@ -260,7 +260,7 @@ void GameEngine::Scene::onRuntimeStart()
     
     //script
     
-    GameEngine::ScriptEngine::reload("D:/code/cpp/gameEngine/TestGame/build/lib/GameEngineScript.dll");
+    GameEngine::ScriptEngine::reload(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
     
     auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
     for (entt::entity entityID: scriptView)

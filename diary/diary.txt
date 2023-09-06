@@ -544,3 +544,10 @@
         -渲染queue或OIT
         -GameEngine scriptable actor可以spawnActor的功能
     存檔紀錄 --version 1.0-dev
+2023/09/06
+    1. 緊急修復scene中onRuntimeStart時dll的reload寫死路徑的bug
+    Todo list
+        -Script core 的完善
+        -渲染queue或OIT
+        -GameEngine scriptable actor可以spawnActor的功能
+    存檔紀錄 --version 1.0-dev
