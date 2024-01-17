@@ -326,13 +326,13 @@ CPACK_SOURCE_7Z:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=ON
 
 //Value Computed by CMake
-GameEngineEditor_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/gameEngineEditor
+GameEngineEditor_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/GameEngineEditor
 
 //Value Computed by CMake
 GameEngineEditor_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-GameEngineEditor_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/gameEngineEditor
+GameEngineEditor_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/GameEngineEditor
 
 //Value Computed by CMake
 GameEngine_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/GameEngine

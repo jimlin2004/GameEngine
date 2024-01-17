@@ -1,4 +1,4 @@
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj: \
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj: \
  D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_demo.cpp \
  D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui.h \
  D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imconfig.h \
@@ -75,4 +75,5 @@ gameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui
  C:/PROGRA~1/msys64/mingw64/include/swprintf.inl \
  C:/PROGRA~1/msys64/mingw64/include/sec_api/stdio_s.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
- C:/PROGRA~1/msys64/mingw64/include/stdint.h
+ C:/PROGRA~1/msys64/mingw64/include/stdint.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h

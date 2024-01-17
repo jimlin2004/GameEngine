@@ -63,17 +63,17 @@ CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\build
 
 # The main recursive "all" target.
 all: GameEngine/all
-all: gameEngineEditor/all
+all: GameEngineEditor/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: GameEngine/preinstall
-preinstall: gameEngineEditor/preinstall
+preinstall: GameEngineEditor/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: GameEngine/clean
-clean: gameEngineEditor/clean
+clean: GameEngineEditor/clean
 .PHONY : clean
 
 #=============================================================================
@@ -92,22 +92,19 @@ GameEngine/clean: GameEngine/CMakeFiles/GameEngine.dir/clean
 .PHONY : GameEngine/clean
 
 #=============================================================================
-# Directory level rules for directory gameEngineEditor
+# Directory level rules for directory GameEngineEditor
 
 # Recursive "all" directory target.
-gameEngineEditor/all: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
-gameEngineEditor/all: gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all
-.PHONY : gameEngineEditor/all
+GameEngineEditor/all: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
+.PHONY : GameEngineEditor/all
 
 # Recursive "preinstall" directory target.
-gameEngineEditor/preinstall:
-.PHONY : gameEngineEditor/preinstall
+GameEngineEditor/preinstall:
+.PHONY : GameEngineEditor/preinstall
 
 # Recursive "clean" directory target.
-gameEngineEditor/clean: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
-gameEngineEditor/clean: gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/clean
-gameEngineEditor/clean: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean
-.PHONY : gameEngineEditor/clean
+GameEngineEditor/clean: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
+.PHONY : GameEngineEditor/clean
 
 #=============================================================================
 # Target rules for target GameEngine/CMakeFiles/GameEngine.dir
@@ -136,83 +133,30 @@ GameEngine/CMakeFiles/GameEngine.dir/clean:
 .PHONY : GameEngine/CMakeFiles/GameEngine.dir/clean
 
 #=============================================================================
-# Target rules for target gameEngineEditor/CMakeFiles/GameEngineEditor.dir
+# Target rules for target GameEngineEditor/CMakeFiles/GameEngineEditor.dir
 
 # All Build rule for target.
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all: GameEngine/CMakeFiles/GameEngine.dir/all
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/depend
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target GameEngineEditor"
-.PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all: GameEngine/CMakeFiles/GameEngine.dir/all
+	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/depend
+	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53 "Built target GameEngineEditor"
+.PHONY : GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
 
 # Build rule for subdir invocation for target.
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 76
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 53
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
-.PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
+.PHONY : GameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
 
 # Convenience name for target.
-GameEngineEditor: gameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
+GameEngineEditor: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
 .PHONY : GameEngineEditor
 
 # clean rule for target.
-gameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
-.PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
-
-#=============================================================================
-# Target rules for target gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir
-
-# All Build rule for target.
-gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/depend
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=77,78 "Built target gameEngineEditor_copy_target"
-.PHONY : gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all
-
-# Build rule for subdir invocation for target.
-gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
-.PHONY : gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule
-
-# Convenience name for target.
-gameEngineEditor_copy_target: gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/rule
-.PHONY : gameEngineEditor_copy_target
-
-# clean rule for target.
-gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/clean:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/clean
-.PHONY : gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/clean
-
-#=============================================================================
-# Target rules for target gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir
-
-# All Build rule for target.
-gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all: GameEngine/CMakeFiles/GameEngine.dir/all
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=76 "Built target GameEngineEditor_autogen"
-.PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all
-
-# Build rule for subdir invocation for target.
-gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 39
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
-.PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/rule
-
-# Convenience name for target.
-GameEngineEditor_autogen: gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/rule
-.PHONY : GameEngineEditor_autogen
-
-# clean rule for target.
-gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean
-.PHONY : gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/clean
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
+.PHONY : GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

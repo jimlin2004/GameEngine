@@ -203,34 +203,8 @@ GameEngineEditor: cmake_check_build_system
 
 # fast build rule for target.
 GameEngineEditor/fast:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
+	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
 .PHONY : GameEngineEditor/fast
-
-#=============================================================================
-# Target rules for targets named gameEngineEditor_copy_target
-
-# Build rule for target.
-gameEngineEditor_copy_target: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gameEngineEditor_copy_target
-.PHONY : gameEngineEditor_copy_target
-
-# fast build rule for target.
-gameEngineEditor_copy_target/fast:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\gameEngineEditor_copy_target.dir\build.make gameEngineEditor/CMakeFiles/gameEngineEditor_copy_target.dir/build
-.PHONY : gameEngineEditor_copy_target/fast
-
-#=============================================================================
-# Target rules for targets named GameEngineEditor_autogen
-
-# Build rule for target.
-GameEngineEditor_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameEngineEditor_autogen
-.PHONY : GameEngineEditor_autogen
-
-# fast build rule for target.
-GameEngineEditor_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f gameEngineEditor\CMakeFiles\GameEngineEditor_autogen.dir\build.make gameEngineEditor/CMakeFiles/GameEngineEditor_autogen.dir/build
-.PHONY : GameEngineEditor_autogen/fast
 
 # Help Target
 help:
@@ -246,8 +220,6 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... GameEngineEditor_autogen
-	@echo ... gameEngineEditor_copy_target
 	@echo ... GameEngine
 	@echo ... GameEngineEditor
 .PHONY : help
