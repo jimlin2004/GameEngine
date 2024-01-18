@@ -12,7 +12,7 @@ namespace GameEngine
         explicit CollisionEvent(ActorData* a, ActorData* b);
         virtual ~CollisionEvent();
 
-        virtual EventType getEventType() override { return EventType::CollisionEvent; }
+        virtual EventType getEventType() override { return "CollisionEvent"; }
 
         ActorData *dataA, *dataB;
     };

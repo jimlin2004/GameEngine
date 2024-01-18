@@ -7,6 +7,9 @@
 #include "Opengl/TextureManager.h"
 #include "Event/Input.h"
 #include "ImGuiLayer.h"
+#include "Event/EventDispatcher.h"
+#include "Event/OpenProjectEvent.h"
+#include "Scene/SceneSerializer.h"
 
 #include <filesystem>
 
@@ -15,12 +18,14 @@ GameEngineEditor::Editor::Editor(const char* title, int width, int height)
     , screenWidth(width)
     , screenHeight(height)
     , lastFrameTime(0)
-    , viewportSize(width, height)
+    , viewportSize(width, height)   
     , editorCamera((width / (float)(height)))
     , frameBuffer(nullptr)
     , running(false)
     , isFocusOnViewport(false)
     , sceneState(GameEngineEditor::SceneState::Edit)
+    , editorScene(nullptr)
+    , activeScene(new GameEngine::Scene())
 {
 }
 
@@ -110,8 +115,28 @@ void GameEngineEditor::Editor::init()
     GameEngine::Renderer::init();
 }
 
+void GameEngineEditor::Editor::begin()
+{
+    GameEngine::FrameBufferSpecification spec;
+    spec.width = this->viewportSize.x,
+    spec.height = this->viewportSize.y,
+    spec.attachments = {
+        GameEngine::FrameBufferTextureFormat::RGBA8,
+        GameEngine::FrameBufferTextureFormat::RED_INTEGER, //mouse picking
+        GameEngine::FrameBufferTextureFormat::Depth
+    };
+    this->frameBuffer = new GameEngine::FrameBuffer(spec);
+    GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
+
+    GameEngine::EventDispatcher::addCallback("OpenProjectEvent", [this](GameEngine::Event& event) {
+        GameEngineEditor::OpenProjectEvent& openProjectEvent = dynamic_cast<GameEngineEditor::OpenProjectEvent&>(event);
+        this->openProject(openProjectEvent.getProjectPath());
+    });
+}
+
 void GameEngineEditor::Editor::update(float deltaTime)
 {
+
 }
 
 void GameEngineEditor::Editor::render()
@@ -128,22 +153,26 @@ void GameEngineEditor::Editor::render()
     ImGui::NewFrame();
     // ImGuizmo::BeginFrame();
 
-    GameEngineEditor::ImGuiLayer::renderDockspace();
+    this->imguiLayer.renderDockspace();
 
     ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0, 0));
-    // ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, ImVec2(0, 0));
-    // ImGui::PushStyleVar(ImGuiStyleVar_FrameBorderSize, 0);
-    // ImGui::SetNextWindowSize(io.DisplaySize);
-    // ImGui::SetNextWindowPos({0, 0});
-    // ImGui::Begin("viewport", NULL, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize
-    //     | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse);
-
-    ImGui::Begin("viewport", NULL, ImGuiWindowFlags_NoTitleBar);
+    //tab bar的hide button color
+    ImGui::PushStyleColor(ImGuiCol_Button, ImVec4{0, 0, 0, 0});
+    ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4{0, 0, 0, 0});
+    ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4{0, 0, 0, 0});
+    ImGui::Begin("viewport", NULL, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_MenuBar);
     {
+        ImGui::BeginMenuBar();
+        {
+            ImGui::EndMenuBar();
+        }
+
         this->isFocusOnViewport = ImGui::IsWindowFocused();
 
         ImVec2 currentViewportSize = ImGui::GetContentRegionAvail();
-        if ((this->viewportSize.x != currentViewportSize.x) || (this->viewportSize.y != currentViewportSize.y))
+        //framebuffer sizeo = 0會出錯
+        if ((currentViewportSize.x > 0.0f) && (currentViewportSize.y > 0.0f) &&
+            ((this->viewportSize.x != currentViewportSize.x) || (this->viewportSize.y != currentViewportSize.y)))
         {
             this->viewportSize = currentViewportSize;
             this->editorCamera.resize(this->viewportSize.x, this->viewportSize.y);
@@ -192,11 +221,11 @@ void GameEngineEditor::Editor::render()
         //     else
         //         this->imguizmoVisible = false;
         // }
+        ImGui::End();
     }
-    ImGui::End();
     ImGui::PopStyleVar(1);
-    // ImGui::PopStyleVar(3);
-    GameEngineEditor::ImGuiLayer::renderAllPanel();
+    ImGui::PopStyleColor(3);
+    this->imguiLayer.renderAllPanel();
     ImGui::Render();
 
     GameEngine::GEngine->textureManager->processCreateTextureTasks();
@@ -205,7 +234,7 @@ void GameEngineEditor::Editor::render()
     GameEngine::Renderer::begin((*GameEngine::cameraController->getCamera()), GameEngine::cameraController->getTransform());
         GameEngine::Renderer::drawQuad({0, 0, 0}, {1, 1}, {0.5, 1, 1, 1});
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        GameEngine::globalScene->render();
+        this->activeScene->render();
         frameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
 
@@ -255,20 +284,6 @@ void GameEngineEditor::Editor::gameEventHandle()
     }
 }
 
-void GameEngineEditor::Editor::begin()
-{
-    GameEngine::FrameBufferSpecification spec;
-    spec.width = this->viewportSize.x,
-    spec.height = this->viewportSize.y,
-    spec.attachments = {
-        GameEngine::FrameBufferTextureFormat::RGBA8,
-        GameEngine::FrameBufferTextureFormat::RED_INTEGER, //mouse picking
-        GameEngine::FrameBufferTextureFormat::Depth
-    };
-    this->frameBuffer = new GameEngine::FrameBuffer(spec);
-    GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
-}
-
 void GameEngineEditor::Editor::logBuildInfo()
 {
 }
@@ -287,6 +302,28 @@ void GameEngineEditor::Editor::updateEditorCamera(float deltaTime)
             this->editorCamera.setY(this->editorCamera.getY() + (speed * deltaTime));
         if (GameEngine::Input::isKeyPressed(GameEngine::Key_S))
             this->editorCamera.setY(this->editorCamera.getY() - (speed * deltaTime));
+    }
+}
+
+void GameEngineEditor::Editor::openProject(const std::string& projectPath)
+{
+    this->projectParser.load(projectPath);
+    GameEngine::GEngine->setProjectRootPath(this->projectParser.getProjectDirname());
+    GameEngine::GEngine->setProjectName(this->projectParser.getProjectName());
+
+    std::filesystem::path mapPath(this->projectParser.getProjectDirname());
+    mapPath /= "assets/scene/" + this->projectParser.getProjectName() + ".map";
+    if (std::filesystem::exists(mapPath))
+    {
+        GameEngine::SceneSerializer sceneSerializer(this->activeScene);
+        if (sceneSerializer.deserialize(mapPath.string()))
+        {
+            GameEngine::ConsoleApi::log("Load scene success.\n");
+        }
+        else
+        {
+            GameEngine::ConsoleApi::log("Fail to load scene.\n");
+        }
     }
 }
 

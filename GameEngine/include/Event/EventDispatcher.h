@@ -11,6 +11,7 @@ namespace GameEngine
 {
     class EventDispatcher
     {
+        using EventType = std::string;
         using EventFunc = std::function<void(GameEngine::Event& event)>; 
     public:
         explicit EventDispatcher();

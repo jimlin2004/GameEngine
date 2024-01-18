@@ -18,11 +18,13 @@ namespace GameEngine
     class SceneSerializer
     {
     public:
-        SceneSerializer();
+        SceneSerializer(GameEngine::Scene* scenePtr);
         static void serializeEntity(Actor& actor, Json& json);
         void serialize(const std::string& path);
         bool deserialize(const std::string& path);
         bool deserialize(const std::string& path, Scene** scenePtr);
+    private:
+        GameEngine::Scene* scenePtr;
     };
 
     Json toJson(const glm::vec2& other);

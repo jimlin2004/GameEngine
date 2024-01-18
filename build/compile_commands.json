@@ -201,8 +201,23 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\OpenProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\OpenProjectEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/OpenProjectEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ImGuiLayer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ImGuiLayer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ImGuiLayer.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ImTerminal.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ImTerminal.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ImTerminal.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ProjectParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ProjectParser.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ProjectParser.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",

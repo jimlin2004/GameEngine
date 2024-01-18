@@ -78,9 +78,6 @@ namespace GameEngine
         b2World* physicsWorld;
         ContactListener* contactListener;
     };
-
-    //整個遊戲引擎的global pointer，勿修改
-    extern Scene* globalScene;
 }
 
 #endif

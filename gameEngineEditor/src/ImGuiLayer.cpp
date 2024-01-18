@@ -1,17 +1,20 @@
 #include "ImGuiLayer.h"
-
 #include "imgui/imgui.h"
-
 #include "Core/Platform.h"
+#include "Event/OpenProjectEvent.h"
+#include "Event/EventDispatcher.h"
 
 #if USE_WINDOWS
     #include "Platform/Windows/WindowsApi.h"
 #endif
 
-struct ImGuiLayerData
+GameEngineEditor::ImGuiLayer::ImGuiLayer()
 {
-    bool isShowDebug = false;
-} layerData;
+}
+
+GameEngineEditor::ImGuiLayer::~ImGuiLayer()
+{
+}
 
 void GameEngineEditor::ImGuiLayer::setup()
 {
@@ -76,13 +79,14 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
         {
             if (ImGui::MenuItem("Open project"))
             {
-                GameEngineEditor::WindowsApi::openProjectFile();
+                GameEngineEditor::OpenProjectEvent openProjectEvent(std::string(GameEngineEditor::WindowsApi::openProjectFile()));
+                GameEngine::EventDispatcher::trigger(openProjectEvent);
             }
             ImGui::EndMenu();
         }
         if (ImGui::BeginMenu("Debug"))
         {
-            ImGui::Checkbox("Show debug", &layerData.isShowDebug);
+            ImGui::Checkbox("Show debug", &this->isShowDebug);
             ImGui::EndMenu();
         }
 
@@ -117,4 +121,5 @@ void GameEngineEditor::ImGuiLayer::renderAllPanel()
     ImGuiLayer::renderObjectInformation();
     ImGuiLayer::renderCollection();
     ImGuiLayer::renderContentPanel();
+    this->terminal.render();
 }

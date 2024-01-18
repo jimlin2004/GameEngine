@@ -1,16 +1,11 @@
 #ifndef GAME_ENGINE_EVENT_H
 #define GAME_ENGINE_EVENT_H
 
+#include <string>
+
 namespace GameEngine
 {
-    enum class EventType
-    {
-        None = 0,
-        KeyDownEvent,
-        KeyUpEvent,
-        CollisionEvent
-    };
-
+    using EventType = std::string;
     class Event
     {
     public:

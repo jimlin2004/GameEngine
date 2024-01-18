@@ -12,7 +12,7 @@ namespace GameEngine
         explicit KeyDownEvent(KeyCode _key);
         virtual ~KeyDownEvent();
         
-        virtual EventType getEventType() override { return EventType::KeyDownEvent; }
+        virtual EventType getEventType() override { return "KeyDownEvent"; }
 
         inline KeyCode key() const
         {

@@ -7,7 +7,8 @@
 #include "GameEngineAPI/ConsoleApi.h"
 #include "Core/Assert.h"
 
-GameEngine::SceneSerializer::SceneSerializer()
+GameEngine::SceneSerializer::SceneSerializer(GameEngine::Scene* scenePtr)
+    : scenePtr(scenePtr)
 {
 }
 
@@ -66,8 +67,8 @@ void GameEngine::SceneSerializer::serialize(const std::string& path)
 {
     Json jsonRoot;
     Json jsonArray = Json::array();
-    GameEngine::globalScene->registry.each([&jsonArray](auto entityID){
-        GameEngine::Actor actor = {entityID, GameEngine::globalScene};
+    this->scenePtr->registry.each([&jsonArray, this](auto entityID){
+        GameEngine::Actor actor = {entityID, this->scenePtr};
         GameEngine::SceneSerializer::serializeEntity(actor, jsonArray);
     });
     jsonRoot["Actors"] = jsonArray;
@@ -77,7 +78,7 @@ void GameEngine::SceneSerializer::serialize(const std::string& path)
 
 bool GameEngine::SceneSerializer::deserialize(const std::string& path)
 {
-    return this->deserialize(path, &GameEngine::globalScene);
+    return this->deserialize(path, &this->scenePtr);
 }
 
 bool GameEngine::SceneSerializer::deserialize(const std::string& path, Scene** scenePtr)

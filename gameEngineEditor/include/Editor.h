@@ -12,12 +12,16 @@
 #include "Core/Timestep.h"
 #include "Render/Renderer.h"
 #include "Opengl/FrameBuffer.h"
+#include "Scene/Scene.h"
 #include "EditorCamera.h"
+#include "ProjectParser.h"
 
 #include "imgui.h"
 #include "imgui_impl_sdl2.h"
 #include "imgui_impl_opengl3.h"
 #include "ImGuizmo/ImGuizmo.h"
+
+#include "ImGuiLayer.h"
 
 namespace GameEngineEditor
 {
@@ -51,18 +55,25 @@ namespace GameEngineEditor
         GameEngineEditor::EditorCamera editorCamera;
         glm::mat4 transform;
         SceneState sceneState;
+        GameEngine::Scene* editorScene;
+        GameEngine::Scene* activeScene;
+        ImGuiLayer imguiLayer;
+        GameEngineEditor::ProjectParser projectParser;
 
         bool initSDL();
         bool initGL();
         bool initImGui();
         
         void init();
+        void begin();
         void update(float deltaTime);
         void render();
         void gameEventHandle();
-        void begin();
+        
         void logBuildInfo();
         void updateEditorCamera(float deltaTime);
+
+        void openProject(const std::string& projectPath);
     };
 }
 #endif

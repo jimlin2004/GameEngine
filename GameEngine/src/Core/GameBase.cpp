@@ -97,8 +97,9 @@ void GameEngine::GameBase::init()
 {
     GameEngine::Renderer::init();
 
-    GameEngine::SceneSerializer sceneSerializer;
-    sceneSerializer.deserialize("assets/scene/" + std::string(this->title) + ".map");
+    //Todo
+    // GameEngine::SceneSerializer sceneSerializer;
+    // sceneSerializer.deserialize("assets/scene/" + std::string(this->title) + ".map");
 }
 
 void GameEngine::GameBase::begin()
@@ -138,7 +139,8 @@ void GameEngine::GameBase::startGame()
         this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
         this->gameEventHandle();
         this->update(this->timestep);
-        GameEngine::globalScene->unpdateRuntimeScene(this->timestep);
+        //Todo
+        // GameEngine::globalScene->unpdateRuntimeScene(this->timestep);
         this->render();
         SDL_GL_SwapWindow(this->window);
     }

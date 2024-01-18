@@ -282,8 +282,3 @@ void GameEngine::Scene::onRunTimeStop()
     delete this->physicsWorld;
     this->physicsWorld = nullptr;
 }
-
-namespace GameEngine
-{
-    Scene* globalScene = new Scene();
-}

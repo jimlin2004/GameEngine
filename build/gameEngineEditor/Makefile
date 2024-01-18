@@ -482,6 +482,30 @@ src/EditorCamera.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.s
 .PHONY : src/EditorCamera.cpp.s
 
+src/Event/OpenProjectEvent.obj: src/Event/OpenProjectEvent.cpp.obj
+.PHONY : src/Event/OpenProjectEvent.obj
+
+# target to build an object file
+src/Event/OpenProjectEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.obj
+.PHONY : src/Event/OpenProjectEvent.cpp.obj
+
+src/Event/OpenProjectEvent.i: src/Event/OpenProjectEvent.cpp.i
+.PHONY : src/Event/OpenProjectEvent.i
+
+# target to preprocess a source file
+src/Event/OpenProjectEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.i
+.PHONY : src/Event/OpenProjectEvent.cpp.i
+
+src/Event/OpenProjectEvent.s: src/Event/OpenProjectEvent.cpp.s
+.PHONY : src/Event/OpenProjectEvent.s
+
+# target to generate assembly for a file
+src/Event/OpenProjectEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.s
+.PHONY : src/Event/OpenProjectEvent.cpp.s
+
 src/ImGuiLayer.obj: src/ImGuiLayer.cpp.obj
 .PHONY : src/ImGuiLayer.obj
 
@@ -505,6 +529,54 @@ src/ImGuiLayer.s: src/ImGuiLayer.cpp.s
 src/ImGuiLayer.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.s
 .PHONY : src/ImGuiLayer.cpp.s
+
+src/ImTerminal.obj: src/ImTerminal.cpp.obj
+.PHONY : src/ImTerminal.obj
+
+# target to build an object file
+src/ImTerminal.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImTerminal.cpp.obj
+.PHONY : src/ImTerminal.cpp.obj
+
+src/ImTerminal.i: src/ImTerminal.cpp.i
+.PHONY : src/ImTerminal.i
+
+# target to preprocess a source file
+src/ImTerminal.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImTerminal.cpp.i
+.PHONY : src/ImTerminal.cpp.i
+
+src/ImTerminal.s: src/ImTerminal.cpp.s
+.PHONY : src/ImTerminal.s
+
+# target to generate assembly for a file
+src/ImTerminal.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImTerminal.cpp.s
+.PHONY : src/ImTerminal.cpp.s
+
+src/ProjectParser.obj: src/ProjectParser.cpp.obj
+.PHONY : src/ProjectParser.obj
+
+# target to build an object file
+src/ProjectParser.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj
+.PHONY : src/ProjectParser.cpp.obj
+
+src/ProjectParser.i: src/ProjectParser.cpp.i
+.PHONY : src/ProjectParser.i
+
+# target to preprocess a source file
+src/ProjectParser.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.i
+.PHONY : src/ProjectParser.cpp.i
+
+src/ProjectParser.s: src/ProjectParser.cpp.s
+.PHONY : src/ProjectParser.s
+
+# target to generate assembly for a file
+src/ProjectParser.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s
+.PHONY : src/ProjectParser.cpp.s
 
 src/platform/Windows/WindowsApi.obj: src/platform/Windows/WindowsApi.cpp.obj
 .PHONY : src/platform/Windows/WindowsApi.obj
@@ -581,9 +653,18 @@ help:
 	@echo ... src/EditorCamera.obj
 	@echo ... src/EditorCamera.i
 	@echo ... src/EditorCamera.s
+	@echo ... src/Event/OpenProjectEvent.obj
+	@echo ... src/Event/OpenProjectEvent.i
+	@echo ... src/Event/OpenProjectEvent.s
 	@echo ... src/ImGuiLayer.obj
 	@echo ... src/ImGuiLayer.i
 	@echo ... src/ImGuiLayer.s
+	@echo ... src/ImTerminal.obj
+	@echo ... src/ImTerminal.i
+	@echo ... src/ImTerminal.s
+	@echo ... src/ProjectParser.obj
+	@echo ... src/ProjectParser.i
+	@echo ... src/ProjectParser.s
 	@echo ... src/platform/Windows/WindowsApi.obj
 	@echo ... src/platform/Windows/WindowsApi.i
 	@echo ... src/platform/Windows/WindowsApi.s

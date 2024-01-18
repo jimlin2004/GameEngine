@@ -563,4 +563,14 @@
         -Editor美化
         -將冗長代碼簡化
     存檔紀錄 --version 1.0
-    
+2024/01/18
+    1. 取消GameEngine::globalScene
+    2. 研究imgui style
+    3. 重建scene功能(未完工)
+    4. 重建project parser(未完工)
+    Todo list
+        -找回scene功能
+        -actor功能暫時失效
+        -Editor美化
+        -將冗長代碼簡化
+    存檔紀錄 --version 1.0

@@ -680,11 +680,14 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/EditorCamera.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/ProjectParser.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/ImTerminal.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/vec1.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool1.hpp \
@@ -710,4 +713,12 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h
+ D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Event/OpenProjectEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Scene/SceneSerializer.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc
