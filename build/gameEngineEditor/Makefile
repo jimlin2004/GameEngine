@@ -482,6 +482,30 @@ src/EditorCamera.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.s
 .PHONY : src/EditorCamera.cpp.s
 
+src/Event/ImTreeNodeClickEvent.obj: src/Event/ImTreeNodeClickEvent.cpp.obj
+.PHONY : src/Event/ImTreeNodeClickEvent.obj
+
+# target to build an object file
+src/Event/ImTreeNodeClickEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/ImTreeNodeClickEvent.cpp.obj
+.PHONY : src/Event/ImTreeNodeClickEvent.cpp.obj
+
+src/Event/ImTreeNodeClickEvent.i: src/Event/ImTreeNodeClickEvent.cpp.i
+.PHONY : src/Event/ImTreeNodeClickEvent.i
+
+# target to preprocess a source file
+src/Event/ImTreeNodeClickEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/ImTreeNodeClickEvent.cpp.i
+.PHONY : src/Event/ImTreeNodeClickEvent.cpp.i
+
+src/Event/ImTreeNodeClickEvent.s: src/Event/ImTreeNodeClickEvent.cpp.s
+.PHONY : src/Event/ImTreeNodeClickEvent.s
+
+# target to generate assembly for a file
+src/Event/ImTreeNodeClickEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/ImTreeNodeClickEvent.cpp.s
+.PHONY : src/Event/ImTreeNodeClickEvent.cpp.s
+
 src/Event/OpenProjectEvent.obj: src/Event/OpenProjectEvent.cpp.obj
 .PHONY : src/Event/OpenProjectEvent.obj
 
@@ -530,29 +554,101 @@ src/ImGuiLayer.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.s
 .PHONY : src/ImGuiLayer.cpp.s
 
-src/ImTerminal.obj: src/ImTerminal.cpp.obj
-.PHONY : src/ImTerminal.obj
+src/Panel/ImDebugger.obj: src/Panel/ImDebugger.cpp.obj
+.PHONY : src/Panel/ImDebugger.obj
 
 # target to build an object file
-src/ImTerminal.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImTerminal.cpp.obj
-.PHONY : src/ImTerminal.cpp.obj
+src/Panel/ImDebugger.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj
+.PHONY : src/Panel/ImDebugger.cpp.obj
 
-src/ImTerminal.i: src/ImTerminal.cpp.i
-.PHONY : src/ImTerminal.i
+src/Panel/ImDebugger.i: src/Panel/ImDebugger.cpp.i
+.PHONY : src/Panel/ImDebugger.i
 
 # target to preprocess a source file
-src/ImTerminal.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImTerminal.cpp.i
-.PHONY : src/ImTerminal.cpp.i
+src/Panel/ImDebugger.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.i
+.PHONY : src/Panel/ImDebugger.cpp.i
 
-src/ImTerminal.s: src/ImTerminal.cpp.s
-.PHONY : src/ImTerminal.s
+src/Panel/ImDebugger.s: src/Panel/ImDebugger.cpp.s
+.PHONY : src/Panel/ImDebugger.s
 
 # target to generate assembly for a file
-src/ImTerminal.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImTerminal.cpp.s
-.PHONY : src/ImTerminal.cpp.s
+src/Panel/ImDebugger.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.s
+.PHONY : src/Panel/ImDebugger.cpp.s
+
+src/Panel/ImSceneHierarchy.obj: src/Panel/ImSceneHierarchy.cpp.obj
+.PHONY : src/Panel/ImSceneHierarchy.obj
+
+# target to build an object file
+src/Panel/ImSceneHierarchy.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchy.cpp.obj
+.PHONY : src/Panel/ImSceneHierarchy.cpp.obj
+
+src/Panel/ImSceneHierarchy.i: src/Panel/ImSceneHierarchy.cpp.i
+.PHONY : src/Panel/ImSceneHierarchy.i
+
+# target to preprocess a source file
+src/Panel/ImSceneHierarchy.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchy.cpp.i
+.PHONY : src/Panel/ImSceneHierarchy.cpp.i
+
+src/Panel/ImSceneHierarchy.s: src/Panel/ImSceneHierarchy.cpp.s
+.PHONY : src/Panel/ImSceneHierarchy.s
+
+# target to generate assembly for a file
+src/Panel/ImSceneHierarchy.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchy.cpp.s
+.PHONY : src/Panel/ImSceneHierarchy.cpp.s
+
+src/Panel/ImTerminal.obj: src/Panel/ImTerminal.cpp.obj
+.PHONY : src/Panel/ImTerminal.obj
+
+# target to build an object file
+src/Panel/ImTerminal.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj
+.PHONY : src/Panel/ImTerminal.cpp.obj
+
+src/Panel/ImTerminal.i: src/Panel/ImTerminal.cpp.i
+.PHONY : src/Panel/ImTerminal.i
+
+# target to preprocess a source file
+src/Panel/ImTerminal.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.i
+.PHONY : src/Panel/ImTerminal.cpp.i
+
+src/Panel/ImTerminal.s: src/Panel/ImTerminal.cpp.s
+.PHONY : src/Panel/ImTerminal.s
+
+# target to generate assembly for a file
+src/Panel/ImTerminal.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.s
+.PHONY : src/Panel/ImTerminal.cpp.s
+
+src/Platform/Windows/WindowsApi.obj: src/Platform/Windows/WindowsApi.cpp.obj
+.PHONY : src/Platform/Windows/WindowsApi.obj
+
+# target to build an object file
+src/Platform/Windows/WindowsApi.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj
+.PHONY : src/Platform/Windows/WindowsApi.cpp.obj
+
+src/Platform/Windows/WindowsApi.i: src/Platform/Windows/WindowsApi.cpp.i
+.PHONY : src/Platform/Windows/WindowsApi.i
+
+# target to preprocess a source file
+src/Platform/Windows/WindowsApi.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.i
+.PHONY : src/Platform/Windows/WindowsApi.cpp.i
+
+src/Platform/Windows/WindowsApi.s: src/Platform/Windows/WindowsApi.cpp.s
+.PHONY : src/Platform/Windows/WindowsApi.s
+
+# target to generate assembly for a file
+src/Platform/Windows/WindowsApi.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.s
+.PHONY : src/Platform/Windows/WindowsApi.cpp.s
 
 src/ProjectParser.obj: src/ProjectParser.cpp.obj
 .PHONY : src/ProjectParser.obj
@@ -577,30 +673,6 @@ src/ProjectParser.s: src/ProjectParser.cpp.s
 src/ProjectParser.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s
 .PHONY : src/ProjectParser.cpp.s
-
-src/platform/Windows/WindowsApi.obj: src/platform/Windows/WindowsApi.cpp.obj
-.PHONY : src/platform/Windows/WindowsApi.obj
-
-# target to build an object file
-src/platform/Windows/WindowsApi.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/platform/Windows/WindowsApi.cpp.obj
-.PHONY : src/platform/Windows/WindowsApi.cpp.obj
-
-src/platform/Windows/WindowsApi.i: src/platform/Windows/WindowsApi.cpp.i
-.PHONY : src/platform/Windows/WindowsApi.i
-
-# target to preprocess a source file
-src/platform/Windows/WindowsApi.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/platform/Windows/WindowsApi.cpp.i
-.PHONY : src/platform/Windows/WindowsApi.cpp.i
-
-src/platform/Windows/WindowsApi.s: src/platform/Windows/WindowsApi.cpp.s
-.PHONY : src/platform/Windows/WindowsApi.s
-
-# target to generate assembly for a file
-src/platform/Windows/WindowsApi.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/platform/Windows/WindowsApi.cpp.s
-.PHONY : src/platform/Windows/WindowsApi.cpp.s
 
 # Help Target
 help:
@@ -653,21 +725,30 @@ help:
 	@echo ... src/EditorCamera.obj
 	@echo ... src/EditorCamera.i
 	@echo ... src/EditorCamera.s
+	@echo ... src/Event/ImTreeNodeClickEvent.obj
+	@echo ... src/Event/ImTreeNodeClickEvent.i
+	@echo ... src/Event/ImTreeNodeClickEvent.s
 	@echo ... src/Event/OpenProjectEvent.obj
 	@echo ... src/Event/OpenProjectEvent.i
 	@echo ... src/Event/OpenProjectEvent.s
 	@echo ... src/ImGuiLayer.obj
 	@echo ... src/ImGuiLayer.i
 	@echo ... src/ImGuiLayer.s
-	@echo ... src/ImTerminal.obj
-	@echo ... src/ImTerminal.i
-	@echo ... src/ImTerminal.s
+	@echo ... src/Panel/ImDebugger.obj
+	@echo ... src/Panel/ImDebugger.i
+	@echo ... src/Panel/ImDebugger.s
+	@echo ... src/Panel/ImSceneHierarchy.obj
+	@echo ... src/Panel/ImSceneHierarchy.i
+	@echo ... src/Panel/ImSceneHierarchy.s
+	@echo ... src/Panel/ImTerminal.obj
+	@echo ... src/Panel/ImTerminal.i
+	@echo ... src/Panel/ImTerminal.s
+	@echo ... src/Platform/Windows/WindowsApi.obj
+	@echo ... src/Platform/Windows/WindowsApi.i
+	@echo ... src/Platform/Windows/WindowsApi.s
 	@echo ... src/ProjectParser.obj
 	@echo ... src/ProjectParser.i
 	@echo ... src/ProjectParser.s
-	@echo ... src/platform/Windows/WindowsApi.obj
-	@echo ... src/platform/Windows/WindowsApi.i
-	@echo ... src/platform/Windows/WindowsApi.s
 .PHONY : help
 
 

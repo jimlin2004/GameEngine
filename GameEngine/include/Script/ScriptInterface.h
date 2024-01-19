@@ -13,7 +13,7 @@ class ScriptInterface
 {
 public:
     virtual bool input_isKeyPressed(GameEngine::KeyCode keyCode) = 0;
-    virtual void addCallback(GameEngine::EventType type, std::function<void(GameEngine::Event& event)> funcPtr) = 0;
+    virtual void addCallback(GameEngine::EventType type, std::function<bool(GameEngine::Event* event)> funcPtr) = 0;
 };
 
 #endif

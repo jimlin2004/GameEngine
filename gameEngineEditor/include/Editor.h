@@ -13,6 +13,7 @@
 #include "Render/Renderer.h"
 #include "Opengl/FrameBuffer.h"
 #include "Scene/Scene.h"
+#include "Actor/Actor.h"
 #include "EditorCamera.h"
 #include "ProjectParser.h"
 
@@ -45,6 +46,11 @@ namespace GameEngineEditor
         int screenWidth;
         int screenHeight;
         const char* title;
+        float fps;
+        //imguizmo 的isOver會用到緩存數據(當hoverActor的id不是entt::null才會更新)
+        //為了修復此問題所以增加此變數防止點物件再點空的空間再點原物件會點不到的問題
+        bool imguizmoVisible;
+        ImGuizmo::OPERATION gizmoOperation;
         SDL_Window* window;
         SDL_GLContext GLContext;
         SDL_Event event;
@@ -52,11 +58,14 @@ namespace GameEngineEditor
         uint64_t lastFrameTime;
         GameEngine::FrameBuffer* frameBuffer;
         ImVec2 viewportSize;
+        //viewport在screen中的座標
+        ImVec2 viewportBound[2];
         GameEngineEditor::EditorCamera editorCamera;
         glm::mat4 transform;
         SceneState sceneState;
         GameEngine::Scene* editorScene;
         GameEngine::Scene* activeScene;
+        GameEngine::Actor selectedActor;
         ImGuiLayer imguiLayer;
         GameEngineEditor::ProjectParser projectParser;
 

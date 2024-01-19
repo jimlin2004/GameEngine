@@ -3,12 +3,14 @@
 #include "Core/Platform.h"
 #include "Event/OpenProjectEvent.h"
 #include "Event/EventDispatcher.h"
+#include "Panel/ImDebugger.h"
 
 #if USE_WINDOWS
     #include "Platform/Windows/WindowsApi.h"
 #endif
 
 GameEngineEditor::ImGuiLayer::ImGuiLayer()
+    : isShowDebug(false)
 {
 }
 
@@ -19,6 +21,17 @@ GameEngineEditor::ImGuiLayer::~ImGuiLayer()
 void GameEngineEditor::ImGuiLayer::setup()
 {
     
+}
+
+void GameEngineEditor::ImGuiLayer::setScene(GameEngine::Scene* scene)
+{
+    this->scene = scene;
+    this->sceneHierarchyPanel.setScene(this->scene);
+}
+
+void GameEngineEditor::ImGuiLayer::setSelectedEntity(uint32_t entityID)
+{
+    this->sceneHierarchyPanel.setSelectedEntity(entityID);
 }
 
 void GameEngineEditor::ImGuiLayer::renderDockspace()
@@ -80,7 +93,7 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
             if (ImGui::MenuItem("Open project"))
             {
                 GameEngineEditor::OpenProjectEvent openProjectEvent(std::string(GameEngineEditor::WindowsApi::openProjectFile()));
-                GameEngine::EventDispatcher::trigger(openProjectEvent);
+                GameEngine::EventDispatcher::trigger(&openProjectEvent);
             }
             ImGui::EndMenu();
         }
@@ -104,22 +117,18 @@ void GameEngineEditor::ImGuiLayer::renderObjectInformation()
     ImGui::End();
 }
 
-void GameEngineEditor::ImGuiLayer::renderCollection()
-{
-    ImGui::Begin("Objects Collection");
-    ImGui::End();
-}
-
 void GameEngineEditor::ImGuiLayer::renderContentPanel()
 {
     ImGui::Begin("Content panel");
     ImGui::End();
 }
 
-void GameEngineEditor::ImGuiLayer::renderAllPanel()
+void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
 {
     ImGuiLayer::renderObjectInformation();
-    ImGuiLayer::renderCollection();
+    this->sceneHierarchyPanel.render();
     ImGuiLayer::renderContentPanel();
     this->terminal.render();
+    if (this->isShowDebug)
+        GameEngineEditor::ImDebugger::render(fps);
 }

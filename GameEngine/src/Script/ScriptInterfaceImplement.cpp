@@ -9,7 +9,7 @@ bool ScriptInterfaceImplement::input_isKeyPressed(GameEngine::KeyCode keyCode)
     return GameEngine::Input::isKeyPressed(keyCode);
 }
 
-void ScriptInterfaceImplement::addCallback(GameEngine::EventType type, std::function<void(GameEngine::Event& event)> funcPtr)
+void ScriptInterfaceImplement::addCallback(GameEngine::EventType type, std::function<bool(GameEngine::Event* event)> funcPtr)
 {
     GameEngine::EventDispatcher::addCallback(type, funcPtr);
 }

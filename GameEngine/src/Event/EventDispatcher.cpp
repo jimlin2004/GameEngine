@@ -12,19 +12,21 @@ GameEngine::EventDispatcher::EventDispatcher()
 {
 }
 
-void GameEngine::EventDispatcher::subscribe(EventType type, GameEngine::EventDispatcher::EventFunc eventFunc)
+void GameEngine::EventDispatcher::subscribe(EventType type, GameEngine::EventDispatcher::EventCallBack eventCallBack)
 {
-    this->listeners[type].push_back(eventFunc);
+    this->listeners[type].push_back(eventCallBack);
 }
 
-void GameEngine::EventDispatcher::callback(Event& event)
+void GameEngine::EventDispatcher::callback(Event* event)
 {
-    auto it = this->listeners.find(event.getEventType());
+    auto it = this->listeners.find(event->getEventType());
     if (it != this->listeners.end())
     {
         for (auto& func: it->second)
         {
-            func(event);
+            //回傳true為攔截事件
+            if(func(event))
+                break;
         }
     }
 }
@@ -37,12 +39,12 @@ void GameEngine::EventDispatcher::reset()
     }
 }
 
-void GameEngine::EventDispatcher::addCallback(EventType type, EventFunc eventFunc) 
+void GameEngine::EventDispatcher::addCallback(EventType type, EventCallBack eventCallBack) 
 {
-    eventDispatcher.subscribe(type, eventFunc);
+    eventDispatcher.subscribe(type, eventCallBack);
 }
 
-void GameEngine::EventDispatcher::trigger(Event &event)
+void GameEngine::EventDispatcher::trigger(Event *event)
 {
     eventDispatcher.callback(event);
 }

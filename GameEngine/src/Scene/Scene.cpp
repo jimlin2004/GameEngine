@@ -254,7 +254,7 @@ void GameEngine::Scene::onRuntimeStart()
         GameEngine::ActorData* a = (GameEngine::ActorData*)(contact->GetFixtureA()->GetBody()->GetUserData().pointer);
         GameEngine::ActorData* b = (GameEngine::ActorData*)(contact->GetFixtureB()->GetBody()->GetUserData().pointer);
         GameEngine::CollisionEvent collisionEvent(a, b);
-        GameEngine::EventDispatcher::trigger(collisionEvent);
+        GameEngine::EventDispatcher::trigger(&collisionEvent);
     });
     this->physicsWorld->SetContactListener(this->contactListener);
     

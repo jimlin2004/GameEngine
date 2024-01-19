@@ -9,6 +9,7 @@
 #include "ImGuiLayer.h"
 #include "Event/EventDispatcher.h"
 #include "Event/OpenProjectEvent.h"
+#include "Event/ImTreeNodeClickEvent.h"
 #include "Scene/SceneSerializer.h"
 
 #include <filesystem>
@@ -20,6 +21,7 @@ GameEngineEditor::Editor::Editor(const char* title, int width, int height)
     , lastFrameTime(0)
     , viewportSize(width, height)   
     , editorCamera((width / (float)(height)))
+    , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
     , frameBuffer(nullptr)
     , running(false)
     , isFocusOnViewport(false)
@@ -128,9 +130,20 @@ void GameEngineEditor::Editor::begin()
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
     GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 
-    GameEngine::EventDispatcher::addCallback("OpenProjectEvent", [this](GameEngine::Event& event) {
-        GameEngineEditor::OpenProjectEvent& openProjectEvent = dynamic_cast<GameEngineEditor::OpenProjectEvent&>(event);
-        this->openProject(openProjectEvent.getProjectPath());
+    GameEngine::EventDispatcher::addCallback("OpenProjectEvent", [this](GameEngine::Event* event) {
+        GameEngineEditor::OpenProjectEvent* openProjectEvent = dynamic_cast<GameEngineEditor::OpenProjectEvent*>(event);
+        if (openProjectEvent != nullptr)
+            this->openProject(openProjectEvent->getProjectPath());
+        return true;
+    });
+
+    GameEngine::EventDispatcher::addCallback("ImTreeNodeClickEvent", [this](GameEngine::Event* event) {
+        GameEngineEditor::ImTreeNodeClickEvent* treeNodeClickEvent = dynamic_cast<GameEngineEditor::ImTreeNodeClickEvent*>(event);
+        if (treeNodeClickEvent != nullptr)
+        {
+            this->selectedActor.setEntityID((entt::entity)treeNodeClickEvent->getSelectedEntityID());
+        }
+        return true;
     });
 }
 
@@ -143,15 +156,15 @@ void GameEngineEditor::Editor::render()
 {
     static ImGuiIO& io = ImGui::GetIO();
 
-    // bool snap = GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL);
-    // float snapValue = (this->gizmoOperation == ImGuizmo::ROTATE) ? 45.0f : 10.0f;
+    bool snap = GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL);
+    float snapValue = (this->gizmoOperation == ImGuizmo::ROTATE) ? 45.0f : 10.0f;
 
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL2_NewFrame(this->window);
     ImGui::NewFrame();
-    // ImGuizmo::BeginFrame();
+    ImGuizmo::BeginFrame();
 
     this->imguiLayer.renderDockspace();
 
@@ -161,11 +174,10 @@ void GameEngineEditor::Editor::render()
     ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4{0, 0, 0, 0});
     ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4{0, 0, 0, 0});
     ImGui::Begin("viewport", NULL, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_MenuBar);
-    {
+        ImVec2 viewportPos = ImGui::GetWindowPos();
+        ImVec2 windowSize = ImGui::GetWindowSize();
         ImGui::BeginMenuBar();
-        {
-            ImGui::EndMenuBar();
-        }
+        ImGui::EndMenuBar();
 
         this->isFocusOnViewport = ImGui::IsWindowFocused();
 
@@ -181,79 +193,73 @@ void GameEngineEditor::Editor::render()
         uint32_t textureId = this->frameBuffer->getColorAttachmentRendererID();
         ImGui::Image((ImTextureID)textureId, currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
     
-        // if (this->mainWindowExportDataPtr)
-        // {
-        //     if (this->hoveredActor)
-        //     {
-        //         this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(
-        //             this->mainWindowExportDataPtr->actorCollection->getItemByEntityID((entt::entity)this->hoveredActor.getID())
-        //         );
-        //         this->hoveredActor.setEntityID(entt::null);
-        //     }
-        //     entt::entity entityId = this->mainWindowExportDataPtr->outlineTreeWidget->getSelectedEntity();
-        //     if (entityId != entt::null)
-        //     {
-        //         this->imguizmoVisible = true;
-        //         ImGuizmo::SetOrthographic(true);
-        //         ImGuizmo::SetDrawlist();
-        //         ImGuizmo::SetRect(ImGui::GetWindowPos().x, ImGui::GetWindowPos().y, ImGui::GetWindowWidth(), ImGui::GetWindowHeight());
-        //         const glm::mat4& cameraProjection = this->editorCamera.getProjection();
-        //         glm::mat4 cameraView = glm::inverse(this->editorCamera.getTransform());
-        //         GameEngine::TransformComponent& transformComponent = GameEngine::globalScene->queryActorComponent<GameEngine::TransformComponent>(entityId);
-        //         glm::mat4 transform = transformComponent.getTransform();
-                
-        //         float snapValues[3] = { snapValue, snapValue, snapValue };
-                
-        //         ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
-        //             this->gizmoOperation, ImGuizmo::MODE::LOCAL, glm::value_ptr(transform)
-        //             , nullptr, (snap) ? snapValues : nullptr
-        //         );
-        //         if (ImGuizmo::IsUsing())
-        //         {
-        //             glm::vec3 translation, rotation, scale;
-        //             GameEngine::Math::decomposeTransform(transform, translation, rotation, scale);
-        //             transformComponent.translation = translation;
-        //             glm::vec3 deltaRotation = rotation - transformComponent.rotation;
-        //             transformComponent.rotation += deltaRotation; //解決萬向鎖問題
-        //             transformComponent.scale = scale;
-        //         }
-        //     }
-        //     else
-        //         this->imguizmoVisible = false;
-        // }
-        ImGui::End();
-    }
+        entt::entity selectedEntityID = (entt::entity)this->selectedActor.getID();
+        if (selectedEntityID != entt::null)
+        {
+            this->imguizmoVisible = true;
+            ImGuizmo::SetOrthographic(true);
+            ImGuizmo::SetDrawlist();
+            ImGuizmo::SetRect(this->viewportBound[0].x, this->viewportBound[0].y, this->viewportSize.x, this->viewportSize.y);
+            const glm::mat4& cameraProjection = this->editorCamera.getProjection();
+            glm::mat4 cameraView = glm::inverse(this->editorCamera.getTransform());
+            GameEngine::TransformComponent& transformComponent = this->activeScene->queryActorComponent<GameEngine::TransformComponent>(selectedEntityID);
+            glm::mat4 transform = transformComponent.getTransform();
+            
+            float snapValues[3] = { snapValue, snapValue, snapValue };
+            
+            ImGuizmo::Manipulate(glm::value_ptr(cameraView), glm::value_ptr(cameraProjection), 
+                this->gizmoOperation, ImGuizmo::MODE::LOCAL, glm::value_ptr(transform)
+                , nullptr, (snap) ? snapValues : nullptr
+            );
+            if (ImGuizmo::IsUsing())
+            {
+                glm::vec3 translation, rotation, scale;
+                GameEngine::Math::decomposeTransform(transform, translation, rotation, scale);
+                transformComponent.translation = translation;
+                glm::vec3 deltaRotation = rotation - transformComponent.rotation;
+                transformComponent.rotation += deltaRotation; //解決萬向鎖問題
+                transformComponent.scale = scale;
+            }
+        }
+    ImGui::End();
     ImGui::PopStyleVar(1);
     ImGui::PopStyleColor(3);
-    this->imguiLayer.renderAllPanel();
+    this->imguiLayer.renderAllPanel(this->fps);
     ImGui::Render();
 
     GameEngine::GEngine->textureManager->processCreateTextureTasks();
 
     this->frameBuffer->bind();
     GameEngine::Renderer::begin((*GameEngine::cameraController->getCamera()), GameEngine::cameraController->getTransform());
-        GameEngine::Renderer::drawQuad({0, 0, 0}, {1, 1}, {0.5, 1, 1, 1});
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         this->activeScene->render();
         frameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
 
-    // int mx, my;
-    // GameEngine::Input::getMousePosition(&mx, &my);
-    // my = io.DisplaySize.y - my;
-    // if (mx >= 0 && mx < io.DisplaySize.x && my >= 0 && my < io.DisplaySize.y)
-    // {
-    //     int pixelData = frameBuffer->readPixel(1, mx, my);
-    //     if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
-    //     {
-    //         if (!ImGuizmo::IsOver() || !this->imguizmoVisible)
-    //         {
-    //             this->hoveredActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
-    //             if (pixelData == -1)
-    //                 this->mainWindowExportDataPtr->outlineTreeWidget->setSelectedEntity(nullptr);
-    //         }
-    //     }
-    // }
+    int mx, my;
+    GameEngine::Input::getMousePosition(&mx, &my);
+    float menubarHeight = windowSize.y - this->viewportSize.y;
+    this->viewportBound[0] = {viewportPos.x, viewportPos.y + menubarHeight};
+    this->viewportBound[1] = {this->viewportBound[0].x + this->viewportSize.x, this->viewportBound[0].y + this->viewportSize.y};
+
+    mx = mx - this->viewportBound[0].x;
+    my = my - this->viewportBound[0].y;
+    //翻轉y使(0, 0)在左下角，以符合OpenGL坐標系
+    my = this->viewportSize.y - my;
+
+    if (mx >= 0 && mx < this->viewportSize.x && my >= 0 && my < this->viewportSize.y)
+    {
+        //讀點到的pixel的entity id(預設-1)
+        int pixelData = frameBuffer->readPixel(1, mx, my);
+        if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
+        {
+            if (!ImGuizmo::IsOver())
+            {
+                this->selectedActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
+                this->imguiLayer.setSelectedEntity(this->selectedActor.getID());
+            }
+        }
+    }
     
     this->frameBuffer->unbind();
 
@@ -282,6 +288,13 @@ void GameEngineEditor::Editor::gameEventHandle()
                 break;
         }
     }
+
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_E))
+        this->gizmoOperation = ImGuizmo::SCALE;
+    else if (GameEngine::Input::isKeyPressed(GameEngine::Key_R))
+        this->gizmoOperation = ImGuizmo::ROTATE;
+    else if (GameEngine::Input::isKeyPressed(GameEngine::Key_G))
+        this->gizmoOperation = ImGuizmo::TRANSLATE;
 }
 
 void GameEngineEditor::Editor::logBuildInfo()
@@ -315,9 +328,10 @@ void GameEngineEditor::Editor::openProject(const std::string& projectPath)
     mapPath /= "assets/scene/" + this->projectParser.getProjectName() + ".map";
     if (std::filesystem::exists(mapPath))
     {
-        GameEngine::SceneSerializer sceneSerializer(this->activeScene);
+        GameEngine::SceneSerializer sceneSerializer(&this->activeScene);
         if (sceneSerializer.deserialize(mapPath.string()))
         {
+            this->imguiLayer.setScene(this->activeScene);
             GameEngine::ConsoleApi::log("Load scene success.\n");
         }
         else
@@ -337,6 +351,7 @@ void GameEngineEditor::Editor::start()
         this->lastFrameTime = time;
         time = SDL_GetPerformanceCounter();
         this->timestep = ((time - this->lastFrameTime) * 1000.0f / SDL_GetPerformanceFrequency()) * 0.001f;
+        this->fps = 1.0 / ((time - this->lastFrameTime) / (float)SDL_GetPerformanceFrequency());
         this->gameEventHandle();
 
         if (this->sceneState == GameEngineEditor::SceneState::Edit)

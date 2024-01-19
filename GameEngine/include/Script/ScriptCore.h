@@ -20,7 +20,7 @@ namespace GEngineCore
         static bool isKeyPressed(GameEngine::KeyCode keyCode);
     };
 
-    void addCallback(GameEngine::EventType type, std::function<void(GameEngine::Event& event)> funcPtr);
+    void addCallback(GameEngine::EventType type, std::function<bool(GameEngine::Event* event)> funcPtr);
 }
 
 #endif

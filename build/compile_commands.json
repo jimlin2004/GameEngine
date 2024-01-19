@@ -201,6 +201,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\ImTreeNodeClickEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\ImTreeNodeClickEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/ImTreeNodeClickEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\OpenProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\OpenProjectEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/OpenProjectEvent.cpp"
 },
@@ -211,18 +216,28 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ImTerminal.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ImTerminal.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ImTerminal.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImDebugger.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImDebugger.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImDebugger.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImSceneHierarchy.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImSceneHierarchy.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImSceneHierarchy.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImTerminal.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImTerminal.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImTerminal.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Platform\\Windows\\WindowsApi.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Platform\\Windows\\WindowsApi.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Platform/Windows/WindowsApi.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ProjectParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ProjectParser.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ProjectParser.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\platform\\Windows\\WindowsApi.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\platform\\Windows\\WindowsApi.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/platform/Windows/WindowsApi.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",

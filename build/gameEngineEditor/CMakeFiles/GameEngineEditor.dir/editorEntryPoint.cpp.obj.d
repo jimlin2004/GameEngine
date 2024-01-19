@@ -687,4 +687,5 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/ImTerminal.h
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImTerminal.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchy.h

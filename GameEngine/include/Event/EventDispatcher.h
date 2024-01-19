@@ -12,17 +12,17 @@ namespace GameEngine
     class EventDispatcher
     {
         using EventType = std::string;
-        using EventFunc = std::function<void(GameEngine::Event& event)>; 
+        using EventCallBack = std::function<bool(GameEngine::Event* event)>;
     public:
         explicit EventDispatcher();
-        void subscribe(EventType type, EventFunc eventFunc);
-        void callback(Event& event);
+        void subscribe(EventType type, EventCallBack eventCallBack);
+        void callback(Event* event);
 
         static void reset();
-        static void addCallback(EventType type, EventFunc eventFunc);
-        static void trigger(Event& event);
+        static void addCallback(EventType type, EventCallBack eventCallBack);
+        static void trigger(Event* event);
     private:
-        std::unordered_map<EventType, std::vector<EventFunc>> listeners;
+        std::unordered_map<EventType, std::vector<EventCallBack>> listeners;
     };
 }
 

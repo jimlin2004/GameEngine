@@ -574,3 +574,15 @@
         -Editor美化
         -將冗長代碼簡化
     存檔紀錄 --version 1.0
+2024/01/19
+    1. (*)將EventDispatcher的event改用pointer傳(可以檢查是否cast成功)
+    2. Project load功能回復
+    3. 重建ImGuizmo完成
+    4. 初步完成SceneHierarchy
+    5. 重建mouse picking完成
+    6. (*)研究發現ImGui顏色格式是ABGR
+    Todo list
+        -Editor美化
+        -將冗長代碼簡化
+        -Object Information面板、content browser面板
+    存檔紀錄 --version 1.0
