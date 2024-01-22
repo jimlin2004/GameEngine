@@ -688,7 +688,8 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImTerminal.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchy.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchyPanel.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/vec1.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool1.hpp \

@@ -4,6 +4,7 @@
 #include "Event/OpenProjectEvent.h"
 #include "Event/EventDispatcher.h"
 #include "Panel/ImDebugger.h"
+#include "EditorColor.h"
 
 #if USE_WINDOWS
     #include "Platform/Windows/WindowsApi.h"
@@ -20,7 +21,26 @@ GameEngineEditor::ImGuiLayer::~ImGuiLayer()
 
 void GameEngineEditor::ImGuiLayer::setup()
 {
+    ImGuiStyle& style = ImGui::GetStyle();
+    style.Colors[ImGuiCol_TitleBg] = COLOR_TO_IMVEC4(GameEngineEditor::TitleBarColor);
+    style.Colors[ImGuiCol_TitleBgActive] = COLOR_TO_IMVEC4(GameEngineEditor::TitleBarActiveColor);
     
+    style.Colors[ImGuiCol_Tab] = COLOR_TO_IMVEC4(GameEngineEditor::TabColor);
+    style.Colors[ImGuiCol_TabActive] = COLOR_TO_IMVEC4(GameEngineEditor::TabActiveColor);
+    style.Colors[ImGuiCol_TabUnfocused] = COLOR_TO_IMVEC4(GameEngineEditor::TabUnfocusedColor);
+    style.Colors[ImGuiCol_TabUnfocusedActive] = COLOR_TO_IMVEC4(GameEngineEditor::TabUnfocusedActiveColor);
+    style.Colors[ImGuiCol_TabHovered] = COLOR_TO_IMVEC4(GameEngineEditor::TabHoveredColor);
+    
+    style.Colors[ImGuiCol_WindowBg] = COLOR_TO_IMVEC4(GameEngineEditor::WindowColor);
+
+    style.Colors[ImGuiCol_FrameBg] = COLOR_TO_IMVEC4(GameEngineEditor::FrameColor);
+
+    style.Colors[ImGuiCol_ButtonHovered] = COLOR_TO_IMVEC4(GameEngineEditor::ButtonHoveredColor);
+    style.Colors[ImGuiCol_ButtonActive] = COLOR_TO_IMVEC4(GameEngineEditor::ButtonActiveColor);
+
+    style.Colors[ImGuiCol_Header] = COLOR_TO_IMVEC4(GameEngineEditor::HeaderColor);
+    style.Colors[ImGuiCol_HeaderActive] = COLOR_TO_IMVEC4(GameEngineEditor::HeaderActiveColor);
+    style.Colors[ImGuiCol_HeaderHovered] = COLOR_TO_IMVEC4(GameEngineEditor::HeaderHoveredColor);
 }
 
 void GameEngineEditor::ImGuiLayer::setScene(GameEngine::Scene* scene)
@@ -29,9 +49,9 @@ void GameEngineEditor::ImGuiLayer::setScene(GameEngine::Scene* scene)
     this->sceneHierarchyPanel.setScene(this->scene);
 }
 
-void GameEngineEditor::ImGuiLayer::setSelectedEntity(uint32_t entityID)
+void GameEngineEditor::ImGuiLayer::setSelectedEntityID(uint32_t entityID)
 {
-    this->sceneHierarchyPanel.setSelectedEntity(entityID);
+    this->sceneHierarchyPanel.setSelectedEntityID(entityID);
 }
 
 void GameEngineEditor::ImGuiLayer::renderDockspace()
@@ -109,14 +129,6 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
     ImGui::End();
 }
 
-void GameEngineEditor::ImGuiLayer::renderObjectInformation()
-{
-    static char buffer[512];
-    ImGui::Begin("Object Information");
-        ImGui::InputText("Test", buffer, 512);
-    ImGui::End();
-}
-
 void GameEngineEditor::ImGuiLayer::renderContentPanel()
 {
     ImGui::Begin("Content panel");
@@ -125,8 +137,8 @@ void GameEngineEditor::ImGuiLayer::renderContentPanel()
 
 void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
 {
-    ImGuiLayer::renderObjectInformation();
     this->sceneHierarchyPanel.render();
+    this->propertiesPanel.render((entt::entity)this->sceneHierarchyPanel.getSelectedEntityID(), this->scene);
     ImGuiLayer::renderContentPanel();
     this->terminal.render();
     if (this->isShowDebug)

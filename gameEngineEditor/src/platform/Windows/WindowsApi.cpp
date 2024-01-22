@@ -21,7 +21,7 @@ const char *GameEngineEditor::WindowsApi::openProjectFile()
     open.lpstrTitle = "Open Project\0";
     open.nMaxFileTitle = strlen("Open Project\0");
     open.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
-    if (GetOpenFileName(&open))
+    if (GetOpenFileNameA(&open))
     {
         return open.lpstrFile;
     }

@@ -1,5 +1,5 @@
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/platform/Windows/WindowsApi.cpp.obj: \
- D:\code\cpp\gameEngine\GameEngineEditor\src\platform\Windows\WindowsApi.cpp \
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj: \
+ D:\code\cpp\gameEngine\GameEngineEditor\src\Platform\Windows\WindowsApi.cpp \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
  C:/PROGRA~1/msys64/mingw64/include/string.h \

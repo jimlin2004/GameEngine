@@ -2,7 +2,8 @@
 #define IMGUI_PANEL_H
 
 #include "Panel/ImTerminal.h"
-#include "Panel/ImSceneHierarchy.h"
+#include "Panel/ImSceneHierarchyPanel.h"
+#include "Panel/ImPropertiesPanel.h"
 #include "Scene/Scene.h"
 
 namespace GameEngineEditor
@@ -14,15 +15,15 @@ namespace GameEngineEditor
         ~ImGuiLayer();
         void setup();
         void setScene(GameEngine::Scene* scene);
-        void setSelectedEntity(uint32_t entityID);
+        void setSelectedEntityID(uint32_t entityID);
         void renderDockspace();
-        void renderObjectInformation();
         void renderContentPanel();
         void renderAllPanel(float fps);
     private:
         bool isShowDebug;
         ImTerminal terminal;
-        ImSceneHierarchy sceneHierarchyPanel;
+        ImSceneHierarchyPanel sceneHierarchyPanel;
+        ImPropertiesPanel propertiesPanel;
         GameEngine::Scene* scene;
     };
 }

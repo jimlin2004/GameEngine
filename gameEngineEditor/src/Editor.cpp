@@ -130,6 +130,8 @@ void GameEngineEditor::Editor::begin()
     this->frameBuffer = new GameEngine::FrameBuffer(spec);
     GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 
+    this->imguiLayer.setup();
+
     GameEngine::EventDispatcher::addCallback("OpenProjectEvent", [this](GameEngine::Event* event) {
         GameEngineEditor::OpenProjectEvent* openProjectEvent = dynamic_cast<GameEngineEditor::OpenProjectEvent*>(event);
         if (openProjectEvent != nullptr)
@@ -253,10 +255,10 @@ void GameEngineEditor::Editor::render()
         int pixelData = frameBuffer->readPixel(1, mx, my);
         if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
         {
-            if (!ImGuizmo::IsOver())
+            if (!ImGuizmo::IsOver() && this->isFocusOnViewport)
             {
                 this->selectedActor.setEntityID((pixelData == -1) ? entt::null : (entt::entity)pixelData);
-                this->imguiLayer.setSelectedEntity(this->selectedActor.getID());
+                this->imguiLayer.setSelectedEntityID(this->selectedActor.getID());
             }
         }
     }

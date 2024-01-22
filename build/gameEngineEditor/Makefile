@@ -578,29 +578,53 @@ src/Panel/ImDebugger.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.s
 .PHONY : src/Panel/ImDebugger.cpp.s
 
-src/Panel/ImSceneHierarchy.obj: src/Panel/ImSceneHierarchy.cpp.obj
-.PHONY : src/Panel/ImSceneHierarchy.obj
+src/Panel/ImPropertiesPanel.obj: src/Panel/ImPropertiesPanel.cpp.obj
+.PHONY : src/Panel/ImPropertiesPanel.obj
 
 # target to build an object file
-src/Panel/ImSceneHierarchy.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchy.cpp.obj
-.PHONY : src/Panel/ImSceneHierarchy.cpp.obj
+src/Panel/ImPropertiesPanel.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj
+.PHONY : src/Panel/ImPropertiesPanel.cpp.obj
 
-src/Panel/ImSceneHierarchy.i: src/Panel/ImSceneHierarchy.cpp.i
-.PHONY : src/Panel/ImSceneHierarchy.i
+src/Panel/ImPropertiesPanel.i: src/Panel/ImPropertiesPanel.cpp.i
+.PHONY : src/Panel/ImPropertiesPanel.i
 
 # target to preprocess a source file
-src/Panel/ImSceneHierarchy.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchy.cpp.i
-.PHONY : src/Panel/ImSceneHierarchy.cpp.i
+src/Panel/ImPropertiesPanel.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.i
+.PHONY : src/Panel/ImPropertiesPanel.cpp.i
 
-src/Panel/ImSceneHierarchy.s: src/Panel/ImSceneHierarchy.cpp.s
-.PHONY : src/Panel/ImSceneHierarchy.s
+src/Panel/ImPropertiesPanel.s: src/Panel/ImPropertiesPanel.cpp.s
+.PHONY : src/Panel/ImPropertiesPanel.s
 
 # target to generate assembly for a file
-src/Panel/ImSceneHierarchy.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchy.cpp.s
-.PHONY : src/Panel/ImSceneHierarchy.cpp.s
+src/Panel/ImPropertiesPanel.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.s
+.PHONY : src/Panel/ImPropertiesPanel.cpp.s
+
+src/Panel/ImSceneHierarchyPanel.obj: src/Panel/ImSceneHierarchyPanel.cpp.obj
+.PHONY : src/Panel/ImSceneHierarchyPanel.obj
+
+# target to build an object file
+src/Panel/ImSceneHierarchyPanel.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj
+.PHONY : src/Panel/ImSceneHierarchyPanel.cpp.obj
+
+src/Panel/ImSceneHierarchyPanel.i: src/Panel/ImSceneHierarchyPanel.cpp.i
+.PHONY : src/Panel/ImSceneHierarchyPanel.i
+
+# target to preprocess a source file
+src/Panel/ImSceneHierarchyPanel.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.i
+.PHONY : src/Panel/ImSceneHierarchyPanel.cpp.i
+
+src/Panel/ImSceneHierarchyPanel.s: src/Panel/ImSceneHierarchyPanel.cpp.s
+.PHONY : src/Panel/ImSceneHierarchyPanel.s
+
+# target to generate assembly for a file
+src/Panel/ImSceneHierarchyPanel.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.s
+.PHONY : src/Panel/ImSceneHierarchyPanel.cpp.s
 
 src/Panel/ImTerminal.obj: src/Panel/ImTerminal.cpp.obj
 .PHONY : src/Panel/ImTerminal.obj
@@ -737,9 +761,12 @@ help:
 	@echo ... src/Panel/ImDebugger.obj
 	@echo ... src/Panel/ImDebugger.i
 	@echo ... src/Panel/ImDebugger.s
-	@echo ... src/Panel/ImSceneHierarchy.obj
-	@echo ... src/Panel/ImSceneHierarchy.i
-	@echo ... src/Panel/ImSceneHierarchy.s
+	@echo ... src/Panel/ImPropertiesPanel.obj
+	@echo ... src/Panel/ImPropertiesPanel.i
+	@echo ... src/Panel/ImPropertiesPanel.s
+	@echo ... src/Panel/ImSceneHierarchyPanel.obj
+	@echo ... src/Panel/ImSceneHierarchyPanel.i
+	@echo ... src/Panel/ImSceneHierarchyPanel.s
 	@echo ... src/Panel/ImTerminal.obj
 	@echo ... src/Panel/ImTerminal.i
 	@echo ... src/Panel/ImTerminal.s

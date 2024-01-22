@@ -99,7 +99,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
- D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchy.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchyPanel.h \
  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \
@@ -405,6 +405,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
@@ -415,4 +416,5 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImDebugger.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h

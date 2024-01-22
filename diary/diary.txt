@@ -586,3 +586,11 @@
         -將冗長代碼簡化
         -Object Information面板、content browser面板
     存檔紀錄 --version 1.0
+2024/01/22
+    1. 開始做properties panel(Object Information)
+    2. 調整主要style配色
+    Todo list
+        -windows fileDialog畫質模糊的問題
+        -將冗長代碼簡化
+        -properties、content browser面板
+    存檔紀錄

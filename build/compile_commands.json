@@ -221,8 +221,13 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImSceneHierarchy.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImSceneHierarchy.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImSceneHierarchy.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImPropertiesPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImPropertiesPanel.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImPropertiesPanel.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImSceneHierarchyPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImSceneHierarchyPanel.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImSceneHierarchyPanel.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
