@@ -554,6 +554,30 @@ src/ImGuiLayer.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.s
 .PHONY : src/ImGuiLayer.cpp.s
 
+src/Panel/ImCameraPreview.obj: src/Panel/ImCameraPreview.cpp.obj
+.PHONY : src/Panel/ImCameraPreview.obj
+
+# target to build an object file
+src/Panel/ImCameraPreview.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.obj
+.PHONY : src/Panel/ImCameraPreview.cpp.obj
+
+src/Panel/ImCameraPreview.i: src/Panel/ImCameraPreview.cpp.i
+.PHONY : src/Panel/ImCameraPreview.i
+
+# target to preprocess a source file
+src/Panel/ImCameraPreview.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.i
+.PHONY : src/Panel/ImCameraPreview.cpp.i
+
+src/Panel/ImCameraPreview.s: src/Panel/ImCameraPreview.cpp.s
+.PHONY : src/Panel/ImCameraPreview.s
+
+# target to generate assembly for a file
+src/Panel/ImCameraPreview.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.s
+.PHONY : src/Panel/ImCameraPreview.cpp.s
+
 src/Panel/ImDebugger.obj: src/Panel/ImDebugger.cpp.obj
 .PHONY : src/Panel/ImDebugger.obj
 
@@ -758,6 +782,9 @@ help:
 	@echo ... src/ImGuiLayer.obj
 	@echo ... src/ImGuiLayer.i
 	@echo ... src/ImGuiLayer.s
+	@echo ... src/Panel/ImCameraPreview.obj
+	@echo ... src/Panel/ImCameraPreview.i
+	@echo ... src/Panel/ImCameraPreview.s
 	@echo ... src/Panel/ImDebugger.obj
 	@echo ... src/Panel/ImDebugger.i
 	@echo ... src/Panel/ImDebugger.s

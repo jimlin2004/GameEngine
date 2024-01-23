@@ -689,4 +689,6 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImTerminal.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchyPanel.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImCameraPreview.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h

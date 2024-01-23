@@ -1,31 +1,31 @@
 #include "Platform/Windows/WindowsApi.h"
 
-#include "string.h"
+#include <cstring>
 
+#include <string>
 #if USE_WINDOWS
-    #include "windows.h"
 
-const char *GameEngineEditor::WindowsApi::openProjectFile()
+std::string GameEngineEditor::WindowsApi::openProjectFile(HWND parentID)
 {
-    LPSTR filePathBuffer = new char[512];
-    OPENFILENAME open = {0};
-    ZeroMemory(&open, sizeof(OPENFILENAME));
-    open.lStructSize = sizeof(OPENFILENAME);
-    open.hwndOwner = NULL;
-    open.lpstrFilter = "project file\0*.gproject\0";
-    open.nFilterIndex = 1;
-    open.lpstrFile = filePathBuffer;
-    open.lpstrFile[0] = '\0';
-    open.nMaxFile = 512;
-    open.lpstrInitialDir = NULL;
-    open.lpstrTitle = "Open Project\0";
-    open.nMaxFileTitle = strlen("Open Project\0");
-    open.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
-    if (GetOpenFileNameA(&open))
+    CHAR filePathBuffer[512] = {0};
+    OPENFILENAME ofn;
+    ZeroMemory(&ofn, sizeof(OPENFILENAME));
+    ofn.lStructSize = sizeof(OPENFILENAME);
+    ofn.hwndOwner = parentID;
+    ofn.lpstrFilter = "project file(*.gproject)\0*.gproject\0";
+    ofn.nFilterIndex = 1;
+    ofn.lpstrFile = filePathBuffer;
+    ofn.lpstrFile[0] = '\0';
+    ofn.nMaxFile = sizeof(filePathBuffer);
+    ofn.lpstrInitialDir = NULL;
+    ofn.lpstrTitle = "Open Project\0";
+    ofn.nMaxFileTitle = strlen("Open Project\0");
+    ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
+    if (GetOpenFileNameA(&ofn))
     {
-        return open.lpstrFile;
+        return ofn.lpstrFile;
     }
-    return nullptr;
+    return std::string();
 }
 
 #endif

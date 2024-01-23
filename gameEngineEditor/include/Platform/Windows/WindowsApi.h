@@ -3,15 +3,20 @@
 
 #include "Core/Platform.h"
 
+#include <string>
+#if USE_WINDOWS
+#include "windows.h"
+
 namespace GameEngineEditor
 {
-    #if USE_WINDOWS
+    
     class WindowsApi
     {
     public:
-        static const char* openProjectFile();
+        static std::string openProjectFile(HWND parentID = NULL);
     };
-    #endif
+    
 }
+#endif
 
 #endif

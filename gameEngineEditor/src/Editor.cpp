@@ -14,21 +14,30 @@
 
 #include <filesystem>
 
+#include "Core/Platform.h"
+#if USE_WINDOWS
+    #include <windows.h>
+#endif
+
 GameEngineEditor::Editor::Editor(const char* title, int width, int height)
     : title(title)
     , screenWidth(width)
     , screenHeight(height)
     , lastFrameTime(0)
+    , cameraPreviewSize(200, 200)
     , viewportSize(width, height)   
     , editorCamera((width / (float)(height)))
     , gizmoOperation(ImGuizmo::OPERATION::TRANSLATE)
-    , frameBuffer(nullptr)
+    , viewportFrameBuffer(nullptr)
+    , cameraViewFrameBuffer(nullptr)
     , running(false)
     , isFocusOnViewport(false)
     , sceneState(GameEngineEditor::SceneState::Edit)
     , editorScene(nullptr)
     , activeScene(new GameEngine::Scene())
 {
+    this->selectedActor.setEntityID(entt::null);
+    this->selectedActor.bindScene(this->activeScene);
 }
 
 GameEngineEditor::Editor::~Editor()
@@ -108,6 +117,7 @@ bool GameEngineEditor::Editor::initAll()
     bool result = this->initSDL() && this->initGL() && this->initImGui();
     if (!result)
         return false;
+    this->initNative();
     this->init();
     return true;
 }
@@ -119,16 +129,25 @@ void GameEngineEditor::Editor::init()
 
 void GameEngineEditor::Editor::begin()
 {
-    GameEngine::FrameBufferSpecification spec;
-    spec.width = this->viewportSize.x,
-    spec.height = this->viewportSize.y,
-    spec.attachments = {
+    GameEngine::FrameBufferSpecification viewportSpec;
+    viewportSpec.width = this->viewportSize.x;
+    viewportSpec.height = this->viewportSize.y;
+    viewportSpec.attachments = {
         GameEngine::FrameBufferTextureFormat::RGBA8,
         GameEngine::FrameBufferTextureFormat::RED_INTEGER, //mouse picking
         GameEngine::FrameBufferTextureFormat::Depth
     };
-    this->frameBuffer = new GameEngine::FrameBuffer(spec);
+    this->viewportFrameBuffer = new GameEngine::FrameBuffer(viewportSpec);
     GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
+
+    GameEngine::FrameBufferSpecification cameraPreviewSpec;
+    cameraPreviewSpec.width = 200;
+    cameraPreviewSpec.height = 200;
+    cameraPreviewSpec.attachments = {
+        GameEngine::FrameBufferTextureFormat::RGBA8,
+        GameEngine::FrameBufferTextureFormat::Depth
+    };
+    this->cameraViewFrameBuffer = new GameEngine::FrameBuffer(cameraPreviewSpec);
 
     this->imguiLayer.setup();
 
@@ -170,6 +189,26 @@ void GameEngineEditor::Editor::render()
 
     this->imguiLayer.renderDockspace();
 
+    if (this->selectedActor && this->selectedActor.hasComponent<GameEngine::CameraComponent>())
+    {
+        GameEngine::CameraComponent& cameraComponent = this->selectedActor.getComponent<GameEngine::CameraComponent>();
+        GameEngine::TransformComponent& transformComponent = this->selectedActor.getComponent<GameEngine::TransformComponent>();
+        this->imguiLayer.renderCameraPreview(reinterpret_cast<void*>(this->cameraViewFrameBuffer->getColorAttachmentRendererID()));
+        ImVec2 currentViewportSize = this->imguiLayer.getCameraPreviewSize();
+        //framebuffer sizeo = 0會出錯
+        if ((currentViewportSize.x > 0.0f) && (currentViewportSize.y > 0.0f) &&
+            ((this->cameraPreviewSize.x != currentViewportSize.x) || (this->cameraPreviewSize.y != currentViewportSize.y)))
+        {
+            this->cameraPreviewSize = currentViewportSize;
+            this->cameraViewFrameBuffer->resize(this->cameraPreviewSize.x, this->cameraPreviewSize.y);
+        }
+        this->cameraViewFrameBuffer->bind();
+        GameEngine::Renderer::begin(cameraComponent.camera, transformComponent.getTransform());
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            this->activeScene->render();
+        GameEngine::Renderer::close();
+    }
+
     ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0, 0));
     //tab bar的hide button color
     ImGui::PushStyleColor(ImGuiCol_Button, ImVec4{0, 0, 0, 0});
@@ -190,10 +229,10 @@ void GameEngineEditor::Editor::render()
         {
             this->viewportSize = currentViewportSize;
             this->editorCamera.resize(this->viewportSize.x, this->viewportSize.y);
-            this->frameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
+            this->viewportFrameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
         }
-        uint32_t textureId = this->frameBuffer->getColorAttachmentRendererID();
-        ImGui::Image((ImTextureID)textureId, currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
+        uint32_t textureID = this->viewportFrameBuffer->getColorAttachmentRendererID();
+        ImGui::Image(reinterpret_cast<void*>(textureID), currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
     
         entt::entity selectedEntityID = (entt::entity)this->selectedActor.getID();
         if (selectedEntityID != entt::null)
@@ -231,11 +270,12 @@ void GameEngineEditor::Editor::render()
 
     GameEngine::GEngine->textureManager->processCreateTextureTasks();
 
-    this->frameBuffer->bind();
+    //Render放在這邊才不會使viewport改變大小時出現閃爍
+    this->viewportFrameBuffer->bind();
     GameEngine::Renderer::begin((*GameEngine::cameraController->getCamera()), GameEngine::cameraController->getTransform());
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         this->activeScene->render();
-        frameBuffer->clearAttachment(1, -1);
+        this->viewportFrameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
 
     int mx, my;
@@ -252,7 +292,7 @@ void GameEngineEditor::Editor::render()
     if (mx >= 0 && mx < this->viewportSize.x && my >= 0 && my < this->viewportSize.y)
     {
         //讀點到的pixel的entity id(預設-1)
-        int pixelData = frameBuffer->readPixel(1, mx, my);
+        int pixelData = this->viewportFrameBuffer->readPixel(1, mx, my);
         if (GameEngine::Input::isMouseButtonPressed(GameEngine::Mouse_BUTTON_LEFT))
         {
             if (!ImGuizmo::IsOver() && this->isFocusOnViewport)
@@ -263,7 +303,8 @@ void GameEngineEditor::Editor::render()
         }
     }
     
-    this->frameBuffer->unbind();
+    //要處理完mouse picking後才能unbind()
+    this->viewportFrameBuffer->unbind();
 
     ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
@@ -320,6 +361,16 @@ void GameEngineEditor::Editor::updateEditorCamera(float deltaTime)
     }
 }
 
+void GameEngineEditor::Editor::initNative()
+{
+#if USE_WINDOWS
+    SDL_SysWMinfo wmInfo;
+    SDL_VERSION(&wmInfo.version);
+    SDL_GetWindowWMInfo(this->window, &wmInfo);
+    this->imguiLayer.setWindowID(wmInfo.info.win.window);
+#endif
+}
+
 void GameEngineEditor::Editor::openProject(const std::string& projectPath)
 {
     this->projectParser.load(projectPath);
@@ -334,6 +385,7 @@ void GameEngineEditor::Editor::openProject(const std::string& projectPath)
         if (sceneSerializer.deserialize(mapPath.string()))
         {
             this->imguiLayer.setScene(this->activeScene);
+            this->selectedActor.bindScene(this->activeScene);
             GameEngine::ConsoleApi::log("Load scene success.\n");
         }
         else

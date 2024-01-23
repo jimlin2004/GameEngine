@@ -41,6 +41,9 @@ namespace GameEngineEditor
     constexpr ImU32 xAxisColor               = IM_COL32(214, 53, 53, 255);
     constexpr ImU32 yAxisColor               = IM_COL32(53, 214, 85, 255);
     constexpr ImU32 zAxisColor               = IM_COL32(53, 120, 214, 255);
+    constexpr ImU32 xAxisHintColor           = IM_COL32(255, 100, 100, 255);
+    constexpr ImU32 yAxisHintColor           = IM_COL32(80, 255, 80, 255);
+    constexpr ImU32 zAxisHintColor           = IM_COL32(100, 150, 255, 255);
 }
 
 #endif

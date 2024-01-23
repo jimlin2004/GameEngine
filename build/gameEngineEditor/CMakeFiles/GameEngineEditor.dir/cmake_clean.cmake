@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj"

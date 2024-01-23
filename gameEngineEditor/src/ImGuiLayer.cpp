@@ -112,8 +112,12 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
         {
             if (ImGui::MenuItem("Open project"))
             {
-                GameEngineEditor::OpenProjectEvent openProjectEvent(std::string(GameEngineEditor::WindowsApi::openProjectFile()));
-                GameEngine::EventDispatcher::trigger(&openProjectEvent);
+                std::string projectPath = GameEngineEditor::WindowsApi::openProjectFile(this->windowID);
+                if (!projectPath.empty())
+                {
+                    GameEngineEditor::OpenProjectEvent openProjectEvent(projectPath);
+                    GameEngine::EventDispatcher::trigger(&openProjectEvent);
+                }
             }
             ImGui::EndMenu();
         }
@@ -135,6 +139,11 @@ void GameEngineEditor::ImGuiLayer::renderContentPanel()
     ImGui::End();
 }
 
+void GameEngineEditor::ImGuiLayer::renderCameraPreview(void* textureID)
+{
+    this->cameraPreview.render(textureID);
+}
+
 void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
 {
     this->sceneHierarchyPanel.render();
@@ -144,3 +153,10 @@ void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
     if (this->isShowDebug)
         GameEngineEditor::ImDebugger::render(fps);
 }
+
+#if USE_WINDOWS
+void GameEngineEditor::ImGuiLayer::setWindowID(HWND windowID)
+{
+    this->windowID = windowID;
+}
+#endif

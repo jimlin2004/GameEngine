@@ -56,7 +56,9 @@ namespace GameEngineEditor
         SDL_Event event;
         GameEngine::Timestep timestep;
         uint64_t lastFrameTime;
-        GameEngine::FrameBuffer* frameBuffer;
+        GameEngine::FrameBuffer* viewportFrameBuffer;
+        GameEngine::FrameBuffer* cameraViewFrameBuffer;
+        ImVec2 cameraPreviewSize;
         ImVec2 viewportSize;
         //viewport在screen中的座標
         ImVec2 viewportBound[2];
@@ -73,6 +75,7 @@ namespace GameEngineEditor
         bool initGL();
         bool initImGui();
         
+        void initNative();
         void init();
         void begin();
         void update(float deltaTime);

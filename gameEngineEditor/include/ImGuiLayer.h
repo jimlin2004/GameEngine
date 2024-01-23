@@ -4,7 +4,13 @@
 #include "Panel/ImTerminal.h"
 #include "Panel/ImSceneHierarchyPanel.h"
 #include "Panel/ImPropertiesPanel.h"
+#include "Panel/ImCameraPreview.h"
 #include "Scene/Scene.h"
+
+#include "Core/Platform.h"
+#if USE_WINDOWS
+    #include <windows.h>
+#endif
 
 namespace GameEngineEditor
 {
@@ -18,13 +24,23 @@ namespace GameEngineEditor
         void setSelectedEntityID(uint32_t entityID);
         void renderDockspace();
         void renderContentPanel();
+        void renderCameraPreview(void* textureID);
         void renderAllPanel(float fps);
+
+        inline ImVec2 getCameraPreviewSize() { return this->cameraPreview.getViewportSize(); }
+    #if USE_WINDOWS
+        void setWindowID(HWND windowID);
+    #endif
     private:
         bool isShowDebug;
         ImTerminal terminal;
         ImSceneHierarchyPanel sceneHierarchyPanel;
         ImPropertiesPanel propertiesPanel;
+        ImCameraPreview cameraPreview;
         GameEngine::Scene* scene;
+    #if USE_WINDOWS
+        HWND windowID;
+    #endif
     };
 }
 

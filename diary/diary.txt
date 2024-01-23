@@ -594,3 +594,12 @@
         -將冗長代碼簡化
         -properties、content browser面板
     存檔紀錄
+2024/01/23
+    1. 新增AddComponent的popup
+    2. 目前找不到windows fileDialog畫質模糊的原因
+    3. 試著做Camera preview(有一點問題，大小尚未調整)
+    Todo list
+        -將冗長代碼簡化
+        -properties、content browser面板
+        -完善camera preview功能、性能優化
+    存檔紀錄

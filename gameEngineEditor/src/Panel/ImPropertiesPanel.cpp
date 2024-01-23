@@ -10,15 +10,14 @@
 #include <cstring>
 
 template<class ComponentType, class Func>
-static void renderComponent(const std::string& label, GameEngine::Actor& actor, uint64_t& id, Func func)
+static void renderComponent(const std::string& label, GameEngine::Actor& actor, Func func)
 {
     static ImGuiTreeNodeFlags flags = ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed | ImGuiTreeNodeFlags_SpanAvailWidth | ImGuiTreeNodeFlags_AllowItemOverlap | ImGuiTreeNodeFlags_FramePadding;
     if (actor.hasComponent<ComponentType>())
     {
         ImGui::PushStyleColor(ImGuiCol_Header, GameEngineEditor::PropertiesTreeNodeColor);
-        if (ImGui::TreeNodeEx((void*)(id), flags, label.c_str()))
+        if (ImGui::TreeNodeEx(label.c_str(), flags, label.c_str()))
         {
-            ++id;
             func(actor.getComponent<ComponentType>());
             ImGui::TreePop();
         }
@@ -38,31 +37,55 @@ void renderEdit3(const std::string& label, glm::vec3& values)
     ImGui::PushMultiItemsWidths(3, ImGui::CalcItemWidth());
 
     ImGui::PushStyleColor(ImGuiCol_Button, GameEngineEditor::xAxisColor);
-    ImGui::Button("X");
+    ImGui::PushStyleColor(ImGuiCol_ButtonHovered, GameEngineEditor::xAxisHintColor);
+    ImGui::PushStyleColor(ImGuiCol_ButtonActive, GameEngineEditor::xAxisHintColor);
+    if (ImGui::Button("X"))
+        values.x = 0.0f;
     ImGui::SameLine();
     ImGui::DragFloat("##X", &values.x, 0.1, 0.0f, 0.0f);
     ImGui::PopItemWidth();
     ImGui::SameLine();
-    ImGui::PopStyleColor(1);
+    ImGui::PopStyleColor(3);
     
     ImGui::PushStyleColor(ImGuiCol_Button, GameEngineEditor::yAxisColor);
-    ImGui::Button("Y");
+    ImGui::PushStyleColor(ImGuiCol_ButtonHovered, GameEngineEditor::yAxisHintColor);
+    ImGui::PushStyleColor(ImGuiCol_ButtonActive, GameEngineEditor::yAxisHintColor);
+    if (ImGui::Button("Y"))
+        values.y = 0.0f;
     ImGui::SameLine();
     ImGui::DragFloat("##Y", &values.y, 0.1, 0.0f, 0.0f);
     ImGui::PopItemWidth();
     ImGui::SameLine();
-    ImGui::PopStyleColor(1);
+    ImGui::PopStyleColor(3);
     
     ImGui::PushStyleColor(ImGuiCol_Button, GameEngineEditor::zAxisColor);
-    ImGui::Button("Z");
+    ImGui::PushStyleColor(ImGuiCol_ButtonHovered, GameEngineEditor::zAxisHintColor);
+    ImGui::PushStyleColor(ImGuiCol_ButtonActive, GameEngineEditor::zAxisHintColor);
+    if (ImGui::Button("Z"))
+        values.z = 0.0f;
     ImGui::SameLine();
     ImGui::DragFloat("##Z", &values.z, 0.1, 0.0f, 0.0f);
     ImGui::PopItemWidth();
-    ImGui::PopStyleColor(1);
+    ImGui::PopStyleColor(3);
 
     ImGui::PopStyleVar(1);
     ImGui::PopID();
     // ImGui::Columns(1);
+}
+
+template<class ComponentType>
+void renderAddComponentItem(const std::string& label, GameEngine::Actor& actor)
+{
+    if (!actor)
+        return;
+    if (!actor.hasComponent<ComponentType>())
+    {
+        if (ImGui::MenuItem(label.c_str()))
+        {
+            actor.addComponent<ComponentType>();
+            ImGui::CloseCurrentPopup();
+        }
+    }
 }
 
 void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngine::Scene* scene)
@@ -71,7 +94,18 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
     ImGui::Begin("Properties");
     if (actor)
     {
-        uint64_t id = 1;
+        if (ImGui::Button("Add Component"))
+        {
+            ImGui::OpenPopup("##AddComponent");
+        }
+        if (ImGui::BeginPopup("##AddComponent"))
+        {
+            renderAddComponentItem<GameEngine::TransformComponent>("Transform", actor);
+            renderAddComponentItem<GameEngine::MeshComponent>("Mesh", actor);
+            renderAddComponentItem<GameEngine::CameraComponent>("Camera", actor);
+            ImGui::EndPopup();
+        }
+
         if (actor.hasComponent<GameEngine::TagComponent>())
         {
             static char tagBuffer[256];
@@ -84,17 +118,17 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
             }
         }
 
-        renderComponent<GameEngine::TransformComponent>("Transform", actor, id, [](GameEngine::TransformComponent& component) {
+        renderComponent<GameEngine::TransformComponent>("Transform", actor, [](GameEngine::TransformComponent& component) {
             renderEdit3("Position", component.translation);
             glm::vec3 rotation = glm::degrees(component.rotation);
             renderEdit3("Rotation", rotation);
             component.rotation = glm::radians(rotation);
             renderEdit3("Scale", component.scale);
         });
-        renderComponent<GameEngine::MeshComponent>("Mesh", actor, id, [](GameEngine::MeshComponent& component) {
+        renderComponent<GameEngine::MeshComponent>("Mesh", actor, [](GameEngine::MeshComponent& component) {
             ImGui::ColorEdit4("Color", glm::value_ptr(component.color));
         });
-        renderComponent<GameEngine::CameraComponent>("Camera", actor, id, [](GameEngine::CameraComponent& component) {
+        renderComponent<GameEngine::CameraComponent>("Camera", actor, [](GameEngine::CameraComponent& component) {
             ImGui::Checkbox("Primary camera", &component.primary);
         });
     }
