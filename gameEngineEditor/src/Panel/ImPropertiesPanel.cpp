@@ -3,7 +3,7 @@
 #include "Component/Component.h"
 #include "Actor/Actor.h"
 #include "imgui/imgui.h"
-#include "imgui/imgui_internal.h"
+#include "imgui_internal.h"
 #include "EditorColor.h"
 
 #include "glm/gtc/type_ptr.hpp"

@@ -11,6 +11,7 @@
 #include "Event/OpenProjectEvent.h"
 #include "Event/ImTreeNodeClickEvent.h"
 #include "Scene/SceneSerializer.h"
+#include "SDLFileParser.h"
 
 #include <filesystem>
 
@@ -221,7 +222,6 @@ void GameEngineEditor::Editor::render()
         ImGui::EndMenuBar();
 
         this->isFocusOnViewport = ImGui::IsWindowFocused();
-
         ImVec2 currentViewportSize = ImGui::GetContentRegionAvail();
         //framebuffer sizeo = 0會出錯
         if ((currentViewportSize.x > 0.0f) && (currentViewportSize.y > 0.0f) &&
@@ -231,9 +231,35 @@ void GameEngineEditor::Editor::render()
             this->editorCamera.resize(this->viewportSize.x, this->viewportSize.y);
             this->viewportFrameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
         }
+
+        //計算滑鼠在viewport的座標位置
+        static int mx, my;
+        GameEngine::Input::getMousePosition(&mx, &my);
+        float menubarHeight = windowSize.y - this->viewportSize.y;
+        this->viewportBound[0] = {viewportPos.x, viewportPos.y + menubarHeight};
+        this->viewportBound[1] = {this->viewportBound[0].x + this->viewportSize.x, this->viewportBound[0].y + this->viewportSize.y};
+        mx = mx - this->viewportBound[0].x;
+        my = my - this->viewportBound[0].y;
+        //翻轉y使(0, 0)在左下角，以符合OpenGL坐標系
+        my = this->viewportSize.y - my;
+
         uint32_t textureID = this->viewportFrameBuffer->getColorAttachmentRendererID();
         ImGui::Image(reinterpret_cast<void*>(textureID), currentViewportSize, ImVec2(0, 1), ImVec2(1, 0));
     
+        if (ImGui::BeginDragDropTarget())
+        {
+            const ImGuiPayload* payload = ImGui::AcceptDragDropPayload("ContentBrowserItem");
+            if (payload)
+            {
+                const wchar_t* itemPath = (const wchar_t*)payload->Data;
+                glm::vec3 windowCoord = {mx, my, 0};
+                //將screen coordinates 轉換成 world coordinates
+                glm::vec3 worldCoord = glm::unProject(windowCoord, glm::mat4(1.0f), this->editorCamera.getProjectionMatrix(), (glm::vec4){0.0f, 0.0f, viewportSize.x, (float)viewportSize.y});
+                GameEngineEditor::SDLFileParser::parseFile(itemPath, {worldCoord.x, worldCoord.y}, this->activeScene);
+            }
+            ImGui::EndDragDropTarget();
+        }
+
         entt::entity selectedEntityID = (entt::entity)this->selectedActor.getID();
         if (selectedEntityID != entt::null)
         {
@@ -277,17 +303,6 @@ void GameEngineEditor::Editor::render()
         this->activeScene->render();
         this->viewportFrameBuffer->clearAttachment(1, -1);
     GameEngine::Renderer::close();
-
-    int mx, my;
-    GameEngine::Input::getMousePosition(&mx, &my);
-    float menubarHeight = windowSize.y - this->viewportSize.y;
-    this->viewportBound[0] = {viewportPos.x, viewportPos.y + menubarHeight};
-    this->viewportBound[1] = {this->viewportBound[0].x + this->viewportSize.x, this->viewportBound[0].y + this->viewportSize.y};
-
-    mx = mx - this->viewportBound[0].x;
-    my = my - this->viewportBound[0].y;
-    //翻轉y使(0, 0)在左下角，以符合OpenGL坐標系
-    my = this->viewportSize.y - my;
 
     if (mx >= 0 && mx < this->viewportSize.x && my >= 0 && my < this->viewportSize.y)
     {
@@ -376,6 +391,7 @@ void GameEngineEditor::Editor::openProject(const std::string& projectPath)
     this->projectParser.load(projectPath);
     GameEngine::GEngine->setProjectRootPath(this->projectParser.getProjectDirname());
     GameEngine::GEngine->setProjectName(this->projectParser.getProjectName());
+    this->imguiLayer.setProjectRootPath(this->projectParser.getProjectDirname());
 
     std::filesystem::path mapPath(this->projectParser.getProjectDirname());
     mapPath /= "assets/scene/" + this->projectParser.getProjectName() + ".map";

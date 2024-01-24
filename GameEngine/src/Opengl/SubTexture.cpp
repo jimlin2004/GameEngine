@@ -1,7 +1,8 @@
 #include "Opengl/SubTexture.h"
+#include "GL/glew.h"
 
 GameEngine::SubTexture::SubTexture(Texture* _texture, const glm::vec2& min, const glm::vec2& max)
-    :texture(_texture)
+    : texture(_texture)
 {
     this->textureCroods[0] = { min.x, min.y };
     this->textureCroods[1] = { max.x, min.y };
@@ -11,7 +12,6 @@ GameEngine::SubTexture::SubTexture(Texture* _texture, const glm::vec2& min, cons
 
 GameEngine::SubTexture::~SubTexture()
 {
-    
 }
 
 const glm::vec2* GameEngine::SubTexture::getTextureCrood() const

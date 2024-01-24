@@ -173,11 +173,26 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImCameraPreview.cpp -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImCameraPreview.cpp.s
 
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImContentBrowserPanel.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\Panel\ImContentBrowserPanel.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImContentBrowserPanel.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImContentBrowserPanel.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImContentBrowserPanel.cpp > CMakeFiles\GameEngineEditor.dir\src\Panel\ImContentBrowserPanel.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImContentBrowserPanel.cpp -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImContentBrowserPanel.cpp.s
+
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImDebugger.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\Panel\ImDebugger.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImDebugger.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImDebugger.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.i: cmake_force
@@ -192,7 +207,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImPropertiesPanel.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\Panel\ImPropertiesPanel.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImPropertiesPanel.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImPropertiesPanel.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.i: cmake_force
@@ -207,7 +222,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImSceneHierarchyPanel.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\Panel\ImSceneHierarchyPanel.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImSceneHierarchyPanel.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImSceneHierarchyPanel.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.i: cmake_force
@@ -222,7 +237,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj: G
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImTerminal.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\Panel\ImTerminal.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\Panel\ImTerminal.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImTerminal.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.i: cmake_force
@@ -237,7 +252,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Platform/Windows/WindowsApi.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\Platform\Windows\WindowsApi.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\Platform\Windows\WindowsApi.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\Platform\Windows\WindowsApi.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.i: cmake_force
@@ -252,7 +267,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj: Game
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/ProjectParser.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\ProjectParser.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\ProjectParser.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\ProjectParser.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.i: cmake_force
@@ -263,11 +278,26 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngineEditor\src\ProjectParser.cpp -o CMakeFiles\GameEngineEditor.dir\src\ProjectParser.cpp.s
 
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/SDLFileParser.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\src\SDLFileParser.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\src\SDLFileParser.cpp.obj -c D:\code\cpp\gameEngine\GameEngineEditor\src\SDLFileParser.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngineEditor\src\SDLFileParser.cpp > CMakeFiles\GameEngineEditor.dir\src\SDLFileParser.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngineEditor\src\SDLFileParser.cpp -o CMakeFiles\GameEngineEditor.dir\src\SDLFileParser.cpp.s
+
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\ImGuizmo\ImGuizmo.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\ImGuizmo\ImGuizmo.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\ImGuizmo\ImGuizmo.cpp
 
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.i: cmake_force
@@ -278,125 +308,710 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGui
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.s"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\ImGuizmo\ImGuizmo.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\ImGuizmo\ImGuizmo.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_allegro5.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_demo.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_demo.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_demo.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_demo.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_demo.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_demo.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_demo.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_demo.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_android.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_draw.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_draw.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_draw.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_draw.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_draw.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_draw.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_draw.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_draw.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx10.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_opengl3.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx11.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdl2.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx12.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_impl_sdlrenderer2.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_dx9.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_tables.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_tables.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_tables.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_tables.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_tables.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_tables.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_tables.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glfw.cpp.s
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_widgets.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_widgets.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_widgets.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.i"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_widgets.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_widgets.cpp.i
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp.i
 
-GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.s"
-	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\include\imgui_widgets.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\include\imgui_widgets.cpp.s
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_glut.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl2.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_opengl3.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl2.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdl3.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer2.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_sdlrenderer3.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_vulkan.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_wgpu.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\backends\imgui_impl_win32.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_allegro5\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_android_opengl3\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_emscripten_wgpu\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl2\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_opengl3\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glfw_vulkan\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_glut_opengl2\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_null/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_null\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_null\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_null\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_null\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_null\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_null\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_null\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_directx11\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl2\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_opengl3\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_sdlrenderer2\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl2_vulkan\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_opengl3\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_sdl3_sdlrenderer3\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx10\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx11\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx12\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_directx9\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\examples\example_win32_opengl3\main.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_demo.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_demo.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_demo.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_demo.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_demo.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_demo.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_demo.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_draw.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_draw.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_draw.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_draw.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_draw.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_draw.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_draw.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_opengl3.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_impl_sdl2.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_tables.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_tables.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_tables.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_tables.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_tables.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_tables.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_tables.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_widgets.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_widgets.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_widgets.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_widgets.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_widgets.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\imgui_widgets.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\imgui_widgets.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\cpp\imgui_stdlib.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\fonts\binary_to_compressed_c.cpp.s
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/flags.make
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj -MF CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp.obj.d -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp.obj -c D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.i"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp > CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp.i
+
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.s"
+	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && C:\PROGRA~1\msys64\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\gameEngine\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp -o CMakeFiles\GameEngineEditor.dir\__\GameEngine\third_party\imgui\misc\freetype\imgui_freetype.cpp.s
 
 # Object files for target GameEngineEditor
 GameEngineEditor_OBJECTS = \
@@ -407,21 +1022,62 @@ GameEngineEditor_OBJECTS = \
 "CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj" \
 "CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj" \
-"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj"
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj" \
+"CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj"
 
 # External object files for target GameEngineEditor
 GameEngineEditor_EXTERNAL_OBJECTS =
@@ -433,24 +1089,64 @@ GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEdi
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImContentBrowserPanel.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Platform/Windows/WindowsApi.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ProjectParser.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/SDLFileParser.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj
-GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj
+GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/build.make
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/lib/libGameEngine.a
-GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libbox2d.a
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libSDL2.a
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libSDL2main.a
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libopengl32.a
@@ -458,7 +1154,7 @@ GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_p
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/linkLibs.rsp
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/objects1
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable GameEngineEditor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking CXX executable GameEngineEditor.exe"
 	cd /d D:\code\cpp\gameEngine\build\GameEngineEditor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameEngineEditor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

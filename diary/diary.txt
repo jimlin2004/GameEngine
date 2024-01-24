@@ -603,3 +603,12 @@
         -properties、content browser面板
         -完善camera preview功能、性能優化
     存檔紀錄
+2024/01/24
+    1. 撰寫Content Browser Panel
+    2. 恢復 Drag and Drop功能
+    Todo list
+        -將冗長代碼簡化
+        -properties面板
+        -完善camera preview功能、性能優化
+        -exe 大小優化
+    存檔紀錄

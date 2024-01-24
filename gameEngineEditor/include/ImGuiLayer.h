@@ -4,6 +4,7 @@
 #include "Panel/ImTerminal.h"
 #include "Panel/ImSceneHierarchyPanel.h"
 #include "Panel/ImPropertiesPanel.h"
+#include "Panel/ImContentBrowserPanel.h"
 #include "Panel/ImCameraPreview.h"
 #include "Scene/Scene.h"
 
@@ -23,9 +24,9 @@ namespace GameEngineEditor
         void setScene(GameEngine::Scene* scene);
         void setSelectedEntityID(uint32_t entityID);
         void renderDockspace();
-        void renderContentPanel();
         void renderCameraPreview(void* textureID);
         void renderAllPanel(float fps);
+        void setProjectRootPath(const std::string& rootPath);
 
         inline ImVec2 getCameraPreviewSize() { return this->cameraPreview.getViewportSize(); }
     #if USE_WINDOWS
@@ -36,6 +37,7 @@ namespace GameEngineEditor
         ImTerminal terminal;
         ImSceneHierarchyPanel sceneHierarchyPanel;
         ImPropertiesPanel propertiesPanel;
+        ImContentBrowserPanel contentBrowserPanel;
         ImCameraPreview cameraPreview;
         GameEngine::Scene* scene;
     #if USE_WINDOWS

@@ -41,6 +41,8 @@ void GameEngineEditor::ImGuiLayer::setup()
     style.Colors[ImGuiCol_Header] = COLOR_TO_IMVEC4(GameEngineEditor::HeaderColor);
     style.Colors[ImGuiCol_HeaderActive] = COLOR_TO_IMVEC4(GameEngineEditor::HeaderActiveColor);
     style.Colors[ImGuiCol_HeaderHovered] = COLOR_TO_IMVEC4(GameEngineEditor::HeaderHoveredColor);
+
+    this->contentBrowserPanel.begin();
 }
 
 void GameEngineEditor::ImGuiLayer::setScene(GameEngine::Scene* scene)
@@ -133,12 +135,6 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
     ImGui::End();
 }
 
-void GameEngineEditor::ImGuiLayer::renderContentPanel()
-{
-    ImGui::Begin("Content panel");
-    ImGui::End();
-}
-
 void GameEngineEditor::ImGuiLayer::renderCameraPreview(void* textureID)
 {
     this->cameraPreview.render(textureID);
@@ -148,10 +144,15 @@ void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
 {
     this->sceneHierarchyPanel.render();
     this->propertiesPanel.render((entt::entity)this->sceneHierarchyPanel.getSelectedEntityID(), this->scene);
-    ImGuiLayer::renderContentPanel();
+    this->contentBrowserPanel.render();
     this->terminal.render();
     if (this->isShowDebug)
         GameEngineEditor::ImDebugger::render(fps);
+}
+
+void GameEngineEditor::ImGuiLayer::setProjectRootPath(const std::string& rootPath)
+{
+    this->contentBrowserPanel.setRootPath(rootPath);
 }
 
 #if USE_WINDOWS

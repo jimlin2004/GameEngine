@@ -681,15 +681,19 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/EditorCamera.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/ProjectParser.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_impl_sdl2.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_impl_opengl3.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImTerminal.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchyPanel.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImContentBrowserPanel.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImCameraPreview.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.hpp \
@@ -726,4 +730,5 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/fstream \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/SDLFileParser.h

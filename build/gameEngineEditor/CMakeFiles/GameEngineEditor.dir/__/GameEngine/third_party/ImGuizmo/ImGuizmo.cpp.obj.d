@@ -1,7 +1,7 @@
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj: \
  D:\code\cpp\gameEngine\GameEngine\third_party\ImGuizmo\ImGuizmo.cpp \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \
@@ -33,7 +33,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGui
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
  C:/PROGRA~1/msys64/mingw64/include/errno.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_internal.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_internal.h \
  C:/PROGRA~1/msys64/mingw64/include/stdio.h \
  C:/PROGRA~1/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_off_t.h \
@@ -159,5 +159,5 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGui
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_textedit.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imstb_textedit.h \
  D:\code\cpp\gameEngine\GameEngine\third_party\ImGuizmo\ImGuizmo.h

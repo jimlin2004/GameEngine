@@ -24,10 +24,17 @@ file(GLOB_RECURSE EDITOR_HEADER_FILES
 )
 
 file(GLOB_RECURSE IMGUI
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include/*.h
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include/*.cpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/*.h
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/*.hpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/*.cpp
     ${CMAKE_SOURCE_DIR}/GameEngine/third_party/ImGuizmo/ImGuizmo.h
     ${CMAKE_SOURCE_DIR}/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp
+)
+
+list(REMOVE_ITEM IMGUI
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/backends/*.h
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/backends/*.hpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/backends/*.cpp
 )
 
 add_executable(${PROJECT_NAME} 
@@ -46,12 +53,12 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/entt/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party)
-target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/ImGuizmo)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/lib/libGameEngine.a)
-target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libbox2d.a)
+# target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE -lmingw32)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libSDL2.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libSDL2main.a)

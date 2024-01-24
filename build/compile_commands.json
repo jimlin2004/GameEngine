@@ -221,6 +221,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImContentBrowserPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImContentBrowserPanel.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImContentBrowserPanel.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImDebugger.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImDebugger.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImDebugger.cpp"
 },
@@ -251,47 +256,247 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\SDLFileParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\SDLFileParser.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/SDLFileParser.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\ImGuizmo\\ImGuizmo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\ImGuizmo\\ImGuizmo.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_allegro5.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_allegro5.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_demo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_demo.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_demo.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_android.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_android.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_draw.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_draw.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_draw.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx10.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx10.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_opengl3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_opengl3.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx11.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx11.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdl2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdl2.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx12.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx12.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdlrenderer2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdlrenderer2.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdlrenderer2.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx9.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_dx9.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_tables.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_tables.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_widgets.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_widgets.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_glut.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_glut.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_opengl2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_opengl2.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdl2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdl2.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdl3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdl3.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdlrenderer2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdlrenderer2.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdlrenderer3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_sdlrenderer3.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_vulkan.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_vulkan.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_wgpu.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_wgpu.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_win32.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\backends\\imgui_impl_win32.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_allegro5\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_allegro5\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_android_opengl3\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_android_opengl3\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_emscripten_wgpu\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_emscripten_wgpu\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_glfw_opengl2\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_glfw_opengl2\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_glfw_opengl3\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_glfw_opengl3\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_glfw_vulkan\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_glfw_vulkan\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_glut_opengl2\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_glut_opengl2\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_null\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_null\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_null/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_directx11\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_directx11\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_opengl2\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_opengl2\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_opengl3\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_opengl3\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_sdlrenderer2\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_sdlrenderer2\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_vulkan\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl2_vulkan\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl3_opengl3\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl3_opengl3\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_sdl3_sdlrenderer3\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_sdl3_sdlrenderer3\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx10\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx10\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx11\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx11\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx12\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx12\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx9\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_win32_directx9\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\examples\\example_win32_opengl3\\main.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\examples\\example_win32_opengl3\\main.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui_demo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui_demo.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui_draw.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui_draw.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui_impl_opengl3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui_impl_opengl3.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui_impl_sdl2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui_impl_sdl2.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui_tables.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui_tables.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\imgui_widgets.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\imgui_widgets.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\misc\\cpp\\imgui_stdlib.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\misc\\cpp\\imgui_stdlib.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\misc\\fonts\\binary_to_compressed_c.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\misc\\fonts\\binary_to_compressed_c.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\misc\\freetype\\imgui_freetype.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\misc\\freetype\\imgui_freetype.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp"
 }
 ]
