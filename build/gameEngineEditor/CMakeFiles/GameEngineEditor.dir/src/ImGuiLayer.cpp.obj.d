@@ -407,8 +407,8 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImContentBrowserPanel.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
@@ -418,7 +418,6 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImCameraPreview.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
  C:/PROGRA~1/msys64/mingw64/include/windows.h \

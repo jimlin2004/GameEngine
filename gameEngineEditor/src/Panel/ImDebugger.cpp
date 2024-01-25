@@ -1,6 +1,6 @@
 #include "Panel/ImDebugger.h"
 
-#include "imgui/imgui.h"
+#include "imgui.h"
 
 void GameEngineEditor::ImDebugger::render(float fps)
 {

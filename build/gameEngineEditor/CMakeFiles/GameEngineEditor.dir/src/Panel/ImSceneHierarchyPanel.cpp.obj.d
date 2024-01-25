@@ -403,8 +403,8 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImSceneHierarchyPanel
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \

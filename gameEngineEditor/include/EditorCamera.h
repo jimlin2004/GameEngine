@@ -34,7 +34,7 @@ namespace GameEngineEditor
             void setZ(float z);
             inline float getZ() const { return this->transformComponent.translation.z; }
         
-            void resize(float width, float height);
+            virtual void resize(float width, float height) override;
             void onScrollWheel(float x, float y);
 
             GameEngine::TransformComponent transformComponent;

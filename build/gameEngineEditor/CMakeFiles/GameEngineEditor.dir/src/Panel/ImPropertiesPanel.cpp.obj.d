@@ -442,12 +442,12 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
  C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui_internal.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_internal.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/immintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86gprintrin.h \
@@ -534,7 +534,7 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/amxbf16intrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/prfchwintrin.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imstb_textedit.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_textedit.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/vec1.hpp \

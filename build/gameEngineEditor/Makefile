@@ -218,1133 +218,173 @@ __/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.s
 .PHONY : __/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.obj
+__/GameEngine/third_party/imgui/include/imgui.obj: __/GameEngine/third_party/imgui/include/imgui.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.i: __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.i
+__/GameEngine/third_party/imgui/include/imgui.i: __/GameEngine/third_party/imgui/include/imgui.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.i
+__/GameEngine/third_party/imgui/include/imgui.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.s: __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.s
+__/GameEngine/third_party/imgui/include/imgui.s: __/GameEngine/third_party/imgui/include/imgui.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.cpp.s
+__/GameEngine/third_party/imgui/include/imgui.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_android.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_android.obj
+__/GameEngine/third_party/imgui/include/imgui_demo.obj: __/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_demo.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_android.i: __/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_android.i
+__/GameEngine/third_party/imgui/include/imgui_demo.i: __/GameEngine/third_party/imgui/include/imgui_demo.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_demo.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.i
+__/GameEngine/third_party/imgui/include/imgui_demo.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_demo.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_android.s: __/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_android.s
+__/GameEngine/third_party/imgui/include/imgui_demo.s: __/GameEngine/third_party/imgui/include/imgui_demo.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_demo.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_android.cpp.s
+__/GameEngine/third_party/imgui/include/imgui_demo.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_demo.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.obj
+__/GameEngine/third_party/imgui/include/imgui_draw.obj: __/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_draw.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.i: __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.i
+__/GameEngine/third_party/imgui/include/imgui_draw.i: __/GameEngine/third_party/imgui/include/imgui_draw.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_draw.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.i
+__/GameEngine/third_party/imgui/include/imgui_draw.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_draw.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.s: __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.s
+__/GameEngine/third_party/imgui/include/imgui_draw.s: __/GameEngine/third_party/imgui/include/imgui_draw.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_draw.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.cpp.s
+__/GameEngine/third_party/imgui/include/imgui_draw.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_draw.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.obj
+__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.obj: __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.i: __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.i
+__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.i: __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.i
+__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.s: __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.s
+__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.s: __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.cpp.s
+__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.obj
+__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.obj: __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.i: __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.i
+__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.i: __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.i
+__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.s: __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.s
+__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.s: __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.cpp.s
+__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.obj
+__/GameEngine/third_party/imgui/include/imgui_tables.obj: __/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_tables.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.i: __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.i
+__/GameEngine/third_party/imgui/include/imgui_tables.i: __/GameEngine/third_party/imgui/include/imgui_tables.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_tables.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.i
+__/GameEngine/third_party/imgui/include/imgui_tables.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_tables.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.s: __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.s
+__/GameEngine/third_party/imgui/include/imgui_tables.s: __/GameEngine/third_party/imgui/include/imgui_tables.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_tables.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.cpp.s
+__/GameEngine/third_party/imgui/include/imgui_tables.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_tables.cpp.s
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.obj
+__/GameEngine/third_party/imgui/include/imgui_widgets.obj: __/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_widgets.obj
 
 # target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.obj
+__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.i: __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.s: __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_glut.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glut.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_glut.i: __/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glut.i
+__/GameEngine/third_party/imgui/include/imgui_widgets.i: __/GameEngine/third_party/imgui/include/imgui_widgets.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_widgets.i
 
 # target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.i
+__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.i
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_widgets.cpp.i
 
-__/GameEngine/third_party/imgui/backends/imgui_impl_glut.s: __/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glut.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_glut.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.i: __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.s: __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.s
+__/GameEngine/third_party/imgui/include/imgui_widgets.s: __/GameEngine/third_party/imgui/include/imgui_widgets.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_widgets.s
 
 # target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.i: __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.s: __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.i: __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.s: __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.i: __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.s: __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.i: __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.s: __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.i: __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.s: __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.i: __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.s: __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.i: __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.s: __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.cpp.s
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_win32.obj: __/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_win32.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.obj
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_win32.i: __/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_win32.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.i
-
-__/GameEngine/third_party/imgui/backends/imgui_impl_win32.s: __/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_win32.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/backends/imgui_impl_win32.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_allegro5/main.obj: __/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_allegro5/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_allegro5/main.i: __/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_allegro5/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_allegro5/main.s: __/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_allegro5/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_allegro5/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.obj: __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.i: __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.s: __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.obj: __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.i: __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.s: __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.obj: __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.i: __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.s: __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.obj: __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.i: __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.s: __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.obj: __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.i: __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.s: __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.obj: __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.i: __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.s: __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_null/main.obj: __/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_null/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_null/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_null/main.i: __/GameEngine/third_party/imgui/examples/example_null/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_null/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_null/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_null/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_null/main.s: __/GameEngine/third_party/imgui/examples/example_null/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_null/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_null/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_null/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_null/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.i: __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.s: __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.i: __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.s: __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.i: __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.s: __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.i: __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.s: __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.i: __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.s: __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.i: __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.s: __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.obj: __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.i: __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.s: __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.obj: __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.i: __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.s: __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.obj: __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.i: __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.s: __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.obj: __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.i: __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.s: __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.obj: __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.i: __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.s: __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.cpp.s
-
-__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.obj: __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.obj
-
-__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.i: __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.i
-
-__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.s: __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.cpp.s
-
-__/GameEngine/third_party/imgui/imgui.obj: __/GameEngine/third_party/imgui/imgui.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui.i: __/GameEngine/third_party/imgui/imgui.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui.cpp.i
-
-__/GameEngine/third_party/imgui/imgui.s: __/GameEngine/third_party/imgui/imgui.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui.cpp.s
-
-__/GameEngine/third_party/imgui/imgui_demo.obj: __/GameEngine/third_party/imgui/imgui_demo.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_demo.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui_demo.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_demo.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui_demo.i: __/GameEngine/third_party/imgui/imgui_demo.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_demo.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui_demo.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_demo.cpp.i
-
-__/GameEngine/third_party/imgui/imgui_demo.s: __/GameEngine/third_party/imgui/imgui_demo.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_demo.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui_demo.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_demo.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_demo.cpp.s
-
-__/GameEngine/third_party/imgui/imgui_draw.obj: __/GameEngine/third_party/imgui/imgui_draw.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_draw.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui_draw.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_draw.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui_draw.i: __/GameEngine/third_party/imgui/imgui_draw.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_draw.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui_draw.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_draw.cpp.i
-
-__/GameEngine/third_party/imgui/imgui_draw.s: __/GameEngine/third_party/imgui/imgui_draw.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_draw.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui_draw.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_draw.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_draw.cpp.s
-
-__/GameEngine/third_party/imgui/imgui_impl_opengl3.obj: __/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_opengl3.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui_impl_opengl3.i: __/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_opengl3.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.i
-
-__/GameEngine/third_party/imgui/imgui_impl_opengl3.s: __/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_opengl3.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_opengl3.cpp.s
-
-__/GameEngine/third_party/imgui/imgui_impl_sdl2.obj: __/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_sdl2.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui_impl_sdl2.i: __/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_sdl2.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.i
-
-__/GameEngine/third_party/imgui/imgui_impl_sdl2.s: __/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_sdl2.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_impl_sdl2.cpp.s
-
-__/GameEngine/third_party/imgui/imgui_tables.obj: __/GameEngine/third_party/imgui/imgui_tables.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_tables.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui_tables.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_tables.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui_tables.i: __/GameEngine/third_party/imgui/imgui_tables.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_tables.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui_tables.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_tables.cpp.i
-
-__/GameEngine/third_party/imgui/imgui_tables.s: __/GameEngine/third_party/imgui/imgui_tables.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_tables.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui_tables.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_tables.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_tables.cpp.s
-
-__/GameEngine/third_party/imgui/imgui_widgets.obj: __/GameEngine/third_party/imgui/imgui_widgets.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_widgets.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/imgui_widgets.cpp.obj
-
-__/GameEngine/third_party/imgui/imgui_widgets.i: __/GameEngine/third_party/imgui/imgui_widgets.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_widgets.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/imgui_widgets.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/imgui_widgets.cpp.i
-
-__/GameEngine/third_party/imgui/imgui_widgets.s: __/GameEngine/third_party/imgui/imgui_widgets.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_widgets.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/imgui_widgets.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/imgui_widgets.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/imgui_widgets.cpp.s
-
-__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.obj: __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.obj
-
-__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.i: __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.i
-
-__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.s: __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.cpp.s
-
-__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.obj: __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.obj
-
-__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.i: __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.i
-
-__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.s: __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.cpp.s
-
-__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.obj: __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.obj
-
-# target to build an object file
-__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj
-.PHONY : __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.obj
-
-__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.i: __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.i
-
-# target to preprocess a source file
-__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.i
-.PHONY : __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.i
-
-__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.s: __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.s
-
-# target to generate assembly for a file
-__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.s
-.PHONY : __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.cpp.s
+__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.s
+.PHONY : __/GameEngine/third_party/imgui/include/imgui_widgets.cpp.s
 
 editorEntryPoint.obj: editorEntryPoint.cpp.obj
 .PHONY : editorEntryPoint.obj
@@ -1724,147 +764,27 @@ help:
 	@echo ... __/GameEngine/third_party/ImGuizmo/ImGuizmo.obj
 	@echo ... __/GameEngine/third_party/ImGuizmo/ImGuizmo.i
 	@echo ... __/GameEngine/third_party/ImGuizmo/ImGuizmo.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_allegro5.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_android.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_android.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_android.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx10.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx11.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx12.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_dx9.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_glfw.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_glut.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_glut.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_glut.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_opengl2.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_opengl3.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdl2.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdl3.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer2.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_sdlrenderer3.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_vulkan.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_wgpu.s
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_win32.obj
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_win32.i
-	@echo ... __/GameEngine/third_party/imgui/backends/imgui_impl_win32.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_allegro5/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_allegro5/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_allegro5/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_android_opengl3/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_emscripten_wgpu/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_opengl2/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_opengl3/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glfw_vulkan/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_glut_opengl2/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_null/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_null/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_null/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_directx11/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_opengl2/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_opengl3/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_sdlrenderer2/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl2_vulkan/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl3_opengl3/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_sdl3_sdlrenderer3/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx10/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx11/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx12/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_directx9/main.s
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.obj
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.i
-	@echo ... __/GameEngine/third_party/imgui/examples/example_win32_opengl3/main.s
-	@echo ... __/GameEngine/third_party/imgui/imgui.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui.i
-	@echo ... __/GameEngine/third_party/imgui/imgui.s
-	@echo ... __/GameEngine/third_party/imgui/imgui_demo.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui_demo.i
-	@echo ... __/GameEngine/third_party/imgui/imgui_demo.s
-	@echo ... __/GameEngine/third_party/imgui/imgui_draw.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui_draw.i
-	@echo ... __/GameEngine/third_party/imgui/imgui_draw.s
-	@echo ... __/GameEngine/third_party/imgui/imgui_impl_opengl3.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui_impl_opengl3.i
-	@echo ... __/GameEngine/third_party/imgui/imgui_impl_opengl3.s
-	@echo ... __/GameEngine/third_party/imgui/imgui_impl_sdl2.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui_impl_sdl2.i
-	@echo ... __/GameEngine/third_party/imgui/imgui_impl_sdl2.s
-	@echo ... __/GameEngine/third_party/imgui/imgui_tables.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui_tables.i
-	@echo ... __/GameEngine/third_party/imgui/imgui_tables.s
-	@echo ... __/GameEngine/third_party/imgui/imgui_widgets.obj
-	@echo ... __/GameEngine/third_party/imgui/imgui_widgets.i
-	@echo ... __/GameEngine/third_party/imgui/imgui_widgets.s
-	@echo ... __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.obj
-	@echo ... __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.i
-	@echo ... __/GameEngine/third_party/imgui/misc/cpp/imgui_stdlib.s
-	@echo ... __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.obj
-	@echo ... __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.i
-	@echo ... __/GameEngine/third_party/imgui/misc/fonts/binary_to_compressed_c.s
-	@echo ... __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.obj
-	@echo ... __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.i
-	@echo ... __/GameEngine/third_party/imgui/misc/freetype/imgui_freetype.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_demo.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_demo.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_demo.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_draw.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_draw.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_draw.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_impl_opengl3.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_impl_sdl2.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_tables.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_tables.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_tables.s
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_widgets.obj
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_widgets.i
+	@echo ... __/GameEngine/third_party/imgui/include/imgui_widgets.s
 	@echo ... editorEntryPoint.obj
 	@echo ... editorEntryPoint.i
 	@echo ... editorEntryPoint.s

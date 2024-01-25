@@ -612,3 +612,15 @@
         -完善camera preview功能、性能優化
         -exe 大小優化
     存檔紀錄
+2024/01/25
+    1. camera新增一些屬性及功能
+    2. 研究opengl的camera
+    3. 研究exe大小優化(未成功)
+    3. 目前還沒搞懂正交投影的設定(near、far)
+    Todo list
+        -將冗長代碼簡化
+        -properties面板
+        -完善camera preview功能、性能優化
+        -exe 大小優化
+    存檔紀錄
+    

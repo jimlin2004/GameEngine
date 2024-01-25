@@ -282,3 +282,12 @@ void GameEngine::Scene::onRunTimeStop()
     delete this->physicsWorld;
     this->physicsWorld = nullptr;
 }
+
+void GameEngine::Scene::onViewportResize(float width, float height)
+{
+    auto cameraComponentView = this->registry.view<GameEngine::CameraComponent>();
+    for (entt::entity entityID: cameraComponentView)
+    {
+        this->queryActorComponent<GameEngine::CameraComponent>(entityID).camera.resize(width, height);
+    }
+}

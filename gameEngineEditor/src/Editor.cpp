@@ -1,17 +1,20 @@
 #include "Editor.h"
 
+#include "GameEngineAPI/ConsoleApi.h"
+#include "GameEngineAPI/GameEngineAPI.h"
+#include "Render/Renderer.h"
 #include "glm/glm.hpp"
 #include "glm/gtc/type_ptr.hpp"
 #include "Math/Math.h"
 #include "Core/CameraController.h"
 #include "Opengl/TextureManager.h"
 #include "Event/Input.h"
-#include "ImGuiLayer.h"
 #include "Event/EventDispatcher.h"
 #include "Event/OpenProjectEvent.h"
 #include "Event/ImTreeNodeClickEvent.h"
 #include "Scene/SceneSerializer.h"
 #include "SDLFileParser.h"
+#include "ImGuiLayer.h"
 
 #include <filesystem>
 
@@ -176,8 +179,6 @@ void GameEngineEditor::Editor::update(float deltaTime)
 
 void GameEngineEditor::Editor::render()
 {
-    static ImGuiIO& io = ImGui::GetIO();
-
     bool snap = GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL);
     float snapValue = (this->gizmoOperation == ImGuizmo::ROTATE) ? 45.0f : 10.0f;
 
@@ -229,6 +230,7 @@ void GameEngineEditor::Editor::render()
         {
             this->viewportSize = currentViewportSize;
             this->editorCamera.resize(this->viewportSize.x, this->viewportSize.y);
+            
             this->viewportFrameBuffer->resize(this->viewportSize.x, this->viewportSize.y);
         }
 
@@ -263,7 +265,6 @@ void GameEngineEditor::Editor::render()
         entt::entity selectedEntityID = (entt::entity)this->selectedActor.getID();
         if (selectedEntityID != entt::null)
         {
-            this->imguizmoVisible = true;
             ImGuizmo::SetOrthographic(true);
             ImGuizmo::SetDrawlist();
             ImGuizmo::SetRect(this->viewportBound[0].x, this->viewportBound[0].y, this->viewportSize.x, this->viewportSize.y);
@@ -328,8 +329,6 @@ void GameEngineEditor::Editor::gameEventHandle()
 {
     //清除SDL鍵盤事件
     // SDL_ResetKeyboard();
-
-    static ImGuiIO& io = ImGui::GetIO();
     while (SDL_PollEvent(&this->event))
     {
         ImGui_ImplSDL2_ProcessEvent(&this->event);

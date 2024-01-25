@@ -1,8 +1,8 @@
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImDebugger.cpp.obj: \
  D:\code\cpp\gameEngine\GameEngineEditor\src\Panel\ImDebugger.cpp \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImDebugger.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/crtdefs.h \

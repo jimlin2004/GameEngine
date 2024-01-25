@@ -1,6 +1,6 @@
 #include "Panel/ImTerminal.h"
 
-#include "imgui/imgui.h"
+#include "imgui.h"
 #include <string>
 
 void GameEngineEditor::ImTerminal::render()

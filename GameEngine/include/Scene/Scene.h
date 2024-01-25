@@ -29,6 +29,7 @@ namespace GameEngine
         entt::entity copyActor(entt::entity srcEntityID);
         void onRuntimeStart();
         void onRunTimeStop();
+        void onViewportResize(float width, float height);
 
         template<class TActor>
         TActor* spawnActor()

@@ -1,9 +1,9 @@
 #ifndef GE_COMPONENT_H
 #define GE_COMPONENT_H
 
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/quaternion.hpp>
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/quaternion.hpp"
 #include "Script/Character.h"
 #include <string>
 #include "Core/UUID.h"

@@ -98,8 +98,8 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImTerminal.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cerrno \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imgui.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/imgui/imconfig.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imconfig.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
  C:/PROGRA~1/msys64/mingw64/include/float.h \
  C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \

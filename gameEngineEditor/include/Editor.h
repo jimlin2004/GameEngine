@@ -7,19 +7,16 @@
 #include "SDL2/SDL_opengl.h"
 #include "SDL2/SDL_syswm.h"
 
-#include "GameEngineAPI/ConsoleApi.h"
-#include "GameEngineAPI/GameEngineAPI.h"
 #include "Core/Timestep.h"
-#include "Render/Renderer.h"
 #include "Opengl/FrameBuffer.h"
 #include "Scene/Scene.h"
 #include "Actor/Actor.h"
 #include "EditorCamera.h"
 #include "ProjectParser.h"
 
-#include "imgui/imgui_impl_sdl2.h"
-#include "imgui/imgui_impl_opengl3.h"
-#include "imgui/imgui.h"
+#include "imgui_impl_sdl2.h"
+#include "imgui_impl_opengl3.h"
+#include "imgui.h"
 #include "ImGuizmo/ImGuizmo.h"
 
 #include "ImGuiLayer.h"
@@ -47,9 +44,6 @@ namespace GameEngineEditor
         int screenHeight;
         const char* title;
         float fps;
-        //imguizmo 的isOver會用到緩存數據(當hoverActor的id不是entt::null才會更新)
-        //為了修復此問題所以增加此變數防止點物件再點空的空間再點原物件會點不到的問題
-        bool imguizmoVisible;
         ImGuizmo::OPERATION gizmoOperation;
         SDL_Window* window;
         SDL_GLContext GLContext;

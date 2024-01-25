@@ -1,6 +1,11 @@
 project(GameEngineEditor)
 cmake_minimum_required(VERSION 3.16)
 
+SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O2")
+SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2")
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -9,8 +14,6 @@ set(CMAKE_WIN32_EXECUTABLE TRUE)
 file(GLOB_RECURSE EDITOR_SRC_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c 
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/*.c 
-    ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
 )
 file(GLOB_RECURSE EDITOR_HEADER_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h 
@@ -19,22 +22,14 @@ file(GLOB_RECURSE EDITOR_HEADER_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*.h 
     ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*.hpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*/*.h 
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/*/*/*.hpp
 )
 
 file(GLOB_RECURSE IMGUI
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/*.h
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/*.hpp
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/*.cpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include/*.h
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include/*.hpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include/*.cpp
     ${CMAKE_SOURCE_DIR}/GameEngine/third_party/ImGuizmo/ImGuizmo.h
     ${CMAKE_SOURCE_DIR}/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp
-)
-
-list(REMOVE_ITEM IMGUI
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/backends/*.h
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/backends/*.hpp
-    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/backends/*.cpp
 )
 
 add_executable(${PROJECT_NAME} 
@@ -53,12 +48,12 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/entt/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party)
-target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/imgui/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/ImGuizmo)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/lib/libGameEngine.a)
-# target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libbox2d.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE -lmingw32)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libSDL2.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lib/libSDL2main.a)

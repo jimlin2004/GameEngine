@@ -1,7 +1,7 @@
 #ifndef EDITOR_COLOR_H
 #define EDITOR_COLOR_H
 
-#include "imgui/imgui.h"
+#include "imgui.h"
 
 #define COLOR_TO_IMVEC4(color) (ImGui::ColorConvertU32ToFloat4(color))
 
@@ -44,6 +44,7 @@ namespace GameEngineEditor
     constexpr ImU32 xAxisHintColor           = IM_COL32(255, 100, 100, 255);
     constexpr ImU32 yAxisHintColor           = IM_COL32(80, 255, 80, 255);
     constexpr ImU32 zAxisHintColor           = IM_COL32(100, 150, 255, 255);
+    constexpr ImU32 AddCompnentButtonColor   = IM_COL32(17, 17, 17, 255);
 }
 
 #endif

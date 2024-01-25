@@ -2,7 +2,7 @@
 
 #include "Component/Component.h"
 #include "Actor/Actor.h"
-#include "imgui/imgui.h"
+#include "imgui.h"
 #include "imgui_internal.h"
 #include "EditorColor.h"
 
@@ -94,10 +94,13 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
     ImGui::Begin("Properties");
     if (actor)
     {
-        if (ImGui::Button("Add Component"))
+        ImVec2 panelSize = ImGui::GetContentRegionAvail();
+        ImGui::PushStyleColor(ImGuiCol_Button, GameEngineEditor::AddCompnentButtonColor);
+        if (ImGui::Button("Add Component", {panelSize.x, 0}))
         {
             ImGui::OpenPopup("##AddComponent");
         }
+        ImGui::PopStyleColor(1);
         if (ImGui::BeginPopup("##AddComponent"))
         {
             renderAddComponentItem<GameEngine::TransformComponent>("Transform", actor);
@@ -130,6 +133,22 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
         });
         renderComponent<GameEngine::CameraComponent>("Camera", actor, [](GameEngine::CameraComponent& component) {
             ImGui::Checkbox("Primary camera", &component.primary);
+            static float orthographicSize, orthographicNear, orthographicFar, aspectRatio;
+            static bool needToUpdate = false;
+            orthographicSize = component.camera.getOrthographicSize();
+            orthographicNear = component.camera.getOrthographicNear();
+            orthographicFar = component.camera.getOrthographicFar();
+            aspectRatio = component.camera.getAspectRatio();
+            if (ImGui::DragFloat("Orthographic Size", &orthographicSize, 0.1f))
+                needToUpdate = true;
+            if (ImGui::DragFloat("Orthographic Near", &orthographicNear, 0.1f))
+                needToUpdate = true;
+            if (ImGui::DragFloat("Orthographic Far", &orthographicFar, 0.1f))
+                needToUpdate = true;
+            if (ImGui::DragFloat("Aspect Ratio", &aspectRatio, 0.01f))
+                component.camera.setAspectRation(aspectRatio);
+            if (needToUpdate)
+                component.camera.setOrthographic(orthographicSize, orthographicNear, orthographicFar);
         });
     }
     ImGui::End();

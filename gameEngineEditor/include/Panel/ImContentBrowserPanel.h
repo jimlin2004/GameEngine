@@ -2,9 +2,8 @@
 #define IMCONTENT_BROWSER_PANEL_H
 
 #include <filesystem>
-#include "imgui/imgui.h"
+#include "imgui.h"
 #include "Opengl/Texture.h"
-#include "Opengl/SubTexture.h"
 
 namespace GameEngineEditor
 {
