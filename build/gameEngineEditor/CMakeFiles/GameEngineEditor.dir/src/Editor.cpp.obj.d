@@ -634,6 +634,8 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/EditorCamera.h \
@@ -687,8 +689,6 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImSceneHierarchyPanel.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImPropertiesPanel.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImContentBrowserPanel.h \
- D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImCameraPreview.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h \
@@ -730,4 +730,5 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  D:/code/cpp/gameEngine/GameEngineEditor/include/SDLFileParser.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h
+ D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h

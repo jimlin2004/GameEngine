@@ -135,9 +135,9 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
     ImGui::End();
 }
 
-void GameEngineEditor::ImGuiLayer::renderCameraPreview(void* textureID)
+void GameEngineEditor::ImGuiLayer::renderCameraPreview(void* textureID, float aspectRatio)
 {
-    this->cameraPreview.render(textureID);
+    this->cameraPreview.render(textureID, aspectRatio);
 }
 
 void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)

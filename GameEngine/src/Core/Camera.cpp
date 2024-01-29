@@ -3,6 +3,7 @@
 GameEngine::Camera::Camera()
     : projection(glm::mat4(1.0f))
 {
+    this->setProjection(-(this->aspectRatio * this->orthographicSize), this->aspectRatio * this->orthographicSize, -(this->orthographicSize), this->orthographicSize);
 }
 
 GameEngine::Camera::Camera(const glm::mat4& projection)

@@ -15,6 +15,7 @@
 #include "Scene/SceneSerializer.h"
 #include "SDLFileParser.h"
 #include "ImGuiLayer.h"
+#include "EditorColor.h"
 
 #include <filesystem>
 
@@ -133,6 +134,9 @@ void GameEngineEditor::Editor::init()
 
 void GameEngineEditor::Editor::begin()
 {
+    this->startIcon = new GameEngine::Texture();
+    this->startIcon->load("./assets/texture/start.png", GL_LINEAR);
+
     GameEngine::FrameBufferSpecification viewportSpec;
     viewportSpec.width = this->viewportSize.x;
     viewportSpec.height = this->viewportSize.y;
@@ -195,7 +199,7 @@ void GameEngineEditor::Editor::render()
     {
         GameEngine::CameraComponent& cameraComponent = this->selectedActor.getComponent<GameEngine::CameraComponent>();
         GameEngine::TransformComponent& transformComponent = this->selectedActor.getComponent<GameEngine::TransformComponent>();
-        this->imguiLayer.renderCameraPreview(reinterpret_cast<void*>(this->cameraViewFrameBuffer->getColorAttachmentRendererID()));
+        this->imguiLayer.renderCameraPreview(reinterpret_cast<void*>(this->cameraViewFrameBuffer->getColorAttachmentRendererID()), cameraComponent.camera.getAspectRatio());
         ImVec2 currentViewportSize = this->imguiLayer.getCameraPreviewSize();
         //framebuffer sizeo = 0會出錯
         if ((currentViewportSize.x > 0.0f) && (currentViewportSize.y > 0.0f) &&
@@ -219,8 +223,22 @@ void GameEngineEditor::Editor::render()
     ImGui::Begin("viewport", NULL, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_MenuBar);
         ImVec2 viewportPos = ImGui::GetWindowPos();
         ImVec2 windowSize = ImGui::GetWindowSize();
-        ImGui::BeginMenuBar();
-        ImGui::EndMenuBar();
+
+        //render toolbar
+        static const float toolbarHeight = 32 + 10;
+        static const ImGuiWindowFlags toolbarFlags = ImGuiWindowFlags_NoDocking | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize |
+            ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoSavedSettings;
+        ImGui::SetNextWindowSize({windowSize.x, toolbarHeight});
+        ImGui::SetNextWindowPos(viewportPos);
+        ImGui::PushStyleColor(ImGuiCol_WindowBg, GameEngineEditor::TitleBarColor);
+        ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, {5, 5});
+        ImGui::Begin("viweport-toolbar", NULL, toolbarFlags);
+            ImGui::PushStyleColor(ImGuiCol_Button, {200, 0, 0, 255});
+            ImGui::ImageButton(reinterpret_cast<void*>(this->startIcon->getTextureID()), {32, 32}, {0, 1}, {1, 0});
+            ImGui::PopStyleColor(1);
+        ImGui::End();
+        ImGui::PopStyleVar(1);
+        ImGui::PopStyleColor(1);
 
         this->isFocusOnViewport = ImGui::IsWindowFocused();
         ImVec2 currentViewportSize = ImGui::GetContentRegionAvail();

@@ -10,6 +10,7 @@
 #include "Core/Timestep.h"
 #include "Opengl/FrameBuffer.h"
 #include "Scene/Scene.h"
+#include "Opengl/Texture.h"
 #include "Actor/Actor.h"
 #include "EditorCamera.h"
 #include "ProjectParser.h"
@@ -64,6 +65,7 @@ namespace GameEngineEditor
         GameEngine::Actor selectedActor;
         ImGuiLayer imguiLayer;
         GameEngineEditor::ProjectParser projectParser;
+        GameEngine::Texture* startIcon;
 
         bool initSDL();
         bool initGL();

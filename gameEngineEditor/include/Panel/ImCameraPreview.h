@@ -11,7 +11,7 @@ namespace GameEngineEditor
     {
     public:
         ImCameraPreview();
-        void render(void* textureID);
+        void render(void* textureID, float aspectRatio);
         inline ImVec2 getViewportSize() { return this->viewportSize; }
     private:
         ImVec2 viewportSize;

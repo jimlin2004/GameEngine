@@ -24,7 +24,7 @@ namespace GameEngineEditor
         void setScene(GameEngine::Scene* scene);
         void setSelectedEntityID(uint32_t entityID);
         void renderDockspace();
-        void renderCameraPreview(void* textureID);
+        void renderCameraPreview(void* textureID, float aspectRatio);
         void renderAllPanel(float fps);
         void setProjectRootPath(const std::string& rootPath);
 

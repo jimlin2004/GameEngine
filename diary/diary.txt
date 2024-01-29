@@ -623,4 +623,14 @@
         -完善camera preview功能、性能優化
         -exe 大小優化
     存檔紀錄
-    
+2024/01/29
+    1. 恢復properties面板大部分功能(Texture尚未完工)
+    2. 將properties面板做style美化(自動與父視窗縮放寬度)
+    3. 調整camera preview
+    Todo list
+        -將冗長代碼簡化
+        -Texture系統
+        -Tool bar
+        -exe 大小優化
+        -scirpt system
+    存檔紀錄

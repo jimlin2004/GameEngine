@@ -401,6 +401,12 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/unordered_set \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
+ D:/code/cpp/gameEngine/GameEngine/include/Opengl/Texture.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include/GL/glew.h \
+ C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
+ C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
  D:/code/cpp/gameEngine/GameEngine/include/Component/Component.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/matrix_transform.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_projection.hpp \
