@@ -51,6 +51,7 @@ namespace GameEngineEditor
         SDL_Event event;
         GameEngine::Timestep timestep;
         uint64_t lastFrameTime;
+
         GameEngine::FrameBuffer* viewportFrameBuffer;
         GameEngine::FrameBuffer* cameraViewFrameBuffer;
         ImVec2 cameraPreviewSize;
@@ -58,14 +59,18 @@ namespace GameEngineEditor
         //viewport在screen中的座標
         ImVec2 viewportBound[2];
         GameEngineEditor::EditorCamera editorCamera;
-        glm::mat4 transform;
         SceneState sceneState;
+        bool needToStopScene;
+        bool needToStartScene;
         GameEngine::Scene* editorScene;
         GameEngine::Scene* activeScene;
         GameEngine::Actor selectedActor;
         ImGuiLayer imguiLayer;
         GameEngineEditor::ProjectParser projectParser;
-        GameEngine::Texture* startIcon;
+        GameEngine::Texture* playBtnIconTexture;
+        GameEngine::Texture* stopBtnIconTexture;
+        //真正的play button icon，有playBtnIconTexture、stopBtnIconTexture
+        GameEngine::Texture* playBtnIcon;
 
         bool initSDL();
         bool initGL();
@@ -82,6 +87,9 @@ namespace GameEngineEditor
         void updateEditorCamera(float deltaTime);
 
         void openProject(const std::string& projectPath);
+
+        void onSceneRuntimeStart();
+        void onSceneRuntimeStop();
     };
 }
 #endif

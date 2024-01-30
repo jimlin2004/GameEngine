@@ -1,10 +1,10 @@
 project(GameEngine VERSION 0.1.0)
 cmake_minimum_required(VERSION 3.16)
 
-SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O2")
-SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2")
-SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
+SET(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O3 -DNDEBUG")
+SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -DNDEBUG")
+SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS} -Wall -g")
+SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS} -Wall -g")
 add_compile_definitions("GENGINE_STATIC_LIB")
 
 file(GLOB_RECURSE SRC_FILES
@@ -40,7 +40,13 @@ file(GLOB_RECURSE DEBUG_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/debug/*.h
 )
 
-add_library(${PROJECT_NAME} STATIC ${SRC_FILES} ${THIRD_PARTY_SRC})
+set(LuaLib 
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/sol/config.hpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/sol/forward.hpp
+    ${CMAKE_SOURCE_DIR}/GameEngine/third_party/sol/sol.hpp
+)
+
+add_library(${PROJECT_NAME} STATIC ${SRC_FILES} ${THIRD_PARTY_SRC} ${LuaLib})
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/box2d/include)
@@ -48,6 +54,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/th
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/SDL2/x86_64-w64-mingw32/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/entt/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/GameEngine/third_party/lua/include)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/libbox2d.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE -lmingw32)
@@ -56,6 +63,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_
 target_link_libraries(${PROJECT_NAME} PRIVATE -mwindows -Wl,--dynamicbase -Wl,--nxcompat -Wl,--high-entropy-va -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lsetupapi -lversion -luuid)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/libopengl32.a)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/libglew32.dll.a)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/third_party/lib/liblua.a)
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 

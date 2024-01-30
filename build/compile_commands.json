@@ -161,23 +161,8 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Character.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Character.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Character.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptCore.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptCore.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptCore.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptEngine.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptEngine.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEngine.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptInterfaceImplement.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptInterfaceImplement.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptInterfaceImplement.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",

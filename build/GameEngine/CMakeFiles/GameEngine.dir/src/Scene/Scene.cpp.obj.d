@@ -437,7 +437,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/epsilon.inl \
- D:/code/cpp/gameEngine/GameEngine/include/Script/Character.h \
  D:/code/cpp/gameEngine/GameEngine/include/Actor/Actor.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/GameObject.h \
  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
@@ -477,8 +476,21 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/include/Physics/ContactListener.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h \
- D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngineMacro.h \
- D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptCore.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/luaconf.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/sol/sol.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/sol/config.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/variant \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/optional \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bitset \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
@@ -490,9 +502,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/winapifamily.h \
  C:/PROGRA~1/msys64/mingw64/include/sdkddkver.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
- D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
- D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
- D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
@@ -504,4 +513,5 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/PhysicsEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h

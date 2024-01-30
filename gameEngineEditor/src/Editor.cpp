@@ -38,6 +38,8 @@ GameEngineEditor::Editor::Editor(const char* title, int width, int height)
     , running(false)
     , isFocusOnViewport(false)
     , sceneState(GameEngineEditor::SceneState::Edit)
+    , needToStopScene(false)
+    , needToStartScene(false)
     , editorScene(nullptr)
     , activeScene(new GameEngine::Scene())
 {
@@ -134,8 +136,12 @@ void GameEngineEditor::Editor::init()
 
 void GameEngineEditor::Editor::begin()
 {
-    this->startIcon = new GameEngine::Texture();
-    this->startIcon->load("./assets/texture/start.png", GL_LINEAR);
+    this->playBtnIconTexture = new GameEngine::Texture();
+    this->playBtnIconTexture->load("./assets/texture/playButton.png", GL_NEAREST);
+    this->stopBtnIconTexture = new GameEngine::Texture();
+    this->stopBtnIconTexture->load("./assets/texture/stopButton.png", GL_NEAREST);
+
+    this->playBtnIcon = this->playBtnIconTexture;
 
     GameEngine::FrameBufferSpecification viewportSpec;
     viewportSpec.width = this->viewportSize.x;
@@ -178,7 +184,10 @@ void GameEngineEditor::Editor::begin()
 
 void GameEngineEditor::Editor::update(float deltaTime)
 {
-
+    if (this->sceneState == GameEngineEditor::SceneState::Play)
+    {
+        this->activeScene->unpdateRuntimeScene(deltaTime);
+    }
 }
 
 void GameEngineEditor::Editor::render()
@@ -225,19 +234,29 @@ void GameEngineEditor::Editor::render()
         ImVec2 windowSize = ImGui::GetWindowSize();
 
         //render toolbar
-        static const float toolbarHeight = 32 + 10;
+        static const float toolbarHeight = 32;
+        static const float buttonSize = 32;
         static const ImGuiWindowFlags toolbarFlags = ImGuiWindowFlags_NoDocking | ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize |
             ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoSavedSettings;
         ImGui::SetNextWindowSize({windowSize.x, toolbarHeight});
         ImGui::SetNextWindowPos(viewportPos);
         ImGui::PushStyleColor(ImGuiCol_WindowBg, GameEngineEditor::TitleBarColor);
-        ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, {5, 5});
+        ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, {0, 0});
+        ImGui::PushStyleVar(ImGuiStyleVar_FramePadding, {0, 0});
         ImGui::Begin("viweport-toolbar", NULL, toolbarFlags);
-            ImGui::PushStyleColor(ImGuiCol_Button, {200, 0, 0, 255});
-            ImGui::ImageButton(reinterpret_cast<void*>(this->startIcon->getTextureID()), {32, 32}, {0, 1}, {1, 0});
-            ImGui::PopStyleColor(1);
+            //將工具item置中
+            float toolbarWidth = ImGui::GetWindowSize().x;
+            float centerPosForBtn = (toolbarWidth - buttonSize) / 2;
+            ImGui::SetCursorPosX(centerPosForBtn);
+            if (ImGui::ImageButton(reinterpret_cast<void*>(this->playBtnIcon->getTextureID()), {buttonSize, buttonSize}, {0, 1}, {1, 0}))
+            {
+                if (this->sceneState == GameEngineEditor::SceneState::Edit)
+                    this->needToStartScene = true;
+                else
+                    this->needToStopScene = true;
+            }
         ImGui::End();
-        ImGui::PopStyleVar(1);
+        ImGui::PopStyleVar(2);
         ImGui::PopStyleColor(1);
 
         this->isFocusOnViewport = ImGui::IsWindowFocused();
@@ -441,6 +460,11 @@ void GameEngineEditor::Editor::start()
         this->fps = 1.0 / ((time - this->lastFrameTime) / (float)SDL_GetPerformanceFrequency());
         this->gameEventHandle();
 
+        if (this->needToStartScene)
+            this->onSceneRuntimeStart();
+        if (this->needToStopScene)
+            this->onSceneRuntimeStop();
+
         if (this->sceneState == GameEngineEditor::SceneState::Edit)
         {
             this->updateEditorCamera(this->timestep);
@@ -455,4 +479,28 @@ void GameEngineEditor::Editor::start()
     ImGui::DestroyContext();
     SDL_DestroyWindow(this->window);
     SDL_Quit();
+}
+
+void GameEngineEditor::Editor::onSceneRuntimeStart()
+{
+    this->needToStartScene = false;
+    this->playBtnIcon = this->stopBtnIconTexture;
+    this->sceneState = GameEngineEditor::SceneState::Play;
+    this->editorScene = GameEngine::Scene::copy(this->activeScene);
+    this->activeScene->onRuntimeStart();
+
+    this->imguiLayer.setScene(this->activeScene);
+}
+
+void GameEngineEditor::Editor::onSceneRuntimeStop()
+{
+    this->needToStopScene = false;
+    this->playBtnIcon = this->playBtnIconTexture;
+    this->sceneState = GameEngineEditor::SceneState::Edit;
+    this->activeScene = GameEngine::Scene::copy(this->editorScene);
+    this->activeScene->onRunTimeStop();
+    delete this->editorScene;
+    this->editorScene = nullptr;
+
+    this->imguiLayer.setScene(this->activeScene);
 }

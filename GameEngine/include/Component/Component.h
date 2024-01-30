@@ -4,7 +4,8 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "glm/gtc/quaternion.hpp"
-#include "Script/Character.h"
+// #include "Script/Character.h"
+#include "Actor/Actor.h"
 #include <string>
 #include "Core/UUID.h"
 #include "Core/Camera.h"
@@ -81,7 +82,8 @@ namespace GameEngine
         ScriptComponent();
         ScriptComponent(const ScriptComponent& other);
         ScriptComponent(const std::string& newClassName);
-        GameEngine::Character* instance;
+        // GameEngine::Character* instance;
+        GameEngine::Actor* instance;
         std::string className; 
     };
 

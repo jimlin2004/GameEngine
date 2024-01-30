@@ -37,12 +37,6 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 55,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
 				"line" : 56,
 				"parent" : 0
 			},
@@ -83,13 +77,25 @@
 				"parent" : 0
 			},
 			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
 				"file" : 1
 			},
 			{
 				"command" : 2,
 				"file" : 1,
 				"line" : 6,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"command" : 3,
@@ -156,6 +162,12 @@
 				"file" : 0,
 				"line" : 53,
 				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
 			}
 		]
 	},
@@ -174,48 +186,52 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 12,
+					"backtrace" : 13,
 					"path" : "D:/code/cpp/gameEngine/GameEngineEditor/."
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 14,
 					"path" : "D:/code/cpp/gameEngine/GameEngineEditor/./include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 15,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/include"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 16,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 17,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/opengl/glew/include"
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include"
 				},
 				{
-					"backtrace" : 18,
+					"backtrace" : 19,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/entt/include"
 				},
 				{
-					"backtrace" : 19,
+					"backtrace" : 20,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 21,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 23,
 					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "D:/code/cpp/gameEngine/GameEngine/third_party/lua/include"
 				}
 			],
 			"language" : "CXX",
@@ -258,7 +274,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 11,
+			"backtrace" : 12,
 			"id" : "GameEngine::@3f1430db303f85cff844"
 		}
 	],
@@ -383,6 +399,11 @@
 			{
 				"backtrace" : 9,
 				"fragment" : "D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\lib\\libglew32.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\lib\\liblua.a",
 				"role" : "libraries"
 			},
 			{

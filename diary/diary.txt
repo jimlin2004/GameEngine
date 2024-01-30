@@ -634,3 +634,15 @@
         -exe 大小優化
         -scirpt system
     存檔紀錄
+2024/01/30
+    1. 恢復scene的play and stop
+    2. (*)決定導入Lua作為ScriptComponent
+    3. (*)決定用sol lib代替Lua c api
+    4. (*)將原本的Script相關項目暫時移除
+    5. 實驗release版本exe大小為18MB
+    6. 實驗c++調用lua function成功
+    7. 完成Editor的Toolbar
+     Todo list
+        -Texture系統
+        -scirpt system
+    存檔紀錄

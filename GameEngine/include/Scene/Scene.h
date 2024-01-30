@@ -14,6 +14,7 @@ class b2World;
 namespace GameEngine
 {
     class ContactListener;
+    class ScriptEngine;
     
     class Scene
     {
@@ -78,6 +79,8 @@ namespace GameEngine
     private:
         b2World* physicsWorld;
         ContactListener* contactListener;
+
+        ScriptEngine* scriptEngine;
     };
 }
 

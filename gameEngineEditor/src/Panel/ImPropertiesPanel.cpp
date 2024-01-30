@@ -192,7 +192,12 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
             ImGui::SetNextItemWidth(-1);
             ImGui::ColorEdit4("##Color", glm::value_ptr(component.color));
             ImGui::Text("Texture");
-            ImGui::Image(reinterpret_cast<void*>(component.texture->getTextureID()), {50.0f, 50.0f}, {0, 1}, {1, 0});
+            void* texturePtr;
+            if (component.texture == nullptr)
+                texturePtr = 0;
+            else
+                texturePtr = reinterpret_cast<void*>(component.texture->getTextureID());
+            ImGui::Image(texturePtr, {50.0f, 50.0f}, {0, 1}, {1, 0});
         });
         renderComponent<GameEngine::CameraComponent>("Camera", actor, [](GameEngine::CameraComponent& component) {
             renderLeftLabel("Primary Camera");
@@ -289,7 +294,7 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
                 renderLeftLabel("Restitution Threshold");
                 ImGui::TableNextColumn();
                 ImGui::SetNextItemWidth(-1);
-                ImGui::DragFloat("##Restitution Threshold", &component.restitutionThreshold, 0.01f);
+                ImGui::DragFloat("##Restitution Threshold", &component.restitutionThreshold, 0.1f);
             ImGui::EndTable();
         });
     }

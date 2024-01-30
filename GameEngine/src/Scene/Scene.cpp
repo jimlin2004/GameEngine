@@ -15,7 +15,7 @@
 #include "Physics/ContactListener.h"
 
 #include "Script/ScriptEngine.h"
-#include "Script/ScriptCore.h"
+// #include "Script/ScriptCore.h"
 
 // Event
 #include "Event/Input.h"
@@ -25,6 +25,7 @@
 GameEngine::Scene::Scene()
     : physicsWorld(nullptr)
     , contactListener(nullptr)
+    , scriptEngine(nullptr)
 {
 }
 
@@ -44,11 +45,11 @@ GameEngine::Scene::~Scene()
 
 void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
 {
-    this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
-    {
-        if (scriptComponent.instance != nullptr)
-            scriptComponent.instance->update(deltaTime);
-    });
+    // this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
+    // {
+    //     if (scriptComponent.instance != nullptr)
+    //         scriptComponent.instance->update(deltaTime);
+    // });
 
     //physics
     {
@@ -260,25 +261,27 @@ void GameEngine::Scene::onRuntimeStart()
     
     //script
     
-    GameEngine::ScriptEngine::reload(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
+    this->scriptEngine = new ScriptEngine();
+    this->scriptEngine->test();
+    // GameEngine::ScriptEngine::reload(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
     
-    auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
-    for (entt::entity entityID: scriptView)
-    {
-        GameEngine::Actor actor = {entityID, this};
-        GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
+    // auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
+    // for (entt::entity entityID: scriptView)
+    // {
+    //     GameEngine::Actor actor = {entityID, this};
+    //     GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
         
-        if (scriptComponent.className == "None")
-            continue;
-        scriptComponent.instance = GameEngine::ScriptEngine::createActor(scriptComponent.className, entityID, this);
-        scriptComponent.instance->begin();
-    }
+    //     if (scriptComponent.className == "None")
+    //         continue;
+    //     scriptComponent.instance = GameEngine::ScriptEngine::createActor(scriptComponent.className, entityID, this);
+    //     scriptComponent.instance->begin();
+    // }
 }
 
 void GameEngine::Scene::onRunTimeStop()
 {
     // 不能再onRunTimeStart裡面reset，std::funciton必須在dll還在的時候delete
-    GameEngine::EventDispatcher::reset();
+    // GameEngine::EventDispatcher::reset();
     delete this->physicsWorld;
     this->physicsWorld = nullptr;
 }

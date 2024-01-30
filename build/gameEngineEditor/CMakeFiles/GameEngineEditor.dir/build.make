@@ -472,6 +472,7 @@ GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_p
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libSDL2main.a
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libopengl32.a
 GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/libglew32.dll.a
+GameEngineEditor/GameEngineEditor.exe: D:/code/cpp/gameEngine/GameEngine/third_party/lib/liblua.a
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/linkLibs.rsp
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/objects1
 GameEngineEditor/GameEngineEditor.exe: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/link.txt
