@@ -446,4 +446,23 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Component/Component.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/inttypes.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/glu.h \
  C:/PROGRA~1/msys64/mingw64/include/GL/gl.h \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+ C:/PROGRA~1/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/stdarg.h \
+ C:/PROGRA~1/msys64/mingw64/include/_mingw_stdarg.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/luaconf.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/sol/sol.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/sol/config.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/variant \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/iostream \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/optional \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bitset \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h

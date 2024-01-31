@@ -14,7 +14,7 @@ GameEngine::MousePosition::operator glm::vec2()
 
 bool GameEngine::Input::isKeyPressed(KeyCode keyCode)
 {
-    return Input::keyboardState[keyCode];
+    return GameEngine::Input::keyboardState[keyCode];
 }
 
 bool GameEngine::Input::isMouseButtonPressed(MouseCode mouseCode)

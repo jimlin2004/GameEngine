@@ -233,4 +233,6 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/cassert \
- C:/PROGRA~1/msys64/mingw64/include/assert.h
+ C:/PROGRA~1/msys64/mingw64/include/assert.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptRegister.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h

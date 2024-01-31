@@ -45,6 +45,7 @@ GameEngine::Scene::~Scene()
 
 void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
 {
+    //Script
     // this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
     // {
     //     if (scriptComponent.instance != nullptr)
@@ -262,7 +263,7 @@ void GameEngine::Scene::onRuntimeStart()
     //script
     
     this->scriptEngine = new ScriptEngine();
-    this->scriptEngine->test();
+    // this->scriptEngine->load();
     // GameEngine::ScriptEngine::reload(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
     
     // auto scriptView = this->registry.view<GameEngine::ScriptComponent>();

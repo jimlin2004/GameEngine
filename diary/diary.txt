@@ -646,3 +646,11 @@
         -Texture系統
         -scirpt system
     存檔紀錄
+2024/01/31
+    1. 研究lua、sol
+    2. 確立lua格式
+    Todo list
+        -Texture系統
+        -scirpt system
+        -scirpt component的設計
+    存檔紀錄

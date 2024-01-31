@@ -37,10 +37,10 @@ void GameEngine::SceneSerializer::serializeEntity(Actor &actor, Json& jsonArray)
     {
         jsonObject["Camera"]["Primary"] = actor.getComponent<CameraComponent>().primary;
     }
-    if (actor.hasComponent<ScriptComponent>())
-    {
-        jsonObject["Script"]["ClassName"] = actor.getComponent<ScriptComponent>().className;
-    }
+    // if (actor.hasComponent<ScriptComponent>())
+    // {
+    //     jsonObject["Script"]["ClassName"] = actor.getComponent<ScriptComponent>().className;
+    // }
     if (actor.hasComponent<Rigidbody2DComponent>())
     {
         Rigidbody2DComponent& rigidbody2DComponent = actor.getComponent<Rigidbody2DComponent>();
@@ -131,12 +131,12 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path, Scene** s
         {
             actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
         }
-        if (jsonActor.contains("Script"))
-        {
-            GameEngine::ScriptComponent scriptComponent;
-            scriptComponent.className = jsonActor["Script"]["ClassName"].get<std::string>();
-            actor->addComponent<GameEngine::ScriptComponent>(scriptComponent);
-        }
+        // if (jsonActor.contains("Script"))
+        // {
+        //     // GameEngine::ScriptComponent scriptComponent;
+        //     // scriptComponent.className = jsonActor["Script"]["ClassName"].get<std::string>();
+        //     // actor->addComponent<GameEngine::ScriptComponent>(scriptComponent);
+        // }
         if (jsonActor.contains("Rigidbody2D"))
         {
             GameEngine::Rigidbody2DComponent rigidbody2DComponent;

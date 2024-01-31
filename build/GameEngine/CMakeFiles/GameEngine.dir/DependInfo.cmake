@@ -41,6 +41,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/Scene/SceneSerializer.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEngine.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj.d"
+  "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptInstance.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.obj.d"
+  "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptRegister.cpp" "GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/std_image.cpp" "GameEngine/CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj" "gcc" "GameEngine/CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj.d"
   )
 

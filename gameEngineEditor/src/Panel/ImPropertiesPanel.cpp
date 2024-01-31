@@ -248,6 +248,9 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
                     component.camera.setOrthographic(orthographicSize, orthographicNear, orthographicFar);
             ImGui::EndTable();
         });
+        renderComponent<GameEngine::ScriptComponent>("Script", actor, [](GameEngine::ScriptComponent& component) {
+            
+        });
         renderComponent<GameEngine::Rigidbody2DComponent>("Rigidbody2D", actor, [](GameEngine::Rigidbody2DComponent& component) {
             static const char* types[] = { "Static", "Dynamic", "Kinematic" };
             static int type = -1;

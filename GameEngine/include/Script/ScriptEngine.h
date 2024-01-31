@@ -6,11 +6,13 @@
 
 namespace GameEngine
 {
+    class ScriptInstance;
+
     class ScriptEngine
     {
     public:
         ScriptEngine();
-        void test();
+        void load(ScriptInstance& scriptInstance, const std::string& scriptPath);
     private:
         sol::state luaState;
     };

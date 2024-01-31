@@ -986,6 +986,54 @@ src/Script/ScriptEngine.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.s
 .PHONY : src/Script/ScriptEngine.cpp.s
 
+src/Script/ScriptInstance.obj: src/Script/ScriptInstance.cpp.obj
+.PHONY : src/Script/ScriptInstance.obj
+
+# target to build an object file
+src/Script/ScriptInstance.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.obj
+.PHONY : src/Script/ScriptInstance.cpp.obj
+
+src/Script/ScriptInstance.i: src/Script/ScriptInstance.cpp.i
+.PHONY : src/Script/ScriptInstance.i
+
+# target to preprocess a source file
+src/Script/ScriptInstance.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.i
+.PHONY : src/Script/ScriptInstance.cpp.i
+
+src/Script/ScriptInstance.s: src/Script/ScriptInstance.cpp.s
+.PHONY : src/Script/ScriptInstance.s
+
+# target to generate assembly for a file
+src/Script/ScriptInstance.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.s
+.PHONY : src/Script/ScriptInstance.cpp.s
+
+src/Script/ScriptRegister.obj: src/Script/ScriptRegister.cpp.obj
+.PHONY : src/Script/ScriptRegister.obj
+
+# target to build an object file
+src/Script/ScriptRegister.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.obj
+.PHONY : src/Script/ScriptRegister.cpp.obj
+
+src/Script/ScriptRegister.i: src/Script/ScriptRegister.cpp.i
+.PHONY : src/Script/ScriptRegister.i
+
+# target to preprocess a source file
+src/Script/ScriptRegister.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.i
+.PHONY : src/Script/ScriptRegister.cpp.i
+
+src/Script/ScriptRegister.s: src/Script/ScriptRegister.cpp.s
+.PHONY : src/Script/ScriptRegister.s
+
+# target to generate assembly for a file
+src/Script/ScriptRegister.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.s
+.PHONY : src/Script/ScriptRegister.cpp.s
+
 third_party/stb_image/std_image.obj: third_party/stb_image/std_image.cpp.obj
 .PHONY : third_party/stb_image/std_image.obj
 
@@ -1124,6 +1172,12 @@ help:
 	@echo ... src/Script/ScriptEngine.obj
 	@echo ... src/Script/ScriptEngine.i
 	@echo ... src/Script/ScriptEngine.s
+	@echo ... src/Script/ScriptInstance.obj
+	@echo ... src/Script/ScriptInstance.i
+	@echo ... src/Script/ScriptInstance.s
+	@echo ... src/Script/ScriptRegister.obj
+	@echo ... src/Script/ScriptRegister.i
+	@echo ... src/Script/ScriptRegister.s
 	@echo ... third_party/stb_image/std_image.obj
 	@echo ... third_party/stb_image/std_image.i
 	@echo ... third_party/stb_image/std_image.s

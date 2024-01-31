@@ -2,6 +2,7 @@
 
 #include "Opengl/Texture.h"
 #include "Core/Assert.h"
+#include "Script/ScriptInstance.h"
 
 GameEngine::TransformComponent::TransformComponent(const TransformComponent &other)
     : translation(other.translation)
@@ -113,19 +114,13 @@ std::string GameEngine::Rigidbody2DComponent::bodyTypeToString(BodyType bodyType
 }
 
 GameEngine::ScriptComponent::ScriptComponent()
-    : instance(nullptr)
-    , className("None")
+    : instance()
+    , scriptPath("")
 {
 }
 
 GameEngine::ScriptComponent::ScriptComponent(const GameEngine::ScriptComponent& other)
     : instance(other.instance)
-    , className(other.className)
-{
-}
-
-GameEngine::ScriptComponent::ScriptComponent(const std::string &newClassName)
-    : instance(nullptr)
-    , className(newClassName)
+    , scriptPath(other.scriptPath)
 {
 }

@@ -4,7 +4,6 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "glm/gtc/quaternion.hpp"
-// #include "Script/Character.h"
 #include "Actor/Actor.h"
 #include <string>
 #include "Core/UUID.h"
@@ -13,6 +12,7 @@
 namespace GameEngine
 {
     class Texture;
+    class ScriptInstance;
 
     enum class GameEngineComponentType
     {
@@ -81,10 +81,8 @@ namespace GameEngine
     {
         ScriptComponent();
         ScriptComponent(const ScriptComponent& other);
-        ScriptComponent(const std::string& newClassName);
-        // GameEngine::Character* instance;
-        GameEngine::Actor* instance;
-        std::string className; 
+        GameEngine::ScriptInstance* instance;
+        std::string scriptPath;
     };
 
     //physics

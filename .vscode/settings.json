@@ -78,6 +78,7 @@
         "span": "cpp",
         "valarray": "cpp",
         "qopenglextrafunctions": "cpp",
-        "qobject": "cpp"
+        "qobject": "cpp",
+        "bitset": "cpp"
     }
 }
