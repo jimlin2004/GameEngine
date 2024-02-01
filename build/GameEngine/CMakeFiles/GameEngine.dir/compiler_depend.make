@@ -8079,6 +8079,7 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: D:/code/cpp/gameEn
   D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/optional \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bitset \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
@@ -8804,6 +8805,190 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: D:/code/cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cassert \
   C:/Program\ Files/msys64/mingw64/include/assert.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Scene/Scene.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/glm.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_fixes.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/simd/platform.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/climits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cfloat \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/float.h \
+  C:/Program\ Files/msys64/mingw64/include/float.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/fwd.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/qualifier.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/vec2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec2.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/compute_vector_relational.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_int2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_int2_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/scalar_int_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/setup.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint2_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/scalar_uint_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/vec3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec3.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_int3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_int3_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint3_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/vec4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec4.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_int4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_int4_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_uint4_sized.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat2x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double2x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat2x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat2x2.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/matrix.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat2x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double2x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat2x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat2x3.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double2x3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float2x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float2x3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat2x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double2x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat2x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat2x4.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double2x4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float2x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float2x4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat3x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x2.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat3x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x3.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat3x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x4.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float3x4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat4x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double4x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat4x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat4x2.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double4x2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat4x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double4x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat4x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat4x3.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double4x3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x3.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x3_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/mat4x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double4x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat4x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat4x4.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double4x4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x4.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float4x4_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_matrix.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/geometric.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_geometric.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/exponential.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec1.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_vec1.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_exponential.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/vector_relational.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_vector_relational.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/_vectorize.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/common.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_common.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/compute_common.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double2x2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float2x2.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_float2x2_precision.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/trigonometric.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_trigonometric.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/packing.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_packing.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_half.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_half.inl \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/integer.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_integer.inl \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/UUID.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/json/json.hpp \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/numeric \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_numeric.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tree.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multimap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/valarray \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_before.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/slice_array.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_after.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/gslice.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/gslice_array.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/mask_array.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/indirect_array.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/version \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/filesystem \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_fwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/chrono.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ratio \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_path.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iomanip \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/quoted_string.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/codecvt \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_dir.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
+  D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/deque \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_deque.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/deque.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_list.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/list.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/set \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_set.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_multiset.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_set \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptRegister.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h
 

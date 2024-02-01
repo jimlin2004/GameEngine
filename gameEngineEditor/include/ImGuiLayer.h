@@ -28,6 +28,8 @@ namespace GameEngineEditor
         void renderAllPanel(float fps);
         void setProjectRootPath(const std::string& rootPath);
 
+        void eventHandle();
+
         inline ImVec2 getCameraPreviewSize() { return this->cameraPreview.getViewportSize(); }
     #if USE_WINDOWS
         void setWindowID(HWND windowID);

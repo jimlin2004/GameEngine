@@ -2,8 +2,10 @@
 #include "imgui.h"
 #include "Core/Platform.h"
 #include "Event/OpenProjectEvent.h"
+#include "Event/SaveProjectEvent.h"
 #include "Event/EventDispatcher.h"
 #include "Panel/ImDebugger.h"
+#include "Event/Input.h"
 #include "EditorColor.h"
 
 #if USE_WINDOWS
@@ -112,7 +114,7 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
     {
         if (ImGui::BeginMenu("File"))
         {
-            if (ImGui::MenuItem("Open project"))
+            if (ImGui::MenuItem("Open project", "Ctrl+O"))
             {
                 std::string projectPath = GameEngineEditor::WindowsApi::openProjectFile(this->windowID);
                 if (!projectPath.empty())
@@ -120,6 +122,11 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
                     GameEngineEditor::OpenProjectEvent openProjectEvent(projectPath);
                     GameEngine::EventDispatcher::trigger(&openProjectEvent);
                 }
+            }
+            if (ImGui::MenuItem("Save project", "Ctrl+N"))
+            {
+                GameEngineEditor::SaveProjectEvent saveProjectEvent;
+                GameEngine::EventDispatcher::trigger(&saveProjectEvent);
             }
             ImGui::EndMenu();
         }
@@ -153,6 +160,26 @@ void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
 void GameEngineEditor::ImGuiLayer::setProjectRootPath(const std::string& rootPath)
 {
     this->contentBrowserPanel.setRootPath(rootPath);
+    this->propertiesPanel.setRootPath(rootPath);
+}
+
+void GameEngineEditor::ImGuiLayer::eventHandle()
+{
+    //shortcut
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL) && GameEngine::Input::isKeyPressed(GameEngine::Key_O))
+    {
+        std::string projectPath = GameEngineEditor::WindowsApi::openProjectFile(this->windowID);
+        if (!projectPath.empty())
+        {
+            GameEngineEditor::OpenProjectEvent openProjectEvent(projectPath);
+            GameEngine::EventDispatcher::trigger(&openProjectEvent);
+        }
+    }
+    if (GameEngine::Input::isKeyPressed(GameEngine::Key_LCTRL) && GameEngine::Input::isKeyPressed(GameEngine::Key_S))
+    {
+        GameEngineEditor::SaveProjectEvent saveProjectEvent;
+        GameEngine::EventDispatcher::trigger(&saveProjectEvent);
+    }
 }
 
 #if USE_WINDOWS

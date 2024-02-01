@@ -654,3 +654,12 @@
         -scirpt system
         -scirpt component的設計
     存檔紀錄
+2024/02/01
+    1. 研究lua的oop(還沒決定)
+    2. 設計ScriptComponent
+    3. 恢復save scene的功能
+    Todo list
+        -Texture系統
+        -scirpt system
+        -lua debug
+    存檔紀錄

@@ -87,6 +87,7 @@ namespace GameEngineEditor
         void updateEditorCamera(float deltaTime);
 
         void openProject(const std::string& projectPath);
+        void saveProject();
 
         void onSceneRuntimeStart();
         void onSceneRuntimeStop();

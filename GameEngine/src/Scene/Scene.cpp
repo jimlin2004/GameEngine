@@ -15,6 +15,7 @@
 #include "Physics/ContactListener.h"
 
 #include "Script/ScriptEngine.h"
+#include "Script/ScriptInstance.h"
 // #include "Script/ScriptCore.h"
 
 // Event
@@ -46,11 +47,11 @@ GameEngine::Scene::~Scene()
 void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
 {
     //Script
-    // this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
-    // {
-    //     if (scriptComponent.instance != nullptr)
-    //         scriptComponent.instance->update(deltaTime);
-    // });
+    this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)
+    {
+        if (scriptComponent.instance != nullptr)
+            scriptComponent.instance->update(deltaTime);
+    });
 
     //physics
     {
@@ -207,7 +208,7 @@ static b2BodyType getBox2DRigidbodyType(GameEngine::Rigidbody2DComponent::BodyTy
     return b2BodyType::b2_staticBody;
 }
 
-void GameEngine::Scene::onRuntimeStart()
+void GameEngine::Scene::onRuntimeStart(const std::string& projectRootPath)
 {
     //physics
     this->physicsWorld = new b2World({0.0f, -9.8f});
@@ -263,20 +264,23 @@ void GameEngine::Scene::onRuntimeStart()
     //script
     
     this->scriptEngine = new ScriptEngine();
-    // this->scriptEngine->load();
-    // GameEngine::ScriptEngine::reload(GameEngine::GEngine->getProjectRootPath() + "/build/lib/GameEngineScript.dll");
+    this->scriptEngine->init(this);
     
-    // auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
-    // for (entt::entity entityID: scriptView)
-    // {
-    //     GameEngine::Actor actor = {entityID, this};
-    //     GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
+    auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
+    for (entt::entity entityID: scriptView)
+    {
+        GameEngine::Actor actor = {entityID, this};
+        GameEngine::ScriptComponent& scriptComponent = actor.getComponent<GameEngine::ScriptComponent>();
         
-    //     if (scriptComponent.className == "None")
-    //         continue;
-    //     scriptComponent.instance = GameEngine::ScriptEngine::createActor(scriptComponent.className, entityID, this);
-    //     scriptComponent.instance->begin();
-    // }
+        if (scriptComponent.scriptPath.empty())
+            continue;
+        if (scriptComponent.instance == nullptr)
+            scriptComponent.instance = new GameEngine::ScriptInstance();
+        this->scriptEngine->setTargetEntityID((uint32_t)entityID);
+        this->scriptEngine->load((*scriptComponent.instance), projectRootPath + '/' + scriptComponent.scriptPath);
+        scriptComponent.instance->invokeConstructor();
+        scriptComponent.instance->begin();
+    }
 }
 
 void GameEngine::Scene::onRunTimeStop()

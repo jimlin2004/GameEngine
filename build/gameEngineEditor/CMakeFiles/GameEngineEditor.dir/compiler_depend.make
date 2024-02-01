@@ -3521,6 +3521,101 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
 
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/SaveProjectEvent.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/Event/SaveProjectEvent.cpp \
+  D:/code/cpp/gameEngine/GameEngineEditor/include/Event/SaveProjectEvent.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cwchar \
+  C:/Program\ Files/msys64/mingw64/include/wchar.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stat64.h \
+  C:/Program\ Files/msys64/mingw64/include/swprintf.inl \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdint \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/new \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/clocale \
+  C:/Program\ Files/msys64/mingw64/include/locale.h \
+  C:/Program\ Files/msys64/mingw64/include/stdio.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iosfwd \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cctype \
+  C:/Program\ Files/msys64/mingw64/include/ctype.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string_view \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/string_view.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdlib \
+  C:/Program\ Files/msys64/mingw64/include/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/limits.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/malloc.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  C:/Program\ Files/msys64/mingw64/include/errno.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdio \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cerrno \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc
+
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: D:/code/cpp/gameEngine/GameEngineEditor/src/ImGuiLayer.cpp \
   D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
   D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImTerminal.h \
@@ -4176,8 +4271,29 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: D:/code
   C:/Program\ Files/msys64/mingw64/include/imm.h \
   D:/code/cpp/gameEngine/GameEngineEditor/include/Event/OpenProjectEvent.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+  D:/code/cpp/gameEngine/GameEngineEditor/include/Event/SaveProjectEvent.h \
   D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h \
   D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImDebugger.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+  C:/Program\ Files/msys64/mingw64/include/winsdkver.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_video.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rect.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
   D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
   D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h
 
@@ -4983,6 +5099,155 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp
   C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/keylockerintrin.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imstb_textedit.h \
   D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
+  D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Platform.h \
+  C:/Program\ Files/msys64/mingw64/include/windows.h \
+  C:/Program\ Files/msys64/mingw64/include/sdkddkver.h \
+  C:/Program\ Files/msys64/mingw64/include/excpt.h \
+  C:/Program\ Files/msys64/mingw64/include/windef.h \
+  C:/Program\ Files/msys64/mingw64/include/winapifamily.h \
+  C:/Program\ Files/msys64/mingw64/include/minwindef.h \
+  C:/Program\ Files/msys64/mingw64/include/specstrings.h \
+  C:/Program\ Files/msys64/mingw64/include/sal.h \
+  C:/Program\ Files/msys64/mingw64/include/concurrencysal.h \
+  C:/Program\ Files/msys64/mingw64/include/driverspecs.h \
+  C:/Program\ Files/msys64/mingw64/include/winnt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_unicode.h \
+  C:/Program\ Files/msys64/mingw64/include/apiset.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/intrin-impl.h \
+  C:/Program\ Files/msys64/mingw64/include/basetsd.h \
+  C:/Program\ Files/msys64/mingw64/include/guiddef.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/x86intrin.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm3dnow.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/fma4intrin.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/ammintrin.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/xopintrin.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack4.h \
+  C:/Program\ Files/msys64/mingw64/include/poppack.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack4.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack2.h \
+  C:/Program\ Files/msys64/mingw64/include/poppack.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack2.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack8.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack8.h \
+  C:/Program\ Files/msys64/mingw64/include/ktmtypes.h \
+  C:/Program\ Files/msys64/mingw64/include/winbase.h \
+  C:/Program\ Files/msys64/mingw64/include/apisetcconv.h \
+  C:/Program\ Files/msys64/mingw64/include/minwinbase.h \
+  C:/Program\ Files/msys64/mingw64/include/bemapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/debugapi.h \
+  C:/Program\ Files/msys64/mingw64/include/errhandlingapi.h \
+  C:/Program\ Files/msys64/mingw64/include/fibersapi.h \
+  C:/Program\ Files/msys64/mingw64/include/fileapi.h \
+  C:/Program\ Files/msys64/mingw64/include/handleapi.h \
+  C:/Program\ Files/msys64/mingw64/include/heapapi.h \
+  C:/Program\ Files/msys64/mingw64/include/ioapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/interlockedapi.h \
+  C:/Program\ Files/msys64/mingw64/include/jobapi.h \
+  C:/Program\ Files/msys64/mingw64/include/libloaderapi.h \
+  C:/Program\ Files/msys64/mingw64/include/memoryapi.h \
+  C:/Program\ Files/msys64/mingw64/include/namedpipeapi.h \
+  C:/Program\ Files/msys64/mingw64/include/namespaceapi.h \
+  C:/Program\ Files/msys64/mingw64/include/processenv.h \
+  C:/Program\ Files/msys64/mingw64/include/processthreadsapi.h \
+  C:/Program\ Files/msys64/mingw64/include/processtopologyapi.h \
+  C:/Program\ Files/msys64/mingw64/include/profileapi.h \
+  C:/Program\ Files/msys64/mingw64/include/realtimeapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/securityappcontainer.h \
+  C:/Program\ Files/msys64/mingw64/include/securitybaseapi.h \
+  C:/Program\ Files/msys64/mingw64/include/synchapi.h \
+  C:/Program\ Files/msys64/mingw64/include/sysinfoapi.h \
+  C:/Program\ Files/msys64/mingw64/include/systemtopologyapi.h \
+  C:/Program\ Files/msys64/mingw64/include/threadpoolapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/threadpoollegacyapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/utilapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/wow64apiset.h \
+  C:/Program\ Files/msys64/mingw64/include/winerror.h \
+  C:/Program\ Files/msys64/mingw64/include/fltwinerror.h \
+  C:/Program\ Files/msys64/mingw64/include/timezoneapi.h \
+  C:/Program\ Files/msys64/mingw64/include/wingdi.h \
+  C:/Program\ Files/msys64/mingw64/include/pshpack1.h \
+  C:/Program\ Files/msys64/mingw64/include/winuser.h \
+  C:/Program\ Files/msys64/mingw64/include/tvout.h \
+  C:/Program\ Files/msys64/mingw64/include/winnls.h \
+  C:/Program\ Files/msys64/mingw64/include/datetimeapi.h \
+  C:/Program\ Files/msys64/mingw64/include/stringapiset.h \
+  C:/Program\ Files/msys64/mingw64/include/wincon.h \
+  C:/Program\ Files/msys64/mingw64/include/winver.h \
+  C:/Program\ Files/msys64/mingw64/include/winreg.h \
+  C:/Program\ Files/msys64/mingw64/include/reason.h \
+  C:/Program\ Files/msys64/mingw64/include/winnetwk.h \
+  C:/Program\ Files/msys64/mingw64/include/wnnc.h \
+  C:/Program\ Files/msys64/mingw64/include/virtdisk.h \
+  C:/Program\ Files/msys64/mingw64/include/cderr.h \
+  C:/Program\ Files/msys64/mingw64/include/dde.h \
+  C:/Program\ Files/msys64/mingw64/include/ddeml.h \
+  C:/Program\ Files/msys64/mingw64/include/dlgs.h \
+  C:/Program\ Files/msys64/mingw64/include/lzexpand.h \
+  C:/Program\ Files/msys64/mingw64/include/mmsystem.h \
+  C:/Program\ Files/msys64/mingw64/include/mmsyscom.h \
+  C:/Program\ Files/msys64/mingw64/include/mciapi.h \
+  C:/Program\ Files/msys64/mingw64/include/mmiscapi.h \
+  C:/Program\ Files/msys64/mingw64/include/mmiscapi2.h \
+  C:/Program\ Files/msys64/mingw64/include/playsoundapi.h \
+  C:/Program\ Files/msys64/mingw64/include/mmeapi.h \
+  C:/Program\ Files/msys64/mingw64/include/timeapi.h \
+  C:/Program\ Files/msys64/mingw64/include/joystickapi.h \
+  C:/Program\ Files/msys64/mingw64/include/nb30.h \
+  C:/Program\ Files/msys64/mingw64/include/rpc.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcdce.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcdcep.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcnsi.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcnterr.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcasync.h \
+  C:/Program\ Files/msys64/mingw64/include/shellapi.h \
+  C:/Program\ Files/msys64/mingw64/include/winperf.h \
+  C:/Program\ Files/msys64/mingw64/include/winsock.h \
+  C:/Program\ Files/msys64/mingw64/include/_bsd_types.h \
+  C:/Program\ Files/msys64/mingw64/include/inaddr.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_socket_types.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_fd_types.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_ip_types.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_ip_mreq1.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_wsadata.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_xmitfile.h \
+  C:/Program\ Files/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
+  C:/Program\ Files/msys64/mingw64/include/wincrypt.h \
+  C:/Program\ Files/msys64/mingw64/include/bcrypt.h \
+  C:/Program\ Files/msys64/mingw64/include/ncrypt.h \
+  C:/Program\ Files/msys64/mingw64/include/dpapi.h \
+  C:/Program\ Files/msys64/mingw64/include/winefs.h \
+  C:/Program\ Files/msys64/mingw64/include/winscard.h \
+  C:/Program\ Files/msys64/mingw64/include/wtypes.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcndr.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcnsip.h \
+  C:/Program\ Files/msys64/mingw64/include/rpcsal.h \
+  C:/Program\ Files/msys64/mingw64/include/ole2.h \
+  C:/Program\ Files/msys64/mingw64/include/objbase.h \
+  C:/Program\ Files/msys64/mingw64/include/combaseapi.h \
+  C:/Program\ Files/msys64/mingw64/include/wtypesbase.h \
+  C:/Program\ Files/msys64/mingw64/include/unknwnbase.h \
+  C:/Program\ Files/msys64/mingw64/include/objidlbase.h \
+  C:/Program\ Files/msys64/mingw64/include/cguid.h \
+  C:/Program\ Files/msys64/mingw64/include/objidl.h \
+  C:/Program\ Files/msys64/mingw64/include/unknwn.h \
+  C:/Program\ Files/msys64/mingw64/include/urlmon.h \
+  C:/Program\ Files/msys64/mingw64/include/oleidl.h \
+  C:/Program\ Files/msys64/mingw64/include/servprov.h \
+  C:/Program\ Files/msys64/mingw64/include/msxml.h \
+  C:/Program\ Files/msys64/mingw64/include/oaidl.h \
+  C:/Program\ Files/msys64/mingw64/include/propidl.h \
+  C:/Program\ Files/msys64/mingw64/include/oleauto.h \
+  C:/Program\ Files/msys64/mingw64/include/winioctl.h \
+  C:/Program\ Files/msys64/mingw64/include/winsmcrd.h \
+  C:/Program\ Files/msys64/mingw64/include/winspool.h \
+  C:/Program\ Files/msys64/mingw64/include/prsht.h \
+  C:/Program\ Files/msys64/mingw64/include/commdlg.h \
+  C:/Program\ Files/msys64/mingw64/include/stralign.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stralign_s.h \
+  C:/Program\ Files/msys64/mingw64/include/winsvc.h \
+  C:/Program\ Files/msys64/mingw64/include/mcx.h \
+  C:/Program\ Files/msys64/mingw64/include/imm.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/vec1.hpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool1.hpp \
@@ -7312,6 +7577,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_clip_space.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/debugapi.h:
 
+D:/code/cpp/gameEngine/GameEngineEditor/src/Event/SaveProjectEvent.cpp:
+
 C:/Program\ Files/msys64/mingw64/include/errhandlingapi.h:
 
 C:/Program\ Files/msys64/mingw64/include/msxml.h:
@@ -8167,6 +8434,8 @@ D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h:
 D:/code/cpp/gameEngine/GameEngineEditor/src/EditorCamera.cpp:
 
 D:/code/cpp/gameEngine/GameEngineEditor/src/Event/ImTreeNodeClickEvent.cpp:
+
+D:/code/cpp/gameEngine/GameEngineEditor/include/Event/SaveProjectEvent.h:
 
 C:/Program\ Files/msys64/mingw64/include/dde.h:
 

@@ -28,7 +28,7 @@ namespace GameEngine
 
         static Scene* copy(Scene* other);
         entt::entity copyActor(entt::entity srcEntityID);
-        void onRuntimeStart();
+        void onRuntimeStart(const std::string& projectRootPath);
         void onRunTimeStop();
         void onViewportResize(float width, float height);
 

@@ -206,6 +206,11 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\SaveProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\SaveProjectEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/SaveProjectEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ImGuiLayer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ImGuiLayer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ImGuiLayer.cpp"
 },

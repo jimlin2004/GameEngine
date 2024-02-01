@@ -506,6 +506,30 @@ src/Event/OpenProjectEvent.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.s
 .PHONY : src/Event/OpenProjectEvent.cpp.s
 
+src/Event/SaveProjectEvent.obj: src/Event/SaveProjectEvent.cpp.obj
+.PHONY : src/Event/SaveProjectEvent.obj
+
+# target to build an object file
+src/Event/SaveProjectEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/SaveProjectEvent.cpp.obj
+.PHONY : src/Event/SaveProjectEvent.cpp.obj
+
+src/Event/SaveProjectEvent.i: src/Event/SaveProjectEvent.cpp.i
+.PHONY : src/Event/SaveProjectEvent.i
+
+# target to preprocess a source file
+src/Event/SaveProjectEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/SaveProjectEvent.cpp.i
+.PHONY : src/Event/SaveProjectEvent.cpp.i
+
+src/Event/SaveProjectEvent.s: src/Event/SaveProjectEvent.cpp.s
+.PHONY : src/Event/SaveProjectEvent.s
+
+# target to generate assembly for a file
+src/Event/SaveProjectEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Event/SaveProjectEvent.cpp.s
+.PHONY : src/Event/SaveProjectEvent.cpp.s
+
 src/ImGuiLayer.obj: src/ImGuiLayer.cpp.obj
 .PHONY : src/ImGuiLayer.obj
 
@@ -800,6 +824,9 @@ help:
 	@echo ... src/Event/OpenProjectEvent.obj
 	@echo ... src/Event/OpenProjectEvent.i
 	@echo ... src/Event/OpenProjectEvent.s
+	@echo ... src/Event/SaveProjectEvent.obj
+	@echo ... src/Event/SaveProjectEvent.i
+	@echo ... src/Event/SaveProjectEvent.s
 	@echo ... src/ImGuiLayer.obj
 	@echo ... src/ImGuiLayer.i
 	@echo ... src/ImGuiLayer.s

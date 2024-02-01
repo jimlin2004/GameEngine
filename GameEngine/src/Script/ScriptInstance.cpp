@@ -5,6 +5,11 @@ GameEngine::ScriptInstance::ScriptInstance()
 {
 }
 
+void GameEngine::ScriptInstance::invokeConstructor()
+{
+    this->luaTable["new"](this->luaTable);
+}
+
 void GameEngine::ScriptInstance::begin()
 {
     this->luaTable["begin"](this->luaTable);

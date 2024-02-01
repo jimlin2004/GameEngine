@@ -28,4 +28,26 @@ std::string GameEngineEditor::WindowsApi::openProjectFile(HWND parentID)
     return std::string();
 }
 
+std::string GameEngineEditor::WindowsApi::openFile(HWND parentID, const char* filter)
+{
+    CHAR filePathBuffer[512] = {0};
+    OPENFILENAME ofn;
+    ZeroMemory(&ofn, sizeof(OPENFILENAME));
+    ofn.lStructSize = sizeof(OPENFILENAME);
+    ofn.hwndOwner = parentID;
+    ofn.lpstrFilter = filter;
+    ofn.nFilterIndex = 1;
+    ofn.lpstrFile = filePathBuffer;
+    ofn.lpstrFile[0] = '\0';
+    ofn.nMaxFile = sizeof(filePathBuffer);
+    ofn.lpstrInitialDir = NULL;
+    ofn.lpstrTitle = "Open File\0";
+    ofn.nMaxFileTitle = strlen("Open File\0");
+    ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
+    if (GetOpenFileNameA(&ofn))
+    {
+        return ofn.lpstrFile;
+    }
+    return std::string();
+}
 #endif

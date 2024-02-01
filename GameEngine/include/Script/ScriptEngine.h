@@ -7,12 +7,17 @@
 namespace GameEngine
 {
     class ScriptInstance;
+    class Scene;
 
     class ScriptEngine
     {
     public:
         ScriptEngine();
+        void init(Scene* scene);
         void load(ScriptInstance& scriptInstance, const std::string& scriptPath);
+        void close();
+
+        void setTargetEntityID(uint32_t id);
     private:
         sol::state luaState;
     };

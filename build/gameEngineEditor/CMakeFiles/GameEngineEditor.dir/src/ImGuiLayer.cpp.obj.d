@@ -654,7 +654,28 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Event/OpenProjectEvent.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/Event.h \
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Event/SaveProjectEvent.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/EventDispatcher.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Panel/ImDebugger.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_config.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_platform.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/begin_code.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/close_code.h \
+ C:/PROGRA~1/msys64/mingw64/include/winsdkver.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/MouseCode.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_error.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_video.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rect.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h

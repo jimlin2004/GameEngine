@@ -172,6 +172,15 @@ void GameEngineEditor::Editor::begin()
         return true;
     });
 
+    GameEngine::EventDispatcher::addCallback("SaveProjectEvent", [this](GameEngine::Event* event) {
+        if (event)
+        {
+            this->saveProject();
+            return true;
+        }
+        return false;
+    });
+
     GameEngine::EventDispatcher::addCallback("ImTreeNodeClickEvent", [this](GameEngine::Event* event) {
         GameEngineEditor::ImTreeNodeClickEvent* treeNodeClickEvent = dynamic_cast<GameEngineEditor::ImTreeNodeClickEvent*>(event);
         if (treeNodeClickEvent != nullptr)
@@ -389,6 +398,8 @@ void GameEngineEditor::Editor::gameEventHandle()
         this->gizmoOperation = ImGuizmo::ROTATE;
     else if (GameEngine::Input::isKeyPressed(GameEngine::Key_G))
         this->gizmoOperation = ImGuizmo::TRANSLATE;
+
+    this->imguiLayer.eventHandle();
 }
 
 void GameEngineEditor::Editor::logBuildInfo()
@@ -447,6 +458,15 @@ void GameEngineEditor::Editor::openProject(const std::string& projectPath)
     }
 }
 
+void GameEngineEditor::Editor::saveProject()
+{
+    if (!this->projectParser.getProjectPath().empty())
+    {
+        GameEngine::SceneSerializer sceneSerializer(&this->activeScene);
+        sceneSerializer.serialize(this->projectParser.getProjectDirname() + "/assets/scene/" + this->projectParser.getProjectName() + ".map");
+    }
+}
+
 void GameEngineEditor::Editor::start()
 {
     this->begin();
@@ -487,7 +507,7 @@ void GameEngineEditor::Editor::onSceneRuntimeStart()
     this->playBtnIcon = this->stopBtnIconTexture;
     this->sceneState = GameEngineEditor::SceneState::Play;
     this->editorScene = GameEngine::Scene::copy(this->activeScene);
-    this->activeScene->onRuntimeStart();
+    this->activeScene->onRuntimeStart(this->projectParser.getProjectDirname());
 
     this->imguiLayer.setScene(this->activeScene);
 }

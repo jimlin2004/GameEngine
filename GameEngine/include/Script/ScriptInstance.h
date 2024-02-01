@@ -11,6 +11,7 @@ namespace GameEngine
     {
     public:
         ScriptInstance();
+        void invokeConstructor();
         void begin();
         void update(float deltaTime);
     private:

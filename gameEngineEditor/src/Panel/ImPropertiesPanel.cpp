@@ -6,9 +6,14 @@
 #include "imgui.h"
 #include "imgui_internal.h"
 #include "EditorColor.h"
-
+#include "Platform/Windows/WindowsApi.h"
 #include "glm/gtc/type_ptr.hpp"
 #include <cstring>
+
+void GameEngineEditor::ImPropertiesPanel::setRootPath(const std::filesystem::path &newPath)
+{
+    this->rootPath = newPath;
+}
 
 template<class ComponentType, class Func>
 static void renderComponent(const std::string& label, GameEngine::Actor& actor, Func func)
@@ -161,6 +166,7 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
             renderAddComponentItem<GameEngine::TransformComponent>("Transform", actor);
             renderAddComponentItem<GameEngine::MeshComponent>("Mesh", actor);
             renderAddComponentItem<GameEngine::CameraComponent>("Camera", actor);
+            renderAddComponentItem<GameEngine::ScriptComponent>("Script", actor);
             renderAddComponentItem<GameEngine::Rigidbody2DComponent>("Rigidbody2D", actor);
             renderAddComponentItem<GameEngine::BoxCollider2DComponent>("BoxCollider2D", actor);
             ImGui::EndPopup();
@@ -248,8 +254,32 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
                     component.camera.setOrthographic(orthographicSize, orthographicNear, orthographicFar);
             ImGui::EndTable();
         });
-        renderComponent<GameEngine::ScriptComponent>("Script", actor, [](GameEngine::ScriptComponent& component) {
+        renderComponent<GameEngine::ScriptComponent>("Script", actor, [this](GameEngine::ScriptComponent& component) {
+            static char inputBuffer[128];
+            static size_t inputBufferSize = sizeof(inputBuffer);
             
+            if (!component.scriptPath.empty())
+            {
+                strncpy(inputBuffer, std::filesystem::path(component.scriptPath).filename().generic_string().c_str(), inputBufferSize);
+            }
+            else
+                inputBuffer[0] = '\0';
+            
+            renderLeftLabel("Script");
+            ImGui::SameLine();
+            ImGui::SetNextItemWidth(-1);
+            ImGui::InputText("##input-script", inputBuffer, inputBufferSize, ImGuiInputTextFlags_ReadOnly);
+            
+            ImVec2 panelSize = ImGui::GetContentRegionAvail();
+            ImGui::PushStyleColor(ImGuiCol_Button, GameEngineEditor::AddCompnentButtonColor);
+            if (ImGui::Button("Selected Script", {panelSize.x, 0}))
+            {
+                std::string pathStr = GameEngineEditor::WindowsApi::openFile(NULL, "lua script(*.lua)\0*.lua\0");
+                std::filesystem::path scriptPath(pathStr);
+                strncpy(inputBuffer, scriptPath.filename().u8string().c_str(), inputBufferSize);
+                component.scriptPath = std::filesystem::relative(scriptPath, this->rootPath).generic_string();
+            }
+            ImGui::PopStyleColor(1);
         });
         renderComponent<GameEngine::Rigidbody2DComponent>("Rigidbody2D", actor, [](GameEngine::Rigidbody2DComponent& component) {
             static const char* types[] = { "Static", "Dynamic", "Kinematic" };

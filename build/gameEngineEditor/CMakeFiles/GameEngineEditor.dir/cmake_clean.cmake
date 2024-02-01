@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngineEditor.dir/src/Event/ImTreeNodeClickEvent.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/Event/OpenProjectEvent.cpp.obj.d"
+  "CMakeFiles/GameEngineEditor.dir/src/Event/SaveProjectEvent.cpp.obj"
+  "CMakeFiles/GameEngineEditor.dir/src/Event/SaveProjectEvent.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj"
   "CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj.d"
   "CMakeFiles/GameEngineEditor.dir/src/Panel/ImCameraPreview.cpp.obj"
