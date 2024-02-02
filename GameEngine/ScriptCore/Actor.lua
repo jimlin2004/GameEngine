@@ -1,13 +1,15 @@
 --@meta
 
 --@class Actor
-Actor = {}
+Actor = {
+    __entityID = nil
+}
+Actor.__index = Actor
 
---@param o: table
-function Actor:new()
+--@param void
+function Actor.new()
     local instance = {}
-    setmetatable(instance, self)
-    self.__index = self
+    setmetatable(instance, Actor)
     instance.__entityID = cpp_getScriptEngineTargetEntityID()
     return instance
 end

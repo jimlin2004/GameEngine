@@ -1,4 +1,5 @@
 #include "Script/ScriptInstance.h"
+#include "sol/sol.hpp"
 
 GameEngine::ScriptInstance::ScriptInstance()
     : luaTable(sol::lua_nil)
@@ -17,5 +18,12 @@ void GameEngine::ScriptInstance::begin()
 
 void GameEngine::ScriptInstance::update(float deltaTime)
 {
-    this->luaTable["update"](this->luaTable, deltaTime);
+    try
+    {
+        this->luaTable["update"](this->luaTable, deltaTime);
+    }
+    catch(const sol::error& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
 }

@@ -21,7 +21,15 @@ void GameEngine::ScriptEngine::init(GameEngine::Scene* scene)
 
 void GameEngine::ScriptEngine::load(ScriptInstance& scriptInstance, const std::string& scriptPath)
 {
-    scriptInstance.luaTable = this->luaState.script_file(scriptPath);
+    try
+    {
+        sol::table luaClass = this->luaState.safe_script_file(scriptPath);
+        scriptInstance.luaTable = luaClass["new"]();
+    }
+    catch(const sol::error& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
 }
 
 void GameEngine::ScriptEngine::close()

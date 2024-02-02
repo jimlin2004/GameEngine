@@ -1,20 +1,21 @@
 local Test = {}
+Test.__index = Test
+setmetatable(Test, {__index = Actor})
 
-function Test:new()
-    self.__index = Actor
-    setmetatable(self, {__index = Actor})
-    local instance = Actor:new()
-    return instance;
+function Test.new()
+    local instance = Actor.new()
+    setmetatable(instance, Test)
+    instance.temp = cpp_getTemp();
+    return instance
 end
 
 function Test:begin()
-    print(Input:getMouseY())
 end
 
 function Test:update(deltaTime)
+    print(self.temp.x)
     if (Input:isKeyPressed(KeyCode.Key_A)) then
-        print(self.__entityID)
-        print(deltaTime)
+        cpp_test()
     end
 end
 

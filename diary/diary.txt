@@ -663,3 +663,12 @@
         -scirpt system
         -lua debug
     存檔紀錄
+2024/02/02
+    1. (*)研究出如何將c++變數在lua中直接修改(sol::make_reference)
+    2. 嘗試將glm::vec2傳入lua作為Vec2(userdata)成功
+    Todo list
+        -Texture系統
+        -scirpt system
+        -lua intellisense for userdata
+        -lua debug
+    存檔紀錄
