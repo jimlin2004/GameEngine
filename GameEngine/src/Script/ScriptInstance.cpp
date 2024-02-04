@@ -8,7 +8,14 @@ GameEngine::ScriptInstance::ScriptInstance()
 
 void GameEngine::ScriptInstance::invokeConstructor()
 {
-    this->luaTable["new"](this->luaTable);
+    try
+    {
+        this->luaTable["new"](this->luaTable);
+    }
+    catch(const sol::error& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
 }
 
 void GameEngine::ScriptInstance::begin()

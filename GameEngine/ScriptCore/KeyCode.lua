@@ -1,3 +1,4 @@
+---@enum KeyCode
 KeyCode = {
         Key_UNKNOWN = 0,
         Key_A = 4,

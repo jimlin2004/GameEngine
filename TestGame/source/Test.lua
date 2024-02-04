@@ -5,7 +5,7 @@ setmetatable(Test, {__index = Actor})
 function Test.new()
     local instance = Actor.new()
     setmetatable(instance, Test)
-    instance.temp = cpp_getTemp();
+    instance.temp = Vec2(0, 0);
     return instance
 end
 
@@ -13,9 +13,9 @@ function Test:begin()
 end
 
 function Test:update(deltaTime)
-    print(self.temp.x)
     if (Input:isKeyPressed(KeyCode.Key_A)) then
-        cpp_test()
+        -- cpp_actor_getComponent(self.temp.typename)
+        print(type(self.temp))
     end
 end
 

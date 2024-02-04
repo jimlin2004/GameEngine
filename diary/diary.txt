@@ -672,3 +672,12 @@
         -lua intellisense for userdata
         -lua debug
     存檔紀錄
+2024/02/04
+    1. 將lua引入Vec2, Vec3, Vec4
+    2. (*)決定用c++直接引入userdata，再配合vscode用lua definition file作為提示字功能
+    Todo list
+        -Texture系統
+        -scirpt system
+        -lua components
+        -lua debug
+    存檔紀錄
