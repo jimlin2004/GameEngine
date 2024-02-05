@@ -480,4 +480,42 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/any \
  D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
- D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h
+ D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/box2d.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_settings.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_types.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_api.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_common.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_draw.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_math.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/math.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_timer.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_chain_shape.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_shape.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_collision.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_circle_shape.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_edge_shape.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_polygon_shape.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_contact.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_fixture.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_time_step.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_distance_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_friction_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_gear_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_motor_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_mouse_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_prismatic_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_pulley_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_revolute_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_weld_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_wheel_joint.h

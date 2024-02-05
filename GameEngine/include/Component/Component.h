@@ -12,7 +12,10 @@
 namespace GameEngine
 {
     class Texture;
-    class ScriptInstance;
+    namespace Script
+    {
+        class ScriptInstance;
+    }
 
     enum class GameEngineComponentType
     {
@@ -81,7 +84,7 @@ namespace GameEngine
     {
         ScriptComponent();
         ScriptComponent(const ScriptComponent& other);
-        GameEngine::ScriptInstance* instance;
+        GameEngine::Script::ScriptInstance* instance;
         std::string scriptPath;
     };
 

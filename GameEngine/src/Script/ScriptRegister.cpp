@@ -3,6 +3,7 @@
 #include "Core/GameEngineCore.h"
 #include "Scene/Scene.h"
 #include "glm/glm.hpp"
+#include "box2d/box2d.h"
 
 struct ScriptRegisterData
 {
@@ -17,18 +18,18 @@ static inline uint32_t getScriptEngineTargetEntityID()
     return scriptRegisterData.targetEntityID;
 }
 
+void GameEngine::Script::ScriptRegister::setTargetEntityID(uint32_t id)
+{
+    scriptRegisterData.targetEntityID = id;
+}
+
 //不清楚為什麼不能直接用GameEngine::Input::isKeyPressed引入Lua，改用此函式包裝
 static inline bool input_isKeyPressed(uint32_t keyCode)
 {
     return GameEngine::Input::isKeyPressed((GameEngine::KeyCode)keyCode);
 }
 
-static inline void test(std::string str)
-{
-    printf("%s\n", str.c_str());
-}
-
-void GameEngine::ScriptRegister::registerClass(sol::state &luaState, GameEngine::Scene* scene)
+void GameEngine::Script::ScriptRegister::registerClass(sol::state &luaState, GameEngine::Scene* scene)
 {
     //Vec2
     luaState.new_usertype<glm::vec2>(
@@ -122,13 +123,32 @@ void GameEngine::ScriptRegister::registerClass(sol::state &luaState, GameEngine:
 
     //TransformComponent
     luaState.new_usertype<GameEngine::TransformComponent>(
+        "TransformComponent",
         sol::call_constructor,
-        sol::constructors<GameEngine::TransformComponent(void), GameEngine::TransformComponent(const glm::vec3&, const glm::vec3&, const glm::vec3&)>(),
-        "typename", [](){ puts("TransformComponent"); }
+        sol::constructors<GameEngine::TransformComponent(), GameEngine::TransformComponent(const glm::vec3&, const glm::vec3&, const glm::vec3&)>(),
+        "position", &GameEngine::TransformComponent::translation,
+        "rotation", &GameEngine::TransformComponent::rotation,
+        "scale", &GameEngine::TransformComponent::scale
+    );
+
+    //Rigidbody2DComponent
+    luaState.new_usertype<GameEngine::Rigidbody2DComponent>(
+        "Rigidbody2DComponent",
+        sol::call_constructor,
+        sol::constructors<GameEngine::Rigidbody2DComponent()>(),
+        "getLinearVelocity", [](const GameEngine::Rigidbody2DComponent& component) {
+            b2Body* body = (b2Body*)component.runtimeBody;
+            const b2Vec2& linearVelocity = body->GetLinearVelocity();
+            return glm::vec2{linearVelocity.x, linearVelocity.y};
+        },
+        "applyLinearImpulseToCenter", [](const GameEngine::Rigidbody2DComponent& component, const glm::vec2& impulse, bool wake) {
+            b2Body* body = (b2Body*)component.runtimeBody;
+            body->ApplyLinearImpulseToCenter(b2Vec2(impulse.x, impulse.y), wake);
+        }
     );
 }
 
-void GameEngine::ScriptRegister::registerFunctions(sol::state& luaState, GameEngine::Scene* scene)
+void GameEngine::Script::ScriptRegister::registerFunctions(sol::state& luaState, GameEngine::Scene* scene)
 {
     //Input
     luaState.set_function("cpp_Input_isKeyPressed", &input_isKeyPressed);
@@ -136,19 +156,22 @@ void GameEngine::ScriptRegister::registerFunctions(sol::state& luaState, GameEng
     luaState.set_function("cpp_Input_getMouseY", sol::resolve<int(void)>(GameEngine::Input::getMouseY));
     //Actor
     luaState.set_function("cpp_getScriptEngineTargetEntityID", &getScriptEngineTargetEntityID);
-    luaState.set_function("cpp_actor_getComponent", &test);
+    luaState.set_function("cpp_actor_getComponent", sol::overload(
+        [scene](const GameEngine::TransformComponent& component, uint32_t entityID, sol::this_state s){
+            GameEngine::TransformComponent& transformComponent = scene->queryActorComponent<GameEngine::TransformComponent>((entt::entity)entityID);
+            return sol::make_reference(s, std::ref(transformComponent));
+        },
+        [scene](const GameEngine::Rigidbody2DComponent& component, uint32_t entityID, sol::this_state s){
+            GameEngine::Rigidbody2DComponent& rigidbody2DComponent = scene->queryActorComponent<GameEngine::Rigidbody2DComponent>((entt::entity)entityID);
+            return sol::make_reference(s, std::ref(rigidbody2DComponent));
+        }
+    ));
 
     // luaState.set_function("cpp_getTemp", [&](sol::this_state s) {
     //     return sol::make_reference(s, std::ref(tempVec));
     // });
 }
 
-void GameEngine::ScriptRegister::registerComponents()
+void GameEngine::Script::ScriptRegister::registerComponents()
 {
-}
-
-
-void GameEngine::ScriptRegister::setTargetEntityID(uint32_t id)
-{
-    scriptRegisterData.targetEntityID = id;
 }

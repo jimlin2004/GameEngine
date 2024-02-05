@@ -8,15 +8,18 @@ namespace GameEngine
 {
     class Scene;
 
-    class ScriptRegister
+    namespace Script
     {
-    public:
-        static void registerClass(sol::state& luaState, Scene* scene);
-        static void registerFunctions(sol::state& luaState, Scene* scene);
-        static void registerComponents();
+        class ScriptRegister
+        {
+        public:
+            static void registerClass(sol::state& luaState, Scene* scene);
+            static void registerFunctions(sol::state& luaState, Scene* scene);
+            static void registerComponents();
 
-        static void setTargetEntityID(uint32_t id);
-    };
+            static void setTargetEntityID(uint32_t id);
+        };
+    }
 }
 
 #endif

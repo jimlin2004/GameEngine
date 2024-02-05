@@ -16,6 +16,7 @@ function Actor.new()
     return instance
 end
 
-function Actor:getComponent()
-    
+---@return TransformComponent
+function Actor:getComponent(component)
+    return cpp_actor_getComponent(component(), self.__entityID)
 end

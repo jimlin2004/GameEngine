@@ -16,20 +16,36 @@ void GameEngineEditor::ImPropertiesPanel::setRootPath(const std::filesystem::pat
 }
 
 template<class ComponentType, class Func>
-static void renderComponent(const std::string& label, GameEngine::Actor& actor, Func func)
+static void renderComponent(const std::string& label, GameEngine::Actor& actor, bool canRemove, Func func)
 {
-    static ImGuiTreeNodeFlags flags = ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed | ImGuiTreeNodeFlags_SpanAvailWidth | ImGuiTreeNodeFlags_FramePadding;
+    static ImGuiTreeNodeFlags flags = ImGuiTreeNodeFlags_DefaultOpen | ImGuiTreeNodeFlags_Framed | ImGuiTreeNodeFlags_SpanAvailWidth | ImGuiTreeNodeFlags_FramePadding | ImGuiTreeNodeFlags_AllowItemOverlap | ImGuiTreeNodeFlags_OpenOnArrow;
     if (actor.hasComponent<ComponentType>())
     {
         ImGui::PushStyleVar(ImGuiStyleVar_IndentSpacing, 0.0f);
         ImGui::PushStyleColor(ImGuiCol_Header, GameEngineEditor::PropertiesTreeNodeColor);
+        bool needToRemoveComponent = false;
         if (ImGui::TreeNodeEx(label.c_str(), flags, label.c_str()))
         {
+            if (canRemove)
+            {
+                float lineHeight = GImGui->Font->FontSize + GImGui->Style.FramePadding.y * 2.0f;
+                float contentWidth = ImGui::GetContentRegionAvail().x;
+                ImGui::SameLine(contentWidth - lineHeight * 0.5f);
+                ImGui::PushStyleColor(ImGuiCol_Button, GameEngineEditor::PropertiesTreeNodeColor);
+                if (ImGui::Button("x", {lineHeight, lineHeight}))
+                {
+                    needToRemoveComponent = true;
+                }
+                ImGui::PopStyleColor(1);
+            }
             func(actor.getComponent<ComponentType>());
             ImGui::TreePop();
         }
         ImGui::PopStyleColor(1);
         ImGui::PopStyleVar(1);
+    
+        if (needToRemoveComponent)
+            actor.removeComponent<ComponentType>();
     }
 }
 
@@ -186,14 +202,14 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
             }
         }
 
-        renderComponent<GameEngine::TransformComponent>("Transform", actor, [](GameEngine::TransformComponent& component) {
+        renderComponent<GameEngine::TransformComponent>("Transform", actor, false, [](GameEngine::TransformComponent& component) {
             renderEdit3("Position", component.translation);
             glm::vec3 rotation = glm::degrees(component.rotation);
             renderEdit3("Rotation", rotation);
             component.rotation = glm::radians(rotation);
             renderEdit3("Scale", component.scale);
         });
-        renderComponent<GameEngine::MeshComponent>("Mesh", actor, [](GameEngine::MeshComponent& component) {
+        renderComponent<GameEngine::MeshComponent>("Mesh", actor, false, [](GameEngine::MeshComponent& component) {
             renderLeftLabel("Color");
             ImGui::SetNextItemWidth(-1);
             ImGui::ColorEdit4("##Color", glm::value_ptr(component.color));
@@ -205,7 +221,7 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
                 texturePtr = reinterpret_cast<void*>(component.texture->getTextureID());
             ImGui::Image(texturePtr, {50.0f, 50.0f}, {0, 1}, {1, 0});
         });
-        renderComponent<GameEngine::CameraComponent>("Camera", actor, [](GameEngine::CameraComponent& component) {
+        renderComponent<GameEngine::CameraComponent>("Camera", actor, true, [](GameEngine::CameraComponent& component) {
             renderLeftLabel("Primary Camera");
             ImGui::Checkbox("##Primary Camera", &component.primary);
             static float orthographicSize, orthographicNear, orthographicFar, aspectRatio;
@@ -254,7 +270,7 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
                     component.camera.setOrthographic(orthographicSize, orthographicNear, orthographicFar);
             ImGui::EndTable();
         });
-        renderComponent<GameEngine::ScriptComponent>("Script", actor, [this](GameEngine::ScriptComponent& component) {
+        renderComponent<GameEngine::ScriptComponent>("Script", actor, true, [this](GameEngine::ScriptComponent& component) {
             static char inputBuffer[128];
             static size_t inputBufferSize = sizeof(inputBuffer);
             
@@ -281,7 +297,7 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
             }
             ImGui::PopStyleColor(1);
         });
-        renderComponent<GameEngine::Rigidbody2DComponent>("Rigidbody2D", actor, [](GameEngine::Rigidbody2DComponent& component) {
+        renderComponent<GameEngine::Rigidbody2DComponent>("Rigidbody2D", actor, true, [](GameEngine::Rigidbody2DComponent& component) {
             static const char* types[] = { "Static", "Dynamic", "Kinematic" };
             static int type = -1;
             type = (int)component.type;
@@ -294,7 +310,7 @@ void GameEngineEditor::ImPropertiesPanel::render(entt::entity entityID, GameEngi
             renderLeftLabel("Fix Rotation");
             ImGui::Checkbox("##Fix Rotation", &component.fixedRotation);
         });
-        renderComponent<GameEngine::BoxCollider2DComponent>("BoxCollider2D", actor, [](GameEngine::BoxCollider2DComponent& component) {
+        renderComponent<GameEngine::BoxCollider2DComponent>("BoxCollider2D", actor, true, [](GameEngine::BoxCollider2DComponent& component) {
             renderEdit2("Offset", component.offset);
             renderEdit2("Size", component.size);
             ImGui::BeginTable("##BoxCollider2D-table", 2);

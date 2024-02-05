@@ -681,3 +681,15 @@
         -lua components
         -lua debug
     存檔紀錄
+2024/02/05
+    1. lua引入TransformCompoent, Rigidbody2DComponent
+    2. lua Actor引入getComponent(用hard code枚舉所有type)
+    3. Script相關被多套一層namespace Script
+    4. 讓lua的物件移動、跳躍成功(實驗向)
+    5. (*)lua有debug的方法，為remote debug，用法要在欲debug的lua file最上面加上GameEngineDebugger.listen()
+       去require debugger，在點下GameEngine的play後，在lua的vscode按F5即開始debug
+    Todo list
+        -Texture系統
+        -Scirpt System
+        -Script Event
+    存檔紀錄

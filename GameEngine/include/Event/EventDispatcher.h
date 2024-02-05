@@ -9,6 +9,7 @@
 
 namespace GameEngine
 {
+    //引擎內部使用的Event system
     class EventDispatcher
     {
         using EventType = std::string;

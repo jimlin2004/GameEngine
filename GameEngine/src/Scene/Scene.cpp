@@ -263,7 +263,7 @@ void GameEngine::Scene::onRuntimeStart(const std::string& projectRootPath)
     
     //script
     
-    this->scriptEngine = new ScriptEngine();
+    this->scriptEngine = new GameEngine::Script::ScriptEngine();
     this->scriptEngine->init(this);
     
     auto scriptView = this->registry.view<GameEngine::ScriptComponent>();
@@ -275,7 +275,7 @@ void GameEngine::Scene::onRuntimeStart(const std::string& projectRootPath)
         if (scriptComponent.scriptPath.empty())
             continue;
         if (scriptComponent.instance == nullptr)
-            scriptComponent.instance = new GameEngine::ScriptInstance();
+            scriptComponent.instance = new GameEngine::Script::ScriptInstance();
         this->scriptEngine->setTargetEntityID((uint32_t)entityID);
         this->scriptEngine->load((*scriptComponent.instance), projectRootPath + '/' + scriptComponent.scriptPath);
         scriptComponent.instance->invokeConstructor();

@@ -8570,6 +8570,8 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.obj: D:/code/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream \
   D:/code/cpp/gameEngine/GameEngine/include/Core/Assert.h
 
+GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEvent.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Script/Event/ScriptEvent.cpp
+
 GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEngine.cpp \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptEngine.h \
   D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.hpp \
@@ -8991,6 +8993,243 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: D:/code/cp
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptRegister.h \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h
+
+GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEventDispatcher.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEventDispatcher.cpp \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEventDispatcher.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/sol/sol.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/sol/config.hpp \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/stddef.h \
+  C:/Program\ Files/msys64/mingw64/include/crtdefs.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_mac.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_secapi.h \
+  C:/Program\ Files/msys64/mingw64/include/vadefs.h \
+  C:/Program\ Files/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/stdint.h \
+  C:/Program\ Files/msys64/mingw64/include/limits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/utility \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_relops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_pair.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/type_traits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/move.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/utility.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/initializer_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string_view \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iosfwd \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stringfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/memoryfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/postypes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cwchar \
+  C:/Program\ Files/msys64/mingw64/include/wchar.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_stdio_config.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_wstdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_off_t.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stat64.h \
+  C:/Program\ Files/msys64/mingw64/include/swprintf.inl \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/wchar_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/char_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdint \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functexcept.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/functional_hash.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hash_bytes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/range_access.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cpp_type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/type_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ptr_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ostream_insert.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algobase.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/numeric_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/concept_check.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/assertions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/debug/debug.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/predefined_ops.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/string_view.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tuple \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/uses_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/invoke.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstddef \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/memory \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/new_allocator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/new \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_construct.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_uninitialized.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/alloc_traits.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_tempbuf.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_raw_storage_iter.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/align.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bit \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unique_ptr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/binders.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_base.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/typeinfo \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/allocated_ptr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/refwrap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/aligned_buffer.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/atomicity.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/msys64/mingw64/include/pthread.h \
+  C:/Program\ Files/msys64/mingw64/include/errno.h \
+  C:/Program\ Files/msys64/mingw64/include/sys/types.h \
+  C:/Program\ Files/msys64/mingw64/include/process.h \
+  C:/Program\ Files/msys64/mingw64/include/corecrt_startup.h \
+  C:/Program\ Files/msys64/mingw64/include/signal.h \
+  C:/Program\ Files/msys64/mingw64/include/pthread_signal.h \
+  C:/Program\ Files/msys64/mingw64/include/time.h \
+  C:/Program\ Files/msys64/mingw64/include/sys/timeb.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/msys64/mingw64/include/_timeval.h \
+  C:/Program\ Files/msys64/mingw64/include/pthread_time.h \
+  C:/Program\ Files/msys64/mingw64/include/pthread_compat.h \
+  C:/Program\ Files/msys64/mingw64/include/pthread_unistd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/concurrence.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/exception \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/exception_ptr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/nested_exception.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/shared_ptr_atomic.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/atomic_base.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/atomic_lockfree_defines.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/backward/auto_ptr.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/execution_defs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/string \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/localefwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/clocale \
+  C:/Program\ Files/msys64/mingw64/include/locale.h \
+  C:/Program\ Files/msys64/mingw64/include/stdio.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cctype \
+  C:/Program\ Files/msys64/mingw64/include/ctype.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ext/string_conversions.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdlib \
+  C:/Program\ Files/msys64/mingw64/include/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdlib.h \
+  C:/Program\ Files/msys64/mingw64/include/malloc.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_abs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstdio \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cerrno \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/charconv.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/functional \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/std_function.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_map \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/hashtable_policy.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/enable_special_members.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/node_handle.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_map.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/erase_if.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/vector \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_vector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_bvector.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/vector.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/array \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/compare \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_algo.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/algorithmfwd.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_heap.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/uniform_int_dist.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iterator \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stream_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/streambuf_iterator.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/streambuf \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ios_base.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_classes.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/system_error \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/stdexcept \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/streambuf.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/variant \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/parse_numbers.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iostream \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ostream \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ios \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cwctype \
+  C:/Program\ Files/msys64/mingw64/include/wctype.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_ios.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/ostream.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/istream \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/istream.tcc \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.hpp \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+  C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/stdarg.h \
+  C:/Program\ Files/msys64/mingw64/include/_mingw_stdarg.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/luaconf.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+  C:/Program\ Files/msys64/mingw64/include/string.h \
+  C:/Program\ Files/msys64/mingw64/include/sec_api/string_s.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/optional \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cstring \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/locale \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ctime \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/time_members.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/codecvt.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_facets_nonio.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/locale_conv.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bitset \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/forward_list \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/limits \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/algorithm \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/glue_algorithm_defs.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/sstream \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/sstream.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cmath \
+  C:/Program\ Files/msys64/mingw64/include/math.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/specfun.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/gamma.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/special_function_util.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/bessel_function.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/beta_function.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/ell_integral.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/exp_integral.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/hypergeometric.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/legendre_function.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_hermite.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/cassert \
+  C:/Program\ Files/msys64/mingw64/include/assert.h \
+  D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEvent.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptInstance.cpp \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h \
@@ -9710,7 +9949,45 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.obj: D:/code/
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/fs_ops.h \
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/any \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
-  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h
+  D:/code/cpp/gameEngine/GameEngine/include/Core/Camera.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/box2d.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_settings.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_types.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_api.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_common.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_draw.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_math.h \
+  C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/math.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_timer.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_chain_shape.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_shape.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_collision.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_circle_shape.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_edge_shape.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_polygon_shape.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_broad_phase.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_growable_stack.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_contact.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_fixture.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_time_step.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_block_allocator.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_contact_manager.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_stack_allocator.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_world_callbacks.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_distance_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_friction_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_gear_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_motor_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_mouse_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_prismatic_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_pulley_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_revolute_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_weld_joint.h \
+  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_wheel_joint.h
 
 GameEngine/CMakeFiles/GameEngine.dir/third_party/stb_image/std_image.cpp.obj: D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/std_image.cpp \
   D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/stb_image.h \
@@ -9863,6 +10140,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/func_trigonometric.inl:
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/pmmintrin.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/pstl/pstl_config.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_distance_joint.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/basic_string.tcc:
 
@@ -10156,6 +10435,8 @@ C:/Program\ Files/msys64/mingw64/include/process.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/scalar_uint_sized.hpp:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_motor_joint.h:
+
 D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/ConsoleApi.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double4.hpp:
@@ -10221,6 +10502,8 @@ C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/iomanip:
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/cldemoteintrin.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_float4_precision.hpp:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_weld_joint.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_double4_precision.hpp:
 
@@ -10352,6 +10635,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_mat3x4.inl:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/matrix_double3x4_precision.hpp:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_joint.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/ios:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vbmivlintrin.h:
@@ -10473,6 +10758,8 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx51
 D:/code/cpp/gameEngine/GameEngine/third_party/entt/include/entt.hpp:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/unordered_set:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_wheel_joint.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/stl_function.h:
 
@@ -10844,6 +11131,8 @@ C:/Program\ Files/msys64/mingw64/include/sec_api/stralign_s.h:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/forward_list.h:
 
+D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEvent.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/forward_list.tcc:
 
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/valarray_array.h:
@@ -10951,6 +11240,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/glm/detail/type_quat.hpp:
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_types.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/quaternion_relational.hpp:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_mouse_joint.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/quaternion_relational.inl:
 
@@ -11074,6 +11365,8 @@ C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx51
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512vlintrin.h:
 
+D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEventDispatcher.cpp:
+
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512bwintrin.h:
 
 C:/Program\ Files/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/avx512dqintrin.h:
@@ -11176,6 +11469,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SD
 
 D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_system.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_friction_joint.h:
+
 D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_version.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_syswm.h:
@@ -11262,6 +11557,8 @@ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_collision.h
 
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_math.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_timer.h:
+
 C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/math.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_dynamic_tree.h:
@@ -11320,6 +11617,8 @@ D:/code/cpp/gameEngine/GameEngine/include/Opengl/FrameBuffer.h:
 
 D:/code/cpp/gameEngine/GameEngine/include/Opengl/IndexBuffer.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_draw.h:
+
 D:/code/cpp/gameEngine/GameEngine/src/Opengl/SubTexture.cpp:
 
 D:/code/cpp/gameEngine/GameEngine/include/Opengl/SubTexture.h:
@@ -11338,12 +11637,32 @@ D:/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_body.h:
 
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_edge_shape.h:
+
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_fixture.h:
 
 D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_contact.h:
 
 D:/code/cpp/gameEngine/GameEngine/src/Scene/SceneSerializer.cpp:
 
+D:/code/cpp/gameEngine/GameEngine/src/Script/Event/ScriptEvent.cpp:
+
+D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEventDispatcher.h:
+
 D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptInstance.cpp:
 
 D:/code/cpp/gameEngine/GameEngine/include/Core/GameEngineCore.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/box2d.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_chain_shape.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_circle_shape.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_gear_joint.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_prismatic_joint.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_pulley_joint.h:
+
+D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_revolute_joint.h:

@@ -4,22 +4,33 @@
 #include "Script/ScriptRegister.h"
 #include "Script/ScriptInstance.h"
 
-GameEngine::ScriptEngine::ScriptEngine()
+GameEngine::Script::ScriptEngine::ScriptEngine()
     : luaState({})
 {
 }
 
-void GameEngine::ScriptEngine::init(GameEngine::Scene* scene)
+void GameEngine::Script::ScriptEngine::init(GameEngine::Scene* scene)
 {
-    this->luaState.open_libraries(sol::lib::base);
+    this->luaState.open_libraries(sol::lib::base,
+                                sol::lib::package,
+                                sol::lib::coroutine,
+                                sol::lib::string,
+                                sol::lib::os,
+                                sol::lib::math,
+                                sol::lib::table,
+                                sol::lib::debug,
+                                sol::lib::bit32,
+                                sol::lib::io,
+                                sol::lib::utf8);
     this->luaState.require_file("Input", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/Input.lua");
     this->luaState.require_file("KeyCode", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/KeyCode.lua");
     this->luaState.require_file("Actor", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/Actor.lua");
-    GameEngine::ScriptRegister::registerClass(this->luaState, scene);
-    GameEngine::ScriptRegister::registerFunctions(this->luaState, scene);
+    this->luaState.require_file("GameEngineDebugger", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/GameEngineDebugger.lua");
+    GameEngine::Script::ScriptRegister::registerClass(this->luaState, scene);
+    GameEngine::Script::ScriptRegister::registerFunctions(this->luaState, scene);
 }
 
-void GameEngine::ScriptEngine::load(ScriptInstance& scriptInstance, const std::string& scriptPath)
+void GameEngine::Script::ScriptEngine::load(GameEngine::Script::ScriptInstance& scriptInstance, const std::string& scriptPath)
 {
     try
     {
@@ -32,11 +43,11 @@ void GameEngine::ScriptEngine::load(ScriptInstance& scriptInstance, const std::s
     }
 }
 
-void GameEngine::ScriptEngine::close()
+void GameEngine::Script::ScriptEngine::close()
 {
 }
 
-void GameEngine::ScriptEngine::setTargetEntityID(uint32_t id)
+void GameEngine::Script::ScriptEngine::setTargetEntityID(uint32_t id)
 {
-
+    GameEngine::Script::ScriptRegister::setTargetEntityID(id);
 }

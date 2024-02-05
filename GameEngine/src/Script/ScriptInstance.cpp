@@ -1,12 +1,12 @@
 #include "Script/ScriptInstance.h"
 #include "sol/sol.hpp"
 
-GameEngine::ScriptInstance::ScriptInstance()
+GameEngine::Script::ScriptInstance::ScriptInstance()
     : luaTable(sol::lua_nil)
 {
 }
 
-void GameEngine::ScriptInstance::invokeConstructor()
+void GameEngine::Script::ScriptInstance::invokeConstructor()
 {
     try
     {
@@ -18,12 +18,12 @@ void GameEngine::ScriptInstance::invokeConstructor()
     }
 }
 
-void GameEngine::ScriptInstance::begin()
+void GameEngine::Script::ScriptInstance::begin()
 {
     this->luaTable["begin"](this->luaTable);
 }
 
-void GameEngine::ScriptInstance::update(float deltaTime)
+void GameEngine::Script::ScriptInstance::update(float deltaTime)
 {
     try
     {

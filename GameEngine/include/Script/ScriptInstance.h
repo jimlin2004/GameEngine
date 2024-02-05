@@ -7,18 +7,21 @@
 
 namespace GameEngine
 {
-    class ScriptInstance
+    namespace Script
     {
-    public:
-        ScriptInstance();
-        void invokeConstructor();
-        void begin();
-        void update(float deltaTime);
-    private:
-        sol::table luaTable;
-    
-        friend ScriptEngine;
-    };
+        class ScriptInstance
+        {
+        public:
+            ScriptInstance();
+            void invokeConstructor();
+            void begin();
+            void update(float deltaTime);
+        private:
+            sol::table luaTable;
+        
+            friend ScriptEngine;
+        };
+    }
 }
 
 #endif
