@@ -4,6 +4,9 @@
 #include "Scene/Scene.h"
 #include "glm/glm.hpp"
 #include "box2d/box2d.h"
+#include "Script/Event/ScriptEventDispatcher.h"
+#include "Script/Event/KeyDownEvent.h"
+#include "Script/Event/KeyUpEvent.h"
 
 struct ScriptRegisterData
 {
@@ -144,7 +147,20 @@ void GameEngine::Script::ScriptRegister::registerClass(sol::state &luaState, Gam
         "applyLinearImpulseToCenter", [](const GameEngine::Rigidbody2DComponent& component, const glm::vec2& impulse, bool wake) {
             b2Body* body = (b2Body*)component.runtimeBody;
             body->ApplyLinearImpulseToCenter(b2Vec2(impulse.x, impulse.y), wake);
+        },
+        "setLinearVelocity", [](const GameEngine::Rigidbody2DComponent& component, const glm::vec2& velocity) {
+            b2Body* body = (b2Body*)component.runtimeBody;
+            body->SetLinearVelocity(b2Vec2(velocity.x, velocity.y));
         }
+    );
+
+    luaState.new_usertype<GameEngine::Script::KeyDownEvent>(
+        "KeyDownEvent",
+        "key", &GameEngine::Script::KeyDownEvent::key
+    );
+    luaState.new_usertype<GameEngine::Script::KeyUpEvent>(
+        "KeyUpEvent",
+        "key", &GameEngine::Script::KeyUpEvent::key
     );
 }
 
@@ -166,7 +182,9 @@ void GameEngine::Script::ScriptRegister::registerFunctions(sol::state& luaState,
             return sol::make_reference(s, std::ref(rigidbody2DComponent));
         }
     ));
-
+    luaState.set_function("cpp_actor_addCallback", [](sol::table luaInstance, const std::string& eventType, sol::function callbackFunc){
+        GameEngine::Script::ScriptEventDispatcher::addCallback(eventType, callbackFunc, luaInstance);
+    });
     // luaState.set_function("cpp_getTemp", [&](sol::this_state s) {
     //     return sol::make_reference(s, std::ref(tempVec));
     // });

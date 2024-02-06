@@ -17,7 +17,7 @@ namespace GameEngine
     public:
         explicit EventDispatcher();
         void subscribe(EventType type, EventCallBack eventCallBack);
-        void callback(Event* event);
+        void invokeCallback(Event* event);
 
         static void reset();
         static void addCallback(EventType type, EventCallBack eventCallBack);

@@ -10,23 +10,64 @@ namespace GameEngine
 {
     namespace Script
     {
+        struct CallbackFunc
+        {
+            sol::table luaInstance;
+            sol::function func;
+        };
+
+        class ScriptEventDispatcherCore
+        {
+            using EventType = std::string;
+        public:
+            ScriptEventDispatcherCore() = default;
+            void subscribe(EventType type, const sol::function& eventCallback, const sol::table& luaInstance);
+            
+            template<class TriggeredEventType>
+            void invokeCallback(TriggeredEventType* event)
+            {
+                auto it = this->listeners.find(event->getEventType());
+                if (it != this->listeners.end())
+                {
+                    for (auto& callbackFunc: it->second)
+                    {
+                        //回傳true為攔截事件
+                        if(callbackFunc.func(callbackFunc.luaInstance, *(event)))
+                            break;
+                    }
+                }
+            }
+            std::unordered_map<EventType, std::vector<CallbackFunc>> listeners;
+        };
+
+        //ScriptEventDispatcher的本體
+        extern ScriptEventDispatcherCore* scriptEventDispatcherCore;
+    }
+}
+
+namespace GameEngine
+{
+    namespace Script
+    {
         class ScriptEventDispatcher
         {
             using EventType = std::string;
-            using EventCallBack = sol::function;
         public:
             explicit ScriptEventDispatcher();
-            void subscribe(EventType type, EventCallBack eventCallBack);
-            void callback(ScriptEvent* event);
 
             static void reset();
-            static void addCallback(EventType type, EventCallBack eventCallBack);
-            static void trigger(ScriptEvent* event);
-        private:
-            std::unordered_map<EventType, std::vector<EventCallBack>> listeners;
+            static void addCallback(EventType type, const sol::function& eventCallBack, const sol::table& luaInstance);
+            
+            template<class TriggeredEventType>
+            static void trigger(TriggeredEventType* event)
+            {
+                GameEngine::Script::scriptEventDispatcherCore->invokeCallback<TriggeredEventType>(event);
+            }
         };
     }
     
 }
+
+
 
 #endif

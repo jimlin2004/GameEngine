@@ -693,3 +693,15 @@
         -Scirpt System
         -Script Event
     存檔紀錄
+2024/02/06
+    1. 撰寫ScriptEventDispatcher(利用template function達成lua不同eventType的問題)
+    2. (*)所有Script相關的事件需繼承自ScriptEvent，利用ScriptEventDispatcher呼叫callback
+    3. lua引入KeyDownEvent, KeyUpEvent
+    4. (*)actor move的方法參考Unity後決定暫時有Rigidbody2D的物件不能用transform.position去改變
+    5. lua Rigidbody2D引入applyLinearImpulseToCenter, setLinearVelocity等physics相關函式
+    Todo list
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄

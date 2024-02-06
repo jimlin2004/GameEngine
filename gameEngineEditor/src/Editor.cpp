@@ -19,6 +19,11 @@
 
 #include <filesystem>
 
+//Script
+#include "Script/Event/ScriptEventDispatcher.h"
+#include "Script/Event/KeyDownEvent.h"
+#include "Script/Event/KeyUpEvent.h"
+
 #include "Core/Platform.h"
 #if USE_WINDOWS
     #include <windows.h>
@@ -387,6 +392,24 @@ void GameEngineEditor::Editor::gameEventHandle()
                 if (this->isFocusOnViewport)
                     this->editorCamera.onScrollWheel(event.wheel.preciseX, event.wheel.preciseY);
                 break;
+            case SDL_KEYDOWN:
+            {
+                if (this->event.key.repeat == 0)
+                {
+                    GameEngine::Script::KeyDownEvent keyDownEvent((GameEngine::KeyCode)(this->event.key.keysym.scancode));
+                    GameEngine::Script::ScriptEventDispatcher::trigger<GameEngine::Script::KeyDownEvent>(&keyDownEvent);
+                }
+                break;
+            }
+            case SDL_KEYUP:
+            {
+                if (this->event.key.repeat == 0)
+                {
+                    GameEngine::Script::KeyUpEvent keyUpEvent((GameEngine::KeyCode)(this->event.key.keysym.scancode));
+                    GameEngine::Script::ScriptEventDispatcher::trigger<GameEngine::Script::KeyUpEvent>(&keyUpEvent);
+                }
+                break;
+            }
             default:
                 break;
         }

@@ -491,6 +491,8 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Scene/Scene.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/optional \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bitset \
  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEventDispatcher.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEvent.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/Input.h \
  D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h \

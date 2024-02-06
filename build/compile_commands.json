@@ -161,18 +161,23 @@
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\ScriptEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\ScriptEvent.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/ScriptEvent.cpp"
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\KeyDownEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\KeyDownEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/KeyDownEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\KeyUpEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\KeyUpEvent.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/KeyUpEvent.cpp"
+},
+{
+  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\ScriptEventDispatcher.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\ScriptEventDispatcher.cpp",
+  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/ScriptEventDispatcher.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
   "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptEngine.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptEngine.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEngine.cpp"
-},
-{
-  "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptEventDispatcher.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptEventDispatcher.cpp",
-  "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEventDispatcher.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",

@@ -14,8 +14,10 @@
 #include "Physics/ActorData.h"
 #include "Physics/ContactListener.h"
 
+// Script
 #include "Script/ScriptEngine.h"
 #include "Script/ScriptInstance.h"
+#include "Script/Event/ScriptEventDispatcher.h"
 // #include "Script/ScriptCore.h"
 
 // Event
@@ -287,6 +289,7 @@ void GameEngine::Scene::onRunTimeStop()
 {
     // 不能再onRunTimeStart裡面reset，std::funciton必須在dll還在的時候delete
     // GameEngine::EventDispatcher::reset();
+    GameEngine::Script::ScriptEventDispatcher::reset();
     delete this->physicsWorld;
     this->physicsWorld = nullptr;
 }

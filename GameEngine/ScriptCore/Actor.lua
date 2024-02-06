@@ -16,7 +16,13 @@ function Actor.new()
     return instance
 end
 
----@return TransformComponent
+---@return TransformComponent | Rigidbody2DComponent
 function Actor:getComponent(component)
     return cpp_actor_getComponent(component(), self.__entityID)
+end
+
+---@param eventType string
+---@param callbackFunc function
+function Actor:addEventCallback(eventType, callbackFunc)
+    cpp_actor_addCallback(self, eventType, callbackFunc)
 end

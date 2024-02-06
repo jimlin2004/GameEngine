@@ -17,7 +17,7 @@ void GameEngine::EventDispatcher::subscribe(EventType type, GameEngine::EventDis
     this->listeners[type].push_back(eventCallBack);
 }
 
-void GameEngine::EventDispatcher::callback(Event* event)
+void GameEngine::EventDispatcher::invokeCallback(Event* event)
 {
     auto it = this->listeners.find(event->getEventType());
     if (it != this->listeners.end())
@@ -46,5 +46,5 @@ void GameEngine::EventDispatcher::addCallback(EventType type, EventCallBack even
 
 void GameEngine::EventDispatcher::trigger(Event *event)
 {
-    eventDispatcher.callback(event);
+    eventDispatcher.invokeCallback(event);
 }

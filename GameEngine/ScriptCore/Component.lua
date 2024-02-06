@@ -21,3 +21,7 @@ end
 function Rigidbody2DComponent:applyLinearImpulseToCenter(impulse, wake)
     return
 end
+---@param velocity Vec2
+function Rigidbody2DComponent:setLinearVelocity(velocity)
+    return
+end

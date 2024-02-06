@@ -730,4 +730,22 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj: \
  C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  D:/code/cpp/gameEngine/GameEngineEditor/include/SDLFileParser.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/ImGuiLayer.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h
+ D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEventDispatcher.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/sol/sol.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/sol/config.hpp \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/variant \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.hpp \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/luaconf.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lua.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lauxlib.h \
+ D:/code/cpp/gameEngine/GameEngine/third_party/lua/include/lualib.h \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/optional \
+ C:/PROGRA~1/msys64/mingw64/include/c++/12.2.0/bitset \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/KeyDownEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/KeyUpEvent.h

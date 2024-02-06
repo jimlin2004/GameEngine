@@ -962,29 +962,77 @@ src/Scene/SceneSerializer.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Scene/SceneSerializer.cpp.s
 .PHONY : src/Scene/SceneSerializer.cpp.s
 
-src/Script/Event/ScriptEvent.obj: src/Script/Event/ScriptEvent.cpp.obj
-.PHONY : src/Script/Event/ScriptEvent.obj
+src/Script/Event/KeyDownEvent.obj: src/Script/Event/KeyDownEvent.cpp.obj
+.PHONY : src/Script/Event/KeyDownEvent.obj
 
 # target to build an object file
-src/Script/Event/ScriptEvent.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEvent.cpp.obj
-.PHONY : src/Script/Event/ScriptEvent.cpp.obj
+src/Script/Event/KeyDownEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/KeyDownEvent.cpp.obj
+.PHONY : src/Script/Event/KeyDownEvent.cpp.obj
 
-src/Script/Event/ScriptEvent.i: src/Script/Event/ScriptEvent.cpp.i
-.PHONY : src/Script/Event/ScriptEvent.i
+src/Script/Event/KeyDownEvent.i: src/Script/Event/KeyDownEvent.cpp.i
+.PHONY : src/Script/Event/KeyDownEvent.i
 
 # target to preprocess a source file
-src/Script/Event/ScriptEvent.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEvent.cpp.i
-.PHONY : src/Script/Event/ScriptEvent.cpp.i
+src/Script/Event/KeyDownEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/KeyDownEvent.cpp.i
+.PHONY : src/Script/Event/KeyDownEvent.cpp.i
 
-src/Script/Event/ScriptEvent.s: src/Script/Event/ScriptEvent.cpp.s
-.PHONY : src/Script/Event/ScriptEvent.s
+src/Script/Event/KeyDownEvent.s: src/Script/Event/KeyDownEvent.cpp.s
+.PHONY : src/Script/Event/KeyDownEvent.s
 
 # target to generate assembly for a file
-src/Script/Event/ScriptEvent.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEvent.cpp.s
-.PHONY : src/Script/Event/ScriptEvent.cpp.s
+src/Script/Event/KeyDownEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/KeyDownEvent.cpp.s
+.PHONY : src/Script/Event/KeyDownEvent.cpp.s
+
+src/Script/Event/KeyUpEvent.obj: src/Script/Event/KeyUpEvent.cpp.obj
+.PHONY : src/Script/Event/KeyUpEvent.obj
+
+# target to build an object file
+src/Script/Event/KeyUpEvent.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/KeyUpEvent.cpp.obj
+.PHONY : src/Script/Event/KeyUpEvent.cpp.obj
+
+src/Script/Event/KeyUpEvent.i: src/Script/Event/KeyUpEvent.cpp.i
+.PHONY : src/Script/Event/KeyUpEvent.i
+
+# target to preprocess a source file
+src/Script/Event/KeyUpEvent.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/KeyUpEvent.cpp.i
+.PHONY : src/Script/Event/KeyUpEvent.cpp.i
+
+src/Script/Event/KeyUpEvent.s: src/Script/Event/KeyUpEvent.cpp.s
+.PHONY : src/Script/Event/KeyUpEvent.s
+
+# target to generate assembly for a file
+src/Script/Event/KeyUpEvent.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/KeyUpEvent.cpp.s
+.PHONY : src/Script/Event/KeyUpEvent.cpp.s
+
+src/Script/Event/ScriptEventDispatcher.obj: src/Script/Event/ScriptEventDispatcher.cpp.obj
+.PHONY : src/Script/Event/ScriptEventDispatcher.obj
+
+# target to build an object file
+src/Script/Event/ScriptEventDispatcher.cpp.obj:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEventDispatcher.cpp.obj
+.PHONY : src/Script/Event/ScriptEventDispatcher.cpp.obj
+
+src/Script/Event/ScriptEventDispatcher.i: src/Script/Event/ScriptEventDispatcher.cpp.i
+.PHONY : src/Script/Event/ScriptEventDispatcher.i
+
+# target to preprocess a source file
+src/Script/Event/ScriptEventDispatcher.cpp.i:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEventDispatcher.cpp.i
+.PHONY : src/Script/Event/ScriptEventDispatcher.cpp.i
+
+src/Script/Event/ScriptEventDispatcher.s: src/Script/Event/ScriptEventDispatcher.cpp.s
+.PHONY : src/Script/Event/ScriptEventDispatcher.s
+
+# target to generate assembly for a file
+src/Script/Event/ScriptEventDispatcher.cpp.s:
+	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/Event/ScriptEventDispatcher.cpp.s
+.PHONY : src/Script/Event/ScriptEventDispatcher.cpp.s
 
 src/Script/ScriptEngine.obj: src/Script/ScriptEngine.cpp.obj
 .PHONY : src/Script/ScriptEngine.obj
@@ -1009,30 +1057,6 @@ src/Script/ScriptEngine.s: src/Script/ScriptEngine.cpp.s
 src/Script/ScriptEngine.cpp.s:
 	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.s
 .PHONY : src/Script/ScriptEngine.cpp.s
-
-src/Script/ScriptEventDispatcher.obj: src/Script/ScriptEventDispatcher.cpp.obj
-.PHONY : src/Script/ScriptEventDispatcher.obj
-
-# target to build an object file
-src/Script/ScriptEventDispatcher.cpp.obj:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEventDispatcher.cpp.obj
-.PHONY : src/Script/ScriptEventDispatcher.cpp.obj
-
-src/Script/ScriptEventDispatcher.i: src/Script/ScriptEventDispatcher.cpp.i
-.PHONY : src/Script/ScriptEventDispatcher.i
-
-# target to preprocess a source file
-src/Script/ScriptEventDispatcher.cpp.i:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEventDispatcher.cpp.i
-.PHONY : src/Script/ScriptEventDispatcher.cpp.i
-
-src/Script/ScriptEventDispatcher.s: src/Script/ScriptEventDispatcher.cpp.s
-.PHONY : src/Script/ScriptEventDispatcher.s
-
-# target to generate assembly for a file
-src/Script/ScriptEventDispatcher.cpp.s:
-	cd /d D:\code\cpp\gameEngine\build && $(MAKE) $(MAKESILENT) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEventDispatcher.cpp.s
-.PHONY : src/Script/ScriptEventDispatcher.cpp.s
 
 src/Script/ScriptInstance.obj: src/Script/ScriptInstance.cpp.obj
 .PHONY : src/Script/ScriptInstance.obj
@@ -1217,15 +1241,18 @@ help:
 	@echo ... src/Scene/SceneSerializer.obj
 	@echo ... src/Scene/SceneSerializer.i
 	@echo ... src/Scene/SceneSerializer.s
-	@echo ... src/Script/Event/ScriptEvent.obj
-	@echo ... src/Script/Event/ScriptEvent.i
-	@echo ... src/Script/Event/ScriptEvent.s
+	@echo ... src/Script/Event/KeyDownEvent.obj
+	@echo ... src/Script/Event/KeyDownEvent.i
+	@echo ... src/Script/Event/KeyDownEvent.s
+	@echo ... src/Script/Event/KeyUpEvent.obj
+	@echo ... src/Script/Event/KeyUpEvent.i
+	@echo ... src/Script/Event/KeyUpEvent.s
+	@echo ... src/Script/Event/ScriptEventDispatcher.obj
+	@echo ... src/Script/Event/ScriptEventDispatcher.i
+	@echo ... src/Script/Event/ScriptEventDispatcher.s
 	@echo ... src/Script/ScriptEngine.obj
 	@echo ... src/Script/ScriptEngine.i
 	@echo ... src/Script/ScriptEngine.s
-	@echo ... src/Script/ScriptEventDispatcher.obj
-	@echo ... src/Script/ScriptEventDispatcher.i
-	@echo ... src/Script/ScriptEventDispatcher.s
 	@echo ... src/Script/ScriptInstance.obj
 	@echo ... src/Script/ScriptInstance.i
 	@echo ... src/Script/ScriptInstance.s

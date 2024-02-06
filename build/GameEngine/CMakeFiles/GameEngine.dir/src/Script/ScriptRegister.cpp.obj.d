@@ -518,4 +518,9 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptRegister.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_pulley_joint.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_revolute_joint.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_weld_joint.h \
- D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_wheel_joint.h
+ D:/code/cpp/gameEngine/GameEngine/third_party/box2d/include/box2d/b2_wheel_joint.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEventDispatcher.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/ScriptEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/KeyDownEvent.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Event/KeyCode.h \
+ D:/code/cpp/gameEngine/GameEngine/include/Script/Event/KeyUpEvent.h
