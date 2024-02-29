@@ -26,3 +26,14 @@ end
 function Actor:addEventCallback(eventType, callbackFunc)
     cpp_actor_addCallback(self, eventType, callbackFunc)
 end
+
+---invoked when game start
+function Actor:begin()
+    
+end
+
+---invoked per frame
+---@param deltaTime number
+function Actor:update(deltaTime)
+    
+end
