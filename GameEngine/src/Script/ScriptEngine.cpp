@@ -4,6 +4,9 @@
 #include "Script/ScriptRegister.h"
 #include "Script/ScriptInstance.h"
 
+#include "GameEngineAPI/GameEngineAPI.h"
+#include <filesystem>
+
 GameEngine::Script::ScriptEngine::ScriptEngine()
     : luaState({})
 {
@@ -22,10 +25,16 @@ void GameEngine::Script::ScriptEngine::init(GameEngine::Scene* scene)
                                 sol::lib::bit32,
                                 sol::lib::io,
                                 sol::lib::utf8);
-    this->luaState.require_file("Input", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/Input.lua");
-    this->luaState.require_file("KeyCode", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/KeyCode.lua");
-    this->luaState.require_file("Actor", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/Actor.lua");
-    this->luaState.require_file("GameEngineDebugger", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/GameEngineDebugger.lua");
+    // this->luaState.require_file("Input", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/Input.lua");
+    // this->luaState.require_file("KeyCode", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/KeyCode.lua");
+    // this->luaState.require_file("Actor", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/Actor.lua");
+    // this->luaState.require_file("GameEngineDebugger", "D:/code/cpp/gameEngine/GameEngine/ScriptCore/GameEngineDebugger.lua");
+    std::filesystem::path luaScriptCorePath(GameEngine::GEngine->getGameEnginePath());
+    luaScriptCorePath /= "ScriptCore";
+    this->luaState.require_file("Input", (luaScriptCorePath / "Input.lua").u8string());
+    this->luaState.require_file("KeyCode", (luaScriptCorePath / "KeyCode.lua").u8string());
+    this->luaState.require_file("Actor", (luaScriptCorePath / "Actor.lua").u8string());
+    this->luaState.require_file("GameEngineDebugger", (luaScriptCorePath / "GameEngineDebugger.lua").u8string());
     GameEngine::Script::ScriptRegister::registerClass(this->luaState, scene);
     GameEngine::Script::ScriptRegister::registerFunctions(this->luaState, scene);
 }

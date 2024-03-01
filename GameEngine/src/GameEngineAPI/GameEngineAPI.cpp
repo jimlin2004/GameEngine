@@ -11,6 +11,7 @@ GameEngine::GameEngineAPI::GameEngineAPI()
     , textureManager(new GameEngine::TextureManager())
     , editorSceneBeginFunc(nullptr)
     , projectRootPath(std::filesystem::current_path().u8string())
+    , gameEnginePath(std::filesystem::current_path().u8string())
 {
 }
 

@@ -1,317 +1,317 @@
 [
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Actor\\Actor.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Actor\\Actor.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Actor\\Actor.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Actor\\Actor.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Actor/Actor.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Component\\Component.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Component\\Component.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Component\\Component.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Component/Component.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\Camera.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\Camera.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\Camera.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\Camera.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/Camera.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\CameraController.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\CameraController.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\CameraController.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\CameraController.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/CameraController.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\GELib.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\GELib.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\GELib.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\GELib.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/GELib.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\GameBase.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\GameBase.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\GameBase.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\GameBase.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/GameBase.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\GameObject.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\GameObject.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\GameObject.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\GameObject.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/GameObject.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\Timestep.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\Timestep.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\Timestep.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\Timestep.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/Timestep.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Core\\UUID.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\UUID.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Core\\UUID.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Core\\UUID.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Core/UUID.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\EventDispatcher.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\EventDispatcher.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Event\\EventDispatcher.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\EventDispatcher.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/EventDispatcher.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\Input.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Event\\Input.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\Input.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/Input.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\KeyDownEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\KeyDownEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Event\\KeyDownEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\KeyDownEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/KeyDownEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\KeyUpEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\KeyUpEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Event\\KeyUpEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\KeyUpEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/KeyUpEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Event\\PhysicsEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\PhysicsEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Event\\PhysicsEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Event\\PhysicsEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Event/PhysicsEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\GameEngineAPI\\ConsoleApi.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\GameEngineAPI\\ConsoleApi.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\GameEngineAPI\\ConsoleApi.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\GameEngineAPI\\ConsoleApi.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/GameEngineAPI/ConsoleApi.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\GameEngineAPI\\GameEngineAPI.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\GameEngineAPI\\GameEngineAPI.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\GameEngineAPI\\GameEngineAPI.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\GameEngineAPI\\GameEngineAPI.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/GameEngineAPI/GameEngineAPI.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Math\\Math.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Math\\Math.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Math\\Math.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Math\\Math.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Math/Math.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\FrameBuffer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\FrameBuffer.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\FrameBuffer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\FrameBuffer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/FrameBuffer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\IndexBuffer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\IndexBuffer.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\IndexBuffer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\IndexBuffer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/IndexBuffer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\Shader.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\Shader.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\Shader.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\Shader.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/Shader.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\ShaderManager.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\ShaderManager.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\ShaderManager.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\ShaderManager.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/ShaderManager.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\SubTexture.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\SubTexture.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\SubTexture.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\SubTexture.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/SubTexture.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\Texture.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\Texture.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\Texture.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\Texture.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/Texture.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\TextureManager.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\TextureManager.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\TextureManager.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\TextureManager.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/TextureManager.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexArray.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexArray.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexArray.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexArray.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/VertexArray.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexBuffer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexBuffer.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexBuffer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexBuffer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/VertexBuffer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexBufferLayout.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexBufferLayout.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Opengl\\VertexBufferLayout.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Opengl\\VertexBufferLayout.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Opengl/VertexBufferLayout.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Physics\\ActorData.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Physics\\ActorData.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Physics\\ActorData.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Physics\\ActorData.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Physics/ActorData.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Physics\\ContactListener.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Physics\\ContactListener.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Physics\\ContactListener.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Physics\\ContactListener.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Physics/ContactListener.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Render\\Renderer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Render\\Renderer.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Render\\Renderer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Render\\Renderer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Render/Renderer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Scene\\Scene.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Scene\\Scene.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Scene\\Scene.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Scene\\Scene.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Scene/Scene.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Scene\\SceneSerializer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Scene\\SceneSerializer.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Scene\\SceneSerializer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Scene\\SceneSerializer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Scene/SceneSerializer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\KeyDownEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\KeyDownEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\KeyDownEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\KeyDownEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/KeyDownEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\KeyUpEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\KeyUpEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\KeyUpEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\KeyUpEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/KeyUpEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\ScriptEventDispatcher.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\ScriptEventDispatcher.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Script\\Event\\ScriptEventDispatcher.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\Event\\ScriptEventDispatcher.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/Event/ScriptEventDispatcher.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptEngine.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptEngine.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptEngine.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptEngine.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptEngine.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptInstance.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptInstance.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptInstance.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptInstance.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptInstance.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptRegister.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptRegister.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\src\\Script\\ScriptRegister.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\src\\Script\\ScriptRegister.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptRegister.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngine",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\GameEngine.dir\\third_party\\stb_image\\std_image.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\stb_image\\std_image.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE -DGENGINE_STATIC_LIB @CMakeFiles/GameEngine.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -o CMakeFiles\\GameEngine.dir\\third_party\\stb_image\\std_image.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\stb_image\\std_image.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/stb_image/std_image.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\editorEntryPoint.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\editorEntryPoint.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\editorEntryPoint.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\editorEntryPoint.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/editorEntryPoint.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Editor.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Editor.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Editor.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Editor.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Editor.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\EditorCamera.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\EditorCamera.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\EditorCamera.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\EditorCamera.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/EditorCamera.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\ImTreeNodeClickEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\ImTreeNodeClickEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\ImTreeNodeClickEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\ImTreeNodeClickEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/ImTreeNodeClickEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\OpenProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\OpenProjectEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\OpenProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\OpenProjectEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/OpenProjectEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\SaveProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\SaveProjectEvent.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Event\\SaveProjectEvent.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Event\\SaveProjectEvent.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Event/SaveProjectEvent.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ImGuiLayer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ImGuiLayer.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ImGuiLayer.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ImGuiLayer.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ImGuiLayer.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImCameraPreview.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImCameraPreview.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImCameraPreview.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImCameraPreview.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImCameraPreview.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImContentBrowserPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImContentBrowserPanel.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImContentBrowserPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImContentBrowserPanel.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImContentBrowserPanel.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImDebugger.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImDebugger.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImDebugger.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImDebugger.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImDebugger.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImPropertiesPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImPropertiesPanel.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImPropertiesPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImPropertiesPanel.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImPropertiesPanel.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImSceneHierarchyPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImSceneHierarchyPanel.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImSceneHierarchyPanel.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImSceneHierarchyPanel.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImSceneHierarchyPanel.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImTerminal.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImTerminal.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Panel\\ImTerminal.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Panel\\ImTerminal.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Panel/ImTerminal.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Platform\\Windows\\WindowsApi.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Platform\\Windows\\WindowsApi.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\Platform\\Windows\\WindowsApi.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\Platform\\Windows\\WindowsApi.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/Platform/Windows/WindowsApi.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ProjectParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ProjectParser.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\ProjectParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\ProjectParser.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/ProjectParser.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\SDLFileParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\SDLFileParser.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\src\\SDLFileParser.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngineEditor\\src\\SDLFileParser.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngineEditor/src/SDLFileParser.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\ImGuizmo\\ImGuizmo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\ImGuizmo\\ImGuizmo.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\ImGuizmo\\ImGuizmo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\ImGuizmo\\ImGuizmo.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_demo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_demo.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_demo.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_demo.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_demo.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_draw.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_draw.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_draw.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_draw.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_draw.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_opengl3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_opengl3.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_opengl3.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_opengl3.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdl2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdl2.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdl2.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_impl_sdl2.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_tables.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_tables.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_tables.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_tables.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp"
 },
 {
   "directory": "D:/code/cpp/gameEngine/build/GameEngineEditor",
-  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp  -Wall -g -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_widgets.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_widgets.cpp",
+  "command": "C:\\PROGRA~1\\msys64\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/GameEngineEditor.dir/includes_CXX.rsp -O3 -DNDEBUG -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\GameEngineEditor.dir\\__\\GameEngine\\third_party\\imgui\\include\\imgui_widgets.cpp.obj -c D:\\code\\cpp\\gameEngine\\GameEngine\\third_party\\imgui\\include\\imgui_widgets.cpp",
   "file": "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp"
 }
 ]

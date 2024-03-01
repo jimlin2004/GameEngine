@@ -17,6 +17,8 @@ namespace GameEngine
         float _windowWidth, _windowHeight;
         std::string projectRootPath;
         std::string projectName;
+        //GameEngine exe的絕對路徑
+        std::string gameEnginePath;
         std::function<void()> editorSceneBeginFunc;
     public:
         GameEngineAPI();
@@ -28,13 +30,12 @@ namespace GameEngine
         void setProjectRootPath(const std::string& path);
         void setProjectName(const std::string& name);
 
-        //Event dispatcher
-
-
         inline float getWindowWidth() const { return _windowWidth; }
         inline float getWindowHeight() const { return _windowHeight; }
         inline std::string getProjectRootPath() const { return this->projectRootPath; }
         inline std::string getProjectName() const { return this->projectName; }
+
+        inline std::string getGameEnginePath() const { return this->gameEnginePath; }
         
         ShaderManager* shaderManager;
         TextureManager* textureManager;

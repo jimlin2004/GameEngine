@@ -708,3 +708,15 @@
 2024/02/29
     1. 重新上傳github
     存檔紀錄
+2024/03/01
+    1. (*)發現ScriptEngine.cpp裡面有沒改到的絕對路徑，導致lua的script載入不正確，目前GEngine中添加一項
+       gameEnginePath，代表GameEngine exe的絕對路徑，以此方便於GameEngine的部屬，由於目前未有編譯遊戲的功能，
+       所以之後須考慮是否有更好的GameEngine相關路徑解決方案。
+    2. 由於改用GameEnginePath去抓lua的script，所以目前需要將開發專案中的ScriptCore資料夾手動複製到build裡面，
+       考慮是否用cmake自動複製。
+    Todo list
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄

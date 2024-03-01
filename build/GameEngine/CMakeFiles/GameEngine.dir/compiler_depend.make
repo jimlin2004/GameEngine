@@ -9447,7 +9447,8 @@ GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptEngine.cpp.obj: D:/code/cp
   C:/Program\ Files/msys64/mingw64/include/c++/12.2.0/bits/unordered_set.h \
   D:/code/cpp/gameEngine/GameEngine/include/Core/TypeName.hpp \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptRegister.h \
-  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h
+  D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h \
+  D:/code/cpp/gameEngine/GameEngine/include/GameEngineAPI/GameEngineAPI.h
 
 GameEngine/CMakeFiles/GameEngine.dir/src/Script/ScriptInstance.cpp.obj: D:/code/cpp/gameEngine/GameEngine/src/Script/ScriptInstance.cpp \
   D:/code/cpp/gameEngine/GameEngine/include/Script/ScriptInstance.h \
