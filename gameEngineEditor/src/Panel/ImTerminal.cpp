@@ -15,6 +15,7 @@ void GameEngineEditor::ImTerminal::render()
         ImGui::PopStyleColor(2);
         ImGui::PopStyleVar(1);
 
+        ImGui::PushStyleColor(ImGuiCol_ChildBg, ImVec4{0, 0, 0, 1});
         ImGui::PushStyleColor(ImGuiCol_Border, ImVec4{255, 221, 0, 1});
         ImGui::BeginChild("##terminal_body", ImVec2{0, 0}, ImGuiChildFlags_Border, ImGuiWindowFlags_HorizontalScrollbar);
             for (const std::string& text: this->textData)
@@ -22,7 +23,7 @@ void GameEngineEditor::ImTerminal::render()
                 ImGui::Text(text.c_str());
             }
         ImGui::EndChild();
-        ImGui::PopStyleColor(1);
+        ImGui::PopStyleColor(2);
     ImGui::End();
 }
 

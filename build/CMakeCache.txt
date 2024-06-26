@@ -21,7 +21,7 @@ CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/msys64/mingw64/bin/addr2line.exe
 CMAKE_AR:FILEPATH=C:/Program Files/msys64/mingw64/bin/ar.exe
 
 //No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -294,6 +294,15 @@ GameEngine_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 GameEngine_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/GameEngine
+
+//Value Computed by CMake
+GameLauncher_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build/GameLauncher
+
+//Value Computed by CMake
+GameLauncher_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+GameLauncher_SOURCE_DIR:STATIC=D:/code/cpp/gameEngine/GameLauncher
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=D:/code/cpp/gameEngine/build

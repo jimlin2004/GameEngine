@@ -149,12 +149,21 @@ void GameEngineEditor::ImGuiLayer::renderCameraPreview(void* textureID, float as
 
 void GameEngineEditor::ImGuiLayer::renderAllPanel(float fps)
 {
+    //第一次設定即可
+    static bool defaultShowContentBrowser = true;
+
     this->sceneHierarchyPanel.render();
     this->propertiesPanel.render((entt::entity)this->sceneHierarchyPanel.getSelectedEntityID(), this->scene);
     this->contentBrowserPanel.render();
     this->terminal.render();
     if (this->isShowDebug)
         GameEngineEditor::ImDebugger::render(fps);
+
+    if (defaultShowContentBrowser)
+    {
+        ImGui::SetWindowFocus("Content Browser");
+        defaultShowContentBrowser = false;
+    }
 }
 
 void GameEngineEditor::ImGuiLayer::setProjectRootPath(const std::string& rootPath)
