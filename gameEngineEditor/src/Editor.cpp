@@ -139,8 +139,30 @@ void GameEngineEditor::Editor::init()
     GameEngine::Renderer::init();
 }
 
+float GameEngineEditor::Editor::getWindowDpiScale(SDL_Window* window)
+{
+    int displayIndex = SDL_GetWindowDisplayIndex(window);
+    if (displayIndex < 0)
+    {
+        //Error處理(還沒做)
+        return 1.0f; //回傳默認縮放比例
+    }
+    float ddpi, hdpi, vdpi;
+    if (SDL_GetDisplayDPI(displayIndex, &ddpi, &hdpi, &vdpi) == 0)
+    {
+        return ddpi / 96.0f; //96是標準DPI
+    }
+    return 1.0f; //回傳默認縮放比例
+}
+
 void GameEngineEditor::Editor::begin()
 {
+    // 調整DPI
+    float dpiScale = this->getWindowDpiScale(this->window);
+    ImGui::GetIO().FontGlobalScale = dpiScale;
+    ImGuiStyle& style = ImGui::GetStyle();
+    style.ScaleAllSizes(dpiScale);
+
     this->playBtnIconTexture = new GameEngine::Texture();
     this->playBtnIconTexture->load("./assets/texture/playButton.png", GL_NEAREST);
     this->stopBtnIconTexture = new GameEngine::Texture();
@@ -453,6 +475,8 @@ void GameEngineEditor::Editor::initNative()
     SDL_VERSION(&wmInfo.version);
     SDL_GetWindowWMInfo(this->window, &wmInfo);
     this->imguiLayer.setWindowID(wmInfo.info.win.window);
+    // 設定DPI -> 要調字體大小
+    SetProcessDPIAware();
 #endif
 }
 

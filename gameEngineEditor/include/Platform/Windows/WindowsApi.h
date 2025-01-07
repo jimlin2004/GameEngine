@@ -5,7 +5,8 @@
 
 #include <string>
 #if USE_WINDOWS
-#include "windows.h"
+#include <windows.h>
+#include <shobjidl.h>
 
 namespace GameEngineEditor
 {

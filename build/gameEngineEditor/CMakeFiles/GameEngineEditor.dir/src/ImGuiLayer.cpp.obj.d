@@ -678,4 +678,15 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/ImGuiLayer.cpp.obj: \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_surface.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/SDL2/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h \
  D:/code/cpp/gameEngine/GameEngineEditor/include/EditorColor.h \
- D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h
+ D:/code/cpp/gameEngine/GameEngineEditor/include/Platform/Windows/WindowsApi.h \
+ C:/PROGRA~1/msys64/mingw64/include/shobjidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/docobj.h \
+ C:/PROGRA~1/msys64/mingw64/include/ocidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/shtypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/comcat.h \
+ C:/PROGRA~1/msys64/mingw64/include/propsys.h \
+ C:/PROGRA~1/msys64/mingw64/include/structuredquerycondition.h \
+ C:/PROGRA~1/msys64/mingw64/include/propkeydef.h \
+ C:/PROGRA~1/msys64/mingw64/include/objectarray.h \
+ C:/PROGRA~1/msys64/mingw64/include/sherrors.h \
+ C:/PROGRA~1/msys64/mingw64/include/commctrl.h

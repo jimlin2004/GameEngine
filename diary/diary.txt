@@ -732,3 +732,13 @@
         -Physics的相關函式擴充
         -FixedUpdate ?(未完全了解)
     存檔紀錄
+2025/01/07
+    1. 突然回來修一下Editor視窗Dpi縮放的問題，因此解決的windows fileDialog畫質模糊的問題
+    Todo list
+        -編譯系統
+        -Asset系統
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄

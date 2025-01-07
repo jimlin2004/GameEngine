@@ -91,6 +91,8 @@ namespace GameEngineEditor
 
         void onSceneRuntimeStart();
         void onSceneRuntimeStop();
+
+        float getWindowDpiScale(SDL_Window* window);
     };
 }
 #endif

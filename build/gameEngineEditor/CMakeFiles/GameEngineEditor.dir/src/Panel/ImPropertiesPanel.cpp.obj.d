@@ -690,6 +690,17 @@ GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Panel/ImPropertiesPanel.cpp
  C:/PROGRA~1/msys64/mingw64/include/winsvc.h \
  C:/PROGRA~1/msys64/mingw64/include/mcx.h \
  C:/PROGRA~1/msys64/mingw64/include/imm.h \
+ C:/PROGRA~1/msys64/mingw64/include/shobjidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/docobj.h \
+ C:/PROGRA~1/msys64/mingw64/include/ocidl.h \
+ C:/PROGRA~1/msys64/mingw64/include/shtypes.h \
+ C:/PROGRA~1/msys64/mingw64/include/comcat.h \
+ C:/PROGRA~1/msys64/mingw64/include/propsys.h \
+ C:/PROGRA~1/msys64/mingw64/include/structuredquerycondition.h \
+ C:/PROGRA~1/msys64/mingw64/include/propkeydef.h \
+ C:/PROGRA~1/msys64/mingw64/include/objectarray.h \
+ C:/PROGRA~1/msys64/mingw64/include/sherrors.h \
+ C:/PROGRA~1/msys64/mingw64/include/commctrl.h \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/type_ptr.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/gtc/vec1.hpp \
  D:/code/cpp/gameEngine/GameEngine/third_party/glm/ext/vector_bool1.hpp \
