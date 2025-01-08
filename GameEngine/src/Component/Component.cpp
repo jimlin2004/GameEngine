@@ -69,6 +69,7 @@ GameEngine::CameraComponent::CameraComponent(bool isPrimary)
 
 GameEngine::CameraComponent::CameraComponent(const CameraComponent &other)
     : primary(other.primary)
+    , camera(other.camera)
 {
 }
 

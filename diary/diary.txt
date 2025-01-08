@@ -742,3 +742,15 @@
         -Physics的相關函式擴充
         -FixedUpdate ?(未完全了解)
     存檔紀錄
+2025/01/08
+    1. 修復CameraComponent在刷新Scene後數值被重置的問題
+    2. 發現到cameraPreview在Scene刷新後會失效的問題(卡在刷新前)
+    Todo list
+        -修復cameraPreview
+        -編譯系統
+        -Asset系統
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄

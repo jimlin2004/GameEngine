@@ -160,8 +160,8 @@ void GameEngineEditor::Editor::begin()
     // 調整DPI
     float dpiScale = this->getWindowDpiScale(this->window);
     ImGui::GetIO().FontGlobalScale = dpiScale;
-    ImGuiStyle& style = ImGui::GetStyle();
-    style.ScaleAllSizes(dpiScale);
+    // ImGuiStyle& style = ImGui::GetStyle();
+    // style.ScaleAllSizes(dpiScale);
 
     this->playBtnIconTexture = new GameEngine::Texture();
     this->playBtnIconTexture->load("./assets/texture/playButton.png", GL_NEAREST);
@@ -568,6 +568,8 @@ void GameEngineEditor::Editor::onSceneRuntimeStop()
     this->activeScene->onRunTimeStop();
     delete this->editorScene;
     this->editorScene = nullptr;
+
+    GameEngine::cameraController->setViewTarget(&this->editorCamera, &this->editorCamera.transformComponent);
 
     this->imguiLayer.setScene(this->activeScene);
 }

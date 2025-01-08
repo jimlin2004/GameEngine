@@ -1,6 +1,20 @@
 {
     "Actors": [
         {
+            "BoxCollider2D": {
+                "Density": 1.0,
+                "Friction": 0.0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ],
+                "Restitution": 0.0,
+                "RestitutionThreshold": 0.5,
+                "Size": [
+                    0.5,
+                    0.5
+                ]
+            },
             "Mesh": {
                 "Color": [
                     1.0,
@@ -8,14 +22,18 @@
                     1.0,
                     1.0
                 ],
-                "Texture": "background.png"
+                "Texture": "upTube.png"
             },
-            "TagName": "DefaultRect",
+            "Rigidbody2D": {
+                "BodyType": "Static",
+                "FixedRotation": false
+            },
+            "TagName": "UpTube",
             "Transform": {
                 "Position": [
-                    0.0,
-                    0.0,
-                    0.0
+                    7.0,
+                    -4.730770111083984,
+                    1.0
                 ],
                 "Rotation": [
                     0.0,
@@ -23,13 +41,112 @@
                     0.0
                 ],
                 "Scale": [
-                    35.28801345825195,
-                    15.978240966796875,
-                    15.978240966796875
+                    1.5,
+                    6.499995231628418,
+                    1.0
                 ]
             },
             "UUID": {
-                "UUID": "0438407308034002441500681500048810571630"
+                "UUID": "1537856379288178529715952970328611746492"
+            }
+        },
+        {
+            "BoxCollider2D": {
+                "Density": 1.0,
+                "Friction": 0.0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ],
+                "Restitution": 0.0,
+                "RestitutionThreshold": 0.5,
+                "Size": [
+                    0.5,
+                    0.5
+                ]
+            },
+            "Mesh": {
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Texture": "dwonTube.png"
+            },
+            "Rigidbody2D": {
+                "BodyType": "Static",
+                "FixedRotation": false
+            },
+            "TagName": "DownTube",
+            "Transform": {
+                "Position": [
+                    7.0,
+                    5.84615421295166,
+                    1.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.5000007152557373,
+                    7.5500078201293945,
+                    1.0
+                ]
+            },
+            "UUID": {
+                "UUID": "1561800630621891265109748646144979986167"
+            }
+        },
+        {
+            "BoxCollider2D": {
+                "Density": 1.0,
+                "Friction": 0.0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ],
+                "Restitution": 0.0,
+                "RestitutionThreshold": 0.5,
+                "Size": [
+                    0.5,
+                    0.5
+                ]
+            },
+            "Mesh": {
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Rigidbody2D": {
+                "BodyType": "Static",
+                "FixedRotation": false
+            },
+            "TagName": "TestActor",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "UUID": {
+                "UUID": "0313564175322502268207491917973459487661"
             }
         },
         {
@@ -86,55 +203,6 @@
             }
         },
         {
-            "BoxCollider2D": {
-                "Density": 1.0,
-                "Friction": 0.0,
-                "Offset": [
-                    0.0,
-                    0.0
-                ],
-                "Restitution": 0.0,
-                "RestitutionThreshold": 0.5,
-                "Size": [
-                    0.5,
-                    0.5
-                ]
-            },
-            "Mesh": {
-                "Color": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "Rigidbody2D": {
-                "BodyType": "Static",
-                "FixedRotation": false
-            },
-            "TagName": "TestActor",
-            "Transform": {
-                "Position": [
-                    0.0,
-                    0.0,
-                    1.0
-                ],
-                "Rotation": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Scale": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "UUID": {
-                "UUID": "0313564175322502268207491917973459487661"
-            }
-        },
-        {
             "Mesh": {
                 "Color": [
                     1.0,
@@ -142,14 +210,14 @@
                     1.0,
                     1.0
                 ],
-                "Texture": "dwonTube.png"
+                "Texture": "background.png"
             },
-            "TagName": "DownTube",
+            "TagName": "DefaultRect",
             "Transform": {
                 "Position": [
-                    7.0,
-                    5.84615421295166,
-                    1.0
+                    0.0,
+                    0.0,
+                    0.0
                 ],
                 "Rotation": [
                     0.0,
@@ -157,45 +225,13 @@
                     0.0
                 ],
                 "Scale": [
-                    1.5000007152557373,
-                    7.5500078201293945,
-                    1.0
+                    35.28801345825195,
+                    15.978240966796875,
+                    15.978240966796875
                 ]
             },
             "UUID": {
-                "UUID": "1561800630621891265109748646144979986167"
-            }
-        },
-        {
-            "Mesh": {
-                "Color": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                ],
-                "Texture": "upTube.png"
-            },
-            "TagName": "UpTube",
-            "Transform": {
-                "Position": [
-                    7.0,
-                    -4.730770111083984,
-                    1.0
-                ],
-                "Rotation": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Scale": [
-                    1.5,
-                    6.499995231628418,
-                    1.0
-                ]
-            },
-            "UUID": {
-                "UUID": "1537856379288178529715952970328611746492"
+                "UUID": "0438407308034002441500681500048810571630"
             }
         }
     ]
