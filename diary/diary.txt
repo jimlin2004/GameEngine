@@ -1,0 +1,756 @@
+2022/11/7 暫時建置Event系統
+2022/11/11 完成鍵盤輸入事件註冊與統一呼叫系統
+2022/12/30
+    1. 修改eventDatabase 由vector 變為list
+    Todo list
+        -sdl surface to opengl texture
+    https://www.youtube.com/watch?v=EGZjybcC2JM
+2023/01/03 10:33
+    1. 繼續完成surface to texture(未完工)
+2023/01/04
+    1. 新增GameObject為所有遊戲實體的基類，
+       用於垃圾回收等。
+       目前有: Actor、Graphics
+2023/01/11
+    1. 將Graphics重寫，將其應用VBO、VAO、Shader
+    Todo list
+        -shader的compile、create函式封裝
+        -shader從file中抓取的class
+2023/01/12
+    1. 學習IBO
+    2. 用IBO渲染矩形
+    3. 學習Uniform
+    4. 寫出ShaderManager並將其至於GEngine底下
+2023/01/13
+    1. 將VertexBuffer、IndexBuffer寫成class
+    2. 欲將VAO寫成class
+    未完工
+    resource
+        -https://www.youtube.com/watch?v=oD1dvfbyf6A&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2&index=14
+        15:17
+2023/01/14
+    1. 完成VertexArrray
+2023/01/15
+    1. 完成Shader(class)
+    Todo list
+        -setUniform(統一interface)
+        -texture
+2023/01/16
+    1. 完成Texture
+    2. 完成正規化坐標系轉成視窗坐標系
+    Todo list
+        -開始做自己的遊戲
+2023/01/17
+    1. 做MVP(Matrix)
+    2. 遇到glm的問題
+    Todo list
+        -修好問題
+2023/01/18
+    1. 修復glm抓不到的問題
+    2. 完成Graphics::Line
+    3. 決定做Snake game來訓練第一次的AI
+    4. Snake game 的 Grid 已經可以render，但程式跑的慢，要修正
+    Todo list
+        -改變Snake game::Grid 的render速度
+2023/01/30
+    1. 新增Camera
+        -新增class Camera
+        -以全域的_currentCamera代表現在的camera
+    2. 新增class Renderer
+        -完成drawQuad
+2023/01/31
+    1. 合併glsl(shader)僅使用同一個shader(color 與 texture 共用)
+    2. 新增ConsoleApi
+        -log()
+    存檔紀錄version1.0 (改為batch rendering前)
+2023/02/01
+    1. 暫時建置drawQuad為batch rendering(未含texture)
+    存檔紀錄version1.0
+2023/02/02
+    1. 暫時完成batch rendering 的 texture
+        -透過補上shader->bind()修復
+    存檔紀錄version1.0 (改為batch rendering 加入 transform前)
+    存檔紀錄version2.0 (22:07)
+2023/02/03
+    1. 完成sprite sheet (SubTexture)
+    2. 暫時完成drawLine
+    3. 開始重構Graphics.h
+    4. 修改GameBase的gameContext()為update()
+    Todo list
+        -Line Width 個別化
+2023/02/04
+    1. 建置deltaTime
+    存檔紀錄version1.0
+2023/02/06
+    1. 開始做貪食蛇
+    存檔紀錄version1.0
+2023/02/07
+    1. 暫時修復貪食蛇(單顆)移動問題{透過故意將grid開大一外圈解決}
+    Todo list
+        -tail的清空
+    存檔紀錄version1.0
+2023/02/08
+    1. 暫時建置多顆貪食蛇的身體(但是會有間隔的問題)
+    Todo list
+        -tail的清空
+    存檔紀錄version1.0
+2023/02/09
+    1. 暫時實現Food，但遇到rand效率問題(將用GameEngine::shuffle解決)
+    2. 暫時實現body超出界外後要處理的事
+    3. GELib添加randint、shuffle函式
+    Todo list
+        -body出界後的美化
+        -Food rand效率問題
+    存檔紀錄version1.0
+2023/02/12
+    1. 新增physics資料夾
+    2. 新增physics/boundingBox/AABB
+2023/02/13
+    1. 決定引用包裝box2d
+    2. 修改CMakeLists的結構
+        -third_party的include改為手動設置相對位置
+    3. 為了移植性與再現性，決定將第三方庫都放置於third_party，
+       並於cmake中設置
+    4. 更改貪食蛇的body index算法(改為index是當下那一格)
+    存檔紀錄version1.0
+2023/02/14
+    1. 貪食蛇暫時完工Fake body(但會有縫隙)
+    2. 暫時完工貪食蛇
+    存檔紀錄version1.0
+2023/02/15
+    1. 將snake作為GameEngine的子專案
+    Todo list
+        -修復shader的相對路徑問題
+    存檔紀錄version1.0
+2023/02/16
+    1. cmake增加每次編譯都將assets複製到binary路徑
+    2. 新增TestGame(用來測試)
+    存檔紀錄version1.0
+2023/02/17
+    1. 決定引入QT6為Editor
+2023/02/18
+    1. 開始寫Editor的UI
+    2. 想用OpenglWidget寫中央預覽(但是跟遊戲一樣用相同的glew)
+    存檔紀錄version1.0
+2023/02/19
+    1. 引入qss
+    2. 建置DockWidget
+    Todo list
+        -glew與QT的結合(用QOpenglWidget)
+    存檔紀錄version1.0
+2023/02/20
+    1. 嘗試將glew結合到OT中(由2達成)
+    2. 建置EditorOpenGLWidget(達到渲染藍色矩形)
+    存檔紀錄version1.0
+2023/02/26
+    1. Editor新增JsonParser
+    2. Editor新增ProjectParser
+    Todo list
+        -assets browser
+    存檔紀錄version1.0
+2023/02/27
+    1. 修復Header檔沒有提示字的問題(moc，透過header參與編譯完成)
+    2. 欲將Asset Widget寫成custom widget(一個icon，一個label顯示名稱)
+    Todo list
+        -Asset widget的完成
+        -Asset控制面板的設計
+    存檔紀錄version1.0
+2023/02/28
+    1. 暫時完成Assets file browser
+    Todo list
+        -AssetFileWidget的sprite
+    存檔紀錄version1.0
+2023/03/01
+    1. 寫file system的更換目錄(未完工)
+    2. AssetFileWidget添加click event
+    Todo list
+        -繼續完成file system
+    存檔紀錄version1.0
+2023/03/02
+    1. 新增File system panel 的 clear
+    2. 將Assets放入TabWidget(同時與Console放一起)
+    3. 新增Console分頁
+    Todo list
+        -File system panel的麵包屑(BreadCrumbs)
+        -Console要利用QProcess抓取stdout、stderror
+        -Console的文字顏色分類
+    存檔紀錄 --version dev1.0
+2023/03/05
+    1. 將console完成qt的輸出(但無法抓到editor的printf跟cout)
+    2. 新增一些建置的qDebug
+    3. 定此版本為 1.0 alpha
+    Todo list
+        -Asset解析
+        -遊戲實際關卡編輯器製作
+    存檔紀錄 --version dev1.0
+2023/03/13
+    1. 將Console的字體換成Cascadia Mono
+    2. GameEngine Editor新增toolbar
+    Todo list
+        -toolbar的icon(需要qrc)
+    存檔紀錄 --version dev1.0
+2023/04/08
+    1. 新增CameraController(Camera之後不直接操作)
+    2. 開始寫Scene
+    3. 開始寫Editor Game objects 的樹狀圖
+    Todo list
+        -SceneGraph
+        -Scene
+        -Level
+        -Editor Game objects 的樹狀圖
+    存檔紀錄 --version 1.0-dev
+2023/04/23
+    1. 初步建構Scene 與 SceneGraph
+    2. spawnActor改置於Scene
+    Todo list
+        -SceneGraph的Node同名問題解決
+        -Scene 的 updateScene
+    存檔紀錄 --version 1.0-dev
+2023/04/24
+    1. 將Scene相關的放入Scene資料夾
+    2. 創建DataStruct BST(非AVL)(暫時棄置)
+    3. Actor增加update()、begin()
+    4. 進一步建構Scene 與 SceneGraph
+    Todo list
+        -Scene的功效驗證
+        -將遊戲本身class的begin、update結合進Editor
+        -Script component
+    存檔紀錄 --version 1.0-dev
+2023/06/17
+    1. 復工
+    2. 引入 EnTT(ECS)
+    3. 將Actor改為ECS
+    4. 嘗試將Editor與GameEngine連結起來
+    5. 將Editor的treeWidget底色改為灰色
+    6. 棄用SceneGraph(用Entt)
+    Todo list
+        -treeWidget的新增
+        -Editor的GameObject outline
+    存檔紀錄 --version 1.0-dev
+2023/06/19
+    1. 嘗試TreeWidget(未完工)
+    存檔紀錄 --version 1.0-dev
+2023/06/22
+    1. 創建QCollapsibleWidget完成
+    2. 嘗試將QCollapsibleWidget應用於GameEngineEditor中(用於detail)
+    存檔紀錄 --version 1.0-dev
+2023/06/23
+    1. 設定game object detail 中的transform、scale樣式(qss)
+    2. 修復QAction圖檔遺失問題
+    存檔紀錄 --version 1.0-dev
+2023/06/30
+    1. 引入LineEditInt、LineEditFloat(Qt plugin)
+    2. 修復game object detail折疊時會抖動的問題
+    3. game object detail新增color一類(未完工)
+    存檔紀錄 --version 1.0-dev
+2023/07/01
+    1. game object detail color一類新增QColorDialog
+    2. game object detail transform一類改為包含position、scale、rotation
+    存檔紀錄 --version 1.0-dev
+2023/07/03
+    1. 新增nlohmann json (第三方)
+    2. 新增SceneSerializer用於解析json
+    Todo list
+        -json格式似乎有誤
+    存檔紀錄 --version 1.0-dev
+2023/07/04
+    1. 完工SceneSerializer
+    2. 將opengl的檔案歸類到Opengl
+    3. 正式引入box2d
+    4. 將third_party減少不必要的檔案
+    Todo list
+        -frameBuffer
+    存檔紀錄 --version 1.0-dev
+2023/07/05
+    1. 新增Framebuffer(未測試)
+    2. 改變Editor Camera速度
+    3. 新增CompileProcess(未完工)
+    4. 改變Cmake內容(應用static library)
+    存檔紀錄 --version 1.0-dev
+2023/07/06
+    1. 完整CompileProcess
+    2. 新增Script component(未完工)
+    3. 新增Event/Input
+    存檔紀錄 --version 1.0-dev
+2023/07/07
+    1. 新增Core資料夾
+    2. 新增Actor資料夾
+    3. 新增Render資料夾
+    4. 測試Script component可用
+    5. 完成Input
+    Todo list
+        -Texture
+    存檔紀錄 --version 1.0-dev
+2023/07/10
+    1. 修復Texture
+    2. 引入imgui(目前僅Editor使用)
+2023/07/11
+    1. 將EditorOpenGLWidget棄用
+    2. 將EditorOpenGLWidget的功能改為SDL嵌入
+    3. SDL成功導入imgui
+    Todo list
+        -SDL嵌入keyboard失效
+    存檔紀錄 --version 1.0-dev
+2023/07/12
+    1. 修復SDL嵌入keyboard失效的問題，此問題乃因Keyboard focus未成功轉移導致
+       目前使用windows.h的setFocuse以及QApplication::focusChanged判斷focus in/out
+    2. 改變SDL版本(2.6->2.8)
+    Todo list
+        -windows api使用需改成跨平台的寫法(如Linux找到一樣的函式用pargma決定平台編譯與否)
+    存檔紀錄 --version 1.0-dev
+2023/07/13
+    1. 將Framebuffer貼到imgui中
+    2. 之後Editor的SDL都多一層imgui image
+    Todo list
+        -ImGuizmo目前失效
+    存檔紀錄 --version 1.0-dev
+2023/07/14
+    1. ImGuizmo成功渲染
+    2. 將專案改變檔案擺放方式(GameEngine成為一個資料夾)
+    3. 移除cmake GameEngineLib
+    Todo list
+        -ImGuizmo不知道旋轉是否有問題(-180~180 degree)
+        -更好的Framebuffer api
+    存檔紀錄 --version 1.0-dev
+2023/07/17
+    1. 改變Framebuffer的api(改為specification的方式以及format還有switch改善hard code)
+    2. 完成mouse picking(有改到glsl)，也許之後要換成editor以及runtime版本改善效能
+    3. mouse picking對editor(QT)的事件對應完成
+    4. MainWindow多了ExportData用於SDL及QT的溝通(用pointer跨過scope限制)
+    Todo list
+        -觀察更多功能以及目前功能是否正常
+        -拖動添加物件的功能
+    存檔紀錄 --version 1.0-dev
+2023/07/18
+    1. 研究出如何drag and drop for SDL and QT
+    2. 新增ConsoleApi的功能(std::ostream)，以便自訂義輸出格式(operator overloading)
+    3. 將ContentBrowserPanel 功能收集到一個class中，改善MainWidow的程式可讀性
+    Todo list
+        -ConsoleApi的功能擴充(operator overloading)
+        -Drag and drop for SDL and QT功能需完成
+    存檔紀錄 --version 1.0-dev
+2023/07/19
+    1. 完成drag and drop事件(SDL)，QT的未完成
+    2. 建構Editor的Texture ui(未完工)
+    Todo list
+        -editor texture ui(目前欲利用TextureManager紀錄texture檔名，再用Qt讀檔)
+        -serialize的texture
+    存檔紀錄 --version 1.0-dev
+2023/07/20
+    1. 暫時完成texture ui、texture manager
+    2. 修復imguizmo的點選問題(重複選取點不到)
+    3. 初步建構UUID(version 4 作法，但以兩個uint64_t 代表128 bit)
+    4. TestGame的content資料夾重命名為assets(方便實作texture manager)(未定案)
+    Todo list
+        -UUID的檢驗(hash)
+        -Actor與UUID綁定
+        -UUID的serialize與deserialize
+    存檔紀錄 --version 1.0-dev
+2023/07/21
+    1. 初步檢驗UUID及UUID hash
+    2. 添加IDComponent及CameraComponent
+    3. Camera system初步改善(未完工)
+    Todo list
+        -Camera system改善
+        -Renderer begin、end系統考慮改善
+    存檔紀錄 --version 1.0-dev
+2023/07/28
+    1. 重新用回cameraController(bindCamera改名為setViewTarget，支持CameraComponent及camera)
+    2. 嘗試將gameEngine Editor改為無邊框，
+       嘗試framelessWindowHint後棄用(雖然看起來沒問題，但resize時閃爍，窗體變透明，失去拖拉、
+       縮放控制權需自己寫程式)，經csdn查資料顯示此為client area與non client area size重疊導致
+       ，因此改為嘗試Qt::CustomizeWindowHint，有拖拉縮放等功能，但遇到win 10 bug(窗體上方有6 pixel
+       的白邊，需操作native event及windows api [DWM api]才能處理)
+    Note: 今日無存檔
+2023/07/31
+    1. 修復borderless上的白線問題(使用windows DWM api)
+    2. 建構自定義標題欄
+    3. 將menubar與toolbar放入正確位置
+    4. 發現borderless上的白線問題在快速移動視窗或運行阻塞式運算時能會出現(可能是event來不及)
+    Todo list
+        -繼續做其他功能
+        -白線問題是否可以解決
+    存檔紀錄 --version 1.0-dev
+2023/08/01
+    1. 發現FramelessWindowHint比CustomizeWindowHint好，視窗在快速移動時
+       不會有白線，但伸縮功能需要自己實現
+    2. 完成拖曳伸縮功能，啟用hover move，可能會有效能問題
+    3. 利用DWM api找回Aero snap及視窗陰影功能
+    Todo list
+        -發現現在在resize時視窗右邊可能會出現白線(很少出現)，可以修復也可忽略
+    存檔紀錄 --version 1.0-dev
+2023/08/03
+    1. 製作Scene的play、pause、edit
+    2. Scene的copy，以及copyComponent
+    Todo list
+        -白邊沒有處理
+        -GameObject detail應改成有該component才顯示對應介面
+        -Editor的AddComponent
+        -box2D
+    存檔紀錄 --version 1.0-dev
+2023/08/04
+    1. 初步重構GameObject detail系統(未完工)
+    Tofo list
+        -繼續GameObject detail應改成有該component才顯示對應介面(color、mesh、texture，以及bind、update功能)
+        -Editor的AddComponent
+        -box2D
+    存檔紀錄 --version 1.0-dev
+2023/08/07
+    1. 完成GameEngine detail的顯示介面功能
+    2. 發現視窗最大化時右邊及左邊的px會被吃掉(已修復)，透過包裝void ToMaximize()、void ToNormal()
+       設定 SetWindowLongPtr 中 &~ 來刪除加入的flag
+    Todo list
+        -add component的QDialog選擇對話框
+        -box2d
+    存檔紀錄 --version 1.0-dev
+2023/08/08
+    1. 新增ComponentBrowserWidget，用於選取欲添加的component，透過QWidgetAction
+    2. 編寫ComponentBrowserWidget的UI、search bar(未完工)
+    Todo list
+        -search bar的search欲使用Trie加速，但空間優化需要思考
+    存檔紀錄 --version 1.0-dev
+2023/08/10
+    1. 完成trie加速search功能
+    2. 建構依據search的結果顯示對應的button
+    Todo list
+        -發現大寫搜尋失效
+        -QMenu的大小問題未解決
+    存檔紀錄 --version 1.0-dev
+2023/08/11
+    1. 修復大寫搜尋問題(忘記加上tolower())
+    2. 基本完成AddComponent的功能，ToolButton click後的換頁功能未編寫(ex: physics的更多分類)
+    3. AddComponent的大小問題目前會跟隨ComponentBrowserButton的大小，但ComponentBrowserButton過小的時
+       會出現QMenu比較大的問題
+    Todo list
+        -box2d
+        -runtime simulation
+    存檔紀錄 --version 1.0-dev
+2023/08/15
+    1. 初步加入box2d完成
+    2. Editor新增Rigidbody2D以及boxCollider2D的操作面板
+    Todo list
+        -opengl 坐標系的比例可能需要修改(box2d看起來物理模擬太慢，可能是因為世界座標太大)
+        -physics component操作面板的add component功能及其餘功能
+    存檔紀錄 --version 1.0-dev
+2023/08/16
+    1. 將opengl坐標系改成不是screen坐標系，而是相對座標(假設為1 meter)
+    2. 初步建構physics2D的ToolButton，成為資料夾的概念
+    3. Editor新增zoom的功能，但不太滑順
+    Todo list
+        -physics2D的Editor add component面板完善(UI，bind 功能)
+        -add component的換頁後換回首頁時是否需要刪除其他頁面的思考
+        -zoom功能的研究
+        -physics 功能是否表現正常需要檢查(旋轉會有無限旋轉的現象，而unity沒有)
+    存檔紀錄 --version 1.0-dev
+2023/08/17
+    1. 經過測試，固定x軸無限旋轉的現象是因為沒有加上摩擦力
+    2. editor detail面板中 textureComponent的comboBox改成使用AdvancedComboBox，
+       以停用滑鼠滾輪事件已以防止使用者滾輪滾動太快而導致程式崩潰
+       (可能是texture有預覽的功能，變更太快導致崩潰) 
+    3. 棄用2023/08/07的void ToMaximize()、void ToNormal()，改以windowStateChange event檢測最大化及normal
+       ，取消SetWindowLongPtr 中 &~ 來刪除加入的flag的作法，改成最大化時Qt setContentsMargins來增加MainWindow
+       的margin以此防止MainWindow超出螢幕範圍
+    Todo list
+        -最大化時titlebar的最上層不應有resize功能
+    存檔紀錄 --version 1.0-dev
+2023/08/18
+    1. 修復最大化時仍可以resize的問題
+    2. 研究Script hot compile 及可能的實現方法
+    Todo list
+        -找出好的script engine api實現方式
+    存檔紀錄 --version 1.0-dev
+2023/08/21
+    1. 想出Script dll可能的實現方式(利用unordered_map及template function pointer)
+       詳情看ClassMap.h、ScriptEngine.h
+    2. 清理一些程式的include(code review)
+    Todo list
+        -dll發現檔案太大的問題(30MB)，需要理解為何這麼大，並想辦法減少
+        -code review，將一些歷史遺物清除
+    存檔紀錄 --version 1.0-dev
+2023/08/22
+    1. 刪除Character，改成統一繼承自Actor，更符合ECS一點
+    2. Actor的scene取消static，如此dll中actor的scene才不會是兩個不同的pointer
+    Todo list
+        -dll檔案依舊太大
+        -dll中如何調用GameEngine::Input，現在會有exe更新而dll不更新的問題
+    存檔紀錄 --version 1.0-dev
+2023/08/23
+    1. 重新定義Character為scriptable actor，但不繼承自actor
+    2. 新增ScriptInterface、ScriptCore等Script相關class，用以解決dll中呼叫engine side的函式不更新問題
+    3. 成功讓TestActor用GEngine::Input去監聽keyboard事件
+    4. GEngine是user side的函示包裝
+    Todo list
+        -發現release模式下sdl與qt有進程順序問題
+    存檔紀錄 --version 1.0-dev
+2023/08/24
+    1. sdl與qt的進程問題用thread lock解決
+    2. 讓editor中SDL與QT相互知道彼此，如此可以解決SDL與QT event處理
+    3. dll要是使用者編寫前就有，如此editor中script component才可以選擇class
+       ，知道class之後才能呼叫相對應的建構子並運行對應程式
+    Todo list
+        -dll的reload與使用者新增class後，需要立即reload dll，也許發展hot reload
+        -editor的script component尚未完成editor修改script component的功能(comboBox event)
+        -dll雖然從30MB降至450KB，但看了unreal及unity覺得還可以更低，以及dll的編譯速度是否可以加快
+    存檔紀錄 --version 1.0-dev
+2023/08/25
+    1. 移除棄用的FSM.cpp、自己編寫的physics、Graphics.cpp、SceneGraph.cpp、EveneSystem.cpp
+    2. 測試Editor reload dll功能可用(尚未hot reload)
+    3. dll降至120KB，但還有進步空間
+    4. 修復ScriptCore 重複宣告的問題(要extern給dll的function需要加上inline，REGISTER_CLASS補上static)
+    5. Qt ScriptComponent的面板可以設定script className，但dll改變導致script className過時
+       的異常處理尚未實作
+    Todo list
+        -ScriptComponent的異常處理
+        -Script system
+        -Editor各項異常處理
+    存檔紀錄 --version 1.0-dev
+2023/08/28
+    1. 修復editor layout 加到 layout自己的bug(程式打錯字)
+    2. 重構Event system，目前想要用event dispatcher的方式，配合訂閱制的架構(unordered_map)
+    Todo list
+        -Event system的改進與完善
+        -Script core 的完善
+        -event在同一class的建構子addCallback時會有重複add的問題
+        -支持的event種類
+    存檔紀錄 --version 1.0-dev
+2023/08/29
+    1. 修復collision event的解構子會將ActorData刪除的問題
+    2. 研究User side如何應用box2d移動
+    Todo list
+        -TestGame裡bird跳躍(box2d jump)
+        -Script core 的完善
+        -Keyboard event(keyDown、keyUp)
+    存檔紀錄 --version 1.0-dev
+2023/08/30
+    1. 研究出flappy bird jump的好方法是SetLinearVelocity，如此可以無視重力跳躍
+    2. 新增KeyDownEvent與KeyUpEvent(按鍵不重複觸發)
+    3. 初次意識到opengl blend與depth衝突問題
+       (若有alpha的物件比其底下物件先被渲染，此時會看到底下物件不被渲染，會直接穿透)
+    4. 由(3)的問題，目前未發展渲染queue或order independent transparency(OIT的技術)
+       ，所以目前先透過 fragment shader將alpha == 0.0的pixel直接discard
+    Todo list
+        -Script core 的完善
+        -渲染queue或OIT
+    存檔紀錄 --version 1.0-dev
+2023/08/31
+    1. Component新增AllComponents一類，幫助減少Scene的code
+    2. 完成Editor的copy paste actor，以及 delete Actor的功能
+    3. 取消mainWindow中用timeout去更新treeWidget的機制，取消mainWindowExportData中的needToInsertOutlineTreeWidget
+       , 改成sdl直接透過pointer呼叫mainWindow去更新
+    4. 修復treeWidget在未選擇project時點擊top的Actor Collection程式崩潰的問題
+       (透過OutlineTreeWidgetItem的建構子將其所包含的entityID設為entt::null修復)
+    Todo list
+        -Script core 的完善
+        -渲染queue或OIT
+        -GameEngine scriptable actor可以spawnActor的功能
+    存檔紀錄 --version 1.0-dev
+2023/09/06
+    1. 緊急修復scene中onRuntimeStart時dll的reload寫死路徑的bug
+    Todo list
+        -Script core 的完善
+        -渲染queue或OIT
+        -GameEngine scriptable actor可以spawnActor的功能
+    存檔紀錄 --version 1.0-dev
+
+2024/01/17
+    1. (*)重大更新，決定擺脫QT，用SDL+ImGui重構Editor
+    2. 研究ImGui dock window
+    3. 初步還原ImGui的排版及中間scene畫面繪製、控制功能
+    4. 初步還原Editor event
+    5. 開新的git branch(noQT)
+    Todo list
+        -actor功能暫時失效
+        -Editor美化
+        -將冗長代碼簡化
+    存檔紀錄 --version 1.0
+2024/01/18
+    1. 取消GameEngine::globalScene
+    2. 研究imgui style
+    3. 重建scene功能(未完工)
+    4. 重建project parser(未完工)
+    Todo list
+        -找回scene功能
+        -actor功能暫時失效
+        -Editor美化
+        -將冗長代碼簡化
+    存檔紀錄 --version 1.0
+2024/01/19
+    1. (*)將EventDispatcher的event改用pointer傳(可以檢查是否cast成功)
+    2. Project load功能回復
+    3. 重建ImGuizmo完成
+    4. 初步完成SceneHierarchy
+    5. 重建mouse picking完成
+    6. (*)研究發現ImGui顏色格式是ABGR
+    Todo list
+        -Editor美化
+        -將冗長代碼簡化
+        -Object Information面板、content browser面板
+    存檔紀錄 --version 1.0
+2024/01/22
+    1. 開始做properties panel(Object Information)
+    2. 調整主要style配色
+    Todo list
+        -windows fileDialog畫質模糊的問題
+        -將冗長代碼簡化
+        -properties、content browser面板
+    存檔紀錄
+2024/01/23
+    1. 新增AddComponent的popup
+    2. 目前找不到windows fileDialog畫質模糊的原因
+    3. 試著做Camera preview(有一點問題，大小尚未調整)
+    Todo list
+        -將冗長代碼簡化
+        -properties、content browser面板
+        -完善camera preview功能、性能優化
+    存檔紀錄
+2024/01/24
+    1. 撰寫Content Browser Panel
+    2. 恢復 Drag and Drop功能
+    Todo list
+        -將冗長代碼簡化
+        -properties面板
+        -完善camera preview功能、性能優化
+        -exe 大小優化
+    存檔紀錄
+2024/01/25
+    1. camera新增一些屬性及功能
+    2. 研究opengl的camera
+    3. 研究exe大小優化(未成功)
+    3. 目前還沒搞懂正交投影的設定(near、far)
+    Todo list
+        -將冗長代碼簡化
+        -properties面板
+        -完善camera preview功能、性能優化
+        -exe 大小優化
+    存檔紀錄
+2024/01/29
+    1. 恢復properties面板大部分功能(Texture尚未完工)
+    2. 將properties面板做style美化(自動與父視窗縮放寬度)
+    3. 調整camera preview
+    Todo list
+        -將冗長代碼簡化
+        -Texture系統
+        -Tool bar
+        -exe 大小優化
+        -scirpt system
+    存檔紀錄
+2024/01/30
+    1. 恢復scene的play and stop
+    2. (*)決定導入Lua作為ScriptComponent
+    3. (*)決定用sol lib代替Lua c api
+    4. (*)將原本的Script相關項目暫時移除
+    5. 實驗release版本exe大小為18MB
+    6. 實驗c++調用lua function成功
+    7. 完成Editor的Toolbar
+     Todo list
+        -Texture系統
+        -scirpt system
+    存檔紀錄
+2024/01/31
+    1. 研究lua、sol
+    2. 確立lua格式
+    Todo list
+        -Texture系統
+        -scirpt system
+        -scirpt component的設計
+    存檔紀錄
+2024/02/01
+    1. 研究lua的oop(還沒決定)
+    2. 設計ScriptComponent
+    3. 恢復save scene的功能
+    Todo list
+        -Texture系統
+        -scirpt system
+        -lua debug
+    存檔紀錄
+2024/02/02
+    1. (*)研究出如何將c++變數在lua中直接修改(sol::make_reference)
+    2. 嘗試將glm::vec2傳入lua作為Vec2(userdata)成功
+    Todo list
+        -Texture系統
+        -scirpt system
+        -lua intellisense for userdata
+        -lua debug
+    存檔紀錄
+2024/02/04
+    1. 將lua引入Vec2, Vec3, Vec4
+    2. (*)決定用c++直接引入userdata，再配合vscode用lua definition file作為提示字功能
+    Todo list
+        -Texture系統
+        -scirpt system
+        -lua components
+        -lua debug
+    存檔紀錄
+2024/02/05
+    1. lua引入TransformCompoent, Rigidbody2DComponent
+    2. lua Actor引入getComponent(用hard code枚舉所有type)
+    3. Script相關被多套一層namespace Script
+    4. 讓lua的物件移動、跳躍成功(實驗向)
+    5. (*)lua有debug的方法，為remote debug，用法要在欲debug的lua file最上面加上GameEngineDebugger.listen()
+       去require debugger，在點下GameEngine的play後，在lua的vscode按F5即開始debug
+    Todo list
+        -Texture系統
+        -Scirpt System
+        -Script Event
+    存檔紀錄
+2024/02/06
+    1. 撰寫ScriptEventDispatcher(利用template function達成lua不同eventType的問題)
+    2. (*)所有Script相關的事件需繼承自ScriptEvent，利用ScriptEventDispatcher呼叫callback
+    3. lua引入KeyDownEvent, KeyUpEvent
+    4. (*)actor move的方法參考Unity後決定暫時有Rigidbody2D的物件不能用transform.position去改變
+    5. lua Rigidbody2D引入applyLinearImpulseToCenter, setLinearVelocity等physics相關函式
+    Todo list
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄
+2024/02/29
+    1. 重新上傳github
+    存檔紀錄
+2024/03/01
+    1. (*)發現ScriptEngine.cpp裡面有沒改到的絕對路徑，導致lua的script載入不正確，目前GEngine中添加一項
+       gameEnginePath，代表GameEngine exe的絕對路徑，以此方便於GameEngine的部屬，由於目前未有編譯遊戲的功能，
+       所以之後須考慮是否有更好的GameEngine相關路徑解決方案。
+    2. 由於改用GameEnginePath去抓lua的script，所以目前需要將開發專案中的ScriptCore資料夾手動複製到build裡面，
+       考慮是否用cmake自動複製。
+    Todo list
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄
+2024/06/26
+    1. 修好Editor的contentPanel不會預設activated的問題(透過ImGui::SetWindowForces修正)
+    2. 開始規劃編譯遊戲的功能(GameLauncher)
+    3. 開始撰寫BuildTools(Batch + Makefile)
+    Todo list
+        -編譯系統
+        -Asset系統
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄
+2025/01/07
+    1. 突然回來修一下Editor視窗Dpi縮放的問題，因此解決的windows fileDialog畫質模糊的問題
+    Todo list
+        -編譯系統
+        -Asset系統
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄
+2025/01/08
+    1. 修復CameraComponent在刷新Scene後數值被重置的問題
+    2. 發現到cameraPreview在Scene刷新後會失效的問題(卡在刷新前)
+    Todo list
+        -修復cameraPreview
+        -編譯系統
+        -Asset系統
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄
