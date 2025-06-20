@@ -754,3 +754,18 @@
         -Physics的相關函式擴充
         -FixedUpdate ?(未完全了解)
     存檔紀錄
+
+2025/06/20
+    1. 發現cameraComponent需要添加記錄到檔案的數值
+    2. 開始寫編譯系統
+    3. 目前的GameLauncher還要手動抓檔案進去
+    4. BuildSystem決定用python
+    Todo list
+        -修復cameraPreview
+        -編譯系統
+        -Asset系統
+        -Texture系統
+        -Scirpt System
+        -Physics的相關函式擴充
+        -FixedUpdate ?(未完全了解)
+    存檔紀錄

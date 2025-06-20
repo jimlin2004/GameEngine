@@ -164,6 +164,9 @@
                     0.5
                 ]
             },
+            "Camera": {
+                "Primary": true
+            },
             "Mesh": {
                 "Color": [
                     1.0,

@@ -1,12 +1,15 @@
-#ifndef EDITOR_H
-#define EDITOR_H
+#ifndef BUILD_MANAGET_H
+#define BUILD_MANAGET_H
 
 namespace GameEngineEditor
 {
+
     class BuildManager
     {
     public:
-        static bool buildProject();
+        static bool buildGame();
     };
-}
+
+} // namespace GameEngineEditor
+
 #endif

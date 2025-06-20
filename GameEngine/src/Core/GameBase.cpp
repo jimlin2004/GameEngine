@@ -96,10 +96,6 @@ void GameEngine::GameBase::gameEventHandle()
 void GameEngine::GameBase::init()
 {
     GameEngine::Renderer::init();
-
-    //Todo
-    // GameEngine::SceneSerializer sceneSerializer;
-    // sceneSerializer.deserialize("assets/scene/" + std::string(this->title) + ".map");
 }
 
 void GameEngine::GameBase::begin()

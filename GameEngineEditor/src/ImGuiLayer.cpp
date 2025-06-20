@@ -7,6 +7,7 @@
 #include "Panel/ImDebugger.h"
 #include "Event/Input.h"
 #include "EditorColor.h"
+#include "BuildManager.h"
 
 #if USE_WINDOWS
     #include "Platform/Windows/WindowsApi.h"
@@ -134,7 +135,7 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
         {
             if (ImGui::MenuItem("Build game"))
             {
-                std::system("echo echo from sys");
+                GameEngineEditor::BuildManager::buildGame();
             }
             ImGui::EndMenu();
         }
