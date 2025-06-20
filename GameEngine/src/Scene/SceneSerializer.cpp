@@ -35,7 +35,12 @@ void GameEngine::SceneSerializer::serializeEntity(Actor &actor, Json& jsonArray)
     }
     if (actor.hasComponent<CameraComponent>())
     {
-        jsonObject["Camera"]["Primary"] = actor.getComponent<CameraComponent>().primary;
+        CameraComponent& cameraComponent = actor.getComponent<CameraComponent>();
+        jsonObject["Camera"]["Primary"] = cameraComponent.primary;
+        jsonObject["Camera"]["Near"] = cameraComponent.camera.getOrthographicNear();
+        jsonObject["Camera"]["Far"] = cameraComponent.camera.getOrthographicFar();
+        jsonObject["Camera"]["Size"] = cameraComponent.camera.getOrthographicSize();
+        jsonObject["Camera"]["AspectRatio"] = cameraComponent.camera.getAspectRatio();
     }
     if (actor.hasComponent<ScriptComponent>())
     {
@@ -129,7 +134,19 @@ bool GameEngine::SceneSerializer::deserialize(const std::string& path, Scene** s
         }
         if (jsonActor.contains("Camera"))
         {
-            actor->addComponent<GameEngine::CameraComponent>(jsonActor["Camera"]["Primary"].get<bool>());
+            CameraComponent cameraComponent;
+
+            cameraComponent.primary = jsonActor["Camera"]["Primary"].get<bool>();
+
+            double aspectRatio = jsonActor["Camera"]["AspectRatio"].get<double>();
+            double size = jsonActor["Camera"]["Size"].get<double>();
+            double near = jsonActor["Camera"]["Near"].get<double>();
+            double far = jsonActor["Camera"]["Far"].get<double>();
+
+            cameraComponent.camera.setAspectRation(aspectRatio);
+            cameraComponent.camera.setOrthographic(size, near, far);
+            
+            actor->addComponent<GameEngine::CameraComponent>(cameraComponent);
         }
         if (jsonActor.contains("Script"))
         {

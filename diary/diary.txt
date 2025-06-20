@@ -756,7 +756,7 @@
     存檔紀錄
 
 2025/06/20
-    1. 發現cameraComponent需要添加記錄到檔案的數值
+    1. cameraComponent添加更多數值到檔案中(Far、Near等)
     2. 開始寫編譯系統
     3. 目前的GameLauncher還要手動抓檔案進去
     4. BuildSystem決定用python

@@ -1,6 +1,98 @@
 {
     "Actors": [
         {
+            "Mesh": {
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Texture": "background.png"
+            },
+            "TagName": "DefaultRect",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    35.28801345825195,
+                    15.978240966796875,
+                    15.978240966796875
+                ]
+            },
+            "UUID": {
+                "UUID": "0438407308034002441500681500048810571630"
+            }
+        },
+        {
+            "BoxCollider2D": {
+                "Density": 1.0,
+                "Friction": 0.0,
+                "Offset": [
+                    0.0,
+                    0.0
+                ],
+                "Restitution": 0.0,
+                "RestitutionThreshold": 0.5,
+                "Size": [
+                    0.5,
+                    0.5
+                ]
+            },
+            "Camera": {
+                "AspectRatio": 1.0,
+                "Far": 1.399999976158142,
+                "Near": -1.0,
+                "Primary": true,
+                "Size": 5.0
+            },
+            "Mesh": {
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Texture": "bird.png"
+            },
+            "Rigidbody2D": {
+                "BodyType": "Dynamic",
+                "FixedRotation": false
+            },
+            "Script": {
+                "ScriptPath": "source/Test.lua"
+            },
+            "TagName": "Bird",
+            "Transform": {
+                "Position": [
+                    0.0,
+                    4.900000095367432,
+                    1.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.7000000476837158,
+                    1.2000000476837158,
+                    1.0
+                ]
+            },
+            "UUID": {
+                "UUID": "0237513610551306383203590419210288748231"
+            }
+        },
+        {
             "BoxCollider2D": {
                 "Density": 1.0,
                 "Friction": 0.0,
@@ -21,18 +113,17 @@
                     1.0,
                     1.0,
                     1.0
-                ],
-                "Texture": "upTube.png"
+                ]
             },
             "Rigidbody2D": {
                 "BodyType": "Static",
                 "FixedRotation": false
             },
-            "TagName": "UpTube",
+            "TagName": "TestActor",
             "Transform": {
                 "Position": [
-                    7.0,
-                    -4.730770111083984,
+                    0.0,
+                    0.0,
                     1.0
                 ],
                 "Rotation": [
@@ -41,13 +132,13 @@
                     0.0
                 ],
                 "Scale": [
-                    1.5,
-                    6.499995231628418,
+                    1.0,
+                    1.0,
                     1.0
                 ]
             },
             "UUID": {
-                "UUID": "1537856379288178529715952970328611746492"
+                "UUID": "0313564175322502268207491917973459487661"
             }
         },
         {
@@ -121,17 +212,18 @@
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "Texture": "upTube.png"
             },
             "Rigidbody2D": {
                 "BodyType": "Static",
                 "FixedRotation": false
             },
-            "TagName": "TestActor",
+            "TagName": "UpTube",
             "Transform": {
                 "Position": [
-                    0.0,
-                    0.0,
+                    7.0,
+                    -4.730770111083984,
                     1.0
                 ],
                 "Rotation": [
@@ -140,101 +232,13 @@
                     0.0
                 ],
                 "Scale": [
-                    1.0,
-                    1.0,
+                    1.5,
+                    6.499995231628418,
                     1.0
                 ]
             },
             "UUID": {
-                "UUID": "0313564175322502268207491917973459487661"
-            }
-        },
-        {
-            "BoxCollider2D": {
-                "Density": 1.0,
-                "Friction": 0.0,
-                "Offset": [
-                    0.0,
-                    0.0
-                ],
-                "Restitution": 0.0,
-                "RestitutionThreshold": 0.5,
-                "Size": [
-                    0.5,
-                    0.5
-                ]
-            },
-            "Camera": {
-                "Primary": true
-            },
-            "Mesh": {
-                "Color": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                ],
-                "Texture": "bird.png"
-            },
-            "Rigidbody2D": {
-                "BodyType": "Dynamic",
-                "FixedRotation": false
-            },
-            "Script": {
-                "ScriptPath": "source/Test.lua"
-            },
-            "TagName": "Bird",
-            "Transform": {
-                "Position": [
-                    0.0,
-                    4.900000095367432,
-                    1.0
-                ],
-                "Rotation": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Scale": [
-                    1.7000000476837158,
-                    1.2000000476837158,
-                    1.0
-                ]
-            },
-            "UUID": {
-                "UUID": "0237513610551306383203590419210288748231"
-            }
-        },
-        {
-            "Mesh": {
-                "Color": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                ],
-                "Texture": "background.png"
-            },
-            "TagName": "DefaultRect",
-            "Transform": {
-                "Position": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Rotation": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Scale": [
-                    35.28801345825195,
-                    15.978240966796875,
-                    15.978240966796875
-                ]
-            },
-            "UUID": {
-                "UUID": "0438407308034002441500681500048810571630"
+                "UUID": "1537856379288178529715952970328611746492"
             }
         }
     ]
