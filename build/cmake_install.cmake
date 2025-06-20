@@ -44,7 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("D:/code/cpp/gameEngine/build/ImGui/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("D:/code/cpp/gameEngine/build/GameEngineEditor/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/code/cpp/gameEngine/build/GameLauncher/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

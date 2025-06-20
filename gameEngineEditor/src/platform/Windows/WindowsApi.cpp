@@ -53,7 +53,7 @@ std::string GameEngineEditor::WindowsApi::openProjectFile(HWND parentID)
         hr = pFileOpen->Show(parentID);
         if (SUCCEEDED(hr))
         {
-            // 獲取用戶選擇的檔案
+            // 獲得user選擇的檔案
             IShellItem* pItem = nullptr;
             hr = pFileOpen->GetResult(&pItem);
             if (SUCCEEDED(hr))

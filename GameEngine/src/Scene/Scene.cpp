@@ -46,7 +46,7 @@ GameEngine::Scene::~Scene()
     }
 }
 
-void GameEngine::Scene::unpdateRuntimeScene(float deltaTime)
+void GameEngine::Scene::updateRuntimeScene(float deltaTime)
 {
     //Script
     this->registry.view<GameEngine::ScriptComponent>().each([=](entt::entity entity, ScriptComponent& scriptComponent)

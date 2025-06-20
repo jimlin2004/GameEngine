@@ -34,6 +34,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/code/cpp/gameEngine/CMakeLists.txt"
   "D:/code/cpp/gameEngine/GameEngine/CMakeLists.txt"
   "D:/code/cpp/gameEngine/GameEngineEditor/CMakeLists.txt"
+  "D:/code/cpp/gameEngine/GameLauncher/CMakeLists.txt"
+  "D:/code/cpp/gameEngine/ImGui/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
@@ -52,11 +54,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "GameEngine/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ImGui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "GameEngineEditor/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "GameLauncher/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "GameEngine/CMakeFiles/GameEngine.dir/DependInfo.cmake"
+  "ImGui/CMakeFiles/ImGui.dir/DependInfo.cmake"
   "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/DependInfo.cmake"
+  "GameLauncher/CMakeFiles/GameLauncher.dir/DependInfo.cmake"
   )

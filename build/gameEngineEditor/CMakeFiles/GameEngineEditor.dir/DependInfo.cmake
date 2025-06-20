@@ -8,14 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/code/cpp/gameEngine/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/ImGuizmo/ImGuizmo.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_demo.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_demo.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_draw.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_draw.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_opengl3.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_impl_sdl2.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_tables.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_tables.cpp.obj.d"
-  "D:/code/cpp/gameEngine/GameEngine/third_party/imgui/include/imgui_widgets.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/__/GameEngine/third_party/imgui/include/imgui_widgets.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngineEditor/editorEntryPoint.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/editorEntryPoint.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngineEditor/src/Editor.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/Editor.cpp.obj.d"
   "D:/code/cpp/gameEngine/GameEngineEditor/src/EditorCamera.cpp" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj" "gcc" "GameEngineEditor/CMakeFiles/GameEngineEditor.dir/src/EditorCamera.cpp.obj.d"
@@ -36,6 +28,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "D:/code/cpp/gameEngine/build/GameEngine/CMakeFiles/GameEngine.dir/DependInfo.cmake"
+  "D:/code/cpp/gameEngine/build/ImGui/CMakeFiles/ImGui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

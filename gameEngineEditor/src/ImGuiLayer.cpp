@@ -130,6 +130,14 @@ void GameEngineEditor::ImGuiLayer::renderDockspace()
             }
             ImGui::EndMenu();
         }
+        if (ImGui::BeginMenu("Build"))
+        {
+            if (ImGui::MenuItem("Build game"))
+            {
+                std::system("echo echo from sys");
+            }
+            ImGui::EndMenu();
+        }
         if (ImGui::BeginMenu("Debug"))
         {
             ImGui::Checkbox("Show debug", &this->isShowDebug);

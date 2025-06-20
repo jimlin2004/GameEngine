@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "GameEngine",
+					"jsonFile" : "directory-GameEngine-Debug-0f8e2101cd8f5f733254.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "GameEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ImGui",
+					"jsonFile" : "directory-ImGui-Debug-d5a70d9ce055772475b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "ImGui",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "GameEngineEditor",
+					"jsonFile" : "directory-GameEngineEditor-Debug-cb2a16898d0d9d3b7e10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "GameEngineEditor",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "GameLauncher",
+					"jsonFile" : "directory-GameLauncher-Debug-ca4a763bdae65bf35963.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "GameLauncher",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GameEngine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ImGui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "GameEngineEditor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "GameLauncher",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "GameEngine::@3f1430db303f85cff844",
+					"jsonFile" : "target-GameEngine-Debug-8b637925bf0d88576a89.json",
+					"name" : "GameEngine",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "GameEngineEditor::@c16201c6a560af4ffaa3",
+					"jsonFile" : "target-GameEngineEditor-Debug-d11afdfa5b3a5f5521f8.json",
+					"name" : "GameEngineEditor",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GameLauncher::@75657e6e98f3d017371d",
+					"jsonFile" : "target-GameLauncher-Debug-46335dbee1ca8005c3aa.json",
+					"name" : "GameLauncher",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ImGui::@0bdbba2afb1bf72c1429",
+					"jsonFile" : "target-ImGui-Debug-dd587f5a01a035cf4a47.json",
+					"name" : "ImGui",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/code/cpp/gameEngine/build",
+		"source" : "D:/code/cpp/gameEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -25,7 +25,7 @@ namespace GameEngine
         entt::registry registry;
         explicit Scene();
         ~Scene();
-        void unpdateRuntimeScene(const float deltaTime);
+        void updateRuntimeScene(const float deltaTime);
         void render();
         std::vector<entt::entity> getAllActors();
 

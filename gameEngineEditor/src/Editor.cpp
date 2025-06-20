@@ -222,7 +222,7 @@ void GameEngineEditor::Editor::update(float deltaTime)
 {
     if (this->sceneState == GameEngineEditor::SceneState::Play)
     {
-        this->activeScene->unpdateRuntimeScene(deltaTime);
+        this->activeScene->updateRuntimeScene(deltaTime);
     }
 }
 

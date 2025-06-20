@@ -63,17 +63,23 @@ CMAKE_BINARY_DIR = D:\code\cpp\gameEngine\build
 
 # The main recursive "all" target.
 all: GameEngine/all
+all: ImGui/all
 all: GameEngineEditor/all
+all: GameLauncher/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: GameEngine/preinstall
+preinstall: ImGui/preinstall
 preinstall: GameEngineEditor/preinstall
+preinstall: GameLauncher/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: GameEngine/clean
+clean: ImGui/clean
 clean: GameEngineEditor/clean
+clean: GameLauncher/clean
 .PHONY : clean
 
 #=============================================================================
@@ -107,6 +113,36 @@ GameEngineEditor/clean: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
 .PHONY : GameEngineEditor/clean
 
 #=============================================================================
+# Directory level rules for directory GameLauncher
+
+# Recursive "all" directory target.
+GameLauncher/all: GameLauncher/CMakeFiles/GameLauncher.dir/all
+.PHONY : GameLauncher/all
+
+# Recursive "preinstall" directory target.
+GameLauncher/preinstall:
+.PHONY : GameLauncher/preinstall
+
+# Recursive "clean" directory target.
+GameLauncher/clean: GameLauncher/CMakeFiles/GameLauncher.dir/clean
+.PHONY : GameLauncher/clean
+
+#=============================================================================
+# Directory level rules for directory ImGui
+
+# Recursive "all" directory target.
+ImGui/all: ImGui/CMakeFiles/ImGui.dir/all
+.PHONY : ImGui/all
+
+# Recursive "preinstall" directory target.
+ImGui/preinstall:
+.PHONY : ImGui/preinstall
+
+# Recursive "clean" directory target.
+ImGui/clean: ImGui/CMakeFiles/ImGui.dir/clean
+.PHONY : ImGui/clean
+
+#=============================================================================
 # Target rules for target GameEngine/CMakeFiles/GameEngine.dir
 
 # All Build rule for target.
@@ -133,18 +169,45 @@ GameEngine/CMakeFiles/GameEngine.dir/clean:
 .PHONY : GameEngine/CMakeFiles/GameEngine.dir/clean
 
 #=============================================================================
+# Target rules for target ImGui/CMakeFiles/ImGui.dir
+
+# All Build rule for target.
+ImGui/CMakeFiles/ImGui.dir/all:
+	$(MAKE) $(MAKESILENT) -f ImGui\CMakeFiles\ImGui.dir\build.make ImGui/CMakeFiles/ImGui.dir/depend
+	$(MAKE) $(MAKESILENT) -f ImGui\CMakeFiles\ImGui.dir\build.make ImGui/CMakeFiles/ImGui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69 "Built target ImGui"
+.PHONY : ImGui/CMakeFiles/ImGui.dir/all
+
+# Build rule for subdir invocation for target.
+ImGui/CMakeFiles/ImGui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ImGui/CMakeFiles/ImGui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
+.PHONY : ImGui/CMakeFiles/ImGui.dir/rule
+
+# Convenience name for target.
+ImGui: ImGui/CMakeFiles/ImGui.dir/rule
+.PHONY : ImGui
+
+# clean rule for target.
+ImGui/CMakeFiles/ImGui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ImGui\CMakeFiles\ImGui.dir\build.make ImGui/CMakeFiles/ImGui.dir/clean
+.PHONY : ImGui/CMakeFiles/ImGui.dir/clean
+
+#=============================================================================
 # Target rules for target GameEngineEditor/CMakeFiles/GameEngineEditor.dir
 
 # All Build rule for target.
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all: GameEngine/CMakeFiles/GameEngine.dir/all
+GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all: ImGui/CMakeFiles/ImGui.dir/all
 	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target GameEngineEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57 "Built target GameEngineEditor"
 .PHONY : GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
 
 # Build rule for subdir invocation for target.
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
 .PHONY : GameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
@@ -157,6 +220,32 @@ GameEngineEditor: GameEngineEditor/CMakeFiles/GameEngineEditor.dir/rule
 GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean:
 	$(MAKE) $(MAKESILENT) -f GameEngineEditor\CMakeFiles\GameEngineEditor.dir\build.make GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
 .PHONY : GameEngineEditor/CMakeFiles/GameEngineEditor.dir/clean
+
+#=============================================================================
+# Target rules for target GameLauncher/CMakeFiles/GameLauncher.dir
+
+# All Build rule for target.
+GameLauncher/CMakeFiles/GameLauncher.dir/all: GameEngine/CMakeFiles/GameEngine.dir/all
+	$(MAKE) $(MAKESILENT) -f GameLauncher\CMakeFiles\GameLauncher.dir\build.make GameLauncher/CMakeFiles/GameLauncher.dir/depend
+	$(MAKE) $(MAKESILENT) -f GameLauncher\CMakeFiles\GameLauncher.dir\build.make GameLauncher/CMakeFiles/GameLauncher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\cpp\gameEngine\build\CMakeFiles --progress-num=58,59,60 "Built target GameLauncher"
+.PHONY : GameLauncher/CMakeFiles/GameLauncher.dir/all
+
+# Build rule for subdir invocation for target.
+GameLauncher/CMakeFiles/GameLauncher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 43
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GameLauncher/CMakeFiles/GameLauncher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\cpp\gameEngine\build\CMakeFiles 0
+.PHONY : GameLauncher/CMakeFiles/GameLauncher.dir/rule
+
+# Convenience name for target.
+GameLauncher: GameLauncher/CMakeFiles/GameLauncher.dir/rule
+.PHONY : GameLauncher
+
+# clean rule for target.
+GameLauncher/CMakeFiles/GameLauncher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f GameLauncher\CMakeFiles\GameLauncher.dir\build.make GameLauncher/CMakeFiles/GameLauncher.dir/clean
+.PHONY : GameLauncher/CMakeFiles/GameLauncher.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

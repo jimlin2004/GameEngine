@@ -1,3 +1,6 @@
-/backup
-/luaTest
-/gameEngineEditor_QT
+backup/
+luaTest/
+gameEngineEditor_QT/
+.cache/
+.vscode/
+.gitignore
